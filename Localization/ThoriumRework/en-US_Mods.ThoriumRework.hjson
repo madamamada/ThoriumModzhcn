@@ -1,0 +1,295 @@
+Projectiles: {
+	AquaiusBubble.DisplayName: Bubble
+	AquaiusGeyser.DisplayName: Relentless Geyser
+	AquaiusPunchAttack.DisplayName: Hands of Tide
+	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
+	BeamSaber.DisplayName: Beam Saber
+	BeholderBlade.DisplayName: Will of Coznix
+	BiteyBaby.DisplayName: Bitey Baby
+	BlackHole.DisplayName: Black Hole
+	ChampionBomber.DisplayName: Magical Burst
+	ChampionBomberF.DisplayName: Magical Burst
+	ChampionShield.DisplayName: Champion's Rebuttal
+	ChampionSlash.DisplayName: Champion's Swift Blade
+	ChampionSlice.DisplayName: Buried Shock
+	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionWarHorn.DisplayName: Champion's War Horn
+	Darkness.DisplayName: Darkness
+	DeathRain.DisplayName: Death Rain
+	DragonTooth.DisplayName: Dragon Tooth
+	DyingReality.DisplayName: Dying Reality
+	EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergySurge.DisplayName: Energy Surge
+	EradicationBeam.DisplayName: Eradication Beam
+	EradicationBeamF.DisplayName: Eradication Beam
+	EradicationRay.DisplayName: Eradication Ray
+	EraserLaser.DisplayName: Eraser Laser
+	ExtinctionRay.DisplayName: Extinction Ray
+	FalseBeholder.DisplayName: False Beholder
+	FalseSun.DisplayName: False Sun
+	FlareSlash.DisplayName: Flare Slash
+	Flash.DisplayName: Flash
+	GraniteCharge.DisplayName: Granite Charge
+	IllumiteBlade.DisplayName: Illumite Blade
+	IllumitePortal.DisplayName: Illumite Portal
+	ImpendingDread.DisplayName: Impending Dread
+	ImpendingDreadF.DisplayName: Impending Dread
+	InfernalRay.DisplayName: Infernal Ray
+	InfernalRayTelegraph.DisplayName: Infernal Ray
+	LichLantern.DisplayName: Volatile Lantern
+	LichWhip.DisplayName: Instrument of Torment
+	LodeStoneClaymore.DisplayName: Lodestone Claymore
+	Loudener.DisplayName: Loudener
+	LucidNuke.DisplayName: Lucid Energy
+	LucidRay.DisplayName: Lucid Energy
+	LucidRayTelegraph.DisplayName: Lucid Energy
+	Mjolnir.DisplayName: Legendary Lightning
+	NightmareClaw.DisplayName: Nightmare Claw
+	NightmareSlash.DisplayName: Nightmare Claw
+	Obliterator.DisplayName: Obliterator
+	ObliteratorRay.DisplayName: Obliterator
+	OmegaRay.DisplayName: Omega Ray
+	OmniBoom.DisplayName: Nuclear Explosion
+	OmniBurst.DisplayName: Nuclear Explosion
+	OmniSlash.DisplayName: Death Slash
+	OmnicidePunchAttack.DisplayName: Fist of Havoc
+	Paylode.DisplayName: Magnetic Payload
+	PrimesFury.DisplayName: Prime's Fury
+	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	SoulRender.DisplayName: Soul Render
+	StableRealityRift.DisplayName: Stable Reality Rift
+	TerrariumSaber.DisplayName: Terrarium Saber
+	TideDagger.DisplayName: Aqua Rainstorm
+	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	TitanSword.DisplayName: Titan Sword
+	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	ValadiumRay.DisplayName: Void Ray
+	ValadiumSlash.DisplayName: Void Slash
+	ValadiumSlicer.DisplayName: Valadium Slicer
+	VisualShockwave.DisplayName: Shockwave
+	Void.DisplayName: the void
+	VoidEye.DisplayName: Eye of Coznix
+	VoidEyeF.DisplayName: Will of Coznix
+}
+
+Items: {
+	BeholderBlade: {
+		DisplayName: Will of Coznix
+		Tooltip:
+			'''
+			The 3rd and 4th attacks shoots out an eradicating void beam
+			Critical strikes create a void bubble on hit target's location
+			The void bubble summons eyes to attack enemies for 50% damage
+			Only one void bubble can be active at a time
+			'''
+	}
+
+	ChampionWarHorn: {
+		DisplayName: Champion's War Horn
+		Tooltip:
+			'''
+			Shoots a homing war echo
+			"CHARGE!"
+			'''
+	}
+
+	ConcussiveInstrument: {
+		DisplayName: Concussive Instrument
+		Tooltip:
+			'''
+			Percussion instrument attacks stun enemies for 5 seconds
+			"It's just a hammer?"
+			'''
+	}
+
+	ExecutionersContract: {
+		DisplayName: Executioner's Contract
+		Tooltip:
+			'''
+			Radiant scythes grant soul essence on projectile hits
+			"Fetch me their souls..."
+			'''
+	}
+
+	FanDonations: {
+		DisplayName: Fan Donations
+		Tooltip:
+			'''
+			All instrument attacks explode on hit, explosion size varies
+			Piercing string instrument attacks increase in speed every hit and no longer lose damage
+			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
+			Percussion instrument attacks stun enemies for 5 seconds
+			Electronic instruments shoot twice but the second shot deals 50% less damage
+			Increases max inspiration by 5
+			"Does not sell much, unfortunately. At least someone is kind enough to provide..."
+			'''
+	}
+
+	ImpulseAmplifier: {
+		DisplayName: Impulse Amplifier
+		Tooltip:
+			'''
+			Electronic instruments shoot twice but the second shot deals 50% less damage
+			"No, it does not make rockets shoot faster!"
+			'''
+	}
+
+	LichWhip: {
+		DisplayName: Instrument of Torment
+		Tooltip:
+			'''
+			Lashes out a triple whip empowered by soul fire
+			"A tool used to torment souls in the afterlife"
+			'''
+	}
+
+	Loudener: {
+		DisplayName: Loudener
+		Tooltip:
+			'''
+			Wind and brass instrument attacks explode on hit
+			Explosion size varies based on the instrument played
+			"You got a silencer, I got a loudener!"
+			'''
+	}
+
+	LunateCharm: {
+		DisplayName: Lunate Charm
+		Tooltip: Negates non-radiant damage penalties caused by healer armor
+	}
+
+	RedCresent: {
+		DisplayName: Red Crescent
+		Tooltip:
+			'''
+			Shoots bats that return to you upon hitting enemies
+			Upon returning, they fill up your blood siphon by a third of the damage dealt
+			<right> to shoot bats that will home in to other players and heal them
+			This consumes 15 blood siphon points
+			Bats heal for <healAmount> life
+			Blood Siphon: <bloodSiphon>
+			"A wonderful ballad of the bats"
+			'''
+	}
+
+	MagicalHarp: {
+		DisplayName: "{$ItemName.MagicalHarp}"
+		Tooltip: ""
+	}
+
+	PickShapedPebble: {
+		DisplayName: Pick-Shaped Pebble
+		Tooltip:
+			'''
+			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
+			"It's for rock music!"
+			'''
+	}
+
+	PocketEnergyStorm: {
+		DisplayName: Pocket Energy Storm
+		Tooltip:
+			'''
+			Throws an unstable energy ball that overflows targets
+			Overflowed enemies take 5% more damage
+			Hold <left> to accumulate balls that will orbit you
+			Release <left> to shoot all the balls to your cursor
+			You can only have 20 energy balls at a time
+			Does not exhaust you
+			"Gives a new meaning to blue balled"
+			'''
+	}
+
+	SealedContract: {
+		DisplayName: Sealed Contract
+		Tooltip:
+			'''
+			Maximum life increased by 60
+			Healing spells grant an additional 5 life
+			Healer scythes grant soul essence on projectile hits
+			Negates non-radiant damage penalties caused by healer armor
+			"Seal the deal!"
+			'''
+	}
+
+	StellarTune: {
+		DisplayName: "{$ItemName.SparkleGuitar}"
+		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+}
+
+Buffs: {
+	TerminalLucidity: {
+		DisplayName: Terminal Lucidity
+		Description:
+			'''
+			-Boss Mechanic-
+			Dream Eater cannot be damaged while this debuff is active
+			Kills you when the timer runs out
+			Touch a stable reality rift to start DPS phase and reset the timer
+			Stable reality rifts are the bright purple portals
+			"Destiny awaits..."
+			'''
+	}
+
+	LucidRetaliation: {
+		DisplayName: Lucid Retaliation
+		Description:
+			'''
+			-Boss Mechanic-
+			Dream Eater can be damaged while this buff is active
+			Getting hit by unstable reality rifts removes this buff early
+			Unstable reality rifts are the black cracks attacks
+			Grants infinite flight
+			"Destiny arrives..."
+			'''
+	}
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: Visual Settings
+
+		flash: {
+			Label: Flashing lights intensity
+			Tooltip: How bright or how dim flashes are
+		}
+
+		overlay: {
+			Label: Overlay intensity
+			Tooltip: How transparent screen overlays are
+		}
+	}
+
+	CompatConfig: {
+		DisplayName: Cross Mod Compatibility Settings
+
+		healthScale: {
+			Label: Health multiplier
+			Tooltip: Multiplies the health of Thorium's bosses by this amount
+		}
+
+		postDoGRag: {
+			Label: Re-tier Primordials in Calamity
+			Tooltip: Makes the Primordials post-Devourer in progression (recommended)
+		}
+
+		vanillaBard: {
+			Label: Stellar Tune and Magical Harp are bard
+			Tooltip: ""
+		}
+
+		DoD: {
+			Label: Devourer of Dreams (Joke setting)
+			Tooltip:
+				'''
+				This setting is entirely a joke, it gives Devourer of Gods Dream Eater's original attacks
+				May or may not be fair and balanced
+				'''
+		}
+	}
+}
