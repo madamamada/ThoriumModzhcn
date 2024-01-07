@@ -1,0 +1,14 @@
+This mod is a Chinese Translation Patch of Thorium Mod and Thorium Bosses Reworked
+
+介绍
+感谢：由灾厄维基出品的中文瑟银wiki
+瑟银繁中汉化已删除，推荐使用[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3085000141]Extra Language![/url]代替
+想闲聊加入qq群596284387（不会同意任何steam好友消息）
+有确认性bug加qq群895423665或者留言告诉我（答案为“我有问题”）
+此汉化包含（Thorium Bosses Reworked瑟银boss重置 和 Thorium Class Tags Consistency）但他们不是前置，以瑟银为主
+
+使用方法
+1.同时订阅ThoriumMod和本Mod
+2.进入tml，在模组管理中同时启用ThoriumMod和本Mod
+3.安装完成，进行游戏
+

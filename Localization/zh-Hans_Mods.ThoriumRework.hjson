@@ -1,0 +1,296 @@
+Projectiles: {
+	AquaiusBubble.DisplayName: Bubble
+	AquaiusGeyser.DisplayName: Relentless Geyser
+	AquaiusPunchAttack.DisplayName: Hands of Tide
+	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
+	BeamSaber.DisplayName: Beam Saber
+	BeholderBlade.DisplayName: Will of Coznix
+	BiteyBaby.DisplayName: Bitey Baby
+	BlackHole.DisplayName: Black Hole
+	ChampionBomber.DisplayName: Magical Burst
+	ChampionBomberF.DisplayName: Magical Burst
+	ChampionShield.DisplayName: Champion's Rebuttal
+	ChampionSlash.DisplayName: Champion's Swift Blade
+	ChampionSlice.DisplayName: Buried Shock
+	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	// ChampionWarHorn.DisplayName: Champion's War Horn
+	Darkness.DisplayName: Darkness
+	// DeathRain.DisplayName: Death Rain
+	// DragonTooth.DisplayName: Dragon Tooth
+	// DyingReality.DisplayName: Dying Reality
+	// EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	EnergySurge.DisplayName: Energy Surge
+	EradicationBeam.DisplayName: Eradication Beam
+	EradicationBeamF.DisplayName: Eradication Beam
+	EradicationRay.DisplayName: Eradication Ray
+	// EraserLaser.DisplayName: Eraser Laser
+	// ExtinctionRay.DisplayName: Extinction Ray
+	FalseBeholder.DisplayName: False Beholder
+	// FalseSun.DisplayName: False Sun
+	// FlareSlash.DisplayName: Flare Slash
+	Flash.DisplayName: Flash
+	// GraniteCharge.DisplayName: Granite Charge
+	// IllumiteBlade.DisplayName: Illumite Blade
+	// IllumitePortal.DisplayName: Illumite Portal
+	// ImpendingDread.DisplayName: Impending Dread
+	// ImpendingDreadF.DisplayName: Impending Dread
+	// InfernalRay.DisplayName: Infernal Ray
+	// InfernalRayTelegraph.DisplayName: Infernal Ray
+	// LichLantern.DisplayName: Volatile Lantern
+	// LichWhip.DisplayName: Instrument of Torment
+	// LodeStoneClaymore.DisplayName: Lodestone Claymore
+	// Loudener.DisplayName: Loudener
+	// LucidNuke.DisplayName: Lucid Energy
+	// LucidRay.DisplayName: Lucid Energy
+	// LucidRayTelegraph.DisplayName: Lucid Energy
+	// Mjolnir.DisplayName: Legendary Lightning
+	// NightmareClaw.DisplayName: Nightmare Claw
+	// NightmareSlash.DisplayName: Nightmare Claw
+	Obliterator.DisplayName: Obliterator
+	ObliteratorRay.DisplayName: Obliterator
+	// OmegaRay.DisplayName: Omega Ray
+	// OmniBoom.DisplayName: Nuclear Explosion
+	// OmniBurst.DisplayName: Nuclear Explosion
+	// OmniSlash.DisplayName: Death Slash
+	// OmnicidePunchAttack.DisplayName: Fist of Havoc
+	// Paylode.DisplayName: Magnetic Payload
+	// PrimesFury.DisplayName: Prime's Fury
+	// QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	// SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	// StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	// SoulRender.DisplayName: Soul Render
+	// StableRealityRift.DisplayName: Stable Reality Rift
+	// TerrariumSaber.DisplayName: Terrarium Saber
+	// TideDagger.DisplayName: Aqua Rainstorm
+	// TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	// TitanSword.DisplayName: Titan Sword
+	// ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	// ValadiumRay.DisplayName: Void Ray
+	// ValadiumSlash.DisplayName: Void Slash
+	// ValadiumSlicer.DisplayName: Valadium Slicer
+	VisualShockwave.DisplayName: Shockwave
+	Void.DisplayName: the void
+	VoidEye.DisplayName: Eye of Coznix
+	VoidEyeF.DisplayName: Will of Coznix
+}
+
+Items: {
+	BeholderBlade: {
+		DisplayName: 凝视者之刃
+		Tooltip:
+			'''
+			每挥舞的第三和四次会发射凝视光束
+			暴击时，敌人身上会产生虚空泡泡
+			虚空泡泡里会召唤眼睛攻击敌人，并造成50%的伤害
+			每次只能生成一个虚空泡泡
+			'''
+	}
+
+	ChampionWarHorn: {
+		DisplayName: 捍卫者号角
+		Tooltip:
+			'''
+			释放追踪的音波
+			"CHARGE!"
+			'''
+	}
+
+	ConcussiveInstrument: {
+		DisplayName: 震荡性仪器
+		Tooltip:
+			'''
+			打击乐器攻击时，敌人昏迷5秒
+			"只是把锤子?"
+			'''
+	}
+
+	ExecutionersContract: {
+		DisplayName: 刽子手协议
+		Tooltip:
+			'''
+			牧师的镰刀击中弹幕时获得灵魂精华
+			"把他们的灵魂带给我…"
+			'''
+	}
+
+	FanDonations: {
+		DisplayName: 粉丝捐款
+		Tooltip:
+			'''
+			管乐器和铜管乐器击中敌人会产生光辉，光辉大小取决于演奏的乐器
+			穿透性弦乐器攻击每次击中后速度增加，不再降低伤害
+			弦乐器的弹幕在与实体方块碰撞时或命中敌人时都能产生效果
+			打击乐器攻击时，敌人昏迷5秒
+			电子乐器攻击两次，但第二次伤害减少50%
+			最大灵感增加5点
+			"卖得并不好，但有人好心地提供了…"
+			'''
+	}
+
+	ImpulseAmplifier: {
+		DisplayName: 脉冲扬声器
+		Tooltip:
+			'''
+			电子乐器攻击两次，但第二次伤害减少50%
+			"不，它不会比火箭飞得更快!"
+			'''
+	}
+
+	LichWhip: {
+		DisplayName: 枯萎之鞭
+		Tooltip:
+			'''
+			挥出由灵魂之火赋予力量的三重鞭
+			"用来折磨死后灵魂的工具"
+			'''
+	}
+
+	Loudener: {
+		DisplayName: 扩音器
+		Tooltip:
+			'''
+			管乐器和铜管乐器击中敌人会产生金色光辉
+			金色光辉大小取决于演奏的乐器
+			"你有消音器，我有扩音器!"
+			'''
+	}
+
+	LunateCharm: {
+		DisplayName: 新月护身符
+		Tooltip: 取消牧师盔甲带来的非光辉伤害削减
+	}
+
+	RedCresent: {
+		DisplayName: 绯红新月
+		Tooltip:
+			'''
+			释放蝙蝠攻击敌人，蝙蝠会回到你身边
+			蝙蝠造成的1/3伤害用来恢复吸血值
+			右键释放蝙蝠，则会回到其他玩家身边并治愈
+			每次消耗15点吸血值
+			蝙蝠治愈<healAmount>点生命值
+			吸血值: <bloodSiphon>
+			"蝙蝠的美妙歌谣"
+			'''
+	}
+
+	MagicalHarp: {
+		// DisplayName: "{$ItemName.MagicalHarp}"
+		// Tooltip: ""
+	}
+
+	PickShapedPebble: {
+		DisplayName: 锄形卵石
+		Tooltip:
+			'''
+			弦乐器的弹幕在与实体方块碰撞时或命中敌人时都能产生效果
+			"这是摇滚音乐!"
+			'''
+	}
+
+	PocketEnergyStorm: {
+		DisplayName: 花岗能量风暴
+		Tooltip:
+			'''
+			投掷一个不稳定的能量球，溢散目标
+			被溢散的敌怪多受5%伤害
+			按住左键让能量球在你身边环绕
+			松开左键将你身边所有的能量球向你鼠标位置发射
+			一次最多20个能量球
+			不会消耗你的精力
+			"赐予能量球新的意义"
+			'''
+	}
+
+	SealedContract: {
+		DisplayName: 正式契约
+		Tooltip:
+			'''
+			最大生命增加60
+			治疗法术会额外治疗5点生命值
+			增加牧师的镰刀击中弹幕时获得灵魂精华
+			取消牧师盔甲带来的非光辉伤害削减
+			"正式达成协议!"
+			'''
+	}
+
+	StellarTune: {
+		// DisplayName: "{$ItemName.SparkleGuitar}"
+		// Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+}
+
+Buffs: {
+	TerminalLucidity: {
+		DisplayName: *[c/FF7F00:混乱的现实]*
+		Description:
+			'''
+			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:当此减益存在时，噬梦者不会受到伤害]
+			[c/FF7F00:减益倒计时结束会立刻杀死玩家]
+			[c/FF7F00:触摸稳定的现实裂缝，进行伤害输出阶段并重置此减益倒计时]
+			[c/FF7F00:稳定的现实裂缝是紫色法阵]
+			[c/FF7F00:"等待命运..."]
+			[c/FF1CAE:汉化备注:击败一次始生灾灵后，无视此减益，减益倒计时结束会削减血条，但不会代码杀]
+			'''
+	}
+
+	LucidRetaliation: {
+		DisplayName: *[c/FF7F00:恢复的现实]*
+		Description:
+			'''
+			[c/FF7F00:-BOSS攻击方式-]
+			[c/FF7F00:当此增益存在时，噬梦者会受到伤害]
+			[c/FF7F00:被不稳定的现实裂缝击中后，会提前移除此增益]
+			[c/FF7F00:不稳定的现实裂缝是噬梦者的黑色裂缝攻击]
+			[c/FF7F00:允许无限飞行]
+			[c/FF7F00:"等待命运..."]
+			'''
+	}
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: 视觉设置
+
+		flash: {
+			Label: 闪光强度
+			Tooltip: 设置闪光的明暗度
+		}
+
+		overlay: {
+			Label: 覆盖强度
+			Tooltip: 多少的屏幕覆盖
+		}
+	}
+
+	CompatConfig: {
+		DisplayName: 模组兼容性设置
+
+		healthScale: {
+			Label: 瑟银BOSS生命值增加
+			Tooltip: 让瑟银BOSS的生命值乘以这个数值
+		}
+
+		postDoGRag: {
+			Label: 调整始生灾灵在灾厄里的阶段
+			Tooltip: 让始生灾灵在神明吞噬者后召唤（推荐）
+		}
+
+		vanillaBard: {
+			Label: 让星星吉他和魔法竖琴成为吟游诗人武器
+			Tooltip: ""
+		}
+
+		DoD: {
+			Label: 神明吞噬者有许许多多的梦想 (玩笑设置)
+			Tooltip:
+				'''
+				这是一个玩笑设置，它让神明吞噬者拥有噬梦者部分弹幕攻击
+				可能公平，也可能不公平
+				'''
+		}
+	}
+}
