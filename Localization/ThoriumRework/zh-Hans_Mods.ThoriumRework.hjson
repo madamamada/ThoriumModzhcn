@@ -1,3 +1,203 @@
+ItemDescriptions: {
+	DreamWeaversHelmet: 最大生命增加60
+	DreamWeaversHood: 最大生命增加100
+	DreamWeaversTabard: 减少20%受到的伤害
+	DreamWeaversTreads:
+		'''
+		增加20%牧师攻速
+		最大生命增加80
+		'''
+	TideTurnerBreastplate:
+		'''
+		减少10%受到的伤害
+		穿戴者的生命值越低，防御和伤害减免就越高
+		最高100点防御和60%的伤害减免
+		'''
+	TideTurnerGreaves: 增加20%近战和投掷攻速
+	TideTurnerHelmet:
+		'''
+		穿戴者的生命值越低，近战攻速越快
+		最高200%的近战攻速
+		'''
+	TideTurnersGaze: 增加50点投掷伤害
+	MasterArbalestHood: 远程伤害无视100点防御力
+	MasterMarksmansScouter: 提高12%射速
+	AssassinsGuard: 增加20点远程伤害
+	AssassinsWalkers: 提高20%射速
+	MagmaSeersMask:
+		'''
+		提高40%鞭子攻速
+		增加30点召唤伤害
+		'''
+	PyromancerCowl: 减少40%法力消耗
+	PyromancerLeggings:
+		'''
+		提高30%释放速度
+		最大哨兵数量增加1
+		'''
+	PyromancerTabard:
+		'''
+		增加75%鞭子攻击距离
+		最大召唤物数量增加2
+		'''
+	InspiratorsHelmet: 提高25%吟游诗人演奏速度
+	RhapsodistChestWoofer: 音波伤害无视250点防御力
+	RhapsodistBoots: 极大增加了吟游诗人的攻击范围
+	SoloistHat: 最大灵感值增加3点
+	ChampionBomberStaff:
+		'''
+		发射一枚神奇的导弹重复攻击敌人
+		"攻击并不一定意味着要打死他们"
+		'''
+	ChampionSwiftBlade:
+		'''
+		释放强力冲击波对敌人造成50%的伤害
+		每挥舞的第三和四次会召唤剑魂
+		'''
+	GraniteCrossbow:
+		'''
+		每3次攻击，发射3根花岗岩箭，然后用能量溢散击中的敌怪
+		被溢散的敌怪多受5%伤害
+		'''
+	IllumiteBarrage:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteBlade:
+		'''
+		挥舞两把荧光刃
+		挥舞时，向附近的敌人发射荧光束
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteBlaster:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteShotbow:
+		'''
+		每攻击6次召唤传送门，攻击附近的敌人
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	IllumiteSpear:
+		'''
+		每3次攻击发射荧光矛尖
+		攻击附近的敌人时，额外发射荧光束
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	CobaltPopper: 使用过程中增加防御力
+	PalladiumSubmachineGun: 使用过程中增加生命再生
+	MythrilPelter: 使用一段时间后攻击速度会翻倍
+	OrichalcumPelter: 随着时间的推移逐渐增加攻击速度
+	AdamantiteCarbine: 使用过程中增加暴击率
+	TitaniumRifle: 使用过程中增加护甲穿透
+	PyroclastStaff:
+		'''
+		发射1到5个火焰光束
+		火焰光束攻击物块或击中敌人时会进行分裂
+		'''
+	Obliterator:
+		'''
+		左键射出非穿透激光
+		右键释放光球，向附近的目标发射子弹并造成60%的伤害
+		用激光攻击光球，让激光反弹到附近的敌怪并造成500%的伤害
+		'''
+	OmegaBlaster:
+		'''
+		发射三颗能量子弹，小幅度蓄力后，射出能量魔法阵
+		大幅度蓄力后，发射能量光束并造成800%的伤害
+		对敌人使用能量子弹造成伤害时会积累能量值
+		能量值充满后，右键释放瞬移光剑，对敌人造成1100%的伤害
+		瞬移光剑使用后，能量值在10秒内不能充能
+		但是，该武器不消耗法力值
+		'成为天界最伟大的守护者'
+		'''
+	HitScanner:
+		'''
+		这把枪发射的火枪子弹没有行进时间并无视50点防御
+		火枪子弹也会在短时间内穿过方块
+		'''
+	ParticleWhip:
+		'''
+		释放粒子光束在敌人之间弹跳
+		在弹跳时，粒子光束变成弯曲的闪电
+		"不是那种鞭子…"
+		'''
+	LodeStoneBow:
+		'''
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		'''
+	LodeStoneQuickDraw:
+		'''
+		对敌怪造成伤害会剥离它们，它们所受伤害增加10
+		每3次攻击都会向剥离的敌人发射地脉箭（若没有剥离状态敌人，发射五个地脉箭）
+		'''
+	ValadiumBow:
+		'''
+		攻击时用虚空能量诅咒敌人
+		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		'''
+	ValadiumFoeBlaster:
+		'''
+		攻击时用虚空能量诅咒敌人
+		每3次攻击使用用虚空激光攻击，诅咒的敌人
+		'''
+	ValadiumSpear:
+		'''
+		攻击时用虚空能量诅咒敌人
+		右键对敌人产生多数攻击并快速攻击附近的敌人
+		'''
+	SoulRender:
+		'''
+		每挥舞的第三和四次会释放旋转的灵魂之刃并造成40%的伤害
+		攻击速度越高，灵魂之刃造成的伤害就越高
+		'''
+	FleshSkewer:
+		'''
+		攻击有概率汲取生命，但会短暂禁用生命再生
+		暴击有几率回复生命值，但不会禁用生命再生
+		'''
+	ToothOfTheConsumer:
+		'''
+		挥舞两把肉食者之牙
+		攻击有概率汲取生命，但会短暂禁用生命再生
+		暴击有几率回复生命值，但不会禁用生命再生
+		右键消耗1点生命值释放鲜血
+		'''
+	DragonTooth:
+		'''
+		每次挥舞4次会释放诅咒焰
+		对敌人攻击产生暴击时，从敌人身上释放多束诅咒焰
+		'''
+	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
+	PrimesFury:
+		'''
+		每挥舞4次会释放红色光束并造成三倍伤害
+		右键释放一连串攻击并造成一半伤害
+		"我们家里有一把至尊之怒"
+		'''
+	TitanSword:
+		'''
+		挥舞两把泰坦剑
+		暴击会造成额外伤害
+		'''
+	TerrariumSaber:
+		'''
+		挥舞两把元素誓约之剑
+		攻击敌人后，释放追踪的元素能量
+		'''
+	DoomSayersCoin:
+		'''
+		在第二阶段造成混乱的现实减益，减益存在时噬梦者boss不会受到伤害
+		触碰到紫色光环后，移除混乱的现实减益
+		混乱的现实减益被移除后，进行伤害输出阶段并持续15秒
+		如果终极混乱的现实减益倒计时结束，你会立即死亡
+		击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以一直对噬梦者造成伤害
+		'''
+}
+
 Projectiles: {
 	AquaiusBubble.DisplayName: Bubble
 	AquaiusGeyser.DisplayName: Relentless Geyser
@@ -15,61 +215,73 @@ Projectiles: {
 	ChampionSliceF.DisplayName: Buried Shock
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	// ChampionWarHorn.DisplayName: Champion's War Horn
+	ChampionWarHorn.DisplayName: Champion's War Horn
+	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
-	// DeathRain.DisplayName: Death Rain
-	// DragonTooth.DisplayName: Dragon Tooth
-	// DyingReality.DisplayName: Dying Reality
-	// EightNote.DisplayName: "{$ProjectileName.EightNote}"
+	DeathRain.DisplayName: Death Rain
+	DragonTooth.DisplayName: Dragon Tooth
+	DyingReality.DisplayName: Dying Reality
+	EightNote.DisplayName: "{$ProjectileName.EightNote}"
 	EnergySurge.DisplayName: Energy Surge
 	EradicationBeam.DisplayName: Eradication Beam
 	EradicationBeamF.DisplayName: Eradication Beam
 	EradicationRay.DisplayName: Eradication Ray
-	// EraserLaser.DisplayName: Eraser Laser
-	// ExtinctionRay.DisplayName: Extinction Ray
+	EraserLaser.DisplayName: Eraser Laser
+	ExtinctionRay.DisplayName: Extinction Ray
 	FalseBeholder.DisplayName: False Beholder
-	// FalseSun.DisplayName: False Sun
-	// FlareSlash.DisplayName: Flare Slash
+	FalseSun.DisplayName: False Sun
+	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
-	// GraniteCharge.DisplayName: Granite Charge
-	// IllumiteBlade.DisplayName: Illumite Blade
-	// IllumitePortal.DisplayName: Illumite Portal
-	// ImpendingDread.DisplayName: Impending Dread
-	// ImpendingDreadF.DisplayName: Impending Dread
-	// InfernalRay.DisplayName: Infernal Ray
-	// InfernalRayTelegraph.DisplayName: Infernal Ray
-	// LichLantern.DisplayName: Volatile Lantern
-	// LichWhip.DisplayName: Instrument of Torment
-	// LodeStoneClaymore.DisplayName: Lodestone Claymore
-	// Loudener.DisplayName: Loudener
-	// LucidNuke.DisplayName: Lucid Energy
-	// LucidRay.DisplayName: Lucid Energy
-	// LucidRayTelegraph.DisplayName: Lucid Energy
-	// Mjolnir.DisplayName: Legendary Lightning
-	// NightmareClaw.DisplayName: Nightmare Claw
-	// NightmareSlash.DisplayName: Nightmare Claw
+	GraniteCharge.DisplayName: Granite Charge
+	HitScan.DisplayName: Hit-Scan
+	HitScanner.DisplayName: Hit-Scanner
+
+	HitScannerTelegraph: {
+		$parentVal: Hit-Scanner
+		DisplayName: Hit Scanner Telegraph
+	}
+
+	IllumiteBlade.DisplayName: Illumite Blade
+	IllumitePortal.DisplayName: Illumite Portal
+	ImpendingDread.DisplayName: Impending Dread
+	ImpendingDreadF.DisplayName: Impending Dread
+	InfernalRay.DisplayName: Infernal Ray
+	InfernalRayTelegraph.DisplayName: Infernal Ray
+	JammingJellyfish.DisplayName: Jamming Jellyfish
+	JellyfishJam.DisplayName: Jamming Jellyfish
+	LichLantern.DisplayName: Volatile Lantern
+	LichWhip.DisplayName: Instrument of Torment
+	LodeStoneClaymore.DisplayName: Lodestone Claymore
+	Loudener.DisplayName: Loudener
+	LucidNuke.DisplayName: Lucid Energy
+	LucidRay.DisplayName: Lucid Energy
+	LucidRayTelegraph.DisplayName: Lucid Energy
+	Mjolnir.DisplayName: Legendary Lightning
+	NightmareClaw.DisplayName: Nightmare Claw
+	NightmareSlash.DisplayName: Nightmare Claw
 	Obliterator.DisplayName: Obliterator
 	ObliteratorRay.DisplayName: Obliterator
-	// OmegaRay.DisplayName: Omega Ray
-	// OmniBoom.DisplayName: Nuclear Explosion
-	// OmniBurst.DisplayName: Nuclear Explosion
-	// OmniSlash.DisplayName: Death Slash
-	// OmnicidePunchAttack.DisplayName: Fist of Havoc
-	// Paylode.DisplayName: Magnetic Payload
-	// PrimesFury.DisplayName: Prime's Fury
-	// QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
-	// SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
-	// StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
-	// SoulRender.DisplayName: Soul Render
-	// StableRealityRift.DisplayName: Stable Reality Rift
-	// TerrariumSaber.DisplayName: Terrarium Saber
-	// TideDagger.DisplayName: Aqua Rainstorm
-	// TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
-	// TitanSword.DisplayName: Titan Sword
-	// ToothOfTheConsumer.DisplayName: Tooth of The Consumer
-	// ValadiumRay.DisplayName: Void Ray
-	// ValadiumSlash.DisplayName: Void Slash
-	// ValadiumSlicer.DisplayName: Valadium Slicer
+	OmegaRay.DisplayName: Omega Ray
+	OmniBoom.DisplayName: Nuclear Explosion
+	OmniBurst.DisplayName: Nuclear Explosion
+	OmniSlash.DisplayName: Death Slash
+	OmnicidePunchAttack.DisplayName: Fist of Havoc
+	Paylode.DisplayName: Magnetic Payload
+	PrimesFury.DisplayName: Prime's Fury
+	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
+	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	Stuff.DisplayName: Stuff
+	SoulRender.DisplayName: Soul Render
+	StableRealityRift.DisplayName: Stable Reality Rift
+	TerrariumSaber.DisplayName: Terrarium Saber
+	TideDagger.DisplayName: Aqua Rainstorm
+	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
+	TitanSword.DisplayName: Titan Sword
+	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
+	ValadiumRay.DisplayName: Void Ray
+	ValadiumSlash.DisplayName: Void Slash
+	ValadiumSlicer.DisplayName: Valadium Slicer
 	VisualShockwave.DisplayName: Shockwave
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix
@@ -138,6 +350,11 @@ Items: {
 			'''
 	}
 
+	JellyfishJam: {
+		DisplayName: 水母果酱
+		Tooltip: 释放跳舞的水母刺穿敌人
+	}
+
 	LichWhip: {
 		DisplayName: 枯萎之鞭
 		Tooltip:
@@ -177,8 +394,8 @@ Items: {
 	}
 
 	MagicalHarp: {
-		// DisplayName: "{$ItemName.MagicalHarp}"
-		// Tooltip: ""
+		DisplayName: "{$ItemName.MagicalHarp}"
+		Tooltip: ""
 	}
 
 	PickShapedPebble: {
@@ -217,8 +434,8 @@ Items: {
 	}
 
 	StellarTune: {
-		// DisplayName: "{$ItemName.SparkleGuitar}"
-		// Tooltip: "{$ItemTooltip.SparkleGuitar}"
+		DisplayName: "{$ItemName.SparkleGuitar}"
+		Tooltip: "{$ItemTooltip.SparkleGuitar}"
 	}
 }
 

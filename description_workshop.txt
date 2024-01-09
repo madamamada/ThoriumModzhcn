@@ -5,12 +5,6 @@
 瑟银繁中汉化已删除，推荐使用[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3085000141]Extra Language![/url]代替
 此汉化包含[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]Thorium Bosses Reworked瑟银boss重置[/url]这个不是前置，以瑟银为主
 
-[h1]有问题[/h1]
-选择1.评论区告诉我
-选择2.想闲聊加入qq群596284387（不会同意任何steam好友消息）
-选择3.有确认性bug加qq群895423665或者留言告诉我（答案为“我有问题”）
-选择4.[url=https://steamcommunity.com/groups/liketerraria]steam组[/url]和对应的[url=https://steamcommunity.com/chat/invite/RKieSpPJ]聊天室[/url]
-
 [h1]使用方法[/h1]
 1.同时订阅ThoriumMod和本Mod
 2.进入tml，在模组管理中同时启用ThoriumMod和本Mod
@@ -19,11 +13,11 @@
 [h1]wiki链接[/h1]
 [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]中文瑟银wiki[/url]|[url=https://thoriummod.wiki.gg/wiki/Thorium_Mod_Wiki]英文瑟银wiki[/url]
 
-[h1]额外联动汉化[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847120725]Fargo突变&魂石汉化补丁[/url]注：本mod只联动fargo突变汉化联动，不联动魂
-
-[h1][Thorium Bosses Reworked]重置的原版瑟银武器[/h1]
-英灵的爆轰法杖，英灵的迅捷锋刃，泯灭者，火山碎屑法杖，钯金冲锋枪，钴蓝枪，钛金来福枪，秘银手枪，精金卡宾枪，山铜手枪，花岗岩弩，虚金弓，虚金破敌枪，虚金矛，奥米茄爆破枪，荧光矛，荧光弩，荧光炮，荧光冲击枪，荧光刃，泰坦剑，肉食者之牙，血肉串叉，灵魂镰刃，地脉弓，地脉速射枪，绿龙爪，绿龙之牙，至尊之怒，元素誓约之剑
+[h1]有问题[/h1]
+选择1.评论区告诉我
+选择2.想闲聊加入qq群596284387（不会同意任何steam好友消息）
+选择3.有确认性bug加qq群895423665或者留言告诉我（答案为“我有问题”）
+选择4.[url=https://steamcommunity.com/groups/liketerraria]steam组[/url]和对应的[url=https://steamcommunity.com/chat/invite/RKieSpPJ]聊天室[/url]
 
 [h1]更新日记[/h1]
 从v0.4.2.2版本后，移至改动说明

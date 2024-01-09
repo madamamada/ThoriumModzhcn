@@ -1,3 +1,203 @@
+ItemDescriptions: {
+	DreamWeaversHelmet: Maximum life increased by 60
+	DreamWeaversHood: Maximum life increased by 100
+	DreamWeaversTabard: Damage taken reduced by 20%
+	DreamWeaversTreads:
+		'''
+		20% increased radiant speed
+		Maximum life increased by 80
+		'''
+	TideTurnerBreastplate:
+		'''
+		Damage taken reduced by 10%
+		Defense and damage reduction increases the lower the wearer's health is
+		Up to 100 defense and 60% damage reduction
+		'''
+	TideTurnerGreaves: 20% increased melee & throwing speed
+	TideTurnerHelmet:
+		'''
+		Melee speed increases the lower the wearer's health is
+		Up to a 200% increase in melee speed
+		'''
+	TideTurnersGaze: Increases throwing damage by 50
+	MasterArbalestHood: Ranged damage ignores 100 defense
+	MasterMarksmansScouter: 12% increased firing speed
+	AssassinsGuard: Increases ranged damage by 20
+	AssassinsWalkers: 20% increased firing speed
+	MagmaSeersMask:
+		'''
+		40% increased whip speed
+		Increases summon damage by 30
+		'''
+	PyromancerCowl: Reduces mana usage by 40%
+	PyromancerLeggings:
+		'''
+		30% increased casting speed
+		Increases your max number of sentries by 1
+		'''
+	PyromancerTabard:
+		'''
+		75% increased whip range
+		Increases your max number of minions by 2
+		'''
+	InspiratorsHelmet: 25% increased symphonic playing speed
+	RhapsodistChestWoofer: Symphonic damage ignores 250 defense
+	RhapsodistBoots: Greatly increased symphonic empowerment range
+	SoloistHat: Increases maximum inspiration by 3
+	ChampionBomberStaff:
+		'''
+		Shoots a magical burster missile that repeatedly attacks hit targets
+		"Bombarding doesn't necessarily mean blowing them up"
+		'''
+	ChampionSwiftBlade:
+		'''
+		Shoots a powerful shockwave that deals 50% damage
+		Every 3rd and 4th attack summons sword apparitions
+		'''
+	GraniteCrossbow:
+		'''
+		Every 3 shots, a volley of 3 granite arrows are shot which overflow enemies
+		Overflowed enemies take 5% more damage
+		'''
+	IllumiteBarrage:
+		'''
+		Every 6th attack summons a portal that shoots nearby enemies
+		Hit enemies will be illuminated and take 10% more damage
+		'''
+	IllumiteBlade:
+		'''
+		Dual wield two illumite blades
+		Blasts nearby illuminated targets with illuminating beams
+		Hit enemies will be illuminated and take 10% more damage
+		'''
+	IllumiteBlaster:
+		'''
+		Every 6th attack summons a portal that shoots nearby enemies
+		Hit enemies will be illuminated and take 10% more damage
+		'''
+	IllumiteShotbow:
+		'''
+		Every 6th attack summons a portal that shoots nearby enemies
+		Hit enemies will be illuminated and take 10% more damage
+		'''
+	IllumiteSpear:
+		'''
+		Every 3rd attack shoots out an illumite spear image
+		The image shoots illuminating beams at nearby targets
+		Hit enemies will be illuminated and take 10% more damage
+		'''
+	CobaltPopper: Increases defense over time while being used
+	PalladiumSubmachineGun: Increases life regeneration over time while being used
+	MythrilPelter: Eventually doubles in attack speed while being used
+	OrichalcumPelter: Gradually increases attack speed over time while being used
+	AdamantiteCarbine: Increases crit chance over time while being used
+	TitaniumRifle: Increases armor penetration over time while being used
+	PyroclastStaff:
+		'''
+		Shoots a pattern of 1 to 5 pyroclastic fireballs
+		Pyroclastic fireballs split into submunitions on impact
+		'''
+	Obliterator:
+		'''
+		Left Click to shoot a non-piercing laser beam
+		Right Click to shoot a ball that shoots bullets at neaby targets that deal 60% damage
+		Shooting the ball with the laser will cause it to bounce towards nearby targets and deal 500% damage
+		'''
+	OmegaBlaster:
+		'''
+		Tap fire to shoot a triple burst of energy blasts, charge to empower the burst
+		Fully charge the weapon to fire a powerful energy beam that deal 800% damage
+		Dealing damage with energy blasts build up a meter
+		When the meter is full, Right Click to unleash a powerful beam saber that deals 1100% damage
+		After beam saber is used, the energy gauge cannot build up for 10 seconds
+		However, the weapon will cost no mana
+		'Become Heavenhold's greatest guardian'
+		'''
+	HitScanner:
+		'''
+		Musket balls shot from this gun have no travel time and ignore 50 defense
+		Musket balls also phase through tiles for a brief amount of time
+		'''
+	ParticleWhip:
+		'''
+		Shoots an accelerated particle beam that bounce between enemies
+		Upon bouncing, the particle beam turns into curving lightning
+		"Not really that kind of whip..."
+		'''
+	LodeStoneBow:
+		'''
+		Damage will sunder enemies, increasing the damage they take by 10
+		Every 3rd attack shoots magnetic payloads that home into sundered enemies
+		'''
+	LodeStoneQuickDraw:
+		'''
+		Damage will sunder enemies, increasing the damage they take by 10
+		Every 3rd attack shoots magnetic payloads that home into sundered enemies
+		'''
+	ValadiumBow:
+		'''
+		Damage will blast enemies with interdimensional energy
+		Every 3rd attack smites the closest light accursed enemy with void light
+		'''
+	ValadiumFoeBlaster:
+		'''
+		Damage will blast enemies with interdimensional energy
+		Every 3rd attack smites the closest light accursed enemy with void light
+		'''
+	ValadiumSpear:
+		'''
+		Damage will blast enemies with interdimensional energy
+		Damage also spawns a flurry void light that slashes enemies quickly
+		'''
+	SoulRender:
+		'''
+		Every 3rd and 4th attack, the scythe is spun, releasing volatile soul blades that deal 40% damage
+		Volatile soul blades deal more damage the higher your attack speed is to compensate with reduced projectiles shot
+		'''
+	FleshSkewer:
+		'''
+		Attacks have a chance to steal life, but briefly prevent life regeneration
+		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
+		'''
+	ToothOfTheConsumer:
+		'''
+		Dual wield two, life-stealing daggers
+		Attacks have a chance to steal life, but briefly prevent life regeneration
+		Critical strikes have a guaranteed chance to return life and will not prevent life regeneration
+		Right Click to release grasping blood at the cost of 1 life
+		'''
+	DragonTooth:
+		'''
+		Every 4th attack releases a breath of cursed inferno
+		Critical strikes create a ring of cursed inferno
+		'''
+	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
+	PrimesFury:
+		'''
+		Every 4th attack shoots a powerful beam dealing triple damage
+		Right Click to unleash a flurry of attacks that deal half damage
+		"We have a chainsaw sword at home"
+		'''
+	TitanSword:
+		'''
+		Dual wield two, titanic blades
+		Critical strikes will deal additional damage
+		'''
+	TerrariumSaber:
+		'''
+		Dual wield two Terrarium sabers
+		Releases homing Terrarium energy on hit
+		'''
+	DoomSayersCoin:
+		'''
+		Inflicts Terminal Lucidity in phase 2, boss cannot be damaged until it is removed
+		Fly into purple circles you see if you want to live and remove Terminal Lucidity
+		When Terminal Lucidity is removed, DPS phase begins and lasts for 20 seconds
+		If Terminal Lucidity timer runs out, you will die instantly
+		Dream Eater is permanently damageable during rematch fights
+		'''
+}
+
 Projectiles: {
 	AquaiusBubble.DisplayName: Bubble
 	AquaiusGeyser.DisplayName: Relentless Geyser
@@ -16,6 +216,7 @@ Projectiles: {
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
 	ChampionWarHorn.DisplayName: Champion's War Horn
+	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
 	DeathRain.DisplayName: Death Rain
 	DragonTooth.DisplayName: Dragon Tooth
@@ -32,12 +233,22 @@ Projectiles: {
 	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
 	GraniteCharge.DisplayName: Granite Charge
+	HitScan.DisplayName: Hit-Scan
+	HitScanner.DisplayName: Hit-Scanner
+
+	HitScannerTelegraph: {
+		$parentVal: Hit-Scanner
+		DisplayName: Hit Scanner Telegraph
+	}
+
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
 	ImpendingDread.DisplayName: Impending Dread
 	ImpendingDreadF.DisplayName: Impending Dread
 	InfernalRay.DisplayName: Infernal Ray
 	InfernalRayTelegraph.DisplayName: Infernal Ray
+	JammingJellyfish.DisplayName: Jamming Jellyfish
+	JellyfishJam.DisplayName: Jamming Jellyfish
 	LichLantern.DisplayName: Volatile Lantern
 	LichWhip.DisplayName: Instrument of Torment
 	LodeStoneClaymore.DisplayName: Lodestone Claymore
@@ -60,6 +271,7 @@ Projectiles: {
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
 	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
+	Stuff.DisplayName: Stuff
 	SoulRender.DisplayName: Soul Render
 	StableRealityRift.DisplayName: Stable Reality Rift
 	TerrariumSaber.DisplayName: Terrarium Saber
@@ -136,6 +348,11 @@ Items: {
 			Electronic instruments shoot twice but the second shot deals 50% less damage
 			"No, it does not make rockets shoot faster!"
 			'''
+	}
+
+	JellyfishJam: {
+		DisplayName: Jellyfish Jam
+		Tooltip: Shoots dancing jellyfish that pierce
 	}
 
 	LichWhip: {
