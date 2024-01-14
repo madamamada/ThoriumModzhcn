@@ -232,6 +232,7 @@ Projectiles: {
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
+	GrandThunder.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
 	HitScan.DisplayName: Hit-Scan
 	HitScanner.DisplayName: Hit-Scanner
@@ -286,6 +287,7 @@ Projectiles: {
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix
 	VoidEyeF.DisplayName: Will of Coznix
+	ZephyrFeather.DisplayName: Zephyr's Feather
 }
 
 Items: {

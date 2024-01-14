@@ -1,11 +1,12 @@
  [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]homepage[/url]
-#Version：50.1714.1.1
+#Version：1714.6.1
 
 1.瑟银本体修改内容
 摆
 
 2.瑟银重置修改内容
-更新图标
+加入了俩弹幕名字
+弹幕名字以后有空再搞
 
 3.额外修改内容
 无
