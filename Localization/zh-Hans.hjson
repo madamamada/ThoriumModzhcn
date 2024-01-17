@@ -21713,6 +21713,7 @@ Mods: {
 			Empty: ""
 
 			Tooltips: {
+				// TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
 				DevItem: "'非常适合模仿瑟银开发者！'"
 				ShoulderGuardianLimit: 仅能同时召唤一个守护者
 				BannerPlacement: 在地面上放置一面旗帜

@@ -287,7 +287,7 @@ Projectiles: {
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix
 	VoidEyeF.DisplayName: Will of Coznix
-	ZephyrFeather.DisplayName: Zephyr's Feather
+	// ZephyrFeather.DisplayName: Zephyr's Feather
 }
 
 Items: {
@@ -510,6 +510,11 @@ Configs: {
 				这是一个玩笑设置，它让神明吞噬者拥有噬梦者部分弹幕攻击
 				可能公平，也可能不公平
 				'''
+		}
+
+		thorlamityBR: {
+			Label: 瑟银boss加入灾厄bossrush
+			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
 		}
 	}
 }
