@@ -1,0 +1,850 @@
+ItemDescriptions: {
+	CelestialCarrier:
+		'''
+		Horizontal speed: 9.00
+		Acceleration multiplier: 2.5
+		Great vertical speed
+		Flight time: 180
+		Healing spells will heal an additional 4 life while wearing Celestial Armor
+		'''
+	ShootingStarTurboTuba:
+		'''
+		Horizontal speed: 9.00
+		Acceleration multiplier: 2.5
+		Great vertical speed
+		Flight time: 180
+		15% increased inpiration regeneration rate while wearing Shooting Star Armor
+		'''
+	WhiteDwarfThrusters:
+		'''
+		Horizontal speed: 9.00
+		Acceleration multiplier: 2.5
+		Great vertical speed
+		Flight time: 180
+		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
+		'''
+}
+
+Items: {
+	AerospecBiretta: {
+		DisplayName: 天蓝三角帽
+		Tooltip:
+			'''
+			增加7%光辉伤害和光辉施法速度
+			治疗法术会额外治疗2点生命值
+			'''
+		SetBonus: 治疗法术会在半空中额外治疗3点生命值
+	}
+
+	AerospecHeadphones: {
+		DisplayName: 天蓝耳机帽
+		Tooltip:
+			'''
+			增加9%音波伤害和演奏速度
+			增加15%管乐器追踪速度
+			'''
+		SetBonus:
+			'''
+			增加5%的灵感值恢复速度
+			管乐器现在会试图快速追踪敌怪
+			如果攻击已经能追踪敌怪，它的速度会变得更快
+			'''
+	}
+
+	AnahitasArpeggio: {
+		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
+		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}"
+	}
+
+	AquaiusAdvice: {
+		DisplayName: 海潮法杖
+		Tooltip:
+			'''
+			释放来自深海的触手向任何地方卷曲
+			Eventually settles and form damaging water currents
+			Inflicts crushing depth on hit
+			"是溺死在深渊中，还是从深渊中漂浮……如海蛇所言，这里是无尽的潮水"
+			'''
+	}
+
+	ArcticReinforcement: {
+		DisplayName: Arctic Reinforcement
+		Tooltip:
+			'''
+			释放冰晶对敌怪造成霜冻减益
+			"The polar counterpart"
+			'''
+	}
+
+	AuricTeslaFeatheredHeadwear: {
+		DisplayName: 金星羽毛头饰
+		Tooltip:
+			'''
+			增加25%音波伤害
+			增加20%音波暴击率
+			增加15%音波演奏速度
+			增加10%灵感值再生速率
+			增加50%管乐器的追踪速度和范围
+			弦乐器的弹幕会额外反弹五次
+			'''
+		SetBonus:
+			'''
+			增加50%咒音增幅范围
+			增加2秒咒音增幅的持续时间
+			增加30%灵感值再生速率
+			拥有Bard Tarragon, Bloodflare和God Slayer的套装效果
+			'''
+	}
+
+	AuricTeslaValkyrieVisage: {
+		DisplayName: 金圣女武神面具
+		Tooltip:
+			'''
+			增加50%光辉伤害
+			增加30%光辉暴击率
+			减少45%魔力消耗
+			大幅增加生命值与魔力再生
+			增加100最大生命值
+			增加200最大魔力值
+			治疗法术会额外治疗18点生命值
+			'''
+		SetBonus: 拥有Healer Tarragon, Bloodflare and Silva的套装效果
+	}
+
+	BelchingSaxophone: {
+		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
+		Tooltip:
+			'''
+			Shoots an assortment of reeds, bubbles and notes
+			Reeds and bubbles inflict irradiated
+			Notes inflict sulphuric poisoning and acid venom
+			'''
+	}
+
+	BloodflareRitualistMask: {
+		DisplayName: Bloodflare Ritualist Mask
+		Tooltip:
+			'''
+			15% increased radiant damage and critical strike chance
+			+80 max life
+			Moderately increased life regeneration
+			Healing spells will heal an additional 12 life
+			'''
+		SetBonus:
+			'''
+			Press '{0}' to use half of your life to summon a healing ritual
+			The ritual will heal allies for {1} life rapidly
+			Only one ritual can be active at a time
+			This ability has no cooldown, but overusage of it will kill you
+			'''
+	}
+
+	BloodflareSirenSkull: {
+		DisplayName: Bloodflare Siren Skull
+		Tooltip:
+			'''
+			15% increased symphonic damage, critical strike chance, and playing speed
+			Increases wind instrument homing speed by 25%
+			'''
+		SetBonus:
+			'''
+			Increases empowerment duration by 2 seconds
+			Dealing symphonic damage charges up a meter that decays over time
+			The meter is charged up by 100% of symphonic damage dealt
+			When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+			Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
+			Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+			'''
+	}
+
+	ChristmasCarol: {
+		DisplayName: Christmas Carol
+		Tooltip:
+			'''
+			Throws a big, very-decorated tambourine that returns to you
+			Three weak ice shards are also thrown alongside the tambourine
+			Successfully timing hits will steadily increase its empowerment level and damage
+			Successfully timing hits also causes the tambourine to maul enemies
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			'''
+	}
+
+	ColdShoulder: {
+		DisplayName: Cold Shoulder
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			Spins a cryonic scythe that inflict frostbite on hit
+			Constantly spews out icicles that deal 50% damage
+			<right> to throw the scythe, which will curve on its way back
+			"Cold shoulder for ya!"
+			'''
+	}
+
+	CottonMouth: {
+		DisplayName: Cotton Mouth
+		Tooltip:
+			'''
+			Ignores 20 points of defense
+			This scythe is swung directionally instead of spun
+			Inflicts acid venom and sulphuric poisoning on hit
+			'''
+	}
+
+	DaedalusCowl: {
+		DisplayName: Daedalus Cowl
+		Tooltip:
+			'''
+			10% increased radiant damage
+			5% increased healing speed
+			Healing spells will heal an additional 3 life
+			'''
+		SetBonus:
+			'''
+			Healing spells will heal an additional 1 life
+			Press '{0}' to summon an ice cream machine on your location, press '{0}' again to unsummon it
+			Players can Right Click the ice cream machine to receive Sugar Rush buff for 1 minute
+			Players also get healed for {1}0 life when doing so but has a 3 minute cooldown
+			'''
+	}
+
+	DaedalusHat: {
+		DisplayName: Daedalus Hat
+		Tooltip:
+			'''
+			10% increased symphonic damage and playing speed
+			Increases wind instrument homing range by 20%
+			String instruments bounce an additional time
+			'''
+		SetBonus:
+			'''
+			Increases empowerment duration by 3 seconds
+			Symphonic damage inflicts frostburn and frostbite on hit
+			Nearby allies have a chance to inflict frostburn on hit
+			'''
+	}
+
+	DeathAdder: {
+		DisplayName: Death Adder
+		Tooltip:
+			'''
+			Ignores 100 points of defense
+			This scythe is swung directionally instead of spun
+			Shoots a barrage phantom spirits every swing
+			Phantom spirits chase after targets
+			Inflicts whispering death on hit
+			"Omnicide would be proud... and angry"
+			'''
+	}
+
+	DoomsdayCatharsis: {
+		DisplayName: Doomsday Catharsis
+		Tooltip:
+			'''
+			Rapidly shoots a fiery toot that homes into to targets
+			Ignores 100 points of defense
+			Inflicts dragonfire on hit
+			Every 25th attack, two larger versions of the weapon appear besides the screen to attack in a fixed direction
+			Successfully timing hits will steadily increase its empowerment level, damage, homing range and trumpet count
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"Needs at least three lungs to play! Pairs, that is"
+			'''
+	}
+
+	DryMouth: {
+		DisplayName: Dry Mouth
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			This scythe is swung directionally instead of spun
+			'''
+	}
+
+	Duality: {
+		DisplayName: Duality
+		Tooltip:
+			'''
+			Spins a statigel scythe that emits red and purple energy on each blade
+			Hitting enemies with the purple energy inflicts shadowflame to them
+			Hitting enemies with the red energy massively boost health regeneration
+			<right> to throw the scythe, which will curve on its way back
+			"I have two sides: I forgor and I rember"
+			'''
+	}
+
+	ElementalBloom: {
+		DisplayName: Elemental Bloom
+		Tooltip:
+			'''
+			Maximum life increased by 40
+			Maximum mana increased by 20
+			15% increased healing speed
+			20% increased radiant damage
+			10% increased radiant casting speed
+			12% increased radiant critical strike chance
+			Healing spells will heal an additional 2 life
+			Empowers radiant attacks with elemental energy
+			Increases the strength of damage over time effects by 66%
+			"When light and dark clash, they harmonize to a final shape"
+			'''
+	}
+
+	Exorectionist: {
+		DisplayName: Exorectionist
+		Tooltip:
+			'''
+			Shoots a long line of electrical charge that rapidly heals players
+			"Draedon's attempt at innovating defibrillation technology"
+			'''
+	}
+
+	FaceMelter: {
+		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName}"
+		Tooltip:
+			'''
+			Shoots a stream of molten hot notes
+			Notes can either inflict tuned or dragonfire, or refund inspiration back
+			Notes deal more damage against targets suffering from damage over time effects
+			<right> to summon an amplifier that shoots notes toward your mouse cursor
+			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
+			'''
+	}
+
+	FilthyFlute: {
+		DisplayName: Filthy Flute
+		Tooltip:
+			'''
+			Shoots a fast ball of cursed inferno
+			Successfully timing hits will steadily increase its empowerment level and velocity
+			On the 5th successful timed hit, you attact a rare dank creeper specimen that fight for you
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"The song of the collective consciousness of the corruption"
+			Based off of the flute from "Filthy Mind" by DM Dokuro ft. SixteenInMono
+			'''
+	}
+
+	FlightoftheGoliath: {
+		DisplayName: Flight of the Goliath
+		Tooltip:
+			'''
+			Ignores 25 points of defense
+			Shoots plague swarmer missiles that continuously attack its target
+			"MAKE SOME NOOOOOIIISE!"
+			Based off of the chiptune sound from "Fly of Beelzebub" by DM Dokuro
+			'''
+	}
+
+	Gashadokuro: {
+		DisplayName: Gashadokuro
+		Tooltip:
+			'''
+			Plays the iconic bell you all know and love
+			Inflicts vulnerability hex on hit and causes brimstone lightning to smite enemies
+			"A bell belonging to a legendary musician"
+			'''
+	}
+
+	GelatinTherapy: {
+		DisplayName: Gelatin Therapy
+		Tooltip: Shoots a bouncy sludge ball that can heal and cure any player including yourself
+	}
+
+	GodSlayerDeathsingerCowl: {
+		DisplayName: God Slayer Deathsinger's Cowl
+		Tooltip:
+			'''
+			14% increased symphonic damage and critical strike chance
+			9% increased symphonic playing speed and inspiration regeneration
+			Increases wind instrument homing speed by 15%
+			String instruments bounce two additional times
+			'''
+		SetBonus:
+			'''
+			50% increased empowerment range
+			A calamity bell floats above your head and occasionally rings while attacking
+			When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles get destroyed
+			'''
+	}
+
+	HarpY: {
+		DisplayName: Harp-Y
+		Tooltip: Shoots three bouncy feathers
+	}
+
+	HydrogenSulfide: {
+		DisplayName: Hydrogen Sulfide
+		Tooltip:
+			'''
+			Ignores 50 points of defense
+			This scythe is swung directionally instead of spun
+			Shoots a flaming wave that is accompanied by 2 homing flames
+			Inflicts crush depth and hellfire on hit
+			"A catalyst to a lethal chemical reaction"
+			'''
+	}
+
+	HydrothermicGasMask: {
+		DisplayName: Hydrothermic Gas Mask
+		Tooltip:
+			'''
+			12% increased radiant damage
+			6% increased radiant critical strike chance
+			Healing spells will heal an additional 4 life
+			'''
+		SetBonus:
+			'''
+			9% increased healing and radiant casting speed
+			Healing spells will heal an additional 2 life
+			Taking more than 75 damage spawns an oasis that lasts 3 seconds
+			The oasis heals {0} life every 1/3 of a second
+			Only one oasis can be active at a time
+			'''
+	}
+
+	HydrothermicHat: {
+		DisplayName: Hydrothermic Hat
+		Tooltip:
+			'''
+			15% increased symphonic damage
+			10% increased symphonic critical strike chance
+			String instruments bounce an additional time
+			'''
+		SetBonus:
+			'''
+			Increases wind instrument homing speed by 15%
+			Increases wind instrument homing range by 5%
+			String instruments bounce two additional times
+			Symphonic critical strikes causes targets to erupt in sulfide flames
+			Only one eruption can occur and have a 3 second cooldown per trigger
+			'''
+	}
+
+	InterstellarShredder: {
+		DisplayName: Interstellar Shredder
+		Tooltip:
+			'''
+			Shoots a bouncy, non-piercing, homing astral flame crystal
+			The crystal is accompanied by two astral lasers that bounce twice
+			Inflicts astral infection on hit
+			"Sick riffs that travel through out the whole universe!"
+			Based off of the guitar solo from "Interstellar Stomper" by DM Dokuro
+			'''
+	}
+
+	LostOasis: {
+		DisplayName: Lost Oasis
+		Tooltip:
+			'''
+			Shoots an expanding oasis
+			Heals every half-second
+			"Nevermind guys, I found it"
+			'''
+	}
+
+	MilkyWay: {
+		DisplayName: Milky Way
+		Tooltip:
+			'''
+			Ignores 75 points of defense
+			<right> to throw the scythe, which will curve on its way back
+			Emits stars from afar that spiral inward
+			"The stars have aligned"
+			'''
+	}
+
+	NoisebringerGoliath: {
+		DisplayName: Noisebringer Goliath
+		Tooltip:
+			'''
+			150 symphonic damage
+			Summons two speakers that attack alongside you
+			Inflicts plague and tuned on hit
+			"SOMEBODY SCREEEAAAAAM!"
+			'''
+	}
+
+	OathofSacrifice: {
+		DisplayName: Oath of Sacrifice
+		Tooltip:
+			'''
+			Wielding this spell removes all your protection and makes you more vulnerable
+			Creates a ritual circle around you that revives dead players that come into contact
+			Living players that are inside the ritual circle cannot die under any circumstance
+			Living players are also liberated from most negative status effects
+			"You vow to put others' lives before yours"
+			'''
+	}
+
+	OmnicidesLaw: {
+		DisplayName: Omnicide's Law
+		Tooltip:
+			'''
+			Ignores 40 points of defense
+			Shoots out skulls that curve in random directions before homing to an enemy
+			Inflicts the plague on hit
+			"All life has a beginning and an end, as Omnicide, the Life Defiler claims"
+			'''
+	}
+
+	OmniSpeaker: {
+		DisplayName: Omni-Speaker
+		Tooltip:
+			'''
+			15% increased symphonic damage, playing speed, and critical strike chance
+			150% increased empowerment range
+			Increases empowerment duration by 2 seconds
+			String instruments bounce three additional times
+			Your wind instrument attacks now attempt to quickly home in on enemies
+			If the attack already homes onto enemies, it does so more quickly
+			Critical strikes caused by brass instrument attacks release a spread of piercing energy
+			Percussion critical strikes will deal 10% more damage and briefly stun enemies
+			You and nearby allies have a chance to inflict god slayer inferno when attacking targets
+			"Through the power of wormhole technology, everyone in the world can jam to your music!"
+			'''
+	}
+
+	PhoenicianBeak: {
+		DisplayName: Phoenician Beak
+		Tooltip:
+			'''
+			Ignores 100 points of defense
+			This scythe is swung directionally instead of spun
+			Shoots out a powerful slash that leave a trail of fire
+			Inflicts dragonfire on hit
+			'''
+	}
+
+	PledgeofSelflessness: {
+		DisplayName: Pledge of Selflessness
+		Tooltip:
+			'''
+			Wielding this spell removes all your protection and makes you more vulnerable
+			Shoots 3 brimstone rays that home on up to 3 different players and heal them
+			If there are less than 3 players, extra rays can heal the same players again
+			"You promise to value others as much as you value yourself"
+			'''
+	}
+
+	ReturntoSludge: {
+		DisplayName: Return to Sludge
+		Tooltip: Charge to build up a goo bomb then release to shoot it
+	}
+
+	SARS: {
+		DisplayName: S.A.R.S.
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			Releases plague traces while spun
+			Releases even more when hitting enemies
+			Inflicts the plague on hit
+			"Please practice social distancing"
+			'''
+	}
+
+	SchoolNurse: {
+		DisplayName: School Nurse
+		Tooltip:
+			'''
+			Shoots a barrage of slippery ice that heals and cures
+			"All it takes is an ice pack and some prayer"
+			'''
+	}
+
+	SilvaGuardianHelmet: {
+		DisplayName: Silva Guardian's Helmet
+		Tooltip:
+			'''
+			12% increased radiant damage and critical strike chance
+			Moderately increased life regeneration
+			+100 max life
+			Healing spells will heal an additional 15 life
+			'''
+		SetBonus: Taking a lot of damage gives players with the lowest health the Guardian Angel buff for 30 seconds
+	}
+
+	SlagFurysIntent: {
+		DisplayName: Slag Fury's Intent
+		Tooltip:
+			'''
+			Rapidly shoots out brimstone beams that curve in random directions
+			Inflicts brimstone flames on hit
+			"A relic from the remains of Azafure, as Slag Fury, the First Flame intended"
+			'''
+	}
+
+	SongoftheAncients: {
+		DisplayName: Song of the Ancients
+		Tooltip:
+			'''
+			Shoots two elemental beams that move in a helix pattern before splitting
+			Ignores 15 points of defense
+			Successfully timing hits will steadily increase its empowerment level
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			'''
+	}
+
+	SongoftheCosmos: {
+		DisplayName: Song of the Cosmos
+		Tooltip:
+			'''
+			Shoot five cosmic beams that move in a helix pattern
+			Can hit the same target multiple times
+			Ignores 75 points of defense
+			"The very song that harmonizes the universe"
+			'''
+	}
+
+	SongoftheElements: {
+		DisplayName: Song of the Elements
+		Tooltip:
+			'''
+			Shoot three elemental beams that move in a helix pattern
+			Can hit the same target multiple times
+			Ignores 25 points of defense
+			"The very song that brings balance to many worlds"
+			'''
+	}
+
+	SpookyMonth: {
+		DisplayName: Spooky Month
+		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
+	}
+
+	StatigelEarrings: {
+		DisplayName: Statigel Earrings
+		Tooltip:
+			'''
+			12% increased symphonic damage
+			8% increased symphonic critical strike chance
+			String instruments bounce two additional times
+			'''
+	}
+
+	StatigelFoxMask: {
+		DisplayName: Statigel Fox Mask
+		Tooltip:
+			'''
+			9% increased radiant damage and casting speed
+			Healing spells will heal an additional 4 life
+			'''
+		SetBonus: 9% increased healing speed
+	}
+
+	Syzygy: {
+		DisplayName: Syzygy
+		Tooltip:
+			'''
+			Ignores 25 points of defense
+			<right> to throw the scythe, which will curve on its way back
+			Constantly spawns lingering elemental energy that spins around
+			"A terrible catastrophe for most, a beautiful harmony for some"
+			'''
+	}
+
+	TarragonChapeau: {
+		DisplayName: Tarragon Chapeau
+		Tooltip:
+			'''
+			10% increased symphonic damage
+			5% increased symphonic critical strike chance and playing speed
+			String instruments bounce three additional times
+			'''
+		SetBonus: You spawn quarter rests around you that heal inspiration when hitting enemies
+	}
+
+	TarragonParagonCrown: {
+		DisplayName: Tarragon Paragon Crown
+		Tooltip:
+			'''
+			10% increased radiant damage
+			5% increased radiant critical strike chance
+			+20 max life
+			Slightly increased life regeneration
+			Healing spells will heal an additional 8 life
+			'''
+		SetBonus: Occasionally emit a healing pulse that heals and shields allies by {0} points
+	}
+
+	TectonicPlates: {
+		DisplayName: Tectonic Plates
+		Tooltip:
+			'''
+			Shoots out two rocks that collide in the cursor position
+			Upon colliding, it creates a medium-sized explosion that inflicts crush depth
+			"Sponsored by Alfred Wegener"
+			'''
+	}
+
+	TidalForce: {
+		DisplayName: Tidal Force
+		Tooltip:
+			'''
+			Ignores 40 points of defense
+			This scythe is swung directionally instead of spun
+			Shoots a miniature tidal wave every swing
+			Inflicts crushing depth on hit
+			'''
+	}
+
+	TheWindmill: {
+		DisplayName: The Windmill
+		Tooltip:
+			'''
+			Leaves behind a whirlwind every swing
+			"Wooosh! Wind powered!"
+			'''
+	}
+
+	Transfiguration: {
+		DisplayName: Transfiguration
+		Tooltip:
+			'''
+			Cast a holy ray of light above your cursor that will heal allies under it
+			"Get ready to receive some holy spirit..."
+			'''
+	}
+
+	Violince: {
+		DisplayName: Violince
+		Tooltip:
+			'''
+			Shoots a spread of bouncy ichor
+			Successfully timing hits will steadily increase its empowerment level and velocity
+			Every 3 successfully timed hits, the amount of projectiles shot increase up to a maximum of 6
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"Rated 18+ for sax and violince"
+			Based off of the violin from "Blood Coagulant" by DM Dokuro ft. SixteenInMono
+			'''
+	}
+
+	WilloftheRagnarok: {
+		DisplayName: Will of the Ragnarök
+		Tooltip:
+			'''
+			Combined effects of all downgrades
+			"Erase those who disturb the balance of the universe"
+			'''
+	}
+
+	Windward: {
+		DisplayName: Windward
+		Tooltip: Shoots two slightly homing feathers
+	}
+
+	WulfrumMegaphone: {
+		DisplayName: Wulfrum Megaphone
+		Tooltip:
+			'''
+			Shoots a sound wave that grows and speeds up
+			Tunes targets on hit, increasing the damage they take by 5%
+			"Behold! The Cheap-Insults-Inator!"
+			'''
+	}
+
+	WulfrumWeedWacker: {
+		DisplayName: Wulfrum Weed Wacker
+		Tooltip: This scythe is swung directionally instead of spun
+	}
+}
+
+Projectiles: {
+	AcidicReed.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicReed.DisplayName}"
+	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
+	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
+	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+	AncientSong.DisplayName: Ancient Song
+	AquaiusAdvice.DisplayName: Aquaius' Advice
+	ArcticReinforcement.DisplayName: Arctic Reinforcement
+	ArcticReinforcement2.DisplayName: Arctic Reinforcement
+	BloodflareRitual.DisplayName: Bloodflare Ritual
+	CalamityBell.DisplayName: Calamity Bell
+	CalamityBellRing.DisplayName: Calamity Bell Ring
+	ChristmasCarol.DisplayName: Christmas Carol
+	ColdShoulder.DisplayName: Cold Shoulder
+	ColdShoulderIcicle.DisplayName: Icicle
+	CosmicSong.DisplayName: Cosmic Song
+	CottonMouth.DisplayName: Cotton Mouth
+	DeathAdder.DisplayName: Death Adder
+	DeathAdderSoul.DisplayName: Death Adder Soul
+	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
+	DoomsdayToot.DisplayName: Doomsday Toot
+	DryMouth.DisplayName: Dry Mouth
+	Duality.DisplayName: Duality
+	ElementalSong.DisplayName: Elemental Song
+	ElementalSyzygy.DisplayName: Syzygy
+	Exorectionist.DisplayName: Exorectionist
+	FilthyCreeper.DisplayName: Rare Dank Creeper
+	FilthyFlute.DisplayName: Filthy Flute
+	Gashadokuro.DisplayName: Gashadokuro
+	GashadokuroCracks.DisplayName: Gashadokuro
+	HarpY.DisplayName: Harp-Y
+	HydrogenSulfide.DisplayName: Hydrogen Sulfide
+	HydrogenSulfideFlames.DisplayName: Hydrogen Sulfide
+	HydrogenSulfideWave.DisplayName: Hydrogen Sulfide
+	HydrothermalEruption.DisplayName: Hydrothermal Eruption
+	HydrothermalOasis.DisplayName: Hydrothermal Oasis
+	IceCreamMachine.DisplayName: Ice Cream Machine
+	IceCube.DisplayName: Ice Cube
+	InterstellarShredder.DisplayName: Interstellar Shredder
+	InterstellarShredder2.DisplayName: Interstellar Shredder
+	LostOasis.DisplayName: Lost Oasis
+	LuxorsPrayer.DisplayName: Luxor's Prayer
+	LuxorsSong.DisplayName: Luxor's Song
+	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
+	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
+	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
+	MilkyWay.DisplayName: Milky Way
+	MilkyWaySpur.DisplayName: Milky Way Spur
+	Noisebringer.DisplayName: Noisebringer
+	NoisebringerGoliath.DisplayName: Noisebringer Goliath
+	OathofSacrifice.DisplayName: Oath of Sacrifice
+	OmnicidesLaw.DisplayName: Omnicide's Law
+	PhoenicianBeak.DisplayName: Phoenician Beak
+	PhoenicianBeakSlice.DisplayName: Phoenician Beak Slice
+	PlagueSwarmerMissile.DisplayName: Plague Swarmer
+	PlagueTrace.DisplayName: Plague Trace
+	PledgeofSelflessness.DisplayName: Pledge of Selflessness
+	SARS.DisplayName: S.A.R.S.
+	SlagFurysIntent.DisplayName: Slag Fury's Intent
+	SludgeBomb.DisplayName: Sludge Bomb
+	SpookyMonth.DisplayName: Spooky Month
+	Syzygy.DisplayName: Syzygy
+	TarragonHeartbeat.DisplayName: Tarragon Heartbeat
+	TarragonQuarterRest.DisplayName: Tarragon Quarter Rest
+	TectonicCollision.DisplayName: Tectonic Collision
+	TectonicPlate.DisplayName: Tectonic Plate
+	TidalForce.DisplayName: Tidal Force
+	TidalWave.DisplayName: Tidal Wave
+	TherapeuticSludge.DisplayName: Therapeutic Sludge
+	TheWindmill.DisplayName: The Windmill
+	ToxicEightNote.DisplayName: Toxic "{$ProjectileName.EightNote}"
+	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
+	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
+	Transfiguration.DisplayName: Transfiguration
+	Violince.DisplayName: Violince
+	ViolinceBow.DisplayName: Violince
+	Whirlwind.DisplayName: Whirlwind
+	WilloftheRagnarok.DisplayName: Will of the Ragnarök
+	Windward.DisplayName: Windward
+	WulfrumSoundWave.DisplayName: Sound Wave
+	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
+}
+
+Buffs: {
+	AlluringSong: {
+		DisplayName: Alluring Song
+		Description:
+			'''
+			50% increased inspiration regeneration rate and empowerment range
+			Empowerment duration lasts 5 seconds longer
+			Taking damage heals you for a flat 250 life but removes Alluring Song
+			"For rizzing up some elemental chicks"
+			'''
+	}
+
+	CalamityBell: {
+		DisplayName: Calamity Bell
+		Description: It's just waiting there, menacingly...
+	}
+}
