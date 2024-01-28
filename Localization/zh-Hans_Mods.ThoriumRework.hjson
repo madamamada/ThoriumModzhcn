@@ -439,6 +439,15 @@ Items: {
 		DisplayName: "{$ItemName.SparkleGuitar}"
 		Tooltip: "{$ItemTooltip.SparkleGuitar}"
 	}
+
+	ZephyrsRuin: {
+		DisplayName: 风暴矛
+		Tooltip:
+			'''
+			暴击后召唤雷云攻击敌人
+			你感觉不到疲惫
+			''' 
+	}
 }
 
 Buffs: {
