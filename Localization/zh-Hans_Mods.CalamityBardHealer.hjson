@@ -5,7 +5,7 @@ ItemDescriptions: {
 		Acceleration multiplier: 2.5
 		Great vertical speed
 		Flight time: 180
-		Healing spells will heal an additional 4 life while wearing Celestial Armor
+		治疗法术会额外治疗4 life while wearing Celestial Armor
 		'''
 	ShootingStarTurboTuba:
 		'''
@@ -30,7 +30,7 @@ Items: {
 		DisplayName: 天蓝三角帽
 		Tooltip:
 			'''
-			增加7%光辉伤害和光辉施法速度
+			增加7%光辉伤害和施法速度
 			治疗法术会额外治疗2点生命值
 			'''
 		SetBonus: 治疗法术会在半空中额外治疗3点生命值
@@ -77,7 +77,7 @@ Items: {
 	}
 
 	AuricTeslaFeatheredHeadwear: {
-		DisplayName: 金星羽毛头饰
+		DisplayName: 金星羽毛盔
 		Tooltip:
 			'''
 			增加25%音波伤害
@@ -97,7 +97,7 @@ Items: {
 	}
 
 	AuricTeslaValkyrieVisage: {
-		DisplayName: 金圣女武神面具
+		DisplayName: 金圣武神盔
 		Tooltip:
 			'''
 			增加50%光辉伤害
@@ -115,125 +115,125 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
 		Tooltip:
 			'''
-			Shoots an assortment of reeds, bubbles and notes
-			Reeds and bubbles inflict irradiated
-			Notes inflict sulphuric poisoning and acid venom
+			释放酸化簧片、音符和硫磺气泡
+			酸化簧片、音符造成音波伤害
+			硫磺气泡则造成辐射和酸性毒液
 			'''
 	}
 
 	BloodflareRitualistMask: {
-		DisplayName: Bloodflare Ritualist Mask
+		DisplayName: 血焱祭颅盔
 		Tooltip:
 			'''
-			15% increased radiant damage and critical strike chance
-			+80 max life
-			Moderately increased life regeneration
-			Healing spells will heal an additional 12 life
+			增加15%光辉伤害和光辉暴击率
+			增加80最大生命值
+			适度增加生命回复
+			治疗法术会额外治疗12点生命值
 			'''
 		SetBonus:
 			'''
-			Press '{0}' to use half of your life to summon a healing ritual
-			The ritual will heal allies for {1} life rapidly
-			Only one ritual can be active at a time
-			This ability has no cooldown, but overusage of it will kill you
+			按下“盔甲能力，控件{0}”，损失半数生命值召唤治疗仪式
+			该仪式会快速治疗队友{1}生命值
+			一次只能进行一种仪式
+			这个技能没有冷却时间，但是过度使用会死亡
 			'''
 	}
 
 	BloodflareSirenSkull: {
-		DisplayName: Bloodflare Siren Skull
+		DisplayName: 血耀死魂盔
 		Tooltip:
 			'''
-			15% increased symphonic damage, critical strike chance, and playing speed
-			Increases wind instrument homing speed by 25%
+			增加15%音波伤害，音波暴击率和演奏速度
+			增加25%管乐器的追踪速度
 			'''
 		SetBonus:
 			'''
-			Increases empowerment duration by 2 seconds
-			Dealing symphonic damage charges up a meter that decays over time
+			增加2秒咒音增幅的持续时间
+			造成的音波伤害会随着时间的推移而衰减
 			The meter is charged up by 100% of symphonic damage dealt
-			When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
-			Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
-			Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+			当充能达到100000时，获得魅惑之歌buff，持续5秒
+			魅惑之歌让灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
+			当魅惑之歌被激活受到伤害时，回复250点生命值，但会移除魅惑之歌
 			'''
 	}
 
 	ChristmasCarol: {
-		DisplayName: Christmas Carol
+		DisplayName: 圣诞铃鼓
 		Tooltip:
 			'''
-			Throws a big, very-decorated tambourine that returns to you
-			Three weak ice shards are also thrown alongside the tambourine
-			Successfully timing hits will steadily increase its empowerment level and damage
-			Successfully timing hits also causes the tambourine to maul enemies
+			扔出装饰华丽的铃鼓，然后回到你身边
+			释放三条脆弱的冰束，同时扔出圣诞铃鼓
+			成功命中敌怪后，会增加咒音增幅等级和音波伤害
+			成功命中敌怪后，也会导致铃鼓重击敌怪
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
 	}
 
 	ColdShoulder: {
-		DisplayName: Cold Shoulder
+		DisplayName: 极寒镰刀
 		Tooltip:
 			'''
-			Ignores 10 points of defense
-			Spins a cryonic scythe that inflict frostbite on hit
-			Constantly spews out icicles that deal 50% damage
-			<right> to throw the scythe, which will curve on its way back
-			"Cold shoulder for ya!"
+			无视10点防御力
+			旋转一把极寒镰刀，攻击时造成霜冻
+			不断喷出冰晶，造成50%伤害
+			右键扔出镰刀，然后回到你身边
+			"冷落你!"
 			'''
 	}
 
 	CottonMouth: {
-		DisplayName: Cotton Mouth
+		DisplayName: 海渊镰刀
 		Tooltip:
 			'''
-			Ignores 20 points of defense
-			This scythe is swung directionally instead of spun
-			Inflicts acid venom and sulphuric poisoning on hit
+			无视20点防御力
+			这把镰刀是定向摆动而不是旋转
+			造成酸性毒液与硫磺海剧毒减益
 			'''
 	}
 
 	DaedalusCowl: {
-		DisplayName: Daedalus Cowl
+		DisplayName: 代达罗斯面罩
 		Tooltip:
 			'''
-			10% increased radiant damage
-			5% increased healing speed
-			Healing spells will heal an additional 3 life
+			增加10%光辉伤害
+			增加5%治愈速度
+			治疗法术会额外治疗3点生命值
 			'''
 		SetBonus:
 			'''
-			Healing spells will heal an additional 1 life
-			Press '{0}' to summon an ice cream machine on your location, press '{0}' again to unsummon it
-			Players can Right Click the ice cream machine to receive Sugar Rush buff for 1 minute
-			Players also get healed for {1}0 life when doing so but has a 3 minute cooldown
+			治疗法术会额外治疗1点生命值
+			按下“盔甲能力，控件{0}”在你所在的位置召唤冰淇淋机，再按“盔甲能力，控件{0}”取消召唤
+			右键点击冰淇淋机，获得1分钟的糖果冲刺buff
+			也会获得{1}0生命恢复，但有3分钟的冷却时间
 			'''
 	}
 
 	DaedalusHat: {
-		DisplayName: Daedalus Hat
+		DisplayName: 代达罗斯风帽
 		Tooltip:
 			'''
-			10% increased symphonic damage and playing speed
-			Increases wind instrument homing range by 20%
-			String instruments bounce an additional time
+			增加10%音波伤害和演奏速度
+			增加20%管乐器的追踪范围
+			弦乐器的弹跳时间更长
 			'''
 		SetBonus:
 			'''
-			Increases empowerment duration by 3 seconds
-			Symphonic damage inflicts frostburn and frostbite on hit
-			Nearby allies have a chance to inflict frostburn on hit
+			增加3秒咒音增幅的持续时间
+			命中时，音波伤害会造成霜冻和冻伤
+			附近有队友进行攻击有概率造成霜冻
 			'''
 	}
 
 	DeathAdder: {
-		DisplayName: Death Adder
+		DisplayName: 死亡蝰蛇
 		Tooltip:
 			'''
-			Ignores 100 points of defense
-			This scythe is swung directionally instead of spun
-			Shoots a barrage phantom spirits every swing
-			Phantom spirits chase after targets
-			Inflicts whispering death on hit
-			"Omnicide would be proud... and angry"
+			无视100防御力
+			这把镰刀是定向摆动而不是旋转的
+			每次挥舞都会释放一连串幽灵
+			幽灵追逐目标
+			击中时造成死亡低语
+			"种族灭绝会感到自豪……和愤怒"
 			'''
 	}
 
@@ -278,11 +278,11 @@ Items: {
 			'''
 			Maximum life increased by 40
 			Maximum mana increased by 20
-			15% increased healing speed
-			20% increased radiant damage
+			增加15%治愈速度
+			增加20%光辉伤害
 			10% increased radiant casting speed
 			12% increased radiant critical strike chance
-			Healing spells will heal an additional 2 life
+			治疗法术会额外治疗2点生命值
 			Empowers radiant attacks with elemental energy
 			Increases the strength of damage over time effects by 66%
 			"When light and dark clash, they harmonize to a final shape"
@@ -353,8 +353,8 @@ Items: {
 		DisplayName: God Slayer Deathsinger's Cowl
 		Tooltip:
 			'''
-			14% increased symphonic damage and critical strike chance
-			9% increased symphonic playing speed and inspiration regeneration
+			增加14%音波伤害and critical strike chance
+			9% increased symphonic演奏速度 and inspiration regeneration
 			Increases wind instrument homing speed by 15%
 			String instruments bounce two additional times
 			'''
@@ -387,14 +387,14 @@ Items: {
 		DisplayName: Hydrothermic Gas Mask
 		Tooltip:
 			'''
-			12% increased radiant damage
+			增加12%光辉伤害
 			6% increased radiant critical strike chance
-			Healing spells will heal an additional 4 life
+			治疗法术会额外治疗4点生命值
 			'''
 		SetBonus:
 			'''
 			9% increased healing and radiant casting speed
-			Healing spells will heal an additional 2 life
+			治疗法术会额外治疗2点生命值
 			Taking more than 75 damage spawns an oasis that lasts 3 seconds
 			The oasis heals {0} life every 1/3 of a second
 			Only one oasis can be active at a time
@@ -490,9 +490,9 @@ Items: {
 		DisplayName: Omni-Speaker
 		Tooltip:
 			'''
-			15% increased symphonic damage, playing speed, and critical strike chance
+			15% increased symphonic damage,演奏速度, and critical strike chance
 			150% increased empowerment range
-			Increases empowerment duration by 2 seconds
+			增加2秒咒音增幅的持续时间
 			String instruments bounce three additional times
 			Your wind instrument attacks now attempt to quickly home in on enemies
 			If the attack already homes onto enemies, it does so more quickly
@@ -555,10 +555,10 @@ Items: {
 		DisplayName: Silva Guardian's Helmet
 		Tooltip:
 			'''
-			12% increased radiant damage and critical strike chance
+			增加12%光辉伤害 and critical strike chance
 			Moderately increased life regeneration
 			+100 max life
-			Healing spells will heal an additional 15 life
+			治疗法术会额外治疗15点生命值
 			'''
 		SetBonus: Taking a lot of damage gives players with the lowest health the Guardian Angel buff for 30 seconds
 	}
@@ -625,10 +625,10 @@ Items: {
 		DisplayName: Statigel Fox Mask
 		Tooltip:
 			'''
-			9% increased radiant damage and casting speed
-			Healing spells will heal an additional 4 life
+			增加9%光辉伤害and casting speed
+			治疗法术会额外治疗4点生命值
 			'''
-		SetBonus: 9% increased healing speed
+		SetBonus: 增加9%治愈速度
 	}
 
 	Syzygy: {
@@ -647,7 +647,7 @@ Items: {
 		Tooltip:
 			'''
 			10% increased symphonic damage
-			5% increased symphonic critical strike chance and playing speed
+			5% increased symphonic critical strike chance and演奏速度
 			String instruments bounce three additional times
 			'''
 		SetBonus: You spawn quarter rests around you that heal inspiration when hitting enemies
@@ -657,11 +657,11 @@ Items: {
 		DisplayName: Tarragon Paragon Crown
 		Tooltip:
 			'''
-			10% increased radiant damage
+			增加10%光辉伤害
 			5% increased radiant critical strike chance
 			+20 max life
 			Slightly increased life regeneration
-			Healing spells will heal an additional 8 life
+			治疗法术会额外治疗8点生命值
 			'''
 		SetBonus: Occasionally emit a healing pulse that heals and shields allies by {0} points
 	}
@@ -833,13 +833,13 @@ Projectiles: {
 
 Buffs: {
 	AlluringSong: {
-		DisplayName: Alluring Song
+		DisplayName: 魅惑之歌
 		Description:
 			'''
-			50% increased inspiration regeneration rate and empowerment range
-			Empowerment duration lasts 5 seconds longer
-			Taking damage heals you for a flat 250 life but removes Alluring Song
-			"For rizzing up some elemental chicks"
+			增加50%的灵感值回复速度和咒音增幅范围
+			增加5秒咒音增幅的持续时间
+			受到伤害时，回复250点生命值，但是会移除魅惑之歌buff
+			"为了嘲弄一些元素精灵"
 			'''
 	}
 
