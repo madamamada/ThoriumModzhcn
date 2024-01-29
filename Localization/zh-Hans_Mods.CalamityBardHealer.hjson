@@ -61,18 +61,18 @@ Items: {
 		Tooltip:
 			'''
 			释放来自深海的触手向任何地方卷曲
-			Eventually settles and form damaging water currents
-			Inflicts crushing depth on hit
+			最终沉淀并形成具有伤害的水流
+			攻击时造成深渊水压
 			"是溺死在深渊中，还是从深渊中漂浮……如海蛇所言，这里是无尽的潮水"
 			'''
 	}
 
 	ArcticReinforcement: {
-		DisplayName: Arctic Reinforcement
+		DisplayName: 北极玻璃管
 		Tooltip:
 			'''
 			释放冰晶对敌怪造成霜冻减益
-			"The polar counterpart"
+			"极性对应物"
 			'''
 	}
 
@@ -150,7 +150,7 @@ Items: {
 			'''
 			增加2秒咒音增幅的持续时间
 			造成的音波伤害会随着时间的推移而衰减
-			The meter is charged up by 100% of symphonic damage dealt
+			造成的音波伤害100%转化为充能
 			当充能达到100000时，获得魅惑之歌buff，持续5秒
 			魅惑之歌让灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
 			当魅惑之歌被激活受到伤害时，回复250点生命值，但会移除魅惑之歌
@@ -163,8 +163,8 @@ Items: {
 			'''
 			扔出装饰华丽的铃鼓，然后回到你身边
 			释放三条脆弱的冰束，同时扔出圣诞铃鼓
-			成功命中敌怪后，会增加咒音增幅等级和音波伤害
-			成功命中敌怪后，也会导致铃鼓重击敌怪
+			正确的时机拍击时，会增加咒音增幅等级和音波伤害
+			正确的时机拍击时，也会让铃鼓重击敌怪
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
 	}
@@ -182,7 +182,7 @@ Items: {
 	}
 
 	CottonMouth: {
-		DisplayName: 海渊镰刀
+		DisplayName: 渊海镰刀
 		Tooltip:
 			'''
 			无视20点防御力
@@ -214,12 +214,12 @@ Items: {
 			'''
 			增加10%音波伤害和演奏速度
 			增加20%管乐器的追踪范围
-			弦乐器的弹跳时间更长
+			弦乐器弹跳时间增加
 			'''
 		SetBonus:
 			'''
 			增加3秒咒音增幅的持续时间
-			命中时，音波伤害会造成霜冻和冻伤
+			命中敌怪时，音波伤害会造成霜冻和冻伤
 			附近有队友进行攻击有概率造成霜冻
 			'''
 	}
@@ -229,7 +229,7 @@ Items: {
 		Tooltip:
 			'''
 			无视100防御力
-			这把镰刀是定向摆动而不是旋转的
+			镰刀是定向摆动而不是旋转的
 			每次挥舞都会释放一连串幽灵
 			幽灵追逐目标
 			击中时造成死亡低语
@@ -238,63 +238,63 @@ Items: {
 	}
 
 	DoomsdayCatharsis: {
-		DisplayName: Doomsday Catharsis
+		DisplayName: 末日洗涤
 		Tooltip:
 			'''
-			Rapidly shoots a fiery toot that homes into to targets
-			Ignores 100 points of defense
-			Inflicts dragonfire on hit
-			Every 25th attack, two larger versions of the weapon appear besides the screen to attack in a fixed direction
-			Successfully timing hits will steadily increase its empowerment level, damage, homing range and trumpet count
+			快速的释放龙焰瞄准目标
+			无视100点防御力
+			攻击时造成龙焰
+			每攻击第25次，屏幕旁会出现两个更大末日洗涤，向敌人方向攻击
+			在正确的时机拍击，稳定地增加它的咒音增幅等级，音波伤害，追踪距离和末日洗涤的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Needs at least three lungs to play! Pairs, that is"
+			"至少要三个肺才能玩！对...那是"
 			'''
 	}
 
 	DryMouth: {
-		DisplayName: Dry Mouth
+		DisplayName: 干煸镰刀
 		Tooltip:
 			'''
-			Ignores 10 points of defense
-			This scythe is swung directionally instead of spun
+			无视10点防御
+			这把镰刀是定向摆动不是旋转的
 			'''
 	}
 
 	Duality: {
-		DisplayName: Duality
+		DisplayName: 枯萎神镰
 		Tooltip:
 			'''
-			Spins a statigel scythe that emits red and purple energy on each blade
-			Hitting enemies with the purple energy inflicts shadowflame to them
-			Hitting enemies with the red energy massively boost health regeneration
-			<right> to throw the scythe, which will curve on its way back
-			"I have two sides: I forgor and I rember"
+			旋转枯萎神镰，刀刃上发出粉色和紫色的光芒
+			用紫色光芒攻击敌怪时，造成暗影火焰
+			用粉色光芒攻击敌怪时，提高生命回复
+			右键扔出镰刀，然后回到你身边
+			"我有两面性:我忘记，我记得"
 			'''
 	}
 
 	ElementalBloom: {
-		DisplayName: Elemental Bloom
+		DisplayName: 元素之花
 		Tooltip:
 			'''
-			Maximum life increased by 40
-			Maximum mana increased by 20
+			增加40最大生命值
+			增加20最大魔力值
 			增加15%治愈速度
 			增加20%光辉伤害
-			10% increased radiant casting speed
-			12% increased radiant critical strike chance
+			增加10%光辉施法速度
+			增加12%光辉暴击率
 			治疗法术会额外治疗2点生命值
-			Empowers radiant attacks with elemental energy
-			Increases the strength of damage over time effects by 66%
-			"When light and dark clash, they harmonize to a final shape"
+			为光辉攻击赋予元素能量
+			随着时间的推移增加66%的伤害强度
+			"当光明和黑暗碰撞时，它们会协调成最终的形状"
 			'''
 	}
 
 	Exorectionist: {
-		DisplayName: Exorectionist
+		DisplayName: 光幕炮
 		Tooltip:
 			'''
-			Shoots a long line of electrical charge that rapidly heals players
-			"Draedon's attempt at innovating defibrillation technology"
+			发射一串电荷，迅速治愈玩家
+			"创新除颤技术的尝试"
 			'''
 	}
 
@@ -302,35 +302,35 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName}"
 		Tooltip:
 			'''
-			Shoots a stream of molten hot notes
-			Notes can either inflict tuned or dragonfire, or refund inspiration back
-			Notes deal more damage against targets suffering from damage over time effects
-			<right> to summon an amplifier that shoots notes toward your mouse cursor
+			发射一串炽热的音符
+			音符施加调谐和龙焰, 和退还灵感值
+			音符对受到持续伤害的目标造成更多伤害
+			右键召唤音响向光标发射音符
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
 			'''
 	}
 
 	FilthyFlute: {
-		DisplayName: Filthy Flute
+		DisplayName: 暗影长笛
 		Tooltip:
 			'''
-			Shoots a fast ball of cursed inferno
-			Successfully timing hits will steadily increase its empowerment level and velocity
-			On the 5th successful timed hit, you attact a rare dank creeper specimen that fight for you
+			释放诅咒焰的弹幕
+			正确的时机拍击时，稳定提高其咒音增幅等级和演奏速度
+			连续5次按正确的时机拍击时, 吸引了一种罕见的潮湿的爬行动物为你而战
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"The song of the collective consciousness of the corruption"
-			Based off of the flute from "Filthy Mind" by DM Dokuro ft. SixteenInMono
+			"腐化意识集体之歌"
+			根据"Filthy Mind" 改编，由DM Dokuro演唱
 			'''
 	}
 
 	FlightoftheGoliath: {
-		DisplayName: Flight of the Goliath
+		DisplayName: 歌利亚飞舞
 		Tooltip:
 			'''
-			Ignores 25 points of defense
-			Shoots plague swarmer missiles that continuously attack its target
+			无视25点防御力
+			发射瘟疫蜂群导弹，持续攻击目标
 			"MAKE SOME NOOOOOIIISE!"
-			Based off of the chiptune sound from "Fly of Beelzebub" by DM Dokuro
+			 "Fly of Beelzebub" by DM Dokuro
 			'''
 	}
 
@@ -338,9 +338,9 @@ Items: {
 		DisplayName: Gashadokuro
 		Tooltip:
 			'''
-			Plays the iconic bell you all know and love
-			Inflicts vulnerability hex on hit and causes brimstone lightning to smite enemies
-			"A bell belonging to a legendary musician"
+			演奏你们熟悉又喜爱的钟声
+			对敌怪施加脆弱，并使硫磺闪电击中敌人
+			"属于一位传奇音乐家的钟"
 			'''
 	}
 
@@ -353,16 +353,16 @@ Items: {
 		DisplayName: God Slayer Deathsinger's Cowl
 		Tooltip:
 			'''
-			增加14%音波伤害and critical strike chance
-			9% increased symphonic演奏速度 and inspiration regeneration
-			Increases wind instrument homing speed by 15%
-			String instruments bounce two additional times
+			增加14%音波伤害和音波暴击率
+			增加9%音波演奏速度和灵感值回复
+			增加15%管乐器的追踪速度
+			弦乐器的弹幕会额外反弹两次
 			'''
 		SetBonus:
 			'''
-			50% increased empowerment range
-			A calamity bell floats above your head and occasionally rings while attacking
-			When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles get destroyed
+			增加50%咒音增幅范围
+			灾难性的钟声漂浮在你的头上，有概率会在攻击时响起
+			当铃声响起时，你周围的敌人受到15000的真实伤害，附近敌怪的投射物被摧毁
 			'''
 	}
 
@@ -384,38 +384,38 @@ Items: {
 	}
 
 	HydrothermicGasMask: {
-		DisplayName: Hydrothermic Gas Mask
+		DisplayName: 渊泉防毒面具
 		Tooltip:
 			'''
 			增加12%光辉伤害
-			6% increased radiant critical strike chance
+			增加6%光辉暴击率
 			治疗法术会额外治疗4点生命值
 			'''
 		SetBonus:
 			'''
-			9% increased healing and radiant casting speed
+			增加9%的治疗和光辉施法速度
 			治疗法术会额外治疗2点生命值
-			Taking more than 75 damage spawns an oasis that lasts 3 seconds
-			The oasis heals {0} life every 1/3 of a second
-			Only one oasis can be active at a time
+			受到超过75点的伤害会产生一个生命光幕，持续3秒
+			生命光幕每1/3秒治愈{0}生命值
+			一次只能有一个生命光幕
 			'''
 	}
 
 	HydrothermicHat: {
-		DisplayName: Hydrothermic Hat
+		DisplayName: 渊泉帽
 		Tooltip:
 			'''
-			15% increased symphonic damage
-			10% increased symphonic critical strike chance
-			String instruments bounce an additional time
+			增加15%音波伤害
+			增加10%音波暴击率
+			弦乐器弹跳时间增加
 			'''
 		SetBonus:
 			'''
-			Increases wind instrument homing speed by 15%
-			Increases wind instrument homing range by 5%
-			String instruments bounce two additional times
-			Symphonic critical strikes causes targets to erupt in sulfide flames
-			Only one eruption can occur and have a 3 second cooldown per trigger
+			增加15%管乐器的追踪速度
+			增加5%管乐器追踪范围
+			弦乐器的弹幕会额外反弹两次
+			音波暴击目标喷出硫化物火焰
+			只能发生一次喷发，每次喷发有3秒冷却时间
 			'''
 	}
 
