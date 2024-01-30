@@ -1,14 +1,15 @@
  [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]homepage[/url]
-#Version：1715.61.1
+ [url=https://github.com/madamamada/ThoriumModzhcn]github[/url]
+#Version：1715.633.1
 
-1.瑟银本体修改内容
-更新版本号，作者修复bug
-
-2.瑟银重置修改内容
-更新版本号，作者修复bug
-更新设置文案
+1.瑟银本体修改内容v1.7.1.5
 
 
+2.瑟银重置修改内容v0.6.3
+
+
+3.非灾厄官方，瑟银武器v0.3
+1.汉化更新
 
 
 
