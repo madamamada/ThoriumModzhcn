@@ -1,27 +1,27 @@
 ItemDescriptions: {
 	CelestialCarrier:
 		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		治疗法术会额外治疗4 life while wearing Celestial Armor
+		水平飞行速度: 9.00
+		加速倍率: 2.5
+		普通的垂直飞行速度
+		飞行时间: 180
+		当你穿着天界盔甲时，治疗法术会额外治疗4生命值
 		'''
 	ShootingStarTurboTuba:
 		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		15% increased inpiration regeneration rate while wearing Shooting Star Armor
+		水平飞行速度: 9.00
+		加速倍率: 2.5
+		普通的垂直飞行速度
+		飞行时间: 180
+		当穿着流影掠星盔甲时，灵感值恢复速度提高15%
 		'''
 	WhiteDwarfThrusters:
 		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
+		水平飞行速度: 9.00
+		加速倍率: 2.5
+		普通的垂直飞行速度
+		飞行时间: 180
+		当你穿着白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
 		'''
 }
 
@@ -60,15 +60,15 @@ Items: {
 		DisplayName: 海潮法杖
 		Tooltip:
 			'''
-			释放来自深海的触手向任何地方卷曲
-			最终沉淀并形成具有伤害的水流
-			攻击时造成深渊水压
+			释放来自深海的触手向各种方向卷曲
+			最终定型并形成伤害性水流吧
+			攻击造成深渊水压减益
 			"是溺死在深渊中，还是从深渊中漂浮……如海蛇所言，这里是无尽的潮水"
 			'''
 	}
 
 	ArcticReinforcement: {
-		DisplayName: 北极玻璃管
+		DisplayName: 北极冰管
 		Tooltip:
 			'''
 			释放冰晶对敌怪造成霜冻减益
@@ -92,7 +92,7 @@ Items: {
 			增加50%咒音增幅范围
 			增加2秒咒音增幅的持续时间
 			增加30%灵感值再生速率
-			拥有Bard Tarragon, Bloodflare和God Slayer的套装效果
+			拥有龙篙三角帽, 血耀死魂盔和弑神者头盔的套装效果
 			'''
 	}
 
@@ -104,11 +104,11 @@ Items: {
 			增加30%光辉暴击率
 			减少45%魔力消耗
 			大幅增加生命值与魔力再生
-			增加100最大生命值
-			增加200最大魔力值
+			增加100点最大生命值
+			增加200点最大魔力值
 			治疗法术会额外治疗18点生命值
 			'''
-		SetBonus: 拥有Healer Tarragon, Bloodflare and Silva的套装效果
+		SetBonus: 拥有龙篙冠, 血焱祭颅盔和始源林海头盔的套装效果
 	}
 
 	BelchingSaxophone: {
@@ -150,7 +150,7 @@ Items: {
 			'''
 			增加2秒咒音增幅的持续时间
 			造成的音波伤害会随着时间的推移而衰减
-			造成的音波伤害100%转化为充能
+			造成的音波100%伤害转化为充能
 			当充能达到100000时，获得魅惑之歌buff，持续5秒
 			魅惑之歌让灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
 			当魅惑之歌被激活受到伤害时，回复250点生命值，但会移除魅惑之歌
@@ -186,7 +186,7 @@ Items: {
 		Tooltip:
 			'''
 			无视20点防御力
-			这把镰刀是定向摆动而不是旋转
+			镰刀是定向摆动不是旋转的
 			造成酸性毒液与硫磺海剧毒减益
 			'''
 	}
@@ -229,7 +229,7 @@ Items: {
 		Tooltip:
 			'''
 			无视100防御力
-			镰刀是定向摆动而不是旋转的
+			镰刀是定向摆动不是旋转的
 			每次挥舞都会释放一连串幽灵
 			幽灵追逐目标
 			击中时造成死亡低语
@@ -256,7 +256,7 @@ Items: {
 		Tooltip:
 			'''
 			无视10点防御
-			这把镰刀是定向摆动不是旋转的
+			镰刀是定向摆动不是旋转的
 			'''
 	}
 
@@ -303,7 +303,7 @@ Items: {
 		Tooltip:
 			'''
 			发射一串炽热的音符
-			音符施加调谐和龙焰, 和退还灵感值
+			音符施加调谐和龙焰, 并退还灵感值
 			音符对受到持续伤害的目标造成更多伤害
 			右键召唤音响向光标发射音符
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
@@ -330,27 +330,27 @@ Items: {
 			无视25点防御力
 			发射瘟疫蜂群导弹，持续攻击目标
 			"MAKE SOME NOOOOOIIISE!"
-			 "Fly of Beelzebub" by DM Dokuro
+			来自 "Fly of Beelzebub" DM Dokuro
 			'''
 	}
 
 	Gashadokuro: {
-		DisplayName: Gashadokuro
+		DisplayName: 混乱钟（地狱铃铛灌注）
 		Tooltip:
 			'''
 			演奏你们熟悉又喜爱的钟声
-			对敌怪施加脆弱，并使硫磺闪电击中敌人
+			对敌怪施加脆弱，且使用硫磺闪电攻击敌人
 			"属于一位传奇音乐家的钟"
 			'''
 	}
 
 	GelatinTherapy: {
-		DisplayName: Gelatin Therapy
-		Tooltip: Shoots a bouncy sludge ball that can heal and cure any player including yourself
+		DisplayName: 纯净之杖
+		Tooltip: 发射弹性凝胶，可以治愈任何人
 	}
 
 	GodSlayerDeathsingerCowl: {
-		DisplayName: God Slayer Deathsinger's Cowl
+		DisplayName: 弑神者头盔
 		Tooltip:
 			'''
 			增加14%音波伤害和音波暴击率
@@ -361,30 +361,30 @@ Items: {
 		SetBonus:
 			'''
 			增加50%咒音增幅范围
-			灾难性的钟声漂浮在你的头上，有概率会在攻击时响起
+			灾难性的钟声悬浮在头上，攻击时有概率响起
 			当铃声响起时，你周围的敌人受到15000的真实伤害，附近敌怪的投射物被摧毁
 			'''
 	}
 
 	HarpY: {
-		DisplayName: Harp-Y
-		Tooltip: Shoots three bouncy feathers
+		DisplayName: 天蓝竖琴
+		Tooltip: 发射三根有弹跳的羽毛
 	}
 
 	HydrogenSulfide: {
-		DisplayName: Hydrogen Sulfide
+		DisplayName: 地缘镰刀
 		Tooltip:
 			'''
-			Ignores 50 points of defense
-			This scythe is swung directionally instead of spun
-			Shoots a flaming wave that is accompanied by 2 homing flames
-			Inflicts crush depth and hellfire on hit
-			"A catalyst to a lethal chemical reaction"
+			无视50点防御力
+			镰刀是定向摆动不是旋转的
+			发射烈焰弹幕，伴随着2根追踪的火束
+			攻击造成深渊水压和狱炎减益
+			"致命化学反应的催化剂"
 			'''
 	}
 
 	HydrothermicGasMask: {
-		DisplayName: 渊泉防毒面具
+		DisplayName: 渊泉面具
 		Tooltip:
 			'''
 			增加12%光辉伤害
@@ -414,337 +414,337 @@ Items: {
 			增加15%管乐器的追踪速度
 			增加5%管乐器追踪范围
 			弦乐器的弹幕会额外反弹两次
-			音波暴击目标喷出硫化物火焰
+			音波暴击敌怪会喷出硫化物火焰
 			只能发生一次喷发，每次喷发有3秒冷却时间
 			'''
 	}
 
 	InterstellarShredder: {
-		DisplayName: Interstellar Shredder
+		DisplayName: 星际古琴
 		Tooltip:
 			'''
-			Shoots a bouncy, non-piercing, homing astral flame crystal
-			The crystal is accompanied by two astral lasers that bounce twice
-			Inflicts astral infection on hit
-			"Sick riffs that travel through out the whole universe!"
-			Based off of the guitar solo from "Interstellar Stomper" by DM Dokuro
+			发射弹跳且追踪敌怪的星光弹幕
+			伴随着2根星体结晶，可以反弹两次
+			攻击造成幻星感染减益
+			"在整个宇宙中传播的恶心的即兴演奏!"
+			根据作者"DM Dokuro"音乐"Interstellar Stomper"吉他独奏改编
 			'''
 	}
 
 	LostOasis: {
-		DisplayName: Lost Oasis
+		DisplayName: 生命之光
 		Tooltip:
 			'''
-			Shoots an expanding oasis
-			Heals every half-second
-			"Nevermind guys, I found it"
+			释放不断扩张的生命光幕
+			每半秒治愈一次
+			"别介意，伙计们，我找到了"
 			'''
 	}
 
 	MilkyWay: {
-		DisplayName: Milky Way
+		DisplayName: 银河之息
 		Tooltip:
 			'''
-			Ignores 75 points of defense
-			<right> to throw the scythe, which will curve on its way back
-			Emits stars from afar that spiral inward
-			"The stars have aligned"
+			无视75点防御力
+			右键扔出镰刀，然后回到你身边
+			镰刀吸入星体之能
+			"星星已经排列好了"
 			'''
 	}
 
 	NoisebringerGoliath: {
-		DisplayName: Noisebringer Goliath
+		DisplayName: 瘟疫音响
 		Tooltip:
 			'''
-			150 symphonic damage
-			Summons two speakers that attack alongside you
-			Inflicts plague and tuned on hit
+			150 音波伤害
+			召唤两个悬浮音响在身边
+			造成瘟疫和调谐减益
 			"SOMEBODY SCREEEAAAAAM!"
 			'''
 	}
 
 	OathofSacrifice: {
-		DisplayName: Oath of Sacrifice
+		DisplayName: 献祭誓言（梦境捕捉器灌注）
 		Tooltip:
 			'''
-			Wielding this spell removes all your protection and makes you more vulnerable
-			Creates a ritual circle around you that revives dead players that come into contact
-			Living players that are inside the ritual circle cannot die under any circumstance
-			Living players are also liberated from most negative status effects
-			"You vow to put others' lives before yours"
+			使用法术会移除你所有的防御变得更加脆弱
+			在你周围创造魔法阵为濒死的玩家复活
+			在魔法阵中的队友在任何情况下都不能死亡
+			活着的队友也可以从大多数减益影响解脱
+			"你发誓敌人伤害你的队友之前必须踏过你的尸体"
 			'''
 	}
 
 	OmnicidesLaw: {
-		DisplayName: Omnicide's Law
+		DisplayName: 灭绝定律
 		Tooltip:
 			'''
-			Ignores 40 points of defense
-			Shoots out skulls that curve in random directions before homing to an enemy
-			Inflicts the plague on hit
-			"All life has a beginning and an end, as Omnicide, the Life Defiler claims"
+			无视40点防御力
+			随机方向发射瘟疫头骨并追踪敌怪
+			造成瘟疫减益
+			"所有的生命都有开始和结束，正如生命亵渎者所宣称的"
 			'''
 	}
 
 	OmniSpeaker: {
-		DisplayName: Omni-Speaker
+		DisplayName: 环星扩音器
 		Tooltip:
 			'''
-			15% increased symphonic damage,演奏速度, and critical strike chance
-			150% increased empowerment range
+			增加15%的音波伤害,演奏速度,和音波暴击率
+			增加150%咒音增幅范围
 			增加2秒咒音增幅的持续时间
-			String instruments bounce three additional times
-			Your wind instrument attacks now attempt to quickly home in on enemies
-			If the attack already homes onto enemies, it does so more quickly
-			Critical strikes caused by brass instrument attacks release a spread of piercing energy
-			Percussion critical strikes will deal 10% more damage and briefly stun enemies
-			You and nearby allies have a chance to inflict god slayer inferno when attacking targets
-			"Through the power of wormhole technology, everyone in the world can jam to your music!"
+			弦乐器的弹幕会额外反弹三次
+			管乐器攻击快速瞄准敌怪
+			如果已经瞄准了敌怪，那么攻击速度会更快
+			铜管乐器暴击时，会释放能量光束
+			攻击暴击时，造成的伤害提高10%并短暂眩晕敌人
+			你和队友有概率在攻击目标时，造成弑神怒焰减益
+			"通过虫洞技术的力量，世界上的每个人都可以跟着你的音乐一起演奏!"
 			'''
 	}
 
 	PhoenicianBeak: {
-		DisplayName: Phoenician Beak
+		DisplayName: 终末龙息
 		Tooltip:
 			'''
-			Ignores 100 points of defense
-			This scythe is swung directionally instead of spun
-			Shoots out a powerful slash that leave a trail of fire
-			Inflicts dragonfire on hit
+			无视100点防御力
+			镰刀是定向摆动不是旋转的
+			打出有力的一击并留下一串龙息
+			造成龙焰减益
 			'''
 	}
 
 	PledgeofSelflessness: {
-		DisplayName: Pledge of Selflessness
+		DisplayName: 无私誓言（好人书灌注）
 		Tooltip:
 			'''
-			Wielding this spell removes all your protection and makes you more vulnerable
-			Shoots 3 brimstone rays that home on up to 3 different players and heal them
-			If there are less than 3 players, extra rays can heal the same players again
-			"You promise to value others as much as you value yourself"
+			使用法术会移除你所有的防御变得更加脆弱
+			最多向3名队友释放硫磺射线并治愈他们
+			如果少于3名队友，额外的硫磺射线会治疗已经治愈过的队友
+			"你承诺要像重视自己一样重视别人"
 			'''
 	}
 
 	ReturntoSludge: {
-		DisplayName: Return to Sludge
-		Tooltip: Charge to build up a goo bomb then release to shoot it
+		DisplayName: 污秽长号
+		Tooltip: 发射凝胶炮弹（凝胶巨石划掉），蓄力可以发射的更远
 	}
 
 	SARS: {
 		DisplayName: S.A.R.S.
 		Tooltip:
 			'''
-			Ignores 10 points of defense
-			Releases plague traces while spun
-			Releases even more when hitting enemies
-			Inflicts the plague on hit
-			"Please practice social distancing"
+			无视10点防御力
+			旋转时释放瘟疫弹幕
+			攻击敌人释放更多
+			造成瘟疫减益
+			"请保持社交距离"
 			'''
 	}
 
 	SchoolNurse: {
-		DisplayName: School Nurse
+		DisplayName: 冰川魔棒
 		Tooltip:
 			'''
-			Shoots a barrage of slippery ice that heals and cures
-			"All it takes is an ice pack and some prayer"
+			发射一连串的滑动的蓝冰治愈玩家
+			"只需要冰袋和一些祈祷"
 			'''
 	}
 
 	SilvaGuardianHelmet: {
-		DisplayName: Silva Guardian's Helmet
+		DisplayName: 始源林海头盔
 		Tooltip:
 			'''
-			增加12%光辉伤害 and critical strike chance
-			Moderately increased life regeneration
-			+100 max life
+			增加12%光辉伤害和光辉暴击率
+			适中增加生命回复
+			增加100点最大生命值
 			治疗法术会额外治疗15点生命值
 			'''
-		SetBonus: Taking a lot of damage gives players with the lowest health the Guardian Angel buff for 30 seconds
+		SetBonus: 受到大量伤害后，会让生命值最低的玩家获得守护天使增益，持续30秒
 	}
 
 	SlagFurysIntent: {
-		DisplayName: Slag Fury's Intent
+		DisplayName: 硫火法杖
 		Tooltip:
 			'''
-			Rapidly shoots out brimstone beams that curve in random directions
-			Inflicts brimstone flames on hit
-			"A relic from the remains of Azafure, as Slag Fury, the First Flame intended"
+			任意方向发射硫磺光束
+			造成硫磺火减益
+			"来自陵墓中的圣物"
 			'''
 	}
 
 	SongoftheAncients: {
-		DisplayName: Song of the Ancients
+		DisplayName: 远古之歌
 		Tooltip:
 			'''
-			Shoots two elemental beams that move in a helix pattern before splitting
-			Ignores 15 points of defense
-			Successfully timing hits will steadily increase its empowerment level
+			发射两条元素光束，以互相交错螺旋方式移动
+			无视15点防御力
+			在正确的时机拍击，稳定地增加它的咒音增幅等级
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
 	}
 
 	SongoftheCosmos: {
-		DisplayName: Song of the Cosmos
+		DisplayName: 寰宇之歌
 		Tooltip:
 			'''
-			Shoot five cosmic beams that move in a helix pattern
-			Can hit the same target multiple times
-			Ignores 75 points of defense
-			"The very song that harmonizes the universe"
+			发射五条宇宙光束，以螺旋方式移动
+			能多次攻击同一个目标
+			无视75点防御力
+			"使宇宙和谐的旋律"
 			'''
 	}
 
 	SongoftheElements: {
-		DisplayName: Song of the Elements
+		DisplayName: 元素之歌
 		Tooltip:
 			'''
-			Shoot three elemental beams that move in a helix pattern
-			Can hit the same target multiple times
-			Ignores 25 points of defense
-			"The very song that brings balance to many worlds"
+			发射三条元素光束，以螺旋方式移动
+			能多次攻击同一个目标
+			无视25点防御力
+			"这首歌给许多世界带来了平衡"
 			'''
 	}
 
 	SpookyMonth: {
-		DisplayName: Spooky Month
-		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
+		DisplayName: 魇梦之月
+		Tooltip: 发射一连串燃烧南瓜头攻击目标
 	}
 
 	StatigelEarrings: {
-		DisplayName: Statigel Earrings
+		DisplayName: 斯塔提斯三角帽
 		Tooltip:
 			'''
-			12% increased symphonic damage
-			8% increased symphonic critical strike chance
-			String instruments bounce two additional times
+			增加12%音波伤害
+			增加8%音波暴击率
+			弦乐器的弹幕会额外反弹两次
 			'''
 	}
 
 	StatigelFoxMask: {
-		DisplayName: Statigel Fox Mask
+		DisplayName: 斯塔提斯狐狸面具
 		Tooltip:
 			'''
-			增加9%光辉伤害and casting speed
+			增加9%光辉伤害和施法速度
 			治疗法术会额外治疗4点生命值
 			'''
 		SetBonus: 增加9%治愈速度
 	}
 
 	Syzygy: {
-		DisplayName: Syzygy
+		DisplayName: 朔望
 		Tooltip:
 			'''
-			Ignores 25 points of defense
-			<right> to throw the scythe, which will curve on its way back
-			Constantly spawns lingering elemental energy that spins around
-			"A terrible catastrophe for most, a beautiful harmony for some"
+			无视25点防御力
+			右键扔出镰刀，然后回到你身边
+			随着镰刀不断产生元素能量
+			"对大多数人来说是可怕的灾难，对一些人来说是美好的和谐"
 			'''
 	}
 
 	TarragonChapeau: {
-		DisplayName: Tarragon Chapeau
+		DisplayName: 龙篙三角帽
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			5% increased symphonic critical strike chance and演奏速度
-			String instruments bounce three additional times
+			增加10%音波伤害
+			增加5%音波暴击率和演奏速度
+			弦乐器的弹幕会额外反弹三次
 			'''
-		SetBonus: You spawn quarter rests around you that heal inspiration when hitting enemies
+		SetBonus: 随着时间推移召唤伤害敌人的音符
 	}
 
 	TarragonParagonCrown: {
-		DisplayName: Tarragon Paragon Crown
+		DisplayName: 龙蒿冠
 		Tooltip:
 			'''
 			增加10%光辉伤害
-			5% increased radiant critical strike chance
-			+20 max life
-			Slightly increased life regeneration
+			增加5%光辉暴击率
+			增加20点最大生命值
+			略微增加生命再生
 			治疗法术会额外治疗8点生命值
 			'''
-		SetBonus: Occasionally emit a healing pulse that heals and shields allies by {0} points
+		SetBonus: 有概率释放治疗脉冲，治愈队友{0}点生命值
 	}
 
 	TectonicPlates: {
-		DisplayName: Tectonic Plates
+		DisplayName: 地壳波动
 		Tooltip:
 			'''
-			Shoots out two rocks that collide in the cursor position
-			Upon colliding, it creates a medium-sized explosion that inflicts crush depth
-			"Sponsored by Alfred Wegener"
+			发射两个岩石，在光标的位置撞击
+			碰撞后产生中等大小的波动，造成深渊水压减益
+			"Alfred Wegener的赞助"
 			'''
 	}
 
 	TidalForce: {
-		DisplayName: Tidal Force
+		DisplayName: 潮汐之力
 		Tooltip:
 			'''
-			Ignores 40 points of defense
-			This scythe is swung directionally instead of spun
-			Shoots a miniature tidal wave every swing
-			Inflicts crushing depth on hit
+			无视40点防御力
+			镰刀是定向摆动不是旋转的
+			每次摆动都会产生小型潮汐波
+			造成深渊水压减益
 			'''
 	}
 
 	TheWindmill: {
-		DisplayName: The Windmill
+		DisplayName: 天穹收割者
 		Tooltip:
 			'''
-			Leaves behind a whirlwind every swing
+			每次挥舞都会随着镰刀留下旋风
 			"Wooosh! Wind powered!"
 			'''
 	}
 
 	Transfiguration: {
-		DisplayName: Transfiguration
+		DisplayName: 赎神之光
 		Tooltip:
 			'''
-			Cast a holy ray of light above your cursor that will heal allies under it
-			"Get ready to receive some holy spirit..."
+			在你的光标处释放一道神圣之光，治愈光标下的队友
+			"准备好接受神灵的救赎吧.."
 			'''
 	}
 
 	Violince: {
-		DisplayName: Violince
+		DisplayName: 血肉小提琴
 		Tooltip:
 			'''
-			Shoots a spread of bouncy ichor
-			Successfully timing hits will steadily increase its empowerment level and velocity
-			Every 3 successfully timed hits, the amount of projectiles shot increase up to a maximum of 6
+			发射弹跳的星光弹幕
+			在正确的时机拍击，稳定地增加它的咒音增幅等级和演奏速度
+			每成功命中3次，发射的弹幕数量增加到6枚
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Rated 18+ for sax and violince"
-			Based off of the violin from "Blood Coagulant" by DM Dokuro ft. SixteenInMono
+			"萨克斯和小提琴评分18+ "
+			根据DM Dokuro "Blood Coagulant" 的"Blood Coagulant"小提琴改编
 			'''
 	}
 
 	WilloftheRagnarok: {
-		DisplayName: Will of the Ragnarök
+		DisplayName: 寰宇魔杖
 		Tooltip:
 			'''
-			Combined effects of all downgrades
-			"Erase those who disturb the balance of the universe"
+			所有合成武器的加成
+			"消灭那些扰乱宇宙平衡的人"
 			'''
 	}
 
 	Windward: {
-		DisplayName: Windward
-		Tooltip: Shoots two slightly homing feathers
+		DisplayName: 迎风
+		Tooltip: 发射两根追踪的羽毛
 	}
 
 	WulfrumMegaphone: {
-		DisplayName: Wulfrum Megaphone
+		DisplayName: 钨钢扩音器
 		Tooltip:
 			'''
-			Shoots a sound wave that grows and speeds up
-			Tunes targets on hit, increasing the damage they take by 5%
-			"Behold! The Cheap-Insults-Inator!"
+			发射的音波会随着时间的推移发射的更快
+			被调谐的敌怪多受5%伤害
+			"看那!廉价的侮辱者!"
 			'''
 	}
 
 	WulfrumWeedWacker: {
-		DisplayName: Wulfrum Weed Wacker
-		Tooltip: This scythe is swung directionally instead of spun
+		DisplayName: 钨钢镰刀
+		Tooltip: 镰刀是定向摆动不是旋转的
 	}
 }
 
@@ -844,7 +844,7 @@ Buffs: {
 	}
 
 	CalamityBell: {
-		DisplayName: Calamity Bell
-		Description: It's just waiting there, menacingly...
+		DisplayName: 灾厄波动
+		Description: 它就在那里等着，威胁着……
 	}
 }
