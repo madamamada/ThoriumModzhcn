@@ -493,6 +493,11 @@ Configs: {
 			Label: Overlay intensity
 			Tooltip: How transparent screen overlays are
 		}
+
+		seizures: {
+			Label: Photosensitivity warning
+			Tooltip: Prompts a photosensitivity warning when joining a world
+		}
 	}
 
 	CompatConfig: {

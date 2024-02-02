@@ -233,6 +233,7 @@ Projectiles: {
 	FlareSlash.DisplayName: Flare Slash
 	Flash.DisplayName: Flash
 	GrandThunder.DisplayName: Grand Thunder
+	// GrandThunderF.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
 	HitScan.DisplayName: Hit-Scan
 	HitScanner.DisplayName: Hit-Scanner
@@ -287,7 +288,8 @@ Projectiles: {
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix
 	VoidEyeF.DisplayName: Will of Coznix
-	// ZephyrFeather.DisplayName: Zephyr's Feather
+	ZephyrFeather.DisplayName: Zephyr's Feather
+	ZephyrsRuin.DisplayName: Zephyr's Ruin
 }
 
 Items: {
@@ -446,7 +448,7 @@ Items: {
 			'''
 			暴击后召唤雷云攻击敌人
 			感觉不到疲惫
-			''' 
+			'''
 	}
 }
 
@@ -492,6 +494,11 @@ Configs: {
 			Label: 覆盖强度
 			Tooltip: 多少的屏幕覆盖
 		}
+
+		seizures: {
+			Label: 光敏警告提示
+			Tooltip: 启动世界时有光敏警告提示
+		}
 	}
 
 	CompatConfig: {
@@ -503,13 +510,18 @@ Configs: {
 		}
 
 		postDoGRag: {
-			Label: 调整始生灾灵在灾厄里的阶段
-			Tooltip: 让始生灾灵在神明吞噬者后召唤（推荐）
+			Label: 在灾厄与fargo魂里重置始生灾灵阶级
+			Tooltip:
+				'''
+				(推荐!)
+				灾厄中始生灾灵在神明吞噬者后召唤
+				法狗魂石中始生灾灵在宇宙英灵后召唤
+				'''
 		}
 
 		vanillaBard: {
 			Label: 让星星吉他和魔法竖琴成为吟游诗人武器
-			Tooltip: ""
+			Tooltip: 让星星吉他和魔法竖琴成为吟游诗人武器并加入灌注附魔效果
 		}
 
 		DoD: {
