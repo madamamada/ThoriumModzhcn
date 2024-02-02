@@ -104,8 +104,8 @@ Items: {
 			增加30%光辉暴击率
 			减少45%魔力消耗
 			大幅增加生命值与魔力再生
-			增加100点最大生命值
-			增加200点最大魔力值
+			最大生命值增加100
+			最大魔力值增加200
 			治疗法术会额外治疗18点生命值
 			'''
 		SetBonus: 拥有龙篙冠, 血焱祭颅盔和始源林海头盔的套装效果
@@ -127,7 +127,7 @@ Items: {
 			'''
 			增加15%光辉伤害和光辉暴击率
 			增加80最大生命值
-			适度增加生命回复
+			适中增加生命回复
 			治疗法术会额外治疗12点生命值
 			'''
 		SetBonus:
@@ -276,8 +276,8 @@ Items: {
 		DisplayName: 元素之花
 		Tooltip:
 			'''
-			增加40最大生命值
-			增加20最大魔力值
+			最大生命值增加40
+			最大魔力值增加20
 			增加15%治愈速度
 			增加20%光辉伤害
 			增加10%光辉施法速度
@@ -557,7 +557,7 @@ Items: {
 			'''
 			增加12%光辉伤害和光辉暴击率
 			适中增加生命回复
-			增加100点最大生命值
+			最大生命值增加100
 			治疗法术会额外治疗15点生命值
 			'''
 		SetBonus: 受到大量伤害后，会让生命值最低的玩家获得守护天使增益，持续30秒
@@ -659,7 +659,7 @@ Items: {
 			'''
 			增加10%光辉伤害
 			增加5%光辉暴击率
-			增加20点最大生命值
+			最大生命值增加20
 			略微增加生命再生
 			治疗法术会额外治疗8点生命值
 			'''
@@ -746,6 +746,78 @@ Items: {
 		DisplayName: 钨钢镰刀
 		Tooltip: 镰刀是定向摆动不是旋转的
 	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: 圣徒奉献
+		Tooltip:
+			'''
+			释放一根向光标处延伸的根茎并开出爆裂的花朵
+			"奉献激发勇敢，勇敢激发牺牲"
+			''' 
+	}
+
+	BloomingSaintessStatue: {
+		DisplayName: 圣徒雕像
+		Tooltip:
+			'''
+			最大生命值增加20
+			最大魔力值增加20
+			增加12%治疗速度
+			增加14%光辉伤害
+			增加6%光辉施法速度
+			增加8%光辉暴击率
+			治疗法术会额外治疗2点生命值
+			敌怪处于破晓减益增辐光辉攻击
+			"幸运的是，它太大了，装不下任何罐子"
+			''' 
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: 水风琴
+		Tooltip:
+			'''
+			向光标处释放两个水滴体，击中敌怪时破碎
+			"人之善如水，水益万物"
+			出自DM Dokuro的“Sanctuary”中钢琴般的声音
+			''' 
+	}
+
+	SymphonicFabrications: {
+		DisplayName: 星流律动
+		Tooltip:
+			'''
+			发射追踪的彩色导弹粉碎目标
+			手持武器时，召唤两个星流扬声器
+			它们会随着你的攻击发射追踪声波协同攻击
+			声波会把造成伤害的5%转化为对你的治疗
+			声波也有33%的几率恢复1点灵感值
+			"你现在听到的是... Exo-FM!"
+			''' 
+	}
+
+	TreeWhispererAmulet: {
+		DisplayName: 树语者护身符
+		Tooltip:
+			'''
+			增加12%音波伤害，演奏速度和暴击率
+			弦乐器的弹幕会额外反弹两次
+			管乐器攻击快速瞄准敌怪
+			如果已经瞄准了敌怪，那么攻击速度会更快
+			铜管乐器暴击时，会释放能量光束
+			攻击暴击时，造成的伤害提高10%并短暂眩晕敌人
+			"和树木说话，倾听它们的声音，用它们的想法谱写一些节拍!"
+			''' 
+	}
+
+	TreeWhisperersHarp: {
+		DisplayName: 树语者竖琴
+		Tooltip:
+			'''
+			向光标处发射树干并长出叶子
+			叶子最终会脱落并落在敌怪身上
+			"每个人都需要朋友，即使是一棵快乐的小树!"
+			''' 
+	}
 }
 
 Projectiles: {
@@ -829,6 +901,15 @@ Projectiles: {
 	Windward.DisplayName: Windward
 	WulfrumSoundWave.DisplayName: Sound Wave
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
+	// BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
+	// BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
+	// BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
+	// CrystalHydraulophone.DisplayName: Crystal Hydraulophone
+	// ExoSound.DisplayName: Exo Surround Sound
+	// ExoSurroundSound.DisplayName: Exo Surround Sound
+	// SymphonicExoMissile.DisplayName: Symphonic Exo Missile
+	// WhisperingLeaf.DisplayName: Whispering Leaf
+	// WhisperingTrunk.DisplayName: Whispering Trunk
 }
 
 Buffs: {
