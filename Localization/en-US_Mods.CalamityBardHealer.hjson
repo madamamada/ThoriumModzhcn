@@ -746,6 +746,78 @@ Items: {
 		DisplayName: Wulfrum Weed Wacker
 		Tooltip: This scythe is swung directionally instead of spun
 	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: Blooming Saintess' Devotion
+		Tooltip:
+			'''
+			Shoots a spreading stem which blooms exploding flowers
+			"Devotion inspires bravery, bravery inspires sacrifice"
+			'''
+	}
+
+	BloomingSaintessStatue: {
+		DisplayName: Blooming Saintess Statue
+		Tooltip:
+			'''
+			Maximum life increased by 20
+			Maximum mana increased by 20
+			12% increased healing speed
+			14% increased radiant damage
+			6% increased radiant casting speed
+			8% increased radiant critical strike chance
+			Healing spells will heal an additional 2 life
+			Empowers radiant attacks with daybroken
+			"Luckily, its too big to fit in any jar"
+			'''
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: Crystal Hydraulophone
+		Tooltip:
+			'''
+			Shoots two curving water crystals that shatter on hit
+			"The best of man is like water, water benefits all things"
+			Based off of the piano-like sound from "Sanctuary" by DM Dokuro
+			'''
+	}
+
+	SymphonicFabrications: {
+		DisplayName: Symphonic Fabrications
+		Tooltip:
+			'''
+			Shoots a barrage of colorful missiles that shreds targets
+			While holding the weapon, two exo speakers hover beside you
+			These attack alongside you by shooting homing sound waves
+			Sound waves heal you for 5% of the damage dealt
+			Sound waves also have a 33% chance to heal 1 inspiration
+			"Now you're listening to... Exo-FM!"
+			'''
+	}
+
+	TreeWhispererAmulet: {
+		DisplayName: Tree Whisperer Amulet
+		Tooltip:
+			'''
+			12% increased symphonic damage, playing speed, and critical strike chance
+			String instruments bounce two additional times
+			Your wind instrument attacks now attempt to quickly home in on enemies
+			If the attack already homes onto enemies, it does so more quickly
+			Critical strikes caused by brass instrument attacks release a spread of piercing energy
+			Percussion critical strikes will deal 10% more damage and briefly stun enemies
+			"Speak for the trees, hear them out, use their ideas to compose some beats!"
+			'''
+	}
+
+	TreeWhisperersHarp: {
+		DisplayName: Tree Whisperer's Harp
+		Tooltip:
+			'''
+			Shoots a tree trunk that branches out and grow leaves
+			The leaves eventually fall off and home onto enemies
+			"Everyone needs a friend, even a happy little tree!"
+			'''
+	}
 }
 
 Projectiles: {
@@ -829,6 +901,15 @@ Projectiles: {
 	Windward.DisplayName: Windward
 	WulfrumSoundWave.DisplayName: Sound Wave
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
+	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
+	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
+	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
+	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
+	ExoSound.DisplayName: Exo Surround Sound
+	ExoSurroundSound.DisplayName: Exo Surround Sound
+	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
+	WhisperingLeaf.DisplayName: Whispering Leaf
+	WhisperingTrunk.DisplayName: Whispering Trunk
 }
 
 Buffs: {
@@ -847,4 +928,34 @@ Buffs: {
 		DisplayName: Calamity Bell
 		Description: It's just waiting there, menacingly...
 	}
+}
+
+FargoEnchantments: {
+	AtaxiaEnchant:
+		'''
+		Taking more than 75 damage spawns an oasis that lasts 3 seconds
+		The oasis heals life equal to bonus healing every 1/3 of a second
+		Symphonic critical strikes causes targets to erupt in sulfide flames
+		Only one eruption can occur and have a 3 second cooldown per trigger
+		'''
+	BloodflareEnchant:
+		'''
+		Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
+		Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
+		Dealing symphonic damage charges up a meter that decays over time, the meter is charged up by 100% of symphonic damage dealt
+		When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+		Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
+		Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+		'''
+	GodSlayerEnchant:
+		'''
+		A calamity bell floats above your head and occasionally rings while attacking
+		When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
+		'''
+	SilvaEnchant: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
+	TarragonEnchant:
+		'''
+		You spawn two quarter rests around you that heal inspiration upon hitting enemies
+		Occasionally emit a healing pulse that heals and shields allies equal to bonus healing
+		'''
 }

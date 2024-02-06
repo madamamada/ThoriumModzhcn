@@ -151,7 +151,7 @@ Items: {
 			增加2秒咒音增幅的持续时间
 			造成的音波伤害会随着时间的推移而衰减
 			造成的音波100%伤害转化为充能
-			当充能达到100000时，获得魅惑之歌buff，持续5秒
+			当充能达到100000时，获得魅惑之歌增益，持续5秒
 			魅惑之歌让灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
 			当魅惑之歌被激活受到伤害时，回复250点生命值，但会移除魅惑之歌
 			'''
@@ -203,7 +203,7 @@ Items: {
 			'''
 			治疗法术会额外治疗1点生命值
 			按下“盔甲能力，控件{0}”在你所在的位置召唤冰淇淋机，再按“盔甲能力，控件{0}”取消召唤
-			右键点击冰淇淋机，获得1分钟的糖果冲刺buff
+			右键点击冰淇淋机，获得1分钟的糖果冲刺增益
 			也会获得{1}0生命恢复，但有3分钟的冷却时间
 			'''
 	}
@@ -265,7 +265,7 @@ Items: {
 		Tooltip:
 			'''
 			旋转枯萎神镰，刀刃上发出粉色和紫色的光芒
-			用紫色光芒攻击敌怪时，造成暗影火焰
+			用紫色光芒攻击敌怪时，造成暗影焰
 			用粉色光芒攻击敌怪时，提高生命回复
 			右键扔出镰刀，然后回到你身边
 			"我有两面性:我忘记，我记得"
@@ -319,7 +319,7 @@ Items: {
 			连续5次按正确的时机拍击时, 吸引了一种罕见的潮湿的爬行动物为你而战
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"腐化意识集体之歌"
-			根据"Filthy Mind" 改编，由DM Dokuro演唱
+			演唱根据"Filthy Mind"中的笛子声音改编，由DM Dokuro演唱
 			'''
 	}
 
@@ -330,7 +330,7 @@ Items: {
 			无视25点防御力
 			发射瘟疫蜂群导弹，持续攻击目标
 			"MAKE SOME NOOOOOIIISE!"
-			来自 "Fly of Beelzebub" DM Dokuro
+			基于来自DM Dokuro的“Fly of Beelzebub”的芯片音乐
 			'''
 	}
 
@@ -395,7 +395,7 @@ Items: {
 			'''
 			增加9%的治疗和光辉施法速度
 			治疗法术会额外治疗2点生命值
-			受到超过75点的伤害会产生一个生命光幕，持续3秒
+			受到超过75点的伤害会生成生命光幕，持续3秒
 			生命光幕每1/3秒治愈{0}生命值
 			一次只能有一个生命光幕
 			'''
@@ -714,7 +714,7 @@ Items: {
 			每成功命中3次，发射的弹幕数量增加到6枚
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"萨克斯和小提琴评分18+ "
-			根据DM Dokuro "Blood Coagulant" 的"Blood Coagulant"小提琴改编
+			改编根据DM Dokuro的"Blood Coagulant" 中的小提琴声改编
 			'''
 	}
 
@@ -753,7 +753,7 @@ Items: {
 			'''
 			释放一根向光标处延伸的根茎并开出爆裂的花朵
 			"奉献激发勇敢，勇敢激发牺牲"
-			''' 
+			'''
 	}
 
 	BloomingSaintessStatue: {
@@ -769,7 +769,7 @@ Items: {
 			治疗法术会额外治疗2点生命值
 			敌怪处于破晓减益增辐光辉攻击
 			"幸运的是，它太大了，装不下任何罐子"
-			''' 
+			'''
 	}
 
 	CrystalHydraulophone: {
@@ -778,8 +778,8 @@ Items: {
 			'''
 			向光标处释放两个水滴体，击中敌怪时破碎
 			"人之善如水，水益万物"
-			出自DM Dokuro的“Sanctuary”中钢琴般的声音
-			''' 
+			改编出自DM Dokuro的“Sanctuary”中钢琴声
+			'''
 	}
 
 	SymphonicFabrications: {
@@ -792,7 +792,7 @@ Items: {
 			声波会把造成伤害的5%转化为对你的治疗
 			声波也有33%的几率恢复1点灵感值
 			"你现在听到的是... Exo-FM!"
-			''' 
+			'''
 	}
 
 	TreeWhispererAmulet: {
@@ -806,7 +806,7 @@ Items: {
 			铜管乐器暴击时，会释放能量光束
 			攻击暴击时，造成的伤害提高10%并短暂眩晕敌人
 			"和树木说话，倾听它们的声音，用它们的想法谱写一些节拍!"
-			''' 
+			'''
 	}
 
 	TreeWhisperersHarp: {
@@ -816,7 +816,7 @@ Items: {
 			向光标处发射树干并长出叶子
 			叶子最终会脱落并落在敌怪身上
 			"每个人都需要朋友，即使是一棵快乐的小树!"
-			''' 
+			'''
 	}
 }
 
@@ -901,15 +901,15 @@ Projectiles: {
 	Windward.DisplayName: Windward
 	WulfrumSoundWave.DisplayName: Sound Wave
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
-	// BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
-	// BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
-	// BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
-	// CrystalHydraulophone.DisplayName: Crystal Hydraulophone
-	// ExoSound.DisplayName: Exo Surround Sound
-	// ExoSurroundSound.DisplayName: Exo Surround Sound
-	// SymphonicExoMissile.DisplayName: Symphonic Exo Missile
-	// WhisperingLeaf.DisplayName: Whispering Leaf
-	// WhisperingTrunk.DisplayName: Whispering Trunk
+	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
+	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
+	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
+	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
+	ExoSound.DisplayName: Exo Surround Sound
+	ExoSurroundSound.DisplayName: Exo Surround Sound
+	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
+	WhisperingLeaf.DisplayName: Whispering Leaf
+	WhisperingTrunk.DisplayName: Whispering Trunk
 }
 
 Buffs: {
@@ -928,4 +928,34 @@ Buffs: {
 		DisplayName: 灾厄波动
 		Description: 它就在那里等着，威胁着……
 	}
+}
+
+FargoEnchantments: {
+	/* AtaxiaEnchant:
+		'''
+		Taking more than 75 damage spawns an oasis that lasts 3 seconds
+		The oasis heals life equal to bonus healing every 1/3 of a second
+		Symphonic critical strikes causes targets to erupt in sulfide flames
+		Only one eruption can occur and have a 3 second cooldown per trigger
+		''' */
+	/* BloodflareEnchant:
+		'''
+		Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
+		Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
+		Dealing symphonic damage charges up a meter that decays over time, the meter is charged up by 100% of symphonic damage dealt
+		When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+		Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
+		Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+		''' */
+	/* GodSlayerEnchant:
+		'''
+		A calamity bell floats above your head and occasionally rings while attacking
+		When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
+		''' */
+	// SilvaEnchant: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
+	/* TarragonEnchant:
+		'''
+		You spawn two quarter rests around you that heal inspiration upon hitting enemies
+		Occasionally emit a healing pulse that heals and shields allies equal to bonus healing
+		''' */
 }
