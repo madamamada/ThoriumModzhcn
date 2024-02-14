@@ -4,6 +4,8 @@
 感谢：由灾厄维基出品的中文瑟银wiki
 瑟银繁中汉化已删除，推荐使用[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3085000141]Extra Language![/url]代替
 此汉化包含[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银boss重置[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器[/url]不包括这两个模组的前置，以瑟银为前置
+1.4.3汉化详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2919893631]三月汉化[/url]
+伤害统计详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797518634]更好的体验[/url]
 
 [h1]使用方法[/h1]
 1.同时订阅ThoriumMod和本Mod
@@ -22,4 +24,6 @@
 [h1]更新日记[/h1]
 从v0.4.2.2版本后，移至改动说明
 
+
+[quote=tModLoader]Developed By moon_ditch，@马达达马达（B站同名），令，末泠[/quote]
 
