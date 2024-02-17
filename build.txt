@@ -1,6 +1,6 @@
 displayName = 瑟银简中汉化补丁
 author = moon_ditch，@马达达马达（B站同名），令，末泠
-version = 1715.61.1
+version = 1715.665.1
 translationMod = true
 side = Client
 hideCode = true

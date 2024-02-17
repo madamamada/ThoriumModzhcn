@@ -23,6 +23,25 @@ ItemDescriptions: {
 		飞行时间: 180
 		当你穿着白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
 		'''
+	AstralBreastplate: 最大灵感值增加6和额外治疗增加4
+	AstralHelm: 增加12%的灵感值恢复速度
+	DemonshadeGreaves:
+		'''
+		最大技巧值增加2, 最大灵感值增加15, 额外治疗增加25
+		增加60%管乐器的追踪速度和范围和弦乐器的弹幕会额外反弹六次
+		咒音增幅的效用范围翻倍和咒音增幅持续时间延长6秒
+		''' 
+	DemonshadeHelm:
+		'''
+		增加55%的灵感值恢复速度和基础灵感音符的掉落概率
+		增加35%光辉治愈速度和音波演奏速度
+		''' 
+	OmegaBlueSet:
+		'''
+		最大技巧值增加2
+		最大灵感值增加12和额外治疗增加7
+		''' 
+	WulfrumJacket: 增加25%咒音增幅范围
 }
 
 Items: {
@@ -196,7 +215,7 @@ Items: {
 		Tooltip:
 			'''
 			增加10%光辉伤害
-			增加5%治愈速度
+			增加5%光辉治愈速度
 			治疗法术会额外治疗3点生命值
 			'''
 		SetBonus:
@@ -278,7 +297,7 @@ Items: {
 			'''
 			最大生命值增加40
 			最大魔力值增加20
-			增加15%治愈速度
+			增加15%光辉治愈速度
 			增加20%光辉伤害
 			增加10%光辉施法速度
 			增加12%光辉暴击率
@@ -628,7 +647,7 @@ Items: {
 			增加9%光辉伤害和施法速度
 			治疗法术会额外治疗4点生命值
 			'''
-		SetBonus: 增加9%治愈速度
+		SetBonus: 增加9%光辉治愈速度
 	}
 
 	Syzygy: {
@@ -818,6 +837,49 @@ Items: {
 			"每个人都需要朋友，即使是一棵快乐的小树!"
 			'''
 	}
+
+	CherubimOmega: {
+		DisplayName: 终局神使
+		Tooltip:
+			'''
+			镰刀是定向摆动不是旋转的
+			每次挥舞向光标处进行收割
+			每次收割砍出空间裂缝
+			空间裂缝释放最多五种天体能量
+			"等等，这不是星神之杀!"
+			''' 
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: 泰瑟电棍
+		Tooltip:
+			'''
+			旋转一把泰瑟电棍
+			每次挥舞在法棍周边释放闪电链
+			闪电链可以在敌人身上进行反弹
+			"内置泰瑟枪的可伸缩钩爪"
+			''' 
+	}
+
+	ScrapGuitar: {
+		DisplayName: 废弃吉他
+		Tooltip:
+			'''
+			发射缓慢的闪电束，在敌人之间反弹
+			反弹次数受弦乐器的反弹加成增益
+			"触摸电线能踏上天堂的阶梯！"
+			''' 
+	}
+
+	ScuffedKeytar: {
+		DisplayName: 磨损的肩背式合成器
+		Tooltip:
+			'''
+			无视30点防御
+			释放可以穿透的音乐旋律
+			"一把几乎不能用的肩背式合成器……关键字:‘工作’"
+			''' 
+	}
 }
 
 Projectiles: {
@@ -910,6 +972,17 @@ Projectiles: {
 	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
 	WhisperingLeaf.DisplayName: Whispering Leaf
 	WhisperingTrunk.DisplayName: Whispering Trunk
+	// CherubimBeam.DisplayName: Cherubim Beam
+	// CherubimOmega.DisplayName: Cherubim Omega
+	// CherubimRift.DisplayName: Cherubim Rift
+	// CherubimSlash.DisplayName: Cherubim Slash
+	// CottonMouthGas.DisplayName: Laughing Gas
+	// DryMouthSand.DisplayName: Pocket Sand
+	// ElectricChain.DisplayName: Chain Lightning
+	// ElectricQuarterstaff.DisplayName: Electric Quarterstaff
+	// ScrapGuitar.DisplayName: Scrap Guitar
+	// ScuffedKeytar.DisplayName: Scuffed Keytar
+	// WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
 }
 
 Buffs: {

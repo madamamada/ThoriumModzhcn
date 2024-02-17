@@ -23,6 +23,25 @@ ItemDescriptions: {
 		Flight time: 180
 		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
 		'''
+	AstralBreastplate: +6 max inspiration and +4 bonus healing
+	AstralHelm: 12% increased inspiration regeneration rate
+	DemonshadeGreaves:
+		'''
+		Increases your maximum technique points by 2, maximum inspiration by 15, and bonus healing by 25 life
+		Increases wind instrument homing speed and range by 60% and string instruments bounce six additional times
+		Doubles the range of your empowerments effect radius and extends the duration of empowerments by 6 seconds
+		'''
+	DemonshadeHelm:
+		'''
+		55% increased inspiration regeneration rate and notes drop chance
+		35% increased healing speed and symphonic playing speed
+		'''
+	OmegaBlueSet:
+		'''
+		Increases your maximum technique points by 2
+		Increases maximum inspiration by 12 and bonus healing by 7 life
+		'''
+	WulfrumJacket: 25% increased empowerment range
 }
 
 Items: {
@@ -818,6 +837,49 @@ Items: {
 			"Everyone needs a friend, even a happy little tree!"
 			'''
 	}
+
+	CherubimOmega: {
+		DisplayName: Cherubim Omega
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Sends god-reaping slashes at the cursor every swing
+			The slashes open a big rift in the fabric of reality
+			The rift releases up to five homing celestial energy
+			"Wait a minute, this isn't Celestus!"
+			'''
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: Electric Quarterstaff
+		Tooltip:
+			'''
+			Spins an electric tazer staff
+			Emits chaining lightning on initial hit per swing
+			The chain lightning can re-bounce on the same enemies
+			"A retractable quarterstaff with a built-in taser"
+			'''
+	}
+
+	ScrapGuitar: {
+		DisplayName: Scrap Guitar
+		Tooltip:
+			'''
+			Shoots slow electrical beams that bounce between enemies
+			Bounce count is increased by string instrument bounce stat
+			"Plays Stairway to Heaven upon touching the exposed wires"
+			'''
+	}
+
+	ScuffedKeytar: {
+		DisplayName: Scuffed Keytar
+		Tooltip:
+			'''
+			Ignores 30 points of defense
+			Shoots a musical staff that pierces indefinitely
+			"An old keytar that barely works... Keyword: 'works'"
+			'''
+	}
 }
 
 Projectiles: {
@@ -910,6 +972,17 @@ Projectiles: {
 	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
 	WhisperingLeaf.DisplayName: Whispering Leaf
 	WhisperingTrunk.DisplayName: Whispering Trunk
+	CherubimBeam.DisplayName: Cherubim Beam
+	CherubimOmega.DisplayName: Cherubim Omega
+	CherubimRift.DisplayName: Cherubim Rift
+	CherubimSlash.DisplayName: Cherubim Slash
+	CottonMouthGas.DisplayName: Laughing Gas
+	DryMouthSand.DisplayName: Pocket Sand
+	ElectricChain.DisplayName: Chain Lightning
+	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
+	ScrapGuitar.DisplayName: Scrap Guitar
+	ScuffedKeytar.DisplayName: Scuffed Keytar
+	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
 }
 
 Buffs: {
