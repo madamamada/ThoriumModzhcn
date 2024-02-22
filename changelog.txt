@@ -1,15 +1,18 @@
  [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]homepage[/url]
  [url=https://github.com/madamamada/ThoriumModzhcn]github[/url]
-#Version：1715.633.1
+#Version：1715.665.1.1
 
 1.瑟银本体修改内容v1.7.1.5
+1.4.3详见三月的瑟银模组，伤害统计详见更好的体验，npc对话摆
+1.修复了狂想这盔甲的套装效果不显示中文，显示英文
+2.修复了Instrument显示英文。例如点开设置“显示乐器类型标签”后的-铜管 Instrument-
+3.修复了低语者兜帽套装时，boss击败话语无法显示中文
 
 
-2.瑟银重置修改内容v0.6.3
+2.瑟银重置修改内容v0.6.6
 
 
 3.非灾厄官方，瑟银武器v0.5
-1.汉化更新
 
 
 

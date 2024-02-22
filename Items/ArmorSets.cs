@@ -54,6 +54,10 @@ namespace ThoriumModzhcn.Items
             {
                 player.setBonus = "你的音波咒音增幅会额外持续 3 秒";
             }
+            if (set == "SoloistHatSet")
+            {
+                player.setBonus = "按下“盔甲能力”键会让你获得无限的灵感值，大幅增加音波伤害和演奏速度\n此效果持续10秒并需要重新充能1分钟";
+            }
             if (set == "CyberPunkHeadsetSet")
             {
                 player.setBonus = "按下“盔甲能力”键会在 4 种状态间切换：\n红：玩家和附近队友获得固定伤害 II 和伤害 II\n绿：玩家和附近队友获得移动速度 II 和飞行时间 II\n紫：玩家和附近队友获得资源上限 II 和资源再生 II\n蓝：玩家和附近队友获得防御 II 和伤害减免 II";

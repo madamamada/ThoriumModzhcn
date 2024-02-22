@@ -34,6 +34,11 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = tooltipLine.Text.Replace("-Reality Breaker-", "-现实破坏者-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Transformation-", "-化形-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Early Testing-", "-早期测试物品-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-铜管 Instrument-", "-铜管乐器-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-管 Instrument-", "-管乐器-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-弦 Instrument-", "-弦乐器-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-打击 Instrument-", "-打击乐器-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-电子 Instrument-", "-电子乐器-");
                 // 原瑟银
                 tooltipLine.Text = tooltipLine.Text.Replace("Allows you to use unique abilities while transformed", "允许你在化形时使用独特的能力");
                 tooltipLine.Text = tooltipLine.Text.Replace("Playing empowers players with bonus", "演奏会提供玩家以下加成");
