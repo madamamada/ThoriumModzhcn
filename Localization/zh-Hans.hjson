@@ -2161,119 +2161,120 @@ Mods: {
 				Tooltip: 增加2.5%远程武器开火速度
 			}
 
-			// AbominationBanner.DisplayName: Abomination Banner
-			// AbyssalAnglerBanner.DisplayName: Abyssal Angler Banner
-			// AncientArcherBanner.DisplayName: Ancient Archer Banner
-			// AncientChargerBanner.DisplayName: Ancient Charger Banner
-			// AncientPhalanxBanner.DisplayName: Ancient Phalanx Banner
-			// ArmyAntBanner.DisplayName: Army Ant Banner
-			// AstroBeetleBanner.DisplayName: Astro Beetle Banner
-			// BarracudaBanner.DisplayName: Barracuda Banner
-			// BiterBanner.DisplayName: Biter Banner
-			// BlackWidowBanner.DisplayName: Black Widow Banner
-			// BlisterPodBanner.DisplayName: Blister Pod Banner
-			// BlizzardBatBanner.DisplayName: Blizzard Bat Banner
-			// BlobfishBanner.DisplayName: Blobfish Banner
-			// BloodMageBanner.DisplayName: Blood Mage Banner
-			// BloodyWargBanner.DisplayName: Bloody Warg Banner
-			// BlowfishBanner.DisplayName: Blowfish Banner
-			// BoneFlayerBanner.DisplayName: Bone Flayer Banner
-			// BrownRecluseBanner.DisplayName: Brown Recluse Banner
-			// ChilledSpitterBanner.DisplayName: Chilled Spitter Banner
+			AbominationBanner.DisplayName: 憎恶旗
+			AbyssalAnglerBanner.DisplayName: 深渊琵琶鱼旗
+			AncientArcherBanner.DisplayName: 远古弓箭手旗
+			AncientChargerBanner.DisplayName: 远古突击者旗
+			AncientPhalanxBanner.DisplayName: 远古盾兵旗
+			ArmyAntBanner.DisplayName: 军蚁旗
+			AstroBeetleBanner.DisplayName: 太空甲虫旗
+			BarracudaBanner.DisplayName: 梭鱼旗
+			BiterBanner.DisplayName: 咬噬者旗
+			BlackWidowBanner.DisplayName: 黑寡妇旗
+			BlisterPodBanner.DisplayName: 裂荚疱虫旗
+			BlizzardBatBanner.DisplayName: 暴雪蝙蝠旗
+			BlobfishBanner.DisplayName: 水滴鱼旗
+			BloodMageBanner.DisplayName: 血法师旗
+			BloodyWargBanner.DisplayName: 嗜血恐狼旗
+			BlowfishBanner.DisplayName: 河豚旗
+			BoneFlayerBanner.DisplayName: 骨翼劫掠者旗
+			BrownRecluseBanner.DisplayName: 棕色遁蛛旗
+			ChilledSpitterBanner.DisplayName: 霜颤蚀雨者旗
 			
 			CoinBagBanner: {
 				DisplayName: 钱币袋旗
 				NPCNameText: 钱币袋
 			}
 
-			// ColdlingBanner.DisplayName: Coldling Banner
-			// CoolmeraBanner.DisplayName: Coolmera Banner
-			// CrownofThornsBanner.DisplayName: Crown of Thorns Banner
-			// DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
-			// DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
-			// EarthenBatBanner.DisplayName: Earthen Bat Banner
-			// EarthenGolemBanner.DisplayName: Earthen Golem Banner
-			// EngorgedEyeBanner.DisplayName: Engorged Eye Banner
-			// EpiDermonBanner.DisplayName: Epidermon Banner
-			// FeedingFrenzyBanner.DisplayName: Feeding Frenzy Banner
-			// FlamekinCasterBanner.DisplayName: Flamekin Caster Banner
-			// FreezerBanner.DisplayName: Freezer Banner
-			// FrostBurntBanner.DisplayName: Frost Burnt Banner
-			// FrostFangBanner.DisplayName: Frost Fang Banner
-			// FrostWurmBanner.DisplayName: Frost Wurm Banner
-			// FrozenFaceBanner.DisplayName: Frozen Face Banner
-			// FrozenGrossBanner.DisplayName: Frozen Gross Banner
-			// GelatinousCubeBanner.DisplayName: Gelatinous Cube Banner
-			// GigaClamBanner.DisplayName: Giga Clam Banner
-			// GlitteringGolemBanner.DisplayName: Glittering Golem Banner
-			// GoblinDrummerBanner.DisplayName: Goblin Drummer Banner
-			// GoblinSpiritGuideBanner.DisplayName: Goblin Spirit Guide Banner
-			// GoblinTrapperBanner.DisplayName: Goblin Trapper Banner
-			// GoldBatBanner.DisplayName: Gilded Bat Banner
-			// GoldLycanBanner.DisplayName: Gilded Lycan Banner
-			// GoldSlimeBanner.DisplayName: Gilded Slime Banner
-			// GraniteEradicatorBanner.DisplayName: Granite Eradicator Banner
-			// GraniteFusedSlimeBanner.DisplayName: Granite-Fused Slime Banner
-			// GraniteSurgerBanner.DisplayName: Granite Surger Banner
-			// GraveLimbBanner.DisplayName: Grave Limb Banner
+			ColdlingBanner.DisplayName: 冰冻棘虫旗
+			CoolmeraBanner.DisplayName: 冰冻飞虫旗
+			CrownofThornsBanner.DisplayName: 铁海棠旗
+			DarksteelKnightBanner.DisplayName: 暗钢骑士旗
+			DissonanceSeerBanner.DisplayName: 混沌预言者旗
+			EarthenBatBanner.DisplayName: 大地蝙蝠旗
+			EarthenGolemBanner.DisplayName: 大地魔像旗
+			EngorgedEyeBanner.DisplayName: 充血之眼旗
+			EpiDermonBanner.DisplayName: 鲜血恶魔旗
+			FeedingFrenzyBanner.DisplayName: 饥饿怒鱼旗
+			FlamekinCasterBanner.DisplayName: 爆炎投手旗
+			FreezerBanner.DisplayName: 冰冻噬魂者旗
+			FrostBurntBanner.DisplayName: 冰焰行者旗
+			FrostFangBanner.DisplayName: 寒牙蛛旗
+			FrostWurmBanner.DisplayName: 冰冻腐虫旗
+			FrozenFaceBanner.DisplayName: 冻霜脸怪旗
+			FrozenGrossBanner.DisplayName: 冻霜幽魂旗
+			GelatinousCubeBanner.DisplayName: 凝胶块旗
+			GigaClamBanner.DisplayName: 巨蛤旗
+			GlitteringGolemBanner.DisplayName: 闪光魔像旗
+			GoblinDrummerBanner.DisplayName: 哥布林鼓手旗
+			GoblinSpiritGuideBanner.DisplayName: 哥布林灵魂导师旗
+			GoblinTrapperBanner.DisplayName: 哥布林布陷者旗
+			GoldBatBanner.DisplayName: 镀金蝙蝠旗
+			GoldLycanBanner.DisplayName: 镀金狼人旗
+			GoldSlimeBanner.DisplayName: 镀金史莱姆旗
+			GraniteEradicatorBanner.DisplayName: 花岗岩根除者旗
+			GraniteFusedSlimeBanner.DisplayName: 融岩史莱姆旗
+			GraniteSurgerBanner.DisplayName: 花岗岩奔涌者旗
+			GraveLimbBanner.DisplayName: 墓穴残肢旗
 			
 			HallucinationBanner: {
 				DisplayName: 神秘旗（虚影潜游者）
 				NPCNameText: ???
 			}
 
-			// HammerHeadBanner.DisplayName: Hammerhead Banner
-			// HellBringerMimicBanner.DisplayName: Hell Bringer Mimic Banner
-			// HoppingSpiderBanner.DisplayName: Hopping Spider Banner
-			// HorrificChargerBanner.DisplayName: Horrific Charger Banner
-			// InfernalHoundBanner.DisplayName: Infernal Hound Banner
-			// KrakenBanner.DisplayName: Kraken Banner
-			// LeFantomeBanner.DisplayName: Le Fantôme Banner
-			// LifeCrystalMimicBanner.DisplayName: Life Crystal Mimic Banner
-			// LihzardMimicBanner.DisplayName: Lihzahrd Mimic Banner
-			// LihzardPotMimicBanner.DisplayName: Lihzahrd Pot Banner
-			// LivingHemorrhageBanner.DisplayName: Living Hemorrhage Banner
-			// LycanBanner.DisplayName: Lycan Banner
-			// MahoganyEntBanner.DisplayName: Mahogany Ent Banner
-			// ManofWarBanner.DisplayName: Man o' War Banner
-			// MartianScoutBanner.DisplayName: Martian Scout Banner
-			// MartianSentryBanner.DisplayName: Martian Sentry Banner
-			// MoltenMortarBanner.DisplayName: Molten Mortar Banner
-			// MorayBanner.DisplayName: Moray Banner
-			// MossWaspBanner.DisplayName: Moss Wasp Banner
-			// MudManBanner.DisplayName: Mud Man Banner
-			// MyceliumMimicBanner.DisplayName: Mycelium Mimic Banner
-			// NecroPotBanner.DisplayName: Necro Pot Banner
-			// NestlingBanner.DisplayName: Nestling Banner
-			// OctopusBanner.DisplayName: Octopus Banner
-			// PutridSerpentBanner.DisplayName: Putrid Serpent Banner
-			// RagingMinotaurBanner.DisplayName: Raging Minotaur Banner
-			// ScissorStalkerBanner.DisplayName: Scissor Stalker Banner
-			// SeaShantySingerBanner.DisplayName: Sea-Shanty Singer Banner
-			// ShamblerBanner.DisplayName: Shambler Banner
-			// SharptoothBanner.DisplayName: Sharp Tooth Banner
-			// SmotheringShadeBanner.DisplayName: Smothering Shade Banner
-			// SnowballBanner.DisplayName: Snow Ball Banner
-			// SnowEaterBanner.DisplayName: Snow Eater Banner
-			// SnowElementalBanner.DisplayName: Snow Elemental Banner
-			// SnowFlinxMatriarchBanner.DisplayName: Snow Flinx Matriarch Banner
-			// SnowSingaBanner.DisplayName: Snow Singa Banner
-			// SnowyOwlBanner.DisplayName: Snowy Owl Banner
-			// SunPriestessBanner.DisplayName: Sun Priestess Banner
-			// SoulCorrupterBanner.DisplayName: Soul Corrupter Banner
-			// SpaceSlimeBanner.DisplayName: Space Slime Banner
-			// SpectrumiteBanner.DisplayName: Spectrumite Banner
-			// StrangeBulbBanner.DisplayName: Strange Bulb Banner
-			// SubmergedMimicBanner.DisplayName: Submerged Mimic Banner
-			// TarantulaBanner.DisplayName: Tarantula Banner
-			// TheInnocentBanner.DisplayName: The Innocent Banner
-			// TheStarvedBanner.DisplayName: The Starved Banner
-			// UFOBanner.DisplayName: U.F.O. Banner
-			// UnderworldPotBanner.DisplayName: Underworld Pot Banner
-			// VampireSquidBanner.DisplayName: Vampire Squid Banner
-			// VileFloaterBanner.DisplayName: Vile Floater Banner
-			// VoltEelBanner.DisplayName: Volt Eel Banner
-			// WindElementalBanner.DisplayName: Wind Elemental Banner
+			HammerHeadBanner.DisplayName: 双髻鲨旗
+			HellBringerMimicBanner.DisplayName: 地狱宝箱怪旗
+			HoppingSpiderBanner.DisplayName: 跃行蛛旗
+			HorrificChargerBanner.DisplayName: 饿鬼旗
+			InfernalHoundBanner.DisplayName: 地狱犬旗
+			KrakenBanner.DisplayName: 海妖旗
+			LeFantomeBanner.DisplayName: 幽灵旗
+			LifeCrystalMimicBanner.DisplayName: 生命水晶宝箱怪旗
+			LihzardMimicBanner.DisplayName: 神庙宝箱怪旗
+			LihzardPotMimicBanner.DisplayName: 神庙罐旗
+			LivingHemorrhageBanner.DisplayName: 鲜血恶魔旗
+			LycanBanner.DisplayName: 狼人旗
+			MahoganyEntBanner.DisplayName: 红木树人旗
+			ManofWarBanner.DisplayName: 僧帽水母旗
+			MartianScoutBanner.DisplayName: 火星监察者旗
+			MartianSentryBanner.DisplayName: 火星哨兵旗
+			MoltenMortarBanner.DisplayName: 狱炎炮龟旗
+			MorayBanner.DisplayName: 海鳗旗
+			MossWaspBanner.DisplayName: 苔藓黄蜂旗
+			MudManBanner.DisplayName: 泥人旗
+			MyceliumMimicBanner.DisplayName: 真菌宝箱怪旗
+			NecroPotBanner.DisplayName: 死灵魂罐旗
+			NestlingBanner.DisplayName: 雏鸟旗
+			OctopusBanner.DisplayName: 章鱼旗
+			PutridSerpentBanner.DisplayName: 腐毒海蟒旗
+			RagingMinotaurBanner.DisplayName: 暴走米诺陶旗
+			ScissorStalkerBanner.DisplayName: 剪刀潜行者旗
+			SeaShantySingerBanner.DisplayName: 海盗乐手旗
+			ShamblerBanner.DisplayName: 蹒跚者旗
+			SharptoothBanner.DisplayName: 利牙鱼旗
+			SmotheringShadeBanner.DisplayName: 窒息暗影旗
+			SnowballBanner.DisplayName: 雪球怪旗
+			SnowEaterBanner.DisplayName: 冰雪吞噬者旗
+			SnowElementalBanner.DisplayName: 雪元素旗
+			SnowFlinxMatriarchBanner.DisplayName: 雪怪族长旗
+			SnowSingaBanner.DisplayName: 雪人歌王旗
+			SnowyOwlBanner.DisplayName: 雪鸮旗
+			SunPriestessBanner.DisplayName: 太阳祭司旗
+			SoulCorrupterBanner.DisplayName: 灵魂腐蚀者旗
+			SpaceSlimeBanner.DisplayName: 太空史莱姆旗
+			SpectrumiteBanner.DisplayName: 魂晶旗
+			StrangeBulbBanner.DisplayName: 奇怪花苞旗
+			SubmergedMimicBanner.DisplayName: 深海宝箱怪旗
+			TarantulaBanner.DisplayName: 狼蛛旗
+			TheInnocentBanner.DisplayName: 污魂兔旗
+			TheStarvedBanner.DisplayName: 饿鬼旗
+			UFOBanner.DisplayName: U.F.O.旗
+			UnderworldPotBanner.DisplayName: 地狱罐旗
+			VampireSquidBanner.DisplayName: 吸血鱿鱼旗
+			VileFloaterBanner.DisplayName: 邪恶浮灵旗
+			VoltEelBanner.DisplayName: 伏特鳗旗
+			WindElementalBanner.DisplayName: 风元素旗
+
 			
 			AcousticGuitar: {
 				DisplayName: 原声吉他
