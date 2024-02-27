@@ -5,10 +5,10 @@
 瑟银繁中汉化已删除，推荐使用[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3085000141]Extra Language![/url]代替
 此汉化包含[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银boss重置[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器[/url]不包括这两个模组的前置，以瑟银为前置
 1.4.3汉化详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2919893631]三月汉化[/url]，伤害统计详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797518634]更好的体验[/url]
-瑟银wiki——灾厄维基汉化组
-瑟银wiki转换可用翻译——moon_ditch，令，@马达达马达（B站同名），Super_ego
-程序——末泠，moon_ditch
-瑟银附属翻译——moon_ditch
+瑟银wiki——Listentowind，Super_ego
+瑟银wiki转换可用翻译——Flandre Scarlet，令，@马达达马达（B站同名），Super_ego
+程序——末泠，Flandre Scarlet
+瑟银附属翻译——Flandre Scarlet
 github发布——@马达达马达（B站同名），Super_ego
 以上以时间顺序排版
 
