@@ -20092,277 +20092,277 @@ Mods: {
 		}
 
 		Projectiles: {
-			AdamantiteStaffPro.DisplayName: Adamantite Staff Pro
-			AdamantiteStaffPro2.DisplayName: Adamantite Staff Pro2
-			AerialFeather.DisplayName: Aerial Feather
-			AerialPro.DisplayName: Aerial Pro
-			AirStrikeShieldPro.DisplayName: Air Strike Shield Pro
-			AlmanacofAgonyPro.DisplayName: Almanacof Agony Pro
-			AmmutsebaSashPro.DisplayName: Ammutseba Sash Pro
-			AncientFirePro.DisplayName: Ancient Fire Pro
-			AncientFirePro2.DisplayName: Ancient Fire Pro2
-			AncientFrostPro.DisplayName: Ancient Frost Pro
-			AncientFrostPro2.DisplayName: Ancient Frost Pro2
-			AncientFrostPro3.DisplayName: Ancient Frost Pro3
-			AncientLightPro.DisplayName: Ancient Light Pro
-			AncientLightPro2.DisplayName: Ancient Light Pro2
-			AncientSparkPro.DisplayName: Ancient Spark Pro
-			AncientSparkPro2.DisplayName: Ancient Spark
-			AphrodisiacVialPro.DisplayName: Aphrodisiac Vial Pro
-			AquaBoom.DisplayName: Aqua Boom
-			AquaBoomDamage.DisplayName: Aqua Boom Damage
-			AquamarineHookPro.DisplayName: Aquamarine Hook Pro
-			AquamarineStaffPro.DisplayName: Aquamarine Staff Pro
-			AquaPelterPro.DisplayName: Aqua Pelter Pro
-			ArcanePotionPro.DisplayName: Arcane Star
-			ArcaneSpikePro.DisplayName: Arcane Spike Pro
-			ArcaneSpikePro2.DisplayName: Arcane Spike Pro2
-			ArthropodPro.DisplayName: Arthropod Pro
-			ArthropodPro2.DisplayName: Arthropod Pro2
-			AcousticWave.DisplayName: Acoustic Wave
-			AlphornPro.DisplayName: Alphorn Pro
-			AntlionMaracaPro.DisplayName: Antlion Maraca Pro
-			AquamarineWineGlassPro.DisplayName: Aquamarine Wine Glass Pro
-			AquamarineWineGlassPro2.DisplayName: Aquamarine Wine Glass Pro2
-			BagpipeOrb.DisplayName: Bagpipe Orb
-			BagpipePulse.DisplayName: Bagpipe Pulse
-			BardBee.DisplayName: Bard Bee
-			BardBee2.DisplayName: Bard Bee2
-			BardTestPro.DisplayName: Bard Test Pro
-			BaritoneSaxophonePro.DisplayName: Baritone Saxophone Pro
-			BassBoosterPro1.DisplayName: Bass Booster Pro1
-			BassBoosterPro2.DisplayName: Bass Booster Pro2
-			BassoonExplosion.DisplayName: Bassoon Explosion
-			BassoonPro.DisplayName: Bassoon Pro
-			BetsysBellowPro.DisplayName: Betsys Bellow Pro
-			BlackMIDIPro.DisplayName: Black M I D I Pro
-			BlackMIDIPro2.DisplayName: Black M I D I Pro2
-			BloomingBellPro.DisplayName: Blooming Bell Pro
-			BloomingBellPro2.DisplayName: Blooming Bell Pro2
-			BoneTrumpetPro.DisplayName: Bone Trumpet Pro
-			BongoDamage.DisplayName: Bongo Damage
-			BongoEffect.DisplayName: Bongo Effect
-			BuisinePro.DisplayName: Buisine Pro
-			BuisinePro2.DisplayName: Buisine Pro2
-			CadaverCornetPro.DisplayName: Cadaver Cornet Pro
-			CadaverCornetPro2.DisplayName: Cadaver Cornet Pro2
-			CalaverasPro.DisplayName: Calaveras Pro
-			CalaverasPro2.DisplayName: Calaveras Pro2
-			CallofCthulhuPro.DisplayName: Callof Cthulhu Pro
-			ChronoOcarinaPro.DisplayName: Chrono Ocarina Pro
-			ChronoOcarinaPro2.DisplayName: Chrono Ocarina Pro2
-			ClapPro.DisplayName: Clap Pro
-			ClarinetPro.DisplayName: Clarinet Pro
-			ConcertinaEffect.DisplayName: Concertina Effect
-			ConcertinaPro.DisplayName: Concertina Pro
-			ConcertinaPro2.DisplayName: Concertina Pro2
-			ConchShellPro.DisplayName: Conch Shell Pro
-			ConductorGhost1.DisplayName: Conductor Ghost1
-			ConductorGhost2.DisplayName: Conductor Ghost2
-			ConductorGhost3.DisplayName: Conductor Ghost3
-			ConductorGhost4.DisplayName: Conductor Ghost4
-			ConductorGhostPro1.DisplayName: Conductor Ghost Pro1
-			ConductorGhostPro2.DisplayName: Conductor Ghost Pro2
-			ConductorGhostPro3.DisplayName: Conductor Ghost Pro3
-			ConductorGhostPro4.DisplayName: Conductor Ghost Pro4
-			DidgeridooPro.DisplayName: Didgeridoo Pro
-			DragonsWailPro.DisplayName: Dragons Wail Pro
-			DrumMalletPro.DisplayName: Drum Mallet Pro
-			DrumMalletPro2.DisplayName: Drum Mallet Pro2
-			DrumMalletPro3.DisplayName: Drum Mallet Pro3
-			DukesRegalCarnyxPro.DisplayName: Dukes Regal Carnyx Pro
-			DynastyGuzhengPro.DisplayName: Dynasty Guzheng Pro
-			EbonWoodTambourinePro.DisplayName: Ebon Wood Tambourine Pro
-			EbonWoodTambourinePro2.DisplayName: Ebon Wood Tambourine Pro2
-			EchoWave.DisplayName: Echo Wave
-			EdgeofImaginationPro.DisplayName: Edgeof Imagination Pro
-			SnowstormBanjoPro.DisplayName: Snowstorm Banjo Pro
-			FabergeEggPro.DisplayName: Faberge Egg Pro
-			FishbonePro.DisplayName: Fishbone Pro
-			FishbonePro2.DisplayName: Fishbone
-			FleshHornPro.DisplayName: Flesh Horn
-			FlutePro.DisplayName: Flute Pro
-			ForestOcarinaPro.DisplayName: Forest Ocarina Pro
-			ForestOcarinaPro2.DisplayName: Forest Ocarina Pro2
-			FrostwindCymbalsEffect.DisplayName: Frostwind Cymbals Effect
-			FrostwindCymbalsPro.DisplayName: Frostwind Cymbals Pro
-			FrostwindCymbalsPro1.DisplayName: Cymbals
-			FrostwindCymbalsPro2.DisplayName: Cymbals
-			GeodeSaxophonePro.DisplayName: Geode Saxophone Pro
-			GhastlyFrenchHornPro.DisplayName: Ghastly French Horn Pro
-			GoldBugleHornPro.DisplayName: Gold Bugle Horn Pro
-			GrandPianoPro.DisplayName: Grand Piano Pro
-			GraniteInspiration.DisplayName: Granite Inspiration
-			GraniteInspirationPro.DisplayName: Granite Inspiration Pro
-			GreedfulGurdyPro.DisplayName: Greedful Gurdy Pro
-			HallowedMegaphonePro.DisplayName: Hallowed Megaphone Pro
-			HallowedMegaphonePro1.DisplayName: Hallowed Megaphone Pro1
-			HarmonicaPro.DisplayName: Harmonica Pro
-			HauntingBassDrumPro.DisplayName: Haunting Bass Drum Pro
-			HauntingBassDrumPro2.DisplayName: Haunting Bass Drum Pro2
-			HellBellPro.DisplayName: Hell Bell Pro
-			HolophonorPro.DisplayName: Holophonor Pro
-			HolophonorPro1.DisplayName: Holophonor Pro1
-			HoneyRecorderPro.DisplayName: Honey Recorder Pro
-			HotHornPro.DisplayName: Hot Horn Pro
-			IcyPiccoloPro.DisplayName: Icy Piccolo
-			IdolsMicrophonePro.DisplayName: Idols Microphone Pro
-			JarOMayoPro.DisplayName: Jar O Mayo Pro
-			JarOMayoPro2.DisplayName: Jar O' Mayo
-			JestersBell.DisplayName: Jesters Bell
-			JingleBellsPro.DisplayName: Jingle Bells Pro
-			JingleBellsPro2.DisplayName: Jingle Bells
-			KazooToot.DisplayName: Kazoo Toot
-			KickPetalPro.DisplayName: Kick Petal Pro
-			LightningClavesPro.DisplayName: Lightning Claves Pro
-			MagmaRackettPro.DisplayName: Magma Rackett Pro
-			MarchingBandSetPro.DisplayName: Marching Band Set Pro
-			MeteoriteOboePro.DisplayName: Meteorite Oboe Pro
-			MeteoriteOboePro2.DisplayName: Meteorite Oboe Pro2
-			MicrophonePro.DisplayName: Microphone Pro
-			MixtapeNote.DisplayName: Mixtape Note
-			MixtapeNote2.DisplayName: Mixtape Note2
-			MuteBurst1.DisplayName: Mute Burst1
-			MuteBurst2.DisplayName: Mute Burst2
-			MythrilMelodicaPro.DisplayName: Mythril Melodica Pro
-			NocturnePro.DisplayName: Nocturne Pro
-			OnemanQuartetPro.DisplayName: Oneman Quartet Pro
-			OnemanQuartetPro2.DisplayName: Oneman Quartet Pro2
-			OrganPro.DisplayName: Organ Pro
-			OrichalcumSlideWhistlePro.DisplayName: Orichalcum Slide Whistle Pro
-			PanflutePro.DisplayName: Panflute Pro
-			PlatinumBugleHornPro.DisplayName: Platinum Bugle Horn Pro
-			PortableWintergatanPro.DisplayName: Portable Wintergatan Pro
-			PrimeRoarPro.DisplayName: Prime Roar Pro
-			PungiPro.DisplayName: Pungi Pro
-			RecordPro.DisplayName: Record
-			ResonatorsArmPro.DisplayName: Resonators Arm Pro
-			ResonatorsArmPro2.DisplayName: Resonators Arm Pro2
-			ResonatorsArmPro3.DisplayName: Resonators Arm Pro3
-			RiffWeaverPro.DisplayName: Riff Weaver Pro
-			RiffWeaverPro2.DisplayName: Riff Weaver Pro2
-			RiffWeaverPro3.DisplayName: Riff Weaver Pro3
-			RivetingTadpolePro.DisplayName: Riveting Tadpole Pro
-			RoboboePro.DisplayName: Roboboe Pro
-			ScholarsHarpPro.DisplayName: Scholars Harp Pro
-			ScubaCurvaPro.DisplayName: Scuba Curva Pro
-			SeashellCastanettessEffect.DisplayName: Seashell Castanettess Effect
-			SeashellCastanettessPro.DisplayName: Seashell Castanettess Pro
-			SeashellCastanettessPro1.DisplayName: Seashell Castanettess Pro1
-			SerpentsCryPro.DisplayName: Serpents Cry Pro
-			SerpentsCryPro2.DisplayName: Serpents Cry Pro2
-			ShadeWoodTambourinePro.DisplayName: Shade Wood Tambourine Pro
-			ShadeWoodTambourinePro2.DisplayName: Shade Wood Tambourine Pro2
-			ShadowflameWarhornPro.DisplayName: Shadowflame Warhorn Pro
-			ShockAbsorberPro.DisplayName: Shock Absorber Pro
-			ShootingStarBlastGuitarPro.DisplayName: Shooting Star Blast-Guitar
-			ShootingStarBlastGuitarPro2.DisplayName: Shooting Star Blast-Guitar
-			SinisterHonkPro.DisplayName: Sinister Honk Pro
+			AdamantiteStaffPro.DisplayName: 精金法弹
+			AdamantiteStaffPro2.DisplayName: 精金法弹2
+			AerialFeather.DisplayName: 舞空之羽
+			AerialPro.DisplayName: 舞空
+			AirStrikeShieldPro.DisplayName: 空援卫盾
+			AlmanacofAgonyPro.DisplayName: 痛苦年鉴
+			AmmutsebaSashPro.DisplayName: 阿姆特萨巴之爪
+			AncientFirePro.DisplayName: 上古灼炎
+			AncientFirePro2.DisplayName: 上古灼炎2
+			AncientFrostPro.DisplayName: 寒古冰封
+			AncientFrostPro2.DisplayName: 寒古冰封2
+			AncientFrostPro3.DisplayName: 寒古冰封3
+			AncientLightPro.DisplayName: 远古之光
+			AncientLightPro2.DisplayName: 远古之光2
+			AncientSparkPro.DisplayName: 冥古雷星
+			AncientSparkPro2.DisplayName: 冥古之雷
+			AphrodisiacVialPro.DisplayName: 春药瓶
+			AquaBoom.DisplayName: 水爆
+			AquaBoomDamage.DisplayName: 水爆之伤
+			AquamarineHookPro.DisplayName: 海蓝宝石钩
+			AquamarineStaffPro.DisplayName: 海蓝法弹
+			AquaPelterPro.DisplayName: 高压水铳
+			ArcanePotionPro.DisplayName: 奥术之星
+			ArcaneSpikePro.DisplayName: 奥术之刺
+			ArcaneSpikePro2.DisplayName: 奥术之刺2
+			ArthropodPro.DisplayName: 蛛丝
+			ArthropodPro2.DisplayName: 蛛丝2
+			AcousticWave.DisplayName: 声波
+			AlphornPro.DisplayName: 阿尔卑斯长号
+			AntlionMaracaPro.DisplayName: 蚁狮沙铃 
+			AquamarineWineGlassPro.DisplayName: 海之酒杯
+			AquamarineWineGlassPro2.DisplayName: 海之酒杯音波
+			BagpipeOrb.DisplayName: 风笛弹
+			BagpipePulse.DisplayName: 风笛波动
+			BardBee.DisplayName: 乐师蜜蜂
+			BardBee2.DisplayName: 乐师蜜蜂2
+			BardTestPro.DisplayName: 乐师测试
+			BaritoneSaxophonePro.DisplayName: 上低音萨克斯
+			BassBoosterPro1.DisplayName: 午夜低音冲击波
+			BassBoosterPro2.DisplayName: 午夜低音冲击波2
+			BassoonExplosion.DisplayName: 巴松炸弹
+			BassoonPro.DisplayName: 巴松低音管
+			BetsysBellowPro.DisplayName: 双足翼龙之啸 
+			BlackMIDIPro.DisplayName: 乌檀电琴
+			BlackMIDIPro2.DisplayName: 乌檀电琴2
+			BloomingBellPro.DisplayName: 花铃弹
+			BloomingBellPro2.DisplayName: 花铃
+			BoneTrumpetPro.DisplayName: 小骨号
+			BongoDamage.DisplayName: 邦戈手鼓
+			BongoEffect.DisplayName: 邦戈手鼓效果
+			BuisinePro.DisplayName: 天使合唱团
+			BuisinePro2.DisplayName: 别辛号
+			CadaverCornetPro.DisplayName: 尸魂短号
+			CadaverCornetPro2.DisplayName: 尸魂短号2
+			CalaverasPro.DisplayName: 卡拉韦拉斯
+			CalaverasPro2.DisplayName: 卡拉韦拉斯2
+			CallofCthulhuPro.DisplayName: 克苏鲁的呼唤
+			ChronoOcarinaPro.DisplayName: 时间符文
+			ChronoOcarinaPro2.DisplayName: 缓慢陶笛
+			ClapPro.DisplayName: 拍手
+			ClarinetPro.DisplayName: 单簧管
+			ConcertinaEffect.DisplayName: 手风琴效果
+			ConcertinaPro.DisplayName: 手风琴
+			ConcertinaPro2.DisplayName: 手风琴2
+			ConchShellPro.DisplayName: 海螺壳
+			ConductorGhost1.DisplayName: 幽灵指挥家1
+			ConductorGhost2.DisplayName: 幽灵指挥家2
+			ConductorGhost3.DisplayName: 幽灵指挥家3
+			ConductorGhost4.DisplayName: 幽灵指挥家4
+			ConductorGhostPro1.DisplayName: 幽灵指挥家射弹1
+			ConductorGhostPro2.DisplayName: 幽灵指挥家射弹2
+			ConductorGhostPro3.DisplayName: 幽灵指挥家射弹3
+			ConductorGhostPro4.DisplayName: 幽灵指挥家射弹4
+			DidgeridooPro.DisplayName: 狄洁里都号角 
+			DragonsWailPro.DisplayName: 绿龙哀歌
+			DrumMalletPro.DisplayName: 鼓锤
+			DrumMalletPro2.DisplayName: 鼓锤2
+			DrumMalletPro3.DisplayName: 鼓锤3
+			DukesRegalCarnyxPro.DisplayName: 公爵的豪华战号
+			DynastyGuzhengPro.DisplayName: 古筝 
+			EbonWoodTambourinePro.DisplayName: 黑檀铃鼓
+			EbonWoodTambourinePro2.DisplayName: 黑檀铃鼓2
+			EchoWave.DisplayName: 回响声波
+			EdgeofImaginationPro.DisplayName: 幻象边际
+			SnowstormBanjoPro.DisplayName: 暴雪班卓琴
+			FabergeEggPro.DisplayName: 皇家彩蛋
+			FishbonePro.DisplayName: 太古鱼龙吼
+			FishbonePro2.DisplayName: 鱼龙气泡
+			FleshHornPro.DisplayName: 血肉号角
+			FlutePro.DisplayName: 长笛
+			ForestOcarinaPro.DisplayName: 森林符文
+			ForestOcarinaPro2.DisplayName: 林野陶笛
+			FrostwindCymbalsEffect.DisplayName: 冰风钹效果
+			FrostwindCymbalsPro.DisplayName: 冰风钹
+			FrostwindCymbalsPro1.DisplayName: 钹
+			FrostwindCymbalsPro2.DisplayName: 钹
+			GeodeSaxophonePro.DisplayName: 晶体萨克斯
+			GhastlyFrenchHornPro.DisplayName: 法式恐惧圆号
+			GoldBugleHornPro.DisplayName: 黄金军号
+			GrandPianoPro.DisplayName: 大钢琴
+			GraniteInspiration.DisplayName: 花岗岩节拍
+			GraniteInspirationPro.DisplayName: 花岗岩音响
+			GreedfulGurdyPro.DisplayName: 贪欲弦琴
+			HallowedMegaphonePro.DisplayName: 神圣喇叭
+			HallowedMegaphonePro1.DisplayName: 神圣喇叭1
+			HarmonicaPro.DisplayName: 口琴
+			HauntingBassDrumPro.DisplayName: 缭绕低音鼓
+			HauntingBassDrumPro2.DisplayName: 缭绕低音鼓2
+			HellBellPro.DisplayName: 地狱铃铛
+			HolophonorPro.DisplayName: 全息情感笛
+			HolophonorPro1.DisplayName: H全息情感笛1
+			HoneyRecorderPro.DisplayName: 甜蜜的复仇
+			HotHornPro.DisplayName: 热力号角
+			IcyPiccoloPro.DisplayName: 冰川短笛
+			IdolsMicrophonePro.DisplayName: 爱豆的话筒
+			JarOMayoPro.DisplayName: 蛋黄酱瓶
+			JarOMayoPro2.DisplayName: 蛋黄酱
+			JestersBell.DisplayName: 弄臣之铃
+			JingleBellsPro.DisplayName: 圣诞铃铛
+			JingleBellsPro2.DisplayName: 圣诞冰碎片
+			KazooToot.DisplayName: 卡祖笛
+			KickPetalPro.DisplayName: 力花瓣
+			LightningClavesPro.DisplayName: 闪电响棒
+			MagmaRackettPro.DisplayName: 黑曜石拉凯特管
+			MarchingBandSetPro.DisplayName: 仪仗队音符
+			MeteoriteOboePro.DisplayName: 陨石双簧管
+			MeteoriteOboePro2.DisplayName: 伤害性星辉云
+			MicrophonePro.DisplayName: 麦克风
+			MixtapeNote.DisplayName: 杂集磁带音符
+			MixtapeNote2.DisplayName: 杂集磁带音符2
+			MuteBurst1.DisplayName: 弱音器火花
+			MuteBurst2.DisplayName: 弱音器火花2
+			MythrilMelodicaPro.DisplayName: 秘银口风琴
+			NocturnePro.DisplayName: 梦幻夜曲
+			OnemanQuartetPro.DisplayName: 单人五重奏
+			OnemanQuartetPro2.DisplayName: 单人五重奏2
+			OrganPro.DisplayName: 管风琴
+			OrichalcumSlideWhistlePro.DisplayName: 山铜滑哨笛
+			PanflutePro.DisplayName: 排笛
+			PlatinumBugleHornPro.DisplayName: 金军号
+			PortableWintergatanPro.DisplayName: 便携式弹珠音乐机
+			PrimeRoarPro.DisplayName: 至尊之啸
+			PungiPro.DisplayName: 庞吉
+			RecordPro.DisplayName: 记录
+			ResonatorsArmPro.DisplayName: 谐振义肢
+			ResonatorsArmPro2.DisplayName: 谐振义肢强化弹
+			ResonatorsArmPro3.DisplayName: 谐振义肢格挡
+			RiffWeaverPro.DisplayName: 复段织演者
+			RiffWeaverPro2.DisplayName: 复段织演者2
+			RiffWeaverPro3.DisplayName: 复段织演者3
+			RivetingTadpolePro.DisplayName: 迷人蝌蚪
+			RoboboePro.DisplayName: 双膛动能管
+			ScholarsHarpPro.DisplayName: 学者竖琴
+			ScubaCurvaPro.DisplayName: 海风军号
+			SeashellCastanettessEffect.DisplayName: 海贝响板效果
+			SeashellCastanettessPro.DisplayName: 海贝响板
+			SeashellCastanettessPro1.DisplayName: 海贝响板1
+			SerpentsCryPro.DisplayName: 海蛇之泣
+			SerpentsCryPro2.DisplayName: 海蛇之泣
+			ShadeWoodTambourinePro.DisplayName: 阴影木铃鼓
+			ShadeWoodTambourinePro2.DisplayName: 阴影木铃鼓2
+			ShadowflameWarhornPro.DisplayName: 暗影焰战号
+			ShockAbsorberPro.DisplayName: 动能转换装置
+			ShootingStarBlastGuitarPro.DisplayName: 流影掠星爆破吉他
+			ShootingStarBlastGuitarPro2.DisplayName: 流影掠星爆破吉他
+			SinisterHonkPro.DisplayName: 恶毒尖叫鹅
 			SirenFace.DisplayName: Siren's Visage
-			SirenWail.DisplayName: Siren Wail
-			SitarWindBurst.DisplayName: Sitar Wind Burst
-			SkywarePro.DisplayName: Skyware Pro
-			SkywarePro2.DisplayName: Skyware Pro2
-			SongofIceAndFirePro.DisplayName: Songof Ice And Fire Pro
-			SonicAmplifierPro.DisplayName: Sonic Amplifier Pro
-			SonicAmplifierPro2.DisplayName: Sonic Amplifier Pro2
-			SonicAmplifierPro3.DisplayName: Sonic Amplifier Pro3
-			SoundSageLamentPro.DisplayName: Sound Sage Lament Pro
-			SousaphonePro.DisplayName: Sousaphone
-			SteamFlutePro.DisplayName: Steam Flute Pro
-			SteamFlutePro2.DisplayName: Steam Flute Pro2
-			SteelDrumPro.DisplayName: Steel Drum Pro
-			StrawberryHeartPro.DisplayName: Strawberry Heart
-			SunflarePro.DisplayName: Sunflare Pro
-			SunflarePro2.DisplayName: Sunflare Pro2
-			SymphonicDamage.DisplayName: Symphonic Damage
-			TambourinePro.DisplayName: Tambourine Pro
-			TerrariumAutoharpPro.DisplayName: Terrarium Autoharp Pro
-			TheBlackOtamatonePro.DisplayName: The Black Otamatone Pro
-			TheBlackOtamatonePro2.DisplayName: The Black Otamatone Pro2
-			TheBopperPro.DisplayName: The Bopper Pro
-			TheBopperPro1.DisplayName: The Bopper Pro1
-			TheBopperPro2.DisplayName: The Bopper Pro2
-			TheGreenTambourinePro.DisplayName: The Green Tambourine Pro
-			TheLullabyPro.DisplayName: The Lullaby
-			TheMawPro.DisplayName: The Maw Pro
-			TheMawPro2.DisplayName: The Maw Pro2
-			TheSetPro1.DisplayName: The Set Pro1
-			TheSetPro2.DisplayName: The Set Pro2
-			TheSetPro3.DisplayName: The Set Pro3
-			TheTrianglePro.DisplayName: The Triangle
-			TromboneLaser.DisplayName: Trombone
-			TubaBoom.DisplayName: Tuba Boom
-			TuningForkPro.DisplayName: Tuning Fork Pro
-			TurntablePro.DisplayName: Turntable Pro
-			TurntablePro2.DisplayName: Turntable
-			TurtleDrumPro.DisplayName: Turtle Drum Pro
-			TwentyFourCaratTubaPro.DisplayName: Twenty Four Carat Tuba Pro
-			UkulelePro.DisplayName: Ukulele Pro
-			ViciousMockeryPro.DisplayName: Vicious Mockery Pro
-			ViolinPro.DisplayName: Violin
-			VuvuzelaBluePro.DisplayName: Vuvuzela Blue Pro
-			VuvuzelaGreenPro.DisplayName: Vuvuzela Green Pro
-			VuvuzelaRedPro.DisplayName: Vuvuzela Red Pro
-			VuvuzelaYellowPro.DisplayName: Vuvuzela Yellow Pro
-			WhistlePro.DisplayName: Whistle Pro
-			WindChimesPro.DisplayName: Wind Chimes Pro
-			WindChimesPro2.DisplayName: Wind Chimes Pro2
-			XylophonePro.DisplayName: Xylophone Pro
-			YewWoodLutePro.DisplayName: Yew Wood Lute Pro
-			ZunpetPro.DisplayName: Zunpet Pro
-			ZunpetPro2.DisplayName: Zunpet Pro2
-			ZunpetPro3.DisplayName: Zunpet Pro3
-			BassBoosterMagicPro.DisplayName: Bass Booster Magic Pro
-			BatCavePointer.DisplayName: Bat Cave Pointer
-			BatWingPro.DisplayName: Bat Wing Pro
-			Bee.DisplayName: Bee
-			BeeStrong.DisplayName: Bee Strong
-			BeetleBlasterPro.DisplayName: Beetle Blaster Pro
-			BelleroseBlast.DisplayName: Bellerose Blast
-			BellerosePro.DisplayName: Bellerose Pro
-			BentZombieArmPro.DisplayName: Bent Zombie Arm Pro
-			BlackHole.DisplayName: Black Hole
-			BlackHole2.DisplayName: Black Hole2
-			BlightDagger.DisplayName: Blight Dagger
-			BloodArrowPro.DisplayName: Blood Arrow Pro
-			BloodBoom.DisplayName: Blood Boom
-			BloodButchererPro.DisplayName: Blood Butcherer Pro
-			BloodClotStaffPro.DisplayName: Blood Clot Staff Pro
-			BloodDrinkerPro.DisplayName: Blood Drinker Pro
-			BloodGloryPro1.DisplayName: Blood Glory
-			BloodGloryPro3.DisplayName: Blood Glory
-			BloodGloryPro4.DisplayName: Blood Glory Pro4
-			BloodGloryPro5.DisplayName: Blood Glory Pro5
-			BloodGloryPro6.DisplayName: Blood Glory Pro6
-			BloodyWandPro.DisplayName: Bloody Wand Pro
-			BloomingBowPro.DisplayName: Blooming Bow Pro
-			BloomingStaffPro.DisplayName: Blooming Staff Pro
-			BoneFlayerTailPro.DisplayName: Bone Flayer Tail
-			BoneFlayerTailPro2.DisplayName: Bone Flayer Tail Pro2
-			BoomAphrodisiac.DisplayName: Aphrodisiac
-			BoomCombust.DisplayName: Combustion
-			BoomCorrosive.DisplayName: Corrosion
-			BoomNitrogen.DisplayName: Nitrogen
-			BoomPlasma.DisplayName: Plasma
-			BoreanFangStaffPro.DisplayName: Borean Fang Staff Pro
-			AbyssalStrike.DisplayName: Abyssal Strike
-			AbyssalStrike2.DisplayName: Abyssal Strike2
-			ForgottenOneSpit.DisplayName: Forgotten One's Spit
-			ForgottenOneSpit2.DisplayName: Forgotten One's Spit
-			AquaBomb.DisplayName: Aqua Bomb
-			AquaBomb2.DisplayName: Aqua Bomb
-			AquaRipple.DisplayName: Dark Ripple
-			AquaSplash.DisplayName: Aqua Splash
-			AquaTyphoon.DisplayName: Aqua Typhoon
-			AquaTyphoon2.DisplayName: Aqua Typhoon
-			BeholderBeam.DisplayName: Beholder Beam
-			BeholderEyeEffect.DisplayName: Beholder Eye Effect
-			BeholderEyeEffect2.DisplayName: Beholder Pulse
-			BeholderLavaCascade.DisplayName: Lava Cascade
-			BeholderLavaCascade1.DisplayName: Lava Cascade
-			BioCoreBeam.DisplayName: Bio-Core Beam
-			BioVaporize.DisplayName: Bio-Vaporize
+			SirenWail.DisplayName: 海妖恸哭
+			SitarWindBurst.DisplayName: 西塔琴风暴
+			SkywarePro.DisplayName: 天际琵琶
+			SkywarePro2.DisplayName: 天际琵琶
+			SongofIceAndFirePro.DisplayName: 冰与火之歌
+			SonicAmplifierPro.DisplayName: 音波脉冲
+			SonicAmplifierPro2.DisplayName: 高速音波
+			SonicAmplifierPro3.DisplayName: 音波爆炸
+			SoundSageLamentPro.DisplayName: 乐圣之挽歌
+			SousaphonePro.DisplayName: 苏萨号
+			SteamFlutePro.DisplayName: 汽笛
+			SteamFlutePro2.DisplayName: 汽笛烟雾
+			SteelDrumPro.DisplayName: 钢鼓
+			StrawberryHeartPro.DisplayName: 草莓之心
+			SunflarePro.DisplayName: 阳炎吉他
+			SunflarePro2.DisplayName: 追踪阳炎
+			SymphonicDamage.DisplayName: 音波伤害
+			TambourinePro.DisplayName: 铃鼓
+			TerrariumAutoharpPro.DisplayName: 元素自动竖琴
+			TheBlackOtamatonePro.DisplayName: 影音蝌蚪
+			TheBlackOtamatonePro2.DisplayName: 影音蝌蚪噪音
+			TheBopperPro.DisplayName: 节拍达人
+			TheBopperPro1.DisplayName: 节拍达人1
+			TheBopperPro2.DisplayName: 节拍达人2
+			TheGreenTambourinePro.DisplayName: 绿铃鼓
+			TheLullabyPro.DisplayName: 摇篮曲
+			TheMawPro.DisplayName: 噬天花藤琴
+			TheMawPro2.DisplayName: 噬天花藤琴2
+			TheSetPro1.DisplayName: 大鼓套组1
+			TheSetPro2.DisplayName: 大鼓套组2
+			TheSetPro3.DisplayName: 大鼓套组3
+			TheTrianglePro.DisplayName: 三角铃
+			TromboneLaser.DisplayName: 长号
+			TubaBoom.DisplayName: 大号音波爆炸
+			TuningForkPro.DisplayName: 青铜音叉
+			TurntablePro.DisplayName: 动感电唱盘
+			TurntablePro2.DisplayName: 动感电唱盘1
+			TurtleDrumPro.DisplayName: 龟鼓
+			TwentyFourCaratTubaPro.DisplayName: 24克拉纯金大号
+			UkulelePro.DisplayName: 尤克里里
+			ViciousMockeryPro.DisplayName: 恶意嘲讽
+			ViolinPro.DisplayName: 小提琴
+			VuvuzelaBluePro.DisplayName: 呜呜祖拉（蓝色）
+			VuvuzelaGreenPro.DisplayName: 呜呜祖拉（绿色）
+			VuvuzelaRedPro.DisplayName: 呜呜祖拉（红色）
+			VuvuzelaYellowPro.DisplayName: 呜呜祖拉（黄色）
+			WhistlePro.DisplayName: 木哨子
+			WindChimesPro.DisplayName: 风铃
+			WindChimesPro2.DisplayName: 风铃2
+			XylophonePro.DisplayName: 木琴
+			YewWoodLutePro.DisplayName: 紫衫木琵琶
+			ZunpetPro.DisplayName: Zun号
+			ZunpetPro2.DisplayName: Zun号2
+			ZunpetPro3.DisplayName: Zun号新星
+			BassBoosterMagicPro.DisplayName: 低音冲击波
+			BatCavePointer.DisplayName: 蝙蝠洞
+			BatWingPro.DisplayName: 蝠翼轮回
+			Bee.DisplayName: 蜜蜂
+			BeeStrong.DisplayName: 大蜜蜂
+			BeetleBlasterPro.DisplayName: 甲虫冲击波
+			BelleroseBlast.DisplayName: 玫瑰伞刃龙卷
+			BellerosePro.DisplayName: 玫瑰伞刃
+			BentZombieArmPro.DisplayName: 僵尸曲臂
+			BlackHole.DisplayName: 黑洞
+			BlackHole2.DisplayName: 黑洞2
+			BlightDagger.DisplayName: 枯萎匕首
+			BloodArrowPro.DisplayName: 血矢
+			BloodBoom.DisplayName: 血爆
+			BloodButchererPro.DisplayName: 血腥屠刀
+			BloodClotStaffPro.DisplayName: 凝血法杖
+			BloodDrinkerPro.DisplayName: 饮血者血流
+			BloodGloryPro1.DisplayName: 鲜血与荣耀
+			BloodGloryPro3.DisplayName: 鲜血与荣耀
+			BloodGloryPro4.DisplayName: 鲜血与荣耀4
+			BloodGloryPro5.DisplayName: 鲜血与荣耀5
+			BloodGloryPro6.DisplayName: 鲜血与荣耀6
+			BloodyWandPro.DisplayName: 血腥魔杖
+			BloomingBowPro.DisplayName: 绽花弓
+			BloomingStaffPro.DisplayName: 绽花法杖
+			BoneFlayerTailPro.DisplayName: 劫掠者之尾
+			BoneFlayerTailPro2.DisplayName: 劫掠者之尾余烬
+			BoomAphrodisiac.DisplayName: 春药
+			BoomCombust.DisplayName: 燃烧瓶火焰
+			BoomCorrosive.DisplayName: 毒云
+			BoomNitrogen.DisplayName: 液氮
+			BoomPlasma.DisplayName: 日炎云
+			BoreanFangStaffPro.DisplayName: 寒牙法杖
+			AbyssalStrike.DisplayName: 深渊尖刺
+			AbyssalStrike2.DisplayName: 深渊尖刺2
+			ForgottenOneSpit.DisplayName: 遗忘之主唾液
+			ForgottenOneSpit2.DisplayName: 遗忘之主唾液
+			AquaBomb.DisplayName: 水炸弹
+			AquaBomb2.DisplayName: 水炸弹
+			AquaRipple.DisplayName: 暗影波纹
+			AquaSplash.DisplayName: 水溅
+			AquaTyphoon.DisplayName: 水龙卷
+			AquaTyphoon2.DisplayName: 水龙卷
+			BeholderBeam.DisplayName: 注视者光束
+			BeholderEyeEffect.DisplayName: 注视者之眼效果
+			BeholderEyeEffect2.DisplayName: 注视者波动
+			BeholderLavaCascade.DisplayName: 熔岩巨浪
+			BeholderLavaCascade1.DisplayName: 熔岩巨浪
+			BioCoreBeam.DisplayName: 生物核心光束
+			BioVaporize.DisplayName: 生物质蒸发
 			BlizzardBoom.DisplayName: Blizzard Boom
 			BlizzardCascade.DisplayName: Blizzard Cascade
 			BlizzardFang.DisplayName: Blizzard Fang
