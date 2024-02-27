@@ -6,10 +6,10 @@
 此汉化包含[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银boss重置[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器[/url]不包括这两个模组的前置，以瑟银为前置
 1.4.3汉化详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2919893631]三月汉化[/url]，伤害统计详见[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797518634]更好的体验[/url]
 瑟银wiki——灾厄维基汉化组
-瑟银wiki转换可用翻译——moon_ditch，令，@马达达马达（B站同名）
+瑟银wiki转换可用翻译——moon_ditch，令，@马达达马达（B站同名），Super_ego
 程序——末泠，moon_ditch
 瑟银附属翻译——moon_ditch
-github发布——@马达达马达（B站同名）
+github发布——@马达达马达（B站同名），Super_ego
 以上以时间顺序排版
 
 [h1]使用方法[/h1]
@@ -30,5 +30,5 @@ github发布——@马达达马达（B站同名）
 从v0.4.2.2版本后，移至改动说明
 
 
-[quote=tModLoader]Developed By moon_ditch，@马达达马达（B站同名），令，末泠[/quote]
+[quote=tModLoader]Developed By moon_ditch，@马达达马达（B站同名），令，末泠，Super_ego[/quote]
 
