@@ -20678,271 +20678,271 @@ Mods: {
 			FallingChandelierFire1.DisplayName: 坠落灯火1
 			FallingChandelierFire2.DisplayName: 坠落灯火2
 			FallingChandelierFire3.DisplayName: 坠落灯火3
-			FallingChandelierPro.DisplayName: 坠落之灯 Pro
+			FallingChandelierPro.DisplayName: 坠落之灯
 			FanWindPro.DisplayName: 战扇之风
 			FeatherArrowPro.DisplayName: 羽毛箭
 			FlareDartPro.DisplayName: 火飞镖
 			FlareEffect.DisplayName: 火焰效果
 			FleshChainSawPro.DisplayName: 血肉链锯
-			FleshDrillPro.DisplayName: Flesh Drill Pro
-			FleshJackhammerPro.DisplayName: Flesh Jackhammer Pro
-			FleshMacePro.DisplayName: Flesh Mace
-			FleshSkewerPro.DisplayName: Flesh Skewer Pro
-			FlurryPro.DisplayName: Flurry Pro
+			FleshDrillPro.DisplayName: 血肉钻头
+			FleshJackhammerPro.DisplayName: 血肉钻锤
+			FleshMacePro.DisplayName: 血肉链锤
+			FleshSkewerPro.DisplayName: 血肉串叉
+			FlurryPro.DisplayName: 暴风雪
 			FlyingSafe.DisplayName: Flying Safe
-			ForkPro.DisplayName: Fork Pro
-			FreezePro.DisplayName: Freeze Pro
-			FreezeRayBeam.DisplayName: Freeze Ray Beam
-			FrostPlaguePro1.DisplayName: Frost Plague
-			FrostPlaguePro2.DisplayName: Frost Plague
-			GardenersSheathPro.DisplayName: Gardeners Sheath Pro
-			GasContainerPro.DisplayName: Gas Container Pro
-			GazeEffect.DisplayName: Gaze Effect
-			GeodeGathererPro.DisplayName: Geode Gatherer Pro
-			GeomancersBrushPro.DisplayName: Geomancers Brush Pro
-			GeomancersBrushPro2.DisplayName: Geomancy
-			GeomancersBrushPro3.DisplayName: Geomancers Brush Pro3
-			GeomancersBrushPro4.DisplayName: Geomancers Brush Pro4
-			GeyserPro.DisplayName: Geyser Pro
-			GeyserPro2.DisplayName: Geyser Pro2
-			GhastlyEffect.DisplayName: Ghastly Effect
-			GhastlyEffect2.DisplayName: Ghastly Effect2
-			GhostlyGrappleHook.DisplayName: Ghostly Grapple Hook
-			GhostPulse.DisplayName: Ghost Pulse
-			GhostPulseArrowPro.DisplayName: Ghost Pulse Arrow Pro
-			GiantGlowstickPro.DisplayName: Giant Glowstick
-			GlacialArrow.DisplayName: Glacial Arrow
-			GlacierPro.DisplayName: Glacier Pro
-			GlacierPro2.DisplayName: Glacier Pro2
-			GlassOrbPro1.DisplayName: Glass Orb Pro1
-			GlassOrbPro2.DisplayName: Glass Orb
-			GlassOrbPro3.DisplayName: Glass Orb Pro3
-			GlassStormPro1.DisplayName: Glass Storm Pro1
-			GlassStormPro2.DisplayName: Glass Storm Pro2
-			GlassStormPro3.DisplayName: Glass Storm Pro3
-			GlassStormPro3Ranged.DisplayName: Glass Storm Pro3 Ranged
-			GlassStormPro4.DisplayName: Glass Storm Pro4
-			GlassStormPro5.DisplayName: Glass Storm Pro5
-			GodKillerPro.DisplayName: God Killer
-			GoldenLocksPro.DisplayName: Golden Locks
-			GoldenLocksPro2.DisplayName: Golden Locks
-			GoldenLocksPro3.DisplayName: Golden Locks
-			GoldenLocksPro4.DisplayName: Golden Locks
-			GolemsGazePro.DisplayName: Golems Gaze Pro
-			GolemsGazePro2.DisplayName: Golems Gaze Pro2
-			GorgonGaze.DisplayName: Gorgon's Gaze
-			GorgonsEyePro.DisplayName: Gorgons Eye Pro
-			GraniteArrowPro.DisplayName: Granite Arrow Pro
-			GraniteBarrier.DisplayName: Granite Barrier
-			GraniteControlRodPro.DisplayName: Granite Control Rod Pro
-			GraniteEradicatorArm.DisplayName: Granite Eradicator Arm
-			GraniteReflectorPro.DisplayName: Granite Reflector Pro
-			GraveBusterPro.DisplayName: Grave Buster Pro
-			GraveBusterPro2.DisplayName: Grave Buster Pro2
-			GravityPulse.DisplayName: Gravity Pulse
-			GravityWell.DisplayName: Gravity Well
-			Gust.DisplayName: Gust
-			HallowedPro.DisplayName: Hallowed Staff
-			HandProCon.DisplayName: Hand Pro Con
-			HarmlessBubble.DisplayName: Harmless Bubble
-			HarpyTalonPro.DisplayName: Harpy Talon Pro
-			AncientTomePro.DisplayName: Ancient Tome Pro
-			AnkhPro.DisplayName: Ankh Pro
-			AuraDefense.DisplayName: Aura Defense
-			AuraLife.DisplayName: Aura Life
-			AuraShadow.DisplayName: Aura Shadow
-			BalanceBloomPro.DisplayName: Balance Bloom Pro
-			BalanceBloomPro2.DisplayName: Balance Bloom Pro2
-			BarrierGeneratorPro.DisplayName: Barrier Generator Pro
-			BatScythePro2.DisplayName: Bat Scythe Pro2
-			BiotechProbe.DisplayName: Biotech Probe
-			BlackLotusPro.DisplayName: Black Lotus Pro
-			BlackLotusPro2.DisplayName: Black Lotus Pro2
-			BloodTransfusionPro.DisplayName: Blood Transfusion Pro
-			BloodTransfusionProReturn.DisplayName: Blood Transfusion Pro Return
-			BloomingWandPro.DisplayName: Blooming Wand Pro
-			BloomingWandPro2.DisplayName: Blooming Wand Pro2
-			BrainCoralPro.DisplayName: Brain Coral Pro
-			BubbleBulwarkWandPro.DisplayName: Bubble Bulwark Wand Pro
-			CelestialSetPro.DisplayName: Celestial Set Pro
-			CelestialWandPro.DisplayName: Celestial Wand Pro
-			CellReconstructorPro.DisplayName: Cell Reconstructor Pro
-			ChiLanternHeal.DisplayName: Chi Lantern Heal
-			ChiLanternPro.DisplayName: Chi Lantern Pro
-			CleansingWaterPouchPro.DisplayName: Cleansing Water Pouch Pro
-			ClericsCrossPro.DisplayName: Clerics Cross Pro
-			CoralPurifierPro.DisplayName: Coral Purifier Pro
-			CoralPurifierPro2.DisplayName: Coral Purifier Pro2
-			CosmicFluxStaffPro.DisplayName: Cosmic Flux Staff Pro
-			CryrotherapyPro.DisplayName: Cryrotherapy Pro
-			CrystalWishPro.DisplayName: Crystal Wish Pro
-			CurePro.DisplayName: Cure Pro
-			DarkContagionPro.DisplayName: Dark Contagion Pro
-			DarkHeartPro.DisplayName: Dark Heart Pro
-			DarkMageStaffPro.DisplayName: Dark Mage Staff Pro
-			DefenderWandPro.DisplayName: Defender Wand Pro
-			DefibrillatorPro.DisplayName: Defibrillator Pro
-			DewCollectorPro.DisplayName: Dew Collector Pro
-			DistortedBoost.DisplayName: Distorted Boost
-			DistortedProjectile.DisplayName: Distorted Projectile
-			DragonZone.DisplayName: Dragon Zone
-			DreamCatcherPro.DisplayName: Dream Catcher Pro
-			DreamWeaversMaskEffectPro.DisplayName: Dream Weavers Mask Effect Pro
-			EaterOfPainPro.DisplayName: Eater Of Pain Pro
-			FallenSpirit.DisplayName: Fallen Spirit
-			FallenSpirit2.DisplayName: Fallen Spirit2
-			FeatherBarrier.DisplayName: Feather Barrier
-			FeatherBarrierPro.DisplayName: Feather Barrier Pro
-			FlanPlatterPro.DisplayName: Flan Platter Pro
-			FriendlyFireStaffPro.DisplayName: Friendly Fire Staff Pro
-			GauzePro.DisplayName: Gauze Pro
-			GauzeProVisual.DisplayName: Gauze Pro Visual
-			GlitteringScepterPro.DisplayName: Glittering Scepter Pro
-			GraniteIonStaffPro.DisplayName: Granite Ion Staff Pro
-			GraniteIonStaffPro2.DisplayName: Granite Ion Staff Pro2
-			GraveGoodPro.DisplayName: Grave Good Pro
-			HallowedBlessingPro.DisplayName: Hallowed Blessing Pro
-			Heal.DisplayName: Heal
-			HealerShield.DisplayName: Healer Shield
-			HealerShieldNoSelf.DisplayName: Healer Shield No Self
-			HealerSymbol.DisplayName: Healer Symbol
-			HealingBeam.DisplayName: Healing Beam
-			HealingOrbTeal.DisplayName: Healing Orb Teal
-			HealingOrbYellow.DisplayName: Healing Orb Yellow
-			HealNoBonus.DisplayName: Heal No Bonus
-			HealNoEffects.DisplayName: Heal No Effects
-			HeartWandPro.DisplayName: Heart Wand Pro
-			HeartWandPro2.DisplayName: Heart Wand Pro2
-			HeavenlyCloudScepterPro.DisplayName: Heavenly Cloud Scepter Pro
-			HeavenlyCloudScepterPro2.DisplayName: Holy Rain
-			HippocraticrossbowPro.DisplayName: Hippocraticrossbow Pro
-			HolyFirePro.DisplayName: Holy Fire Pro
-			HolyFirePro2.DisplayName: Holy Fire Pro2
-			HolyHammerPro.DisplayName: Holy Hammer Pro
-			HolyHammerPro3.DisplayName: Holy Hammer Pro3
-			HolyStaffPro.DisplayName: Holy Staff Pro
-			HolyStaffPro2.DisplayName: Holy Staff Pro2
-			HolyStaffPro3.DisplayName: Holy Staff Pro3
-			HoneySucklePro.DisplayName: Honey Suckle Pro
-			HymnPro.DisplayName: Hymn Pro
-			IridescentPro.DisplayName: Iridescent Pro
-			KarmicHolderPro.DisplayName: Karmic Holder Pro
-			LeechBoltPro.DisplayName: Leech Bolt Pro
-			LethalInjectionPro.DisplayName: Lethal Injection Pro
-			LethalInjectionPro2.DisplayName: Lethal Injection Pro2
-			LifeDeathPro1.DisplayName: Life Death Pro1
-			LifeDeathPro2.DisplayName: Life Death Pro2
-			LifeDisperserPro.DisplayName: Life Disperser Pro
-			LifeEssenceBeam.DisplayName: Life Essence Beam
-			LifeOrb.DisplayName: Life Orb
-			LifeQuartzBubble.DisplayName: Life Quartz Bubble
-			LifesGiftPro.DisplayName: Lifes Gift Pro
-			LifesGiftPro2.DisplayName: Lifes Gift Pro2
-			LifeSpirit.DisplayName: Life Spirit
-			LifeSurgeDamage.DisplayName: Life Surge Damage
-			LifeSurgeHeal.DisplayName: Life Surge Heal
-			LifeSurgeHealExtra.DisplayName: Life Surge Heal Extra
-			LifeTwinkle.DisplayName: Life Twinkle
-			LifeZone.DisplayName: Life Zone
-			LightBeamPro.DisplayName: Light Beam Pro
-			LightBringerWarhammerPro.DisplayName: Light Bringer Warhammer Pro
-			LightBringerWarhammerPro2.DisplayName: Light Bringer Warhammer Pro2
-			LightsLamentPro.DisplayName: Lights Lament Pro
-			LilCherubsWandPro.DisplayName: Lil Cherubs Wand Pro
-			LilCherubsWandPro2.DisplayName: Lil Cherubs Wand Pro2
-			LilDevilsWandPro.DisplayName: Lil Devils Wand Pro
-			LilDevilsWandPro2.DisplayName: Lil Devils Wand Pro2
-			LotusPro.DisplayName: Lotus Pro
-			LotusPro2.DisplayName: Lotus Pro2
-			LowestPro.DisplayName: Lowest Pro
-			LowestPro2.DisplayName: Lowest Pro2
-			LucidityPro.DisplayName: Lucidity Pro
-			MarrowScepterPro.DisplayName: Marrow Scepter Pro
-			MartyrChalicePro.DisplayName: Martyr Chalice Pro
-			MartyrEffect.DisplayName: Martyr Effect
-			MindMelterPro.DisplayName: Mind Melter Pro
-			MistPulse.DisplayName: Mist Pulse
-			MolecularStabilizerPro.DisplayName: Molecular Stabilizer Pro
-			MoonlightStaffPro.DisplayName: Moonlight Staff Pro
-			NecroticStaffPro.DisplayName: Necrotic Staff Pro
-			Nirvana.DisplayName: Nirvana
-			NirvanaLaser.DisplayName: Nirvana Laser
-			Nullzone.DisplayName: Nullzone
-			OmenPro.DisplayName: Omen Pro
-			OrbLight.DisplayName: Orb Light
-			OrbLight2.DisplayName: Orb Light2
-			OrbShadow.DisplayName: Orb Shadow
-			OrbShadow2.DisplayName: Orb Shadow2
-			PaganGraspPro.DisplayName: Pagan Grasp Pro
-			PaganGraspPro2.DisplayName: Pagan Grasp Pro2
-			PalmCrossPro.DisplayName: Palm Cross Pro
-			PhoenixStaffPro.DisplayName: Phoenix Staff Pro
-			PillPopperPro.DisplayName: Pill Popper Pro
-			PillPopperPro2.DisplayName: Pill Popper Pro2
-			PocketGuardianPro.DisplayName: Pocket Guardian Pro
-			PoisonPricklerPro.DisplayName: Poison Prickler Pro
-			PoisonPricklerPro2.DisplayName: Poison Prickler Pro2
-			PoisonPricklerPro3.DisplayName: Poison Prickler Pro3
-			PopcornKernal.DisplayName: Popcorn Kernal
-			PopcornPro.DisplayName: Popcorn Pro
-			ProphecyPro.DisplayName: Prophecy Pro
-			PumpkinHealerHeal.DisplayName: Pumpkin Healer Heal
-			PumpkinHealerPro.DisplayName: Pumpkin Healer Pro
-			PurifiedWaterPro.DisplayName: Purified Water Pro
-			RadiantDamagePro.DisplayName: Radiant Damage Pro
-			RaPro2.DisplayName: Ra Pro2
-			RasWhisperPro.DisplayName: Ras Whisper Pro
-			RecoveryWandPro.DisplayName: Recovery Wand Pro
-			RecuperatePro.DisplayName: Recuperate Pro
-			RedeemerStaffPro.DisplayName: Redeemer Staff Pro
-			RodofAesculapiusPro.DisplayName: Rodof Aesculapius Pro
-			RodofAesculapiusPro2.DisplayName: Rodof Aesculapius Pro2
-			RottenCodPro.DisplayName: Rotten Cod Pro
-			SacredBludgeonPro.DisplayName: Sacred Bludgeon Pro
-			SacredChargeChampion.DisplayName: Sacred Charge Champion
-			SacredChargePro.DisplayName: Sacred Charge Pro
-			SashHealLife.DisplayName: Sash Heal Life
-			SashHealMana.DisplayName: Sash Heal Mana
-			SearingUmbraPro.DisplayName: Searing Umbra Pro
-			SerpentsBubbleWandPro.DisplayName: Serpents Bubble Wand Pro
-			ShadowBolt.DisplayName: Shadow Bolt
-			ShadowWandPro.DisplayName: Shadow Wand Pro
-			ShadowWisp.DisplayName: Shadow Wisp
-			ShadowWispPro.DisplayName: Shadow Wisp Pro
-			ShieldDroneBeaconPro.DisplayName: Shield Drone Beacon Pro
-			ShieldDroneHeal.DisplayName: Shield Drone Heal
-			ShieldDroneLaser.DisplayName: Shield Drone Laser
-			ShroomBooster.DisplayName: Shroom Booster
-			ShroomBoosterBulb.DisplayName: Shroom Booster Bulb
-			SmiteHammerPro.DisplayName: Smite Hammer Pro
-			SolHeal.DisplayName: Sol Heal
-			SolVisual.DisplayName: Sol Visual
-			SpiritBendersStaffPro.DisplayName: Spirit Benders Staff Pro
-			SpiritBlastWandPro.DisplayName: Spirit Bolt
-			SpiritBlastWandPro2.DisplayName: Spirit Bolt
-			StarRodPro.DisplayName: Star Rod Pro
-			SunrayStaffPro.DisplayName: Sunray Staff Pro
-			SunrayStaffPro2.DisplayName: Sunray Staff Pro2
-			SyringePro.DisplayName: Syringe Pro
-			TemplarJudgmentPro2.DisplayName: Templar Judgment Pro2
-			TemplarsGracePro.DisplayName: Templars Grace Pro
-			TheDigesterPro.DisplayName: The Digester Pro
-			TheEffuserPro.DisplayName: The Effuser Pro
-			TheGigaNeedlePro.DisplayName: The Giga Needle Pro
-			TheGoodBookPro.DisplayName: The Good Book Pro
-			ThePillPro.DisplayName: The Pill Pro
-			ThePillPro2.DisplayName: The Pill Pro2
-			TheStalkerPro.DisplayName: The Stalker Pro
-			UnboundFantasyPro.DisplayName: Unbound Fantasy Pro
-			ValhallasDescentPro.DisplayName: Valhallas Descent Pro
-			VoidPlanterPro.DisplayName: Void Planter Pro
-			WarForgeAnvil.DisplayName: War Forge Anvil
-			WarForgeAnvilHeal.DisplayName: War Forge Anvil Heal
-			WarForgeAnvilTrigger.DisplayName: War Forge Anvil Trigger
-			WhisperingTentacle.DisplayName: Whispering Tentacle
-			WhisperingTentacle2.DisplayName: Whispering Tentacle2
-			WhisperingTentacleShot.DisplayName: Whispering Tentacle Shot
-			WhisperingTentacleSpawn.DisplayName: Whispering Tentacle Spawn
+			ForkPro.DisplayName: 叉子
+			FreezePro.DisplayName: 冰冻
+			FreezeRayBeam.DisplayName: 冰冻激光束
+			FrostPlaguePro1.DisplayName: 霜疫
+			FrostPlaguePro2.DisplayName: 霜疫
+			GardenersSheathPro.DisplayName: 园丁的剑鞘
+			GasContainerPro.DisplayName: 瓦斯瓶
+			GazeEffect.DisplayName: 凝视效果
+			GeodeGathererPro.DisplayName: 晶体收集者
+			GeomancersBrushPro.DisplayName: 风水先生的画笔
+			GeomancersBrushPro2.DisplayName: 风水
+			GeomancersBrushPro3.DisplayName: 风水先生的画笔3
+			GeomancersBrushPro4.DisplayName: 风水先生的画笔4
+			GeyserPro.DisplayName: 间歇泉法杖
+			GeyserPro2.DisplayName: 间歇泉法杖2
+			GhastlyEffect.DisplayName: 惊惧效果
+			GhastlyEffect2.DisplayName: 惊惧效果2
+			GhostlyGrappleHook.DisplayName: 幽灵之握
+			GhostPulse.DisplayName: 魂波
+			GhostPulseArrowPro.DisplayName: 波魂箭
+			GiantGlowstickPro.DisplayName: 大型荧光棒
+			GlacialArrow.DisplayName: 冰蛰矢
+			GlacierPro.DisplayName: 冰冻者
+			GlacierPro2.DisplayName: 冰冻者2
+			GlassOrbPro1.DisplayName: 玻璃球1
+			GlassOrbPro2.DisplayName: 玻璃球
+			GlassOrbPro3.DisplayName: 玻璃球3
+			GlassStormPro1.DisplayName: 玻璃风暴1
+			GlassStormPro2.DisplayName: 玻璃风暴2
+			GlassStormPro3.DisplayName: 玻璃风暴3
+			GlassStormPro3Ranged.DisplayName: 玻璃风暴3 远程
+			GlassStormPro4.DisplayName: 玻璃风暴4
+			GlassStormPro5.DisplayName: 玻璃风暴5
+			GodKillerPro.DisplayName: 弑神者
+			GoldenLocksPro.DisplayName: 灰烬天堂
+			GoldenLocksPro2.DisplayName: 灰烬天堂
+			GoldenLocksPro3.DisplayName: 灰烬天堂
+			GoldenLocksPro4.DisplayName: 灰烬天堂
+			GolemsGazePro.DisplayName: 石巨人之凝
+			GolemsGazePro2.DisplayName: 石巨人激光2
+			GorgonGaze.DisplayName: 绿龙之凝
+			GorgonsEyePro.DisplayName: 蛇发女妖之眼
+			GraniteArrowPro.DisplayName: 花岗岩箭矢
+			GraniteBarrier.DisplayName: 花岗岩屏障
+			GraniteControlRodPro.DisplayName: 花岗岩操控杆
+			GraniteEradicatorArm.DisplayName: 花岗岩根除者之臂
+			GraniteReflectorPro.DisplayName: 花岗岩折返标
+			GraveBusterPro.DisplayName: 掘墓手
+			GraveBusterPro2.DisplayName: 掘墓手2
+			GravityPulse.DisplayName: 重力波
+			GravityWell.DisplayName: 重力井
+			Gust.DisplayName: 沙旋风
+			HallowedPro.DisplayName: 神圣法杖
+			HandProCon.DisplayName: 手
+			HarmlessBubble.DisplayName: 友方泡泡
+			HarpyTalonPro.DisplayName: 飞羽爪
+			AncientTomePro.DisplayName: 远古法典
+			AnkhPro.DisplayName: 十字章
+			AuraDefense.DisplayName: 光环防御
+			AuraLife.DisplayName: 光环生命
+			AuraShadow.DisplayName: 光环之影
+			BalanceBloomPro.DisplayName: 均衡绽放
+			BalanceBloomPro2.DisplayName: 均衡绽放2
+			BarrierGeneratorPro.DisplayName: 屏障生成器
+			BatScythePro2.DisplayName: 蝙蝠镰刀2
+			BiotechProbe.DisplayName: 生物工程无人机
+			BlackLotusPro.DisplayName: 轮回之莲
+			BlackLotusPro2.DisplayName: 轮回之莲2
+			BloodTransfusionPro.DisplayName: 鲜血转移
+			BloodTransfusionProReturn.DisplayName: 鲜血转移（输入）
+			BloomingWandPro.DisplayName: 绽花魔杖
+			BloomingWandPro2.DisplayName: 绽花魔杖2
+			BrainCoralPro.DisplayName: 脑珊瑚
+			BubbleBulwarkWandPro.DisplayName: 泡泡盾魔杖
+			CelestialSetPro.DisplayName: 天界套装
+			CelestialWandPro.DisplayName: 天界魔杖
+			CellReconstructorPro.DisplayName: 细胞重构仪
+			ChiLanternHeal.DisplayName: 气魂灯治疗
+			ChiLanternPro.DisplayName: 气魂灯
+			CleansingWaterPouchPro.DisplayName: 净魂水袋
+			ClericsCrossPro.DisplayName: 牧师十字架
+			CoralPurifierPro.DisplayName: 珊瑚净化者
+			CoralPurifierPro2.DisplayName: 珊瑚净化者2
+			CosmicFluxStaffPro.DisplayName: 天星破
+			CryrotherapyPro.DisplayName: 冷冻疗法
+			CrystalWishPro.DisplayName: 水晶之愿
+			CurePro.DisplayName: 恢复
+			DarkContagionPro.DisplayName: 黑暗瘟疫
+			DarkHeartPro.DisplayName: 黑暗之心
+			DarkMageStaffPro.DisplayName: 黑暗之礼
+			DefenderWandPro.DisplayName: 守卫魔杖
+			DefibrillatorPro.DisplayName: 特斯拉除颤器
+			DewCollectorPro.DisplayName: 露水收集器
+			DistortedBoost.DisplayName: 扭曲推力
+			DistortedProjectile.DisplayName: 扭曲弹幕
+			DragonZone.DisplayName: 龙之空间
+			DreamCatcherPro.DisplayName: 梦境捕捉器
+			DreamWeaversMaskEffectPro.DisplayName: 梦境编织者兜帽效果
+			EaterOfPainPro.DisplayName: 苦痛之噬
+			FallenSpirit.DisplayName: 堕落之魂
+			FallenSpirit2.DisplayName: 堕落之魂2
+			FeatherBarrier.DisplayName: 羽毛屏障
+			FeatherBarrierPro.DisplayName: 羽毛屏障弹幕
+			FlanPlatterPro.DisplayName: 水果布丁盘
+			FriendlyFireStaffPro.DisplayName: 友伤法杖
+			GauzePro.DisplayName: 纱布
+			GauzeProVisual.DisplayName: 纱布视觉效果
+			GlitteringScepterPro.DisplayName: 闪烁节杖
+			GraniteIonStaffPro.DisplayName: 花岗岩离子法杖
+			GraniteIonStaffPro2.DisplayName: 花岗岩离子法杖2
+			GraveGoodPro.DisplayName: 坟中物
+			HallowedBlessingPro.DisplayName: 圣神祝福
+			Heal.DisplayName: 治疗
+			HealerShield.DisplayName: 牧师护盾
+			HealerShieldNoSelf.DisplayName: 牧师护盾
+			HealerSymbol.DisplayName: 牧师标志
+			HealingBeam.DisplayName: 治疗光束
+			HealingOrbTeal.DisplayName: 青色治疗球
+			HealingOrbYellow.DisplayName: 黄色治疗球
+			HealNoBonus.DisplayName: 无奖励治疗
+			HealNoEffects.DisplayName: 无效果治疗
+			HeartWandPro.DisplayName: 红心杖
+			HeartWandPro2.DisplayName: 红心杖2
+			HeavenlyCloudScepterPro.DisplayName: 天堂之云节杖
+			HeavenlyCloudScepterPro2.DisplayName: 神圣之雨
+			HippocraticrossbowPro.DisplayName: 希波克拉底十字弩
+			HolyFirePro.DisplayName: 神圣火焰
+			HolyFirePro2.DisplayName: 神圣火焰2
+			HolyHammerPro.DisplayName: 神圣之锤
+			HolyHammerPro3.DisplayName: 神圣之锤3
+			HolyStaffPro.DisplayName: 圣辉法杖
+			HolyStaffPro2.DisplayName: 圣辉法杖2
+			HolyStaffPro3.DisplayName: 圣辉法杖3
+			HoneySucklePro.DisplayName: 蜂蜜
+			HymnPro.DisplayName: 圣歌
+			IridescentPro.DisplayName: 虹光
+			KarmicHolderPro.DisplayName: 业果之握
+			LeechBoltPro.DisplayName: 汲血牙
+			LethalInjectionPro.DisplayName: 致命注射器
+			LethalInjectionPro2.DisplayName: 致命注射器2
+			LifeDeathPro1.DisplayName: 生死轮转1
+			LifeDeathPro2.DisplayName: 生死轮转2
+			LifeDisperserPro.DisplayName: 生命扩散仪
+			LifeEssenceBeam.DisplayName: 生命精华光束
+			LifeOrb.DisplayName: 生命球
+			LifeQuartzBubble.DisplayName: 生命石英泡泡
+			LifesGiftPro.DisplayName: 生命之礼
+			LifesGiftPro2.DisplayName: 生命之礼2
+			LifeSpirit.DisplayName: 生命之灵
+			LifeSurgeDamage.DisplayName: 生命激流伤害
+			LifeSurgeHeal.DisplayName: 生命激流治愈
+			LifeSurgeHealExtra.DisplayName: 生命激流额外治疗
+			LifeTwinkle.DisplayName: 生命烁光
+			LifeZone.DisplayName: 生命空间
+			LightBeamPro.DisplayName: 光束
+			LightBringerWarhammerPro.DisplayName: 光明使者战锤
+			LightBringerWarhammerPro2.DisplayName: 光明使者战锤2
+			LightsLamentPro.DisplayName: 光之哀伤
+			LilCherubsWandPro.DisplayName: 小天使之杖
+			LilCherubsWandPro2.DisplayName: 小天使之杖2
+			LilDevilsWandPro.DisplayName: 小恶魔之杖
+			LilDevilsWandPro2.DisplayName: 小恶魔之杖2
+			LotusPro.DisplayName: 莲花
+			LotusPro2.DisplayName: 莲花2
+			LowestPro.DisplayName: 天底
+			LowestPro2.DisplayName: 天底2
+			LucidityPro.DisplayName: 洞察之月
+			MarrowScepterPro.DisplayName: 骨髓节杖
+			MartyrChalicePro.DisplayName: 殉道者圣杯
+			MartyrEffect.DisplayName: 殉道者效果
+			MindMelterPro.DisplayName: 心灵溶解者
+			MistPulse.DisplayName: 迷雾波动
+			MolecularStabilizerPro.DisplayName: 分子稳定器
+			MoonlightStaffPro.DisplayName: 月光法杖
+			NecroticStaffPro.DisplayName: 死灵法杖
+			Nirvana.DisplayName: 涅槃
+			NirvanaLaser.DisplayName: 涅槃激光
+			Nullzone.DisplayName: 虚无空间
+			OmenPro.DisplayName: 厄兆
+			OrbLight.DisplayName: 光球
+			OrbLight2.DisplayName: 光球2
+			OrbShadow.DisplayName: 暗球
+			OrbShadow2.DisplayName: 暗球2
+			PaganGraspPro.DisplayName: 异教之握
+			PaganGraspPro2.DisplayName: 异教之握2
+			PalmCrossPro.DisplayName: 棕榈十字架
+			PhoenixStaffPro.DisplayName: 菲尼克斯法杖
+			PillPopperPro.DisplayName: 药丸发射器
+			PillPopperPro2.DisplayName: 药丸发射器2
+			PocketGuardianPro.DisplayName: 口袋医疗枪
+			PoisonPricklerPro.DisplayName: 剧毒针管
+			PoisonPricklerPro2.DisplayName: 剧毒针管2
+			PoisonPricklerPro3.DisplayName: 剧毒针管3
+			PopcornKernal.DisplayName: 爆米花
+			PopcornPro.DisplayName: 爆米花Pro
+			ProphecyPro.DisplayName: 神谕
+			PumpkinHealerHeal.DisplayName: 牧师南瓜治疗
+			PumpkinHealerPro.DisplayName: 牧师南瓜
+			PurifiedWaterPro.DisplayName: 净化之水
+			RadiantDamagePro.DisplayName: 光辉伤害
+			RaPro2.DisplayName: 拉之耳语2
+			RasWhisperPro.DisplayName: 拉之耳语
+			RecoveryWandPro.DisplayName: 治愈魔杖
+			RecuperatePro.DisplayName: 恢复
+			RedeemerStaffPro.DisplayName: 救世主法杖
+			RodofAesculapiusPro.DisplayName: 阿斯克勒庇厄斯之杖
+			RodofAesculapiusPro2.DisplayName: 阿斯克勒庇厄斯之杖2
+			RottenCodPro.DisplayName: 腐烂鳕鱼
+			SacredBludgeonPro.DisplayName: 崇圣链刃
+			SacredChargeChampion.DisplayName: 崇圣冲击盟友
+			SacredChargePro.DisplayName: 崇圣冲击
+			SashHealLife.DisplayName: 腰带生命治愈
+			SashHealMana.DisplayName: 腰带魔力回复
+			SearingUmbraPro.DisplayName: 灼热阴影
+			SerpentsBubbleWandPro.DisplayName: 海蛇泡泡杖
+			ShadowBolt.DisplayName: 暗影矢
+			ShadowWandPro.DisplayName: 暗影杖
+			ShadowWisp.DisplayName: 暗影游光
+			ShadowWispPro.DisplayName: 暗影游光
+			ShieldDroneBeaconPro.DisplayName: 护盾无人机信标
+			ShieldDroneHeal.DisplayName: 护盾无人机治疗
+			ShieldDroneLaser.DisplayName: 护盾无人机治疗
+			ShroomBooster.DisplayName: 灌木增生
+			ShroomBoosterBulb.DisplayName: 灌木增生花苞
+			SmiteHammerPro.DisplayName: 惩魂锤
+			SolHeal.DisplayName: 太阳之环治疗
+			SolVisual.DisplayName: 太阳之环视觉效果
+			SpiritBendersStaffPro.DisplayName: 灵魂扭曲者的法杖
+			SpiritBlastWandPro.DisplayName: 灵魂弹
+			SpiritBlastWandPro2.DisplayName: 灵魂弹
+			StarRodPro.DisplayName: 星之杖
+			SunrayStaffPro.DisplayName: 太阳射线
+			SunrayStaffPro2.DisplayName: 太阳射线2
+			SyringePro.DisplayName: 注射器
+			TemplarJudgmentPro2.DisplayName: 圣殿骑士仲裁之剑2
+			TemplarsGracePro.DisplayName: 圣殿骑士恩典
+			TheDigesterPro.DisplayName: 消化器
+			TheEffuserPro.DisplayName: 扩散者
+			TheGigaNeedlePro.DisplayName: 巨大针管
+			TheGoodBookPro.DisplayName: 好人书
+			ThePillPro.DisplayName: 药丸
+			ThePillPro2.DisplayName: 药丸2
+			TheStalkerPro.DisplayName: 潜行者
+			UnboundFantasyPro.DisplayName: 无羁幻想
+			ValhallasDescentPro.DisplayName: 瓦尔哈拉之裔
+			VoidPlanterPro.DisplayName: 虚空散播者
+			WarForgeAnvil.DisplayName: 战争铸造者铁砧
+			WarForgeAnvilHeal.DisplayName: 战争铸造者铁砧治疗
+			WarForgeAnvilTrigger.DisplayName: 战争铸造者铁砧触发
+			WhisperingTentacle.DisplayName: 低语者触手
+			WhisperingTentacle2.DisplayName: 低语者触手2
+			WhisperingTentacleShot.DisplayName: 低语者触手射击
+			WhisperingTentacleSpawn.DisplayName: 低语者触手生成
 			HeartOfTheJunglePro.DisplayName: Heart Of The Jungle Pro
 			HeartstrikerPro.DisplayName: Heartstriker Pro
 			HeartstrikerPro2.DisplayName: Heartstriker Pro2
