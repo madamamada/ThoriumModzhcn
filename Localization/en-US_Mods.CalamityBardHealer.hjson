@@ -42,6 +42,46 @@ ItemDescriptions: {
 		Increases maximum inspiration by 12 and bonus healing by 7 life
 		'''
 	WulfrumJacket: 25% increased empowerment range
+	DemonBloodWings:
+		'''
+		Horizontal speed: 7.5
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 170
+		Rapid life regeneration during Rage mode while wearing Demon Blood Armor
+		'''
+	DragonWings:
+		'''
+		Horizontal speed: 6.25
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 100
+		Attacks inflict cursed inferno while wearing Dragon Armor
+		'''
+	DreadWings:
+		'''
+		Horizontal speed: 7.5
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 170
+		Increased Rage mode damage multiplier while wearing Dread Armor
+		'''
+	FleshWings:
+		'''
+		Horizontal speed: 6.25
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 100
+		Attacks have a chance to steal life while wearing Flesh Armor
+		'''
+	TitanWings:
+		'''
+		Horizontal speed: 7.5
+		Acceleration multiplier: 1.0
+		Average vertical speed
+		Flight time: 160
+		15% increased damage and special damage reduction while wearing Titan Armor
+		'''
 }
 
 Items: {
@@ -880,6 +920,71 @@ Items: {
 			"An old keytar that barely works... Keyword: 'works'"
 			'''
 	}
+
+	FeralKeytar: {
+		DisplayName: Feral Keytar
+		Tooltip:
+			'''
+			Ignores 60 points of defense
+			Shoots a musical staff that pierces indefinitely
+			"A very feral amalgamation of notes and souls"
+			'''
+	}
+
+	IntergelacticCloche: {
+		DisplayName: Intergelactic Cloche
+		Tooltip:
+			'''
+			18% increased symphonic damage, critical strike chance and playing speed
+			Increases wind instrument homing speed and range by 12%
+			String instruments bounce three additional time
+			'''
+		SetBonus:
+			'''
+			17% increased inspiration regeneration rate
+			Increases max inspiration by 7
+			Increases empowerment duration by 2 seconds
+			Asteroids have a 33 % chance to heal 3 inspiration upon hitting enemies
+			'''
+	}
+
+	IntergelacticProtectorHelm: {
+		DisplayName: Intergelactic Protector Helm
+		Tooltip:
+			'''
+			11% increased radiant damage, critical strike chance and casting speed
+			Healing spells will heal an additional 4 life
+			'''
+		SetBonus:
+			'''
+			22% increased radiant damage
+			Healing spells will heal an additional 6 life
+			Asteroids have a 20 % chance to heal {0} life upon hitting enemies
+			'''
+	}
+
+	PurgatoriumPandemonium: {
+		DisplayName: Purgatorium Pandemonium
+		Tooltip:
+			'''
+			Ignores 150 points of defense
+			Shoots a volley of good and evil souls that wave around as they travel
+			Good souls chase after players and heal them or heal the user if it hits enemies
+			Evil souls chase after enemies and inflict whispering death upon hitting enemies
+			"First soul to save a dying player wins a one way ticket to Heaven!"
+			'''
+	}
+
+	SavingGrace: {
+		DisplayName: Saving Grace
+		Tooltip:
+			'''
+			Rapidly shoots a healing helix of cosmic energy
+			The helix will eventually home toward a player
+			Players below 10% health are healed back to full
+			"Who is Grace and why are we saving her?"
+			'''
+	}
 }
 
 Projectiles: {
@@ -983,6 +1088,9 @@ Projectiles: {
 	ScrapGuitar.DisplayName: Scrap Guitar
 	ScuffedKeytar.DisplayName: Scuffed Keytar
 	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
+	FeralKeytar.DisplayName: Feral Keytar
+	PurgedSoul.DisplayName: Purged Soul
+	SavingGrace.DisplayName: Saving Grace
 }
 
 Buffs: {

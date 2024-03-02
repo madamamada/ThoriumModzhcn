@@ -3,7 +3,7 @@ ItemDescriptions: {
 		'''
 		水平飞行速度: 9.00
 		加速倍率: 2.5
-		普通的垂直飞行速度
+		优异的垂直飞行速度
 		飞行时间: 180
 		穿戴天界盔甲时，治疗法术会额外治疗4生命值
 		'''
@@ -11,7 +11,7 @@ ItemDescriptions: {
 		'''
 		水平飞行速度: 9.00
 		加速倍率: 2.5
-		普通的垂直飞行速度
+		优异的垂直飞行速度
 		飞行时间: 180
 		穿戴流影掠星盔甲时，灵感值恢复速度提高15%
 		'''
@@ -19,7 +19,7 @@ ItemDescriptions: {
 		'''
 		水平飞行速度: 9.00
 		加速倍率: 2.5
-		普通的垂直飞行速度
+		优异的垂直飞行速度
 		飞行时间: 180
 		穿戴白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
 		'''
@@ -30,18 +30,58 @@ ItemDescriptions: {
 		最大技巧值增加2, 最大灵感值增加15, 额外治疗增加25
 		增加60%管乐器的追踪速度和范围和弦乐器的弹幕会额外反弹六次
 		咒音增幅的效用范围翻倍和咒音增幅持续时间延长6秒
-		''' 
+		'''
 	DemonshadeHelm:
 		'''
 		增加55%的灵感值恢复速度和基础灵感音符的掉落概率
 		增加35%光辉治愈速度和音波演奏速度
-		''' 
+		'''
 	OmegaBlueSet:
 		'''
 		最大技巧值增加2
 		最大灵感值增加12和额外治疗增加7
-		''' 
+		'''
 	WulfrumJacket: 增加25%咒音增幅范围
+	DemonBloodWings:
+		'''
+		水平飞行速度: 7.5
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 170
+		怒气模式下穿戴魔血盔甲可以快速生命回复
+		'''
+	DragonWings:
+		'''
+		水平飞行速度: 6.25
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 100
+		穿戴绿龙盔甲时，造成诅咒狱火减益
+		'''
+	DreadWings:
+		'''
+		水平飞行速度: 7.5
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 170
+		穿戴恐惧盔甲时，增加怒气模式的伤害倍增率
+		'''
+	FleshWings:
+		'''
+		水平飞行速度: 6.25
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 100
+		穿戴血肉盔甲时，攻击有一定几率汲取生命
+		'''
+	TitanWings:
+		'''
+		水平飞行速度: 7.5
+		加速倍率: 1.0
+		普通的垂直飞行速度
+		飞行时间: 160
+		穿戴泰坦盔甲时，增加15%伤害和特殊伤害减免
+		'''
 }
 
 Items: {
@@ -847,7 +887,7 @@ Items: {
 			每次收割砍出空间裂缝
 			空间裂缝释放最多五种天体能量
 			"等等，这不是星神之杀!"
-			''' 
+			'''
 	}
 
 	ElectricQuarterstaff: {
@@ -858,7 +898,7 @@ Items: {
 			每次挥舞在法棍周边释放闪电链
 			闪电链可以在敌人身上进行反弹
 			"内置泰瑟枪的可伸缩钩爪"
-			''' 
+			'''
 	}
 
 	ScrapGuitar: {
@@ -868,7 +908,7 @@ Items: {
 			发射缓慢的闪电束，在敌人之间反弹
 			反弹次数受弦乐器的反弹加成增益
 			"触摸电线能踏上天堂的阶梯！"
-			''' 
+			'''
 	}
 
 	ScuffedKeytar: {
@@ -878,7 +918,72 @@ Items: {
 			无视30点防御
 			释放可以穿透的音乐旋律
 			"一把几乎不能用的肩背式合成器……关键字:‘工作’"
-			''' 
+			'''
+	}
+
+	FeralKeytar: {
+		DisplayName: 野性尖叫
+		Tooltip:
+			'''
+			无视60点防御
+			释放无限穿透的音波
+			"音符与灵魂的狂野融合"
+			'''
+	}
+
+	IntergelacticCloche: {
+		DisplayName: 异宇星钟形帽
+		Tooltip:
+			'''
+			增加18%音波伤害，暴击率和演奏速度
+			增加12%管乐器的追踪速度和范围
+			弦乐器的弹幕会额外反弹三次
+			'''
+		SetBonus:
+			'''
+			套装效果：增加17%灵感值再生速率
+			最大灵感增加7点
+			增加2秒咒音增幅的持续时间
+			小行星撞击敌人时，有33%的几率恢复3点灵感
+			'''
+	}
+
+	IntergelacticProtectorHelm: {
+		DisplayName: 异宇星灵狐盔
+		Tooltip:
+			'''
+			增加11%的光辉伤害，暴击率和施法速度
+			治疗法术会额外治疗4点生命值
+			'''
+		SetBonus:
+			'''
+			套装效果：增加22%的光辉伤害
+			治疗法术会额外治疗6点生命值
+			小行星撞击敌人时，有20%的几率回复{0}点生命
+			'''
+	}
+
+	PurgatoriumPandemonium: {
+		DisplayName: 仁爱与涤罪
+		Tooltip:
+			'''
+			无视150点防御
+			释放善良与邪恶的灵魂，以螺旋交错方式摇摆
+			善良的灵魂追逐队友并治疗或击中敌人时治疗队友
+			邪恶的灵魂追逐敌人并在击中敌人后造成耳语般的死亡
+			"第一个拯救垂死玩家的灵魂将赢得一张通往天堂的单程票!"
+			'''
+	}
+
+	SavingGrace: {
+		DisplayName: 救赎之恩
+		Tooltip:
+			'''
+			释放可治疗队友的宇宙能量
+			宇宙能量最终会回到玩家身边
+			生命值低于10%的队友会恢复到满血状态
+			"格蕾丝是谁，我们为什么要救她?"
+			'''
 	}
 }
 
@@ -972,17 +1077,20 @@ Projectiles: {
 	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
 	WhisperingLeaf.DisplayName: Whispering Leaf
 	WhisperingTrunk.DisplayName: Whispering Trunk
-	// CherubimBeam.DisplayName: Cherubim Beam
-	// CherubimOmega.DisplayName: Cherubim Omega
-	// CherubimRift.DisplayName: Cherubim Rift
-	// CherubimSlash.DisplayName: Cherubim Slash
-	// CottonMouthGas.DisplayName: Laughing Gas
-	// DryMouthSand.DisplayName: Pocket Sand
-	// ElectricChain.DisplayName: Chain Lightning
-	// ElectricQuarterstaff.DisplayName: Electric Quarterstaff
-	// ScrapGuitar.DisplayName: Scrap Guitar
-	// ScuffedKeytar.DisplayName: Scuffed Keytar
-	// WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
+	CherubimBeam.DisplayName: Cherubim Beam
+	CherubimOmega.DisplayName: Cherubim Omega
+	CherubimRift.DisplayName: Cherubim Rift
+	CherubimSlash.DisplayName: Cherubim Slash
+	CottonMouthGas.DisplayName: Laughing Gas
+	DryMouthSand.DisplayName: Pocket Sand
+	ElectricChain.DisplayName: Chain Lightning
+	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
+	ScrapGuitar.DisplayName: Scrap Guitar
+	ScuffedKeytar.DisplayName: Scuffed Keytar
+	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
+	FeralKeytar.DisplayName: Feral Keytar
+	PurgedSoul.DisplayName: Purged Soul
+	SavingGrace.DisplayName: Saving Grace
 }
 
 Buffs: {
