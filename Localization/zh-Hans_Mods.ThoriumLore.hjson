@@ -1,0 +1,137 @@
+Items: {
+	TheGrandThunderBird: {
+		Tooltip: ""
+		DisplayName: 惊雷王鹰
+	}
+
+	QueenJellyfish: {
+		DisplayName: 水母皇后
+		Tooltip: ""
+	}
+
+	Viscount: {
+		DisplayName: 蝙蝠子爵
+		Tooltip: ""
+	}
+
+	BuriedChampion: {
+		DisplayName: 英灵遗骸
+		Tooltip: ""
+	}
+
+	GraniteEnergyStorm: {
+		DisplayName: 花岗岩流能风暴
+		Tooltip: ""
+	}
+
+	StarScouter: {
+		DisplayName: 星际监察者
+		Tooltip: ""
+	}
+
+	ThePrimordials: {
+		Tooltip: ""
+		DisplayName: 始生灾灵
+	}
+
+	TheLich: {
+		Tooltip: ""
+		DisplayName: 巫妖
+	}
+
+	CoznixTheFallenBeholder: {
+		Tooltip: ""
+		DisplayName: 堕落注视者
+	}
+
+	BoreanStrider: {
+		Tooltip: ""
+		DisplayName: 极地遁蛛
+	}
+
+	AbyssionTheForgottenOne: {
+		Tooltip: ""
+		DisplayName: 遗忘之主
+	}
+}
+
+LoreLines: {
+	Default: {
+		Line1: 寄宿其上的低语流入你的耳中......
+		Line2: 长按 "左shift" 键以仔细聆听
+	}
+
+	TheGrandThunderBird: {
+		Line1: 有一种雄壮有力的鸟统治着这片土地的天空。它向我和我的军队发动攻击，
+		Line2: 但我们成功地击败了它。现在我仍然怀疑惊雷王鹰是否真的死了。
+		Line3: 那次战役之后，我再也没有听到过它的消息，这让我感到不安。
+	}
+
+	QueenJellyfish: {
+		Line1: 水母皇后曾统治着海洋，仆从会听从它的命令。
+		Line2: 水母皇后非常的强大，但它已经很久没出现了。
+		Line3: 有人说它已经死了, 但我抓捕的那些仆从告诉我，
+		Line4: 它还在深海中四处徘徊，寻找那些不幸的潜水员，
+		Line5: 并吞噬他们。
+	}
+
+	Viscount: {
+		Line1: 非常强大的生物被封印在地下深处。
+		Line2: 现在它在保护它所能掌握的一切力量。
+		Line3: 它是个强大的吸血鬼，声音让人特别痛苦，可以把周围的受害者变为蝙蝠。
+		Line4: 然而，阳光似乎削弱了它的力量从而限制了能力。
+	}
+
+	BuriedChampion: {
+		Line1: 他曾经是一位传奇的英雄，效力于古老的光明与黑暗。 
+		Line2: 他与各种敌人战斗并因为他的英雄事迹成就传奇。
+		Line3: 不幸的是他战死在战场，但几千年后某种力量让他复活。
+		Line4: 他现在战力让人感觉比以前弱了很多。
+	}
+
+	GraniteEnergyStorm: {
+		Line1: 据说它的破坏力非常强大。
+		Line2: 接触到的东西都会被它摧毁，鬼魂也很害怕它。
+		Line3: 但是我发现它的风暴现在似乎减弱的很多。
+		Line4: 可以把它捕获在瓶子里面，让他强大的破坏力为自己所用。
+	}
+
+	StarScouter: {
+		Line1: 外星人试图入侵星球并不罕见。
+		Line2: 因为他们的世界被一种邪恶感染着。
+		Line3: 更多飞碟来到我的世界，我只能驱赶他们。
+	}
+
+	ThePrimordials: {
+		Line1: 始生灾灵...... 强大的实体可以控制火，水和死亡的灾灵。
+		Line2: 他们是极少数我无法击败的生物。
+		Line3: 即便我现在很强大，他们的力量对我而言是危险的。
+		Line4: 他们是除了克希洛克，唯一能对我的力量有限制的。
+	}
+
+	TheLich: {
+		Line1: 巫妖...... 我听说它重新苏醒了，但这是无关紧要的，我在寻找灵魂来喂养他。
+		Line2: 巫妖对人类来说非常强大，但也就相对力量和意志力而言。
+		Line3: 但是它还是不能和我展开战斗，毕竟我已经杀死他一次了，我相信我还能杀死他一次。
+	}
+
+	CoznixTheFallenBeholder: {
+		Line1: 堕落注视者是个厌烦的物种...... 它可以发射激光，探测心里的想法。
+		Line2: 它在心理战斗中也是非常强大，但我最终击败了它。
+		Line3: 它的尸体现在是我成功宝座的战利品。
+		Line4: 很遗憾我不得不将他摧毁。
+	}
+
+	BoreanStrider: {
+		Line1: 在苔原的暴风雪中，有一只强大的蜘蛛也是一种烦恼。
+		Line2: 它是一种非常巨大的且强大的生物，追杀和杀死它都需要一些时间。
+		Line3: 它的速度与力量都成为我力量的竞争者。
+		Line4: 幼蛛都存储在它的腹部。
+	}
+
+	AbyssionTheForgottenOne: {
+		Line1: 它的出现是不祥且具有威胁性。
+		Line2: 如果我没有现在这么强大，我会担心我无法击败他它。
+		Line3: 我对遗忘之主不是很了解，但我知道它不会威胁到我的统治。
+	}
+}
