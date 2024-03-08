@@ -1,4 +1,6 @@
 ItemDescriptions: {
+	AstralBreastplate: 最大灵感值增加6和额外治疗增加4
+	AstralHelm: 增加12%的灵感值恢复速度
 	CelestialCarrier:
 		'''
 		水平飞行速度: 9.00
@@ -7,24 +9,6 @@ ItemDescriptions: {
 		飞行时间: 180
 		穿戴天界盔甲时，治疗法术会额外治疗4生命值
 		'''
-	ShootingStarTurboTuba:
-		'''
-		水平飞行速度: 9.00
-		加速倍率: 2.5
-		优异的垂直飞行速度
-		飞行时间: 180
-		穿戴流影掠星盔甲时，灵感值恢复速度提高15%
-		'''
-	WhiteDwarfThrusters:
-		'''
-		水平飞行速度: 9.00
-		加速倍率: 2.5
-		优异的垂直飞行速度
-		飞行时间: 180
-		穿戴白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
-		'''
-	AstralBreastplate: 最大灵感值增加6和额外治疗增加4
-	AstralHelm: 增加12%的灵感值恢复速度
 	DemonshadeGreaves:
 		'''
 		最大技巧值增加2, 最大灵感值增加15, 额外治疗增加25
@@ -33,15 +17,10 @@ ItemDescriptions: {
 		'''
 	DemonshadeHelm:
 		'''
-		增加55%的灵感值恢复速度和基础灵感音符的掉落概率
+		增加30%的光辉和音波伤害
 		增加35%光辉治愈速度和音波演奏速度
+		增加55%的灵感值恢复速度和基础灵感音符的掉落概率
 		'''
-	OmegaBlueSet:
-		'''
-		最大技巧值增加2
-		最大灵感值增加12和额外治疗增加7
-		'''
-	WulfrumJacket: 增加25%咒音增幅范围
 	DemonBloodWings:
 		'''
 		水平飞行速度: 7.5
@@ -74,6 +53,19 @@ ItemDescriptions: {
 		飞行时间: 100
 		穿戴血肉盔甲时，攻击有一定几率汲取生命
 		'''
+	OmegaBlueSet:
+		'''
+		最大技巧值增加2
+		最大灵感值增加12和额外治疗增加7
+		'''
+	ShootingStarTurboTuba:
+		'''
+		水平飞行速度: 9.00
+		加速倍率: 2.5
+		优异的垂直飞行速度
+		飞行时间: 180
+		穿戴流影掠星盔甲时，灵感值恢复速度提高15%
+		'''
 	TitanWings:
 		'''
 		水平飞行速度: 7.5
@@ -82,6 +74,15 @@ ItemDescriptions: {
 		飞行时间: 160
 		穿戴泰坦盔甲时，增加15%伤害和特殊伤害减免
 		'''
+	WhiteDwarfThrusters:
+		'''
+		水平飞行速度: 9.00
+		加速倍率: 2.5
+		优异的垂直飞行速度
+		飞行时间: 180
+		穿戴白矮星盔甲时，非消耗性投掷武器到达疲惫的时间延长50%
+		'''
+	WulfrumJacket: 增加25%的咒音增幅的效用范围
 }
 
 Items: {
@@ -92,7 +93,11 @@ Items: {
 			增加7%光辉伤害和施法速度
 			治疗法术会额外治疗2点生命值
 			'''
-		SetBonus: 治疗法术会在半空中额外治疗3点生命值
+		SetBonus:
+			'''
+			增加13%的光辉伤害
+			治疗法术会在半空中额外治疗3点生命值
+			'''
 	}
 
 	AerospecHeadphones: {
@@ -112,7 +117,11 @@ Items: {
 
 	AnahitasArpeggio: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
-		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}"
+		Tooltip:
+			'''
+			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			基于作者DM Dokuro的竖琴演奏曲“Forbidden Lullaby”改编
+			'''
 	}
 
 	AquaiusAdvice: {
@@ -132,6 +141,54 @@ Items: {
 			'''
 			释放冰晶对敌怪造成霜冻减益
 			"极性对应物"
+			基于作者DM Dokuro的木琴演奏曲“Antarctic Reinforcement”改编
+			'''
+	}
+
+	AugmentedAuricTeslaFeatheredHeadwear: {
+		DisplayName: 金星羽毛盔[c/#70f4f4:+]
+		Tooltip:
+			'''
+			增加25%音波伤害
+			增加20%音波暴击率
+			增加15%音波演奏速度
+			增加10%灵感值再生速率
+			增加50%管乐器的追踪速度和范围
+			弦乐器的弹幕会额外反弹五次
+			'''
+		SetBonus:
+			'''
+			拥有龙篙三角帽, 血耀死魂盔和弑神者头盔的套装效果
+			增加15%的音波伤害
+			增加10%音波演奏速度
+			增加5%音波暴击率
+			增加25%的打击乐器暴击伤害
+			增加50%咒音增幅范围
+			最大灵感值增加10
+			增加5秒咒音增幅的持续时间
+			增加30%灵感值再生速率
+			增加45%的灵感音符掉率
+			'''
+	}
+
+	AugmentedAuricTeslaValkyrieVisage: {
+		DisplayName: 金圣武神盔[c/#70f4f4:+]
+		Tooltip:
+			'''
+			增加15%光辉伤害
+			增加10%光辉暴击率
+			减少45%魔力消耗
+			大幅增加生命值与魔力再生
+			最大生命值增加100
+			最大魔力值增加200
+			治疗法术会额外治疗18点生命值
+			'''
+		SetBonus:
+			'''
+			拥有龙篙冠, 血焱祭颅盔和始源林海头盔的套装效果
+			增加40%光辉伤害
+			增加20%光辉暴击率
+			增加16%的治疗量和光辉施法速度
 			'''
 	}
 
@@ -148,10 +205,16 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			增加50%咒音增幅范围
-			增加2秒咒音增幅的持续时间
-			增加30%灵感值再生速率
 			拥有龙篙三角帽, 血耀死魂盔和弑神者头盔的套装效果
+			增加15%的音波伤害
+			增加10%音波演奏速度
+			增加5%音波暴击率
+			增加25%的打击乐器暴击伤害
+			增加50%咒音增幅范围
+			最大灵感值增加10
+			增加5秒咒音增幅的持续时间
+			增加30%灵感值再生速率
+			增加45%的灵感音符掉率
 			'''
 	}
 
@@ -159,15 +222,21 @@ Items: {
 		DisplayName: 金圣武神盔
 		Tooltip:
 			'''
-			增加50%光辉伤害
-			增加30%光辉暴击率
+			增加15%光辉伤害
+			增加10%光辉暴击率
 			减少45%魔力消耗
 			大幅增加生命值与魔力再生
 			最大生命值增加100
 			最大魔力值增加200
 			治疗法术会额外治疗18点生命值
 			'''
-		SetBonus: 拥有龙篙冠, 血焱祭颅盔和始源林海头盔的套装效果
+		SetBonus:
+			'''
+			拥有龙篙冠, 血焱祭颅盔和始源林海头盔的套装效果
+			增加40%光辉伤害
+			增加20%光辉暴击率
+			增加16%的治疗量和光辉施法速度
+			'''
 	}
 
 	BelchingSaxophone: {
@@ -191,10 +260,12 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			增加27%光辉伤害
+			增加11%光辉施法速度
 			按下“盔甲能力，控件{0}”，损失半数生命值召唤治疗仪式
 			该仪式会快速治疗队友{1}生命值
 			一次只能进行一种仪式
-			这个技能没有冷却时间，但是过度使用会死亡
+			该技能没有冷却时间，使用过度会死亡
 			'''
 	}
 
@@ -207,12 +278,52 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			增加2秒咒音增幅的持续时间
+			最大灵感值增加4
+			增加8%的音波伤害
+			增加5%的音波暴击率和演奏速度
+			增加4秒咒音增幅的持续时间
 			造成的音波伤害会随着时间的推移而衰减
 			造成的音波100%伤害转化为充能
 			当充能达到100000时，获得魅惑之歌增益，持续5秒
 			魅惑之歌让灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
 			当魅惑之歌被激活受到伤害时，回复250点生命值，但会移除魅惑之歌
+			'''
+	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: 圣徒奉献
+		Tooltip:
+			'''
+			释放一根向光标处延伸的根茎并开出爆裂的花朵
+			"奉献激发勇敢，勇敢激发牺牲"
+			'''
+	}
+
+	BloomingSaintessStatue: {
+		DisplayName: 圣徒雕像
+		Tooltip:
+			'''
+			最大生命值增加20
+			最大魔力值增加20
+			增加12%治疗速度
+			增加14%光辉伤害
+			增加6%光辉施法速度
+			增加8%光辉暴击率
+			治疗法术会额外治疗2点生命值
+			敌怪处于破晓减益增辐光辉攻击
+			"幸运的是，它太大了，装不下任何罐子"
+			'''
+	}
+
+	CherubimOmega: {
+		DisplayName: 终局神使
+		Tooltip:
+			'''
+			这把镰刀是定向挥舞而不是旋转
+			每次挥舞向光标处进行收割
+			每次收割砍出空间裂缝
+			空间裂缝释放最多五种天体能量
+			"等等，这不是星神之杀!"
 			'''
 	}
 
@@ -245,8 +356,19 @@ Items: {
 		Tooltip:
 			'''
 			无视20点防御力
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
+			每次挥舞会释放大量的酸性气体
 			造成酸性毒液与硫磺海剧毒减益
+			'''
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: 水风琴
+		Tooltip:
+			'''
+			向光标处释放两个水滴体，击中敌怪时破碎
+			"人之善如水，水益万物"
+			基于作者DM Dokuro的钢琴演奏曲“Sanctuary”改编
 			'''
 	}
 
@@ -260,6 +382,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			增加25%光辉伤害
 			治疗法术会额外治疗1点生命值
 			按下“盔甲能力，控件{0}”在你所在的位置召唤冰淇淋机，再按“盔甲能力，控件{0}”取消召唤
 			右键点击冰淇淋机，获得1分钟的糖果冲刺增益
@@ -271,12 +394,13 @@ Items: {
 		DisplayName: 代达罗斯风帽
 		Tooltip:
 			'''
-			增加10%音波伤害和演奏速度
-			增加20%管乐器的追踪范围
+			增加18%音波伤害和演奏速度
+			增加22%管乐器的追踪范围
 			弦乐器弹跳时间增加
 			'''
 		SetBonus:
 			'''
+			增加10%的灵感回复速度
 			增加3秒咒音增幅的持续时间
 			命中敌怪时，音波伤害会造成霜冻和冻伤
 			附近有队友进行攻击有概率造成霜冻
@@ -288,7 +412,7 @@ Items: {
 		Tooltip:
 			'''
 			无视100防御力
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
 			每次挥舞都会释放一连串幽灵
 			幽灵追逐目标
 			击中时造成死亡低语
@@ -315,7 +439,9 @@ Items: {
 		Tooltip:
 			'''
 			无视10点防御
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
+			每次挥舞都会释放小型沙尘暴
+			"口袋里有沙子!"
 			'''
 	}
 
@@ -328,6 +454,17 @@ Items: {
 			用粉色光芒攻击敌怪时，提高生命回复
 			右键扔出镰刀，然后回到你身边
 			"我有两面性:我忘记，我记得"
+			'''
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: 泰瑟电棍
+		Tooltip:
+			'''
+			旋转一把泰瑟电棍
+			每次挥舞在法棍周边释放闪电链
+			闪电链可以在敌人身上进行反弹
+			"内置泰瑟枪的可伸缩钩爪"
 			'''
 	}
 
@@ -369,6 +506,16 @@ Items: {
 			'''
 	}
 
+	FeralKeytar: {
+		DisplayName: 野性尖叫
+		Tooltip:
+			'''
+			无视60点防御
+			释放无限穿透的音波
+			"音符与灵魂的狂野融合"
+			'''
+	}
+
 	FilthyFlute: {
 		DisplayName: 暗影长笛
 		Tooltip:
@@ -378,7 +525,7 @@ Items: {
 			连续5次按正确的时机拍击时, 吸引了一种罕见的潮湿的爬行动物为你而战
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"腐化意识集体之歌"
-			演唱根据"Filthy Mind"中的笛子声音改编，由DM Dokuro演唱
+			基于作者DM Dokuro的笛子演奏曲“Filthy Mind”改编
 			'''
 	}
 
@@ -389,7 +536,7 @@ Items: {
 			无视25点防御力
 			发射瘟疫蜂群导弹，持续攻击目标
 			"MAKE SOME NOOOOOIIISE!"
-			基于来自DM Dokuro的“Fly of Beelzebub”的芯片音乐
+			基于作者DM Dokuro的芯片演奏曲“Fly of Beelzebub”改编
 			'''
 	}
 
@@ -405,7 +552,7 @@ Items: {
 
 	GelatinTherapy: {
 		DisplayName: 纯净之杖
-		Tooltip: 发射弹性凝胶，可以治愈任何人
+		Tooltip: 发射弹性凝胶治愈队友
 	}
 
 	GodSlayerDeathsingerCowl: {
@@ -419,9 +566,12 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			增加11%音波伤害
+			增加20%的打击乐器暴击伤害
 			增加50%咒音增幅范围
-			灾难性的钟声悬浮在头上，攻击时有概率响起
-			当铃声响起时，你周围的敌人受到15000的真实伤害，附近敌怪的投射物被摧毁
+			最大灵感值增加6
+			灾难的钟声悬浮在头顶，攻击时有概率响起
+			当钟声响起时，附近的敌人受到15000的真实伤害并摧毁投射物
 			'''
 	}
 
@@ -435,7 +585,7 @@ Items: {
 		Tooltip:
 			'''
 			无视50点防御力
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
 			发射烈焰弹幕，伴随着2根追踪的火束
 			攻击造成深渊水压和狱炎减益
 			"致命化学反应的催化剂"
@@ -452,11 +602,12 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			增加28%光辉伤害
 			增加9%的治疗和光辉施法速度
 			治疗法术会额外治疗2点生命值
 			受到超过75点的伤害会生成生命光幕，持续3秒
 			生命光幕每1/3秒治愈{0}生命值
-			一次只能有一个生命光幕
+			只能生成一个生命光幕
 			'''
 	}
 
@@ -465,16 +616,51 @@ Items: {
 		Tooltip:
 			'''
 			增加15%音波伤害
+			增加12%的音波演奏速度
 			增加10%音波暴击率
 			弦乐器弹跳时间增加
 			'''
 		SetBonus:
 			'''
+			增加15%的打击乐器暴击伤害
+			增加12%的灵感回复速度
 			增加15%管乐器的追踪速度
 			增加5%管乐器追踪范围
 			弦乐器的弹幕会额外反弹两次
 			音波暴击敌怪会喷出硫化物火焰
 			只能发生一次喷发，每次喷发有3秒冷却时间
+			'''
+	}
+
+	IntergelacticCloche: {
+		DisplayName: 异宇星钟形帽
+		Tooltip:
+			'''
+			增加18%音波伤害，暴击率和演奏速度
+			增加12%管乐器的追踪速度和范围
+			弦乐器的弹幕会额外反弹三次
+			'''
+		SetBonus:
+			'''
+			套装效果：增加17%灵感值再生速率
+			最大灵感增加7点
+			增加2秒咒音增幅的持续时间
+			小行星撞击敌人时，有33%的几率恢复3点灵感
+			'''
+	}
+
+	IntergelacticProtectorHelm: {
+		DisplayName: 异宇星灵狐盔
+		Tooltip:
+			'''
+			增加11%的光辉伤害，暴击率和施法速度
+			治疗法术会额外治疗4点生命值
+			'''
+		SetBonus:
+			'''
+			套装效果：增加22%的光辉伤害
+			治疗法术会额外治疗6点生命值
+			小行星撞击敌人时，有20%的几率回复{0}点生命
 			'''
 	}
 
@@ -486,7 +672,7 @@ Items: {
 			伴随着2根星体结晶，可以反弹两次
 			攻击造成幻星感染减益
 			"在整个宇宙中传播的恶心的即兴演奏!"
-			根据作者"DM Dokuro"音乐"Interstellar Stomper"吉他独奏改编
+			基于作者DM Dokuro的吉他演奏曲“Interstellar Stomper”改编
 			'''
 	}
 
@@ -567,7 +753,7 @@ Items: {
 		Tooltip:
 			'''
 			无视100点防御力
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
 			打出有力的一击并留下一串龙息
 			造成龙焰减益
 			'''
@@ -584,9 +770,21 @@ Items: {
 			'''
 	}
 
+	PurgatoriumPandemonium: {
+		DisplayName: 仁爱与涤罪
+		Tooltip:
+			'''
+			无视150点防御
+			释放善良与邪恶的灵魂，以螺旋交错方式摇摆
+			善良的灵魂追逐队友并治疗或击中敌人时治疗队友
+			邪恶的灵魂追逐敌人并在击中敌人后造成耳语般的死亡
+			"第一个拯救垂死玩家的灵魂将赢得一张通往天堂的单程票!"
+			'''
+	}
+
 	ReturntoSludge: {
 		DisplayName: 污秽长号
-		Tooltip: 发射凝胶炮弹（凝胶巨石划掉），蓄力可以发射的更远
+		Tooltip: 发射凝胶炮弹，蓄力可以发射的更远
 	}
 
 	SARS: {
@@ -601,6 +799,17 @@ Items: {
 			'''
 	}
 
+	SavingGrace: {
+		DisplayName: 救赎之恩
+		Tooltip:
+			'''
+			释放可治疗队友的宇宙能量
+			宇宙能量最终会回到玩家身边
+			生命值低于10%的队友会恢复到满血状态
+			"格蕾丝是谁，我们为什么要救她?"
+			'''
+	}
+
 	SchoolNurse: {
 		DisplayName: 冰川魔棒
 		Tooltip:
@@ -610,16 +819,52 @@ Items: {
 			'''
 	}
 
+	ScrapGuitar: {
+		DisplayName: 废弃吉他
+		Tooltip:
+			'''
+			发射缓慢的闪电束，在敌人之间反弹
+			反弹次数受弦乐器的反弹加成增益
+			"触摸电线能踏上天堂的阶梯！"
+			'''
+	}
+
+	ScuffedKeytar: {
+		DisplayName: 磨损的肩背式合成器
+		Tooltip:
+			'''
+			无视30点防御
+			释放可以穿透的音乐旋律
+			"一把几乎不能用的肩背式合成器……关键字:‘工作’"
+			'''
+	}
+
 	SilvaGuardianHelmet: {
 		DisplayName: 始源林海头盔
 		Tooltip:
 			'''
-			增加12%光辉伤害和光辉暴击率
+			增加12%的光辉伤害和光辉暴击率
 			适中增加生命回复
 			最大生命值增加100
 			治疗法术会额外治疗15点生命值
 			'''
-		SetBonus: 受到大量伤害后，会让生命值最低的玩家获得守护天使增益，持续30秒
+		SetBonus:
+			'''
+			增加12%的光辉伤害
+			增加11%的治愈速度
+			受到大量伤害后，会让生命值最低的玩家获得守护天使增益，持续30秒
+			'''
+	}
+
+	Singularity: {
+		DisplayName: 奇点
+		Tooltip:
+			'''
+			无视100点防御
+			这把镰刀是定向挥舞而不是旋转
+			释放3条追踪（寻的.jpg）敌人的星云，每次挥舞会有多次命中
+			"无限密集，就像妈妈的爱"
+			'''
 	}
 
 	SlagFurysIntent: {
@@ -628,7 +873,7 @@ Items: {
 			'''
 			任意方向发射硫磺光束
 			造成硫磺火减益
-			"来自陵墓中的圣物"
+			"阿扎弗尔遗迹的遗物，作为熔渣是第一个火焰的意图"
 			'''
 	}
 
@@ -670,6 +915,16 @@ Items: {
 		Tooltip: 发射一连串燃烧南瓜头攻击目标
 	}
 
+	StarBirth: {
+		DisplayName: 恒星诞生
+		Tooltip:
+			'''
+			召唤一朵向外扩张的星云每三分之一秒恢复一次生命值
+			恒星在星云中生成，恒星追踪队友。但治疗量只有星云的一半
+			不过，恒星不能追踪牧师施法者
+			'''
+	}
+
 	StatigelEarrings: {
 		DisplayName: 斯塔提斯三角帽
 		Tooltip:
@@ -687,7 +942,34 @@ Items: {
 			增加9%光辉伤害和施法速度
 			治疗法术会额外治疗4点生命值
 			'''
-		SetBonus: 增加9%光辉治愈速度
+		SetBonus:
+			'''
+			增加9%光辉治愈速度
+			增加14%光辉伤害
+			'''
+	}
+
+	Supercluster: {
+		DisplayName: 超星系团
+		Tooltip:
+			'''
+			向天空发射微型星团
+			然后落在离光标最近的敌人身上
+			击中敌人时释放恒星
+			'''
+	}
+
+	SymphonicFabrications: {
+		DisplayName: 星流律动
+		Tooltip:
+			'''
+			发射追踪的彩色导弹粉碎目标
+			手持武器时，召唤两个星流扬声器
+			它们会随着你的攻击发射追踪声波协同攻击
+			声波会把造成伤害的5%转化为对你的治疗
+			声波也有33%的几率恢复1点灵感值
+			"你现在听到的是... Exo-FM!"
+			'''
 	}
 
 	Syzygy: {
@@ -722,7 +1004,11 @@ Items: {
 			略微增加生命再生
 			治疗法术会额外治疗8点生命值
 			'''
-		SetBonus: 有概率释放治疗脉冲，治愈队友{0}点生命值
+		SetBonus:
+			'''
+			增加30%光辉伤害
+			有概率释放治疗脉冲，治愈队友{0}点生命值
+			'''
 	}
 
 	TectonicPlates: {
@@ -731,7 +1017,7 @@ Items: {
 			'''
 			发射两个岩石，在光标的位置撞击
 			碰撞后产生中等大小的波动，造成深渊水压减益
-			"Alfred Wegener的赞助"
+			"Alfred Wegener赞助"
 			'''
 	}
 
@@ -740,7 +1026,7 @@ Items: {
 		Tooltip:
 			'''
 			无视40点防御力
-			镰刀是定向摆动不是旋转的
+			这把镰刀是定向挥舞而不是旋转
 			每次摆动都会产生小型潮汐波
 			造成深渊水压减益
 			'''
@@ -751,7 +1037,7 @@ Items: {
 		Tooltip:
 			'''
 			每次挥舞都会随着镰刀留下旋风
-			"Wooosh! Wind powered!"
+			"呼 !风力驱动!"
 			'''
 	}
 
@@ -759,98 +1045,8 @@ Items: {
 		DisplayName: 赎神之光
 		Tooltip:
 			'''
-			在你的光标处释放一道神圣之光，治愈光标下的队友
+			在光标处释放一道神圣之光，治愈光标下的队友
 			"准备好接受神灵的救赎吧.."
-			'''
-	}
-
-	Violince: {
-		DisplayName: 血肉小提琴
-		Tooltip:
-			'''
-			发射弹跳的星光弹幕
-			在正确的时机拍击，稳定地增加它的咒音增幅等级和演奏速度
-			每成功命中3次，发射的弹幕数量增加到6枚
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"萨克斯和小提琴评分18+ "
-			改编根据DM Dokuro的"Blood Coagulant" 中的小提琴声改编
-			'''
-	}
-
-	WilloftheRagnarok: {
-		DisplayName: 寰宇魔杖
-		Tooltip:
-			'''
-			所有合成武器的加成
-			"消灭那些扰乱宇宙平衡的人"
-			'''
-	}
-
-	Windward: {
-		DisplayName: 迎风
-		Tooltip: 发射两根追踪的羽毛
-	}
-
-	WulfrumMegaphone: {
-		DisplayName: 钨钢扩音器
-		Tooltip:
-			'''
-			发射的音波会随着时间的推移发射的更快
-			被调谐的敌怪多受5%伤害
-			"看那!廉价的侮辱者!"
-			'''
-	}
-
-	WulfrumWeedWacker: {
-		DisplayName: 钨钢镰刀
-		Tooltip: 镰刀是定向摆动不是旋转的
-	}
-
-	BloomingSaintessDevotion: {
-		DisplayName: 圣徒奉献
-		Tooltip:
-			'''
-			释放一根向光标处延伸的根茎并开出爆裂的花朵
-			"奉献激发勇敢，勇敢激发牺牲"
-			'''
-	}
-
-	BloomingSaintessStatue: {
-		DisplayName: 圣徒雕像
-		Tooltip:
-			'''
-			最大生命值增加20
-			最大魔力值增加20
-			增加12%治疗速度
-			增加14%光辉伤害
-			增加6%光辉施法速度
-			增加8%光辉暴击率
-			治疗法术会额外治疗2点生命值
-			敌怪处于破晓减益增辐光辉攻击
-			"幸运的是，它太大了，装不下任何罐子"
-			'''
-	}
-
-	CrystalHydraulophone: {
-		DisplayName: 水风琴
-		Tooltip:
-			'''
-			向光标处释放两个水滴体，击中敌怪时破碎
-			"人之善如水，水益万物"
-			改编出自DM Dokuro的“Sanctuary”中钢琴声
-			'''
-	}
-
-	SymphonicFabrications: {
-		DisplayName: 星流律动
-		Tooltip:
-			'''
-			发射追踪的彩色导弹粉碎目标
-			手持武器时，召唤两个星流扬声器
-			它们会随着你的攻击发射追踪声波协同攻击
-			声波会把造成伤害的5%转化为对你的治疗
-			声波也有33%的几率恢复1点灵感值
-			"你现在听到的是... Exo-FM!"
 			'''
 	}
 
@@ -878,111 +1074,57 @@ Items: {
 			'''
 	}
 
-	CherubimOmega: {
-		DisplayName: 终局神使
+	VictideAmmoniteHat: {
+		DisplayName: 胜潮帽子
+		Tooltip: 增加5%的音波伤害和灵感回复速度
+		SetBonus: 在水中时增加1.5 HP/s生命再生10%音波伤害和灵感回复速度
+	}
+
+	Violince: {
+		DisplayName: 血肉小提琴
 		Tooltip:
 			'''
-			镰刀是定向摆动不是旋转的
-			每次挥舞向光标处进行收割
-			每次收割砍出空间裂缝
-			空间裂缝释放最多五种天体能量
-			"等等，这不是星神之杀!"
+			发射弹跳的星光弹幕
+			在正确的时机拍击，稳定地增加它的咒音增幅等级和演奏速度
+			每成功命中3次，发射的弹幕数量增加到6枚
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"萨克斯和小提琴评分18+ "
+			作者DM Dokuro的小提琴演奏曲“Blood Coagulant”改编
 			'''
 	}
 
-	ElectricQuarterstaff: {
-		DisplayName: 泰瑟电棍
+	WilloftheRagnarok: {
+		DisplayName: 寰宇魔杖
 		Tooltip:
 			'''
-			旋转一把泰瑟电棍
-			每次挥舞在法棍周边释放闪电链
-			闪电链可以在敌人身上进行反弹
-			"内置泰瑟枪的可伸缩钩爪"
+			所有合成武器的加成
+			"消灭那些扰乱宇宙平衡的人"
 			'''
 	}
 
-	ScrapGuitar: {
-		DisplayName: 废弃吉他
+	Windward: {
+		DisplayName: 迎风
+		Tooltip: 发射两根追踪的羽毛
+	}
+
+	WulfrumMegaphone: {
+		DisplayName: 钨钢扩音器
 		Tooltip:
 			'''
-			发射缓慢的闪电束，在敌人之间反弹
-			反弹次数受弦乐器的反弹加成增益
-			"触摸电线能踏上天堂的阶梯！"
+			发射的音波会随着时间的推移发射的更快
+			穿透目标后会降低伤害
+			被调谐的敌怪多受5%伤害
+			"看那!廉价的侮辱者!"
 			'''
 	}
 
-	ScuffedKeytar: {
-		DisplayName: 磨损的肩背式合成器
+	WulfrumWeedWacker: {
+		DisplayName: 钨钢镰刀
 		Tooltip:
 			'''
-			无视30点防御
-			释放可以穿透的音乐旋律
-			"一把几乎不能用的肩背式合成器……关键字:‘工作’"
-			'''
-	}
-
-	FeralKeytar: {
-		DisplayName: 野性尖叫
-		Tooltip:
-			'''
-			无视60点防御
-			释放无限穿透的音波
-			"音符与灵魂的狂野融合"
-			'''
-	}
-
-	IntergelacticCloche: {
-		DisplayName: 异宇星钟形帽
-		Tooltip:
-			'''
-			增加18%音波伤害，暴击率和演奏速度
-			增加12%管乐器的追踪速度和范围
-			弦乐器的弹幕会额外反弹三次
-			'''
-		SetBonus:
-			'''
-			套装效果：增加17%灵感值再生速率
-			最大灵感增加7点
-			增加2秒咒音增幅的持续时间
-			小行星撞击敌人时，有33%的几率恢复3点灵感
-			'''
-	}
-
-	IntergelacticProtectorHelm: {
-		DisplayName: 异宇星灵狐盔
-		Tooltip:
-			'''
-			增加11%的光辉伤害，暴击率和施法速度
-			治疗法术会额外治疗4点生命值
-			'''
-		SetBonus:
-			'''
-			套装效果：增加22%的光辉伤害
-			治疗法术会额外治疗6点生命值
-			小行星撞击敌人时，有20%的几率回复{0}点生命
-			'''
-	}
-
-	PurgatoriumPandemonium: {
-		DisplayName: 仁爱与涤罪
-		Tooltip:
-			'''
-			无视150点防御
-			释放善良与邪恶的灵魂，以螺旋交错方式摇摆
-			善良的灵魂追逐队友并治疗或击中敌人时治疗队友
-			邪恶的灵魂追逐敌人并在击中敌人后造成耳语般的死亡
-			"第一个拯救垂死玩家的灵魂将赢得一张通往天堂的单程票!"
-			'''
-	}
-
-	SavingGrace: {
-		DisplayName: 救赎之恩
-		Tooltip:
-			'''
-			释放可治疗队友的宇宙能量
-			宇宙能量最终会回到玩家身边
-			生命值低于10%的队友会恢复到满血状态
-			"格蕾丝是谁，我们为什么要救她?"
+			这把镰刀是定向挥舞而不是旋转
+			每次挥舞会释放波浪
+			"Wulfrum weed wacker wacking weed with wulfrum"
 			'''
 	}
 }
@@ -997,22 +1139,37 @@ Projectiles: {
 	ArcticReinforcement.DisplayName: Arctic Reinforcement
 	ArcticReinforcement2.DisplayName: Arctic Reinforcement
 	BloodflareRitual.DisplayName: Bloodflare Ritual
+	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
+	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
+	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
 	CalamityBell.DisplayName: Calamity Bell
 	CalamityBellRing.DisplayName: Calamity Bell Ring
+	CherubimBeam.DisplayName: Cherubim Beam
+	CherubimOmega.DisplayName: Cherubim Omega
+	CherubimRift.DisplayName: Cherubim Rift
+	CherubimSlash.DisplayName: Cherubim Slash
 	ChristmasCarol.DisplayName: Christmas Carol
 	ColdShoulder.DisplayName: Cold Shoulder
 	ColdShoulderIcicle.DisplayName: Icicle
 	CosmicSong.DisplayName: Cosmic Song
 	CottonMouth.DisplayName: Cotton Mouth
+	CottonMouthGas.DisplayName: Laughing Gas
+	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
 	DeathAdder.DisplayName: Death Adder
 	DeathAdderSoul.DisplayName: Death Adder Soul
 	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
 	DoomsdayToot.DisplayName: Doomsday Toot
 	DryMouth.DisplayName: Dry Mouth
+	DryMouthSand.DisplayName: Pocket Sand
 	Duality.DisplayName: Duality
+	ElectricChain.DisplayName: Chain Lightning
+	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
 	ElementalSong.DisplayName: Elemental Song
 	ElementalSyzygy.DisplayName: Syzygy
 	Exorectionist.DisplayName: Exorectionist
+	ExoSound.DisplayName: Exo Surround Sound
+	ExoSurroundSound.DisplayName: Exo Surround Sound
+	FeralKeytar.DisplayName: Feral Keytar
 	FilthyCreeper.DisplayName: Rare Dank Creeper
 	FilthyFlute.DisplayName: Filthy Flute
 	Gashadokuro.DisplayName: Gashadokuro
@@ -1044,10 +1201,21 @@ Projectiles: {
 	PlagueSwarmerMissile.DisplayName: Plague Swarmer
 	PlagueTrace.DisplayName: Plague Trace
 	PledgeofSelflessness.DisplayName: Pledge of Selflessness
+	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
+	SavingGrace.DisplayName: Saving Grace
+	ScrapGuitar.DisplayName: Scrap Guitar
+	ScuffedKeytar.DisplayName: Scuffed Keytar
+	Singularity.DisplayName: Singularity
+	SingularityStar.DisplayName: Singularity
 	SlagFurysIntent.DisplayName: Slag Fury's Intent
 	SludgeBomb.DisplayName: Sludge Bomb
 	SpookyMonth.DisplayName: Spooky Month
+	StarBirth.DisplayName: Nebula
+	StarBirthStar.DisplayName: Newly Born Star
+	Supercluster.DisplayName: Supercluster
+	SuperclusterStar.DisplayName: Supercluster
+	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
 	Syzygy.DisplayName: Syzygy
 	TarragonHeartbeat.DisplayName: Tarragon Heartbeat
 	TarragonQuarterRest.DisplayName: Tarragon Quarter Rest
@@ -1064,33 +1232,13 @@ Projectiles: {
 	Violince.DisplayName: Violince
 	ViolinceBow.DisplayName: Violince
 	Whirlwind.DisplayName: Whirlwind
+	WhisperingLeaf.DisplayName: Whispering Leaf
+	WhisperingTrunk.DisplayName: Whispering Trunk
 	WilloftheRagnarok.DisplayName: Will of the Ragnarök
 	Windward.DisplayName: Windward
 	WulfrumSoundWave.DisplayName: Sound Wave
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
-	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
-	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
-	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
-	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
-	ExoSound.DisplayName: Exo Surround Sound
-	ExoSurroundSound.DisplayName: Exo Surround Sound
-	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
-	WhisperingLeaf.DisplayName: Whispering Leaf
-	WhisperingTrunk.DisplayName: Whispering Trunk
-	CherubimBeam.DisplayName: Cherubim Beam
-	CherubimOmega.DisplayName: Cherubim Omega
-	CherubimRift.DisplayName: Cherubim Rift
-	CherubimSlash.DisplayName: Cherubim Slash
-	CottonMouthGas.DisplayName: Laughing Gas
-	DryMouthSand.DisplayName: Pocket Sand
-	ElectricChain.DisplayName: Chain Lightning
-	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
-	ScrapGuitar.DisplayName: Scrap Guitar
-	ScuffedKeytar.DisplayName: Scuffed Keytar
 	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
-	FeralKeytar.DisplayName: Feral Keytar
-	PurgedSoul.DisplayName: Purged Soul
-	SavingGrace.DisplayName: Saving Grace
 }
 
 Buffs: {
@@ -1106,20 +1254,20 @@ Buffs: {
 	}
 
 	CalamityBell: {
-		DisplayName: 灾厄波动
+		DisplayName: 灾难钟声
 		Description: 它就在那里等着，威胁着……
 	}
 }
 
 FargoEnchantments: {
-	/* AtaxiaEnchant:
+	AtaxiaEnchant:
 		'''
 		Taking more than 75 damage spawns an oasis that lasts 3 seconds
 		The oasis heals life equal to bonus healing every 1/3 of a second
 		Symphonic critical strikes causes targets to erupt in sulfide flames
 		Only one eruption can occur and have a 3 second cooldown per trigger
-		''' */
-	/* BloodflareEnchant:
+		'''
+	BloodflareEnchant:
 		'''
 		Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
 		Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
@@ -1127,16 +1275,16 @@ FargoEnchantments: {
 		When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
 		Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
 		Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
-		''' */
-	/* GodSlayerEnchant:
+		'''
+	GodSlayerEnchant:
 		'''
 		A calamity bell floats above your head and occasionally rings while attacking
 		When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
-		''' */
-	// SilvaEnchant: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
-	/* TarragonEnchant:
+		'''
+	SilvaEnchant: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
+	TarragonEnchant:
 		'''
 		You spawn two quarter rests around you that heal inspiration upon hitting enemies
 		Occasionally emit a healing pulse that heals and shields allies equal to bonus healing
-		''' */
+		'''
 }

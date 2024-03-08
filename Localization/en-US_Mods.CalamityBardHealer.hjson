@@ -1,4 +1,6 @@
 ItemDescriptions: {
+	AstralBreastplate: +6 max inspiration and +4 bonus healing
+	AstralHelm: 12% increased inspiration regeneration rate
 	CelestialCarrier:
 		'''
 		Horizontal speed: 9.00
@@ -7,24 +9,6 @@ ItemDescriptions: {
 		Flight time: 180
 		Healing spells will heal an additional 4 life while wearing Celestial Armor
 		'''
-	ShootingStarTurboTuba:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		15% increased inpiration regeneration rate while wearing Shooting Star Armor
-		'''
-	WhiteDwarfThrusters:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
-		'''
-	AstralBreastplate: +6 max inspiration and +4 bonus healing
-	AstralHelm: 12% increased inspiration regeneration rate
 	DemonshadeGreaves:
 		'''
 		Increases your maximum technique points by 2, maximum inspiration by 15, and bonus healing by 25 life
@@ -33,15 +17,10 @@ ItemDescriptions: {
 		'''
 	DemonshadeHelm:
 		'''
+		30% increased radiant and symphonic damage
+		35% increased healing, radiant casting and symphonic playing speed
 		55% increased inspiration regeneration rate and notes drop chance
-		35% increased healing speed and symphonic playing speed
 		'''
-	OmegaBlueSet:
-		'''
-		Increases your maximum technique points by 2
-		Increases maximum inspiration by 12 and bonus healing by 7 life
-		'''
-	WulfrumJacket: 25% increased empowerment range
 	DemonBloodWings:
 		'''
 		Horizontal speed: 7.5
@@ -74,6 +53,19 @@ ItemDescriptions: {
 		Flight time: 100
 		Attacks have a chance to steal life while wearing Flesh Armor
 		'''
+	OmegaBlueSet:
+		'''
+		Increases your maximum technique points by 2
+		Increases maximum inspiration by 12 and bonus healing by 7 life
+		'''
+	ShootingStarTurboTuba:
+		'''
+		Horizontal speed: 9.00
+		Acceleration multiplier: 2.5
+		Great vertical speed
+		Flight time: 180
+		15% increased inspiration regeneration rate while wearing Shooting Star Armor
+		'''
 	TitanWings:
 		'''
 		Horizontal speed: 7.5
@@ -82,6 +74,15 @@ ItemDescriptions: {
 		Flight time: 160
 		15% increased damage and special damage reduction while wearing Titan Armor
 		'''
+	WhiteDwarfThrusters:
+		'''
+		Horizontal speed: 9.00
+		Acceleration multiplier: 2.5
+		Great vertical speed
+		Flight time: 180
+		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
+		'''
+	WulfrumJacket: 25% increased empowerment range
 }
 
 Items: {
@@ -92,7 +93,11 @@ Items: {
 			7% increased radiant damage and casting speed
 			Healing spells will heal an additional 2 life
 			'''
-		SetBonus: Healing spells will heal an additional 3 life while mid-air
+		SetBonus:
+			'''
+			13% increased radiant damage
+			Healing spells will heal an additional 3 life while mid-air
+			'''
 	}
 
 	AerospecHeadphones: {
@@ -104,7 +109,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			5% increased inspiration regeneration speed
+			5% increased inspiration regeneration rate
 			Your wind instrument attacks now attempt to home in on enemies
 			If the attack already homes onto enemies, it does so more quickly
 			'''
@@ -112,7 +117,11 @@ Items: {
 
 	AnahitasArpeggio: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
-		Tooltip: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}"
+		Tooltip:
+			'''
+			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			Based off of the harp from "Forbidden Lullaby" by DM Dokuro
+			'''
 	}
 
 	AquaiusAdvice: {
@@ -131,7 +140,55 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a mini-blizzard of icicles
-			"The polar counterpart"
+			"The northern polar counterpart"
+			Based off of the xylophone from "Antarctic Reinforcement" by DM Dokuro
+			'''
+	}
+
+	AugmentedAuricTeslaFeatheredHeadwear: {
+		DisplayName: Auric Tesla Feathered Headwear[c/#70f4f4:+]
+		Tooltip:
+			'''
+			25% increased symphonic damage
+			20% increased symphonic critical strike chance
+			15% increased symphonic playing speed
+			Increases inspiration regeneration rate by 10%
+			Increases wind instrument homing speed and range by 50%
+			String instruments bounce five additional times
+			'''
+		SetBonus:
+			'''
+			Bard Intergelactic, Bloodflare and God Slayer armor effects
+			15% increased symphonic damage
+			10% increased symphonic playing speed
+			5% increased symphonic critical strike chance
+			25% increased percussion critical strike damage
+			50% increased empowerment range
+			+10 max inspiration
+			Increases empowerment duration by 5 seconds
+			Increases inspiration regeneration rate by 30%
+			Increases the chance for inspiration notes to drop by 45%
+			'''
+	}
+
+	AugmentedAuricTeslaValkyrieVisage: {
+		DisplayName: Auric Tesla Valkyrie Visage[c/#70f4f4:+]
+		Tooltip:
+			'''
+			15% increased radiant damage
+			10% increased radiant critical strike chance
+			45% decreased mana cost
+			Massively increased life and mana regeneration
+			+100 max life
+			+200 max mana
+			Healing spells will heal an additional 18 life
+			'''
+		SetBonus:
+			'''
+			Healer Intergelactic, Bloodflare and Silva armor effects
+			40% increased radiant damage
+			20% increased radiant critical strike chance
+			16% increased healing and radiant casting speed
 			'''
 	}
 
@@ -142,16 +199,22 @@ Items: {
 			25% increased symphonic damage
 			20% increased symphonic critical strike chance
 			15% increased symphonic playing speed
-			Increases inspiration regeneration speed by 10%
+			Increases inspiration regeneration rate by 10%
 			Increases wind instrument homing speed and range by 50%
 			String instruments bounce five additional times
 			'''
 		SetBonus:
 			'''
-			50% increased empowerment range
-			Increases empowerment duration by 2 seconds
-			Increases inspiration regeneration speed by 30%
 			Bard Tarragon, Bloodflare and God Slayer armor effects
+			15% increased symphonic damage
+			10% increased symphonic playing speed
+			5% increased symphonic critical strike chance
+			25% increased percussion critical strike damage
+			50% increased empowerment range
+			+10 max inspiration
+			Increases empowerment duration by 5 seconds
+			Increases inspiration regeneration rate by 30%
+			Increases the chance for inspiration notes to drop by 45%
 			'''
 	}
 
@@ -159,15 +222,21 @@ Items: {
 		DisplayName: Auric Tesla Valkyrie Visage
 		Tooltip:
 			'''
-			50% increased radiant damage
-			30% increased radiant critical strike chance
+			15% increased radiant damage
+			10% increased radiant critical strike chance
 			45% decreased mana cost
 			Massively increased life and mana regeneration
 			+100 max life
 			+200 max mana
 			Healing spells will heal an additional 18 life
 			'''
-		SetBonus: Healer Tarragon, Bloodflare and Silva armor effects
+		SetBonus:
+			'''
+			Healer Tarragon, Bloodflare and Silva armor effects
+			40% increased radiant damage
+			20% increased radiant critical strike chance
+			16% increased healing and radiant casting speed
+			'''
 	}
 
 	BelchingSaxophone: {
@@ -191,6 +260,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			27% increased radiant damage
+			11% increased radiant casting speed
 			Press '{0}' to use half of your life to summon a healing ritual
 			The ritual will heal allies for {1} life rapidly
 			Only one ritual can be active at a time
@@ -207,12 +278,52 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Increases empowerment duration by 2 seconds
+			+4 max inspiration
+			8% increased symphonic damage
+			5% increased symphonic critical strike chance, and playing speed
+			Increases empowerment duration by 4 seconds
 			Dealing symphonic damage charges up a meter that decays over time
 			The meter is charged up by 100% of symphonic damage dealt
 			When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
 			Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
 			Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+			'''
+	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: Blooming Saintess' Devotion
+		Tooltip:
+			'''
+			Shoots a spreading stem which blooms exploding flowers
+			"Devotion inspires bravery, bravery inspires sacrifice"
+			'''
+	}
+
+	BloomingSaintessStatue: {
+		DisplayName: Blooming Saintess Statue
+		Tooltip:
+			'''
+			Maximum life increased by 20
+			Maximum mana increased by 20
+			12% increased healing speed
+			14% increased radiant damage
+			6% increased radiant casting speed
+			8% increased radiant critical strike chance
+			Healing spells will heal an additional 2 life
+			Empowers radiant attacks with daybroken
+			"Luckily, its too big to fit in any jar"
+			'''
+	}
+
+	CherubimOmega: {
+		DisplayName: Cherubim Omega
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Sends god-reaping slashes at the cursor every swing
+			The slashes open a big rift in the fabric of reality
+			The rift releases up to five homing celestial energy
+			"Wait a minute, this isn't Celestus!"
 			'''
 	}
 
@@ -246,7 +357,18 @@ Items: {
 			'''
 			Ignores 20 points of defense
 			This scythe is swung directionally instead of spun
+			Shoots a barrage of acidic gas clouds per swing
 			Inflicts acid venom and sulphuric poisoning on hit
+			'''
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: Crystal Hydraulophone
+		Tooltip:
+			'''
+			Shoots two curving water crystals that shatter on hit
+			"The best of man is like water, water benefits all things"
+			Based off of the piano-like sound from "Sanctuary" by DM Dokuro
 			'''
 	}
 
@@ -260,6 +382,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			25% increased radiant damage
 			Healing spells will heal an additional 1 life
 			Press '{0}' to summon an ice cream machine on your location, press '{0}' again to unsummon it
 			Players can Right Click the ice cream machine to receive Sugar Rush buff for 1 minute
@@ -271,12 +394,13 @@ Items: {
 		DisplayName: Daedalus Hat
 		Tooltip:
 			'''
-			10% increased symphonic damage and playing speed
-			Increases wind instrument homing range by 20%
+			18% increased symphonic damage and playing speed
+			Increases wind instrument homing range by 22%
 			String instruments bounce an additional time
 			'''
 		SetBonus:
 			'''
+			Increases inspiration regeneration rate by 10%
 			Increases empowerment duration by 3 seconds
 			Symphonic damage inflicts frostburn and frostbite on hit
 			Nearby allies have a chance to inflict frostburn on hit
@@ -316,6 +440,8 @@ Items: {
 			'''
 			Ignores 10 points of defense
 			This scythe is swung directionally instead of spun
+			Shoots a miniature dust storm every swing
+			"Pocket Sand!"
 			'''
 	}
 
@@ -328,6 +454,17 @@ Items: {
 			Hitting enemies with the red energy massively boost health regeneration
 			<right> to throw the scythe, which will curve on its way back
 			"I have two sides: I forgor and I rember"
+			'''
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: Electric Quarterstaff
+		Tooltip:
+			'''
+			Spins an electric tazer staff
+			Emits chaining lightning on initial hit per swing
+			The chain lightning can re-bounce on the same enemies
+			"A retractable quarterstaff with a built-in taser"
 			'''
 	}
 
@@ -366,6 +503,16 @@ Items: {
 			Notes deal more damage against targets suffering from damage over time effects
 			<right> to summon an amplifier that shoots notes toward your mouse cursor
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
+			'''
+	}
+
+	FeralKeytar: {
+		DisplayName: Feral Keytar
+		Tooltip:
+			'''
+			Ignores 60 points of defense
+			Shoots a musical staff that pierces indefinitely
+			"A very feral amalgamation of notes and souls"
 			'''
 	}
 
@@ -419,9 +566,12 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			11% increased symphonic damage
+			20% increased percussion critical strike damage
 			50% increased empowerment range
+			+6 max inspiration
 			A calamity bell floats above your head and occasionally rings while attacking
-			When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles get destroyed
+			When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
 			'''
 	}
 
@@ -452,6 +602,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			28% increased radiant damage
 			9% increased healing and radiant casting speed
 			Healing spells will heal an additional 2 life
 			Taking more than 75 damage spawns an oasis that lasts 3 seconds
@@ -465,16 +616,51 @@ Items: {
 		Tooltip:
 			'''
 			15% increased symphonic damage
+			12% increased symphonic playing speed
 			10% increased symphonic critical strike chance
 			String instruments bounce an additional time
 			'''
 		SetBonus:
 			'''
+			15% increased percussion critical strike damage
+			Increases inspiration regeneration rate by 12%
 			Increases wind instrument homing speed by 15%
 			Increases wind instrument homing range by 5%
 			String instruments bounce two additional times
 			Symphonic critical strikes causes targets to erupt in sulfide flames
 			Only one eruption can occur and have a 3 second cooldown per trigger
+			'''
+	}
+
+	IntergelacticCloche: {
+		DisplayName: Intergelactic Cloche
+		Tooltip:
+			'''
+			18% increased symphonic damage, critical strike chance and playing speed
+			Increases wind instrument homing speed and range by 12%
+			String instruments bounce three additional time
+			'''
+		SetBonus:
+			'''
+			17% increased inspiration regeneration rate
+			Increases max inspiration by 7
+			Increases empowerment duration by 2 seconds
+			Asteroids have a 33 % chance to heal 3 inspiration upon hitting enemies
+			'''
+	}
+
+	IntergelacticProtectorHelm: {
+		DisplayName: Intergelactic Protector Helm
+		Tooltip:
+			'''
+			11% increased radiant damage, critical strike chance and casting speed
+			Healing spells will heal an additional 4 life
+			'''
+		SetBonus:
+			'''
+			22% increased radiant damage
+			Healing spells will heal an additional 6 life
+			Asteroids have a 20 % chance to heal {0} life upon hitting enemies
 			'''
 	}
 
@@ -494,7 +680,7 @@ Items: {
 		DisplayName: Lost Oasis
 		Tooltip:
 			'''
-			Shoots an expanding oasis
+			Summons an expanding oasis
 			Heals every half-second
 			"Nevermind guys, I found it"
 			'''
@@ -584,6 +770,18 @@ Items: {
 			'''
 	}
 
+	PurgatoriumPandemonium: {
+		DisplayName: Purgatorium Pandemonium
+		Tooltip:
+			'''
+			Ignores 150 points of defense
+			Shoots a volley of good and evil souls that wave around as they travel
+			Good souls chase after players and heal them or heal the user if it hits enemies
+			Evil souls chase after enemies and inflict whispering death upon hitting enemies
+			"First soul to save a dying player wins a one way ticket to Heaven!"
+			'''
+	}
+
 	ReturntoSludge: {
 		DisplayName: Return to Sludge
 		Tooltip: Charge to build up a goo bomb then release to shoot it
@@ -601,12 +799,43 @@ Items: {
 			'''
 	}
 
+	SavingGrace: {
+		DisplayName: Saving Grace
+		Tooltip:
+			'''
+			Rapidly shoots a healing helix of cosmic energy
+			The helix will eventually home toward a player
+			Players below 10% health are healed back to full
+			"Who is Grace and why are we saving her?"
+			'''
+	}
+
 	SchoolNurse: {
 		DisplayName: School Nurse
 		Tooltip:
 			'''
 			Shoots a barrage of slippery ice that heals and cures
 			"All it takes is an ice pack and some prayer"
+			'''
+	}
+
+	ScrapGuitar: {
+		DisplayName: Scrap Guitar
+		Tooltip:
+			'''
+			Shoots slow electrical beams that bounce between enemies
+			Bounce count is increased by string instrument bounce stat
+			"Plays Stairway to Heaven upon touching the exposed wires"
+			'''
+	}
+
+	ScuffedKeytar: {
+		DisplayName: Scuffed Keytar
+		Tooltip:
+			'''
+			Ignores 30 points of defense
+			Shoots a musical staff that pierces indefinitely
+			"An old keytar that barely works... Keyword: 'works'"
 			'''
 	}
 
@@ -619,7 +848,23 @@ Items: {
 			+100 max life
 			Healing spells will heal an additional 15 life
 			'''
-		SetBonus: Taking a lot of damage gives players with the lowest health the Guardian Angel buff for 30 seconds
+		SetBonus:
+			'''
+			32% increased radiant damage
+			11% increased healing speed
+			Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
+			'''
+	}
+
+	Singularity: {
+		DisplayName: Singularity
+		Tooltip:
+			'''
+			Ignores 100 points of defense
+			This scythe is swung directionally instead of spun
+			Shoots three homing stars that hit multiple times every swing
+			"Infinitely dense, just like your mum"
+			'''
 	}
 
 	SlagFurysIntent: {
@@ -670,6 +915,16 @@ Items: {
 		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
 	}
 
+	StarBirth: {
+		DisplayName: Birthplace of Stars
+		Tooltip:
+			'''
+			Summons an expanding nebula that heals every one-third of a second
+			Stars form in the nebula which homes in to players but heal half as much
+			Though, these homing stars cannot heal the caster
+			'''
+	}
+
 	StatigelEarrings: {
 		DisplayName: Statigel Earrings
 		Tooltip:
@@ -687,7 +942,33 @@ Items: {
 			9% increased radiant damage and casting speed
 			Healing spells will heal an additional 4 life
 			'''
-		SetBonus: 9% increased healing speed
+		SetBonus:
+			'''
+			9% increased healing speed
+			14% increased radiant damage
+			'''
+	}
+
+	Supercluster: {
+		DisplayName: Supercluster
+		Tooltip:
+			'''
+			Shoots a miniature cluster of stars that fall upwards
+			Will fall to the closest enemy to the mouse cursor
+			Explodes into lingering stars on impact
+			'''
+	}
+
+	SymphonicFabrications: {
+		DisplayName: Symphonic Fabrications
+		Tooltip:
+			'''
+			Shoots a barrage of colorful missiles that shreds targets
+			While holding the weapon, two giant Exo speakers hover beside you and aid in combat
+			These attack alongside you by shooting homing sound waves that deal 150% damage
+			Sound waves heal you for 5% of the damage dealt and have a 33% chance to heal 1 inspiration
+			"Now you're listening to... Exo-FM!"
+			'''
 	}
 
 	Syzygy: {
@@ -709,7 +990,7 @@ Items: {
 			5% increased symphonic critical strike chance and playing speed
 			String instruments bounce three additional times
 			'''
-		SetBonus: You spawn quarter rests around you that heal inspiration when hitting enemies
+		SetBonus: You spawn quarter rests around you that heal inspiration upon hitting enemies
 	}
 
 	TarragonParagonCrown: {
@@ -722,7 +1003,11 @@ Items: {
 			Slightly increased life regeneration
 			Healing spells will heal an additional 8 life
 			'''
-		SetBonus: Occasionally emit a healing pulse that heals and shields allies by {0} points
+		SetBonus:
+			'''
+			30% increased radiant damage
+			Occasionally emit a healing pulse that heals and shields allies by {0} points
+			'''
 	}
 
 	TectonicPlates: {
@@ -764,6 +1049,36 @@ Items: {
 			'''
 	}
 
+	TreeWhispererAmulet: {
+		DisplayName: Tree Whisperer Amulet
+		Tooltip:
+			'''
+			12% increased symphonic damage, playing speed, and critical strike chance
+			String instruments bounce two additional times
+			Your wind instrument attacks now attempt to quickly home in on enemies
+			If the attack already homes onto enemies, it does so more quickly
+			Critical strikes caused by brass instrument attacks release a spread of piercing energy
+			Percussion critical strikes will deal 10% more damage and briefly stun enemies
+			"Speak for the trees, hear them out, use their ideas to compose some beats!"
+			'''
+	}
+
+	TreeWhisperersHarp: {
+		DisplayName: Tree Whisperer's Harp
+		Tooltip:
+			'''
+			Shoots a tree trunk that branches out and grow leaves
+			The leaves eventually fall off and home onto enemies
+			"Everyone needs a friend, even a happy little tree!"
+			'''
+	}
+
+	VictideAmmoniteHat: {
+		DisplayName: Victide Ammonite Hat
+		Tooltip: 5% increased symphonic damage and inspiration regeneration rate
+		SetBonus: +1.5 HP/s life regen and 10% increased symphonic damage and inspiration regeneration rate while submerged in liquid
+	}
+
 	Violince: {
 		DisplayName: Violince
 		Tooltip:
@@ -796,6 +1111,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a sound wave that grows and speeds up
+			Pierces targets but damage gets reduced by a flat amount
 			Tunes targets on hit, increasing the damage they take by 5%
 			"Behold! The Cheap-Insults-Inator!"
 			'''
@@ -803,186 +1119,11 @@ Items: {
 
 	WulfrumWeedWacker: {
 		DisplayName: Wulfrum Weed Wacker
-		Tooltip: This scythe is swung directionally instead of spun
-	}
-
-	BloomingSaintessDevotion: {
-		DisplayName: Blooming Saintess' Devotion
-		Tooltip:
-			'''
-			Shoots a spreading stem which blooms exploding flowers
-			"Devotion inspires bravery, bravery inspires sacrifice"
-			'''
-	}
-
-	BloomingSaintessStatue: {
-		DisplayName: Blooming Saintess Statue
-		Tooltip:
-			'''
-			Maximum life increased by 20
-			Maximum mana increased by 20
-			12% increased healing speed
-			14% increased radiant damage
-			6% increased radiant casting speed
-			8% increased radiant critical strike chance
-			Healing spells will heal an additional 2 life
-			Empowers radiant attacks with daybroken
-			"Luckily, its too big to fit in any jar"
-			'''
-	}
-
-	CrystalHydraulophone: {
-		DisplayName: Crystal Hydraulophone
-		Tooltip:
-			'''
-			Shoots two curving water crystals that shatter on hit
-			"The best of man is like water, water benefits all things"
-			Based off of the piano-like sound from "Sanctuary" by DM Dokuro
-			'''
-	}
-
-	SymphonicFabrications: {
-		DisplayName: Symphonic Fabrications
-		Tooltip:
-			'''
-			Shoots a barrage of colorful missiles that shreds targets
-			While holding the weapon, two exo speakers hover beside you
-			These attack alongside you by shooting homing sound waves
-			Sound waves heal you for 5% of the damage dealt
-			Sound waves also have a 33% chance to heal 1 inspiration
-			"Now you're listening to... Exo-FM!"
-			'''
-	}
-
-	TreeWhispererAmulet: {
-		DisplayName: Tree Whisperer Amulet
-		Tooltip:
-			'''
-			12% increased symphonic damage, playing speed, and critical strike chance
-			String instruments bounce two additional times
-			Your wind instrument attacks now attempt to quickly home in on enemies
-			If the attack already homes onto enemies, it does so more quickly
-			Critical strikes caused by brass instrument attacks release a spread of piercing energy
-			Percussion critical strikes will deal 10% more damage and briefly stun enemies
-			"Speak for the trees, hear them out, use their ideas to compose some beats!"
-			'''
-	}
-
-	TreeWhisperersHarp: {
-		DisplayName: Tree Whisperer's Harp
-		Tooltip:
-			'''
-			Shoots a tree trunk that branches out and grow leaves
-			The leaves eventually fall off and home onto enemies
-			"Everyone needs a friend, even a happy little tree!"
-			'''
-	}
-
-	CherubimOmega: {
-		DisplayName: Cherubim Omega
 		Tooltip:
 			'''
 			This scythe is swung directionally instead of spun
-			Sends god-reaping slashes at the cursor every swing
-			The slashes open a big rift in the fabric of reality
-			The rift releases up to five homing celestial energy
-			"Wait a minute, this isn't Celestus!"
-			'''
-	}
-
-	ElectricQuarterstaff: {
-		DisplayName: Electric Quarterstaff
-		Tooltip:
-			'''
-			Spins an electric tazer staff
-			Emits chaining lightning on initial hit per swing
-			The chain lightning can re-bounce on the same enemies
-			"A retractable quarterstaff with a built-in taser"
-			'''
-	}
-
-	ScrapGuitar: {
-		DisplayName: Scrap Guitar
-		Tooltip:
-			'''
-			Shoots slow electrical beams that bounce between enemies
-			Bounce count is increased by string instrument bounce stat
-			"Plays Stairway to Heaven upon touching the exposed wires"
-			'''
-	}
-
-	ScuffedKeytar: {
-		DisplayName: Scuffed Keytar
-		Tooltip:
-			'''
-			Ignores 30 points of defense
-			Shoots a musical staff that pierces indefinitely
-			"An old keytar that barely works... Keyword: 'works'"
-			'''
-	}
-
-	FeralKeytar: {
-		DisplayName: Feral Keytar
-		Tooltip:
-			'''
-			Ignores 60 points of defense
-			Shoots a musical staff that pierces indefinitely
-			"A very feral amalgamation of notes and souls"
-			'''
-	}
-
-	IntergelacticCloche: {
-		DisplayName: Intergelactic Cloche
-		Tooltip:
-			'''
-			18% increased symphonic damage, critical strike chance and playing speed
-			Increases wind instrument homing speed and range by 12%
-			String instruments bounce three additional time
-			'''
-		SetBonus:
-			'''
-			17% increased inspiration regeneration rate
-			Increases max inspiration by 7
-			Increases empowerment duration by 2 seconds
-			Asteroids have a 33 % chance to heal 3 inspiration upon hitting enemies
-			'''
-	}
-
-	IntergelacticProtectorHelm: {
-		DisplayName: Intergelactic Protector Helm
-		Tooltip:
-			'''
-			11% increased radiant damage, critical strike chance and casting speed
-			Healing spells will heal an additional 4 life
-			'''
-		SetBonus:
-			'''
-			22% increased radiant damage
-			Healing spells will heal an additional 6 life
-			Asteroids have a 20 % chance to heal {0} life upon hitting enemies
-			'''
-	}
-
-	PurgatoriumPandemonium: {
-		DisplayName: Purgatorium Pandemonium
-		Tooltip:
-			'''
-			Ignores 150 points of defense
-			Shoots a volley of good and evil souls that wave around as they travel
-			Good souls chase after players and heal them or heal the user if it hits enemies
-			Evil souls chase after enemies and inflict whispering death upon hitting enemies
-			"First soul to save a dying player wins a one way ticket to Heaven!"
-			'''
-	}
-
-	SavingGrace: {
-		DisplayName: Saving Grace
-		Tooltip:
-			'''
-			Rapidly shoots a healing helix of cosmic energy
-			The helix will eventually home toward a player
-			Players below 10% health are healed back to full
-			"Who is Grace and why are we saving her?"
+			Shoots a short-ranged wave every swing
+			"Wulfrum weed wacker wacking weed with wulfrum"
 			'''
 	}
 }
@@ -997,22 +1138,37 @@ Projectiles: {
 	ArcticReinforcement.DisplayName: Arctic Reinforcement
 	ArcticReinforcement2.DisplayName: Arctic Reinforcement
 	BloodflareRitual.DisplayName: Bloodflare Ritual
+	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
+	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
+	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
 	CalamityBell.DisplayName: Calamity Bell
 	CalamityBellRing.DisplayName: Calamity Bell Ring
+	CherubimBeam.DisplayName: Cherubim Beam
+	CherubimOmega.DisplayName: Cherubim Omega
+	CherubimRift.DisplayName: Cherubim Rift
+	CherubimSlash.DisplayName: Cherubim Slash
 	ChristmasCarol.DisplayName: Christmas Carol
 	ColdShoulder.DisplayName: Cold Shoulder
 	ColdShoulderIcicle.DisplayName: Icicle
 	CosmicSong.DisplayName: Cosmic Song
 	CottonMouth.DisplayName: Cotton Mouth
+	CottonMouthGas.DisplayName: Laughing Gas
+	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
 	DeathAdder.DisplayName: Death Adder
 	DeathAdderSoul.DisplayName: Death Adder Soul
 	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
 	DoomsdayToot.DisplayName: Doomsday Toot
 	DryMouth.DisplayName: Dry Mouth
+	DryMouthSand.DisplayName: Pocket Sand
 	Duality.DisplayName: Duality
+	ElectricChain.DisplayName: Chain Lightning
+	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
 	ElementalSong.DisplayName: Elemental Song
 	ElementalSyzygy.DisplayName: Syzygy
 	Exorectionist.DisplayName: Exorectionist
+	ExoSound.DisplayName: Exo Surround Sound
+	ExoSurroundSound.DisplayName: Exo Surround Sound
+	FeralKeytar.DisplayName: Feral Keytar
 	FilthyCreeper.DisplayName: Rare Dank Creeper
 	FilthyFlute.DisplayName: Filthy Flute
 	Gashadokuro.DisplayName: Gashadokuro
@@ -1044,10 +1200,21 @@ Projectiles: {
 	PlagueSwarmerMissile.DisplayName: Plague Swarmer
 	PlagueTrace.DisplayName: Plague Trace
 	PledgeofSelflessness.DisplayName: Pledge of Selflessness
+	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
+	SavingGrace.DisplayName: Saving Grace
+	ScrapGuitar.DisplayName: Scrap Guitar
+	ScuffedKeytar.DisplayName: Scuffed Keytar
+	Singularity.DisplayName: Singularity
+	SingularityStar.DisplayName: Singularity
 	SlagFurysIntent.DisplayName: Slag Fury's Intent
 	SludgeBomb.DisplayName: Sludge Bomb
 	SpookyMonth.DisplayName: Spooky Month
+	StarBirth.DisplayName: Nebula
+	StarBirthStar.DisplayName: Newly Born Star
+	Supercluster.DisplayName: Supercluster
+	SuperclusterStar.DisplayName: Supercluster
+	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
 	Syzygy.DisplayName: Syzygy
 	TarragonHeartbeat.DisplayName: Tarragon Heartbeat
 	TarragonQuarterRest.DisplayName: Tarragon Quarter Rest
@@ -1064,33 +1231,13 @@ Projectiles: {
 	Violince.DisplayName: Violince
 	ViolinceBow.DisplayName: Violince
 	Whirlwind.DisplayName: Whirlwind
+	WhisperingLeaf.DisplayName: Whispering Leaf
+	WhisperingTrunk.DisplayName: Whispering Trunk
 	WilloftheRagnarok.DisplayName: Will of the Ragnarök
 	Windward.DisplayName: Windward
 	WulfrumSoundWave.DisplayName: Sound Wave
 	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
-	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
-	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
-	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
-	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
-	ExoSound.DisplayName: Exo Surround Sound
-	ExoSurroundSound.DisplayName: Exo Surround Sound
-	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
-	WhisperingLeaf.DisplayName: Whispering Leaf
-	WhisperingTrunk.DisplayName: Whispering Trunk
-	CherubimBeam.DisplayName: Cherubim Beam
-	CherubimOmega.DisplayName: Cherubim Omega
-	CherubimRift.DisplayName: Cherubim Rift
-	CherubimSlash.DisplayName: Cherubim Slash
-	CottonMouthGas.DisplayName: Laughing Gas
-	DryMouthSand.DisplayName: Pocket Sand
-	ElectricChain.DisplayName: Chain Lightning
-	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
-	ScrapGuitar.DisplayName: Scrap Guitar
-	ScuffedKeytar.DisplayName: Scuffed Keytar
 	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
-	FeralKeytar.DisplayName: Feral Keytar
-	PurgedSoul.DisplayName: Purged Soul
-	SavingGrace.DisplayName: Saving Grace
 }
 
 Buffs: {
