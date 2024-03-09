@@ -21424,377 +21424,377 @@ Mods: {
 			ShockRiflePro.DisplayName: 雷电重炮
 			ShockRiflePro2.DisplayName: 雷电重炮2
 			ShockRiflePro3.DisplayName: 雷电重炮3
-			Shockwave.DisplayName: Shockwave
-			ShootingStarDrillPro.DisplayName: Shooting Star Drill
-			ShroomBolt.DisplayName: Shroom Bolt
-			ShroomiteRocketDrillPro.DisplayName: Shroomite Rocket-Drill
-			ShroomiteRocketDrillPro2.DisplayName: Shroomite Rocket-Drill
-			ShusArrow.DisplayName: Shus Arrow
-			ShusSandstorm.DisplayName: Shus Sandstorm
-			SilverBlast.DisplayName: Silver Blast
-			SiphonPro.DisplayName: Siphon Pro
-			SkadooshPro.DisplayName: Skadoosh Pro
-			SkadooshPro2.DisplayName: Skadoosh Pro2
-			SlagPro.DisplayName: Slag Pro
-			SleekRocketPro.DisplayName: Sleek Rocket Pro
-			SluggerCloud.DisplayName: Slugger Cloud
-			SnotShot.DisplayName: Snot Shot
-			SnowWhitePro1.DisplayName: Snow White Pro1
-			SnowWhitePro2.DisplayName: Snow White Pro2
-			SnowWhitePro3.DisplayName: Snow White Pro3
-			SolScorchedSlabPro.DisplayName: Scorched Earth
-			SoulImage.DisplayName: Soul Image
-			SoulImage2.DisplayName: Soul Image2
-			SoulReaverPro.DisplayName: Soul Reaver Pro
-			SoulReaverPro2.DisplayName: Soul Reaver Pro2
-			SoulReaverPro3.DisplayName: Soul Reaver Pro3
-			SoulRenderPulse.DisplayName: Soul Render Pulse
-			SparkingJellyBallPro.DisplayName: Sparking Jelly Ball
-			SparkTaserPro.DisplayName: Spark Taser Pro
-			SparkTaserProBeam.DisplayName: Spark Taser Pro Beam
-			DummyPro.DisplayName: Dummy Projectile
-			SpearCrystal.DisplayName: Spear Crystal
-			SpearExtra.DisplayName: Spear Extra
-			SpearExtraCrystal.DisplayName: Spear Extra Crystal
-			SpearExtraFlame.DisplayName: Spear Extra Flame
-			SpearmintPro.DisplayName: Spearmint Pro
-			SpineBreaker1.DisplayName: Spine Breaker
-			SpineBreaker1Dummy.DisplayName: Spine Breaker
-			SpineBreaker2.DisplayName: Spine Breaker
-			SpineBusterPro.DisplayName: Spine Buster Pro
-			SpinyShellPro.DisplayName: Spiny Shell Pro
-			SpiritArrowPro.DisplayName: Spirit Arrow Pro
-			SpiritBreakerPro.DisplayName: Spirit Breaker Pro
-			SpiritTrapperVisual.DisplayName: Spirit Trapper Visual
-			SpiritualPro2.DisplayName: Spiritual Surge
-			SpiritualPro3.DisplayName: Spiritual Surge
-			SporeBomb.DisplayName: Spore Bomb
-			SpringHookPro.DisplayName: Spring Hook
-			Spud.DisplayName: Spud
-			Spud2.DisplayName: Spud2
-			SSDevastatorPro.DisplayName: S S Devastator Pro
-			StalagmitePro.DisplayName: Stalagmite Pro
-			StalagmitePro2.DisplayName: Stalagmite Pro2
-			StarTrailPro.DisplayName: Star Trail
-			StarTrailPro2.DisplayName: Star Trail Pro2
-			StaticProdPro.DisplayName: Static Prod Pro
-			StaticProdPro2.DisplayName: Static Prod Pro2
-			SteamFlailPro.DisplayName: Steam Flail
-			SteelArrow.DisplayName: Steel Arrow
-			StellarSystemPro.DisplayName: Stellar System Pro
-			StellarSystemPro1.DisplayName: Stellar System
-			StellarSystemPro2.DisplayName: Stellar System
-			StellarSystemPro3.DisplayName: Stellar System
-			StellarSystemPro4.DisplayName: Stellar System
-			StellarSystemPro5.DisplayName: Stellar System
-			StonePurplePro.DisplayName: Unassuming Purple Stone
-			StormFlare.DisplayName: Storm Flare
-			StormHome.DisplayName: Energy Storm
-			StunPro.DisplayName: Stun
-			SuperPlasmaCannonPro.DisplayName: Super Plasma Cannon Pro
-			SuperPlasmaCannonPro0.DisplayName: Super Plasma Cannon Pro0
-			SuperPlasmaCannonPro2.DisplayName: Super Plasma Cannon Pro2
-			SuperPlasmaCannonPro3.DisplayName: Super Plasma Cannon Pro3
-			SuperPlasmaCannonPro4.DisplayName: Super Plasma Cannon Pro4
-			SuppressionBulletPro.DisplayName: Suppression Bullet
-			TalonArrowPro.DisplayName: Talon Arrow Pro
-			TalonBurstPro.DisplayName: Talon Burst Pro
-			TeleportEffect.DisplayName: Teleport Effect
-			TerrariansLastKnifePro.DisplayName: Terrarian's Last Knife
-			TerrariumBomberPro.DisplayName: Terrarium Bomber Pro
-			TerrariumHyperDiscPro.DisplayName: Terrarium Hyper Disc Pro
-			TerrariumLongbowPro.DisplayName: Terrarium Longbow Pro
-			TerrariumPulseRiflePro.DisplayName: Terrarium Pulse Rifle Pro
-			TerrariumRippleKnifePro.DisplayName: Terrarium Ripple Knife Pro
-			TerrariumSaberPro.DisplayName: Terrarium Saber Pro
-			TerrariumSageStaffPro.DisplayName: Terrarium Sage Staff Pro
-			TerrariumSageStaffPro2.DisplayName: Terrarium Sage Staff Pro2
-			TerrariumSetPro.DisplayName: Terrarium Set Pro
-			TerrariumSpearPro.DisplayName: Terrarium Spear Pro
-			TerrariumSpearPro2.DisplayName: Terrarium Spear Pro2
-			TerrariumSpearPulse.DisplayName: Terrarium Spear Pulse
-			TerrariumTerrarformerPro.DisplayName: Terrarium Terrarformer Pro
-			TerrariumWhaleCatcherBobber.DisplayName: Terrarium Whale Catcher Bobber
+			Shockwave.DisplayName: 冲击波
+			ShootingStarDrillPro.DisplayName: 流影掠星钻头
+			ShroomBolt.DisplayName: 真菌弹
+			ShroomiteRocketDrillPro.DisplayName: 蘑菇火箭钻
+			ShroomiteRocketDrillPro2.DisplayName: 蘑菇火箭钻
+			ShusArrow.DisplayName: 苏之箭
+			ShusSandstorm.DisplayName: 苏之沙尘暴
+			SilverBlast.DisplayName: 白银爆弹
+			SiphonPro.DisplayName: 虹吸
+			SkadooshPro.DisplayName: 走你!
+			SkadooshPro2.DisplayName: 走你!2
+			SlagPro.DisplayName: 焦土
+			SleekRocketPro.DisplayName: 光滑导弹
+			SluggerCloud.DisplayName: 重炮枪之云
+			SnotShot.DisplayName: 鼻涕球
+			SnowWhitePro1.DisplayName: 柳叶白菀1
+			SnowWhitePro2.DisplayName: 柳叶白菀2
+			SnowWhitePro3.DisplayName: 柳叶白菀3
+			SolScorchedSlabPro.DisplayName: 焦土
+			SoulImage.DisplayName: 灵魂幻象
+			SoulImage2.DisplayName: 灵魂幻象2
+			SoulReaverPro.DisplayName: 夺魂枪
+			SoulReaverPro2.DisplayName: 夺魂枪2
+			SoulReaverPro3.DisplayName: 夺魂枪3
+			SoulRenderPulse.DisplayName: 灵魂之刃
+			SparkingJellyBallPro.DisplayName: 电花果冻球
+			SparkTaserPro.DisplayName: 电火泰瑟枪
+			SparkTaserProBeam.DisplayName: 电火泰瑟枪光束
+			DummyPro.DisplayName: Dummy弹幕
+			SpearCrystal.DisplayName: 水晶矛尖碎片
+			SpearExtra.DisplayName: 银矛尖
+			SpearExtraCrystal.DisplayName: 水晶矛尖
+			SpearExtraFlame.DisplayName: 炽热矛尖
+			SpearmintPro.DisplayName: 蛇毒长枪
+			SpineBreaker1.DisplayName: 骨龙椎
+			SpineBreaker1Dummy.DisplayName: 骨龙椎
+			SpineBreaker2.DisplayName: 骨龙椎
+			SpineBusterPro.DisplayName: 血髓枪
+			SpinyShellPro.DisplayName: 刺甲贝
+			SpiritArrowPro.DisplayName: 魂箭
+			SpiritBreakerPro.DisplayName: 燃魂火
+			SpiritTrapperVisual.DisplayName: 猎魂者视觉效果
+			SpiritualPro2.DisplayName: 灵魂潮涌
+			SpiritualPro3.DisplayName: 灵魂潮涌
+			SporeBomb.DisplayName: 孢子炸弹
+			SpringHookPro.DisplayName: 弹簧钩
+			Spud.DisplayName: 马铃薯
+			Spud2.DisplayName: 马铃薯
+			SSDevastatorPro.DisplayName: 七海搅碎者
+			StalagmitePro.DisplayName: 炎笋
+			StalagmitePro2.DisplayName: 炎笋
+			StarTrailPro.DisplayName: 星轨
+			StarTrailPro2.DisplayName: 星轨2
+			StaticProdPro.DisplayName: 静态电光杖
+			StaticProdPro2.DisplayName: 静态电光杖2
+			SteamFlailPro.DisplayName: 蒸汽连枷
+			SteelArrow.DisplayName: 钢箭
+			StellarSystemPro.DisplayName: 恒星系统
+			StellarSystemPro1.DisplayName: 恒星系统
+			StellarSystemPro2.DisplayName: 恒星系统
+			StellarSystemPro3.DisplayName: 恒星系统
+			StellarSystemPro4.DisplayName: 恒星系统
+			StellarSystemPro5.DisplayName: 恒星系统
+			StonePurplePro.DisplayName: 平平无奇的紫色石头
+			StormFlare.DisplayName: 风暴信号弹
+			StormHome.DisplayName: 能量风暴
+			StunPro.DisplayName: 晕眩术
+			SuperPlasmaCannonPro.DisplayName: 超级等离子加农炮
+			SuperPlasmaCannonPro0.DisplayName: 超级等离子加农炮0
+			SuperPlasmaCannonPro2.DisplayName: 超级等离子加农炮2
+			SuperPlasmaCannonPro3.DisplayName: 超级等离子加农炮3
+			SuperPlasmaCannonPro4.DisplayName: 超级等离子加农炮4
+			SuppressionBulletPro.DisplayName: 抑制弹
+			TalonArrowPro.DisplayName: 爪箭
+			TalonBurstPro.DisplayName: 猛禽破
+			TeleportEffect.DisplayName: 传送效果
+			TerrariansLastKnifePro.DisplayName: 终末之刃
+			TerrariumBomberPro.DisplayName: 元雷炮
+			TerrariumHyperDiscPro.DisplayName: 元灵飞盘
+			TerrariumLongbowPro.DisplayName: 元素长弓
+			TerrariumPulseRiflePro.DisplayName: 元素脉冲步枪
+			TerrariumRippleKnifePro.DisplayName: 波元飞刀
+			TerrariumSaberPro.DisplayName: 元素誓约之剑
+			TerrariumSageStaffPro.DisplayName: 大元素圣使法杖
+			TerrariumSageStaffPro2.DisplayName: 大元素圣使法杖2
+			TerrariumSetPro.DisplayName: 元素套装
+			TerrariumSpearPro.DisplayName: 天元一矛
+			TerrariumSpearPro2.DisplayName: 天元一矛2
+			TerrariumSpearPulse.DisplayName: 天元一矛波动
+			TerrariumTerrarformerPro.DisplayName: 元素重塑者
+			TerrariumWhaleCatcherBobber.DisplayName: 元灵捕鲸者浮标
 			TerraStaffPro1.DisplayName: Terra Staff Pro1
 			TerraStaffPro2.DisplayName: Terra Staff Pro2
 			TerraStaffPro3.DisplayName: Terra Staff Pro3
 			TerraStaffPro4.DisplayName: Terra Staff Pro4
-			TeslanatorPro.DisplayName: Teslanator
-			TesterProjectilePro.DisplayName: Tester Projectile Pro
-			TetherDartPro.DisplayName: Tether Dart Pro
-			TheBlackBladePro.DisplayName: The Black Blade Pro
-			TheBlackBowPro.DisplayName: Black Arrow
-			TheBlackDaggerPro.DisplayName: The Black Dagger Pro
-			TheBlackDaggerPro2.DisplayName: The Black Dagger Pro2
-			TheBlackStaffPro.DisplayName: The Black Staff Pro
-			TheBlackStaffPro2.DisplayName: The Black Staff Pro2
-			TheJuggernautPro.DisplayName: The Juggernaut
-			TheJuggernautPro2.DisplayName: The Juggernaut Pro2
-			TheMassacrePro.DisplayName: The Massacre Pro
-			TheMassacrePro2.DisplayName: The Massacre Pro2
-			TheMassacrePro3.DisplayName: The Massacre Pro3
-			TheMassacrePro4.DisplayName: The Massacre Pro4
-			TheNuclearOptionPro.DisplayName: The Nuclear Option Pro
-			TheSeaMinePro.DisplayName: The Sea Mine
-			TheSeaMineProPulse.DisplayName: Explosion
-			TheSnowballPro.DisplayName: The Snowball
-			TheWhirlpoolPro.DisplayName: The Whirlpool Pro
-			TheZapperPro.DisplayName: The Zapper Pro
-			ThorBoom.DisplayName: Thor Boom
-			ThoriumBolt.DisplayName: Thorium Bolt
-			ThoriumBoomerangPro.DisplayName: Thorium Boomerang Pro
-			ThoriumCrit.DisplayName: Thorium Crit
-			ThoriumSpark.DisplayName: Thorium Spark
-			ThoriumSpearPro.DisplayName: Thorium Spear Pro
-			AbsoluteZeroPro.DisplayName: Absolute Zero Pro
-			AdamantiteGlaivePro.DisplayName: Adamantite Glaive Pro
-			AngelsEndPro.DisplayName: Angels End Pro
-			AngelsEndPro2.DisplayName: Angels End Pro2
-			AquaiteKnifePro.DisplayName: Aquaite Knife Pro
-			AquaiteKnifePro2.DisplayName: Aquaite Knife Pro2
-			ArcaneAnelacePro.DisplayName: Arcane Anelace Pro
-			AxeBladePro.DisplayName: Axe Blade Pro
-			BaseballPro.DisplayName: Baseball Pro
-			BloodLotusPro.DisplayName: Blood Lotus Pro
-			BloomingShurikenPro.DisplayName: Blooming Shuriken Pro
-			BloomingShurikenPro2.DisplayName: Blooming Shuriken Pro2
-			BolasPro.DisplayName: Bolas
-			BrinefangPro.DisplayName: Brinefang Pro
-			BrinefangPro2.DisplayName: Brinefang Pro2
-			BronzeThrowingPro.DisplayName: Bronze Throwing Axe
-			BudBombPro.DisplayName: Bud Bomb Pro
-			BudBombPro2.DisplayName: Bud Bomb Pro2
-			BudBombPro3.DisplayName: Bud Bomb Pro3
-			CactusNeedlePro.DisplayName: Cactus Needle Pro
-			CaptainsPoniardPro.DisplayName: Captains Poniard Pro
-			CarnwennanPro.DisplayName: Carnwennan Pro
-			CarnwennanPro2.DisplayName: Carnwennan Pro2
-			CarnwennanPro3.DisplayName: Carnwennan Pro3
-			ChlorophyteTomahawkPro.DisplayName: Chlorophyte Tomahawk Pro
-			ChumPro.DisplayName: Chum Pro
-			ChumShark.DisplayName: Chum Shark
-			CobaltThrowingSpearPro.DisplayName: Cobalt Throwing Spear Pro
-			CobraBitePro.DisplayName: Cobra Bite Pro
-			CoralCaltropPro.DisplayName: Coral Caltrop Pro
-			CorrupterBalloonPro.DisplayName: Corrupter Balloon Pro
-			CorrupterBalloonPro2.DisplayName: Corrupter Balloon Pro2
-			CrimtaneTomahawkPro.DisplayName: Crimtane Tomahawk Pro
-			CrystalBalloonPro.DisplayName: Crystal Balloon Pro
-			CrystalBalloonPro2.DisplayName: Crystal Balloon Pro2
-			DeitysTreforkPro.DisplayName: Deity's Trefork
-			DeitysTreforkPro2.DisplayName: Deity's Trefork
-			DemoniteTomahawkPro.DisplayName: Demonite Tomahawk Pro
-			DraculaFangPro.DisplayName: Dracula Fang Pro
-			DragonFangPro.DisplayName: Dragon Fang Pro
-			DragonFangPro2.DisplayName: Dragon Fang Pro2
-			ElectroRebounderPro.DisplayName: Eletro Rebounder
-			EmbowelmentPro.DisplayName: Embowelment Pro
-			EnchantedKnifePro.DisplayName: Enchanted Knife Pro
-			FesteringBalloonPro.DisplayName: Festering Balloon Pro
-			FesteringBalloonPro2.DisplayName: Festering Balloon Pro2
-			FireAxePro.DisplayName: Fire Axe Pro
-			FungalPopperPro.DisplayName: Fungal Popper
-			FungalPopperPro2.DisplayName: Fungal Popper
-			FungusArmorPro.DisplayName: Fungus Armor Pro
-			GaussFlingerPro.DisplayName: Gauss Flinger Pro
-			GelGlovePro.DisplayName: Gel Glove Pro
-			GoblinWarSpearPro.DisplayName: Goblin War Spear Pro
-			GraniteThrowingAxePro.DisplayName: Granite Throwing Axe
-			GravityWellPro.DisplayName: Gravity Well Pro
-			GravityWellPro2.DisplayName: Gravity Well Pro2
-			HadronColliderPro.DisplayName: Hadron Collider Pro
-			HadronColliderPro2.DisplayName: Hadron Collider Pro2
-			HarpiesBarragePro.DisplayName: Harpies Barrage Pro
-			HellRollerPro.DisplayName: Hell Roller Pro
-			HellRollerPro2.DisplayName: Hell Roller Pro2
-			HiddenBladePro.DisplayName: Hidden Blade Pro
-			IcyTomahawkPro.DisplayName: Icy Tomahawk Pro
-			IronTomahawkPro.DisplayName: Iron Tomahawk Pro
-			LastingPliersPro.DisplayName: Lasting Pliers Pro
-			LastStandPro.DisplayName: Last Stand Pro
-			LeadTomahawkPro.DisplayName: Lead Tomahawk Pro
-			LichSetPro.DisplayName: Lich Set Pro
-			LightAnguishPro.DisplayName: Light Anguish Pro
-			LihzahrdKukriPro.DisplayName: Lihzahrd Kukri Pro
-			LihzahrdKukriPro2.DisplayName: Lihzahrd Kukri Pro2
-			MagicCardPro.DisplayName: Magic Card Pro
-			MeteoriteClusterBombPro.DisplayName: Meteorite Cluster Bomb Pro
-			MeteoriteClusterBombPro2.DisplayName: Meteorite Cluster Bomb Pro2
-			MoltenKnifePro.DisplayName: Molten Knife Pro
-			MorelPod.DisplayName: Morel
-			MorelPoof.DisplayName: Morel
-			NaiadShivPro.DisplayName: Naiad Shiv Pro
-			ObsidianStrikerPro.DisplayName: Obsidian Striker Pro
-			OmniwrenchPro.DisplayName: Omniwrench Pro
-			OmniwrenchPro2.DisplayName: Omniwrench Pro2
-			PalladiumThrowingSpearPro.DisplayName: Palladium Throwing Spear Pro
+			TeslanatorPro.DisplayName: 磁能枪
+			TesterProjectilePro.DisplayName: 测试仪弹幕
+			TetherDartPro.DisplayName: 系电双镖
+			TheBlackBladePro.DisplayName: 影剑
+			TheBlackBowPro.DisplayName: 影箭
+			TheBlackDaggerPro.DisplayName: 影匕
+			TheBlackDaggerPro2.DisplayName: 影匕2
+			TheBlackStaffPro.DisplayName: 影法杖
+			TheBlackStaffPro2.DisplayName: 影法杖2
+			TheJuggernautPro.DisplayName: 碾压者
+			TheJuggernautPro2.DisplayName: 碾压者2
+			TheMassacrePro.DisplayName: 大屠杀
+			TheMassacrePro2.DisplayName: 大屠杀2
+			TheMassacrePro3.DisplayName: 大屠杀3
+			TheMassacrePro4.DisplayName: 大屠杀4
+			TheNuclearOptionPro.DisplayName: 核弹头配件
+			TheSeaMinePro.DisplayName: 水雷
+			TheSeaMineProPulse.DisplayName: 爆炸
+			TheSnowballPro.DisplayName: 雪锤
+			TheWhirlpoolPro.DisplayName: 涡流
+			TheZapperPro.DisplayName: 电束枪
+			ThorBoom.DisplayName: 索尔爆炸
+			ThoriumBolt.DisplayName: 瑟银弹
+			ThoriumBoomerangPro.DisplayName: 瑟银回旋镖
+			ThoriumCrit.DisplayName: 瑟银能量
+			ThoriumSpark.DisplayName: 瑟银火花
+			ThoriumSpearPro.DisplayName: 瑟银长矛
+			AbsoluteZeroPro.DisplayName: 绝对零度
+			AdamantiteGlaivePro.DisplayName: 精金关刀
+			AngelsEndPro.DisplayName: 天使之陨
+			AngelsEndPro2.DisplayName: 天使之陨2
+			AquaiteKnifePro.DisplayName: 海波弹刃
+			AquaiteKnifePro2.DisplayName: 海波弹刃2
+			ArcaneAnelacePro.DisplayName: 奥术飞刀
+			AxeBladePro.DisplayName: 禁忌之钺
+			BaseballPro.DisplayName: 棒球
+			BloodLotusPro.DisplayName: 绽血莲华
+			BloomingShurikenPro.DisplayName: 绽花手里剑
+			BloomingShurikenPro2.DisplayName: 绽花手里剑2
+			BolasPro.DisplayName: 投石索
+			BrinefangPro.DisplayName: 浪涌
+			BrinefangPro2.DisplayName: 浪涌2
+			BronzeThrowingPro.DisplayName: 青铜投斧
+			BudBombPro.DisplayName: 豆芽炸弹
+			BudBombPro2.DisplayName: 豆芽炸弹2
+			BudBombPro3.DisplayName: 豆芽炸弹3
+			CactusNeedlePro.DisplayName: 仙人掌针
+			CaptainsPoniardPro.DisplayName: 船长刺剑
+			CarnwennanPro.DisplayName: 断钢短剑
+			CarnwennanPro2.DisplayName: 断钢短剑2
+			CarnwennanPro3.DisplayName: 断钢短剑3
+			ChlorophyteTomahawkPro.DisplayName: 叶绿战斧
+			ChumPro.DisplayName: 鱼饵
+			ChumShark.DisplayName: 鱼饵鲨鱼
+			CobaltThrowingSpearPro.DisplayName: 钴蓝投矛
+			CobraBitePro.DisplayName: 蛇牙噬咬
+			CoralCaltropPro.DisplayName: 珊瑚蒺藜
+			CorrupterBalloonPro.DisplayName: 腐化者气球
+			CorrupterBalloonPro2.DisplayName: 腐化者气球2
+			CrimtaneTomahawkPro.DisplayName: 血腥战斧
+			CrystalBalloonPro.DisplayName: 魔晶气球
+			CrystalBalloonPro2.DisplayName: 魔晶气球2
+			DeitysTreforkPro.DisplayName: 命运三叉戟
+			DeitysTreforkPro2.DisplayName: 命运三叉戟
+			DemoniteTomahawkPro.DisplayName: 魔化战斧
+			DraculaFangPro.DisplayName: 德古拉之牙
+			DragonFangPro.DisplayName: 德古拉之牙
+			DragonFangPro2.DisplayName: 德古拉之牙2
+			ElectroRebounderPro.DisplayName: 电浮回旋
+			EmbowelmentPro.DisplayName: 开膛刀
+			EnchantedKnifePro.DisplayName: 附魔飞刀
+			FesteringBalloonPro.DisplayName: 溃脓气球
+			FesteringBalloonPro2.DisplayName: 溃脓气球2
+			FireAxePro.DisplayName: 消防斧
+			FungalPopperPro.DisplayName: 真菌掷匕
+			FungalPopperPro2.DisplayName: 真菌掷匕
+			FungusArmorPro.DisplayName: 真菌套装
+			GaussFlingerPro.DisplayName: 高斯掷能匕
+			GelGlovePro.DisplayName: 凝胶手套
+			GoblinWarSpearPro.DisplayName: 哥布林战矛
+			GraniteThrowingAxePro.DisplayName: 花岗岩投斧
+			GravityWellPro.DisplayName: 引力陷阱
+			GravityWellPro2.DisplayName: 引力陷阱2
+			HadronColliderPro.DisplayName: 强子对撞器
+			HadronColliderPro2.DisplayName: 强子对撞器2
+			HarpiesBarragePro.DisplayName: 飞羽幕
+			HellRollerPro.DisplayName: 地狱轮盘
+			HellRollerPro2.DisplayName: 地狱轮盘2
+			HiddenBladePro.DisplayName: 隐匿之刃
+			IcyTomahawkPro.DisplayName: 碎冰投斧
+			IronTomahawkPro.DisplayName: 铁质战斧
+			LastingPliersPro.DisplayName: 大力钳
+			LastStandPro.DisplayName: 背水一战
+			LeadTomahawkPro.DisplayName: 铅质战斧
+			LichSetPro.DisplayName: 巫妖套装效果
+			LightAnguishPro.DisplayName: 光之苦痛
+			LihzahrdKukriPro.DisplayName: 裂日苦无
+			LihzahrdKukriPro2.DisplayName: 裂日苦无2
+			MagicCardPro.DisplayName: 魔玩卡
+			MeteoriteClusterBombPro.DisplayName: 陨石簇炸弹
+			MeteoriteClusterBombPro2.DisplayName: 陨石簇炸弹2
+			MoltenKnifePro.DisplayName: 熔岩飞刀
+			MorelPod.DisplayName: 蘑菇
+			MorelPoof.DisplayName: 蘑菇
+			NaiadShivPro.DisplayName: 水泽仙女匕
+			ObsidianStrikerPro.DisplayName: 黑曜石球
+			OmniwrenchPro.DisplayName: 全能扳手
+			OmniwrenchPro2.DisplayName: 全能扳手2
+			PalladiumThrowingSpearPro.DisplayName: 钯金投矛
 			PaperExplosivePro.DisplayName: Paper Explosive Pro
 			PaperExplosivePro2.DisplayName: Paper Explosive Pro2
-			PharaohsSlabPro.DisplayName: Pharaohs Slab Pro
-			PharaohsSlabPro2.DisplayName: Pharaohs Slab Pro2
-			PhaseChopperPro.DisplayName: Phase Chopper Pro
-			PiratesPursePro1.DisplayName: Copper Coin
-			PiratesPursePro2.DisplayName: Silver Coin
-			ProximityMinePro.DisplayName: Proximity Mine Pro
-			RiftTearerPro.DisplayName: Rift Tearer Pro
-			RocketFistPro.DisplayName: Rocket Fist
-			SandStoneThrowingKnifePro.DisplayName: Sand Stone Throwing Knife Pro
-			SeaNinjaStarPro.DisplayName: Sea Ninja Star Pro
-			SeedBombPoof.DisplayName: Seed Bomb
-			SeedBombPro.DisplayName: Seed Bomb
-			SeveredHandPro.DisplayName: Severed Hand Pro
-			ShadeKunaiPro.DisplayName: Shade Kunai Pro
-			ShadeKusarigamaPro.DisplayName: Shade Kusarigama
-			ShadeShuriken.DisplayName: Shade Shuriken
-			ShadowClonePro.DisplayName: Shadow Clone Pro
-			ShadowClonePro2.DisplayName: Shadow Clone Pro2
-			ShadowPurgeCaltropPro.DisplayName: Shadow Purge Caltrop Pro
-			ShadowPurgeCaltropPro2.DisplayName: Shadow Purge Caltrop Pro2
-			ShadowTippedJavelinPro.DisplayName: Shadow Tipped Javelin Pro
-			ShinobiSigilPro.DisplayName: Shinobi Sigil
-			ShinobiSlicerPro.DisplayName: Shinobi Slicer Pro
-			SleepingGiantPro.DisplayName: Sleeping Giant Pro
-			SmokeBomb.DisplayName: Smoke Bomb
-			SoftServeSundererPro.DisplayName: Soft Serve Sunderer Pro
-			SoulBombPro.DisplayName: Soul Bomb Pro
-			SoulCleaverPro.DisplayName: Soul Cleaver Pro
-			SoulslasherPro.DisplayName: Soulslasher Pro
-			SpikeBombBoom.DisplayName: Spike Bomb
-			SpikeBombPro.DisplayName: Spike Bomb
-			SpikyCaltropPro.DisplayName: Spiky Caltrop Pro
+			PharaohsSlabPro.DisplayName: 法老辉石
+			PharaohsSlabPro2.DisplayName: 法老辉石2
+			PhaseChopperPro.DisplayName: 谐魂斧
+			PiratesPursePro1.DisplayName: 铜币
+			PiratesPursePro2.DisplayName: 银币
+			ProximityMinePro.DisplayName: 感应地雷
+			RiftTearerPro.DisplayName: 渊隙撕裂者
+			RocketFistPro.DisplayName: 火箭拳
+			SandStoneThrowingKnifePro.DisplayName: 砂石投刀
+			SeaNinjaStarPro.DisplayName: 海忍者手里星
+			SeedBombPoof.DisplayName: 豌豆炸弹
+			SeedBombPro.DisplayName: 豌豆炸弹
+			SeveredHandPro.DisplayName: 鬼手
+			ShadeKunaiPro.DisplayName: 鬼手
+			ShadeKusarigamaPro.DisplayName: 暗影锁镰
+			ShadeShuriken.DisplayName: 暗影手里剑
+			ShadowClonePro.DisplayName: 暗影克隆
+			ShadowClonePro2.DisplayName: 暗影克隆2
+			ShadowPurgeCaltropPro.DisplayName: 逐影蒺藜
+			ShadowPurgeCaltropPro2.DisplayName: 逐影蒺藜2
+			ShadowTippedJavelinPro.DisplayName: 锐影标枪
+			ShinobiSigilPro.DisplayName: 忍者魔符
+			ShinobiSlicerPro.DisplayName: 忍者飞匕
+			SleepingGiantPro.DisplayName: 吞星者
+			SmokeBomb.DisplayName: 烟雾弹
+			SoftServeSundererPro.DisplayName: 奶油冰激凌
+			SoulBombPro.DisplayName: 灵魂炸弹
+			SoulCleaverPro.DisplayName: 灵魂屠刀
+			SoulslasherPro.DisplayName: 碎魂飞刀
+			SpikeBombBoom.DisplayName: 尖刺炸弹
+			SpikeBombPro.DisplayName: 尖刺炸弹
+			SpikyCaltropPro.DisplayName: 铁蒺藜
 			SpinPro1.DisplayName: Spin Pro1
-			StalkersScissorsPro.DisplayName: Stalkers Scissors Pro
-			SteelThrowingAxePro.DisplayName: Steel Throwing Axe Pro
-			StonePalmPro.DisplayName: Stone Palm Pro
-			StoneThrowingSpearPro.DisplayName: Stone Throwing Spear Pro
-			SwampSpikePro.DisplayName: Swamp Spike Pro
-			TerraKnifePro.DisplayName: Terra Knife Pro
-			TerraKnifePro2.DisplayName: Terra Knife Pro2
-			TerraKnifePro3.DisplayName: Terra Knife Pro3
-			ThoriumDaggerPro.DisplayName: Thorium Dagger Pro
-			ThrowerDecoyLog.DisplayName: Thrower Decoy Log
-			ThrowingDartPro.DisplayName: Throwing Dart Pro
-			ThrowingGuideFollowup.DisplayName: Throwing Guide Followup
-			TidalWavePro.DisplayName: Tidal Wave
-			TidalWavePro2.DisplayName: Tidal Wave
-			TideDagger.DisplayName: Tide Dagger
-			TitaniumGlaivePro.DisplayName: Titanium Glaive Pro
-			TrueEmbowelmentPro.DisplayName: True Embowelment Pro
-			TrueEmbowelmentPro2.DisplayName: True Embowelment Pro2
-			TrueLightAnguishPro.DisplayName: True Light Anguish Pro
-			TrueLightAnguishPro2.DisplayName: True Light Anguish Pro2
-			ValadiumBattleAxePro.DisplayName: Valadium Throwing Axe
-			VenomKunaiPro.DisplayName: Venom Kunai Pro
-			VoltHatchetPro.DisplayName: Volt Hatchet
-			WackWrenchPro.DisplayName: Wack Wrench Pro
-			WhiteDwarfKunaiPro.DisplayName: White Dwarf Kunai Pro
-			WhiteDwarfKunaiPro2.DisplayName: White Dwarf Kunai Pro2
-			WhiteFlare.DisplayName: White Flare
-			WitchbladePro.DisplayName: Witchblade Pro
+			StalkersScissorsPro.DisplayName: 剪刀狂人的手剪
+			SteelThrowingAxePro.DisplayName: 钢投斧
+			StonePalmPro.DisplayName: 岩石飞掌
+			StoneThrowingSpearPro.DisplayName: 石矛
+			SwampSpikePro.DisplayName: 腐泽长枪
+			TerraKnifePro.DisplayName: 泰拉飞刀
+			TerraKnifePro2.DisplayName: 泰拉飞刀2
+			TerraKnifePro3.DisplayName: 泰拉飞刀3
+			ThoriumDaggerPro.DisplayName: 瑟银短匕
+			ThrowerDecoyLog.DisplayName: 引敌诱饵
+			ThrowingDartPro.DisplayName: 飞镖
+			ThrowingGuideFollowup.DisplayName: 投手指南额外伤害
+			TidalWavePro.DisplayName: 海潮波
+			TidalWavePro2.DisplayName: 海潮波
+			TideDagger.DisplayName: 海潮之匕
+			TitaniumGlaivePro.DisplayName: 钛金飞刃
+			TrueEmbowelmentPro.DisplayName: 真·开膛刀
+			TrueEmbowelmentPro2.DisplayName: 真·开膛刀2
+			TrueLightAnguishPro.DisplayName: 真·光之苦痛
+			TrueLightAnguishPro2.DisplayName: 真·光之苦痛2
+			ValadiumBattleAxePro.DisplayName: 虚金投斧
+			VenomKunaiPro.DisplayName: 剧毒苦无
+			VoltHatchetPro.DisplayName: 伏特掷斧
+			WackWrenchPro.DisplayName: 古怪扳手
+			WhiteDwarfKunaiPro.DisplayName: 断星河
+			WhiteDwarfKunaiPro2.DisplayName: 断星河2
+			WhiteFlare.DisplayName: 白矮星之怒
+			WitchbladePro.DisplayName: 巫女飞刃
 			TestNeedlePro.DisplayName: Test Needle
-			ThunderTalonPro.DisplayName: Thunder Talon Pro
-			TimeGatePro.DisplayName: Time Gate Pro
-			TitanBoomerangPro.DisplayName: Titan Boomerang Pro
-			TitaniumStaffPro.DisplayName: Titanium Staff Pro
-			TitaniumStaffPro2.DisplayName: Titanium Staff Pro2
-			TitanJavelinPro.DisplayName: Titan Javelin Pro
-			TitanPulse.DisplayName: Titan Pulse
-			TitanPulse2.DisplayName: Titan Pulse2
-			ToothOfTheConsumerPro.DisplayName: Tooth Of The Consumer Pro
-			TorpedoPro.DisplayName: Torpedo Pro
-			TorpedoPro2.DisplayName: Torpedo Pro2
-			TranquilizerGunPro.DisplayName: Tranquilizer Gun
-			BeetleThorn.DisplayName: Beetle Thorn
-			CatalystBlood.DisplayName: Catalyst Blood
-			CatalystTooth.DisplayName: Bat Tooth
-			CoinPro.DisplayName: Coin Pro
-			CyberSphereBomb.DisplayName: Cyber Sphere Bomb
-			CyberSphereBomb2.DisplayName: Cyber Sphere Bomb2
-			FishBubble.DisplayName: Fish Bubble
-			FishBubble2.DisplayName: Fish Bubble
-			FrogBubble.DisplayName: Frog Bubble
-			FrogCloud.DisplayName: Frog Cloud
-			LargeCyberSphereBomb.DisplayName: Large Cyber Sphere Bomb
-			LargeCyberSphereBomb2.DisplayName: Large Cyber Sphere Bomb2
-			SquirrelNut.DisplayName: Squirrel Nut
-			TrueHallowedPro1.DisplayName: True Hallowed Pro1
-			TrueHallowedPro2.DisplayName: True Hallowed Pro2
+			ThunderTalonPro.DisplayName: 鹰雷爪
+			TimeGatePro.DisplayName: 时间之门
+			TitanBoomerangPro.DisplayName: 泰坦回旋镖
+			TitaniumStaffPro.DisplayName: 钛金法杖
+			TitaniumStaffPro2.DisplayName: 钛金法杖2
+			TitanJavelinPro.DisplayName: 泰坦标枪
+			TitanPulse.DisplayName: 泰坦脉动
+			TitanPulse2.DisplayName: 泰坦脉动2
+			ToothOfTheConsumerPro.DisplayName: 肉食者之牙
+			TorpedoPro.DisplayName: 鱼雷
+			TorpedoPro2.DisplayName: 鱼雷2
+			TranquilizerGunPro.DisplayName: 麻醉枪
+			BeetleThorn.DisplayName: 甲虫荆棘
+			CatalystBlood.DisplayName: 鲜血催化
+			CatalystTooth.DisplayName: 蝙蝠牙
+			CoinPro.DisplayName: 硬币
+			CyberSphereBomb.DisplayName: 赛博球体炸弹
+			CyberSphereBomb2.DisplayName: 赛博球体炸弹2
+			FishBubble.DisplayName: 鱼泡泡
+			FishBubble2.DisplayName: 鱼泡泡
+			FrogBubble.DisplayName: 青蛙泡泡
+			FrogCloud.DisplayName: 青蛙云
+			LargeCyberSphereBomb.DisplayName: 大型赛博球体炸弹
+			LargeCyberSphereBomb2.DisplayName: 大型赛博球体炸弹2
+			SquirrelNut.DisplayName: 松鼠坚果
+			TrueHallowedPro1.DisplayName: 真·神圣镰刀1
+			TrueHallowedPro2.DisplayName: 真·神圣镰刀2
 			TurtleLife.DisplayName: Turtle Life
 			TurtleLifeSpawn.DisplayName: Turtle Life Spawn
-			UmbraBlasterPro.DisplayName: Umbra Blaster Pro
-			UmbraBlasterPro2.DisplayName: Umbra Blaster Pro2
-			UselessStaffPro.DisplayName: Useless Staff Pro
-			UselessStaffPro2.DisplayName: Useless Staff Pro2
-			UselessStaffPro3.DisplayName: Useless Staff Pro3
-			UselessStaffPro4.DisplayName: Useless Staff Pro4
-			UselessStaffPro5.DisplayName: Useless Staff Pro5
-			UselessStaffPro6.DisplayName: Useless Staff Pro6
-			UselessStaffPro7.DisplayName: Useless Staff Pro7
-			UselessStaffPro8.DisplayName: Useless Staff Pro8
-			ValadiumSpearPro.DisplayName: Valadium Spear Pro
-			VampireGlandPro.DisplayName: Vampire Gland Pro
-			VampireScepterPro.DisplayName: Vampire Scepter Pro
-			VampireScepterPro2.DisplayName: Vampire Scepter Pro2
-			VegaBeam.DisplayName: Vega Phaser
-			VegaBolt.DisplayName: Vega Phaser
+			UmbraBlasterPro.DisplayName: 本影爆破枪
+			UmbraBlasterPro2.DisplayName: 本影爆破枪2
+			UselessStaffPro.DisplayName: 无用法杖
+			UselessStaffPro2.DisplayName: 无用法杖2
+			UselessStaffPro3.DisplayName: 无用法杖3
+			UselessStaffPro4.DisplayName: 无用法杖4
+			UselessStaffPro5.DisplayName: 无用法杖5
+			UselessStaffPro6.DisplayName: 无用法杖6
+			UselessStaffPro7.DisplayName: 无用法杖7
+			UselessStaffPro8.DisplayName: 无用法杖8
+			ValadiumSpearPro.DisplayName: 虚金矛
+			VampireGlandPro.DisplayName: 吸血鬼试剂
+			VampireScepterPro.DisplayName: 吸血鬼节杖
+			VampireScepterPro2.DisplayName: 吸血鬼节杖2
+			VegaBeam.DisplayName: 织女星相位器
+			VegaBolt.DisplayName: 织女星相位器
 			VeinBusterPro.DisplayName: Vein Buster Pro
-			VesselPro.DisplayName: Vessel Pro
-			VileBolt.DisplayName: Vile Bolt
-			VileFlailCorePro.DisplayName: Vile Flail Core Pro
-			WebGunPro1.DisplayName: Web Gun Pro1
-			WebGunPro2.DisplayName: Web
-			WhipPro.DisplayName: Whip Pro
-			WhirlBlast.DisplayName: Whirl Blast
-			WhiteDwarfDrillPro.DisplayName: White Dwarf Drill
-			WitherPro.DisplayName: Wither Pro
-			WitherPro2.DisplayName: Wither Pro2
-			WondrousWandPro.DisplayName: Wondrous Wand Pro
-			WondrousWandPro1.DisplayName: Wondrous Wand Pro1
-			WondrousWandPro2.DisplayName: Prismatic Spray
-			WondrousWandPro3.DisplayName: Wondrous Wand Pro3
-			WondrousWandPro4.DisplayName: Wondrous Wand Pro4
-			WondrousWandPro5.DisplayName: Wondrous Wand Pro5
-			WrithingSheathPro.DisplayName: Void Blade
-			WyrmDecimatorPro.DisplayName: Wyrm Decimator Pro
-			WyvernSlayerPro.DisplayName: Wyvern Slayer Pro
-			YakaArrowPro.DisplayName: Yaka Arrow Pro
-			YewVisual.DisplayName: Yew Visual
-			YewWoodShrapnelPro.DisplayName: Yew Wood Shrapnel
-			MaidDummyPro.DisplayName: Maids
-			PurifiersRingPro.DisplayName: Purifiers Ring Pro
-			OmegaBlasterPro4.DisplayName: Omega Blaster Pro4
-			OmegaBlasterPro3.DisplayName: Omega Blaster Pro3
-			OmegaBlasterPro2.DisplayName: Omega Blaster Pro2
-			OmegaBlasterPro.DisplayName: Omega Blaster Pro
-			InfernoLordsFocusPro.DisplayName: Inferno Lords Focus Pro
-			ThunderstruckPro2.DisplayName: Thunderstruck
-			ThunderstruckPro.DisplayName: Thunderstruck
-			ThunderstruckPro3.DisplayName: Thunderstruck
-			MagmaCharmPro2.DisplayName: Tardigrade Napalm
-			MagmaCharmPro.DisplayName: Tardigrade Spit
-			ThunderstruckPro5.DisplayName: Thunderstruck
-			ThunderstruckPro4.DisplayName: Thunderstruck
-			GuiltyPleasurePro.DisplayName: Guilty Pleasure
-			GuiltyPleasurePro2.DisplayName: Guilty Pleasure
-			MoleCratePro.DisplayName: Skull Cat
-			BoulderProbeStaffPro.DisplayName: Granite Boulder Probe
-			BoulderProbeStaffProLaser.DisplayName: Granite Boulder Probe Laser
-			DistressCallerPro.DisplayName: U.F.O Turret
-			DistressCallerProBeam.DisplayName: U.F.O Turret Beam
-			MortarStaffPro.DisplayName: Mortar
-			MortarStaffPro2.DisplayName: Cannonball
-			MortarStaffPro3.DisplayName: Cannonball
-			NanoClamCanePro.DisplayName: Baby Giga Clam
-			NanoClamCaneProPearl.DisplayName: Baby Giga Clam Pearl
+			VesselPro.DisplayName: 容器
+			VileBolt.DisplayName: 邪恶弹
+			VileFlailCorePro.DisplayName: 邪恶连枷核心
+			WebGunPro1.DisplayName: 蛛网枪1
+			WebGunPro2.DisplayName: 蛛网
+			WhipPro.DisplayName: 鞭子
+			WhirlBlast.DisplayName: 旋风冲击
+			WhiteDwarfDrillPro.DisplayName: 白矮星钻头
+			WitherPro.DisplayName: 枯萎
+			WitherPro2.DisplayName: 枯萎2
+			WondrousWandPro.DisplayName: 奥妙魔杖
+			WondrousWandPro1.DisplayName: 奥妙魔杖1
+			WondrousWandPro2.DisplayName: 棱光喷射
+			WondrousWandPro3.DisplayName: 奥妙魔杖3
+			WondrousWandPro4.DisplayName: 奥妙魔杖4
+			WondrousWandPro5.DisplayName: 奥妙魔杖5
+			WrithingSheathPro.DisplayName: 虚空之刃
+			WyrmDecimatorPro.DisplayName: 屠龙者之息
+			WyvernSlayerPro.DisplayName: 屠龙者
+			YakaArrowPro.DisplayName: 亚卡箭
+			YewVisual.DisplayName: 紫衫木视觉效果
+			YewWoodShrapnelPro.DisplayName: 紫衫木弹片l
+			MaidDummyPro.DisplayName: 少女
+			PurifiersRingPro.DisplayName: 净化者戒指
+			OmegaBlasterPro4.DisplayName: 奥米茄爆破枪4
+			OmegaBlasterPro3.DisplayName: 奥米茄爆破枪3
+			OmegaBlasterPro2.DisplayName: 奥米茄爆破枪2
+			OmegaBlasterPro.DisplayName: 奥米茄爆破枪
+			InfernoLordsFocusPro.DisplayName: 地狱领主的聚焦项链
+			ThunderstruckPro2.DisplayName: 雷霆万钧
+			ThunderstruckPro.DisplayName: 雷霆万钧
+			ThunderstruckPro3.DisplayName: 雷霆万钧
+			MagmaCharmPro2.DisplayName: 缓步动物火弹
+			MagmaCharmPro.DisplayName: 缓步动物唾液
+			ThunderstruckPro5.DisplayName: 雷霆万钧
+			ThunderstruckPro4.DisplayName: 雷霆万钧
+			GuiltyPleasurePro.DisplayName: 罪恶吉他
+			GuiltyPleasurePro2.DisplayName: 罪恶吉他
+			MoleCratePro.DisplayName: 骷髅猫
+			BoulderProbeStaffPro.DisplayName: 巨石监察者法杖
+			BoulderProbeStaffProLaser.DisplayName: 巨石监察者法杖激光
+			DistressCallerPro.DisplayName: U.F.O炮塔
+			DistressCallerProBeam.DisplayName: U.F.O炮塔光束
+			MortarStaffPro.DisplayName: 炮龟
+			MortarStaffPro2.DisplayName: 炮龟火弹
+			MortarStaffPro3.DisplayName: 炮龟火弹
+			NanoClamCanePro.DisplayName: 小巨蛤
+			NanoClamCaneProPearl.DisplayName: 小巨蛤珍珠
 			ZephyrsGripHatchlingPro.DisplayName: "{$Items.ZephyrsGrip.DisplayName}"
 			ZephyrsGripPro.DisplayName: "{$Items.ZephyrsGrip.DisplayName}"
-			// QuakeGauntletPro4.DisplayName: Quake Gauntlet
-			// QuakeGauntletPro3.DisplayName: Quake Gauntlet
-			// QuakeGauntletPro2.DisplayName: Quake Gauntlet
-			// QuakeGauntletPro.DisplayName: Quake Gauntlet
-			// QuakeGauntletPro5.DisplayName: Quake Gauntlet Pro5
-			// QuakeGauntletPro6.DisplayName: Quake Gauntlet Pro6
-			// BonesawPro.DisplayName: Bonesaw Pro
+			QuakeGauntletPro4.DisplayName: 震荡手套
+			QuakeGauntletPro3.DisplayName: 震荡手套
+			QuakeGauntletPro2.DisplayName: 震荡手套
+			QuakeGauntletPro.DisplayName: 震荡手套
+			QuakeGauntletPro5.DisplayName: 震荡手套5
+			QuakeGauntletPro6.DisplayName: Q震荡手套6
+			BonesawPro.DisplayName: 骨锯
 		}
 
 		Tiles: {
