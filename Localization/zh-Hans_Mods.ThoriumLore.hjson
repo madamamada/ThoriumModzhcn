@@ -58,6 +58,21 @@ Items: {
 		Tooltip: ""
 		DisplayName: 深海
 	}
+
+	PatchWerk: {
+		Tooltip: ""
+		DisplayName: 缝合人
+	}
+
+	CorpseBloom: {
+		Tooltip: ""
+		DisplayName: 绝命花
+	}
+
+	Illusionist: {
+		Tooltip: ""
+		DisplayName: 幻术师
+	}
 }
 
 LoreLines: {
@@ -144,5 +159,22 @@ LoreLines: {
 		Line1: 与海洋相似但又没有深渊那么深。
 		Line2: 深海虽然没有深渊那么可怕，但仍然很危险。
 		Line3: 我派去那里的探险员返回后总是絮絮叨叨地说着有幻觉。
+	}
+
+	PatchWerk: {
+		Line1: 嘉登第一次克隆人体的实验。
+		Line2: 这次无疑是失败的，彻底变成变种僵尸。
+		Line3: 现在看来似乎和血月有关联。
+	}
+
+	CorpseBloom: {
+		Line1: 一种小型变异突变球茎，显然是通过喂食某种丛林植物形成的。
+		Line2: 这个太小感觉不是特别完美，我感打赌完美的要大很多……
+	}
+
+	Illusionist: {
+		Line1: 很多强大的囚犯被囚禁在地牢，其中一些人拥有强大的魔法和狡猾的诡计。
+		Line2: 经过漫长的时间后，他们的骨骼复苏了。
+		Line3: 但是没有了当初的思想，他们所拥有的魔法依然能被骨骼使用。
 	}
 }
