@@ -21,6 +21,17 @@ namespace ThoriumModzhcn.NPCs
             int demolitionist = NPC.FindFirstNPC(NPCID.Demolitionist);
             int partyGirl = NPC.FindFirstNPC(NPCID.PartyGirl);
             int merchant = NPC.FindFirstNPC(NPCID.Merchant);
+            int guide = NPC.FindFirstNPC(NPCID.Guide);
+            int wizard = NPC.FindFirstNPC(NPCID.Wizard);
+            int angler = NPC.FindFirstNPC(NPCID.Angler);
+            int dryad = NPC.FindFirstNPC(NPCID.Dryad);
+            int witchDoctor = NPC.FindFirstNPC(NPCID.WitchDoctor);
+            int armsDealer = NPC.FindFirstNPC(NPCID.ArmsDealer);
+            int dyeTrader = NPC.FindFirstNPC(NPCID.DyeTrader);
+            int pirate = NPC.FindFirstNPC(NPCID.Pirate);
+            int taxCollector = NPC.FindFirstNPC(NPCID.TaxCollector);
+            int stylist = NPC.FindFirstNPC(NPCID.Stylist);
+            int tavernkeep = NPC.FindFirstNPC(NPCID.DD2Bartender);
             #region blacksmith
             if (npc.type == ModContent.NPCType<Blacksmith>())
             {
@@ -36,50 +47,74 @@ namespace ThoriumModzhcn.NPCs
                     chat = "欢迎光临！我正忙着打造一件客户委托的武器，要是你碰坏了什么东西，那赔偿可就算你头上了！";
                 else if (chat == "Heh, I told you from day one, brat: I came here to watch the fireworks, and you sure delivered.")
                     chat = "嘿，小子，我到这儿的第一天就和你说了：我来这儿是为了看一场烟火盛宴的，而你真的做到了.";
+            		if (demolitionist >= 0 && chat == "Me and " + Main.npc[demolitionist].GivenName + " have a little routine going: he delivers me metal to smith, and I give him a heart attack by smoking near his explosives on purpose.")
+            			chat = "你能去找" + Main.npc[demolitionist].GivenName + "有一些无聊的日常互动：他把金属交给我锻造，而我故意在他的爆炸物附近吸烟，吓他个心脏病发作。";
+	if (partyGirl >= 0 && chat == "I just witnessed " + Main.npc[partyGirl].GivenName + " make a knife out of chocolate that's better than half of my own blades...")
+			chat = "就在刚刚我亲眼目睹" + Main.npc[partyGirl].GivenName + "用巧克力造出了一把刀具，甚至比我一半的作品都要好……";
+	if (merchant >= 0 && chat == "What does that conman " + Main.npc[merchant].GivenName + " think he's doing trying to offer his cheap trash he calls 'weapons'? If you want the real deal, you've come to the right place!")
+			chat = "" + Main.npc[merchant].GivenName + "那个江湖骗子，以为自己在卖什么所谓的“武器”？事实上那只是一些廉价垃圾罢了。如果你在找真正的武器，那你就来对地方了！";
+	if (tracker >= 0 && chat == "That brute " + Main.npc[tracker].GivenName + " is more Barbarian than Tracker! Do you have any idea how many times the oaf asked me to fix that battleaxe of his?!")
+			chat = "" + Main.npc[tracker].GivenName + "那个野蛮人简直比暴君更加残暴！你知道那个混蛋叫我帮他修了多少次战斧吗？！";
             }
             #endregion
             #region cobbler
             else if (npc.type == ModContent.NPCType<Cobbler>())
             {
                 if (chat == "In my younger years, I myself was a hero. But after a bad fall, I've since retired. Perhaps if I had better boots back then I would still be a hero today...")
-                    chat = "在我年轻的时候，我自己就是一个勇士。但摔了一跤之后，我就退休了。也许如果我那时有一双更好的靴子，我今天仍然是一个勇士……";
+                    chat = "年轻的时候，我自己就是一名英雄。不过摔了一跤后，我就退休了。如果我当时有一双更好的靴子的话，我现在仍是一名英雄吧……";
                 else if (chat == "'Worry not young man. While the journey may be tough, I have full confidence in your ability!")
-                    chat = "别担心，年轻人。虽然路途艰难，但我对你的能力充满信心!";
+                    chat = "别担心，年轻人。纵使前路曲折，我仍对你的能力充满信心！";
                 else if (chat == "You can learn a lot by walking a mile in someone else's boots. If only some of these townsfolk would walk a mile in yours, then they could understand...")
-                    chat = "穿别人的靴子走一段时间，你会学到很多东西。要是这些市民中有人能穿你的衣服走一段时间，他们就会明白……";
+                    chat = "穿着别人的鞋子走一走，你就能从中学到很多东西。如果这些居民里有人能穿着你的鞋子走一走，他们会明白这个道理的……";
                 else if (chat == "I can't believe it, never in a million years... But look at you, standing so triumphantly! Ha ha hah! Congratulations, but more importantly: thank you, from the bottom of my heart, hero. Thanks to your incredible bravery, an old friend of mine can rest easy now...")
-                    chat = "我不敢相信，再过一百万年都不敢相信……再看看你，获得如此胜利!哈哈哈!祝贺你，但更重要的是:衷心感谢你，英雄。多亏了你惊人的勇气，我的一位老朋友现在可以高枕无忧了……";
-                else if (chat == "There we go, <name of player>, good as new. It won't last long, but maybe you'll notice some more spring in your step. Make sure to stay safe out there, hero!")
-                    chat = "好了，<占位>，这新的一样，这不会持续太久，但也许你会注意到你的脚步更加轻快。确保自己的安全，英雄!";
+                    chat = "我简直不敢相信，就算过了百万年也不敢……不过看看你，就站在我面前，如此欢欣鼓舞！哈哈哈！祝贺你，但更重要的是，衷心的感谢你，我的英雄。多亏了你那难以置信的无畏精神，我的一位老友终于可以放下心弦了……";
+            		if (guide >= 0 && chat == "Ah, so " + Main.npc[guide].GivenName + " has been giving you advice this whole time? It's always nice to see a young man appreciate his studies.")
+            			chat = "啊，所以是" + Main.npc[guide].GivenName + "一直在给你建议？看到年轻人欣赏他的才学真是令人欣慰";
+	if (partyGirl >= 0 && chat == "Can you believe that " + Main.npc[partyGirl].GivenName + " wanted to throw me a birthday party? I haven't had one in so long!")
+			chat = "你相信吗？" + Main.npc[partyGirl].GivenName + "想给我举办生日派对！我好久没有开过生日派对了！";
+	if (wizard >= 0 && chat == "Oh my... I think " + Main.npc[wizard].GivenName + " might be even older than I am!")
+			chat = "哦，天哪……我觉得" + Main.npc[wizard].GivenName + "可能比我还老！";
+                // 带玩家名字的
+	/*Having proper footwear is no joke," + Main.LocalPlayer.Name + ". Always make sure your shoes are polished and ready for adventure!")
+			chat = "要有一双适合自己的鞋子，这可不是玩笑话，" + Main.LocalPlayer.Name + "你要时刻确保鞋子擦得锃亮，做好踏上冒险旅途的准备！";
+	How are you doing, " + Main.LocalPlayer.Name + "? Are you staying safe out there in the wilds?
+			chat = "最近如何，" + Main.LocalPlayer.Name + "？在野外待着安全吗？";
+	There we go," + Main.LocalPlayer.Name + " good as new. It won't last long, but maybe you'll notice some more spring in your step. Make sure to stay safe out there, hero!
+			chat = "好了，" + Main.LocalPlayer.Name + "，你的鞋子焕然如新。虽然不能保持太久，但也许你能感觉到你的脚步更加轻快自如了。在外一定要注意安全，英雄！";*/
             }
             #endregion
             #region confusedZombie
             else if (npc.type == ModContent.NPCType<ConfusedZombie>())
             {
                 if (chat == "I can't remember much about my past life... Chemicals and the like were my passion I think; I only get fragments and pieces of the truth. It's saddening at times...")
-                    chat = "我不太记得我过去的生活了。趋避剂之类的东西是我的激情所在;我只知道真相的一小部分。有时真让人伤心……";
+                    chat = "我不太记得我过去的生活了…我应该非常热爱化学之类的东西吧；对于生前的情形我只能回想起一些片段。有时这挺让人难过的…";
                 else if (chat == "Why am I not like the others...? Oh, I'm sorry, did you need something?")
-                    chat = "为什么我不喜欢其他人…?不好意思，你需要什么吗?";
+                    chat = "为什么我这么与众不同…？哦，不好意思，你想要点什么？";
                 else if (chat == "'Most people don't have the stomach to handle the things I sell. The trick is to not have a stomach at all!")
-                    chat = "大多数人都没有勇气卖我的东西。诀窍就是不需要胃!!";
+                    chat = "大部分人都没胆买我的东西。克服这个的诀窍就是抛弃掉胆脏！";
                 else if (chat == "I gotta thank you for letting me stick around. Only coming out at night is pretty boring...")
-                    chat = "我得谢谢你让我留下来，只在晚上出来是很无聊的…";
+                    chat = "谢谢你让我留在这里。只能在夜晚外出是一件很无聊的事情…";
                 else if (chat == "I just whipped up the perfect recipe to deter Bats from bothering you; no more tiny nibbles!")
-                    chat = "我刚刚做了一个完美的配方，可以让蝙蝠不攻击你;不怕被咬了!";
+                    chat = "我刚刚做出来一个完美的配方，能让蝙蝠不再骚扰你；这样就不会再被咬了！";
                 else if (chat == "Getting this stuff to work underwater was a huge hassle... Either way, hungry fish shouldn't attempt to eat you with this.")
-                    chat = "让这东西在水下工作是一个很麻烦的事情……不管怎样，大部分鱼都不会来吃了你";
+                    chat = "这群烦人的东西会给水下作业带来不小的麻烦…不管怎样，带上这个，饥饿的鱼类就不会再企图攻击你。";
                 else if (chat == "With this nasty concoction, insects will associate your scent with their queen! Neat, huh?.")
-                    chat = "有了这种讨厌的混合物，昆虫会把你的气味和它们的蚁后联系起来!巧妙的,是吧?";
+                    chat = "用了这瓶恶心的混合物，昆虫就会把你和它们的女王联系起来！太精妙了，对吧？";
                 else if (chat == "I'll be honest, this is just a bottle of pure liquid calcium. Don't question it, the skeletons surely wont either!")
-                    chat = "说实话，这是一瓶纯液体钙。不要质疑，骷髅肯定也不会!";
+                    chat = "其实，这就是一瓶高纯液体钙。不要质疑它的效果，骷髅也会对这瓶药剂深信不疑！";
                 else if (chat == "If this turned out correctly, you'll smell just like a zombie. Hopefully your nights will be a tad more calm!")
-                    chat = "如果这是正确的，你闻起来就像个僵尸.希望你的夜晚会更加平静!";
+                    chat = "正常生效的话，这瓶药剂会让你闻起来像一只僵尸。希望你今天能有个平静的夜晚！";
                 else if (chat == "I'm afraid you'll have to give me some more time to prepare the next repellent. This stuff can get pretty complicated...")
-                    chat = "恐怕你得再给我点时间准备下一剂驱蚊剂。这些东西融合到一起可能会变得相当复杂……";
+                    chat = "恐怕你得多给我一点时间来准备下一瓶趋避剂。这东西还挺复杂的…";
                 else if (chat == "Looks like you're a bit short on funds. Come back when you have a little more coin in your pocket!")
-                    chat = "看来你有点缺钱。等你口袋里多一点钱再回来吧!";
+                    chat = "看来你手头有点紧。等兜里有一些钱了再来吧！";
                 else if (chat == "I barely remember anything from before I died, but that doesn't mean I can't make new memories. I'll be sure to remember your victory for as long as this body can move!")
-                    chat = "我死前的事几乎都不记得了，但这并不意味着我不能创造新的记忆。只要我还活着，我一定会永远记住你的胜利!";
+                    chat = "我几乎不记得生前的事情，但这不意味着我不能创造新的记忆。只要这具躯体还能动弹，我就永远不会忘记你的胜利！";
+            		if (guide >= 0 && chat == "I bet " + Main.npc[guide].GivenName + " has a big juicy brain... Not that I would wanna... uh... Did you need something?")
+            			chat = "我敢打赌" + Main.npc[guide].GivenName + "有一个鲜美多汁的大脑子…真是令人欲罢不能…你要买点什么？";
+                // 需测试
+	if (partyGirl >= 0 && chat == "" + Main.npc[partyGirl].GivenName + "'s brain would surely taste like candy... Oh uh, hello there!")
+			chat = "" + Main.npc[partyGirl].GivenName + "的脑子肯定尝起来像块蛋糕…哦，你好啊，买点什么！";
             }
             #endregion
             #region cook

@@ -19089,21 +19089,21 @@ Mods: {
 				// BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
 				
 				TownNPCMood: {
-					Content: 我的脚步很轻快，别担心!
-					NoHome: 没有工作站，我很难工作。你能帮帮我吗?
-					FarFromHome: 我回家后需要再补一下鞋...
-					LoveSpace: 当我有自己的房间后，我最容易专注于工作，所以我很爽快!
-					DislikeCrowded: 这里的人太多了，你不觉得吗?
-					HateCrowded: 这些鞋子的订单我都跟不上了.我觉得这里有点太挤了.
-					LikeBiome: 森林真的是最好的散步的地方.没有讨厌的沙子.没有恼人的雪.没有烦人的砂砾.你懂的.
-					DislikeBiome: 我太老了，没法把鞋里的沙子和水弄出来了...
-					HateBiome: 如果我年轻一点，我就能应付这种地方，但现在我太老了!
-					LoveNPC: 如果这里有人知道好鞋的重要性，那一定是{NPCName}。他们的鞋子做工确实很好.
-					LikeNPC: 与{NPCName}交谈总能让我感到轻松。就连我有时也需要安慰.
-					DislikeNPC: "{NPCName}需要穿上一些鞋子，以免他们失去立足点和绊倒."
-					HateNPC: 我不喜欢{NPCName}帮助高跟鞋伤员, 我认为那些人自讨苦吃...
-					LikeNPC_Princess: "{NPCName}真的是那种你会情不自禁地喜欢的人."
-					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋从来没有这么亮过!"
+					Content: 我的步伐铿锵有力，不要担心！
+					NoHome: 没有工作站的话我很难开展工作。你会帮我的吧？
+					FarFromHome: 我回家之后怕是要再补一次鞋了……
+					LoveSpace: 独处的空间最能让我专注于工作，所以我很开心！
+					DislikeCrowded: 这里人实在是太多了，你不这么觉得吗？
+					HateCrowded: 我跟不上这么多鞋子的订单。我觉得这里有些太拥挤了。
+					LikeBiome: 森林是最适合散步的地方。没有烦人的沙子，没有烦人的雪，也没有烦人的砾石。你明白我的意思吧。
+					DislikeBiome: 我年纪大了，没办法细心处理我鞋子里的沙子和水了……
+					HateBiome: 要是年轻的时候，我能应对这样的地方，但现在我老了！
+					LoveNPC: 现在，如果这里还有人能明白一双好鞋的重要性，那肯定就是{NPCName}了。他们的鞋子确实做工精良。.
+					LikeNPC: 和{NPCName}的交谈总是能让我安心。就算是我，有时也需要安慰。
+					DislikeNPC: "{NPCName}最好在他们失足跌倒前穿上鞋子。"
+					HateNPC: 我不喜欢{NPCName}总是去帮助那些穿高跟鞋的伤员。你们这些年轻人真是完全不顾危险……
+					LikeNPC_Princess: "{NPCName}真是那种让你忍不住去宠爱的人。"
+					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋子从来没有擦得那么干净过!"
 				}
 
 				DisplayName: 鞋匠
