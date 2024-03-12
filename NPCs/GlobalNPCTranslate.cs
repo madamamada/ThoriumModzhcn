@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
 
-namespace ThoriumModzhcn.NPCs
+namespace ThoriumModzhcn.GlobalTranslation
 {
     public class GlobalNPCTranslate : GlobalNPC
     {
@@ -90,7 +90,7 @@ namespace ThoriumModzhcn.NPCs
                     chat = "我不太记得我过去的生活了…我应该非常热爱化学之类的东西吧；对于生前的情形我只能回想起一些片段。有时这挺让人难过的…";
                 else if (chat == "Why am I not like the others...? Oh, I'm sorry, did you need something?")
                     chat = "为什么我这么与众不同…？哦，不好意思，你想要点什么？";
-                else if (chat == "'Most people don't have the stomach to handle the things I sell. The trick is to not have a stomach at all!")
+                else if (chat == "Most people don't have the stomach to handle the things I sell. The trick is to not have a stomach at all!")
                     chat = "大部分人都没胆买我的东西。克服这个的诀窍就是抛弃掉胆脏！";
                 else if (chat == "I gotta thank you for letting me stick around. Only coming out at night is pretty boring...")
                     chat = "谢谢你让我留在这里。只能在夜晚外出是一件很无聊的事情…";
@@ -110,28 +110,39 @@ namespace ThoriumModzhcn.NPCs
                     chat = "看来你手头有点紧。等兜里有一些钱了再来吧！";
                 else if (chat == "I barely remember anything from before I died, but that doesn't mean I can't make new memories. I'll be sure to remember your victory for as long as this body can move!")
                     chat = "我几乎不记得生前的事情，但这不意味着我不能创造新的记忆。只要这具躯体还能动弹，我就永远不会忘记你的胜利！";
-            		if (guide >= 0 && chat == "I bet " + Main.npc[guide].GivenName + " has a big juicy brain... Not that I would wanna... uh... Did you need something?")
+            		if (guide >= 0 && chat == "I bet " + Main.npc[guide].GivenName + " has a big juicy brain... not that I would wanna... uh... did you need something?")
             			chat = "我敢打赌" + Main.npc[guide].GivenName + "有一个鲜美多汁的大脑子…真是令人欲罢不能…你要买点什么？";
-                // 需测试
 	if (partyGirl >= 0 && chat == "" + Main.npc[partyGirl].GivenName + "'s brain would surely taste like candy... Oh uh, hello there!")
 			chat = "" + Main.npc[partyGirl].GivenName + "的脑子肯定尝起来像块蛋糕…哦，你好啊，买点什么！";
             }
             #endregion
             #region cook
-            else if (npc.type == ModContent.NPCType<Cook>())
+             else if (npc.type == ModContent.NPCType<Cook>())
             {
                 if (chat == "I've got a lot of orders from the other townsfolk right now, make it quick!")
-                    chat = "其他镇上的人现在给我下了很多订单，快点!";
+                    chat = "我现在收到了很多其他住民的订单，快点！";
                 else if (chat == "How did any of you survive before I arrived? What could you have possibly been eating, dirt?")
-                    chat = "在我来之前你们是怎么活下来的?你到底吃了什么，土吗?";
+                    chat = "在我来之前你们是怎么活下来的？你们吃什么？吃土吗？";
                 else if (chat == "I'm stuck with dull knives while you wield weapons of unimaginable power? Give me a break...")
-                    chat = "我只能拿着钝刀而你却挥舞着无比强大的武器?饶了我吧……";
+                    chat = "凭什么我为这该死的钝刀头疼不已，你却能挥着锋利的武器所向披靡？饶了我吧…";
                 else if (chat == "No one should go adventuring on an empty stomach. Eat well, hero!")
-                    chat = "谁也不应该饿着肚子去冒险。好好吃饭，勇士!";
+                    chat = "任何人都不该空着肚子去冒险。吃好点，英雄！";
                 else if (chat == "Supply me with the proper ingredients, and I can make some truly powerful foods for you, hero!")
-                    chat = "给我适当的食材，我可以为你做更多美味的食物，勇士!";
+                    chat = "给我提供合适的食材，我就能给你做一些真正强而有力的食物，英雄";
                 else if (chat == "Looks like you don't have any ingredients in your bag. If you can find enough of an ingredient I'm looking for, I can supply you with new purchasable foods. Some of these dishes will be far more powerful than my usual wares, so keep your eyes peeled for unique ingredients!")
                     chat = "你包里什么原料都没有啊。如果你能找到足够的我正在寻找的原料，我可以为你提供新的可购买的食物。有些食物会比我平时做的食物更加美味，所以你一定要留心寻找独特的食材!";
+		/*switch (chat)
+		{
+			case "Looks like you don't have any ingredients in your bag.":
+			chat = "你包里什么原料都没有啊。";
+			break;
+			case "If you can find enough of an ingredient I'm looking for, I can supply you with new purchasable foods. ":
+			chat = "如果你能找到足够的我正在寻找的原料，我可以为你提供新的可购买的食物。";
+			break;
+			case "Some of these dishes will be far more powerful than my usual wares, so keep your eyes peeled for unique ingredients!":
+			chat = "有些食物会比我平时做的食物更加美味，所以你一定要留心寻找独特的食材!";
+			break;
+		}*/
                 else if (chat == "Leaves? You want me to cook some food... with leaves? Well, I don't think these would really work in a salad, so how about some tea instead? I'm sure it will calm you down if you're stressed")
                     chat = "生命之叶吗?你想让我做饭…用树叶吗?我觉得这些不适合做沙拉，所以用茶来代替怎么样?我相信你有压力，它会让你平静下来";
                 else if (chat == "Lovely, just enough blueberries for the job! Thanks, and please enjoy,")
@@ -165,7 +176,14 @@ namespace ThoriumModzhcn.NPCs
                 else if (chat == "I can tell this was written by an ogre... still, the pictures give me a clear idea on how to brew this. Be careful with this stuff, it's highly potent!")
                     chat = "我看得出这是食人魔写的……不过，这个食谱给了我一个关于如何酿造这款酒的想法，小心这东西，它的酒劲很大!";
                 else if (chat == "I could see the battle from here. To think you would risk your life to save us from something as overwhelming as... that. Take a seat kid, I'll cook your favorite meal - it's on me")
-                    chat = "我从这里就能看到战斗。想想看，你会冒着生命危险来救我们…那。坐下吧，孩子，我来做你最喜欢的饭菜，这顿我请";
+                    chat = "我在这里看到了那场战斗。想到你能不顾生命危险救我们于水火之中……坐下吧，孩子，我做了你最爱的饭菜——我请客。";
+                // 需测试
+            		if (angler >= 0 && chat == "" + Main.npc[angler].GivenName + " can be a real brat at times, but as long as he keeps providing me with fresh fish, I won't complain.")
+            			chat = "" + Main.npc[angler].GivenName + "有些时候真是顽劣，但只要他一直给我提供新鲜的鱼，我就不会抱怨的。";
+	if (partyGirl >= 0 && chat == "Cooking for " + Main.npc[partyGirl].GivenName + " is no easy task. She simply refuses to eat any form of meat!")
+			chat = "给" + Main.npc[partyGirl].GivenName + "做饭可真不简单。她完全不吃任何形式的肉类！";
+	if (witchDoctor >= 0 && chat == "The last time " + Main.npc[witchDoctor].GivenName + " asked me to cook for him, he requested bugs! This truly is a strange place...")
+			chat = "上一次" + Main.npc[witchDoctor].GivenName + "让我给他做饭的时候，他点了虫子！真是太奇怪了…";
             }
             #endregion
             #region desertAcolyte
@@ -189,6 +207,11 @@ namespace ThoriumModzhcn.NPCs
                     chat = "“制造沙尘暴是一项非常费力的工作.我希望能得到金钱上的补偿";
                 else if (chat == "It seems I was right to place my trust in you, my friend. You've protected us from every threat that arose, and for that, I'm truly grateful. Maybe now I can finally relax a little.")
                     chat = "“看来我相信你是对的，我的朋友，你保护我们不受任何威胁，为此，我真的很感激。也许现在我可以放松一下了。";
+                // 需测试
+            		if (armsDealer >= 0 && chat == "Look at " + Main.npc[armsDealer].GivenName + " over there! He's got an entire arsenal of guns, is that really safe?")
+            			chat = "看" + Main.npc[armsDealer].GivenName + "那边！他有那么多枪，真的安全吗？";
+	if (dyeTrader >= 0 && chat == "" + Main.npc[dyeTrader].GivenName + " was interested in dying my attire, but his choice of plant dye was 'strange' to say the least.")
+			chat = "" + Main.npc[dyeTrader].GivenName + "对染我的衣服很感兴趣，但他选择的植物染料可以说是“奇怪”的。";
             }
             #endregion
             #region diverman
@@ -210,6 +233,11 @@ namespace ThoriumModzhcn.NPCs
                     chat = "嗯，你的空气瓶看起来满了……你只是想聊聊吗?我有各种各样的故事!";
                 else if (chat == "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you.")
                     chat = "不错啊，孩子……还不错。希望你在所有的冒险中都玩得很开心。我想说我一直在看着你";
+                // 需测试
+            		if (angler >= 0 && chat == "That little twerp, " + Main.npc[angler].GivenName + ", thinks he knows so much about the sea...")
+            			chat = "这个蠢蛋" + Main.npc[angler].GivenName + "，自以为很了解大海";
+	if (pirate >= 0 && chat == "You wouldn't believe it, but " + Main.npc[pirate].GivenName + " and me go way back. He wasn't always a salt water scourge, yunno'.")
+			chat = "你可能不会相信，我和" + Main.npc[pirate].GivenName + "老早以前就认识了，他并不会的海洋做出危险举动，不是吗？";
             }
             #endregion
             #region druid
@@ -225,6 +253,13 @@ namespace ThoriumModzhcn.NPCs
                     chat = "自然界真是个奇迹。每个地方都有自己的魅力。有些人比其他人更厉害!";
                 else if (chat == "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!")
                     chat = "通常我会说“大自然会有办法的”，如果你不能阻止那些灵魂的厮杀，大自然母亲是否还能生存……请收下这些百合花，感谢你的勇气!";
+                // 需测试
+            		if (cook >= 0 && chat == "I wonder if I can convince " + Main.npc[cook].GivenName + ", to whip me up a salad.")
+            			chat = "我想知道我可以让" + Main.npc[cook].GivenName + "给我做一份沙拉。";
+	if (dryad >= 0 && chat == "Ever since I was a child, I've always wanted to meet a dryad. What luck it is to find " + Main.npc[dryad].GivenName + " here!")
+			chat = "从我还是小孩子的时候，就一直想看看" + Main.npc[dryad].GivenName + "，没想到在这里看见了，真幸运！";
+	if (witchDoctor >= 0 && chat == "Our friend there, " + Main.npc[witchDoctor].GivenName + ", is rather strange isn't he? He speaks in riddles...")
+			chat = "我们的朋友" + Main.npc[witchDoctor].GivenName + "他很奇怪，不是吗?他说话和谜语人一样...";
             }
             #endregion
             #region spiritualist
@@ -249,8 +284,13 @@ namespace ThoriumModzhcn.NPCs
                 else if (chat == "I'm afraid I can't currently protect you, friend. Give your soul some time to heal, and then come speak to me again")
                     chat = "恐怕我现在不能保护你，朋友。给你的灵魂一些时间来愈合，然后再来找我";
                 else if (chat == "From the moment we first spoke I sensed something special within you. Your spirit exudes an incredible energy, one that I'm honored to have witnessed. Stay golden my friend")
-                    chat = "从我们第一次交谈的那一刻起，我就感觉到你身上有一种特别的东西。你的精神散发出一种不可思议的能量，我很荣幸目睹了这种能量。保持美好我的朋友";
+                    chat = "从我们第一次交谈的那一刻起，我就感觉到你身上有一种特别的东西。你的精神散发出一种不可思议的力量，我很荣幸目睹了这种力量。保持很好我的朋友";
             }
+                // 需测试
+            		if (angler >= 0 && chat == "" + Main.npc[angler].GivenName + ", often comes to me in private to discuss things that are bothering him. Such a young age to be in his position...")
+            			chat = "" + Main.npc[angler].GivenName + "经常私下来找我谈论困扰他的事情。这么年轻就有了他现在的地位……";
+	if (witchDoctor >= 0 && chat == "" + Main.npc[witchDoctor].GivenName + " and I spent all of last night discussing philosophy. That one has a wise head on his shoulders.")
+			chat = "" + Main.npc[witchDoctor].GivenName + "昨天一整晚都在和我讨论人生观念，这个人很聪明。";
             #endregion
             #region tracker
             else if (npc.type == ModContent.NPCType<Tracker>())
@@ -265,6 +305,11 @@ namespace ThoriumModzhcn.NPCs
                     chat = "你会惊讶一个单肩垫的多么有用";
                 else if (chat == "A reality-ending nightmare entity, kid? You certainly don't cut corners, there's no way I can top that!")
                     chat = "一个终结现实的噩梦实体，孩子?你当然不会走捷径，我不可能超过你!";
+                // 需测试
+            		if (stylist >= 0 && chat == "Do you think " + Main.npc[stylist].GivenName + " would give a haircut even to a brute like me...?")
+            			chat = "你认为" + Main.npc[stylist].GivenName + "会给我这样的野蛮人理发吗?";
+	if (tavernkeep >= 0 && chat == "" + Main.npc[tavernkeep].GivenName + ", " + Main.npc[weaponMaster].GivenName + ", and I were gonna start a gym together. You want in?")
+			chat = "" + Main.npc[tavernkeep].GivenName + ", " + Main.npc[weaponMaster].GivenName + "我们想开一家健身房。你想来吗?";
             }
             #endregion
             #region weaponMaster
@@ -282,8 +327,18 @@ namespace ThoriumModzhcn.NPCs
                     chat = "我看你缺钱，去赚够钱，我也许会帮你";
                 else if (chat == "A warrior without his weapon stands no chance against the ever-powering threats he must face...")
                     chat = "一个没有武器的战士在他必须面对的更强大威胁面前是毫无胜算…";
+                // 需测试
+            		if (guide >= 0 && chat == "That man over there, " + Main.npc[guide].GivenName + ", keeps giving me dirty looks...")
+            			chat = "那边那个人" + Main.npc[guide].GivenName + "一直在恶狠狠的看着我.....";
+	if (taxCollector >= 0 && chat == "I see we have another demon within our ranks. What was his name again? " + Main.npc[taxCollector].GivenName + " ?")
+			chat = "看来我们又多了一个恶魔。他叫什么来着?" + Main.npc[taxCollector].GivenName + "？";
+	if (weaponMaster >= 0 && chat == "" + Main.npc[weaponMaster].GivenName + " blankly stares through you, as though he's not entirely there...")
+			chat = "" + Main.npc[weaponMaster].GivenName + "迷茫地凝视着你，仿佛他并不完全在那里……";
+              /*  // 需测试玩家信息
+                                    *So... you've gained the ability to speak in tongues, <name of player>? Very fascinating...
+                                    Ie... oep'wl vmnjld hrl mfnbnho he iwlmc nj hejvpli, <name of player>? Wlgo zmisnjmhnjv...
                 else if (chat == "I was exiled from my people when I chose to side with your kind. They thought me foolish, placing faith in those that dwelled above. I'm sure they're feeling rather foolish themselves after what you've just accomplished. Well done, ")
-                    chat = "当我选择站在你这一边时，我就被我的种族驱逐了。他们以为我愚蠢，相信天上的神。我敢肯定，在你刚刚完成的事情之后，他们自己也觉得很愚蠢。干得好,";
+                    chat = "当我选择站在你这一边时，我就被我的种族驱逐了。他们以为我愚蠢，相信天上的神。我敢肯定，在你刚刚完成的事情之后，他们自己也觉得很愚蠢。干得好，";*/
             }
             #endregion
         }
