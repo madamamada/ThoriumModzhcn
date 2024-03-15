@@ -3599,7 +3599,7 @@ Mods: {
 
 			DiamondRing: {
 				DisplayName: 钻石戒指
-				Tooltip: 增加4%暴击率
+				Tooltip: 增加2%暴击率
 			}
 
 			DriftBoots: {
@@ -3825,8 +3825,8 @@ Mods: {
 				DisplayName: 魔戒
 				Tooltip:
 					'''
-					增加1点所有伤害
-					增加1点盔甲穿透
+					增加2点所有伤害
+					增加2点盔甲穿透
 					增加4%暴击率
 					'''
 			}
