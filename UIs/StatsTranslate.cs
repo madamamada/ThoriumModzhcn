@@ -35,12 +35,12 @@ namespace ThoriumModzhcn.GlobalTranslation
             text = Regex.Replace(text, "Bonus Inspiration", "额外灵感值");
             text = Regex.Replace(text, "Timed Hits", "抓住节拍次数");
             text = Regex.Replace(text, "sec", "秒");   
-            text = Regex.Replace(text, "Total:", "合计:");    
+            /*text = Regex.Replace(text, "Total:", "合计:");    
             text = Regex.Replace(text, " Damage Reduction", "伤害减免"); 
             text = Regex.Replace(text, "Vanilla:", "原版:"); 
-            text = Regex.Replace(text, "Thorium:", "瑟银:"); 
+            text = Regex.Replace(text, "Thorium:", "瑟银:"); */
 
-            //瑟银武器
+            //瑟银重置
             text = Regex.Replace(text, "PHOTOSENSITIVITY WARNING:", "光 敏 警 告:"); 
             text = Regex.Replace(text, "mod adds a lot of flashy effects! Especially in boss fights!", "模组增加了很多华丽的效果!尤其是在boss战中！"); 
             text = Regex.Replace(text, "If you are photosensitive, go to Settings", "如果你感觉到不适，请转到设置"); 
