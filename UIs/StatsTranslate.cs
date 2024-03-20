@@ -35,18 +35,16 @@ namespace ThoriumModzhcn.GlobalTranslation
             text = Regex.Replace(text, "Bonus Inspiration", "额外灵感值");
             text = Regex.Replace(text, "Timed Hits", "抓住节拍次数");
             text = Regex.Replace(text, "sec", "秒");   
-            /*text = Regex.Replace(text, "Total:", "合计:");    
-            text = Regex.Replace(text, " Damage Reduction", "伤害减免"); 
+            text = Regex.Replace(text, "Total:", "合计:");    
+            text = Regex.Replace(text, " Damage Reduction", " 伤害减免"); 
             text = Regex.Replace(text, "Vanilla:", "原版:"); 
-            text = Regex.Replace(text, "Thorium:", "瑟银:"); */
+            text = Regex.Replace(text, "Thorium:", "瑟银:");
 
             //瑟银重置
-            text = Regex.Replace(text, "PHOTOSENSITIVITY WARNING:", "光 敏 警 告:"); 
-            text = Regex.Replace(text, "mod adds a lot of flashy effects! Especially in boss fights!", "模组增加了很多华丽的效果!尤其是在boss战中！"); 
-            text = Regex.Replace(text, "If you are photosensitive, go to Settings", "如果你感觉到不适，请转到设置"); 
-            text = Regex.Replace(text, "Mod Configuration", "模组配置"); 
-            text = Regex.Replace(text, "Visual Settings and set all the sliders to 0!", "视觉设置，并将所有设置调整为0!");  
-            text = Regex.Replace(text, "You can turn off this warning in the config as well if you do not want to keep seeing it!", "如果你不想看到这个警告，也可以在配置中关闭它!");            
+            text = Regex.Replace(text, "PHOTOSENSITIVITY WARNING: ", "光 敏 警 告: " ); 
+            text = Regex.Replace(text, "mod adds a lot of flashy effects! Especially in boss fights!", "模组增加了很多华丽的效果!尤其是在boss战中！");  
+            text = Regex.Replace(text, "If you are photosensitive, go to Settings -> Mod Configuration -> Thorium Bosses Rework -> Visual Settings and set all the sliders to 0!", "如果你感觉到不适，请转到设置 -> 模组配置 -> Thorium Bosses Rework -> 视觉设置，并将所有设置调整为0!");  
+            text = Regex.Replace(text, "You can turn off this warning in the config as well if you do not want to keep seeing it!", "如果你不想看到这个警告，也可以在配置中关闭它!");      
             return orig.Invoke(text, baseColor);
         }       
     }
