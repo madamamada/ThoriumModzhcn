@@ -28,8 +28,8 @@ Mods: {
 			DreamEaterDefeat: Reality resumes its tranquil state...
 		}
 
-		// Bestiary.InfoElements.ExpertModeInfoElement: Expert Mode Only
-		
+		Bestiary.InfoElements.ExpertModeInfoElement: Expert Mode Only
+
 		GravestoneText: {
 			# Bit ugly but you need to keep updating these numbers to be consecutive (no gaps), and also update the total count in code (GraveyardPass.GravestoneTextCount)
 			# The code bit hopefully won't be necessary with 1.4.4
@@ -122,8 +122,8 @@ Mods: {
 				CommonDescription: Something stirs in the darkness...
 			}
 
-			// AbyssalShadowBuff3.Description: The waters ripple...
-			
+			AbyssalShadowBuff3.Description: The waters ripple...
+
 			AbyssalShellBuff: {
 				DisplayName: Abyssal Shell
 				Description: Just about nothing can harm you!
@@ -889,15 +889,15 @@ Mods: {
 				Description: Try to ignore the smell of smoke...
 			}
 
-			// AquamarineMinecartBuff.DisplayName: Aquamarine Minecart
-			
+			AquamarineMinecartBuff.DisplayName: Aquamarine Minecart
+
 			BathtubCartBuff: {
 				DisplayName: Bathtub Cart
 				Description: Wash yourself on the move!
 			}
 
-			// OpalMinecartBuff.DisplayName: Opal Minecart
-			
+			OpalMinecartBuff.DisplayName: Opal Minecart
+
 			RocketCartBuff: {
 				DisplayName: Rocket Cart
 				Description: There is no way this thing is safe...
@@ -1682,10 +1682,6 @@ Mods: {
 				DisplayName: Skull Cat
 				Description: Time for a super animal adventure
 			}
-
-			AbyssalShadowBuff3.Description: The waters ripple...
-			AquamarineMinecartBuff.DisplayName: Aquamarine Minecart
-			OpalMinecartBuff.DisplayName: Opal Minecart
 		}
 
 		Conditions: {
@@ -1904,17 +1900,17 @@ Mods: {
 			}
 
 			WhisperingHood: {
-				// DisplayName: Whispering Hood
-				/* Tooltip:
-				'''
-				Corrupts your radiant powers
-				25% decreased non-radiant damage
-				25% increased radiant damage
-				12% increased radiant critical strike chance
-				Maximum mana increased by 40
-				Healing spells will heal an additional 1 life
-				''' */
-				
+				DisplayName: Whispering Hood
+				Tooltip:
+					'''
+					Corrupts your radiant powers
+					25% decreased non-radiant damage
+					25% increased radiant damage
+					12% increased radiant critical strike chance
+					Maximum mana increased by 40
+					Healing spells will heal an additional 1 life
+					'''
+
 				SetBonusQuotes: {
 					TheGrandThunderBird: Why show mercy to the weak...?
 					KingSlime: Pawns used in a cosmic game...
@@ -1952,17 +1948,6 @@ Mods: {
 					0: That is not one of ours... Interesting...
 					1: They exist outside the cycle...
 				}
-
-				DisplayName: Whispering Hood
-				Tooltip:
-					'''
-					Corrupts your radiant powers
-					25% decreased non-radiant damage
-					25% increased radiant damage
-					12% increased radiant critical strike chance
-					Maximum mana increased by 40
-					Healing spells will heal an additional 1 life
-					'''
 			}
 
 			WhisperingLeggings: {
@@ -2160,120 +2145,120 @@ Mods: {
 				Tooltip: 2.5% increased firing speed
 			}
 
-			// AbominationBanner.DisplayName: Abomination Banner
-			// AbyssalAnglerBanner.DisplayName: Abyssal Angler Banner
-			// AncientArcherBanner.DisplayName: Ancient Archer Banner
-			// AncientChargerBanner.DisplayName: Ancient Charger Banner
-			// AncientPhalanxBanner.DisplayName: Ancient Phalanx Banner
-			// ArmyAntBanner.DisplayName: Army Ant Banner
-			// AstroBeetleBanner.DisplayName: Astro Beetle Banner
-			// BarracudaBanner.DisplayName: Barracuda Banner
-			// BiterBanner.DisplayName: Biter Banner
-			// BlackWidowBanner.DisplayName: Black Widow Banner
-			// BlisterPodBanner.DisplayName: Blister Pod Banner
-			// BlizzardBatBanner.DisplayName: Blizzard Bat Banner
-			// BlobfishBanner.DisplayName: Blobfish Banner
-			// BloodMageBanner.DisplayName: Blood Mage Banner
-			// BloodyWargBanner.DisplayName: Bloody Warg Banner
-			// BlowfishBanner.DisplayName: Blowfish Banner
-			// BoneFlayerBanner.DisplayName: Bone Flayer Banner
-			// BrownRecluseBanner.DisplayName: Brown Recluse Banner
-			// ChilledSpitterBanner.DisplayName: Chilled Spitter Banner
-			
+			AbominationBanner.DisplayName: Abomination Banner
+			AbyssalAnglerBanner.DisplayName: Abyssal Angler Banner
+			AncientArcherBanner.DisplayName: Ancient Archer Banner
+			AncientChargerBanner.DisplayName: Ancient Charger Banner
+			AncientPhalanxBanner.DisplayName: Ancient Phalanx Banner
+			ArmyAntBanner.DisplayName: Army Ant Banner
+			AstroBeetleBanner.DisplayName: Astro Beetle Banner
+			BarracudaBanner.DisplayName: Barracuda Banner
+			BiterBanner.DisplayName: Biter Banner
+			BlackWidowBanner.DisplayName: Black Widow Banner
+			BlisterPodBanner.DisplayName: Blister Pod Banner
+			BlizzardBatBanner.DisplayName: Blizzard Bat Banner
+			BlobfishBanner.DisplayName: Blobfish Banner
+			BloodMageBanner.DisplayName: Blood Mage Banner
+			BloodyWargBanner.DisplayName: Bloody Warg Banner
+			BlowfishBanner.DisplayName: Blowfish Banner
+			BoneFlayerBanner.DisplayName: Bone Flayer Banner
+			BrownRecluseBanner.DisplayName: Brown Recluse Banner
+			ChilledSpitterBanner.DisplayName: Chilled Spitter Banner
+
 			CoinBagBanner: {
 				DisplayName: Coin Bag Banner
 				NPCNameText: Coin Bags
 			}
 
-			// ColdlingBanner.DisplayName: Coldling Banner
-			// CoolmeraBanner.DisplayName: Coolmera Banner
-			// CrownofThornsBanner.DisplayName: Crown of Thorns Banner
-			// DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
-			// DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
-			// EarthenBatBanner.DisplayName: Earthen Bat Banner
-			// EarthenGolemBanner.DisplayName: Earthen Golem Banner
-			// EngorgedEyeBanner.DisplayName: Engorged Eye Banner
-			// EpiDermonBanner.DisplayName: Epidermon Banner
-			// FeedingFrenzyBanner.DisplayName: Feeding Frenzy Banner
-			// FlamekinCasterBanner.DisplayName: Flamekin Caster Banner
-			// FreezerBanner.DisplayName: Freezer Banner
-			// FrostBurntBanner.DisplayName: Frost Burnt Banner
-			// FrostFangBanner.DisplayName: Frost Fang Banner
-			// FrostWurmBanner.DisplayName: Frost Wurm Banner
-			// FrozenFaceBanner.DisplayName: Frozen Face Banner
-			// FrozenGrossBanner.DisplayName: Frozen Gross Banner
-			// GelatinousCubeBanner.DisplayName: Gelatinous Cube Banner
-			// GigaClamBanner.DisplayName: Giga Clam Banner
-			// GlitteringGolemBanner.DisplayName: Glittering Golem Banner
-			// GoblinDrummerBanner.DisplayName: Goblin Drummer Banner
-			// GoblinSpiritGuideBanner.DisplayName: Goblin Spirit Guide Banner
-			// GoblinTrapperBanner.DisplayName: Goblin Trapper Banner
-			// GoldBatBanner.DisplayName: Gilded Bat Banner
-			// GoldLycanBanner.DisplayName: Gilded Lycan Banner
-			// GoldSlimeBanner.DisplayName: Gilded Slime Banner
-			// GraniteEradicatorBanner.DisplayName: Granite Eradicator Banner
-			// GraniteFusedSlimeBanner.DisplayName: Granite-Fused Slime Banner
-			// GraniteSurgerBanner.DisplayName: Granite Surger Banner
-			// GraveLimbBanner.DisplayName: Grave Limb Banner
-			
+			ColdlingBanner.DisplayName: Coldling Banner
+			CoolmeraBanner.DisplayName: Coolmera Banner
+			CrownofThornsBanner.DisplayName: Crown of Thorns Banner
+			DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
+			DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
+			EarthenBatBanner.DisplayName: Earthen Bat Banner
+			EarthenGolemBanner.DisplayName: Earthen Golem Banner
+			EngorgedEyeBanner.DisplayName: Engorged Eye Banner
+			EpiDermonBanner.DisplayName: Epidermon Banner
+			FeedingFrenzyBanner.DisplayName: Feeding Frenzy Banner
+			FlamekinCasterBanner.DisplayName: Flamekin Caster Banner
+			FreezerBanner.DisplayName: Freezer Banner
+			FrostBurntBanner.DisplayName: Frost Burnt Banner
+			FrostFangBanner.DisplayName: Frost Fang Banner
+			FrostWurmBanner.DisplayName: Frost Wurm Banner
+			FrozenFaceBanner.DisplayName: Frozen Face Banner
+			FrozenGrossBanner.DisplayName: Frozen Gross Banner
+			GelatinousCubeBanner.DisplayName: Gelatinous Cube Banner
+			GigaClamBanner.DisplayName: Giga Clam Banner
+			GlitteringGolemBanner.DisplayName: Glittering Golem Banner
+			GoblinDrummerBanner.DisplayName: Goblin Drummer Banner
+			GoblinSpiritGuideBanner.DisplayName: Goblin Spirit Guide Banner
+			GoblinTrapperBanner.DisplayName: Goblin Trapper Banner
+			GoldBatBanner.DisplayName: Gilded Bat Banner
+			GoldLycanBanner.DisplayName: Gilded Lycan Banner
+			GoldSlimeBanner.DisplayName: Gilded Slime Banner
+			GraniteEradicatorBanner.DisplayName: Granite Eradicator Banner
+			GraniteFusedSlimeBanner.DisplayName: Granite-Fused Slime Banner
+			GraniteSurgerBanner.DisplayName: Granite Surger Banner
+			GraveLimbBanner.DisplayName: Grave Limb Banner
+
 			HallucinationBanner: {
 				DisplayName: Mysterious Banner
 				NPCNameText: ???
 			}
 
-			// HammerHeadBanner.DisplayName: Hammerhead Banner
-			// HellBringerMimicBanner.DisplayName: Hell Bringer Mimic Banner
-			// HoppingSpiderBanner.DisplayName: Hopping Spider Banner
-			// HorrificChargerBanner.DisplayName: Horrific Charger Banner
-			// InfernalHoundBanner.DisplayName: Infernal Hound Banner
-			// KrakenBanner.DisplayName: Kraken Banner
-			// LeFantomeBanner.DisplayName: Le Fantôme Banner
-			// LifeCrystalMimicBanner.DisplayName: Life Crystal Mimic Banner
-			// LihzardMimicBanner.DisplayName: Lihzahrd Mimic Banner
-			// LihzardPotMimicBanner.DisplayName: Lihzahrd Pot Banner
-			// LivingHemorrhageBanner.DisplayName: Living Hemorrhage Banner
-			// LycanBanner.DisplayName: Lycan Banner
-			// MahoganyEntBanner.DisplayName: Mahogany Ent Banner
-			// ManofWarBanner.DisplayName: Man o' War Banner
-			// MartianScoutBanner.DisplayName: Martian Scout Banner
-			// MartianSentryBanner.DisplayName: Martian Sentry Banner
-			// MoltenMortarBanner.DisplayName: Molten Mortar Banner
-			// MorayBanner.DisplayName: Moray Banner
-			// MossWaspBanner.DisplayName: Moss Wasp Banner
-			// MudManBanner.DisplayName: Mud Man Banner
-			// MyceliumMimicBanner.DisplayName: Mycelium Mimic Banner
-			// NecroPotBanner.DisplayName: Necro Pot Banner
-			// NestlingBanner.DisplayName: Nestling Banner
-			// OctopusBanner.DisplayName: Octopus Banner
-			// PutridSerpentBanner.DisplayName: Putrid Serpent Banner
-			// RagingMinotaurBanner.DisplayName: Raging Minotaur Banner
-			// ScissorStalkerBanner.DisplayName: Scissor Stalker Banner
-			// SeaShantySingerBanner.DisplayName: Sea-Shanty Singer Banner
-			// ShamblerBanner.DisplayName: Shambler Banner
-			// SharptoothBanner.DisplayName: Sharp Tooth Banner
-			// SmotheringShadeBanner.DisplayName: Smothering Shade Banner
-			// SnowballBanner.DisplayName: Snow Ball Banner
-			// SnowEaterBanner.DisplayName: Snow Eater Banner
-			// SnowElementalBanner.DisplayName: Snow Elemental Banner
-			// SnowFlinxMatriarchBanner.DisplayName: Snow Flinx Matriarch Banner
-			// SnowSingaBanner.DisplayName: Snow Singa Banner
-			// SnowyOwlBanner.DisplayName: Snowy Owl Banner
-			// SunPriestessBanner.DisplayName: Sun Priestess Banner
-			// SoulCorrupterBanner.DisplayName: Soul Corrupter Banner
-			// SpaceSlimeBanner.DisplayName: Space Slime Banner
-			// SpectrumiteBanner.DisplayName: Spectrumite Banner
-			// StrangeBulbBanner.DisplayName: Strange Bulb Banner
-			// SubmergedMimicBanner.DisplayName: Submerged Mimic Banner
-			// TarantulaBanner.DisplayName: Tarantula Banner
-			// TheInnocentBanner.DisplayName: The Innocent Banner
-			// TheStarvedBanner.DisplayName: The Starved Banner
-			// UFOBanner.DisplayName: U.F.O. Banner
-			// UnderworldPotBanner.DisplayName: Underworld Pot Banner
-			// VampireSquidBanner.DisplayName: Vampire Squid Banner
-			// VileFloaterBanner.DisplayName: Vile Floater Banner
-			// VoltEelBanner.DisplayName: Volt Eel Banner
-			// WindElementalBanner.DisplayName: Wind Elemental Banner
-			
+			HammerHeadBanner.DisplayName: Hammerhead Banner
+			HellBringerMimicBanner.DisplayName: Hell Bringer Mimic Banner
+			HoppingSpiderBanner.DisplayName: Hopping Spider Banner
+			HorrificChargerBanner.DisplayName: Horrific Charger Banner
+			InfernalHoundBanner.DisplayName: Infernal Hound Banner
+			KrakenBanner.DisplayName: Kraken Banner
+			LeFantomeBanner.DisplayName: Le Fantôme Banner
+			LifeCrystalMimicBanner.DisplayName: Life Crystal Mimic Banner
+			LihzardMimicBanner.DisplayName: Lihzahrd Mimic Banner
+			LihzardPotMimicBanner.DisplayName: Lihzahrd Pot Banner
+			LivingHemorrhageBanner.DisplayName: Living Hemorrhage Banner
+			LycanBanner.DisplayName: Lycan Banner
+			MahoganyEntBanner.DisplayName: Mahogany Ent Banner
+			ManofWarBanner.DisplayName: Man o' War Banner
+			MartianScoutBanner.DisplayName: Martian Scout Banner
+			MartianSentryBanner.DisplayName: Martian Sentry Banner
+			MoltenMortarBanner.DisplayName: Molten Mortar Banner
+			MorayBanner.DisplayName: Moray Banner
+			MossWaspBanner.DisplayName: Moss Wasp Banner
+			MudManBanner.DisplayName: Mud Man Banner
+			MyceliumMimicBanner.DisplayName: Mycelium Mimic Banner
+			NecroPotBanner.DisplayName: Necro Pot Banner
+			NestlingBanner.DisplayName: Nestling Banner
+			OctopusBanner.DisplayName: Octopus Banner
+			PutridSerpentBanner.DisplayName: Putrid Serpent Banner
+			RagingMinotaurBanner.DisplayName: Raging Minotaur Banner
+			ScissorStalkerBanner.DisplayName: Scissor Stalker Banner
+			SeaShantySingerBanner.DisplayName: Sea-Shanty Singer Banner
+			ShamblerBanner.DisplayName: Shambler Banner
+			SharptoothBanner.DisplayName: Sharp Tooth Banner
+			SmotheringShadeBanner.DisplayName: Smothering Shade Banner
+			SnowballBanner.DisplayName: Snow Ball Banner
+			SnowEaterBanner.DisplayName: Snow Eater Banner
+			SnowElementalBanner.DisplayName: Snow Elemental Banner
+			SnowFlinxMatriarchBanner.DisplayName: Snow Flinx Matriarch Banner
+			SnowSingaBanner.DisplayName: Snow Singa Banner
+			SnowyOwlBanner.DisplayName: Snowy Owl Banner
+			SunPriestessBanner.DisplayName: Sun Priestess Banner
+			SoulCorrupterBanner.DisplayName: Soul Corrupter Banner
+			SpaceSlimeBanner.DisplayName: Space Slime Banner
+			SpectrumiteBanner.DisplayName: Spectrumite Banner
+			StrangeBulbBanner.DisplayName: Strange Bulb Banner
+			SubmergedMimicBanner.DisplayName: Submerged Mimic Banner
+			TarantulaBanner.DisplayName: Tarantula Banner
+			TheInnocentBanner.DisplayName: The Innocent Banner
+			TheStarvedBanner.DisplayName: The Starved Banner
+			UFOBanner.DisplayName: U.F.O. Banner
+			UnderworldPotBanner.DisplayName: Underworld Pot Banner
+			VampireSquidBanner.DisplayName: Vampire Squid Banner
+			VileFloaterBanner.DisplayName: Vile Floater Banner
+			VoltEelBanner.DisplayName: Volt Eel Banner
+			WindElementalBanner.DisplayName: Wind Elemental Banner
+
 			AcousticGuitar: {
 				DisplayName: Acoustic Guitar
 				Tooltip: Releases an impressive guitar solo
@@ -2780,10 +2765,10 @@ Mods: {
 				InspirationRequirement: Requires at least {0} inspiration
 			}
 
-			// InspirationCrystalNew.DisplayName: Inspiration Crystal
-			// InspirationFragment.DisplayName: Inspiration Fragment
-			// InspirationShard.DisplayName: Inspiration Shard
-			
+			InspirationCrystalNew.DisplayName: Inspiration Crystal
+			InspirationFragment.DisplayName: Inspiration Fragment
+			InspirationShard.DisplayName: Inspiration Shard
+
 			InspirationGem: {
 				DisplayName: Inspiration Gem
 				Tooltip: Permanently increases inspiration regeneration rate
@@ -2794,8 +2779,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// InspirationNote.DisplayName: Inspiration Note
-			
+			InspirationNote.DisplayName: Inspiration Note
+
 			InspirationReachPotion: {
 				DisplayName: Inspirational Reach Potion
 				Tooltip: Increases pickup range for inspiration notes
@@ -5160,45 +5145,45 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// BlockyMask.DisplayName: Blocky Mask
-			// BlockyPants.DisplayName: Blocky Pants
-			// BlockyShirt.DisplayName: Blocky Shirt
-			// BrutalChestguard.DisplayName: Brutal Chestguard
-			// BrutalGreaves.DisplayName: Brutal Greaves
-			// BrutalMask.DisplayName: Brutal Mask
-			// CataclysmicsGarb.DisplayName: Cataclysmic Garb
-			// CataclysmicsHollowMask.DisplayName: Cataclysmic Hollow Mask
-			// ChunkyGreaves.DisplayName: Chunky Greaves
-			// ChunkyHelmet.DisplayName: Chunky Helmet
-			// ChunkyMail.DisplayName: Chunky Mail
-			// DannyLamentLeggings.DisplayName: Danny's Lament Leggings
-			// DannyLamentMask.DisplayName: Danny's Lament Mask
-			// DannyLamentSuit.DisplayName: Danny's Lament Suit
-			// DeluxeHalcandranBow.DisplayName: Deluxe Halcandran Bow
-			// DeluxeHalcandranHat.DisplayName: Deluxe Halcandran Hat
-			// GhastlyGarment.DisplayName: Ghastly Garment
-			// GhastlyHood.DisplayName: Ghastly Hood
-			// GhastlyLeggings.DisplayName: Ghastly Leggings
-			// GrandThoriumBreastPlate.DisplayName: Grand Thorium Breastplate
-			// GrandThoriumGreaves.DisplayName: Grand Thorium Greaves
-			// GrandThoriumHelmet.DisplayName: Grand Thorium Helmet
-			// HalcandranHood.DisplayName: Halcandran Hood
-			// HalcandranPants.DisplayName: Halcandran Pants
-			// HalcandranTabard.DisplayName: Halcandran Tabard
-			// MrUniverseMask.DisplayName: Mr. Universe's Mask
-			// MrUniversePants.DisplayName: Mr. Universe's Pants
-			// MrUniverseSuit.DisplayName: Mr. Universe's Suit
-			// PhonicWings.DisplayName: Phonic Wings
-			// ShinobiGi.DisplayName: Shinobi Gi
-			// ShinobiMask.DisplayName: Shinobi Mask
-			// ShinobiTreads.DisplayName: Shinobi Treads
-			// SpheromancerMask.DisplayName: Spheromancer Mask
-			// SpheromancerPants.DisplayName: Spheromancer Pants
-			// SpheromancerSuit.DisplayName: Spheromancer Suit
-			// WildAntlers.DisplayName: Wild Antlers
-			// WildLoincloth.DisplayName: Wild Loincloth
-			// WildRobe.DisplayName: Wild Robe
-			
+			BlockyMask.DisplayName: Blocky Mask
+			BlockyPants.DisplayName: Blocky Pants
+			BlockyShirt.DisplayName: Blocky Shirt
+			BrutalChestguard.DisplayName: Brutal Chestguard
+			BrutalGreaves.DisplayName: Brutal Greaves
+			BrutalMask.DisplayName: Brutal Mask
+			CataclysmicsGarb.DisplayName: Cataclysmic Garb
+			CataclysmicsHollowMask.DisplayName: Cataclysmic Hollow Mask
+			ChunkyGreaves.DisplayName: Chunky Greaves
+			ChunkyHelmet.DisplayName: Chunky Helmet
+			ChunkyMail.DisplayName: Chunky Mail
+			DannyLamentLeggings.DisplayName: Danny's Lament Leggings
+			DannyLamentMask.DisplayName: Danny's Lament Mask
+			DannyLamentSuit.DisplayName: Danny's Lament Suit
+			DeluxeHalcandranBow.DisplayName: Deluxe Halcandran Bow
+			DeluxeHalcandranHat.DisplayName: Deluxe Halcandran Hat
+			GhastlyGarment.DisplayName: Ghastly Garment
+			GhastlyHood.DisplayName: Ghastly Hood
+			GhastlyLeggings.DisplayName: Ghastly Leggings
+			GrandThoriumBreastPlate.DisplayName: Grand Thorium Breastplate
+			GrandThoriumGreaves.DisplayName: Grand Thorium Greaves
+			GrandThoriumHelmet.DisplayName: Grand Thorium Helmet
+			HalcandranHood.DisplayName: Halcandran Hood
+			HalcandranPants.DisplayName: Halcandran Pants
+			HalcandranTabard.DisplayName: Halcandran Tabard
+			MrUniverseMask.DisplayName: Mr. Universe's Mask
+			MrUniversePants.DisplayName: Mr. Universe's Pants
+			MrUniverseSuit.DisplayName: Mr. Universe's Suit
+			PhonicWings.DisplayName: Phonic Wings
+			ShinobiGi.DisplayName: Shinobi Gi
+			ShinobiMask.DisplayName: Shinobi Mask
+			ShinobiTreads.DisplayName: Shinobi Treads
+			SpheromancerMask.DisplayName: Spheromancer Mask
+			SpheromancerPants.DisplayName: Spheromancer Pants
+			SpheromancerSuit.DisplayName: Spheromancer Suit
+			WildAntlers.DisplayName: Wild Antlers
+			WildLoincloth.DisplayName: Wild Loincloth
+			WildRobe.DisplayName: Wild Robe
+
 			AbyssalWhistle: {
 				DisplayName: Abyssal Whistle
 				Tooltip: Summons an abyssal bunny to follow you around
@@ -5332,9 +5317,9 @@ Mods: {
 				TileMouseover: Check back later...
 			}
 
-			// BirdFeederGrounded.DisplayName: Bird Feeder
-			// BirdFeederHanging.DisplayName: Bird Feeder (Hanging)
-			
+			BirdFeederGrounded.DisplayName: Bird Feeder
+			BirdFeederHanging.DisplayName: Bird Feeder (Hanging)
+
 			BlackMIDI: {
 				DisplayName: Black MIDI
 				Tooltip:
@@ -11032,8 +11017,8 @@ Mods: {
 				Tooltip: Releases an explosion on enemy impact
 			}
 
-			// LeatherSheath.DisplayName: Leather Sheath
-			
+			LeatherSheath.DisplayName: Leather Sheath
+
 			LeechingSheath: {
 				DisplayName: Leeching Sheath
 				Tooltip:
@@ -13913,8 +13898,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// MiniBossMusicBox.MiniBoss: Mini-Boss
-			
+			MiniBossMusicBox.MiniBoss: Mini-Boss
+
 			MinotaurStatue: {
 				DisplayName: Minotaur Statue
 				Tooltip: ""
@@ -14985,8 +14970,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// SunkenPalaceMusicBox.SunkenPalace: Sunken Palace
-			
+			SunkenPalaceMusicBox.SunkenPalace: Sunken Palace
+
 			ThoriumBathtub: {
 				DisplayName: Thorium Bathtub
 				Tooltip: ""
@@ -18625,160 +18610,11 @@ Mods: {
 					Right click to chuck a stored organ at enemies
 					'''
 			}
-
-			AbominationBanner.DisplayName: Abomination Banner
-			AbyssalAnglerBanner.DisplayName: Abyssal Angler Banner
-			AncientArcherBanner.DisplayName: Ancient Archer Banner
-			AncientChargerBanner.DisplayName: Ancient Charger Banner
-			AncientPhalanxBanner.DisplayName: Ancient Phalanx Banner
-			ArmyAntBanner.DisplayName: Army Ant Banner
-			AstroBeetleBanner.DisplayName: Astro Beetle Banner
-			BarracudaBanner.DisplayName: Barracuda Banner
-			BiterBanner.DisplayName: Biter Banner
-			BlackWidowBanner.DisplayName: Black Widow Banner
-			BlisterPodBanner.DisplayName: Blister Pod Banner
-			BlizzardBatBanner.DisplayName: Blizzard Bat Banner
-			BlobfishBanner.DisplayName: Blobfish Banner
-			BloodMageBanner.DisplayName: Blood Mage Banner
-			BloodyWargBanner.DisplayName: Bloody Warg Banner
-			BlowfishBanner.DisplayName: Blowfish Banner
-			BoneFlayerBanner.DisplayName: Bone Flayer Banner
-			BrownRecluseBanner.DisplayName: Brown Recluse Banner
-			ChilledSpitterBanner.DisplayName: Chilled Spitter Banner
-			ColdlingBanner.DisplayName: Coldling Banner
-			CoolmeraBanner.DisplayName: Coolmera Banner
-			CrownofThornsBanner.DisplayName: Crown of Thorns Banner
-			DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
-			DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
-			EarthenBatBanner.DisplayName: Earthen Bat Banner
-			EarthenGolemBanner.DisplayName: Earthen Golem Banner
-			EngorgedEyeBanner.DisplayName: Engorged Eye Banner
-			EpiDermonBanner.DisplayName: Epidermon Banner
-			FeedingFrenzyBanner.DisplayName: Feeding Frenzy Banner
-			FlamekinCasterBanner.DisplayName: Flamekin Caster Banner
-			FreezerBanner.DisplayName: Freezer Banner
-			FrostBurntBanner.DisplayName: Frost Burnt Banner
-			FrostFangBanner.DisplayName: Frost Fang Banner
-			FrostWurmBanner.DisplayName: Frost Wurm Banner
-			FrozenFaceBanner.DisplayName: Frozen Face Banner
-			FrozenGrossBanner.DisplayName: Frozen Gross Banner
-			GelatinousCubeBanner.DisplayName: Gelatinous Cube Banner
-			GigaClamBanner.DisplayName: Giga Clam Banner
-			GlitteringGolemBanner.DisplayName: Glittering Golem Banner
-			GoblinDrummerBanner.DisplayName: Goblin Drummer Banner
-			GoblinSpiritGuideBanner.DisplayName: Goblin Spirit Guide Banner
-			GoblinTrapperBanner.DisplayName: Goblin Trapper Banner
-			GoldBatBanner.DisplayName: Gilded Bat Banner
-			GoldLycanBanner.DisplayName: Gilded Lycan Banner
-			GoldSlimeBanner.DisplayName: Gilded Slime Banner
-			GraniteEradicatorBanner.DisplayName: Granite Eradicator Banner
-			GraniteFusedSlimeBanner.DisplayName: Granite-Fused Slime Banner
-			GraniteSurgerBanner.DisplayName: Granite Surger Banner
-			GraveLimbBanner.DisplayName: Grave Limb Banner
-			HammerHeadBanner.DisplayName: Hammerhead Banner
-			HellBringerMimicBanner.DisplayName: Hell Bringer Mimic Banner
-			HoppingSpiderBanner.DisplayName: Hopping Spider Banner
-			HorrificChargerBanner.DisplayName: Horrific Charger Banner
-			InfernalHoundBanner.DisplayName: Infernal Hound Banner
-			KrakenBanner.DisplayName: Kraken Banner
-			LeFantomeBanner.DisplayName: Le Fantôme Banner
-			LifeCrystalMimicBanner.DisplayName: Life Crystal Mimic Banner
-			LihzardMimicBanner.DisplayName: Lihzahrd Mimic Banner
-			LihzardPotMimicBanner.DisplayName: Lihzahrd Pot Banner
-			LivingHemorrhageBanner.DisplayName: Living Hemorrhage Banner
-			LycanBanner.DisplayName: Lycan Banner
-			MahoganyEntBanner.DisplayName: Mahogany Ent Banner
-			ManofWarBanner.DisplayName: Man o' War Banner
-			MartianScoutBanner.DisplayName: Martian Scout Banner
-			MartianSentryBanner.DisplayName: Martian Sentry Banner
-			MoltenMortarBanner.DisplayName: Molten Mortar Banner
-			MorayBanner.DisplayName: Moray Banner
-			MossWaspBanner.DisplayName: Moss Wasp Banner
-			MudManBanner.DisplayName: Mud Man Banner
-			MyceliumMimicBanner.DisplayName: Mycelium Mimic Banner
-			NecroPotBanner.DisplayName: Necro Pot Banner
-			NestlingBanner.DisplayName: Nestling Banner
-			OctopusBanner.DisplayName: Octopus Banner
-			PutridSerpentBanner.DisplayName: Putrid Serpent Banner
-			RagingMinotaurBanner.DisplayName: Raging Minotaur Banner
-			ScissorStalkerBanner.DisplayName: Scissor Stalker Banner
-			SeaShantySingerBanner.DisplayName: Sea-Shanty Singer Banner
-			ShamblerBanner.DisplayName: Shambler Banner
-			SharptoothBanner.DisplayName: Sharp Tooth Banner
-			SmotheringShadeBanner.DisplayName: Smothering Shade Banner
-			SnowballBanner.DisplayName: Snow Ball Banner
-			SnowEaterBanner.DisplayName: Snow Eater Banner
-			SnowElementalBanner.DisplayName: Snow Elemental Banner
-			SnowFlinxMatriarchBanner.DisplayName: Snow Flinx Matriarch Banner
-			SnowSingaBanner.DisplayName: Snow Singa Banner
-			SnowyOwlBanner.DisplayName: Snowy Owl Banner
-			SunPriestessBanner.DisplayName: Sun Priestess Banner
-			SoulCorrupterBanner.DisplayName: Soul Corrupter Banner
-			SpaceSlimeBanner.DisplayName: Space Slime Banner
-			SpectrumiteBanner.DisplayName: Spectrumite Banner
-			StrangeBulbBanner.DisplayName: Strange Bulb Banner
-			SubmergedMimicBanner.DisplayName: Submerged Mimic Banner
-			TarantulaBanner.DisplayName: Tarantula Banner
-			TheInnocentBanner.DisplayName: The Innocent Banner
-			TheStarvedBanner.DisplayName: The Starved Banner
-			UFOBanner.DisplayName: U.F.O. Banner
-			UnderworldPotBanner.DisplayName: Underworld Pot Banner
-			VampireSquidBanner.DisplayName: Vampire Squid Banner
-			VileFloaterBanner.DisplayName: Vile Floater Banner
-			VoltEelBanner.DisplayName: Volt Eel Banner
-			WindElementalBanner.DisplayName: Wind Elemental Banner
-			InspirationCrystalNew.DisplayName: Inspiration Crystal
-			InspirationFragment.DisplayName: Inspiration Fragment
-			InspirationShard.DisplayName: Inspiration Shard
-			InspirationNote.DisplayName: Inspiration Note
-			BlockyMask.DisplayName: Blocky Mask
-			BlockyPants.DisplayName: Blocky Pants
-			BlockyShirt.DisplayName: Blocky Shirt
-			BrutalChestguard.DisplayName: Brutal Chestguard
-			BrutalGreaves.DisplayName: Brutal Greaves
-			BrutalMask.DisplayName: Brutal Mask
-			CataclysmicsGarb.DisplayName: Cataclysmic Garb
-			CataclysmicsHollowMask.DisplayName: Cataclysmic Hollow Mask
-			ChunkyGreaves.DisplayName: Chunky Greaves
-			ChunkyHelmet.DisplayName: Chunky Helmet
-			ChunkyMail.DisplayName: Chunky Mail
-			DannyLamentLeggings.DisplayName: Danny's Lament Leggings
-			DannyLamentMask.DisplayName: Danny's Lament Mask
-			DannyLamentSuit.DisplayName: Danny's Lament Suit
-			DeluxeHalcandranBow.DisplayName: Deluxe Halcandran Bow
-			DeluxeHalcandranHat.DisplayName: Deluxe Halcandran Hat
-			GhastlyGarment.DisplayName: Ghastly Garment
-			GhastlyHood.DisplayName: Ghastly Hood
-			GhastlyLeggings.DisplayName: Ghastly Leggings
-			GrandThoriumBreastPlate.DisplayName: Grand Thorium Breastplate
-			GrandThoriumGreaves.DisplayName: Grand Thorium Greaves
-			GrandThoriumHelmet.DisplayName: Grand Thorium Helmet
-			HalcandranHood.DisplayName: Halcandran Hood
-			HalcandranPants.DisplayName: Halcandran Pants
-			HalcandranTabard.DisplayName: Halcandran Tabard
-			MrUniverseMask.DisplayName: Mr. Universe's Mask
-			MrUniversePants.DisplayName: Mr. Universe's Pants
-			MrUniverseSuit.DisplayName: Mr. Universe's Suit
-			PhonicWings.DisplayName: Phonic Wings
-			ShinobiGi.DisplayName: Shinobi Gi
-			ShinobiMask.DisplayName: Shinobi Mask
-			ShinobiTreads.DisplayName: Shinobi Treads
-			SpheromancerMask.DisplayName: Spheromancer Mask
-			SpheromancerPants.DisplayName: Spheromancer Pants
-			SpheromancerSuit.DisplayName: Spheromancer Suit
-			WildAntlers.DisplayName: Wild Antlers
-			WildLoincloth.DisplayName: Wild Loincloth
-			WildRobe.DisplayName: Wild Robe
-			BirdFeederGrounded.DisplayName: Bird Feeder
-			BirdFeederHanging.DisplayName: Bird Feeder (Hanging)
-			LeatherSheath.DisplayName: Leather Sheath
-			MiniBossMusicBox.MiniBoss: Mini-Boss
-			SunkenPalaceMusicBox.SunkenPalace: Sunken Palace
 		}
 
 		NPCs: {
-			// AggroDummy.DisplayName: Aggro Dummy
-			
+			AggroDummy.DisplayName: Aggro Dummy
+
 			AncientArcher: {
 				DisplayName: Ancient Archer
 				BestiaryFlavorText: Precise units from an ancient civilization, they use powerful bronze bows to pick off opposition from a distance.
@@ -18830,24 +18666,21 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: Use [i/s{0}:{1}] at an underground Blood Chamber. Use a [i:{2}] to track down the Blood Chamber.
 			}
 
-			// BatOutaHell.DisplayName: Bat Outa' Hell
-			
+			BatOutaHell.DisplayName: Bat Outa' Hell
+
 			Beholder: {
 				DisplayName: Beholder
 				BestiaryFlavorText: A lesser entity from another dimension that seeks to learn, and vaporize, all that it can.
 			}
 
 			FallenBeholder: {
-				// DisplayName: Fallen Beholder
-				// BestiaryFlavorText: A glimpse into what lies beyond the void. Its prolonged stay in the world of Terraria has left it weaker than in its home dimension.
-				
+				DisplayName: Fallen Beholder
+				BestiaryFlavorText: A glimpse into what lies beyond the void. Its prolonged stay in the world of Terraria has left it weaker than in its home dimension.
+
 				BossChecklistIntegration: {
 					SpawnInfo: Use a [i:ThoriumMod/VoidLens] within the Underworld.
 					EntryName: "{$NPCs.FallenBeholder.DisplayName}"
 				}
-
-				DisplayName: Fallen Beholder
-				BestiaryFlavorText: A glimpse into what lies beyond the void. Its prolonged stay in the world of Terraria has left it weaker than in its home dimension.
 			}
 
 			BigBone: {
@@ -18861,9 +18694,9 @@ Mods: {
 			}
 
 			Blacksmith: {
-				// DisplayName: Blacksmith
-				// BestiaryFlavorText: The Blacksmith is a grouchy old man with an unrivaled skill in smelting. His crafted equipment would interest any Terrarian.
-				
+				DisplayName: Blacksmith
+				BestiaryFlavorText: The Blacksmith is a grouchy old man with an unrivaled skill in smelting. His crafted equipment would interest any Terrarian.
+
 				TownNPCMood: {
 					Content: Of course I'm fine, ya oaf! Why're you even asking?
 					NoHome: What? Am I gonna have to build a house myself? Get to work!
@@ -18880,8 +18713,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} helped me fix my tiara, I'm so grateful!"
 				}
 
-				DisplayName: Blacksmith
-				BestiaryFlavorText: The Blacksmith is a grouchy old man with an unrivaled skill in smelting. His crafted equipment would interest any Terrarian.
 				Census.SpawnCondition: Defeat the {$NPCName.EyeofCthulhu}
 			}
 
@@ -18916,16 +18747,13 @@ Mods: {
 			}
 
 			BoreanStrider: {
-				// DisplayName: Borean Strider
-				// BestiaryFlavorText: A species of arachnid hell-bent on surviving the harshness of a Terrarian blizzard. Something this stubborn is a danger to everyone.
-				
+				DisplayName: Borean Strider
+				BestiaryFlavorText: A species of arachnid hell-bent on surviving the harshness of a Terrarian blizzard. Something this stubborn is a danger to everyone.
+
 				BossChecklistIntegration: {
 					SpawnInfo: Randomly appears during a Blizzard or summoned with a [i:ThoriumMod/StriderTear].
 					EntryName: "{$NPCs.BoreanStrider.DisplayName}"
 				}
-
-				DisplayName: Borean Strider
-				BestiaryFlavorText: A species of arachnid hell-bent on surviving the harshness of a Terrarian blizzard. Something this stubborn is a danger to everyone.
 			}
 
 			FrostBurnt: {
@@ -18968,8 +18796,8 @@ Mods: {
 				BestiaryFlavorText: A rabid beast driven mad by the aura of the mysterious Blood Moon.
 			}
 
-			// BurstingMaggot.DisplayName: Bursting Maggot
-			
+			BurstingMaggot.DisplayName: Bursting Maggot
+
 			EngorgedEye: {
 				DisplayName: Engorged Eye
 				BestiaryFlavorText: This type of Demon Eye has gorged itself upon the aura of the Blood Moon, giving it its unique appearance.
@@ -19007,8 +18835,8 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: Randomly appears in the post-Skeletron underground jungle.
 			}
 
-			// CorpsePetal.DisplayName: Corpse Petal
-			
+			CorpsePetal.DisplayName: Corpse Petal
+
 			CorpseWeed: {
 				DisplayName: Corpse Weed
 				BestiaryFlavorText: The living roots of a Corpse Bloom can be just as dangerous as its host plant. Perhaps even moreso!
@@ -19024,9 +18852,9 @@ Mods: {
 				BestiaryFlavorText: The reanimated remains of an arch demon. Its fiery abilities lay waste to most foes within the Underworld.
 			}
 
-			// BossDummy.DisplayName: Boss Dummy
-			// BrownRecluseBabyWall.DisplayName: Recluse Baby
-			
+			BossDummy.DisplayName: Boss Dummy
+			BrownRecluseBabyWall.DisplayName: Recluse Baby
+
 			BrownRecluseWall: {
 				DisplayName: Brown Recluse
 				BestiaryFlavorText: With a swarm of protective babies, and acidic spit, this rare breed of spider would give anyone arachnophobia.
@@ -19037,8 +18865,8 @@ Mods: {
 				BestiaryFlavorText: A stone figure in the shape of a Terrarian; you can't shake the feeling that its rocky eyes are following you...
 			}
 
-			// MagicalBurst.DisplayName: Magical Burst
-			
+			MagicalBurst.DisplayName: Magical Burst
+
 			BuriedChampion: {
 				DisplayName: Buried Champion
 				BestiaryFlavorText: Once a legendary hero, time has forgotten its name. It seeks to challenge the Terrarian that broke the Dungeon's curse.
@@ -19061,9 +18889,9 @@ Mods: {
 			}
 
 			Cobbler: {
-				// DisplayName: Cobbler
-				// BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
-				
+				DisplayName: Cobbler
+				BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
+
 				TownNPCMood: {
 					Content: I've got a pep in my step, don't you worry!
 					NoHome: It's hard to work when I don't have a workstation. Think you could help me out?
@@ -19082,8 +18910,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} is super skilled! Never had my slippers shine so well!"
 				}
 
-				DisplayName: Cobbler
-				BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
 				Census.SpawnCondition: Have any kind of shoe accessory in your inventory ([i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots] etc.)
 				Button2: Shine Shoes
 			}
@@ -19109,9 +18935,9 @@ Mods: {
 			}
 
 			ConfusedZombie: {
-				// DisplayName: Confused Zombie
-				// BestiaryFlavorText: The Confused Zombie is a chemist turned zombie. While he's managed to keep most of his right mind, he's still a little weird...
-				
+				DisplayName: Confused Zombie
+				BestiaryFlavorText: The Confused Zombie is a chemist turned zombie. While he's managed to keep most of his right mind, he's still a little weird...
+
 				TownNPCMood: {
 					Content: I'm nice and lively, thanks.
 					NoHome: Ah, I seemed to have forgotten where my home was. Could you help me out with that?
@@ -19129,8 +18955,6 @@ Mods: {
 					Princess_LovesNPC: Heehee, {NPCName} makes such goofy faces!
 				}
 
-				DisplayName: Confused Zombie
-				BestiaryFlavorText: The Confused Zombie is a chemist turned zombie. While he's managed to keep most of his right mind, he's still a little weird...
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.PatchWerk.DisplayName}] during a Blood Moon
 				Button2: Enemy Repellent ({^0:80 Silver;1 Gold})
 			}
@@ -19156,9 +18980,9 @@ Mods: {
 			}
 
 			Cook: {
-				// DisplayName: Cook
-				// BestiaryFlavorText: "The Cook is a master in the culinary arts. He's always trying out new recipes with the ingredients of the land. "
-				
+				DisplayName: Cook
+				BestiaryFlavorText: "The Cook is a master in the culinary arts. He's always trying out new recipes with the ingredients of the land. "
+
 				TownNPCMood: {
 					Content: I'm good, just thinking about my next recipe.
 					NoHome: You wouldn't happen to have an unoccupied kitchen I can use, would you?
@@ -19177,8 +19001,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} makes the most amazing treats!"
 				}
 
-				DisplayName: Cook
-				BestiaryFlavorText: "The Cook is a master in the culinary arts. He's always trying out new recipes with the ingredients of the land. "
 				Census.SpawnCondition: Defeat the {$NPCName.KingSlime}
 				Button2: Supply Ingredients
 			}
@@ -19193,8 +19015,8 @@ Mods: {
 				BestiaryFlavorText: Elite guards that once faithfully served the Dungeon in its glory days. Though their flesh is gone, their loyalty is not.
 			}
 
-			// AbyssalAngler.DisplayName: Gold Coin?
-			
+			AbyssalAngler.DisplayName: Gold Coin?
+
 			AbyssalAngler2: {
 				DisplayName: Abyssal Angler
 				BestiaryFlavorText: Bright lights can attract a fish's attention, but what attracts a Terrarian's attention? That's right, coins!
@@ -19206,16 +19028,13 @@ Mods: {
 			}
 
 			ForgottenOne: {
-				// DisplayName: Forgotten One
-				// BestiaryFlavorText: A creature long forgotten by even the oldest Terrarians. It and its kind were sealed away centuries ago during a bloody war.
-				
+				DisplayName: Forgotten One
+				BestiaryFlavorText: A creature long forgotten by even the oldest Terrarians. It and its kind were sealed away centuries ago during a bloody war.
+
 				BossChecklistIntegration: {
 					SpawnInfo: Pick up 3 [i:ThoriumMod/AbyssalShadow], which are dropped by Aquatic Hallucinations in the {$Biomes.DepthsBiome.DisplayName}.
 					EntryName: "{$NPCs.ForgottenOne.DisplayName}"
 				}
-
-				DisplayName: Forgotten One
-				BestiaryFlavorText: A creature long forgotten by even the oldest Terrarians. It and its kind were sealed away centuries ago during a bloody war.
 			}
 
 			AquaticHallucination: {
@@ -19349,9 +19168,9 @@ Mods: {
 			}
 
 			DesertAcolyte: {
-				// DisplayName: Desert Acolyte
-				// BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
-				
+				DisplayName: Desert Acolyte
+				BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
+
 				TownNPCMood: {
 					Content: I don't see any danger around here, so I'm feeling quite alright.
 					NoHome: I'm hoping you can help me find a safe place to rest. The sooner I find a protected home, the better...
@@ -19369,8 +19188,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} is the best guy in town to play hide-and-seek with!"
 				}
 
-				DisplayName: Desert Acolyte
-				BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 				Button2: Sandstorm ({^0:80 Silver;1 Gold})
 			}
@@ -19381,9 +19198,9 @@ Mods: {
 			}
 
 			Diverman: {
-				// DisplayName: Diverman
-				// BestiaryFlavorText: The Diverman is a curious adventurer that’s searching for the elusive {$Biomes.DepthsBiome.DisplayName}. He’s willing to sell you some sunken treasures.
-				
+				DisplayName: Diverman
+				BestiaryFlavorText: The Diverman is a curious adventurer that’s searching for the elusive {$Biomes.DepthsBiome.DisplayName}. He’s willing to sell you some sunken treasures.
+
 				TownNPCMood: {
 					Content: I'm doing alright, how about yourself?
 					NoHome: Last time I didn't have a home, things went poorly with a certain pink colored gelatinous mutant...
@@ -19401,16 +19218,14 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} tells such amazing stories of what's under the sea!"
 				}
 
-				DisplayName: Diverman
-				BestiaryFlavorText: The Diverman is a curious adventurer that’s searching for the elusive {$Biomes.DepthsBiome.DisplayName}. He’s willing to sell you some sunken treasures.
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.QueenJellyfish.DisplayName}]
 				Button2: Air Tank
 			}
 
 			Druid: {
-				// DisplayName: Druid
-				// BestiaryFlavorText: The Druid loves plants in all shapes and sizes. She'll sell you seeds and other natural items to suit your needs.
-				
+				DisplayName: Druid
+				BestiaryFlavorText: The Druid loves plants in all shapes and sizes. She'll sell you seeds and other natural items to suit your needs.
+
 				TownNPCMood: {
 					Content: I'm as fresh as a daisy, thanks for asking!
 					NoHome: Ah, the great outdoors...
@@ -19428,8 +19243,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} assembles the loveliest flower bouquets!"
 				}
 
-				DisplayName: Druid
-				BestiaryFlavorText: The Druid loves plants in all shapes and sizes. She'll sell you seeds and other natural items to suit your needs.
 				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}] in the post-Skeletron Jungle
 			}
 
@@ -19543,10 +19356,10 @@ Mods: {
 				BestiaryFlavorText: An energized barrier that attempts to deflect attacks aimed towards a released Energy Storm's core.
 			}
 
-			// EncroachingEnergy.DisplayName: Encroaching Energy
-			// EnergyBarrier.DisplayName: Energy Barrier
-			// EnergyConduit.DisplayName: Energy Conduit
-			
+			EncroachingEnergy.DisplayName: Encroaching Energy
+			EnergyBarrier.DisplayName: Energy Barrier
+			EnergyConduit.DisplayName: Energy Conduit
+
 			GraniteEnergyStorm: {
 				DisplayName: Granite Energy Storm
 				BestiaryFlavorText: The uncontrollable epicenter of the energy surge within the granite caverns. Stimulated by dispelling Skeletron's curse.
@@ -19573,8 +19386,8 @@ Mods: {
 				BestiaryFlavorText: An uncontrollable earth elemental that propels magnetic shards of granite rock at those that disturb the granite caverns.
 			}
 
-			// HealingDummy.DisplayName: Healing Dummy
-			
+			HealingDummy.DisplayName: Healing Dummy
+
 			HellBringerMimic: {
 				DisplayName: Hell Bringer Mimic
 				BestiaryFlavorText: Mimics enveloped by the souls of the damned gain incredible power. They can be birthed from ordinary chests by force.
@@ -19590,16 +19403,16 @@ Mods: {
 				BestiaryFlavorText: Smaller hunters of the Corruption specializing in rapid acceleration, they charge with reckless abandon the moment they see potential prey.
 			}
 
-			// IllusionGlass.DisplayName: Illusion Glass
-			
+			IllusionGlass.DisplayName: Illusion Glass
+
 			Illusionist: {
 				DisplayName: Illusionist
 				BestiaryFlavorText: A beguiler predating the Dungeon itself. Using visions of false adversaries, it led an ancient despot into ruining its kingdom with a terrible curse.
 				BossChecklistIntegration.SpawnInfo: Randomly appears in the Dungeon.
 			}
 
-			// IllusionistMirror.DisplayName: Illusionist's Mirror
-			
+			IllusionistMirror.DisplayName: Illusionist's Mirror
+
 			InfernalHound: {
 				DisplayName: Infernal Hound
 				BestiaryFlavorText: Likes to give lava-dripping kisses to everyone it can see. Truly damned-man's best friend.
@@ -19611,16 +19424,13 @@ Mods: {
 			}
 
 			Lich: {
-				// DisplayName: Lich
-				// BestiaryFlavorText: The cadaveric disciple to the defiler of life, always on the hunt for more souls to add to its collection.
-				
+				DisplayName: Lich
+				BestiaryFlavorText: The cadaveric disciple to the defiler of life, always on the hunt for more souls to add to its collection.
+
 				BossChecklistIntegration: {
 					SpawnInfo: Use [i/s{0}:{1}] at the {$Items.AncientPhylactery.DisplayName} in the graveyard beyond the Dungeon.
 					EntryName: "{$NPCs.Lich.DisplayName}"
 				}
-
-				DisplayName: Lich
-				BestiaryFlavorText: The cadaveric disciple to the defiler of life, always on the hunt for more souls to add to its collection.
 			}
 
 			PhylacteryofaThousandSouls: {
@@ -19727,11 +19537,11 @@ Mods: {
 				BestiaryFlavorText: The endless tide of reality, Aquaius represents all push and pull in the universe. It will judge those it deems worthy of its attention.
 			}
 
-			// AquaiusBubble.DisplayName: Aquaius Bubble
-			// ImpendingDread.DisplayName: Impending Dread
-			// InnerDespair.DisplayName: Inner Despair
-			// LucidBubble.DisplayName: Lucid Bubble
-			
+			AquaiusBubble.DisplayName: Aquaius Bubble
+			ImpendingDread.DisplayName: Impending Dread
+			InnerDespair.DisplayName: Inner Despair
+			LucidBubble.DisplayName: Lucid Bubble
+
 			Omnicide: {
 				DisplayName: Omnicide, the Life Defiler
 				BestiaryNameOverride: Omnicide
@@ -19744,22 +19554,18 @@ Mods: {
 			}
 
 			SlagFury: {
-				// DisplayName: Slag Fury, the First Flame
-				// BestiaryNameOverride: Slag Fury
-				// BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
-				
+				DisplayName: Slag Fury, the First Flame
+				BestiaryNameOverride: Slag Fury
+				BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
+
 				BossChecklistIntegration: {
 					EntryName: The Primordials
 					SpawnInfo: Use a [i:ThoriumMod/DoomSayersCoin] and prepare for the worst...
 				}
-
-				DisplayName: Slag Fury, the First Flame
-				BestiaryNameOverride: Slag Fury
-				BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
 			}
 
-			// UnstableAnger.DisplayName: Unstable Anger
-			
+			UnstableAnger.DisplayName: Unstable Anger
+
 			DistractingJellyfish: {
 				DisplayName: Distracting Jellyfish
 				BestiaryFlavorText: A blue colored jellyfish that loves to get hit for its Queen.
@@ -19863,9 +19669,9 @@ Mods: {
 			}
 
 			Spiritualist: {
-				// DisplayName: Spiritualist
-				// BestiaryFlavorText: The Spiritualist believes in the power of inner tranquility. Terrarians interested in healing their allies could learn much from him.
-				
+				DisplayName: Spiritualist
+				BestiaryFlavorText: The Spiritualist believes in the power of inner tranquility. Terrarians interested in healing their allies could learn much from him.
+
 				TownNPCMood: {
 					Content: My spirit is in balance, friend.
 					NoHome: Homes are a luxury for those like me, but if you're offering one, I'd be very appreciative.
@@ -19884,8 +19690,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} has such a calming aura to him!"
 				}
 
-				DisplayName: Spiritualist
-				BestiaryFlavorText: The Spiritualist believes in the power of inner tranquility. Terrarians interested in healing their allies could learn much from him.
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.BuriedChampion.DisplayName}]
 				Button2: Guardian Angel
 			}
@@ -19932,9 +19736,9 @@ Mods: {
 			}
 
 			Tracker: {
-				// DisplayName: Tracker
-				// BestiaryFlavorText: The Tracker belongs to an order of warriors dedicated to finding and dispatching rare creatures. Help him and he'll help you.
-				
+				DisplayName: Tracker
+				BestiaryFlavorText: The Tracker belongs to an order of warriors dedicated to finding and dispatching rare creatures. Help him and he'll help you.
+
 				TownNPCMood: {
 					Content: Kid, I can't complain about much, now can I?
 					NoHome: With a proper home, we can get down to business and start hunting some real threats.
@@ -19953,8 +19757,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} makes me feel so tall when he gives me a piggyback ride!"
 				}
 
-				DisplayName: Tracker
-				BestiaryFlavorText: The Tracker belongs to an order of warriors dedicated to finding and dispatching rare creatures. Help him and he'll help you.
 				Census.SpawnCondition: Defeat the {$NPCName.EyeofCthulhu}
 				Button: Spend Medals
 				Button2: Available Contracts
@@ -19976,9 +19778,9 @@ Mods: {
 			}
 
 			WeaponMaster: {
-				// DisplayName: Weapon Master
-				// BestiaryFlavorText: The Weapon Master is a demonic exile who has sided with the forces of good. Don't let his stoic demeanor fool you, he's a real softy.
-				
+				DisplayName: Weapon Master
+				BestiaryFlavorText: The Weapon Master is a demonic exile who has sided with the forces of good. Don't let his stoic demeanor fool you, he's a real softy.
+
 				TownNPCMood: {
 					Content: ...I'm fine.
 					NoHome: I'll be fine on my own, although I would prefer to have a place to live...
@@ -19997,8 +19799,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} is such a sweetheart. He makes little fires for me when I'm cold!"
 				}
 
-				DisplayName: Weapon Master
-				BestiaryFlavorText: The Weapon Master is a demonic exile who has sided with the forces of good. Don't let his stoic demeanor fool you, he's a real softy.
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
 				Button2: Hire Demon ({^0:80 Silver;1 Gold})
 			}
@@ -20007,52 +19807,9 @@ Mods: {
 				DisplayName: Wind Elemental
 				BestiaryFlavorText: Loose magicks that drift high into the air will occasionally manifest into these agitated beings. They can give quite a nasty zap to unaware Terrarians.
 			}
-
-			AggroDummy.DisplayName: Aggro Dummy
-			BatOutaHell.DisplayName: Bat Outa' Hell
-			BurstingMaggot.DisplayName: Bursting Maggot
-			CorpsePetal.DisplayName: Corpse Petal
-			BossDummy.DisplayName: Boss Dummy
-			BrownRecluseBabyWall.DisplayName: Recluse Baby
-			MagicalBurst.DisplayName: Magical Burst
-			AbyssalAngler.DisplayName: Gold Coin?
-			EncroachingEnergy.DisplayName: Encroaching Energy
-			EnergyBarrier.DisplayName: Energy Barrier
-			EnergyConduit.DisplayName: Energy Conduit
-			HealingDummy.DisplayName: Healing Dummy
-			IllusionGlass.DisplayName: Illusion Glass
-			IllusionistMirror.DisplayName: Illusionist's Mirror
-			AquaiusBubble.DisplayName: Aquaius Bubble
-			ImpendingDread.DisplayName: Impending Dread
-			InnerDespair.DisplayName: Inner Despair
-			LucidBubble.DisplayName: Lucid Bubble
-			UnstableAnger.DisplayName: Unstable Anger
 		}
 
 		Prefixes: {
-			// Buzzing.DisplayName: Buzzing
-			// Euphonic.DisplayName: Euphonic
-			// Fabled.DisplayName: Fabled
-			// Inspiring.DisplayName: Inspiring
-			// Loud.DisplayName: Loud
-			// Melodic.DisplayName: Melodic
-			// Muted.DisplayName: Muted
-			// OffKey.DisplayName: Off-Key
-			// Rambling.DisplayName: Rambling
-			// Refined.DisplayName: Refined
-			// Supersonic.DisplayName: Supersonic
-			// Vibrant.DisplayName: Vibrant
-			
-			Engrossing: {
-				DisplayName: Engrossing
-				Tooltip: +{0} sec empowerment duration
-			}
-
-			Lucrative: {
-				DisplayName: Lucrative
-				Tooltip: +{0}% coins from enemies
-			}
-
 			Buzzing.DisplayName: Buzzing
 			Euphonic.DisplayName: Euphonic
 			Fabled.DisplayName: Fabled
@@ -20065,6 +19822,16 @@ Mods: {
 			Refined.DisplayName: Refined
 			Supersonic.DisplayName: Supersonic
 			Vibrant.DisplayName: Vibrant
+
+			Engrossing: {
+				DisplayName: Engrossing
+				Tooltip: +{0} sec empowerment duration
+			}
+
+			Lucrative: {
+				DisplayName: Lucrative
+				Tooltip: +{0}% coins from enemies
+			}
 		}
 
 		Projectiles: {
@@ -21918,27 +21685,11 @@ Mods: {
 		}
 
 		Common: {
-			// Concatenate: "{0} {1}"
-			// ConcatenateNoSpace: "{0}{1}"
-			// Empty: ""
-			
-			Tooltips: {
-				// TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
-				// DevItem: "'Great for impersonating Thorium Devs!'"
-				// ShoulderGuardianLimit: Only one shoulder guardian may be summoned at once
-				// BannerPlacement: Places a single banner on the ground
-				/* BigInstrument:
-				'''
-				Mistiming hits will decrease these bonuses greatly and cost 5 inspiration
-				These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
-				''' */
-				
-				CookFood: {
-					OutOfCombat: Can only be eaten while out of combat
-					WillMakeFull: Eating the {$NPCs.Cook.DisplayName}'s food will make you full for {0}
-					EatWhileFull: You can't eat the {$NPCs.Cook.DisplayName}'s food while full
-				}
+			Concatenate: "{0} {1}"
+			ConcatenateNoSpace: "{0}{1}"
+			Empty: ""
 
+			Tooltips: {
 				TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
 				DevItem: "'Great for impersonating Thorium Devs!'"
 				ShoulderGuardianLimit: Only one shoulder guardian may be summoned at once
@@ -21948,12 +21699,16 @@ Mods: {
 					Mistiming hits will decrease these bonuses greatly and cost 5 inspiration
 					These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
 					'''
+
+				CookFood: {
+					OutOfCombat: Can only be eaten while out of combat
+					WillMakeFull: Eating the {$NPCs.Cook.DisplayName}'s food will make you full for {0}
+					EatWhileFull: You can't eat the {$NPCs.Cook.DisplayName}'s food while full
+				}
+
 				Sheath: Sword strikes critically strike for {0}% damage if held and not used for {1} {^1:second;seconds}
 			}
 
-			Concatenate: "{0} {1}"
-			ConcatenateNoSpace: "{0}{1}"
-			Empty: ""
 			TreasureBag: Treasure Bag ({0})
 			ThePrimordials: The Primordials
 			MusicBox: Music Box ({0})
@@ -21973,12 +21728,12 @@ Mods: {
 		}
 
 		ThrowerTechniques: {
-			// DisplayName: Technique: {0}
-			// TooltipBase: Press the '{$Keybinds.ThrowingTechnique.DisplayName}' Key: {0}
-			// CostTooltip: Costs {0} {^0:technique point;technique points}
-			// UseToEnable: Sets your active technique on use | Deal throwing damage to build points
-			// UseToDisable: Technique Active | Use again to disable | Deal throwing damage to build points
-			
+			DisplayName: Technique: {0}
+			TooltipBase: Press the '{$Keybinds.ThrowingTechnique.DisplayName}' Key: {0}
+			CostTooltip: Costs {0} {^0:technique point;technique points}
+			UseToEnable: Sets your active technique on use | Deal throwing damage to build points
+			UseToDisable: Technique Active | Use again to disable | Deal throwing damage to build points
+
 			AbsoluteZero: {
 				DisplayName: Absolute Zero
 				Description: Freeze all enemies around your cursor briefly
@@ -22078,18 +21833,12 @@ Mods: {
 				DisplayName: Stone Palm
 				Description: Throw out a stone hand, which briefly blocks incoming hostile projectiles
 			}
-
-			DisplayName: Technique: {0}
-			TooltipBase: Press the '{$Keybinds.ThrowingTechnique.DisplayName}' Key: {0}
-			CostTooltip: Costs {0} {^0:technique point;technique points}
-			UseToEnable: Sets your active technique on use | Deal throwing damage to build points
-			UseToDisable: Technique Active | Use again to disable | Deal throwing damage to build points
 		}
 
 		Configs: {
 			ThoriumConfigClient: {
-				// DisplayName: Client Configuration
-				
+				DisplayName: Client Configuration
+
 				Headers: {
 					GeneralOptions: General Options
 					BardOptions: Bard Options
@@ -22241,8 +21990,6 @@ Mods: {
 					Label: Technique Point Opacity
 					Tooltip: ""
 				}
-
-				DisplayName: Client Configuration
 			}
 
 			HealthOverlayStyle: {
@@ -22292,9 +22039,9 @@ Mods: {
 			}
 		}
 
-		// RecipeGroups.Any: "{0} {1}"
-		// Currencies.VanquisherMedal: vanquisher medals
-		
+		RecipeGroups.Any: "{0} {1}"
+		Currencies.VanquisherMedal: vanquisher medals
+
 		BardInstrumentType: {
 			Other: Other
 			Wind: Wind
@@ -22346,9 +22093,5 @@ Mods: {
 				BloodChamber: Burying a Blood Chamber
 			}
 		}
-
-		Bestiary.InfoElements.ExpertModeInfoElement: Expert Mode Only
-		RecipeGroups.Any: "{0} {1}"
-		Currencies.VanquisherMedal: vanquisher medals
 	}
 }
