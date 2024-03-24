@@ -73,6 +73,26 @@ Items: {
 		Tooltip: ""
 		DisplayName: 幻术师
 	}
+
+	TheOcean: {
+		Tooltip: ""
+		DisplayName: 海洋
+	}
+
+	Granite: {
+		Tooltip: ""
+		DisplayName: 花岗岩
+	}
+
+	Marble: {
+		Tooltip: ""
+		DisplayName: 大理石
+	}
+
+	Blizzard: {
+		Tooltip: ""
+		DisplayName: 暴雪
+	}
 }
 
 LoreLines: {
@@ -176,5 +196,27 @@ LoreLines: {
 		Line1: 很多强大的囚犯被囚禁在地牢，其中一些人拥有强大的魔法和狡猾的诡计。
 		Line2: 经过漫长的时间后，他们的骨骼复苏了。
 		Line3: 但是没有了当初的思想，他们所拥有的魔法依然能被骨骼使用。
+	}
+
+	TheOcean: {
+		Line1: 注意不要打扰世界的深水区。
+		Line2: 你可能会唤醒比死亡本身更可怕的东西。
+	}
+
+	Granite: {
+		Line1: 由不祥的蓝色石头组成的暗黑深坑，当我进一步探索时，
+		Line2: 感觉空气中有一种奇怪的能量，就像深坑本身被通电了一般。
+		Line3: 能量就像为了保护这个深坑，而生成的深坑墙壁.......
+	}
+
+	Marble: {
+		Line1: 由漂亮的白色石头组成的明亮深坑，曾经的战士被埋葬在这里，还有很多文明的陶器。
+		Line2: 很久以前，被埋葬的战士会因为有人干扰来挺身保护他们的坟墓。
+	}
+
+	Blizzard: {
+		Line1: 每次下雨苔原上的暴雪就会变得异常严酷，
+		Line2: 而隐藏在苔原深处的冰冻结构就会变得有生命。
+		Line3: 随着能见度的降低和冻土层的冰雪巨人的消失，毫无准备的冒险是很危险的
 	}
 }
