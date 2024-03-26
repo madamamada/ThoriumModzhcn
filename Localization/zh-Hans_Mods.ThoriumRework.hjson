@@ -593,11 +593,11 @@ Configs: {
 NPCRenames: {
 	Beholder: 堕落注视者的仆人
 	FallenBeholder: 堕落注视者
-	FallenBeholder2: 至高无上·堕落注视者
-	Lich: 亵渎的追随者·巫妖
-	LichHeadless: 死亡的信徒·巫妖
+	FallenBeholder2: 虚空凝瞳·堕落注视者
+	Lich: 亵渎之拥·巫妖
+	LichHeadless: 死亡之徒·巫妖
 	ForgottenOne: 遗忘之主的壳
 	ForgottenOneCracked: 遗忘之主
-	ForgottenOneReleased: 旧潮汐之神·遗忘之主
+	ForgottenOneReleased: 旧神潮汐·遗忘之主
 	DreamEater: 泯灭现实·噬梦者
 }
