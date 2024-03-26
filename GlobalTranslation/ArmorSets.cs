@@ -35,7 +35,7 @@ using ThoriumMod.Items.ThrownItems;
 using ThoriumMod.Items.Titan;
 using ThoriumMod.Items.Valadium;
 
-namespace ThoriumModzhcn.Items
+namespace ThoriumModzhcn.GlobalTranslation
 {
     public class ArmorSets : GlobalItem
     {
