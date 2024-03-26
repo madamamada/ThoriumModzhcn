@@ -474,8 +474,9 @@ Buffs: {
 			'''
 			[c/FF7F00:-BOSS攻击方式-]
 			[c/FF7F00:当此增益存在时，噬梦者会受到伤害]
-			[c/FF7F00:被不稳定的现实裂缝击中后，会提前移除此增益]
-			[c/FF7F00:不稳定的现实裂缝是噬梦者的黑色裂缝攻击]
+			[c/FF7F00:被完全成型的现实裂缝击中后，会提前移除此增益]
+			[c/FF1CAE:汉化备注:不稳定的现实裂缝更改为完全成型的现实裂缝，是因为条件触发苛刻]
+			[c/FF7F00:完全成型的现实裂缝是噬梦者的黑色裂缝攻击]
 			[c/FF7F00:允许无限飞行]
 			[c/FF7F00:"等待命运..."]
 			'''
@@ -498,7 +499,7 @@ Configs: {
 
 		seizures: {
 			Label: 光敏警告提示
-			Tooltip: 启动世界时有光敏警告提示
+			Tooltip: 启动世界后有光敏警告提示
 		}
 
 		bossRenames: {
@@ -554,7 +555,7 @@ Configs: {
 		}
 
 		itemReworks: {
-			Label: 重置原瑟银有些武器
+			Label: 重置原瑟银一些武器
 			Tooltip:
 				'''
 				(推荐!)
@@ -598,5 +599,5 @@ NPCRenames: {
 	ForgottenOne: 遗忘之主的壳
 	ForgottenOneCracked: 遗忘之主
 	ForgottenOneReleased: 旧潮汐之神·遗忘之主
-	DreamEater: 泯灭现实· 噬梦者
+	DreamEater: 泯灭现实·噬梦者
 }
