@@ -290,6 +290,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
+	AbyssalApparition.DisplayName: Abyssal Apparition
 }
 
 Items: {
@@ -498,6 +499,11 @@ Configs: {
 			Label: Photosensitivity warning
 			Tooltip: Prompts a photosensitivity warning when joining a world
 		}
+
+		bossRenames: {
+			Label: Boss renames
+			Tooltip: Enables boss renames added by this mod
+		}
 	}
 
 	CompatConfig: {
@@ -536,5 +542,60 @@ Configs: {
 			Label: Thorium Bosses in Calamity Boss Rush
 			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
 		}
+
+		masterDrops: {
+			Label: Master Mode Drops
+			Tooltip:
+				'''
+				(Recommended!)
+				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
+				'''
+		}
+
+		itemReworks: {
+			Label: Rework Some of Thorium's Items
+			Tooltip:
+				'''
+				(Recommended!)
+				Reworks some items from Thorium mod to be a lot better
+				'''
+		}
+
+		damageScale: {
+			Label: Damage multiplier
+			Tooltip: Multiplies the attack damage of Thorium's bosses by this amount
+		}
+
+		speedScale: {
+			Label: Speed multiplier
+			Tooltip:
+				'''
+				Multiplies the movement speed of Thorium's bosses by this amount
+				Limited to 2x speed as any higher breaks bosses
+				1.35x is recommended for Infernum
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: Master weapon drops are expert drops
+			Tooltip:
+				'''
+				Master mode exclusive weapons drop in expert mode
+				Recommended if you don't like playing on master or other mods break master drops
+				(e.g. eternity mode becoming masochist mode or infernum not being useable in master mode)
+				'''
+		}
 	}
+}
+
+NPCRenames: {
+	Beholder: Servant of Coznix
+	FallenBeholder: Coznix, the Fallen Beholder
+	FallenBeholder2: Coznix, the Transcendent
+	Lich: Lich, Defiler's Disciple
+	LichHeadless: Lich, Apostle of Death
+	ForgottenOne: Shell of the Forgotten One
+	ForgottenOneCracked: Abyssion, the Forgotten One
+	ForgottenOneReleased: Abyssion, Old God of Tides
+	DreamEater: Dying Reality, The Ragnarök
 }

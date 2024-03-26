@@ -290,6 +290,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
+	// AbyssalApparition.DisplayName: Abyssal Apparition
 }
 
 Items: {
@@ -492,12 +493,17 @@ Configs: {
 
 		overlay: {
 			Label: 覆盖强度
-			Tooltip: 多少的屏幕覆盖
+			Tooltip: 设置屏幕覆盖强弱度
 		}
 
 		seizures: {
 			Label: 光敏警告提示
 			Tooltip: 启动世界时有光敏警告提示
+		}
+
+		bossRenames: {
+			Label: BOSS名称重命名
+			Tooltip: 启用时，为瑟银模组的boss进行重新重命名
 		}
 	}
 
@@ -506,7 +512,7 @@ Configs: {
 
 		healthScale: {
 			Label: 瑟银BOSS生命值增加
-			Tooltip: 让瑟银BOSS的生命值乘以这个数值
+			Tooltip: 让瑟银BOSS的生命值乘以当前数值
 		}
 
 		postDoGRag: {
@@ -514,7 +520,7 @@ Configs: {
 			Tooltip:
 				'''
 				(推荐!)
-				灾厄中始生灾灵在神明吞噬者后召唤
+				灾厄中始生灾灵在神明吞噬者前召唤
 				法狗魂石中始生灾灵在宇宙英灵前召唤
 				'''
 		}
@@ -537,5 +543,60 @@ Configs: {
 			Label: 瑟银boss加入灾厄bossrush
 			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
 		}
+
+		masterDrops: {
+			Label: 大师模式掉落
+			Tooltip:
+				'''
+				(推荐!)
+				让瑟银模组的boss的大师掉落武器，在复仇模式或永恒模式也可以掉落
+				'''
+		}
+
+		itemReworks: {
+			Label: 重置原瑟银有些武器
+			Tooltip:
+				'''
+				(推荐!)
+				让原瑟银模组武器更好的使用
+				'''
+		}
+
+		damageScale: {
+			Label: 瑟银BOSS伤害加成
+			Tooltip: 让瑟银的boss的攻击伤害乘以当前数值
+		}
+
+		speedScale: {
+			Label: 瑟银BOSS速度加成
+			Tooltip:
+				'''
+				让瑟银的boss的速度乘以当前数值
+				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
+				灾厄炼狱模组推荐使用1.35倍速度
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: 专家模式下掉落大师模式专属武器
+			Tooltip:
+				'''
+				专家模式下掉落大师模式专属武器
+				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
+				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
+				'''
+		}
 	}
+}
+
+NPCRenames: {
+	Beholder: 堕落注视者的仆人
+	FallenBeholder: 堕落注视者
+	FallenBeholder2: 至高无上·堕落注视者
+	Lich: 亵渎的追随者·巫妖
+	LichHeadless: 死亡的信徒·巫妖
+	ForgottenOne: 遗忘之主的壳
+	ForgottenOneCracked: 遗忘之主
+	ForgottenOneReleased: 旧潮汐之神·遗忘之主
+	DreamEater: 泯灭现实· 噬梦者
 }
