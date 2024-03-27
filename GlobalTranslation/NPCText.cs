@@ -1,4 +1,78 @@
 using Terraria;
+using Terraria.ModLoader;
+using ThoriumMod.NPCs;
+
+namespace ThoriumModzhcn.GlobalTranslation
+{
+	public class NPCText : GlobalNPC
+	{
+		public override void GetChat(NPC npc, ref string chat)
+		{
+			int Blacksmith = NPC.FindFirstNPC(ModContent.NPCType<Blacksmith>());
+			int Cobbler = NPC.FindFirstNPC(ModContent.NPCType<Cobbler>());
+			int ConfusedZombie = NPC.FindFirstNPC(ModContent.NPCType<ConfusedZombie>());
+			int Cook = NPC.FindFirstNPC(ModContent.NPCType<Cook>());
+			int DesertAcolyte = NPC.FindFirstNPC(ModContent.NPCType<DesertAcolyte>());
+			int Diverman = NPC.FindFirstNPC(ModContent.NPCType<Diverman>());
+			int Druid = NPC.FindFirstNPC(ModContent.NPCType<Druid>());
+			int Spiritualist = NPC.FindFirstNPC(ModContent.NPCType<Spiritualist>());
+			int Tracker = NPC.FindFirstNPC(ModContent.NPCType<Tracker>());
+			int WeaponMaster = NPC.FindFirstNPC(ModContent.NPCType<WeaponMaster>());
+			int Demolitionist = NPC.FindFirstNPC(38);
+			int PartyGirl = NPC.FindFirstNPC(208);
+			int Merchant = NPC.FindFirstNPC(17);
+			int Guide = NPC.FindFirstNPC(22);
+			int Wizard = NPC.FindFirstNPC(108);
+			int Angler = NPC.FindFirstNPC(369);
+			int Dryad = NPC.FindFirstNPC(20);
+			int WitchDoctor = NPC.FindFirstNPC(228);
+			int ArmsDealer = NPC.FindFirstNPC(19);
+			int DyeTrader = NPC.FindFirstNPC(207);
+			int Pirate = NPC.FindFirstNPC(229);
+			int TaxCollector = NPC.FindFirstNPC(441);
+			int Stylist = NPC.FindFirstNPC(353);
+			int Tavernkeep = NPC.FindFirstNPC(550);
+
+			if (npc.type == ModContent.NPCType<Blacksmith>())
+			{
+				if (Demolitionist >= 0 && chat == "Me and " + Main.npc[Demolitionist].GivenName + " have a little routine going: he delivers me metal to smith, and I give him a heart attack by smoking near his explosives on purpose.")
+					chat = "你能去找" + Main.npc[Demolitionist].GivenName + "有一些无聊的日常互动：他把金属交给我锻造，而我故意在他的爆炸物附近吸烟，吓他个心脏病发作。";
+				if (PartyGirl >= 0 && chat == "I just witnessed " + Main.npc[PartyGirl].GivenName + " make a knife out of chocolate that's better than half of my own blades...")
+					chat = "就在刚刚我亲眼目睹" + Main.npc[PartyGirl].GivenName + "用巧克力造出了一把刀具，甚至比我一半的作品都要好……";
+				if (Merchant >= 0 && chat == "What does that conman " + Main.npc[Merchant].GivenName + " think he's doing trying to offer his cheap trash he calls 'weapons'? If you want the real deal, you've come to the right place!")
+					chat = "" + Main.npc[Merchant].GivenName + "那个江湖骗子，以为自己在卖什么所谓的“武器”？事实上那只是一些廉价垃圾罢了。如果你在找真正的武器，那你就来对地方了！";
+				if (Tracker >= 0 && chat == "That brute " + Main.npc[Tracker].GivenName + " is more Barbarian than Tracker! Do you have any idea how many times the oaf asked me to fix that battleaxe of his?!")
+					chat = "" + Main.npc[Tracker].GivenName + "那个野蛮人简直比暴君更加残暴！你知道那个混蛋叫我帮他修了多少次战斧吗？！";
+
+					switch (chat)
+					{
+					case "'course I followed you here, brat. I crash-coursed you on how to forge and smith weapons for yourself before you arrived here, I'll be damned if I don't get to sit back and watch the ensuing fireworks.":
+					chat = "我当然是跟着你到这儿来的，小子。在你抵达这里前，我给你上过锻造速成班，教你如何为自己打造武器，要是我不坐下来欣赏后续的烟火盛宴，那可太他妈的混账了。";
+					break;
+					case "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me...":
+					chat = "你了解你找到的那些特殊武器吗？它们散落在这片土地的各处。我毕生的梦想就是搞清楚究它们最初是如何锻造的。现在我已经老了，但我还有很长的路要走……";
+					break;
+					case "Every blade's got its place in the world: a signature weapon for a hero, a beloved knife for a chef, or maybe just some gaudy piece of junk hanging from a wall.":
+					chat = "这个世界上，任何一把刀都有属于自己的归宿：英雄的英勇之证，厨子心爱的菜刀，或者，仅仅是一些挂在墙上华而不实的垃圾。";
+					break;
+					case "Hey brat, corral some people into helping me out at the forge. Blacksmithing ain't a single-man task, and you'll just end up with second-rate junk if you try going solo!":
+					chat = "嘿！小子，绑一些人到铁匠铺来给我打下手。锻造可不是什么能单干的活计，如果你试图独自搞定一切，那就只能得到一些二流的垃圾货！";
+					break;
+					case "Welcome! I'm busy workin' on a commission weapon, if you touch anything, consider it sold!":
+					chat = "欢迎光临！我正忙着打造一件客户委托的武器，要是你碰坏了什么东西，那赔偿可就算你头上了！";
+					break;
+					case "Heh, I told you from day one, brat: I came here to watch the fireworks, and you sure delivered.":
+					chat = "嘿，小子，我到这儿的第一天就和你说了：我来这儿是为了看一场烟火盛宴的，而你真的做到了.";
+					break;
+					}
+			}
+		}
+
+	}
+}
+
+
+/*using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
@@ -75,12 +149,12 @@ namespace ThoriumModzhcn.GlobalTranslation
 	if (wizard >= 0 && chat == "Oh my... I think " + Main.npc[wizard].GivenName + " might be even older than I am!")
 			chat = "哦，天哪……我觉得" + Main.npc[wizard].GivenName + "可能比我还老！";
                 // 带玩家名字的
-	/*Having proper footwear is no joke," + Main.LocalPlayer.Name + ". Always make sure your shoes are polished and ready for adventure!")
+	Having proper footwear is no joke," + Main.LocalPlayer.Name + ". Always make sure your shoes are polished and ready for adventure!")
 			chat = "要有一双适合自己的鞋子，这可不是玩笑话，" + Main.LocalPlayer.Name + "你要时刻确保鞋子擦得锃亮，做好踏上冒险旅途的准备！";
 	How are you doing, " + Main.LocalPlayer.Name + "? Are you staying safe out there in the wilds?
 			chat = "最近如何，" + Main.LocalPlayer.Name + "？在野外待着安全吗？";
 	There we go," + Main.LocalPlayer.Name + " good as new. It won't last long, but maybe you'll notice some more spring in your step. Make sure to stay safe out there, hero!
-			chat = "好了，" + Main.LocalPlayer.Name + "，你的鞋子焕然如新。虽然不能保持太久，但也许你能感觉到你的脚步更加轻快自如了。在外一定要注意安全，英雄！";*/
+			chat = "好了，" + Main.LocalPlayer.Name + "，你的鞋子焕然如新。虽然不能保持太久，但也许你能感觉到你的脚步更加轻快自如了。在外一定要注意安全，英雄！";
             }
             #endregion
             #region confusedZombie
@@ -131,18 +205,6 @@ namespace ThoriumModzhcn.GlobalTranslation
                     chat = "给我提供合适的食材，我就能给你做一些真正强而有力的食物，英雄";
                 else if (chat == "Looks like you don't have any ingredients in your bag. If you can find enough of an ingredient I'm looking for, I can supply you with new purchasable foods. Some of these dishes will be far more powerful than my usual wares, so keep your eyes peeled for unique ingredients!")
                     chat = "你包里什么原料都没有啊。如果你能找到足够的我正在寻找的原料，我可以为你提供新的可购买的食物。有些食物会比我平时做的食物更加美味，所以你一定要留心寻找独特的食材!";
-		/*switch (chat)
-		{
-			case "Looks like you don't have any ingredients in your bag.":
-			chat = "你包里什么原料都没有啊。";
-			break;
-			case "If you can find enough of an ingredient I'm looking for, I can supply you with new purchasable foods. ":
-			chat = "如果你能找到足够的我正在寻找的原料，我可以为你提供新的可购买的食物。";
-			break;
-			case "Some of these dishes will be far more powerful than my usual wares, so keep your eyes peeled for unique ingredients!":
-			chat = "有些食物会比我平时做的食物更加美味，所以你一定要留心寻找独特的食材!";
-			break;
-		}*/
                 else if (chat == "Leaves? You want me to cook some food... with leaves? Well, I don't think these would really work in a salad, so how about some tea instead? I'm sure it will calm you down if you're stressed")
                     chat = "生命之叶吗?你想让我做饭…用树叶吗?我觉得这些不适合做沙拉，所以用茶来代替怎么样?我相信你有压力，它会让你平静下来";
                 else if (chat == "Lovely, just enough blueberries for the job! Thanks, and please enjoy,")
@@ -334,13 +396,13 @@ namespace ThoriumModzhcn.GlobalTranslation
 			chat = "看来我们又多了一个恶魔。他叫什么来着?" + Main.npc[taxCollector].GivenName + "？";
 	if (weaponMaster >= 0 && chat == "" + Main.npc[weaponMaster].GivenName + " blankly stares through you, as though he's not entirely there...")
 			chat = "" + Main.npc[weaponMaster].GivenName + "迷茫地凝视着你，仿佛他并不完全在那里……";
-              /*  // 需测试玩家信息
+                // 需测试玩家信息
                                     *So... you've gained the ability to speak in tongues, <name of player>? Very fascinating...
                                     Ie... oep'wl vmnjld hrl mfnbnho he iwlmc nj hejvpli, <name of player>? Wlgo zmisnjmhnjv...
                 else if (chat == "I was exiled from my people when I chose to side with your kind. They thought me foolish, placing faith in those that dwelled above. I'm sure they're feeling rather foolish themselves after what you've just accomplished. Well done, ")
-                    chat = "当我选择站在你这一边时，我就被我的种族驱逐了。他们以为我愚蠢，相信天上的神。我敢肯定，在你刚刚完成的事情之后，他们自己也觉得很愚蠢。干得好，";*/
+                    chat = "当我选择站在你这一边时，我就被我的种族驱逐了。他们以为我愚蠢，相信天上的神。我敢肯定，在你刚刚完成的事情之后，他们自己也觉得很愚蠢。干得好，";
             }
             #endregion
         }
     }
-}
+}*/
