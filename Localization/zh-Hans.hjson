@@ -19377,19 +19377,19 @@ Mods: {
 				// BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
 				
 				TownNPCMood: {
-					Content: 我没有看到这里有危险，所以我感觉很好.
-					NoHome: 我希望你能帮我找个安全的地方休息。我越早找到能保护我的家越好…
-					FarFromHome: 哦，我是怎么发现自己跑到这里来的……
-					LoveSpace: 人少总是好的，我在家里也不用担心太多.
-					DislikeCrowded: 虽然人多当然安全，但这里有这么多人，我有点不安.
-					HateCrowded: 这里太挤了!我觉得我被包围了.
-					LikeBiome: 啊，我感觉就像在家里一样……在如此稀少的土地上，任何危险都可以在很远的地方看到.
-					DislikeBiome: 那是什么声音?!我在沙漠相隔那么远，还要忍受可怕的虫子和可怕的淤泥!
-					HateBiome: 都是错的……不…请帮我离开这里!
-					LikeNPC: 啊，有{NPCName}靠近我让我感觉更安全!
-					DislikeNPC: 这里有{NPCName}在自找麻烦…
-					HateNPC: 我知道他没有恶意，但是我不想靠近{NPCName}.我和他有过一些不好的回忆.
-					LikeNPC_Princess: 多么奇怪的感觉……我想保护{NPCName}胜过自己!
+					Content: 我在这周围看不到什么危险，所以我感觉很好。
+					NoHome: 我希望你能帮我找到一个安全的地方去休息。越快找到一个庇护所越好…
+					FarFromHome: 喔，我是怎么一路来到这里的…
+					LoveSpace: 人少点总是好的，我不需要在家里太担心。
+					DislikeCrowded: 虽然抱团绝对是安全的，但是这么多人还是让我感到不安。
+					HateCrowded: 这里太拥挤了！我感觉我被包围了。
+					LikeBiome: 啊，我感到很自在…在这样植被稀疏的地方，任何威胁都能在数英里外看到。
+					DislikeBiome: 那是什么声音？我离沙漠好远，到处都是讨厌的虫子和烂泥！
+					HateBiome: 完全不对…不要…帮我离开这里！
+					LikeNPC: 啊，有{NPCName}在我旁边让我感觉安全多了！
+					DislikeNPC: 让{NPCName}在这里完全就是找麻烦…
+					HateNPC: 我知道它们没有恶意，但是我实在是受不了{NPCName}.在我旁边。我和他们的同类之间有过一些不好的回忆。
+					LikeNPC_Princess: 这种奇怪的感觉…我保护{NPCName}的欲望竟然胜过保护自己！
 					Princess_LovesNPC: "{NPCName}是镇上玩捉迷藏最好的人!"
 				}
 
