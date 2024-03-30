@@ -1136,111 +1136,111 @@ Projectiles: {
 	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
 	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
-	AncientSong.DisplayName: Ancient Song
-	AquaiusAdvice.DisplayName: Aquaius' Advice
-	ArcticReinforcement.DisplayName: Arctic Reinforcement
-	ArcticReinforcement2.DisplayName: Arctic Reinforcement
-	BloodflareRitual.DisplayName: Bloodflare Ritual
-	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
-	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
-	BloomingSaintessDevotion3.DisplayName: Blooming Saintess' Petal
-	CalamityBell.DisplayName: Calamity Bell
-	CalamityBellRing.DisplayName: Calamity Bell Ring
-	CherubimBeam.DisplayName: Cherubim Beam
-	CherubimOmega.DisplayName: Cherubim Omega
-	CherubimRift.DisplayName: Cherubim Rift
-	CherubimSlash.DisplayName: Cherubim Slash
-	ChristmasCarol.DisplayName: Christmas Carol
-	ColdShoulder.DisplayName: Cold Shoulder
-	ColdShoulderIcicle.DisplayName: Icicle
-	CosmicSong.DisplayName: Cosmic Song
-	CottonMouth.DisplayName: Cotton Mouth
-	CottonMouthGas.DisplayName: Laughing Gas
-	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
-	DeathAdder.DisplayName: Death Adder
-	DeathAdderSoul.DisplayName: Death Adder Soul
-	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
-	DoomsdayToot.DisplayName: Doomsday Toot
-	DryMouth.DisplayName: Dry Mouth
-	DryMouthSand.DisplayName: Pocket Sand
-	Duality.DisplayName: Duality
-	ElectricChain.DisplayName: Chain Lightning
-	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
-	ElementalSong.DisplayName: Elemental Song
-	ElementalSyzygy.DisplayName: Syzygy
-	Exorectionist.DisplayName: Exorectionist
-	ExoSound.DisplayName: Exo Surround Sound
-	ExoSurroundSound.DisplayName: Exo Surround Sound
-	FeralKeytar.DisplayName: Feral Keytar
-	FilthyCreeper.DisplayName: Rare Dank Creeper
-	FilthyFlute.DisplayName: Filthy Flute
-	Gashadokuro.DisplayName: Gashadokuro
-	GashadokuroCracks.DisplayName: Gashadokuro
-	HarpY.DisplayName: Harp-Y
-	HydrogenSulfide.DisplayName: Hydrogen Sulfide
-	HydrogenSulfideFlames.DisplayName: Hydrogen Sulfide
-	HydrogenSulfideWave.DisplayName: Hydrogen Sulfide
-	HydrothermalEruption.DisplayName: Hydrothermal Eruption
-	HydrothermalOasis.DisplayName: Hydrothermal Oasis
-	IceCreamMachine.DisplayName: Ice Cream Machine
-	IceCube.DisplayName: Ice Cube
-	InterstellarShredder.DisplayName: Interstellar Shredder
-	InterstellarShredder2.DisplayName: Interstellar Shredder
-	LostOasis.DisplayName: Lost Oasis
-	LuxorsPrayer.DisplayName: Luxor's Prayer
-	LuxorsSong.DisplayName: Luxor's Song
+	AncientSong.DisplayName: 远古之歌
+	AquaiusAdvice.DisplayName: 潮汐之宣告
+	ArcticReinforcement.DisplayName: 北极冰管
+	ArcticReinforcement2.DisplayName: 北极冰管
+	BloodflareRitual.DisplayName: 血炎仪式
+	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
+	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
+	BloomingSaintessDevotion3.DisplayName: 绽花圣女花瓣
+	CalamityBell.DisplayName: 灾厄之钟
+	CalamityBellRing.DisplayName: 灾厄钟鸣
+	CherubimBeam.DisplayName: 神使光线
+	CherubimOmega.DisplayName: 终局神使
+	CherubimRift.DisplayName: 神使裂隙
+	CherubimSlash.DisplayName: 神使斩击
+	ChristmasCarol.DisplayName: 圣诞铃鼓
+	ColdShoulder.DisplayName: 冷淡
+	ColdShoulderIcicle.DisplayName: 冰凌
+	CosmicSong.DisplayName: 寰宇之歌
+	CottonMouth.DisplayName: 毒渊之蝰
+	CottonMouthGas.DisplayName: 酸性气体
+	CrystalHydraulophone.DisplayName: 棱晶水风琴
+	DeathAdder.DisplayName: 死亡蝰蛇
+	DeathAdderSoul.DisplayName: 死亡蝰蛇灵魂
+	DoomsdayCatharsis.DisplayName: 末日洗涤
+	DoomsdayToot.DisplayName: 末日奏鸣
+	DryMouth.DisplayName: 旱漠之蟒
+	DryMouthSand.DisplayName: 袋中沙
+	Duality.DisplayName: 二元圣镰
+	ElectricChain.DisplayName: 闪电链
+	ElectricQuarterstaff.DisplayName: 电能四分棍
+	ElementalSong.DisplayName: 元素之歌
+	ElementalSyzygy.DisplayName: 朔望
+	Exorectionist.DisplayName: 电磁除颤炮
+	ExoSound.DisplayName: 星流环绕声
+	ExoSurroundSound.DisplayName: 星流环绕声
+	FeralKeytar.DisplayName: 狂野键琴
+	FilthyCreeper.DisplayName: 稀有的沼泽之眼
+	FilthyFlute.DisplayName: 腐秽长笛
+	Gashadokuro.DisplayName: 混乱丧钟
+	GashadokuroCracks.DisplayName: 混乱丧钟
+	HarpY.DisplayName: 鹰身女妖琴
+	HydrogenSulfide.DisplayName: 夺命硫炎
+	HydrogenSulfideFlames.DisplayName: 夺命硫炎
+	HydrogenSulfideWave.DisplayName: 夺命硫炎
+	HydrothermalEruption.DisplayName: 渊泉焰爆
+	HydrothermalOasis.DisplayName: 渊泉绿洲
+	IceCreamMachine.DisplayName: 冰淇淋机
+	IceCube.DisplayName: 冰块
+	InterstellarShredder.DisplayName: 星际古琴
+	InterstellarShredder2.DisplayName: 星际古琴
+	LostOasis.DisplayName: 失落绿洲
+	LuxorsPrayer.DisplayName: 卢克索之祈祷
+	LuxorsSong.DisplayName: 卢克索之歌
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
-	MilkyWay.DisplayName: Milky Way
-	MilkyWaySpur.DisplayName: Milky Way Spur
-	Noisebringer.DisplayName: Noisebringer
-	NoisebringerGoliath.DisplayName: Noisebringer Goliath
-	OathofSacrifice.DisplayName: Oath of Sacrifice
-	OmnicidesLaw.DisplayName: Omnicide's Law
-	PhoenicianBeak.DisplayName: Phoenician Beak
-	PhoenicianBeakSlice.DisplayName: Phoenician Beak Slice
-	PlagueSwarmerMissile.DisplayName: Plague Swarmer
-	PlagueTrace.DisplayName: Plague Trace
-	PledgeofSelflessness.DisplayName: Pledge of Selflessness
-	PurgedSoul.DisplayName: Purged Soul
+	MilkyWay.DisplayName: 星汉
+	MilkyWaySpur.DisplayName: 星汉旋臂
+	Noisebringer.DisplayName: 噪音使者
+	NoisebringerGoliath.DisplayName: 噪音使者歌莉娅
+	OathofSacrifice.DisplayName: 献祭誓言
+	OmnicidesLaw.DisplayName: 毁灭之定理
+	PhoenicianBeak.DisplayName: 凤凰之喙
+	PhoenicianBeakSlice.DisplayName: 凤凰斩击
+	PlagueSwarmerMissile.DisplayName: 瘟疫蜂群
+	PlagueTrace.DisplayName: 瘟疫尾迹
+	PledgeofSelflessness.DisplayName: 无私誓言
+	PurgedSoul.DisplayName: 纯净之魂
 	SARS.DisplayName: S.A.R.S.
-	SavingGrace.DisplayName: Saving Grace
-	ScrapGuitar.DisplayName: Scrap Guitar
-	ScuffedKeytar.DisplayName: Scuffed Keytar
-	Singularity.DisplayName: Singularity
-	SingularityStar.DisplayName: Singularity
-	SlagFurysIntent.DisplayName: Slag Fury's Intent
-	SludgeBomb.DisplayName: Sludge Bomb
-	SpookyMonth.DisplayName: Spooky Month
-	StarBirth.DisplayName: Nebula
-	StarBirthStar.DisplayName: Newly Born Star
-	Supercluster.DisplayName: Supercluster
-	SuperclusterStar.DisplayName: Supercluster
-	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
-	Syzygy.DisplayName: Syzygy
-	TarragonHeartbeat.DisplayName: Tarragon Heartbeat
-	TarragonQuarterRest.DisplayName: Tarragon Quarter Rest
-	TectonicCollision.DisplayName: Tectonic Collision
-	TectonicPlate.DisplayName: Tectonic Plate
-	TidalForce.DisplayName: Tidal Force
-	TidalWave.DisplayName: Tidal Wave
-	TherapeuticSludge.DisplayName: Therapeutic Sludge
-	TheWindmill.DisplayName: The Windmill
-	ToxicEightNote.DisplayName: Toxic "{$ProjectileName.EightNote}"
-	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
-	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
-	Transfiguration.DisplayName: Transfiguration
-	Violince.DisplayName: Violince
-	ViolinceBow.DisplayName: Violince
-	Whirlwind.DisplayName: Whirlwind
-	WhisperingLeaf.DisplayName: Whispering Leaf
-	WhisperingTrunk.DisplayName: Whispering Trunk
-	WilloftheRagnarok.DisplayName: Will of the Ragnarök
-	Windward.DisplayName: Windward
-	WulfrumSoundWave.DisplayName: Sound Wave
-	WulfrumWeedWacker.DisplayName: Wulfrum Weed Wacker
-	WulfrumWeedWackerWave.DisplayName: Wulfrum Weed Wacker
+	SavingGrace.DisplayName: 救赎之恩
+	ScrapGuitar.DisplayName: 废弃吉他
+	ScuffedKeytar.DisplayName: 磨损的键琴
+	Singularity.DisplayName: 奇点
+	SingularityStar.DisplayName: 奇点
+	SlagFurysIntent.DisplayName: 戮焰之意图
+	SludgeBomb.DisplayName: 污泥爆弹
+	SpookyMonth.DisplayName: 魇梦之月
+	StarBirth.DisplayName: 星云
+	StarBirthStar.DisplayName: 新生之星
+	Supercluster.DisplayName: 超星系团
+	SuperclusterStar.DisplayName: 超星系团
+	SymphonicExoMissile.DisplayName: 音波星流导弹
+	Syzygy.DisplayName: 朔望
+	TarragonHeartbeat.DisplayName: 龙蒿脉冲
+	TarragonQuarterRest.DisplayName: 龙蒿音符
+	TectonicCollision.DisplayName: 地壳冲击
+	TectonicPlate.DisplayName: 地壳波动
+	TidalForce.DisplayName: 潮汐之力
+	TidalWave.DisplayName: 潮汐之波
+	TherapeuticSludge.DisplayName: 治愈泥团
+	TheWindmill.DisplayName: 天穹风车
+	ToxicEightNote.DisplayName: 剧毒"{$ProjectileName.EightNote}"
+	ToxicQuarterNote.DisplayName: 剧毒"{$ProjectileName.QuarterNote}"
+	ToxicTiedEightNote.DisplayName: 剧毒"{$ProjectileName.TiedEightNote}"
+	Transfiguration.DisplayName: 渎神圣容
+	Violince.DisplayName: 血肉小提琴
+	ViolinceBow.DisplayName: 血肉小提琴
+	Whirlwind.DisplayName: 旋风
+	WhisperingLeaf.DisplayName: 树语者之叶
+	WhisperingTrunk.DisplayName: 树语者主干
+	WilloftheRagnarok.DisplayName: 诸神黄昏之意志
+	Windward.DisplayName: 迎风
+	WulfrumSoundWave.DisplayName: 声波
+	WulfrumWeedWacker.DisplayName: 钨钢除草机
+	WulfrumWeedWackerWave.DisplayName: 钨钢除草机
 }
 
 Buffs: {
@@ -1256,8 +1256,8 @@ Buffs: {
 	}
 
 	CalamityBell: {
-		DisplayName: 灾难钟声
-		Description: 它就在那里等着，威胁着……
+		DisplayName: 灾厄之钟
+		Description: 它就悬停在你的头顶，虎视眈眈……
 	}
 }
 
