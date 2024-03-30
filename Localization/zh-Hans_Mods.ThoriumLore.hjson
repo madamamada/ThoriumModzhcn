@@ -1,4 +1,694 @@
 Items: {
+	TorchGodRelic: {
+		DisplayName: 火把神圣物
+		Tooltip: ""
+	}
+
+	TorchGodTrophy: {
+		DisplayName: 火把神纪念章
+		Tooltip: ""
+	}
+
+	BloodMoonRelic: {
+		DisplayName: 血月圣物
+		Tooltip: ""
+	}
+
+	BloodMoonTrophy: {
+		DisplayName: 血月纪念章
+		Tooltip: ""
+	}
+
+	GoblinArmyTrophy: {
+		Tooltip: ""
+		DisplayName: 哥布林军队纪念章
+	}
+
+	GoblinArmyRelic: {
+		Tooltip: ""
+		DisplayName: 哥布林军队圣物
+	}
+
+	PatchWerkTrophy: {
+		Tooltip: ""
+		DisplayName: 缝合人纪念章
+	}
+
+	CorpseBloomTrophy: {
+		DisplayName: 绝命花纪念章
+		Tooltip: ""
+	}
+
+	IllusionistTrophy: {
+		DisplayName: 幻术师纪念章
+		Tooltip: ""
+	}
+
+	OldOnesArmyRelic: {
+		DisplayName: 撒旦军队圣物
+		Tooltip: ""
+	}
+
+	OldOnesArmyTrophy: {
+		DisplayName: 撒旦军队纪念章
+		Tooltip: ""
+	}
+
+	FrostLegionTrophy: {
+		Tooltip: ""
+		DisplayName: 雪人军团纪念章
+	}
+
+	FrostLegionRelic: {
+		Tooltip: ""
+		DisplayName: 雪人军团圣物
+	}
+
+	SolarEclipseTrophy: {
+		Tooltip: ""
+		DisplayName: 日食纪念章
+	}
+
+	SolarEclipseRelic: {
+		Tooltip: ""
+		DisplayName: 日食圣物
+	}
+
+	PirateInvasionTrophy: {
+		Tooltip: ""
+		DisplayName: 海盗入侵纪念章
+	}
+
+	PirateInvasionRelic: {
+		Tooltip: ""
+		DisplayName: 海盗入侵圣物
+	}
+
+	VortexPillarTrophy: {
+		Tooltip: ""
+		DisplayName: 星漩柱纪念章
+	}
+
+	VortexPillarRelic: {
+		Tooltip: ""
+		DisplayName: 星漩柱圣物
+	}
+
+	StardustPillarTrophy: {
+		Tooltip: ""
+		DisplayName: 星尘柱纪念章
+	}
+
+	StardustPillarRelic: {
+		Tooltip: ""
+		DisplayName: 星尘柱圣物
+	}
+
+	SolarPillarTrophy: {
+		Tooltip: ""
+		DisplayName: 日耀柱纪念章
+	}
+
+	SolarPillarRelic: {
+		Tooltip: ""
+		DisplayName: 日耀柱圣物
+	}
+
+	PumpkinMoonTrophy: {
+		Tooltip: ""
+		DisplayName: 南瓜月纪念章
+	}
+
+	PumpkinMoonRelic: {
+		Tooltip: ""
+		DisplayName: 南瓜月圣物
+	}
+
+	NebulaPillarTrophy: {
+		Tooltip: ""
+		DisplayName: 星云柱纪念章
+	}
+
+	NebulaPillarRelic: {
+		Tooltip: ""
+		DisplayName: 星云柱圣物
+	}
+
+	MartianMadnessTrophy: {
+		Tooltip: ""
+		DisplayName: 火星暴乱纪念章
+	}
+
+	MartianMadnessRelic: {
+		Tooltip: ""
+		DisplayName: 火星暴乱圣物
+	}
+
+	FrostMoonTrophy: {
+		Tooltip: ""
+		DisplayName: 霜月纪念章
+	}
+
+	FrostMoonRelic: {
+		Tooltip: ""
+		DisplayName: 霜月圣物
+	}
+
+	TheTwinsTrophy: {
+		Tooltip: ""
+		DisplayName: 双子魔眼纪念章
+	}
+
+	DreadnautilusRelic: {
+		DisplayName: 恐惧鹦鹉螺圣物
+		Tooltip: ""
+	}
+
+	DreadnautilusTrophy: {
+		DisplayName: 恐惧鹦鹉螺纪念章
+		Tooltip: ""
+	}
+
+	IceGolemRelic: {
+		DisplayName: 冰雪巨人圣物
+		Tooltip: ""
+	}
+
+	IceGolemTrophy: {
+		DisplayName: 冰霜巨人纪念章
+		Tooltip: ""
+	}
+
+	SandElementalTrophy: {
+		Tooltip: ""
+		DisplayName: 沙尘精纪念章
+	}
+
+	SandElementalRelic: {
+		Tooltip: ""
+		DisplayName: 沙尘精圣物
+	}
+
+	MothronTrophy: {
+		Tooltip: ""
+		DisplayName: 蛾怪纪念章
+	}
+
+	MothronRelic: {
+		Tooltip: ""
+		DisplayName: 蛾怪圣物
+	}
+
+	CorruptMimicRelic: {
+		DisplayName: 腐化宝箱怪圣物
+		Tooltip: ""
+	}
+
+	CorruptMimicTrophy: {
+		DisplayName: 腐化宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	CrimsonMimicRelic: {
+		DisplayName: 猩红宝箱怪圣物
+		Tooltip: ""
+	}
+
+	CrimsonMimicTrophy: {
+		DisplayName: 猩红宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	HallowedMimicRelic: {
+		DisplayName: 神圣宝箱怪圣物
+		Tooltip: ""
+	}
+
+	HallowedMimicTrophy: {
+		DisplayName: 神圣宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	AcidRainRelic: {
+		DisplayName: 酸雨圣物
+		Tooltip: ""
+	}
+
+	AcidRainTrophy: {
+		DisplayName: 酸雨纪念章
+		Tooltip: ""
+	}
+
+	CnidrionRelic: {
+		DisplayName: 卧龙海马圣物
+		Tooltip: ""
+	}
+
+	CnidrionTrophy: {
+		DisplayName: 卧龙海马纪念章
+		Tooltip: ""
+	}
+
+	HellbringerMimicRelic: {
+		DisplayName: 地狱宝箱怪圣物
+		Tooltip: ""
+	}
+
+	HellbringerMimicTrophy: {
+		DisplayName: 地狱宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	MyceliumMimicRelic: {
+		DisplayName: 真菌宝箱怪圣物
+		Tooltip: ""
+	}
+
+	MyceliumMimicTrophy: {
+		DisplayName: 真菌宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	SubmergedMimicRelic: {
+		DisplayName: 深海宝箱怪圣物
+		Tooltip: ""
+	}
+
+	SubmergedMimicTrophy: {
+		DisplayName: 深海宝箱怪纪念章
+		Tooltip: ""
+	}
+
+	PaladinRelic: {
+		DisplayName: 圣骑士圣物
+		Tooltip: ""
+	}
+
+	PaladinTrophy: {
+		DisplayName: 圣骑士纪念章
+		Tooltip: ""
+	}
+
+	HemogoblinSharkRelic: {
+		DisplayName: 血浆哥布林鲨鱼圣物
+		Tooltip: ""
+	}
+
+	HemogoblinSharkTrophy: {
+		DisplayName: 血浆哥布林鲨鱼纪念章
+		Tooltip: ""
+	}
+
+	GladeWraithTrophy: {
+		Tooltip: ""
+		DisplayName: 绿林怒魂纪念章
+	}
+
+	GladeWraithRelic: {
+		Tooltip: ""
+		DisplayName: 绿林怒魂圣物
+	}
+
+	OccultistTrophy: {
+		Tooltip: ""
+		DisplayName: 玄虚术士纪念章
+	}
+
+	HauntedTomeTrophy: {
+		Tooltip: ""
+		DisplayName: 闹鬼之书纪念章
+	}
+
+	HauntedTomeRelic: {
+		Tooltip: ""
+		DisplayName: 闹鬼之书圣物
+	}
+
+	PinkyRelic: {
+		DisplayName: 粉史莱姆圣物
+		Tooltip: ""
+	}
+
+	PinkyTrophy: {
+		DisplayName: 粉史莱姆纪念章
+		Tooltip: ""
+	}
+
+	JellyDelugeRelic: {
+		DisplayName: 水母雨圣物
+		Tooltip: ""
+	}
+
+	JellyDelugeTrophy: {
+		DisplayName: 水母雨纪念章
+		Tooltip: ""
+	}
+
+	BeholderRelic: {
+		DisplayName: 守望者圣物
+		Tooltip: ""
+	}
+
+	BeholderTrophy: {
+		DisplayName: 守望者纪念章
+		Tooltip: ""
+	}
+
+	MechromancerRelic: {
+		DisplayName: 机械术士圣物
+		Tooltip: ""
+	}
+
+	MechromancerTrophy: {
+		DisplayName: 机械术士纪念章
+		Tooltip: ""
+	}
+
+	SnaptrapperRelic: {
+		DisplayName: 裂孢诱捕者圣物
+		Tooltip: ""
+	}
+
+	SnaptrapperTrophy: {
+		DisplayName: 裂孢诱捕者纪念章
+		Tooltip: ""
+	}
+
+	ThespianTrophy: {
+		DisplayName: 狄斯比斯纪念章
+		Tooltip: ""
+	}
+
+	TidesRelic: {
+		DisplayName: 潮汐圣物
+		Tooltip: ""
+	}
+
+	TidesTrophy: {
+		DisplayName: 潮汐纪念章
+		Tooltip: ""
+	}
+
+	TrophyPrepTable: {
+		Tooltip: ""
+		DisplayName: 纪念章制作台
+	}
+
+	ArchWyvernRelic: {
+		DisplayName: 大飞龙圣物
+		Tooltip: ""
+	}
+
+	ArchWyvernTrophy: {
+		DisplayName: 大飞龙纪念章
+		Tooltip: ""
+	}
+
+	ArmoredDiggerRelic: {
+		DisplayName: 装甲掘地虫圣物
+		Tooltip: ""
+	}
+
+	ArmoredDiggerTrophy: {
+		DisplayName: 装甲掘地虫纪念章
+		Tooltip: ""
+	}
+
+	CloudElementalRelic: {
+		DisplayName: 雨云元素圣物
+		Tooltip: ""
+	}
+
+	CloudElementalTrophy: {
+		DisplayName: 雨云元素纪念章
+		Tooltip: ""
+	}
+
+	EarthElementalRelic: {
+		DisplayName: 大地元素圣物
+		Tooltip: ""
+	}
+
+	EarthElementalTrophy: {
+		DisplayName: 大地元素纪念章
+		Tooltip: ""
+	}
+
+	BloodEelRelic: {
+		DisplayName: 血鳗鱼圣物
+		Tooltip: ""
+	}
+
+	BloodEelTrophy: {
+		DisplayName: 血鳗鱼纪念章
+		Tooltip: ""
+	}
+
+	MysticMoonRelic: {
+		DisplayName: 苍蓝秘月圣物
+		Tooltip: ""
+	}
+
+	MysticMoonTrophy: {
+		DisplayName: 苍蓝秘月纪念章
+		Tooltip: ""
+	}
+
+	PirateCaptainRelic: {
+		DisplayName: 海盗船长圣物
+		Tooltip: ""
+	}
+
+	PirateCaptainTrophy: {
+		DisplayName: 海盗船长纪念章
+		Tooltip: ""
+	}
+
+	PlaguebringerRelic: {
+		DisplayName: 瘟疫使者圣物
+		Tooltip: ""
+	}
+
+	PlaguebringerTrophy: {
+		DisplayName: 瘟疫使者纪念章
+		Tooltip: ""
+	}
+
+	SnowMongerTrophy: {
+		DisplayName: 雪霸王纪念章
+		Tooltip: ""
+	}
+
+	WyvernRelic: {
+		DisplayName: 飞龙圣物
+		Tooltip: ""
+	}
+
+	WyvernTrophy: {
+		DisplayName: 飞龙纪念章
+		Tooltip: ""
+	}
+
+	SuspiciousTome: {
+		Tooltip: 召唤闹鬼之书
+		DisplayName: 可疑的书
+	}
+
+	EyeStalk: {
+		DisplayName: 眼柄
+		Tooltip: 在大理石生物群系召唤守望者
+	}
+
+	RichScissorleaf: {
+		DisplayName: 树枝
+		Tooltip: 在丛林召唤裂孢诱捕者
+	}
+
+	AmalgamatedHeart: {
+		DisplayName: 混汞心脏
+		Tooltip: 在夜晚召唤缝合人
+	}
+
+	DeathBulb: {
+		DisplayName: 死亡花苞
+		Tooltip: 在丛林召唤绝命花
+	}
+
+	PeculiarMirror: {
+		DisplayName: 奇怪的魔镜
+		Tooltip: 在地牢召唤幻术师
+	}
+
+	ArchScale: {
+		DisplayName: 大飞龙蛋
+		Tooltip: 召唤大飞龙
+	}
+
+	MythicalScale: {
+		DisplayName: 龙蛋
+		Tooltip: 召唤神龙
+	}
+
+	MythicalWyvernRelic: {
+		DisplayName: 神龙圣物
+		Tooltip: ""
+	}
+
+	MythicalWyvernTrophy: {
+		DisplayName: 神龙纪念章
+		Tooltip: ""
+	}
+
+	FrozenProbe: {
+		DisplayName: 冰冻探针
+		Tooltip: 召唤雪霸王
+	}
+
+	HellBringerChest: {
+		DisplayName: 地狱宝箱
+		Tooltip: 召唤地狱宝箱怪
+	}
+
+	MyceliumChest: {
+		DisplayName: 真菌宝箱
+		Tooltip: 召唤真菌宝箱怪
+	}
+
+	SludgeCrown: {
+		DisplayName: 污泥皇冠
+		Tooltip: 在硫磺海召唤峭咽潭
+	}
+
+	SubmergedChest: {
+		DisplayName: 深海宝箱
+		Tooltip: 召唤深海宝箱怪
+	}
+
+	CataclysmicConstructRelic: {
+		DisplayName: 灾祸构造体圣物
+		Tooltip: ""
+	}
+
+	CatastrophicConstructRelic: {
+		DisplayName: 灾难构造体圣物
+		Tooltip: ""
+	}
+
+	LeviathanAndAnahitaTrophy: {
+		DisplayName: 阿娜希塔与利维坦纪念章
+		Tooltip: ""
+	}
+
+	HypnosRelic: {
+		DisplayName: 嘉登大脑圣物
+		Tooltip: ""
+	}
+
+	GiantClam: {
+		Tooltip: ""
+		DisplayName: 巨像蛤
+	}
+
+	SunkenSea: {
+		Tooltip: ""
+		DisplayName: 沉沦之海
+	}
+
+	Deerclops: {
+		Tooltip: ""
+		DisplayName: 独眼巨鹿
+	}
+
+	LunaticCultist: {
+		Tooltip: ""
+		DisplayName: 拜月邪教徒
+	}
+
+	MoonLord: {
+		Tooltip: ""
+		DisplayName: 月亮领主
+	}
+
+	TorchGod: {
+		Tooltip: ""
+		DisplayName: 火把神
+	}
+
+	GoblinArmy: {
+		Tooltip: ""
+		DisplayName: 哥布林军团
+	}
+
+	Pirates: {
+		Tooltip: ""
+		DisplayName: 荷兰飞盗船
+	}
+
+	TheHallow: {
+		Tooltip: ""
+		DisplayName: 神圣
+	}
+
+	TheJungle: {
+		Tooltip: ""
+		DisplayName: 丛林
+	}
+
+	Sandstorm: {
+		Tooltip: ""
+		DisplayName: 沙尘暴
+	}
+
+	GreatSandShark: {
+		Tooltip: ""
+		DisplayName: 旱海狂鲨
+	}
+
+	Eclipse: {
+		Tooltip: ""
+		DisplayName: 蛾怪
+	}
+
+	PumpkinMoon: {
+		Tooltip: ""
+		DisplayName: 南瓜月
+	}
+
+	FrostMoon: {
+		Tooltip: ""
+		DisplayName: 霜月
+	}
+
+	TheOldOnesArmy: {
+		Tooltip: ""
+		DisplayName: 撒旦军队
+	}
+
+	NebulaTower: {
+		DisplayName: 星云柱
+		Tooltip: ""
+	}
+
+	SolarTower: {
+		DisplayName: 日耀柱
+		Tooltip: ""
+	}
+
+	StardustTower: {
+		DisplayName: 星尘柱
+		Tooltip: ""
+	}
+
+	VortexTower: {
+		DisplayName: 星漩柱
+		Tooltip: ""
+	}
+
+	AcidRain: {
+		DisplayName: 酸雨
+		Tooltip: ""
+	}
+
 	TheGrandThunderBird: {
 		Tooltip: ""
 		DisplayName: 惊雷王鹰
@@ -93,12 +783,362 @@ Items: {
 		Tooltip: ""
 		DisplayName: 暴雪
 	}
+
+	TheVagrantOfSpaceAndTime: {
+		Tooltip: ""
+		DisplayName: 时空流浪者
+	}
+
+	ThespianTheActOfAlchemy: {
+		Tooltip: ""
+		DisplayName: 狄斯比斯
+	}
+
+	DioskouroiTheTwinForces: {
+		Tooltip: ""
+		DisplayName: 狄俄斯库洛伊
+	}
+
+	Corvus: {
+		Tooltip: ""
+		DisplayName: 乌鸦星
+	}
+
+	TraceOfCorvus: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 乌鸦痕迹
+	}
+
+	Caelum: {
+		Tooltip: ""
+		DisplayName: 雕具星
+	}
+
+	TraceOfCaelum: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 雕具痕迹
+	}
+
+	Cygnus: {
+		Tooltip: ""
+		DisplayName: 天鹅星
+	}
+
+	TraceOfCygnus: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 天鹅痕迹
+	}
+
+	Aries: {
+		Tooltip: ""
+		DisplayName: 白羊星
+	}
+
+	TraceOfAries: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 白羊痕迹
+	}
+
+	Celestia: {
+		Tooltip: ""
+		DisplayName: Celestia
+	}
+
+	TraceOfCelestia: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Celestia
+	}
+
+	StarfarerDecipherer: {
+		DisplayName: 星辰解码器
+		Tooltip: 用样本痕迹进行解码，星辰的传输信号
+	}
+
+	TraceOfSerpens: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 巨蛇痕迹
+	}
+
+	Serpens: {
+		Tooltip: ""
+		DisplayName: 巨蛇星
+	}
+
+	TraceOfScorpius: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: 天蝎痕迹
+	}
+
+	Scorpius: {
+		Tooltip: ""
+		DisplayName: 天蝎星
+	}
+
+	PenthesileaTheWitchOfInk: {
+		Tooltip: ""
+		DisplayName: 彭忒希勒娅
+	}
+
+	TraceOfUltraPlant: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Ultra Plant
+	}
+
+	UltraPlant: {
+		Tooltip: ""
+		DisplayName: Ultra Plant
+	}
+
+	TraceOfTucana: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Tucana
+	}
+
+	Tucana: {
+		Tooltip: ""
+		DisplayName: 杜鹃星
+	}
+
+	TraceOfTheranhad: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Theranhad
+	}
+
+	FallenTheranhad: {
+		Tooltip: ""
+		DisplayName: Fallen Theranhad
+	}
+
+	TraceOfFaintArchives: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Faint Archives
+	}
+
+	FaintArchives: {
+		Tooltip: ""
+		DisplayName: Faint Archives
+	}
+
+	NalhaunTheBurnishedKing: {
+		Tooltip: ""
+		DisplayName: 纳尔赫恩
+	}
+
+	AsphodeneAndEridani: {
+		Tooltip: ""
+		DisplayName: 爱丝福德妮和埃里达妮
+	}
+
+	TraceOfAstralPlague: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Astral Plague
+	}
+
+	TheMartians: {
+		Tooltip: ""
+		DisplayName: The Martians
+	}
+
+	ObservatoryHyperborea: {
+		Tooltip: ""
+		DisplayName: Observatory Hyperborea
+	}
+
+	AstralPlague: {
+		Tooltip: ""
+		DisplayName: Astral Plague
+	}
+
+	TraceOfLyra: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of Lyra
+	}
+
+	TraceOfDreamingCity: {
+		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
+		DisplayName: Trace of The Dreaming City
+	}
+
+	Lyra: {
+		Tooltip: ""
+		DisplayName: Lyra
+	}
+
+	DreamingCity: {
+		Tooltip: ""
+		DisplayName: Dreaming City
+	}
+
+	Arbitration: {
+		Tooltip: ""
+		DisplayName: Arbitration
+	}
+
+	WarriorOfLight: {
+		Tooltip: ""
+		DisplayName: Warrior of Light
+	}
+
+	Tsukiyomi: {
+		Tooltip: ""
+		DisplayName: Tsukiyomi
+	}
 }
 
 LoreLines: {
 	Default: {
-		Line1: 寄宿其上的低语流入你的耳中......
+		Line1Yharim: 寄宿其上的低语流入你的耳中......
+		Line1Tsukiyomi: 满天星辰的低语流入你的耳中......
 		Line2: 长按 "左shift" 键以仔细聆听
+	}
+
+	GiantClam: {
+		Line1: 它们体型庞大，行动缓慢，却有相当大的力量。
+		Line2: 它们有很好的防御能力，因为它们的外壳能抵抗大多数攻击。
+		Line3: 但我没有一点害怕，因为我对他们的攻击很熟悉
+		Line4: 并打败他们。
+	}
+
+	SunkenSea: {
+		Line1: 即使在至尊巨蛤把海洋干涸之后
+		Line2: 沙漠的深处也似乎诞生了新的繁荣。
+		Line3: 嘉登似乎对这个地方很感兴趣。
+	}
+
+	Deerclops: {
+		Line1: 在泰拉瑞亚大陆上的所有生物中，它的最让我困惑的。
+		Line2: 它显然不是神，但它又能操控周围的阴影和光线，
+		Line3: 以便攻击和消耗猎物。
+		Line4: 它强大的外表，以及可以融化苔原上咆哮的暴风雪的能力，
+		Line5: 让我相信它也是另一个空间的闯入者。
+		Line6: 至于它从何而来，我还是无法了解。
+		Line7: 即便嘉登的日记也无法看清它的故事。
+		Line8: ........
+	}
+
+	LunaticCultist: {
+		Line1: 这种天赋异禀的人很久以前用他的奥术力量终止了我的召唤。
+		Line2: 我曾经如此鄙视的一个人现在...他死了，封印仪式也随着死亡消散了…
+		Line3: 我要为世界的终末做好准备。
+		Line4: 你的末日即将来临……
+	}
+
+	MoonLord: {
+		Line1: 你杀死了一个来自远古大战遗留的幻影。它在龙种时代晚期入侵了泰拉瑞亚世界。
+		Line2: 对泰拉瑞亚世界造成不可估量的伤亡与破坏。
+		Line3: 当时的人类称它为Fovos，意为无法直面的恐惧，因为很少有人能忍受它强大的存在。
+	}
+
+	TorchGod: {
+		Line1: 有火把神的存在???
+		Line2: 这意味着有火龙的存在……
+		Line3: ……
+		Line4: 我必须进一步研究……
+	}
+
+	GoblinArmy: {
+		Line1: 哥布林军队……虽然他们对我的权力没有任何威胁，但会让我的居民们感到讨厌。
+		Line2: 在涉及到力量和数量时，他们有决定性的压制。
+		Line3: 处理它们感觉很麻烦，因为它们可以造成很大的破坏。
+		Line4: 他们攻击过我的城邦好多次，不过对我来说根本不算什么。
+	}
+
+	Pirates: {
+		Line1: Pirates are just that, pirates, most likely escapees of the evil regime that tore through terraria.
+		Line2: Originally nomads, bound to water, they soon were driven from there too as the waters took on a sickly green
+		Line3: and the scent of death. Now airbourne raiders, they seek out bases, points of activity, be it rebels or imperial,
+		Line4: and pillage what they can just to survive.
+	}
+
+	TheHallow: {
+		Line1: It is the essence of the god of light, not from a corpse but rather infused into the wall of flesh by his own hand.
+		Line2: Many are fooled by its appearance and assume it is something holy, but it truly is a threat to everything on this
+		Line3: world, as it too is also a form of corruption.
+	}
+
+	TheJungle: {
+		Line1: The strength of nature is strongly shown in the jungle, fierce creatures and intelligent beings live within the
+		Line2: ground below, an inspiring area indeed.
+		Line3: The jungle is definitely one of my favorite places to visit, and it seems as though draedon had an interest in
+		Line4: it as well... if only I had know what he was working on down there...
+	}
+
+	GreatSandShark: {
+		Line1: Once, it was a fierce hunter, preying upon creatures across the desert. However, the intense heat combined with
+		Line2: the violent sandstorms of the desert wore down its constitution.
+		Line3: Over time, it adapted to burrow into the sand to rest after feeding.
+		Line4: It is believed that it continues to feed as it rests under the sand, but nobody who has seen it do so has returned
+		Line5: to spread the truth.
+	}
+
+	Sandstorm: {
+		Line1: As with the world's heat, the sandstorms were amplified by the ancient deities' actions.
+		Line2: The vast desert was already quite inhospitable due to its blazing heat.
+		Line3: A slight increase in wind and sand was all that was needed to make one of the most inhospitable places even moreso.
+	}
+
+	Eclipse: {
+		Line1: Monsters of the Eclipse have never really been fully understood.
+		Line2: Many different cultures and species have speculated that their appearance is a result of the sun being eaten.
+		Line3: Regardless, the creatures of the Eclipse are quite dangerous.
+		Line4: Some people theorize that these creatures are the products of a deity's power escaping and manifesting into
+		Line5: creatures of destruction.
+	}
+
+	PumpkinMoon: {
+		Line1: In ages past, this event would mark the end of a harvest season. Now, it marks the end of any chance of survival
+		Line2: one may have had.
+		Line3: The Pumpking is a particularly interesting figure. I have never truly considered what this creature may have
+		Line4: once been. Whatever it be, however, it is beyond saving now.
+	}
+
+	FrostMoon: {
+		Line1: As the season is young, the cold is gentle, yet it will quickly become merciless and unforgiving.
+		Line2: This chilling atmosphere is the result of ancient entities of unknown origin.
+		Line3: Of course, as it has been ages since such creatures came into being, their intentions remain unclear.
+		Line4: This particular frost moon holds a further oddity, an Ice Queen.
+		Line5: Supposedly a beautiful and elegant woman, but rather cold and mysterious...
+	}
+
+	TheOldOnesArmy: {
+		Line1: There was once a mighty civilisation that dominated ancient Terraria.
+		Line2: This long-forgotten civilization was powerful and knowledgeable. They harnessed arcane forces and created marvels.
+		Line3: Their most advanced creations, in particular, are the most perplexing.
+		Line4: It is said that their old dragon, Betsy, is no mere beast, but a weapon of war forged by their ancient magic.
+		Line5: The old ones are long gone, but vestiges of their legacy remain.
+		Line6: Betsy being the oldest and most prominent one, but she is no auric dragon...
+	}
+
+	Towers: {
+		Line1: If the cultists were to fall, there was a safeguard in place, four towers connected to celestial moons that would
+		Line2: hold the seal together to prevent the return of Fovos. However the towers magic transports the inhabitants of said
+		Line3: moons here to defend them...
+	}
+
+	SolarTower: {
+		Line1: The Solar Moon is home to a moon scorched by the sun, these beings harness its power to create weapons and pride
+		Line2: themselves on their melee prowess.
+	}
+
+	VortexTower: {
+		Line1: The Vortex Moon is in an area of instability, the chaotic energy regularly opens rifts on the moon, the inhabitants
+		Line2: comprise of deadly alien hornets and the people who created the firepower to exterminate them.
+	}
+
+	NebulaTower: {
+		Line1: The Nebula Moon is in a cosmic dust cloud, illuminated with a large amount of mana. The creatures of this moon have
+		Line2: superior intellect and like absorbing the intellect of others.
+	}
+
+	StardustTower: {
+		Line1: The Stardust Moon out of reach of the sun's light, instead chemical reactions within the core create an eerie blue
+		Line2: glow. The creatures of this moon are coated in this light, which when refined, turns into a mythical gold.
+	}
+
+	AcidRain: {
+		Line1: The pollution of the sulphur sea takes to the skies, as the rain adopts its corrosive and caustic properties.
+		Line2: during these terrifying torrents the most evolved of creatures show themselves.
+		Line3: Proving once more that nature always finds a way.
 	}
 
 	TheGrandThunderBird: {
@@ -218,5 +1258,292 @@ LoreLines: {
 		Line1: 每次下雨苔原上的暴雪就会变得异常严酷，
 		Line2: 而隐藏在苔原深处的冰冻结构就会变得有生命。
 		Line3: 随着能见度的降低和冻土层的冰雪巨人的消失，毫无准备的冒险是很危险的
+	}
+
+	TheVagrantOfSpaceAndTime: {
+		Line1: A hooded figure who seems to be a starfarer himself, I know hes been trying to
+		Line2: catch me for the longest time. However he shall not succeed, no matter how many
+		Line3: mortals he tests.
+	}
+
+	ThespianTheActOfAlchemy: {
+		Line1: An odd concoction was given to me by a servent of mine, he promised it would
+		Line2: bring me great strength in battle, little did I know it was the catalyst of
+		Line3: reviving a long dead alchemist. I felt myself being controlled and mocked by
+		Line4: the large mask above him, but I was able to overcome it's control and defeat
+		Line5: the phantom.
+	}
+
+	DioskouroiTheTwinForces: {
+		Line1: An eternal feud between two siblings, endangering all who they come across.
+		Line2: Not listening to anyone else or any reason but to best the other in their
+		Line3: endless battle. I do wonder what caused them to hate eachother so much.
+	}
+
+	Corvus: {
+		Line1: A cold, abandoned planet that used to be a prosperous society before the Ardor.
+		Line2: As resources became scarce the planet became war torn and desolate, eventually
+		Line3: its inhabitants left the planet, making it an easy target for space pirates.
+	}
+
+	Caelum: {
+		Line1: Caelum... a planet splitting in twain, the decay runs so deep the planet may not
+		Line2: survive much longer, the mana concentration however is incredible, keeping the
+		Line3: souls of its inhabitants as apparitions, who have long forgotten themselves.
+	}
+
+	Cygnus: {
+		Line1: A curious cluster of asteroids, perhaps the remnants of a planet... there are signs of
+		Line2: civilization in some of these rocks, yet I can't quite put the pieces together...
+	}
+
+	Aries: {
+		Line1: Its disgusting what happened to this planet... it could have been teeming with live before, but people got too
+		Line2: greedy and mined out the core of the world, now it is a broken husk of what it once was...
+	}
+
+	Celestia: {
+		Line1: These structures are quite beautiful and give off a hefty amount of mana for being in the
+		Line2: middle of nowhere... Must of been a worship site of some sort...
+	}
+
+	Serpens: {
+		Line1: Most starfarers believe this to be a foreign mass, a dead leviathan class organism...
+		Line2: But on further inspection this is the corpse of a god.
+		Line3: It wreaks of pestilence as the corpse corrupts itself and leaks onto the nearby planet.
+		Line4: Whoever is killing these gods is causing serious catastrophes to unfold...
+	}
+
+	Scorpius: {
+		Line1: The moon responsible for the blood moon occurances is also haboring the corpse of a slain god, whoever did this
+		Line2: has been doing really sloppy work, as the crimson had leaked onto the neighboring planet as well.
+		Line3: Whoever this Yharim is, he needs to be stopped.
+	}
+
+	PenthesileaTheWitchOfInk: {
+		Line1: A powerful witch who uncovered the magic of art� In a literal sense. Able to channel an immense amount of mana
+		Line2: into paints and pigments, she was able to weaponize her artistic ability and become a terrifying master of the
+		Line3: artistic arcane.
+	}
+
+	UltraPlant: {
+		Line1: This construct seems a little out of place, Constantly generating electricity, and it looks like the trees are
+		Line2: alive and made of wires. This place seems to be rarely visited by two cosmic beings from another universe...
+	}
+
+	Tucana: {
+		Line1: This planet is at the inner edge of the habitable zone of this star... the whole planet is lush and hostile.
+		Line2: Its amazing how the same life ended up on the jungles of the neighboring planet...
+	}
+
+	FallenTheranhad: {
+		Line1: This used to be a majestic land, a floating archipelago with beautiful architecture, till the emperor of the
+		Line2: land was drawn to an entropic god's will... and the place fell apart in a cosmic plague.
+	}
+
+	FaintArchives: {
+		Line1: This is another place that is shrouded in mystery, It seems to be a temple of sorts but its ambiguous where
+		Line2: it's origin lies, however it contains so many secrets. Who knows? maybe the solution to the ardor lies here.
+	}
+
+	AstralPlague: {
+		Line1: After folling the trail of the plague that destroyed Theranhad, I found that it had significantly evolved overtime.
+		Line2: Twisting weak minded creatures to its will, and now traveling by meteor to other planets.
+		Line3: First the Ardor and now this... what more will torment this galaxy?
+	}
+
+	NalhaunTheBurnishedKing: {
+		Line1: A ruler who lost his mind, with his weapon he ruled his world with an iron fist, however it was one of the first
+		Line2: worlds to fall to the ardor, the king survived out of pure rage and madness, his sword granting him the power of
+		Line3: a starbarer.
+	}
+
+	AsphodeneAndEridani: {
+		Line1: These two, they're starting to annoy me, They wouldn't understand what I have to do to save this
+		Line2: galaxy. And their champion? They need to focus on the conflicts of their own planet.
+		Line3: soon they will find me, and I'll have no choice but to eliminate them.
+	}
+
+	ObservatoryHyperborea: {
+		Line1: One of many floating satelites that can be found orbiting habitable worlds. It's unclear who built
+		Line2: them or what their purpose was, but they could make for a good base of operations if one were to
+		Line3: restore them.
+	}
+
+	TheMartians: {
+		Line1: The long lost inhabitants of Aries, the Martians mined out their planet a long time ago till the
+		Line2: core was broken through, in search of a new place to live, they would rather take over and wipe out
+		Line3: the life on other planets than resort to diplomacy...
+	}
+
+	DreamingCity: {
+		Line1: A mysterious city that seems out of place, almost like its from another dimension. When I visited this
+		Line2: city I was awestruck from the exotic architecture... thats when it happened, dark creatures appeared out
+		Line3: of nowhere and drove me away... and the city vanished as I left...
+	}
+
+	Lyra: {
+		Line1: Anomaly Iota... the planet is mostly acidic and definitely unsafe to be on for too long, It seems to have
+		Line2: frequent earthquakes, however they are to a rhythm, almost like a heartbeat...
+	}
+
+	Arbitration: {
+		Line1: Once again I sought out the Dreaming City, I fought through the many nightmarish creatures that roamed there.
+		Line2: But then I was transported to another place, one that had yet to be charted on the stellaglyph...
+		Line3: I saw a being so frightening... so powerful, No doubt it would be a danger to us all...
+		Line4: I had to flee, to escape this place, theres no doubt that arbitration would have killed me on sight.
+	}
+
+	WarriorOfLight: {
+		Line1: How reckless can they be? To break the seal on such a dangerous god such as Fovos. They may have won but they
+		Line2: are becoming to dangerous to be allowed to live.
+		Line3: I shall send my strongest warrior there at once, to bring them to their knees.
+		Line4: Once those pests are done, we shall take out Yharim ourselves...
+	}
+
+	Tsukiyomi: {
+		Line1: In this vast universe, there are myriad beings who possess the strength to challenge me.
+		Line2: Tsukiyomi claims to be one of them. Whether her claims are grounded in fact or are merely the delusions of a fanatic
+		Line3: remain to be seen. Either way, it will amount to the same thing in the end.
+	}
+}
+
+SpawnInfo: {
+	Dreadnautilus: 困难模式血月事件中通过钓鱼有概率生成.
+	IceGolem: 困难模式暴雪事件有概率生成.
+	SandElemental: 困难模式沙尘暴事件有概率生成
+	Mothron: 击败世纪之花后，日食事件中生成.
+	CorruptMimic: 在腐化之地有概率生成，也可以在拥有腐化之地的世界用夜光钥匙放在空箱子召唤.
+	CrimsonMimic: 在猩红之地有概率生成，也可以在拥有猩红之地的世界用夜光钥匙放在空箱子召唤.
+	HallowedMimic: 在神圣之地有概率生成，也可以用光明钥匙放在空箱子召唤.
+	MyceliumMimic: 在发光蘑菇生物群系有概率生成，也可以用真菌钥匙放在空箱子召唤.
+	SubmergedMimic: 在深海生物群系有概率生成，也可以用波涛钥匙放在空箱子召唤.
+	HellBringerMimic: 在地狱有概率生成，也可以用困境钥匙放在空箱子召唤.
+	Cnidrion: 困难模式前沙漠有概率生成.
+	Paladin: 击败世纪之花后，地牢中有概率生成.
+	HemogoblinShark: 困难模式血月事件中通过钓鱼有概率生成.
+	Pinky: 有小概率在森林，地下，洞穴层中生成.
+	Rylheian: 潮汐事件第5波生成.
+	ArchWyvern: 困难模式太空有概率生成.
+	ArmoredDigger: 击败世纪之花后，洞穴生物群系有概率生成.
+	CloudElemental: 困难模式下雨的太空有概率生成.
+	EarthElemental: 困难模式洞穴生物群系有概率生成.
+	Wyvern: 困难模式太空有概率生成.
+	Plaguebringer: 击败石巨人后在丛林地下有概率生成.
+	BloodEel: 在血月事件期间钓鱼生成.
+	PirateCaptain: 海盗入侵事件有概率生成.
+	Constructs: 在“至尊女巫，灾厄”剩下40%的生命时生成
+	HypnosBoss: Use the bloody vein on the codebreaker once the Exo Mechs are defeated.
+}
+
+Conditions.DownedHauntedTome: After Haunted Tome is defeated
+NPCs.PinkyPlaceholder.DisplayName: Pinky Placeholder
+DropConditions.JourneyMode: Mods.EventTrophies.DropConditions.JourneyMode
+MergeWarning: This mod has been merged with EventTrophies, you can craft the item into an item in Event trophies and remove the other mod.
+
+Configs: {
+	EventTrophiesConfig: {
+		DisplayName: 更多圣物/纪念章/灾厄传颂之物设置
+
+		Headers: {
+			Mods: {
+				EventTrophies: {
+					Config: {
+						TrophyDrops: 纪念章和圣物掉落
+						SummoningItems: 召唤材料
+						BossChecklist: BOSS手册支持
+						Calamity: 灾厄
+						Thorium: 瑟银
+						Misc: Miscellaneous
+						TrophyMasterCrafting: 大师模式纪念章制作
+					}
+				}
+			}
+		}
+
+		ChallengingEnemiesDropTrophiesAndRelics: {
+			Label: Challenging Enemies Drop Trophies and Relics
+			Tooltip: Challenging enemies like pinky or cnidrion drop trophies and relics
+		}
+
+		PseudoMiniBossesDropTrophiesAndRelics: {
+			Label: Pseudo Mini Bosses Drop Trophies and Relics
+			Tooltip: Pseudo Mini Bosses like Biome Mimics, Ice Golems and Elementals drop trophies and relics
+		}
+
+		AddSummonersForChallengingEnemies: {
+			Label: Add Extra Summoning Items
+			Tooltip: Adds extra spawn items for checklist items that do not have them
+		}
+
+		AddChallengingEnemies: {
+			Label: Add Challenging Enemies
+			Tooltip: Adds challenging enemies like pinky and cnidrion to the checklist
+		}
+
+		AddPseudoMiniBosses: {
+			Label: Add Pseudo Mini Bosses
+			Tooltip: Adds Pseudo Mini Bosses like Biome Mimics, Ice Golems and Elementals to the checklist
+		}
+
+		AddLesserEvents: {
+			Label: Add Lesser Events
+			Tooltip: Adds lesser events such as blizzard, slime rain, and sandstorm to the checklist (Unimplemented)
+		}
+
+		AddStellarVoyages: {
+			Label: Add Stellar Voyages
+			Tooltip: Adds Stars Above Stellar Voyages to the checklist (Unimplemented)
+		}
+
+		ExtraCalamityLoreItems: {
+			Label: Extra Calamity Lore Items
+			Tooltip: Adds Extra Calamity lore items to vanilla bosses
+		}
+
+		ThoriumLoreItems: {
+			Label: Thorium Lore Items
+			Tooltip: Adds Extra Calamity lore items to thorium bosses
+		}
+
+		StarsAboveLoreItems: {
+			Label: Stars Above Lore Items
+			Tooltip: Adds Extra Calamity lore items to stars above bosses and traces on voyages
+		}
+
+		ChallengingEnemiesDropVanquisherMedals: {
+			Label: Challenging Enemies Drop Vanquisher Medals
+			Tooltip: Challenging enemies other than contracted ones drop vanquisher medals
+		}
+
+		PseudoMiniBossesDropVanquisherMedals: {
+			Label: Pseudo Mini Bosses Drop Vanquisher Medals
+			Tooltip: Pseudo mini bosses other than contracted ones drop vanquisher medals
+		}
+
+		MiniBossesDropVanquisherMedals: {
+			Label: Mini Bosses Drop Vanquisher Medals
+			Tooltip: Mini Bosses drop vanquisher medals
+		}
+
+		HideModMergeItemTooltip: {
+			Label: Hide Mod Merge Item Tooltip
+			Tooltip: Hide StarsAboveLore and ThoriumLore Merge tooltip
+		}
+
+		CraftableTrophiesFromRelics: {
+			Label: Craftable Trophies from Relics
+			Tooltip: Allows Trophies to be crafted from relics at the Trophy Prep Table
+		}
+
+		EventTrophyRelicAmount: {
+			Label: Event Trophy Relic Amount
+			Tooltip: How many relics from events are required to make a trophy
+		}
+
+		BossTrophyRelicAmount: {
+			Label: Boss Trophy Relic Amount
+			Tooltip: How many relics from bosses are required to make a trophy (Bosses with multiple trophies will divide this number by the amount of trophies)
+		}
 	}
 }
