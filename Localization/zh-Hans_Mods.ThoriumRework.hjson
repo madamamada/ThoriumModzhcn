@@ -199,98 +199,98 @@ ItemDescriptions: {
 }
 
 Projectiles: {
-	AquaiusBubble.DisplayName: Bubble
-	AquaiusGeyser.DisplayName: Relentless Geyser
-	AquaiusPunchAttack.DisplayName: Hands of Tide
-	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
-	BeamSaber.DisplayName: Beam Saber
-	BeholderBlade.DisplayName: Will of Coznix
-	BiteyBaby.DisplayName: Bitey Baby
-	BlackHole.DisplayName: Black Hole
-	ChampionBomber.DisplayName: Magical Burst
-	ChampionBomberF.DisplayName: Magical Burst
-	ChampionShield.DisplayName: Champion's Rebuttal
-	ChampionSlash.DisplayName: Champion's Swift Blade
-	ChampionSlice.DisplayName: Buried Shock
-	ChampionSliceF.DisplayName: Buried Shock
-	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
-	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
-	ChampionWarHorn.DisplayName: Champion's War Horn
-	DancingJellyfish.DisplayName: Dancing Jellyfish
-	Darkness.DisplayName: Darkness
-	DeathRain.DisplayName: Death Rain
-	DragonTooth.DisplayName: Dragon Tooth
-	DyingReality.DisplayName: Dying Reality
+	AquaiusBubble.DisplayName: 泡泡
+	AquaiusGeyser.DisplayName: 无尽泉涌
+	AquaiusPunchAttack.DisplayName: 潮汐之手
+	AquaiusWhirlpool.DisplayName: 无尽涡流
+	BeamSaber.DisplayName: 激光剑
+	BeholderBlade.DisplayName: 注视者之刃
+	BiteyBaby.DisplayName: 贪食小蝙蝠
+	BlackHole.DisplayName: 黑洞
+	ChampionBomber.DisplayName: 魔法爆弹
+	ChampionBomberF.DisplayName: 魔法爆弹
+	ChampionShield.DisplayName: 英灵的反击之盾
+	ChampionSlash.DisplayName: 英灵的迅捷锋刃
+	ChampionSlice.DisplayName: 英灵剑气
+	ChampionSliceF.DisplayName: 英灵剑气
+	ChampionsSwiftBlade.DisplayName: 英灵的迅捷锋刃
+	ChampionsSwiftBladeClone.DisplayName: 英灵的迅捷锋刃
+	ChampionWarHorn.DisplayName: 英灵战号
+	DancingJellyfish.DisplayName: 跳舞水母
+	Darkness.DisplayName: 黑暗
+	DeathRain.DisplayName: 死亡之雨
+	DragonTooth.DisplayName: 龙牙
+	DyingReality.DisplayName: 垂死现实
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
-	EnergySurge.DisplayName: Energy Surge
-	EradicationBeam.DisplayName: Eradication Beam
-	EradicationBeamF.DisplayName: Eradication Beam
-	EradicationRay.DisplayName: Eradication Ray
-	EraserLaser.DisplayName: Eraser Laser
-	ExtinctionRay.DisplayName: Extinction Ray
-	FalseBeholder.DisplayName: False Beholder
-	FalseSun.DisplayName: False Sun
-	FlareSlash.DisplayName: Flare Slash
-	Flash.DisplayName: Flash
-	GrandThunder.DisplayName: Grand Thunder
-	// GrandThunderF.DisplayName: Grand Thunder
-	GraniteCharge.DisplayName: Granite Charge
-	HitScan.DisplayName: Hit-Scan
-	HitScanner.DisplayName: Hit-Scanner
+	EnergySurge.DisplayName: 能量脉搏
+	EradicationBeam.DisplayName: 湮灭光束
+	EradicationBeamF.DisplayName: 湮灭光束
+	EradicationRay.DisplayName: 湮灭激光
+	EraserLaser.DisplayName: 歼灭镭射
+	ExtinctionRay.DisplayName: 泯灭激光
+	FalseBeholder.DisplayName: 注视者假身
+	FalseSun.DisplayName: 伪日
+	FlareSlash.DisplayName: 怒火斩击
+	Flash.DisplayName: 闪光
+	GrandThunder.DisplayName: 王鹰之雷
+	GrandThunderF.DisplayName: 王鹰之雷
+	GraniteCharge.DisplayName: 花岗岩充能
+	HitScan.DisplayName: 冲击射线
+	HitScanner.DisplayName: 冲击扫描仪
 
 	HitScannerTelegraph: {
 		$parentVal: Hit-Scanner
 		DisplayName: Hit Scanner Telegraph
 	}
 
-	IllumiteBlade.DisplayName: Illumite Blade
-	IllumitePortal.DisplayName: Illumite Portal
-	ImpendingDread.DisplayName: Impending Dread
-	ImpendingDreadF.DisplayName: Impending Dread
-	InfernalRay.DisplayName: Infernal Ray
-	InfernalRayTelegraph.DisplayName: Infernal Ray
-	JammingJellyfish.DisplayName: Jamming Jellyfish
-	JellyfishJam.DisplayName: Jamming Jellyfish
-	LichLantern.DisplayName: Volatile Lantern
-	LichWhip.DisplayName: Instrument of Torment
-	LodeStoneClaymore.DisplayName: Lodestone Claymore
-	Loudener.DisplayName: Loudener
-	LucidNuke.DisplayName: Lucid Energy
-	LucidRay.DisplayName: Lucid Energy
-	LucidRayTelegraph.DisplayName: Lucid Energy
-	Mjolnir.DisplayName: Legendary Lightning
-	NightmareClaw.DisplayName: Nightmare Claw
-	NightmareSlash.DisplayName: Nightmare Claw
-	Obliterator.DisplayName: Obliterator
-	ObliteratorRay.DisplayName: Obliterator
-	OmegaRay.DisplayName: Omega Ray
-	OmniBoom.DisplayName: Nuclear Explosion
-	OmniBurst.DisplayName: Nuclear Explosion
-	OmniSlash.DisplayName: Death Slash
-	OmnicidePunchAttack.DisplayName: Fist of Havoc
-	Paylode.DisplayName: Magnetic Payload
-	PrimesFury.DisplayName: Prime's Fury
+	IllumiteBlade.DisplayName: 荧光刃
+	IllumitePortal.DisplayName: 荧光传送门
+	ImpendingDread.DisplayName: 迫近之惧
+	ImpendingDreadF.DisplayName: 迫近之惧
+	InfernalRay.DisplayName: 炼狱射线
+	InfernalRayTelegraph.DisplayName: 炼狱射线
+	JammingJellyfish.DisplayName: 水母音符
+	JellyfishJam.DisplayName: 水母音符
+	LichLantern.DisplayName: 易爆灯笼
+	LichWhip.DisplayName: 震荡性仪器
+	LodeStoneClaymore.DisplayName: 地脉长刃
+	Loudener.DisplayName: 扩音器
+	LucidNuke.DisplayName: 洞察之能
+	LucidRay.DisplayName: 洞察之能
+	LucidRayTelegraph.DisplayName: 洞察之能
+	Mjolnir.DisplayName: 传说之雷
+	NightmareClaw.DisplayName: 梦魇魔爪
+	NightmareSlash.DisplayName: 梦魇魔爪
+	Obliterator.DisplayName: 泯灭者
+	ObliteratorRay.DisplayName: 泯灭者
+	OmegaRay.DisplayName: 欧米茄射线
+	OmniBoom.DisplayName: 原子爆发
+	OmniBurst.DisplayName: 原子爆发
+	OmniSlash.DisplayName: 死亡斩击
+	OmnicidePunchAttack.DisplayName: 毁灭之拳
+	Paylode.DisplayName: 电磁载荷
+	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
-	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	SevenSeasDevastatorWhirlpool.DisplayName: 七海搅碎者
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
-	Stuff.DisplayName: Stuff
-	SoulRender.DisplayName: Soul Render
-	StableRealityRift.DisplayName: Stable Reality Rift
-	TerrariumSaber.DisplayName: Terrarium Saber
-	TideDagger.DisplayName: Aqua Rainstorm
+	Stuff.DisplayName: 法杖
+	SoulRender.DisplayName: 灵魂镰刃
+	StableRealityRift.DisplayName: 稳定的现实裂隙
+	TerrariumSaber.DisplayName: 元素圣剑
+	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
-	TitanSword.DisplayName: Titan Sword
-	ToothOfTheConsumer.DisplayName: Tooth of The Consumer
-	ValadiumRay.DisplayName: Void Ray
-	ValadiumSlash.DisplayName: Void Slash
-	ValadiumSlicer.DisplayName: Valadium Slicer
-	VisualShockwave.DisplayName: Shockwave
-	Void.DisplayName: the void
-	VoidEye.DisplayName: Eye of Coznix
-	VoidEyeF.DisplayName: Will of Coznix
-	ZephyrFeather.DisplayName: Zephyr's Feather
-	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	// AbyssalApparition.DisplayName: Abyssal Apparition
+	TitanSword.DisplayName: 泰坦剑
+	ToothOfTheConsumer.DisplayName: 肉食者之牙
+	ValadiumRay.DisplayName: 虚空射线
+	ValadiumSlash.DisplayName: 虚空斩击
+	ValadiumSlicer.DisplayName: 虚金切割者
+	VisualShockwave.DisplayName: 冲击波
+	Void.DisplayName: 虚空
+	VoidEye.DisplayName: 注视者之眼
+	VoidEyeF.DisplayName: 注视者之刃
+	ZephyrFeather.DisplayName: 西风之羽
+	ZephyrsRuin.DisplayName: 西风残垣
+	AbyssalApparition.DisplayName: 深渊幽灵
 }
 
 Items: {
@@ -356,7 +356,7 @@ Items: {
 	}
 
 	JellyfishJam: {
-		DisplayName: 水母果酱
+		DisplayName: 水母狂想曲
 		Tooltip: 释放跳舞的水母刺穿敌人
 	}
 
