@@ -580,7 +580,7 @@ Items: {
 	}
 
 	HypnosRelic: {
-		DisplayName: 嘉登大脑圣物
+		DisplayName: 修普诺斯圣物
 		Tooltip: ""
 	}
 
@@ -791,12 +791,12 @@ Items: {
 
 	ThespianTheActOfAlchemy: {
 		Tooltip: ""
-		DisplayName: 狄斯比斯
+		DisplayName: 炼金术戏剧，狄斯比斯
 	}
 
 	DioskouroiTheTwinForces: {
 		Tooltip: ""
-		DisplayName: 狄俄斯库洛伊
+		DisplayName: 双子星力，狄俄斯库洛伊
 	}
 
 	Corvus: {
@@ -805,8 +805,8 @@ Items: {
 	}
 
 	TraceOfCorvus: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 乌鸦痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 乌鸦星的样本痕迹
 	}
 
 	Caelum: {
@@ -815,48 +815,48 @@ Items: {
 	}
 
 	TraceOfCaelum: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 雕具痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 雕具星的样本痕迹
 	}
 
 	Cygnus: {
 		Tooltip: ""
-		DisplayName: 天鹅星
+		DisplayName: 天鹅星小行星带
 	}
 
 	TraceOfCygnus: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 天鹅痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 天鹅星的样本痕迹
 	}
 
 	Aries: {
 		Tooltip: ""
-		DisplayName: 白羊星
+		DisplayName: 白羊星矿井
 	}
 
 	TraceOfAries: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 白羊痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 白羊星的样本痕迹
 	}
 
 	Celestia: {
 		Tooltip: ""
-		DisplayName: Celestia
+		DisplayName: 天空岛
 	}
 
 	TraceOfCelestia: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Celestia
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 天空岛的样本痕迹
 	}
 
 	StarfarerDecipherer: {
 		DisplayName: 星辰解码器
-		Tooltip: 用样本痕迹进行解码，星辰的传输信号
+		Tooltip: 用的样本痕迹进行解码，星辰的传输信号
 	}
 
 	TraceOfSerpens: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 巨蛇痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 巨蛇星的样本痕迹
 	}
 
 	Serpens: {
@@ -865,8 +865,8 @@ Items: {
 	}
 
 	TraceOfScorpius: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: 天蝎痕迹
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 天蝎星的样本痕迹
 	}
 
 	Scorpius: {
@@ -876,22 +876,22 @@ Items: {
 
 	PenthesileaTheWitchOfInk: {
 		Tooltip: ""
-		DisplayName: 彭忒希勒娅
+		DisplayName: 多彩魔女，彭忒希勒娅
 	}
 
 	TraceOfUltraPlant: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Ultra Plant
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 究极发电厂的样本痕迹
 	}
 
 	UltraPlant: {
 		Tooltip: ""
-		DisplayName: Ultra Plant
+		DisplayName: 究极发电厂
 	}
 
 	TraceOfTucana: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Tucana
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 杜鹃星的样本痕迹
 	}
 
 	Tucana: {
@@ -900,28 +900,28 @@ Items: {
 	}
 
 	TraceOfTheranhad: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Theranhad
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 堕落之泰拉纳德的样本痕迹
 	}
 
 	FallenTheranhad: {
 		Tooltip: ""
-		DisplayName: Fallen Theranhad
+		DisplayName: 堕落之泰拉纳德
 	}
 
 	TraceOfFaintArchives: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Faint Archives
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 昏暗档案馆的样本痕迹
 	}
 
 	FaintArchives: {
 		Tooltip: ""
-		DisplayName: Faint Archives
+		DisplayName: 昏暗档案馆
 	}
 
 	NalhaunTheBurnishedKing: {
 		Tooltip: ""
-		DisplayName: 纳尔赫恩
+		DisplayName: 复光之君，纳尔赫恩
 	}
 
 	AsphodeneAndEridani: {
@@ -930,65 +930,65 @@ Items: {
 	}
 
 	TraceOfAstralPlague: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Astral Plague
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 星辉瘟疫的样本痕迹
 	}
 
 	TheMartians: {
 		Tooltip: ""
-		DisplayName: The Martians
+		DisplayName: 火星暴乱
 	}
 
 	ObservatoryHyperborea: {
 		Tooltip: ""
-		DisplayName: Observatory Hyperborea
+		DisplayName: 极北天文台
 	}
 
 	AstralPlague: {
 		Tooltip: ""
-		DisplayName: Astral Plague
+		DisplayName: 星辉瘟疫
 	}
 
 	TraceOfLyra: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of Lyra
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 天琴星的样本痕迹
 	}
 
 	TraceOfDreamingCity: {
-		Tooltip: 你耳边有窸窸窣窣的声音，但你听不清他们在说什么……
-		DisplayName: Trace of The Dreaming City
+		Tooltip: 耳边传来窸窸窣窣的声音，听不清他们在说什么……
+		DisplayName: 千梦之城的样本痕迹
 	}
 
 	Lyra: {
 		Tooltip: ""
-		DisplayName: Lyra
+		DisplayName: 天琴星
 	}
 
 	DreamingCity: {
 		Tooltip: ""
-		DisplayName: Dreaming City
+		DisplayName: 千梦之城
 	}
 
 	Arbitration: {
 		Tooltip: ""
-		DisplayName: Arbitration
+		DisplayName: 仲裁
 	}
 
 	WarriorOfLight: {
 		Tooltip: ""
-		DisplayName: Warrior of Light
+		DisplayName: 光之战士
 	}
 
 	Tsukiyomi: {
 		Tooltip: ""
-		DisplayName: Tsukiyomi
+		DisplayName: 原初之星海旅者，月读
 	}
 }
 
 LoreLines: {
 	Default: {
 		Line1Yharim: 寄宿其上的低语流入你的耳中......
-		Line1Tsukiyomi: 满天星辰的低语流入你的耳中......
+		Line1Tsukiyomi: 星辰之海的低语流入你的耳中......
 		Line2: 长按 "左shift" 键以仔细聆听
 	}
 
@@ -1013,7 +1013,7 @@ LoreLines: {
 		Line5: 让我相信它也是另一个空间的闯入者。
 		Line6: 至于它从何而来，我还是无法了解。
 		Line7: 即便嘉登的日记也无法看清它的故事。
-		Line8: ........
+		Line8: ……
 	}
 
 	LunaticCultist: {
@@ -1026,7 +1026,7 @@ LoreLines: {
 	MoonLord: {
 		Line1: 你杀死了一个来自远古大战遗留的幻影。它在龙种时代晚期入侵了泰拉瑞亚世界。
 		Line2: 对泰拉瑞亚世界造成不可估量的伤亡与破坏。
-		Line3: 当时的人类称它为Fovos，意为无法直面的恐惧，因为很少有人能忍受它强大的存在。
+		Line3: 当时的人类称它为克苏鲁，意为无法直面的恐惧，因为很少有人能忍受它强大的存在。
 	}
 
 	TorchGod: {
@@ -1044,101 +1044,101 @@ LoreLines: {
 	}
 
 	Pirates: {
-		Line1: Pirates are just that, pirates, most likely escapees of the evil regime that tore through terraria.
-		Line2: Originally nomads, bound to water, they soon were driven from there too as the waters took on a sickly green
-		Line3: and the scent of death. Now airbourne raiders, they seek out bases, points of activity, be it rebels or imperial,
-		Line4: and pillage what they can just to survive.
+		Line1: 海盗就是这样，他们很可能是邪恶撕毁泰拉里亚后的逃跑者。
+		Line2: 他们原本是游牧民族，后来转移到水上生存但很快离开了那边，
+		Line3: 因为海洋呈现出一种病态的绿色和死亡的气味。
+		Line4: 现在飞盗们在寻找叛军或者帝国基地的活动点，掠夺他们能生存的物品。
 	}
 
 	TheHallow: {
-		Line1: It is the essence of the god of light, not from a corpse but rather infused into the wall of flesh by his own hand.
-		Line2: Many are fooled by its appearance and assume it is something holy, but it truly is a threat to everything on this
-		Line3: world, as it too is also a form of corruption.
+		Line1: 它是光神的精华，不是来自尸体的能量，而是由光神注入血肉之墙的力量。
+		Line2: 许多人被它的外表所迷惑，以为它是神圣的东西，
+		Line3: 但它对泰拉瑞亚世界上面的一切也是一种威胁，甚至可以称为另一种邪恶。
 	}
 
 	TheJungle: {
-		Line1: The strength of nature is strongly shown in the jungle, fierce creatures and intelligent beings live within the
-		Line2: ground below, an inspiring area indeed.
-		Line3: The jungle is definitely one of my favorite places to visit, and it seems as though draedon had an interest in
-		Line4: it as well... if only I had know what he was working on down there...
+		Line1: 大自然的力量在丛林中表现得非常强烈，凶猛的生物和智慧的生物生活在地下，
+		Line2: 这确实是一个鼓舞人心的区域。
+		Line3: 丛林是我最喜欢参观的地方之一，似乎嘉登也对它感兴趣……
+		Line4: 要是知道他在下面做什么就好了……
 	}
 
 	GreatSandShark: {
-		Line1: Once, it was a fierce hunter, preying upon creatures across the desert. However, the intense heat combined with
-		Line2: the violent sandstorms of the desert wore down its constitution.
-		Line3: Over time, it adapted to burrow into the sand to rest after feeding.
-		Line4: It is believed that it continues to feed as it rests under the sand, but nobody who has seen it do so has returned
-		Line5: to spread the truth.
+		Line1: 曾经，它是一个凶猛的怪物，在沙漠中捕食生物。
+		Line2: 然而，沙漠的高温和猛烈的沙暴侵蚀了它的身体。
+		Line3: 随着时间的推移，它适应了在进食后在洞穴休息。
+		Line4: 有人说当它在沙子下面休息时，它会继续进食，
+		Line5: 只不过没有人看到它这样做，也没有人回来传播这是假的。
 	}
 
 	Sandstorm: {
-		Line1: As with the world's heat, the sandstorms were amplified by the ancient deities' actions.
-		Line2: The vast desert was already quite inhospitable due to its blazing heat.
-		Line3: A slight increase in wind and sand was all that was needed to make one of the most inhospitable places even moreso.
+		Line1: 就像全球变热一样，古代神灵的种种行为也加速了沙尘暴带来的影响。
+		Line2: 广阔的沙漠由于其灼热的温度已经不适宜人类居住了。
+		Line3: 风和沙的增加就足以让这个荒凉的地方变得更加荒凉。
 	}
 
 	Eclipse: {
-		Line1: Monsters of the Eclipse have never really been fully understood.
-		Line2: Many different cultures and species have speculated that their appearance is a result of the sun being eaten.
-		Line3: Regardless, the creatures of the Eclipse are quite dangerous.
-		Line4: Some people theorize that these creatures are the products of a deity's power escaping and manifesting into
-		Line5: creatures of destruction.
+		Line1: 人类从来没有真正了解过日食生物。
+		Line2: 有很多不同的资料和各种奇异生物，
+		Line3: 都可以推测它们是被太阳吞噬的。
+		Line4: 无论如何，日食中的生物都是相当危险的。
+		Line5: 有人认为这些生物是神明的力量逸散并显现为毁灭的生物。
 	}
 
 	PumpkinMoon: {
-		Line1: In ages past, this event would mark the end of a harvest season. Now, it marks the end of any chance of survival
-		Line2: one may have had.
-		Line3: The Pumpking is a particularly interesting figure. I have never truly considered what this creature may have
-		Line4: once been. Whatever it be, however, it is beyond saving now.
+		Line1: 在过去，这个节日标志着丰收季节的结束。
+		Line2: 但现在，它标志着一个人可能拥有的生存机会的终结。
+		Line3: 南瓜王应该是一个有趣的生物，我无法想象他曾经是什么样子。
+		Line4: 不管怎样，现在已经无法知道了。
 	}
 
 	FrostMoon: {
-		Line1: As the season is young, the cold is gentle, yet it will quickly become merciless and unforgiving.
-		Line2: This chilling atmosphere is the result of ancient entities of unknown origin.
-		Line3: Of course, as it has been ages since such creatures came into being, their intentions remain unclear.
-		Line4: This particular frost moon holds a further oddity, an Ice Queen.
-		Line5: Supposedly a beautiful and elegant woman, but rather cold and mysterious...
+		Line1: 季节才刚刚开始，目前是还是温和的，但很快就会变得无情。
+		Line2: 这种令人毛骨悚然的气氛是来历不明的古老生物苏醒的结果。
+		Line3: 当然，由于这些生物已经存在了很长时间，它们的意图仍然不清楚。
+		Line4: 这个特殊的节日，还有一个更奇怪的生物，那就是冰雪女王。
+		Line5: 本应该是一个美丽优雅的女人，却相当冷漠和神秘……
 	}
 
 	TheOldOnesArmy: {
-		Line1: There was once a mighty civilisation that dominated ancient Terraria.
-		Line2: This long-forgotten civilization was powerful and knowledgeable. They harnessed arcane forces and created marvels.
-		Line3: Their most advanced creations, in particular, are the most perplexing.
-		Line4: It is said that their old dragon, Betsy, is no mere beast, but a weapon of war forged by their ancient magic.
-		Line5: The old ones are long gone, but vestiges of their legacy remain.
-		Line6: Betsy being the oldest and most prominent one, but she is no auric dragon...
+		Line1: 曾经有一个强大的文明统治着远古的泰拉瑞亚。
+		Line2: 被遗忘已久的文明是强大的。他们利用神秘力量创造奇迹。
+		Line3: 尤其是他们最先进的创造能力，是最令人费解的。
+		Line4: 据说他们的双足翼龙，不仅仅是野兽，还是他们用魔法降生的战争武器。
+		Line5: 旧的时代早已不复存在，但他们的遗产的痕迹仍然存在。
+		Line6: 双足翼龙是最年长和最突出的一个，但她不是金龙……
 	}
 
 	Towers: {
-		Line1: If the cultists were to fall, there was a safeguard in place, four towers connected to celestial moons that would
-		Line2: hold the seal together to prevent the return of Fovos. However the towers magic transports the inhabitants of said
-		Line3: moons here to defend them...
+		Line1: 在异教徒倒下了时，世界会生成一种奇异的封印，
+		Line2: 四座天界柱与天象塔相连接将封印固定在一起，防止月亮领主的归来。
+		Line3: 塔楼的魔法师传送月亮居民运送到泰拉瑞亚世界来保护天界柱……
 	}
 
 	SolarTower: {
-		Line1: The Solar Moon is home to a moon scorched by the sun, these beings harness its power to create weapons and pride
-		Line2: themselves on their melee prowess.
+		Line1: 守护日耀柱的是以太阳耀斑生存的月球生物，
+		Line2: 他们使用耀斑的力量制造武器，并以近战能力为荣。
 	}
 
 	VortexTower: {
-		Line1: The Vortex Moon is in an area of instability, the chaotic energy regularly opens rifts on the moon, the inhabitants
-		Line2: comprise of deadly alien hornets and the people who created the firepower to exterminate them.
+		Line1: 漩涡位于月球的不稳定的区域，混沌能量在宇宙中不定期产生裂缝，
+		Line2: 守护星漩柱的是由致命的外星黄蜂和消灭它们的的生物组成。
 	}
 
 	NebulaTower: {
-		Line1: The Nebula Moon is in a cosmic dust cloud, illuminated with a large amount of mana. The creatures of this moon have
-		Line2: superior intellect and like absorbing the intellect of others.
+		Line1: 星云位于宇宙尘埃中，被大量的能量照耀。
+		Line2: 这种月球生物有着超群的智慧并吸收别人的智慧。
 	}
 
 	StardustTower: {
-		Line1: The Stardust Moon out of reach of the sun's light, instead chemical reactions within the core create an eerie blue
-		Line2: glow. The creatures of this moon are coated in this light, which when refined, turns into a mythical gold.
+		Line1: 星尘远离太阳耀斑，核心以化学反应产生了一种怪异的蓝色光辉。
+		Line2: 这种月球生物被光辉包裹着，被提炼后会变成一种神秘的黄金。
 	}
 
 	AcidRain: {
-		Line1: The pollution of the sulphur sea takes to the skies, as the rain adopts its corrosive and caustic properties.
-		Line2: during these terrifying torrents the most evolved of creatures show themselves.
-		Line3: Proving once more that nature always finds a way.
+		Line1: 由于雨水吸收了硫磺海的腐蚀性和苛性，硫磺海的气候污染了云层。
+		Line2: 在这些可怕的激流中，被腐蚀的生物出现了。
+		Line3: 再次证明大自然诞生的生物总能找到生存的条件。
 	}
 
 	TheGrandThunderBird: {
@@ -1151,8 +1151,8 @@ LoreLines: {
 		Line1: 水母皇后曾统治着海洋，仆从会听从它的命令。
 		Line2: 水母皇后非常的强大，但它已经很久没出现了。
 		Line3: 有人说它已经死了, 但我抓捕的那些仆从告诉我，
-		Line4: 它还在深海中四处徘徊，寻找那些不幸的潜水员，
-		Line5: 并吞噬他们。
+		Line4: 它还在深海中四处徘徊，寻找那些不幸的潜水员，并吞噬他们。
+		Line5: ……
 	}
 
 	Viscount: {
@@ -1261,150 +1261,150 @@ LoreLines: {
 	}
 
 	TheVagrantOfSpaceAndTime: {
-		Line1: A hooded figure who seems to be a starfarer himself, I know hes been trying to
-		Line2: catch me for the longest time. However he shall not succeed, no matter how many
-		Line3: mortals he tests.
+		Line1: 一个戴着兜帽的人，似乎是星海旅行者？
+		Line2: 就我所知，他很长一段时间试图抓住我.
+		Line3: 但是无论他考验多少人，他都不会成功。
 	}
 
 	ThespianTheActOfAlchemy: {
-		Line1: An odd concoction was given to me by a servent of mine, he promised it would
-		Line2: bring me great strength in battle, little did I know it was the catalyst of
-		Line3: reviving a long dead alchemist. I felt myself being controlled and mocked by
-		Line4: the large mask above him, but I was able to overcome it's control and defeat
-		Line5: the phantom.
+		Line1: 我的仆人给我一瓶奇怪的混合物，
+		Line2: 他说：在战斗中获得强大的力量，
+		Line3: 我不知道他是想复活一个死去的炼金术士，
+		Line4: 以灵魂为媒介所制成的催化剂，我感到自己被他脸上的面具控制和嘲笑，
+		Line5: 但我能够克服它的控制并击败炼金术士的灵魂。
 	}
 
 	DioskouroiTheTwinForces: {
-		Line1: An eternal feud between two siblings, endangering all who they come across.
-		Line2: Not listening to anyone else or any reason but to best the other in their
-		Line3: endless battle. I do wonder what caused them to hate eachother so much.
+		Line1: 他们两个兄弟之间有着很强烈的仇恨，危害他们周边的所有人。
+		Line2: 不听任何人劝告，他们只会永无止境的战斗。
+		Line3: 我真想知道是什么仇恨，让他们如此憎恨对方。
 	}
 
 	Corvus: {
-		Line1: A cold, abandoned planet that used to be a prosperous society before the Ardor.
-		Line2: As resources became scarce the planet became war torn and desolate, eventually
-		Line3: its inhabitants left the planet, making it an easy target for space pirates.
+		Line1: 曾经是一个很繁荣的星球，现在变成被遗弃的星球的状态。
+		Line2: 随着资源变得稀缺，乌鸦星最终变成饱受战争蹂躏荒凉的星球
+		Line3: 居民早已离去，使它更加很容易成为太空海盗的目标。
 	}
 
 	Caelum: {
-		Line1: Caelum... a planet splitting in twain, the decay runs so deep the planet may not
-		Line2: survive much longer, the mana concentration however is incredible, keeping the
-		Line3: souls of its inhabitants as apparitions, who have long forgotten themselves.
+		Line1: 雕具星……一个分裂成两半的星球，衰败如此之深，
+		Line2: 这颗星球可能活不了多久，但星球上的魔力是不可思议的，
+		Line3: 这种魔力使居民变成灵魂，但他们早已忘记了自己过去。
 	}
 
 	Cygnus: {
-		Line1: A curious cluster of asteroids, perhaps the remnants of a planet... there are signs of
-		Line2: civilization in some of these rocks, yet I can't quite put the pieces together...
+		Line1: 一堆奇怪的小行星带，也许是一颗星球的残骸……
+		Line2: 在这些岩石中有文明的痕迹，但我还不能把它们拼凑起来……
 	}
 
 	Aries: {
-		Line1: Its disgusting what happened to this planet... it could have been teeming with live before, but people got too
-		Line2: greedy and mined out the core of the world, now it is a broken husk of what it once was...
+		Line1: 发生在这颗星球上的事情让人恶心……它本来是充满生机的，
+		Line2: 但是入侵者过于贪婪，开采了星球核心，现在它是一个随时可以破碎的外壳……
 	}
 
 	Celestia: {
-		Line1: These structures are quite beautiful and give off a hefty amount of mana for being in the
-		Line2: middle of nowhere... Must of been a worship site of some sort...
+		Line1: 这里的建筑非常漂亮并有着大量的魔法阵
+		Line2: 荒无人烟的地方……这里估计是某种宗教场所……
 	}
 
 	Serpens: {
-		Line1: Most starfarers believe this to be a foreign mass, a dead leviathan class organism...
-		Line2: But on further inspection this is the corpse of a god.
-		Line3: It wreaks of pestilence as the corpse corrupts itself and leaks onto the nearby planet.
-		Line4: Whoever is killing these gods is causing serious catastrophes to unfold...
+		Line1: 其他星球的朋友认为这是一个利维坦类生物的尸体……
+		Line2: 但我进一步观察，这是一具神明的尸体。
+		Line3: 当尸体腐烂感染到附近的星球上会造成瘟疫。
+		Line4: 不管是谁杀了这些神明，都会造成严重的灾难……
 	}
 
 	Scorpius: {
-		Line1: The moon responsible for the blood moon occurances is also haboring the corpse of a slain god, whoever did this
-		Line2: has been doing really sloppy work, as the crimson had leaked onto the neighboring planet as well.
-		Line3: Whoever this Yharim is, he needs to be stopped.
+		Line1: 造成血月现象的星球上也藏着神明的尸体，
+		Line2: 猩红感染了附近的星球，不管怎么样做这件事的人都很草率。
+		Line3: 不管这个亚利姆是谁，我必须阻止他。
 	}
 
 	PenthesileaTheWitchOfInk: {
-		Line1: A powerful witch who uncovered the magic of art� In a literal sense. Able to channel an immense amount of mana
-		Line2: into paints and pigments, she was able to weaponize her artistic ability and become a terrifying master of the
-		Line3: artistic arcane.
+		Line1: 她是随心所欲展现艺术魔力的强大魔女，把自己的魔力引导至颜料和绘图中，
+		Line2: 正因为她能够把自己的艺术能力作为自己的攻击手段。
+		Line3: 所以她成为口口相传的艺术魔术师。
 	}
 
 	UltraPlant: {
-		Line1: This construct seems a little out of place, Constantly generating electricity, and it looks like the trees are
-		Line2: alive and made of wires. This place seems to be rarely visited by two cosmic beings from another universe...
+		Line1: 这个地方结构看起来让我有点不舒服，整个区域不断地的闪烁着电流，树木看起来也是活的，由电线制成。
+		Line2: 似乎很少有来自另一个宇宙的生物造访……
 	}
 
 	Tucana: {
-		Line1: This planet is at the inner edge of the habitable zone of this star... the whole planet is lush and hostile.
-		Line2: Its amazing how the same life ended up on the jungles of the neighboring planet...
+		Line1: 这颗行星位于这宜居带的边缘。整个星球郁郁葱葱，环境恶劣。
+		Line2: 令人惊讶的是，这样范围的宜居环境居然出现在附近星球的丛林中……
 	}
 
 	FallenTheranhad: {
-		Line1: This used to be a majestic land, a floating archipelago with beautiful architecture, till the emperor of the
-		Line2: land was drawn to an entropic god's will... and the place fell apart in a cosmic plague.
+		Line1: 这里曾经是一片雄伟的土地，拥有美丽建筑的浮动群岛
+		Line2: 直到土地上的皇帝被诺克萨斯的意志所吸引，从此这片浮岛在宇宙瘟疫中分崩离析。
 	}
 
 	FaintArchives: {
-		Line1: This is another place that is shrouded in mystery, It seems to be a temple of sorts but its ambiguous where
-		Line2: it's origin lies, however it contains so many secrets. Who knows? maybe the solution to the ardor lies here.
+		Line1: 这是一个神秘的地方，它似乎是一个档案馆?但它的起源是模糊的，
+		Line2: 但它包含了许多秘密。谁知道呢?也许解决亚铎的方法就在这里。
 	}
 
 	AstralPlague: {
-		Line1: After folling the trail of the plague that destroyed Theranhad, I found that it had significantly evolved overtime.
-		Line2: Twisting weak minded creatures to its will, and now traveling by meteor to other planets.
-		Line3: First the Ardor and now this... what more will torment this galaxy?
+		Line1: 在追踪并摧毁星辉瘟疫之后，我发现随着时间的推移，它发生了另类的进化。
+		Line2: 将意志薄弱的生物扭曲成它的意志，现在通过流星飞向其他星球。
+		Line3: 先是亚铎，现在是这个……还有什么会折磨这个星系?
 	}
 
 	NalhaunTheBurnishedKing: {
-		Line1: A ruler who lost his mind, with his weapon he ruled his world with an iron fist, however it was one of the first
-		Line2: worlds to fall to the ardor, the king survived out of pure rage and madness, his sword granting him the power of
-		Line3: a starbarer.
+		Line1: 一个失去理智的统治者，用他的武器或拳头统治着他的世界，
+		Line2: 然而是他把世界陷入名为亚铎灾难之中，
+		Line3: 皇帝从纯粹的愤怒和暴怒中存活至今，他的剑赋予他战斗的力量。
 	}
 
 	AsphodeneAndEridani: {
-		Line1: These two, they're starting to annoy me, They wouldn't understand what I have to do to save this
-		Line2: galaxy. And their champion? They need to focus on the conflicts of their own planet.
-		Line3: soon they will find me, and I'll have no choice but to eliminate them.
+		Line1: 她们两个又开始吵我了，我不明白她们要我做什么来拯救这个星系。
+		Line2: 她们那些拥护者？他们自己星球有冲突就会找到我。
+		Line3: 我别无选择，只能把杀掉他们了。
 	}
 
 	ObservatoryHyperborea: {
-		Line1: One of many floating satelites that can be found orbiting habitable worlds. It's unclear who built
-		Line2: them or what their purpose was, but they could make for a good base of operations if one were to
-		Line3: restore them.
+		Line1: 散播在命运星系众多浮岛卫星之一，可以被发现附近宜居星球。
+		Line2: 目前还不清楚是谁建造了它们，也不清楚建造它们的目的是什么，
+		Line3: 但如果有人要修复它们，它们可以成为一个很好的作战基地。
 	}
 
 	TheMartians: {
-		Line1: The long lost inhabitants of Aries, the Martians mined out their planet a long time ago till the
-		Line2: core was broken through, in search of a new place to live, they would rather take over and wipe out
-		Line3: the life on other planets than resort to diplomacy...
+		Line1: 他们曾经掠夺过在白羊星上的资源，因为度开采的星球。
+		Line2: 星球核心被破坏后，继续掠夺其他星球作为家园
+		Line3: 只是他们宁可消灭星球上的生命后接管星球，也不会对星球的生命进行交流……
 	}
 
 	DreamingCity: {
-		Line1: A mysterious city that seems out of place, almost like its from another dimension. When I visited this
-		Line2: city I was awestruck from the exotic architecture... thats when it happened, dark creatures appeared out
-		Line3: of nowhere and drove me away... and the city vanished as I left...
+		Line1: 一个梦幻的城市，和命运星系格格不入，就像来自另一个星系。当我参观这座城市时，
+		Line2: 异国情调的建筑令我肃然起敬。就在这时，梦魇不知从哪里冒出来，
+		Line3: 把我赶出了这个城市……然后城市消失了……
 	}
 
 	Lyra: {
-		Line1: Anomaly Iota... the planet is mostly acidic and definitely unsafe to be on for too long, It seems to have
-		Line2: frequent earthquakes, however they are to a rhythm, almost like a heartbeat...
+		Line1: 微量异常……这个星球大部分区域是强酸性的，
+		Line2: 在上面呆太久感觉不安全，频繁且有节奏，就像心跳一样……
 	}
 
 	Arbitration: {
-		Line1: Once again I sought out the Dreaming City, I fought through the many nightmarish creatures that roamed there.
-		Line2: But then I was transported to another place, one that had yet to be charted on the stellaglyph...
-		Line3: I saw a being so frightening... so powerful, No doubt it would be a danger to us all...
-		Line4: I had to flee, to escape this place, theres no doubt that arbitration would have killed me on sight.
+		Line1: 我再一次寻找千梦之城，与那里游荡的梦魇进行斗争。
+		Line2: 但后来我被传送到另一个地方，一个没有在旅星符台上显现出来的地方……
+		Line3: 我看到了一个更可怕的生物……如此强大，毫无疑问，这对我们大家都是一个危险……
+		Line4: 我必须逃跑，逃离这个地方，毫无疑问，仲裁会杀了我。
 	}
 
 	WarriorOfLight: {
-		Line1: How reckless can they be? To break the seal on such a dangerous god such as Fovos. They may have won but they
-		Line2: are becoming to dangerous to be allowed to live.
-		Line3: I shall send my strongest warrior there at once, to bring them to their knees.
-		Line4: Once those pests are done, we shall take out Yharim ourselves...
+		Line1: 他们有多莽撞?打破克苏鲁那样危险神明的封印。
+		Line2: 他们赢了，他们太危险了，不能让他们活下去。
+		Line3: 我马上派我最强壮的战士去，让他们屈服。
+		Line4: 等这些虫子清理干净，我就自己对战亚利姆……
 	}
 
 	Tsukiyomi: {
-		Line1: In this vast universe, there are myriad beings who possess the strength to challenge me.
-		Line2: Tsukiyomi claims to be one of them. Whether her claims are grounded in fact or are merely the delusions of a fanatic
-		Line3: remain to be seen. Either way, it will amount to the same thing in the end.
+		Line1: 在这个浩瀚的宇宙中，有无数的生物拥有挑战我的力量。
+		Line2: 月读就是其中之一，不管她的说法是有根据的，还是仅仅是一个狂热分子的妄想。
+		Line3: 继续观测吧，无论哪种方式，最终结果都是一样的。
 	}
 }
 
@@ -1413,12 +1413,12 @@ SpawnInfo: {
 	IceGolem: 困难模式暴雪事件有概率生成.
 	SandElemental: 困难模式沙尘暴事件有概率生成
 	Mothron: 击败世纪之花后，日食事件中生成.
-	CorruptMimic: 在腐化之地有概率生成，也可以在拥有腐化之地的世界用夜光钥匙放在空箱子召唤.
-	CrimsonMimic: 在猩红之地有概率生成，也可以在拥有猩红之地的世界用夜光钥匙放在空箱子召唤.
-	HallowedMimic: 在神圣之地有概率生成，也可以用光明钥匙放在空箱子召唤.
-	MyceliumMimic: 在发光蘑菇生物群系有概率生成，也可以用真菌钥匙放在空箱子召唤.
-	SubmergedMimic: 在深海生物群系有概率生成，也可以用波涛钥匙放在空箱子召唤.
-	HellBringerMimic: 在地狱有概率生成，也可以用困境钥匙放在空箱子召唤.
+	CorruptMimic: 在腐化之地有概率生成，也可以在拥有初始生成为腐化之地的世界使用[i:3091]放入空箱子召唤.
+	CrimsonMimic: 在猩红之地有概率生成，也可以在拥有初始生成猩红之地的世界使用[i:3091]放入空箱子召唤.
+	HallowedMimic: 在神圣之地有概率生成，也可以使用[i:3092]放入空箱子召唤.
+	MyceliumMimic: 在发光蘑菇生物群系有概率生成，也可以使用[i:ThoriumMod/KeyofFungus]放入空箱子召唤.
+	SubmergedMimic: 在深海生物群系有概率生成，也可以使用[i:ThoriumMod/KeyofTides]放入空箱子召唤.
+	HellBringerMimic: 在地狱有概率生成，也可以使用[i:ThoriumMod/KeyofPlight]放入空箱子召唤.
 	Cnidrion: 困难模式前沙漠有概率生成.
 	Paladin: 击败世纪之花后，地牢中有概率生成.
 	HemogoblinShark: 困难模式血月事件中通过钓鱼有概率生成.
@@ -1433,13 +1433,13 @@ SpawnInfo: {
 	BloodEel: 在血月事件期间钓鱼生成.
 	PirateCaptain: 海盗入侵事件有概率生成.
 	Constructs: 在“至尊女巫，灾厄”剩下40%的生命时生成
-	HypnosBoss: Use the bloody vein on the codebreaker once the Exo Mechs are defeated.
+	HypnosBoss: 星流巨械击败后，在密码破解器上使用[i:CalamityMod/BloodyVein]召唤。
 }
 
 Conditions.DownedHauntedTome: After Haunted Tome is defeated
 NPCs.PinkyPlaceholder.DisplayName: Pinky Placeholder
 DropConditions.JourneyMode: Mods.EventTrophies.DropConditions.JourneyMode
-MergeWarning: This mod has been merged with EventTrophies, you can craft the item into an item in Event trophies and remove the other mod.
+MergeWarning: 此模组已经与更多圣物/纪念章/灾厄传颂之物合并，你可以在模组列表中移除另一个另一个模组。
 
 Configs: {
 	EventTrophiesConfig: {
@@ -1454,7 +1454,7 @@ Configs: {
 						BossChecklist: BOSS手册支持
 						Calamity: 灾厄
 						Thorium: 瑟银
-						Misc: Miscellaneous
+						Misc: 其他
 						TrophyMasterCrafting: 大师模式纪念章制作
 					}
 				}
@@ -1462,88 +1462,88 @@ Configs: {
 		}
 
 		ChallengingEnemiesDropTrophiesAndRelics: {
-			Label: Challenging Enemies Drop Trophies and Relics
-			Tooltip: Challenging enemies like pinky or cnidrion drop trophies and relics
+			Label: 精英敌怪掉落纪念章和圣物
+			Tooltip: 例如：粉史莱姆或卧龙海马等精英敌怪掉落的纪念章和圣物
 		}
 
 		PseudoMiniBossesDropTrophiesAndRelics: {
-			Label: Pseudo Mini Bosses Drop Trophies and Relics
-			Tooltip: Pseudo Mini Bosses like Biome Mimics, Ice Golems and Elementals drop trophies and relics
+			Label: 伪迷你BOSS掉落纪念章和圣物
+			Tooltip: 例如：生物群系的宝箱怪或冰雪巨人或元素精英敌怪掉落的纪念章和圣物
 		}
 
 		AddSummonersForChallengingEnemies: {
-			Label: Add Extra Summoning Items
-			Tooltip: Adds extra spawn items for checklist items that do not have them
+			Label: 增加额外的召唤物品
+			Tooltip: 增加额外的召唤物品和在BOSS清单上的显示
 		}
 
 		AddChallengingEnemies: {
-			Label: Add Challenging Enemies
-			Tooltip: Adds challenging enemies like pinky and cnidrion to the checklist
+			Label: BOSS清单增加精英敌怪
+			Tooltip: 在BOSS清单增加类似粉史莱姆或卧龙海马等精英怪的词条
 		}
 
 		AddPseudoMiniBosses: {
-			Label: Add Pseudo Mini Bosses
-			Tooltip: Adds Pseudo Mini Bosses like Biome Mimics, Ice Golems and Elementals to the checklist
+			Label: BOSS清单增加迷你BOSS
+			Tooltip: 在BOSS清单增加类似生物群系的宝箱怪或冰雪巨人或元素精英怪的词条
 		}
 
 		AddLesserEvents: {
-			Label: Add Lesser Events
-			Tooltip: Adds lesser events such as blizzard, slime rain, and sandstorm to the checklist (Unimplemented)
+			Label: BOSS清单增加次要事件 (未实现)
+			Tooltip: 在BOSS清单增加暴风雪，史莱姆雨，沙尘暴的词条 (未实现)
 		}
 
 		AddStellarVoyages: {
-			Label: Add Stellar Voyages
-			Tooltip: Adds Stars Above Stellar Voyages to the checklist (Unimplemented)
+			Label: BOSS清单增加星海苍穹的星系 (未实现)
+			Tooltip: 在BOSS清单增加星海苍穹星系的词条 (未实现)
 		}
 
 		ExtraCalamityLoreItems: {
-			Label: Extra Calamity Lore Items
-			Tooltip: Adds Extra Calamity lore items to vanilla bosses
+			Label: 额外灾厄传颂之物的原版物品
+			Tooltip: 为原版BOSS添加额外的灾厄传颂之物
 		}
 
 		ThoriumLoreItems: {
-			Label: Thorium Lore Items
-			Tooltip: Adds Extra Calamity lore items to thorium bosses
+			Label: 额外灾厄传颂之物的瑟银物品
+			Tooltip: 为瑟银BOSS添加额外的灾厄传颂之物
 		}
 
 		StarsAboveLoreItems: {
-			Label: Stars Above Lore Items
-			Tooltip: Adds Extra Calamity lore items to stars above bosses and traces on voyages
+			Label: 额外灾厄传颂之物的星海苍穹物品
+			Tooltip: 为星海苍穹BOSS添加额外的灾厄传颂之物和样本痕迹
 		}
 
 		ChallengingEnemiesDropVanquisherMedals: {
-			Label: Challenging Enemies Drop Vanquisher Medals
-			Tooltip: Challenging enemies other than contracted ones drop vanquisher medals
+			Label: 精英敌怪会掉落征服者勋章
+			Tooltip: 除合同以外的敌怪会掉落征服者勋章
 		}
 
 		PseudoMiniBossesDropVanquisherMedals: {
-			Label: Pseudo Mini Bosses Drop Vanquisher Medals
-			Tooltip: Pseudo mini bosses other than contracted ones drop vanquisher medals
+			Label: 伪迷你BOSS掉落征服者勋章
+			Tooltip: 除合同以外的伪迷你BOSS掉落征服者勋章
 		}
 
 		MiniBossesDropVanquisherMedals: {
-			Label: Mini Bosses Drop Vanquisher Medals
-			Tooltip: Mini Bosses drop vanquisher medals
+			Label: 迷你BOSS掉落征服者勋章
+			Tooltip: 除合同以外的迷你BOSS掉落征服者勋章
 		}
 
 		HideModMergeItemTooltip: {
-			Label: Hide Mod Merge Item Tooltip
-			Tooltip: Hide StarsAboveLore and ThoriumLore Merge tooltip
+			Label: 隐藏模组合并项提示
+			Tooltip: 隐藏星海苍穹传颂之物和瑟银传颂之物的合并提示
 		}
 
 		CraftableTrophiesFromRelics: {
-			Label: Craftable Trophies from Relics
-			Tooltip: Allows Trophies to be crafted from relics at the Trophy Prep Table
+			Label: 使用圣物制作纪念章
+			Tooltip: 允许纪念章在纪念章制作台处使用圣物制作
 		}
 
 		EventTrophyRelicAmount: {
-			Label: Event Trophy Relic Amount
-			Tooltip: How many relics from events are required to make a trophy
+			Label: 制作事件纪念章所需数量
+			Tooltip: 制作事件纪念章需要多少圣物
 		}
 
 		BossTrophyRelicAmount: {
-			Label: Boss Trophy Relic Amount
-			Tooltip: How many relics from bosses are required to make a trophy (Bosses with multiple trophies will divide this number by the amount of trophies)
+			Label: BOSS圣物数量
+			Tooltip: 制作一个纪念章需要多少来自BOSS的圣物(拥有多个圣物会除以当前数值的圣物的数量)
 		}
 	}
 }
