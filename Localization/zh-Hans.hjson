@@ -4747,10 +4747,9 @@ Mods: {
 			}
 
 			DemonBloodSpear: {
-				DisplayName: 魔血法杖
+				DisplayName: 魔血长矛
 				Tooltip:
 					'''
-					释放一道高度浓缩的血球，可以击中同个敌怪多次
 					造成伤害会提供鲜血充能
 					处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
 					'''
