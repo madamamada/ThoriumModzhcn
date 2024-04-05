@@ -17,7 +17,7 @@ Mods: {
 			ForgottenOneDefeat: The toxic haze of the depths has been lifted...
 			SpiderWarning: The Spider Nests in your world rustle in anger...
 			BoreanStriderAppear: An eight legged menace is prowling the tundra...
-			PatchWerkDefeat: The dreaded {$NPCs.PatchWerk.DisplayName} has been removed from the world!
+			PatchWerkDefeat: The dreaded {$NPCs.PatchWerk.DisplayName} falls apart...
 			CorpseBloomDefeat: The elusive {$NPCs.CorpseBloom.DisplayName} withers away...
 			IllusionistDefeat: The enigmatic {$NPCs.Illusionist.DisplayName} shatters into pieces...
 			BuriedChampionAppear: The {$NPCs.BuriedChampion.DisplayName} has broken free!
@@ -1682,6 +1682,11 @@ Mods: {
 				DisplayName: Skull Cat
 				Description: Time for a super animal adventure
 			}
+
+			ScytheofUndoingBuff: {
+				DisplayName: Scythe of Undoing
+				Description: Granted a dark power...
+			}
 		}
 
 		Conditions: {
@@ -1695,6 +1700,8 @@ Mods: {
 			DownedFallenBeholder: "{$NPCs.FallenBeholder.DisplayName} has been defeated"
 			DownedLich: "{$NPCs.Lich.DisplayName} has been defeated"
 			DownedForgottenOne: "{$NPCs.ForgottenOne.DisplayName} has been defeated"
+			DownedPatchWerk: "{$NPCs.PatchWerk.DisplayName} has been defeated"
+			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName} has been defeated"
 			DownedIllusionist: "{$NPCs.Illusionist.DisplayName} has been defeated"
 			DownedOgre: An Ogre has been defeated
 			HasInspiration: Player has {0} or more total inspiration
@@ -1704,6 +1711,9 @@ Mods: {
 			SalamanderCannotSpawn: Salamanders cannot spawn in the world
 			GiantShellyCannotSpawn: Giant Shellys cannot spawn in the world
 			CompletedMonsterContract: Completed the {0} {$NPCs.Tracker.DisplayName} contract
+			NotInMasterMode: Not in master mode
+			WorldHasBloodAltar: World has Blood Altar
+			WorldHasNoBloodAltarOrDownedViscount: World has no Blood Altar or {$Conditions.DownedViscount}
 		}
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
@@ -1812,6 +1822,7 @@ Mods: {
 
 			ItemTopTooltip: Playing empowers players with bonus:
 			EmpowermentNameLevel: "{$Common.Concatenate}"
+			ItemTopTooltipHoldShift: Hold 'Shift' key to show provided empowerments
 		}
 
 		InfoDisplays: {
@@ -2318,8 +2329,8 @@ Mods: {
 				DisplayName: Bassoon
 				Tooltip:
 					'''
-					Launches a sticky bassoon bomb
-					Right click to detonate all bombs, withering all hit enemies
+					Launches a bassoon bomb that sticks to surfaces and enemies
+					Right click to detonate all bombs at the cost of {0} inspiration, withering all hit enemies
 					'''
 			}
 
@@ -5311,7 +5322,7 @@ Mods: {
 				ConvertTooltip: Right click to cycle styles or recraft to convert into a {0} variant
 				Grounded: grounded
 				Hanging: hanging
-				PylonRestriction: You can only place {0} Bird Feeders for every Pylon you have placed in the world (current limit: {1})
+				PylonRestriction: You can only place {0} Bird Feeders for every Pylon placed in the world (current limit: {1})
 				SeedTooltipReplacement: For use with blowpipes and bird feeders
 				SeedTooltipFallback: For use with bird feeders
 				TileMouseover: Check back later...
@@ -6185,7 +6196,7 @@ Mods: {
 
 			JetstreamSheath: {
 				DisplayName: Jetstream Sheath
-				Tooltip: Sword strikes release a flurry of slashes against nearby enemies if held and not used for {0} {^0:second;seconds}
+				Tooltip: Sword strikes release {0} slashes against nearby enemies if held and not used for {1} {^1:second;seconds}
 			}
 
 			JewellersWallGrip: {
@@ -6214,7 +6225,11 @@ Mods: {
 
 			LaunchJumper: {
 				DisplayName: Launch Jumper
-				Tooltip: Launches a rocket-jumpable missile
+				Tooltip:
+					'''
+					Launches a rocket-jumpable missile that can send you flying
+					While holding this weapon, you are immune to enemy knockback
+					'''
 			}
 
 			Legacy: {
@@ -7334,6 +7349,14 @@ Mods: {
 					Unleashes a specified blast of elemental energy
 					Right Click to switch between five elements
 					'''
+
+				WondrousWandStage: {
+					Fire: Fire
+					Ice: Ice
+					Shadow: Shadow
+					Ichor: Ichor
+					CursedFlame: Cursed Flame
+				}
 			}
 
 			WyvernSlayer: {
@@ -9488,7 +9511,9 @@ Mods: {
 
 			MartyrChalice: {
 				DisplayName: Martyr's Chalice
-				Tooltip: Allies are given 3 seconds of invulnerability after being healed
+				Tooltip: Allies are given {0} seconds of invulnerability after being healed
+				HealAmount: Sacrifices your own life to heal all allies in the world for [c/5aff5a:{0}] life
+				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
 			}
 
 			MedicalBag: {
@@ -16264,14 +16289,26 @@ Mods: {
 				Tooltip: Increases summon damage by 5%
 			}
 
-			SpiritTrapperHelmet: {
+			SpiritTrapperCowl: {
 				DisplayName: Spirit Trapper's Cowl
 				Tooltip: Increases your max number of minions by 1
+				SetBonus:
+					'''
+					Increases your max number of minions by {0}
+					Killing enemies or continually damaging bosses generates soul wisps
+					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					'''
 			}
 
 			SpiritTrapperMask: {
 				DisplayName: Spirit Trapper's Mask
 				Tooltip: Increases your max number of sentries by 1
+				SetBonus:
+					'''
+					Increases your max number of sentries by {0}
+					Killing enemies or continually damaging bosses generates soul wisps
+					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					'''
 			}
 
 			SpittingFish: {
@@ -17537,6 +17574,7 @@ Mods: {
 					15% reduced mana usage
 					Casting spells beneath 75 current mana will deal increased damage
 					'''
+				SetBonus: Damage done increased by {0}%!
 			}
 
 			TitanHelmet: {
@@ -17802,6 +17840,13 @@ Mods: {
 					Summons a chosen totem sentry at your cursor's position
 					Right click to switch between four different totem elements
 					'''
+
+				TotemCallerStage: {
+					Fire: Fire
+					Earth: Earth
+					Wind: Wind
+					Water: Water
+				}
 			}
 
 			TrackerBoard: {
@@ -18027,6 +18072,21 @@ Mods: {
 
 			AncientDragonMask: {
 				DisplayName: Ancient Dragon Mask
+				Tooltip: ""
+			}
+
+			AncientMarchingBandUniform: {
+				DisplayName: Ancient Marching Band Uniform
+				Tooltip: ""
+			}
+
+			AncientMarchingBandLeggings: {
+				DisplayName: Ancient Marching Band Leggings
+				Tooltip: ""
+			}
+
+			AncientMarchingBandCap: {
+				DisplayName: Ancient Marching Band Cap
 				Tooltip: ""
 			}
 
@@ -18532,9 +18592,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			WeirdMud: {
+			AnnoyingMud: {
 				DisplayName: Annoying Mud
-				Tooltip: "'Lest we forget...'"
+				Tooltip: "'Not this stuff again...'"
 			}
 
 			RemovedItems: {
@@ -18608,6 +18668,121 @@ Mods: {
 					'''
 					Killing an enemy grants you 2 'organs', allowing you to store up to 10
 					Right click to chuck a stored organ at enemies
+					'''
+			}
+
+			ScytheofUndoing: {
+				DisplayName: Scythe of Undoing
+				Tooltip:
+					'''
+					Spins a demonic scythe that generates rage as you damage enemies
+					Right click while at full rage to briefly transform into a powerful demon
+					While transformed, left and right click change effects and they gain life steal
+					Additionally, you take less damage and move faster
+					'''
+
+				Messages: {
+					Idle: {
+						TheRage: The rage is in your hands. Let it loose!
+						NoToy: I am no toy...
+						NotWorthy: You are not worthy of the power you hold.
+						GiveIn: Give in...
+						WillToLive: I find your will to live… amusing.
+					}
+
+					Attacking: {
+						KillThem: Kill them all!
+						Yes: Yes...
+						More: More, more!
+						TimeToReap: Time to reap!
+						KeepCutting: Keep cutting!
+					}
+
+					AttackingBoss: {
+						KillThem: "{$Items.ScytheofUndoing.Messages.Attacking.KillThem}"
+						Yes: "{$Items.ScytheofUndoing.Messages.Attacking.Yes}"
+						More: "{$Items.ScytheofUndoing.Messages.Attacking.More}"
+						TimeToReap: "{$Items.ScytheofUndoing.Messages.Attacking.TimeToReap}"
+						KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
+						LouderScream: The louder they scream, the better.
+						SetFree: Set me free!
+						MuchFlesh: If only they ALL had this much flesh to tear!
+						CutDown: Cut ‘em down!
+					}
+
+					AttackingDummy.PreferFlesh: I prefer the sound of flesh being torn, but oh well...
+
+					EnemyKill: {
+						FeltGood: Ooohhh! That felt good.
+						FuelsFury: Every kill fuels my fury.
+						Slaughter: YES! Slaughter!
+						RippedOut: Ripped out!
+						BetterInRed: Everyone DOES look better in red!
+					}
+
+					BossDefeat: {
+						TheUndoing: I AM the UNDOING!
+						NeverThere: Like they were never there...
+						TheReaping: I am fury... I AM THE REAPING!
+					}
+
+					BuyItem.NotFirstChoice: Not my first choice, but okay.
+
+					RecallHome: {
+						TheWeakRun: The weak run. Stay and fight!
+						Retreat: Retreat?!
+					}
+
+					Transforming: {
+						TheseLegs: Oh! These legs will take some getting used to.
+						Wrath: The WRATH I will unleash!
+						Destruction: Destruction! Wrath! Fury! As it was meant to be.
+						Reaping: Let the reaping commence... NOW!
+					}
+
+					ThrownItem: {
+						ALittleHelp: A little help… Anyone?
+						ComeBack: You will come back… in time.
+					}
+
+					Storage: {
+						CantSee: I can’t see anything in here.
+						WhatAboutReaping: What about the reaping?
+						StirsWrath: This only stirs my wrath.
+						MuchToKill: But there’s still so much to kill!
+					}
+
+					PickedUp: {
+						ReapingBegun: The reaping has begun!
+						ILive: I live to kill again!
+					}
+				}
+			}
+
+			FreshBrain: {
+				DisplayName: Fresh Brain
+				Tooltip:
+					'''
+					Resummons a nasty stitched abomination
+					Only usable during a Blood Moon
+					'''
+			}
+
+			IllusionaryGlass: {
+				DisplayName: Illusionary Glass
+				Tooltip:
+					'''
+					Resummons a deceptive spell caster
+					Only usable within the Dungeon
+					'''
+			}
+
+			RottingSpore: {
+				DisplayName: Rotting Spore
+				Tooltip:
+					'''
+					Resummons a man-eating plant
+					Only usable within the Underground Jungle
 					'''
 			}
 		}
@@ -18816,7 +18991,7 @@ Mods: {
 			PatchWerk: {
 				DisplayName: Patch Werk
 				BestiaryFlavorText: A horrifying creature formed from the maggot-filled, fallen remains of Terrarians. It calls out to anyone listening, begging to be put down.
-				BossChecklistIntegration.SpawnInfo: Randomly appears during the Blood Moon. Start the Blood Moon with a [i:BloodMoonStarter].
+				BossChecklistIntegration.SpawnInfo: Randomly appears during the Blood Moon. Can be resummoned with a [i:ThoriumMod/FreshBrain] purchased from the Confused Zombie. Start the Blood Moon with a [i:BloodMoonStarter].
 			}
 
 			SeveredLegs: {
@@ -18832,7 +19007,7 @@ Mods: {
 			CorpseBloom: {
 				DisplayName: Corpse Bloom
 				BestiaryFlavorText: It's unclear if this mutant flower earned its name from its foul odor, or what it typically leaves Terrarians as in its wake.
-				BossChecklistIntegration.SpawnInfo: Randomly appears in the post-Skeletron underground jungle.
+				BossChecklistIntegration.SpawnInfo: Randomly appears in the Underground Jungle after defeating the Eater of Worlds / Brain of Cthulhu. Can be resummoned with a [i:ThoriumMod/RottingSpore] purchased from the Confused Zombie.
 			}
 
 			CorpsePetal.DisplayName: Corpse Petal
@@ -18955,7 +19130,7 @@ Mods: {
 					Princess_LovesNPC: Heehee, {NPCName} makes such goofy faces!
 				}
 
-				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.PatchWerk.DisplayName}] during a Blood Moon
+				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.PatchWerk.DisplayName}]
 				Button2: Enemy Repellent ({^0:80 Silver;1 Gold})
 			}
 
@@ -19243,7 +19418,7 @@ Mods: {
 					Princess_LovesNPC: "{NPCName} assembles the loveliest flower bouquets!"
 				}
 
-				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}] in the post-Skeletron Jungle
+				Census.SpawnCondition: Defeat [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}].
 			}
 
 			EarthenBat: {
@@ -19408,7 +19583,7 @@ Mods: {
 			Illusionist: {
 				DisplayName: Illusionist
 				BestiaryFlavorText: A beguiler predating the Dungeon itself. Using visions of false adversaries, it led an ancient despot into ruining its kingdom with a terrible curse.
-				BossChecklistIntegration.SpawnInfo: Randomly appears in the Dungeon.
+				BossChecklistIntegration.SpawnInfo: Randomly appears in the Dungeon. Can be resummoned with a [i:ThoriumMod/IllusionaryGlass] purchased from the Confused Zombie.
 			}
 
 			IllusionistMirror.DisplayName: Illusionist's Mirror
@@ -19446,7 +19621,7 @@ Mods: {
 
 			LihzardMimic: {
 				DisplayName: Lihzahrd Mimic
-				BestiaryFlavorText: An invasive species of mimic that has found its way into the Temple. The Lihzahrds donÕt seem to mind...
+				BestiaryFlavorText: An invasive species of mimic that has found its way into the Temple. The Lihzahrds don't seem to mind...
 			}
 
 			LihzardPotMimic1: {
@@ -20057,7 +20232,12 @@ Mods: {
 			ZunpetPro2.DisplayName: Zunpet Pro2
 			ZunpetPro3.DisplayName: Zunpet Pro3
 			BassBoosterMagicPro.DisplayName: Bass Booster Magic Pro
-			BatCavePointer.DisplayName: Bat Cave Pointer
+
+			BatCavePointer: {
+				DisplayName: Bat Cave Pointer
+				NoAltar: No Blood Chamber in world
+			}
+
 			BatWingPro.DisplayName: Bat Wing Pro
 			Bee.DisplayName: Bee
 			BeeStrong.DisplayName: Bee Strong
@@ -20235,7 +20415,7 @@ Mods: {
 			CatsEyeGreatStaffPro3.DisplayName: Cats Eye Great Staff Pro3
 			CelestialDrillPro.DisplayName: Celestial Drill
 			CelestialPulse.DisplayName: Celestial Pulse
-			ChampionCatcherPro.DisplayName: Champion Catcher Pro
+			ChampionCatcherBobber.DisplayName: Champion Catcher Bobber
 			ChampionShock.DisplayName: Champion Shock
 			ChargedSplasherPro.DisplayName: Charged Splasher Pro
 			CharmPro.DisplayName: Charm
@@ -20441,7 +20621,7 @@ Mods: {
 			GardenersSheathPro.DisplayName: Gardeners Sheath Pro
 			GasContainerPro.DisplayName: Gas Container Pro
 			GazeEffect.DisplayName: Gaze Effect
-			GeodeGathererPro.DisplayName: Geode Gatherer Pro
+			GeodeGathererBobber.DisplayName: Geode Gatherer Bobber
 			GeomancersBrushPro.DisplayName: Geomancers Brush Pro
 			GeomancersBrushPro2.DisplayName: Geomancy
 			GeomancersBrushPro3.DisplayName: Geomancers Brush Pro3
@@ -20477,7 +20657,7 @@ Mods: {
 			GorgonsEyePro.DisplayName: Gorgons Eye Pro
 			GraniteArrowPro.DisplayName: Granite Arrow Pro
 			GraniteBarrier.DisplayName: Granite Barrier
-			GraniteControlRodPro.DisplayName: Granite Control Rod Pro
+			GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
 			GraniteEradicatorArm.DisplayName: Granite Eradicator Arm
 			GraniteReflectorPro.DisplayName: Granite Reflector Pro
 			GraveBusterPro.DisplayName: Grave Buster Pro
@@ -21107,7 +21287,7 @@ Mods: {
 			RifleSpearPro.DisplayName: Rifle Spear Pro
 			RifleSpearPro2.DisplayName: Rifle Spear Pro2
 			RifleSpearPro3.DisplayName: Rifle Spear Pro3
-			RlyehLostRodPro.DisplayName: Rlyeh Lost Rod Pro
+			RlyehLostRodBobber.DisplayName: Rlyeh Lost Rod Bobber
 			RopePro.DisplayName: Rope Pro
 			SabaBlast.DisplayName: Saba Blast
 			SandShiftersPouchPro.DisplayName: Sand Shifters Pouch Pro
@@ -21535,9 +21715,16 @@ Mods: {
 			QuakeGauntletPro3.DisplayName: Quake Gauntlet
 			QuakeGauntletPro2.DisplayName: Quake Gauntlet
 			QuakeGauntletPro.DisplayName: Quake Gauntlet
-			QuakeGauntletPro5.DisplayName: Quake Gauntlet Pro5
-			QuakeGauntletPro6.DisplayName: Quake Gauntlet Pro6
-			BonesawPro.DisplayName: Bonesaw Pro
+			QuakeGauntletPro5.DisplayName: Quake Gauntlet
+			QuakeGauntletPro6.DisplayName: Quake Gauntlet
+			BonesawPro.DisplayName: Bonesaw Organ
+			JetstreamSheathPro.DisplayName: Jetstream Sheath
+			JetstreamSheathChainPro.DisplayName: Jetstream Sheath
+			ScytheofUndoingPro.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro2.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 		}
 
 		Tiles: {
@@ -21990,6 +22177,16 @@ Mods: {
 					Label: Technique Point Opacity
 					Tooltip: ""
 				}
+
+				ShowFullEmpowermentTooltip: {
+					Label: Show Full Empowerment Tooltip
+					Tooltip: Toggle if the "{$Empowerments.ItemTopTooltipHoldShift}" tooltip shows the full tooltip instead
+				}
+
+				ShowEmpowermentOrbsInTooltip: {
+					Label: Show Empowerment Orbs In Tooltip
+					Tooltip: Toggle if orb icons should be displayed alongside empowerments in tooltips
+				}
 			}
 
 			HealthOverlayStyle: {
@@ -22093,5 +22290,12 @@ Mods: {
 				BloodChamber: Burying a Blood Chamber
 			}
 		}
+
+		Emotes: {
+			ScytheofUndoingEmote.Command: scytheofundoingemote
+			WhisperingSetEmote.Command: whisperingsetemote
+		}
+
+		MapLayers.GrimPointerMapLayer.Name: Blood Chamber
 	}
 }

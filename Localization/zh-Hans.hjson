@@ -17,7 +17,7 @@ Mods: {
 			ForgottenOneDefeat: 深海的毒雾已被驱散……
 			SpiderWarning: 蜘蛛的巢穴在愤怒地作响……
 			BoreanStriderAppear: 八足的可怖威胁正在雪地上徘徊……
-			PatchWerkDefeat: 恐怖的缝合人已从世界上消失！
+			PatchWerkDefeat: 恐怖的缝合人已从世界上消失！（等wiki占位符）
 			CorpseBloomDefeat: 藏匿的绝命花已经凋零……
 			IllusionistDefeat: 神秘幻术师被碾碎了……
 			BuriedChampionAppear: 英灵遗骸挣脱了束缚！
@@ -28,7 +28,7 @@ Mods: {
 			DreamEaterDefeat: 现实恢复回了原先的宁静……
 		}
 
-		// Bestiary.InfoElements.ExpertModeInfoElement: Expert Mode Only
+		Bestiary.InfoElements.ExpertModeInfoElement: 仅限专家模式
 		
 		GravestoneText: {
 			# Bit ugly but you need to keep updating these numbers to be consecutive (no gaps), and also update the total count in code (GraveyardPass.GravestoneTextCount)
@@ -122,7 +122,7 @@ Mods: {
 				CommonDescription: 有什么东西在黑暗中盯着你...
 			}
 
-			// AbyssalShadowBuff3.Description: The waters ripple...
+			AbyssalShadowBuff3.Description: 水泛起涟漪……
 			
 			AbyssalShellBuff: {
 				DisplayName: 深渊贝壳
@@ -611,7 +611,7 @@ Mods: {
 
 			LifeBinderSetBuff: {
 				DisplayName: 迷惑光盾
-				Description: 你的最大生命值增加50(wiki 40)
+				Description: 你的最大生命值增加50
 			}
 
 			LifeQuartzShieldBuff: {
@@ -889,14 +889,14 @@ Mods: {
 				Description: 请试着忽略烟味...
 			}
 
-			// AquamarineMinecartBuff.DisplayName: Aquamarine Minecart
+			AquamarineMinecartBuff.DisplayName: 海蓝宝石矿车
 			
 			BathtubCartBuff: {
 				DisplayName: 浴缸矿车
 				Description: 在水中行驶地更快
 			}
 
-			// OpalMinecartBuff.DisplayName: Opal Minecart
+			OpalMinecartBuff.DisplayName: 欧珀矿车
 			
 			RocketCartBuff: {
 				DisplayName: 火箭矿车
@@ -1660,7 +1660,7 @@ Mods: {
 
 			Wither: {
 				DisplayName: 枯萎
-				Description: 枯萎吧!!！
+				Description: 枯 萎 吧 !!！
 			}
 
 			ZombieRepellentBuff: {
@@ -1683,9 +1683,10 @@ Mods: {
 				Description: 是时候进行一次超级动物大冒险了
 			}
 
-			AbyssalShadowBuff3.Description: 水泛起涟漪……
-			AquamarineMinecartBuff.DisplayName: 海蓝宝石矿车
-			OpalMinecartBuff.DisplayName: 欧珀矿车
+			ScytheofUndoingBuff: {
+				DisplayName: Scythe of Undoing
+				Description: Granted a dark power...
+			}	
 		}
 
 		Conditions: {
@@ -1699,6 +1700,8 @@ Mods: {
 			DownedFallenBeholder: "{$NPCs.FallenBeholder.DisplayName}击败后"
 			DownedLich: "{$NPCs.Lich.DisplayName}击败后"
 			DownedForgottenOne: "{$NPCs.ForgottenOne.DisplayName}击败后"
+			DownedPatchWerk: "{$NPCs.PatchWerk.DisplayName}击败后"
+			DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName}击败后"
 			DownedIllusionist: "{$NPCs.Illusionist.DisplayName}击败后"
 			DownedOgre: boss击败后
 			HasInspiration: 当玩家拥有{0}及以上的灵感值
@@ -1708,7 +1711,11 @@ Mods: {
 			SalamanderCannotSpawn: 蝾螈无法生成的世界
 			GiantShellyCannotSpawn: 巨型卷壳怪无法生成的世界
 			CompletedMonsterContract: 完成{0} {$NPCs.Tracker.DisplayName}协议
+			NotInMasterMode: 没有在大师模式下
+			WorldHasBloodAltar: 世界有鲜血祭坛
+			WorldHasNoBloodAltarOrDownedViscount: 世界没有鲜血祭坛或{$Conditions.DownedViscount}
 		}
+
 
 		# All texts in vanilla start with "Drops" so generic conditions from the Condition/ThoriumConditions classes won't work
 		DropConditions: {
@@ -1726,7 +1733,7 @@ Mods: {
 		Empowerments: {
 			AquaticAbility: {
 				DisplayName: 水栖能力
-				Tooltip: 水下呼吸时间和游泳速度增加 {0}%
+				Tooltip: 水下呼吸时间和游泳速度增加{0}%
 			}
 
 			AttackSpeed: {
@@ -1816,6 +1823,7 @@ Mods: {
 
 			ItemTopTooltip: 演奏会提供玩家以下加成：
 			EmpowermentNameLevel: "{$Common.Concatenate}"
+			ItemTopTooltipHoldShift: Hold 'Shift' key to show provided empowerments
 		}
 
 		InfoDisplays: {
@@ -1904,16 +1912,16 @@ Mods: {
 			}
 
 			WhisperingHood: {
-				// DisplayName: Whispering Hood
-				/* Tooltip:
-				'''
-				Corrupts your radiant powers
-				25% decreased non-radiant damage
-				25% increased radiant damage
-				12% increased radiant critical strike chance
-				Maximum mana increased by 40
-				Healing spells will heal an additional 1 life
-				''' */
+				DisplayName: 低语者兜帽
+				Tooltip:
+					'''
+					污染你的光辉力量
+					降低25%非光辉伤害
+					增加25%光辉伤害
+					增加12%光辉暴击率
+					最大魔力值增加40
+					治疗法术会额外治疗1点生命值
+					'''
 				
 				SetBonusQuotes: {
 					TheGrandThunderBird: 为什么要怜悯弱者...?
@@ -1952,18 +1960,6 @@ Mods: {
 					0: 那不是我们中的一员……真有趣……
 					1: 他们存在于循环之外……
 				}
-
-				DisplayName: 低语者兜帽
-				Tooltip:
-					'''
-					污染你的光辉力量
-					降低25%非光辉伤害
-					增加25%光辉伤害
-					增加12%光辉暴击率
-					最大魔力值增加40
-					治疗法术会额外治疗1点生命值
-
-					'''
 			}
 
 			WhisperingLeggings: {
@@ -2334,7 +2330,7 @@ Mods: {
 			}
 
 			Bassoon: {
-				DisplayName: 巴松低音管
+				DisplayName: 巴松低音管（等wiki占位符）
 				Tooltip:
 					'''
 					发射粘性的巴松炸弹
@@ -2785,9 +2781,9 @@ Mods: {
 				InspirationRequirement: 需要至少{0}点灵感值
 			}
 
-			// InspirationCrystalNew.DisplayName: Inspiration Crystal
-			// InspirationFragment.DisplayName: Inspiration Fragment
-			// InspirationShard.DisplayName: Inspiration Shard
+			InspirationCrystalNew.DisplayName: 灵感水晶
+			InspirationFragment.DisplayName: 灵感碎片
+			InspirationShard.DisplayName: 灵感碎块
 			
 			InspirationGem: {
 				DisplayName: 灵感宝石（微光转化）
@@ -2799,7 +2795,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// InspirationNote.DisplayName: Inspiration Note
+			InspirationNote.DisplayName: 灵感音符
 			
 			InspirationReachPotion: {
 				DisplayName: 灵感之触药水
@@ -5168,44 +5164,44 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// BlockyMask.DisplayName: Blocky Mask
-			// BlockyPants.DisplayName: Blocky Pants
-			// BlockyShirt.DisplayName: Blocky Shirt
-			// BrutalChestguard.DisplayName: Brutal Chestguard
-			// BrutalGreaves.DisplayName: Brutal Greaves
-			// BrutalMask.DisplayName: Brutal Mask
-			// CataclysmicsGarb.DisplayName: Cataclysmic Garb
-			// CataclysmicsHollowMask.DisplayName: Cataclysmic Hollow Mask
-			// ChunkyGreaves.DisplayName: Chunky Greaves
-			// ChunkyHelmet.DisplayName: Chunky Helmet
-			// ChunkyMail.DisplayName: Chunky Mail
-			// DannyLamentLeggings.DisplayName: Danny's Lament Leggings
-			// DannyLamentMask.DisplayName: Danny's Lament Mask
-			// DannyLamentSuit.DisplayName: Danny's Lament Suit
-			// DeluxeHalcandranBow.DisplayName: Deluxe Halcandran Bow
-			// DeluxeHalcandranHat.DisplayName: Deluxe Halcandran Hat
-			// GhastlyGarment.DisplayName: Ghastly Garment
-			// GhastlyHood.DisplayName: Ghastly Hood
-			// GhastlyLeggings.DisplayName: Ghastly Leggings
-			// GrandThoriumBreastPlate.DisplayName: Grand Thorium Breastplate
-			// GrandThoriumGreaves.DisplayName: Grand Thorium Greaves
-			// GrandThoriumHelmet.DisplayName: Grand Thorium Helmet
-			// HalcandranHood.DisplayName: Halcandran Hood
-			// HalcandranPants.DisplayName: Halcandran Pants
-			// HalcandranTabard.DisplayName: Halcandran Tabard
-			// MrUniverseMask.DisplayName: Mr. Universe's Mask
-			// MrUniversePants.DisplayName: Mr. Universe's Pants
-			// MrUniverseSuit.DisplayName: Mr. Universe's Suit
-			// PhonicWings.DisplayName: Phonic Wings
-			// ShinobiGi.DisplayName: Shinobi Gi
-			// ShinobiMask.DisplayName: Shinobi Mask
-			// ShinobiTreads.DisplayName: Shinobi Treads
-			// SpheromancerMask.DisplayName: Spheromancer Mask
-			// SpheromancerPants.DisplayName: Spheromancer Pants
-			// SpheromancerSuit.DisplayName: Spheromancer Suit
-			// WildAntlers.DisplayName: Wild Antlers
-			// WildLoincloth.DisplayName: Wild Loincloth
-			// WildRobe.DisplayName: Wild Robe
+			BlockyMask.DisplayName: 方块面具
+			BlockyPants.DisplayName: 方块裤子
+			BlockyShirt.DisplayName: 方块衣服
+			BrutalChestguard.DisplayName: 残忍胸甲
+			BrutalGreaves.DisplayName: 残忍护胫
+			BrutalMask.DisplayName: 残忍面具
+			CataclysmicsGarb.DisplayName: 大灾变衣
+			CataclysmicsHollowMask.DisplayName: 空洞面具
+			ChunkyGreaves.DisplayName: 厚重护胫
+			ChunkyHelmet.DisplayName: 厚重头盔
+			ChunkyMail.DisplayName: 厚重盔甲
+			DannyLamentLeggings.DisplayName: 丹尼之叹护胫
+			DannyLamentMask.DisplayName: 丹尼之叹面具
+			DannyLamentSuit.DisplayName: 丹尼之叹上衣
+			DeluxeHalcandranBow.DisplayName: 豪华哈坎德兰蝴蝶结
+			DeluxeHalcandranHat.DisplayName: 豪华哈坎德兰帽
+			GhastlyGarment.DisplayName: 恐怖皮衣
+			GhastlyHood.DisplayName: 恐怖兜帽
+			GhastlyLeggings.DisplayName: 恐怖护胫
+			GrandThoriumBreastPlate.DisplayName: 豪华瑟银胸甲
+			GrandThoriumGreaves.DisplayName: 豪华瑟银护胫
+			GrandThoriumHelmet.DisplayName: 豪华瑟银头盔
+			HalcandranHood.DisplayName: 哈坎德兰兜帽
+			HalcandranPants.DisplayName: 哈坎德兰裤
+			HalcandranTabard.DisplayName: 哈坎德兰战袍
+			MrUniverseMask.DisplayName: 宇宙先生的面具
+			MrUniversePants.DisplayName: 宇宙先生的裤子
+			MrUniverseSuit.DisplayName: 宇宙先生的服饰
+			PhonicWings.DisplayName: 无声羽翼
+			ShinobiGi.DisplayName: 忍者束腰宽松服
+			ShinobiMask.DisplayName: 忍者面具
+			ShinobiTreads.DisplayName: 忍者靴
+			SpheromancerMask.DisplayName: 气圆使者面具
+			SpheromancerPants.DisplayName: 气圆使者裤
+			SpheromancerSuit.DisplayName: 气圆使者衣
+			WildAntlers.DisplayName: 狂野鹿角
+			WildLoincloth.DisplayName: 狂野缠腰布
+			WildRobe.DisplayName: 狂野长袍
 			
 			AbyssalWhistle: {
 				DisplayName: 深渊哨
@@ -5334,14 +5330,14 @@ Mods: {
 				ConvertTooltip: 右键循环样式或重新制作转化为{0}
 				Grounded: 地面式
 				Hanging: 悬挂式
-				PylonRestriction: 每有一个晶塔可放置 {0} 个喂鸟器 (当前限制: {1})
+				PylonRestriction: 每有一个晶塔可放置 {0} 个喂鸟器 (当前限制: {1})（等wiki占位符）
 				SeedTooltipReplacement: 用于吹管和喂鸟器
 				SeedTooltipFallback: 供喂鸟器使用
 				TileMouseover: 稍后再来看看……
 			}
 
-			// BirdFeederGrounded.DisplayName: Bird Feeder
-			// BirdFeederHanging.DisplayName: Bird Feeder (Hanging)
+			BirdFeederGrounded.DisplayName: 喂鸟器 (地面式)
+			BirdFeederHanging.DisplayName: 喂鸟器 (悬挂式)
 			
 			BlackMIDI: {
 				DisplayName: 乌檀电琴
@@ -6236,8 +6232,12 @@ Mods: {
 			}
 
 			LaunchJumper: {
-				DisplayName: 弹跳弹发射器
-				Tooltip: 发射一个可跳跃的火箭导弹
+				DisplayName: 弹跳弹发射器（等wiki占位符）
+				Tooltip:
+					'''
+					Launches a rocket-jumpable missile that can send you flying
+					While holding this weapon, you are immune to enemy knockback
+					'''
 			}
 
 			Legacy: {
@@ -7356,6 +7356,14 @@ Mods: {
 					释放特定的元素能量爆
 					右键在五种元素间切换
 					'''
+
+				WondrousWandStage: {
+					Fire: Fire
+					Ice: Ice
+					Shadow: Shadow
+					Ichor: Ichor
+					CursedFlame: Cursed Flame
+				}
 			}
 
 			WyvernSlayer: {
@@ -9520,6 +9528,8 @@ Mods: {
 			MartyrChalice: {
 				DisplayName: 殉道者圣杯
 				Tooltip: 被治疗的队友会获得3秒无敌
+				HealAmount: Sacrifices your own life to heal all allies in the world for [c/5aff5a:{0}] life
+				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
 			}
 
 			MedicalBag: {
@@ -11048,7 +11058,7 @@ Mods: {
 				Tooltip: 接触敌怪时产生爆炸
 			}
 
-			// LeatherSheath.DisplayName: Leather Sheath
+			LeatherSheath.DisplayName: 皮革剑鞘
 			
 			LeechingSheath: {
 				DisplayName: 水蛭剑鞘
@@ -13934,7 +13944,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// MiniBossMusicBox.MiniBoss: Mini-Boss
+			MiniBossMusicBox.MiniBoss: 迷你boss
 			
 			MinotaurStatue: {
 				DisplayName: 米诺陶雕像
@@ -15006,7 +15016,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			// SunkenPalaceMusicBox.SunkenPalace: Sunken Palace
+			SunkenPalaceMusicBox.SunkenPalace: 沉沦之地
 			
 			ThoriumBathtub: {
 				DisplayName: 瑟银浴缸
@@ -16300,14 +16310,26 @@ Mods: {
 				Tooltip: 增加5%召唤伤害
 			}
 
-			SpiritTrapperHelmet: {
-				DisplayName: 猎魂者兜帽
+			SpiritTrapperCowl: {
+				DisplayName: 猎魂者兜帽（等wiki占位符）
 				Tooltip: 最大仆从数量增加1
+				SetBonus:
+					'''
+					Increases your max number of minions by {0}
+					Killing enemies or continually damaging bosses generates soul wisps
+					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					'''
 			}
 
 			SpiritTrapperMask: {
 				DisplayName: 猎魂者面具
 				Tooltip: 最大哨兵数量增加1
+				SetBonus:
+					'''
+					Increases your max number of sentries by {0}
+					Killing enemies or continually damaging bosses generates soul wisps
+					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					'''
 			}
 
 			SpittingFish: {
@@ -17838,6 +17860,13 @@ Mods: {
 					在光标位置召唤一个所选的图腾哨兵
 					右键在四个不同的图腾元素间切换
 					'''
+
+				TotemCallerStage: {
+					Fire: Fire
+					Earth: Earth
+					Wind: Wind
+					Water: Water
+				}
 			}
 
 			TrackerBoard: {
@@ -18064,6 +18093,21 @@ Mods: {
 
 			AncientDragonMask: {
 				DisplayName: 远古巨龙面具
+				Tooltip: ""
+			}
+
+			AncientMarchingBandUniform: {
+				DisplayName: Ancient Marching Band Uniform
+				Tooltip: ""
+			}
+
+			AncientMarchingBandLeggings: {
+				DisplayName: Ancient Marching Band Leggings
+				Tooltip: ""
+			}
+
+			AncientMarchingBandCap: {
+				DisplayName: Ancient Marching Band Cap
 				Tooltip: ""
 			}
 
@@ -18570,9 +18614,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			WeirdMud: {
-				DisplayName: 恼人的泥巴
-				Tooltip: "'怕我们忘记……'"
+			AnnoyingMud: {
+				DisplayName: 恼人的泥巴（等wiki占位符）
+				Tooltip: "'Not this stuff again...'"
 			}
 
 			RemovedItems: {
@@ -18649,158 +18693,124 @@ Mods: {
 					'''
 			}
 
-			AbominationBanner.DisplayName: 憎恶旗
-			AbyssalAnglerBanner.DisplayName: 深渊琵琶鱼旗
-			AncientArcherBanner.DisplayName: 远古弓箭手旗
-			AncientChargerBanner.DisplayName: 远古突击者旗
-			AncientPhalanxBanner.DisplayName: 远古盾兵旗
-			ArmyAntBanner.DisplayName: 军蚁旗
-			AstroBeetleBanner.DisplayName: 太空甲虫旗
-			BarracudaBanner.DisplayName: 梭鱼旗
-			BiterBanner.DisplayName: 咬噬者旗
-			BlackWidowBanner.DisplayName: 黑寡妇旗
-			BlisterPodBanner.DisplayName: 裂荚疱虫旗
-			BlizzardBatBanner.DisplayName: 暴雪蝙蝠旗
-			BlobfishBanner.DisplayName: 水滴鱼旗
-			BloodMageBanner.DisplayName: 血法师旗
-			BloodyWargBanner.DisplayName: 嗜血恐狼旗
-			BlowfishBanner.DisplayName: 河豚旗
-			BoneFlayerBanner.DisplayName: 骨翼劫掠者旗
-			BrownRecluseBanner.DisplayName: 棕色遁蛛旗
-			ChilledSpitterBanner.DisplayName: 霜颤蚀雨者旗
-			ColdlingBanner.DisplayName: 冰冻棘虫旗
-			CoolmeraBanner.DisplayName: 冰冻飞虫旗
-			CrownofThornsBanner.DisplayName: 铁海棠旗
-			DarksteelKnightBanner.DisplayName: 暗钢骑士旗
-			DissonanceSeerBanner.DisplayName: 混沌预言者旗
-			EarthenBatBanner.DisplayName: 大地蝙蝠旗
-			EarthenGolemBanner.DisplayName: 大地魔像旗
-			EngorgedEyeBanner.DisplayName: 充血之眼旗
-			EpiDermonBanner.DisplayName: 鲜血恶魔旗
-			FeedingFrenzyBanner.DisplayName: 饥饿怒鱼旗
-			FlamekinCasterBanner.DisplayName: 爆炎投手旗
-			FreezerBanner.DisplayName: 冰冻噬魂者旗
-			FrostBurntBanner.DisplayName: 冰焰行者旗
-			FrostFangBanner.DisplayName: 寒牙蛛旗
-			FrostWurmBanner.DisplayName: 冰冻腐虫旗
-			FrozenFaceBanner.DisplayName: 冻霜脸怪旗
-			FrozenGrossBanner.DisplayName: 冻霜幽魂旗
-			GelatinousCubeBanner.DisplayName: 凝胶块旗
-			GigaClamBanner.DisplayName: 巨蛤旗
-			GlitteringGolemBanner.DisplayName: 闪光魔像旗
-			GoblinDrummerBanner.DisplayName: 哥布林鼓手旗
-			GoblinSpiritGuideBanner.DisplayName: 哥布林灵魂导师旗
-			GoblinTrapperBanner.DisplayName: 哥布林布陷者旗
-			GoldBatBanner.DisplayName: 镀金蝙蝠旗
-			GoldLycanBanner.DisplayName: 镀金狼人旗
-			GoldSlimeBanner.DisplayName: 镀金史莱姆旗
-			GraniteEradicatorBanner.DisplayName: 花岗岩根除者旗
-			GraniteFusedSlimeBanner.DisplayName: 融岩史莱姆旗
-			GraniteSurgerBanner.DisplayName: 花岗岩奔涌者旗
-			GraveLimbBanner.DisplayName: 墓穴残肢旗
-			HammerHeadBanner.DisplayName: 双髻鲨旗
-			HellBringerMimicBanner.DisplayName: 地狱宝箱怪旗
-			HoppingSpiderBanner.DisplayName: 跃行蛛旗
-			HorrificChargerBanner.DisplayName: 饿鬼旗
-			InfernalHoundBanner.DisplayName: 地狱犬旗
-			KrakenBanner.DisplayName: 海妖旗
-			LeFantomeBanner.DisplayName: 幽灵旗
-			LifeCrystalMimicBanner.DisplayName: 生命水晶宝箱怪旗
-			LihzardMimicBanner.DisplayName: 神庙宝箱怪旗
-			LihzardPotMimicBanner.DisplayName: 神庙罐旗
-			LivingHemorrhageBanner.DisplayName: 鲜血恶魔旗
-			LycanBanner.DisplayName: 狼人旗
-			MahoganyEntBanner.DisplayName: 红木树人旗
-			ManofWarBanner.DisplayName: 僧帽水母旗
-			MartianScoutBanner.DisplayName: 火星监察者旗
-			MartianSentryBanner.DisplayName: 火星哨兵旗
-			MoltenMortarBanner.DisplayName: 狱炎炮龟旗
-			MorayBanner.DisplayName: 海鳗旗
-			MossWaspBanner.DisplayName: 苔藓黄蜂旗
-			MudManBanner.DisplayName: 泥人旗
-			MyceliumMimicBanner.DisplayName: 真菌宝箱怪旗
-			NecroPotBanner.DisplayName: 死灵魂罐旗
-			NestlingBanner.DisplayName: 雏鸟旗
-			OctopusBanner.DisplayName: 章鱼旗
-			PutridSerpentBanner.DisplayName: 腐毒海蟒旗
-			RagingMinotaurBanner.DisplayName: 暴走米诺陶旗
-			ScissorStalkerBanner.DisplayName: 剪刀潜行者旗
-			SeaShantySingerBanner.DisplayName: 海盗乐手旗
-			ShamblerBanner.DisplayName: 蹒跚者旗
-			SharptoothBanner.DisplayName: 利牙鱼旗
-			SmotheringShadeBanner.DisplayName: 窒息暗影旗
-			SnowballBanner.DisplayName: 雪球怪旗
-			SnowEaterBanner.DisplayName: 冰雪吞噬者旗
-			SnowElementalBanner.DisplayName: 雪元素旗
-			SnowFlinxMatriarchBanner.DisplayName: 雪怪族长旗
-			SnowSingaBanner.DisplayName: 雪人歌王旗
-			SnowyOwlBanner.DisplayName: 雪鸮旗
-			SunPriestessBanner.DisplayName: 太阳祭司旗
-			SoulCorrupterBanner.DisplayName: 灵魂腐蚀者旗
-			SpaceSlimeBanner.DisplayName: 太空史莱姆旗
-			SpectrumiteBanner.DisplayName: 魂晶旗
-			StrangeBulbBanner.DisplayName: 奇怪花苞旗
-			SubmergedMimicBanner.DisplayName: 深海宝箱怪旗
-			TarantulaBanner.DisplayName: 狼蛛旗
-			TheInnocentBanner.DisplayName: 污魂兔旗
-			TheStarvedBanner.DisplayName: 饿鬼旗
-			UFOBanner.DisplayName: U.F.O.旗
-			UnderworldPotBanner.DisplayName: 地狱罐旗
-			VampireSquidBanner.DisplayName: 吸血鱿鱼旗
-			VileFloaterBanner.DisplayName: 邪恶浮灵旗
-			VoltEelBanner.DisplayName: 伏特鳗旗
-			WindElementalBanner.DisplayName: 风元素旗
-			InspirationCrystalNew.DisplayName: 灵感水晶
-			InspirationFragment.DisplayName: 灵感碎片
-			InspirationShard.DisplayName: 灵感碎块
-			InspirationNote.DisplayName: 灵感音符
-			BlockyMask.DisplayName: 方块面具
-			BlockyPants.DisplayName: 方块裤子
-			BlockyShirt.DisplayName: 方块衣服
-			BrutalChestguard.DisplayName: 残忍胸甲
-			BrutalGreaves.DisplayName: 残忍护胫
-			BrutalMask.DisplayName: 残忍面具
-			CataclysmicsGarb.DisplayName: 大灾变衣
-			CataclysmicsHollowMask.DisplayName: 空洞面具
-			ChunkyGreaves.DisplayName: 厚重护胫
-			ChunkyHelmet.DisplayName: 厚重头盔
-			ChunkyMail.DisplayName: 厚重盔甲
-			DannyLamentLeggings.DisplayName: 丹尼之叹护胫
-			DannyLamentMask.DisplayName: 丹尼之叹面具
-			DannyLamentSuit.DisplayName: 丹尼之叹上衣
-			DeluxeHalcandranBow.DisplayName: 豪华哈坎德兰蝴蝶结
-			DeluxeHalcandranHat.DisplayName: 豪华哈坎德兰帽
-			GhastlyGarment.DisplayName: 恐怖皮衣
-			GhastlyHood.DisplayName: 恐怖兜帽
-			GhastlyLeggings.DisplayName: 恐怖护胫
-			GrandThoriumBreastPlate.DisplayName: 豪华瑟银胸甲
-			GrandThoriumGreaves.DisplayName: 豪华瑟银护胫
-			GrandThoriumHelmet.DisplayName: 豪华瑟银头盔
-			HalcandranHood.DisplayName: 哈坎德兰兜帽
-			HalcandranPants.DisplayName: 哈坎德兰裤
-			HalcandranTabard.DisplayName: 哈坎德兰战袍
-			MrUniverseMask.DisplayName: 宇宙先生的面具
-			MrUniversePants.DisplayName: 宇宙先生的裤子
-			MrUniverseSuit.DisplayName: 宇宙先生的服饰
-			PhonicWings.DisplayName: 无声羽翼
-			ShinobiGi.DisplayName: 忍者束腰宽松服
-			ShinobiMask.DisplayName: 忍者面具
-			ShinobiTreads.DisplayName: 忍者靴
-			SpheromancerMask.DisplayName: 气圆使者面具
-			SpheromancerPants.DisplayName: 气圆使者裤
-			SpheromancerSuit.DisplayName: 气圆使者衣
-			WildAntlers.DisplayName: 狂野鹿角
-			WildLoincloth.DisplayName: 狂野缠腰布
-			WildRobe.DisplayName: 狂野长袍
-			BirdFeederGrounded.DisplayName: 喂鸟器 (地面式)
-			BirdFeederHanging.DisplayName: 喂鸟器 (悬挂式)
-			LeatherSheath.DisplayName: 皮革剑鞘
-			MiniBossMusicBox.MiniBoss: 迷你boss
-			SunkenPalaceMusicBox.SunkenPalace: 沉沦之地
+			ScytheofUndoing: {
+				DisplayName: Scythe of Undoing
+				Tooltip:
+					'''
+					Spins a demonic scythe that generates rage as you damage enemies
+					Right click while at full rage to briefly transform into a powerful demon
+					While transformed, left and right click change effects and they gain life steal
+					Additionally, you take less damage and move faster
+					'''
+
+				Messages: {
+					Idle: {
+						TheRage: The rage is in your hands. Let it loose!
+						NoToy: I am no toy...
+						NotWorthy: You are not worthy of the power you hold.
+						GiveIn: Give in...
+						WillToLive: I find your will to live… amusing.
+					}
+
+					Attacking: {
+						KillThem: Kill them all!
+						Yes: Yes...
+						More: More, more!
+						TimeToReap: Time to reap!
+						KeepCutting: Keep cutting!
+					}
+
+					AttackingBoss: {
+						KillThem: "{$Items.ScytheofUndoing.Messages.Attacking.KillThem}"
+						Yes: "{$Items.ScytheofUndoing.Messages.Attacking.Yes}"
+						More: "{$Items.ScytheofUndoing.Messages.Attacking.More}"
+						TimeToReap: "{$Items.ScytheofUndoing.Messages.Attacking.TimeToReap}"
+						KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
+						LouderScream: The louder they scream, the better.
+						SetFree: Set me free!
+						MuchFlesh: If only they ALL had this much flesh to tear!
+						CutDown: Cut ‘em down!
+					}
+
+					AttackingDummy.PreferFlesh: I prefer the sound of flesh being torn, but oh well...
+
+					EnemyKill: {
+						FeltGood: Ooohhh! That felt good.
+						FuelsFury: Every kill fuels my fury.
+						Slaughter: YES! Slaughter!
+						RippedOut: Ripped out!
+						BetterInRed: Everyone DOES look better in red!
+					}
+
+					BossDefeat: {
+						TheUndoing: I AM the UNDOING!
+						NeverThere: Like they were never there...
+						TheReaping: I am fury... I AM THE REAPING!
+					}
+
+					BuyItem.NotFirstChoice: Not my first choice, but okay.
+
+					RecallHome: {
+						TheWeakRun: The weak run. Stay and fight!
+						Retreat: Retreat?!
+					}
+
+					Transforming: {
+						TheseLegs: Oh! These legs will take some getting used to.
+						Wrath: The WRATH I will unleash!
+						Destruction: Destruction! Wrath! Fury! As it was meant to be.
+						Reaping: Let the reaping commence... NOW!
+					}
+
+					ThrownItem: {
+						ALittleHelp: A little help… Anyone?
+						ComeBack: You will come back… in time.
+					}
+
+					Storage: {
+						CantSee: I can’t see anything in here.
+						WhatAboutReaping: What about the reaping?
+						StirsWrath: This only stirs my wrath.
+						MuchToKill: But there’s still so much to kill!
+					}
+
+					PickedUp: {
+						ReapingBegun: The reaping has begun!
+						ILive: I live to kill again!
+					}
+				}
+			}
+
+			FreshBrain: {
+				DisplayName: Fresh Brain
+				Tooltip:
+					'''
+					Resummons a nasty stitched abomination
+					Only usable during a Blood Moon
+					'''
+			}
+
+			IllusionaryGlass: {
+				DisplayName: Illusionary Glass
+				Tooltip:
+					'''
+					Resummons a deceptive spell caster
+					Only usable within the Dungeon
+					'''
+			}
+
+			RottingSpore: {
+				DisplayName: Rotting Spore
+				Tooltip:
+					'''
+					Resummons a man-eating plant
+					Only usable within the Underground Jungle
+					'''
+			}
 		}
 
 		NPCs: {
-			// AggroDummy.DisplayName: Aggro Dummy
+			AggroDummy.DisplayName: 仇恨假人
 			
 			AncientArcher: {
 				DisplayName: 远古弓箭手
@@ -18853,7 +18863,7 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 不会自然生成，需要玩家在鲜血祭坛使用[i/s{0}:{1}]召唤，[i:{2}]可以指示鲜血密室的位置.
 			}
 
-			// BatOutaHell.DisplayName: Bat Outa' Hell
+			BatOutaHell.DisplayName: 迅火狱蝠
 			
 			Beholder: {
 				DisplayName: 注视者
@@ -18861,16 +18871,13 @@ Mods: {
 			}
 
 			FallenBeholder: {
-				// DisplayName: Fallen Beholder
-				// BestiaryFlavorText: A glimpse into what lies beyond the void. Its prolonged stay in the world of Terraria has left it weaker than in its home dimension.
+				DisplayName: 堕落注视者
+				BestiaryFlavorText: 对虚空以外东西的一瞥。长时间停留在泰拉世界使得它比处在自身维度时更弱.
 				
 				BossChecklistIntegration: {
 					SpawnInfo: 不会自然生成，需要玩家在地狱使用[i:ThoriumMod/VoidLens]召唤.
 					EntryName: "{$NPCs.FallenBeholder.DisplayName}"
 				}
-
-				DisplayName: 堕落注视者
-				BestiaryFlavorText: 对虚空以外东西的一瞥。长时间停留在泰拉世界使得它比处在自身维度时更弱.
 			}
 
 			BigBone: {
@@ -18884,8 +18891,8 @@ Mods: {
 			}
 
 			Blacksmith: {
-				// DisplayName: Blacksmith
-				// BestiaryFlavorText: The Blacksmith is a grouchy old man with an unrivaled skill in smelting. His crafted equipment would interest any Terrarian.
+				DisplayName: 铁匠
+				BestiaryFlavorText: 铁匠是个脾气暴躁的老人，有着无与伦比的冶炼技术。他制作的装备会引起任何泰拉人的兴趣.
 				
 				TownNPCMood: {
 					Content: 我当然很好，你个蠢蛋！你为什么还要问？
@@ -18902,9 +18909,6 @@ Mods: {
 					LikeNPC_Princess: 小孩就是小孩，但是{NPCName}在我心里有一个柔软的地方.
 					Princess_LovesNPC: "{NPCName}帮我修头盔，我很感激!"
 				}
-
-				DisplayName: 铁匠
-				BestiaryFlavorText: 铁匠是个脾气暴躁的老人，有着无与伦比的冶炼技术。他制作的装备会引起任何泰拉人的兴趣.
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
 			}
 
@@ -18939,16 +18943,13 @@ Mods: {
 			}
 
 			BoreanStrider: {
-				// DisplayName: Borean Strider
-				// BestiaryFlavorText: A species of arachnid hell-bent on surviving the harshness of a Terrarian blizzard. Something this stubborn is a danger to everyone.
+				DisplayName: 极地遁蛛
+				BestiaryFlavorText: 一种蛛形纲物种，不顾一切地想在泰拉人的严酷暴风雪期间生存下来。如此固执的东西对每个人来说都是危险的.
 				
 				BossChecklistIntegration: {
 					SpawnInfo: 极地遁蛛可以在困难模式暴雪期间自然生成，也可以使用[i:ThoriumMod/StriderTear]召唤。
 					EntryName: "{$NPCs.BoreanStrider.DisplayName}"
 				}
-
-				DisplayName: 极地遁蛛
-				BestiaryFlavorText: 一种蛛形纲物种，不顾一切地想在泰拉人的严酷暴风雪期间生存下来。如此固执的东西对每个人来说都是危险的.
 			}
 
 			FrostBurnt: {
@@ -18991,7 +18992,7 @@ Mods: {
 				BestiaryFlavorText: 一头被神秘的血月光辉逼疯的狂暴野兽.
 			}
 
-			// BurstingMaggot.DisplayName: Bursting Maggot
+			BurstingMaggot.DisplayName: 爆裂蛆虫
 			
 			EngorgedEye: {
 				DisplayName: 充血之眼
@@ -19030,7 +19031,7 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 在骷髅王被击败后它会生成在地下丛林附近,击败后将不再生成。
 			}
 
-			// CorpsePetal.DisplayName: Corpse Petal
+			CorpsePetal.DisplayName: 绝命花瓣
 			
 			CorpseWeed: {
 				DisplayName: 绝命野花
@@ -19047,8 +19048,8 @@ Mods: {
 				BestiaryFlavorText: 复活的恶魔遗骸。它的火焰能力会糟蹋地狱中的大部分怪物.
 			}
 
-			// BossDummy.DisplayName: Boss Dummy
-			// BrownRecluseBabyWall.DisplayName: Recluse Baby
+			BossDummy.DisplayName: Boss假人
+			BrownRecluseBabyWall.DisplayName: 小遁蛛
 			
 			BrownRecluseWall: {
 				DisplayName: 棕色遁蛛
@@ -19060,7 +19061,7 @@ Mods: {
 				BestiaryFlavorText: 泰拉人形状的石头；你无法摆脱它的石头眼睛盯着你看的感觉……
 			}
 
-			// MagicalBurst.DisplayName: Magical Burst
+			MagicalBurst.DisplayName: Magical Burst
 			
 			BuriedChampion: {
 				DisplayName: 英灵遗骸
@@ -19084,8 +19085,8 @@ Mods: {
 			}
 
 			Cobbler: {
-				// DisplayName: Cobbler
-				// BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
+				DisplayName: 鞋匠
+				BestiaryFlavorText: 鞋匠早已从他的英雄时代退休，但他为下一代提供了优质的鞋子.
 				
 				TownNPCMood: {
 					Content: 我的步伐铿锵有力，不要担心！
@@ -19105,8 +19106,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName}超级熟练!我的鞋子从来没有擦得那么干净过!"
 				}
 
-				DisplayName: 鞋匠
-				BestiaryFlavorText: 鞋匠早已从他的英雄时代退休，但他为下一代提供了优质的鞋子.
 				Census.SpawnCondition: 在你的物品栏中有鞋子饰品([i/s1:Aglet][i/s1:HermesBoots][i/s1:RocketBoots][i/s1:WaterWalkingBoots]等.)
 				Button2: 擦亮鞋子
 			}
@@ -19132,8 +19131,8 @@ Mods: {
 			}
 
 			ConfusedZombie: {
-				// DisplayName: Confused Zombie
-				// BestiaryFlavorText: The Confused Zombie is a chemist turned zombie. While he's managed to keep most of his right mind, he's still a little weird...
+				DisplayName: 迷途僵尸
+				BestiaryFlavorText: 迷途僵尸是个化学家变成的僵尸。虽然他试图保持大部分正常思维，但他仍有点奇怪……
 				
 				TownNPCMood: {
 					Content: 我很好，谢谢.
@@ -19152,8 +19151,6 @@ Mods: {
 					Princess_LovesNPC: 嘿嘿, {NPCName}做鬼脸!
 				}
 
-				DisplayName: 迷途僵尸
-				BestiaryFlavorText: 迷途僵尸是个化学家变成的僵尸。虽然他试图保持大部分正常思维，但他仍有点奇怪……
 				Census.SpawnCondition: 在血月期间击败[c/4dffb8:{$NPCs.PatchWerk.DisplayName}]
 				Button2: 敌怪趋避剂 ({^0:80 Silver;1 Gold})
 			}
@@ -19179,8 +19176,8 @@ Mods: {
 			}
 
 			Cook: {
-				// DisplayName: Cook
-				// BestiaryFlavorText: "The Cook is a master in the culinary arts. He's always trying out new recipes with the ingredients of the land. "
+				DisplayName: 厨师
+				BestiaryFlavorText: "厨师是烹饪艺术大师。他总是用这片大地上的材料尝试新的食谱. "
 				
 				TownNPCMood: {
 					Content: 我很好，我在想我下一个食谱
@@ -19199,9 +19196,6 @@ Mods: {
 					LikeNPC_Princess: 在我做饭的时候听{NPCName}说话是一种享受!
 					Princess_LovesNPC: "{NPCName}是最神奇的美食!"
 				}
-
-				DisplayName: 厨师
-				BestiaryFlavorText: "厨师是烹饪艺术大师。他总是用这片大地上的材料尝试新的食谱. "
 				Census.SpawnCondition: 击败{$NPCName.KingSlime}
 				Button2: 供应原料
 			}
@@ -19216,7 +19210,7 @@ Mods: {
 				BestiaryFlavorText: 无尽的饥饿使它一直在寻找食物，即便是在寒冷的苔原.
 			}
 
-			// AbyssalAngler.DisplayName: Gold Coin?
+			AbyssalAngler.DisplayName: 金钱?
 			
 			AbyssalAngler2: {
 				DisplayName: 深渊琵琶鱼
@@ -19229,16 +19223,13 @@ Mods: {
 			}
 
 			ForgottenOne: {
-				// DisplayName: Forgotten One
-				// BestiaryFlavorText: A creature long forgotten by even the oldest Terrarians. It and its kind were sealed away centuries ago during a bloody war.
+				DisplayName: 遗忘之主
+				BestiaryFlavorText: 即便是最年长的泰拉人也遗忘很久的生物。几个世纪前的一场血腥战争中，它和它的同类被封印了起来.
 				
 				BossChecklistIntegration: {
 					SpawnInfo: 虚影潜游者会掉落[i:ThoriumMod/AbyssalShadow]，拾取物品时，它会造成深渊幻影减益,深渊幻影减益叠加3次后，boss生成（在深海）
 					EntryName: "{$NPCs.ForgottenOne.DisplayName}"
 				}
-
-				DisplayName: 遗忘之主
-				BestiaryFlavorText: 即便是最年长的泰拉人也遗忘很久的生物。几个世纪前的一场血腥战争中，它和它的同类被封印了起来.
 			}
 
 			AquaticHallucination: {
@@ -19372,8 +19363,8 @@ Mods: {
 			}
 
 			DesertAcolyte: {
-				// DisplayName: Desert Acolyte
-				// BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
+				DisplayName: 荒漠侍僧
+				BestiaryFlavorText: 荒漠侍僧十分紧张，但会向那些对向怪物投掷东西很感兴趣的人出售各种装备.
 				
 				TownNPCMood: {
 					Content: 我在这周围看不到什么危险，所以我感觉很好。
@@ -19391,9 +19382,6 @@ Mods: {
 					LikeNPC_Princess: 这种奇怪的感觉…我保护{NPCName}的欲望竟然胜过保护自己！
 					Princess_LovesNPC: "{NPCName}是镇上玩捉迷藏最好的人!"
 				}
-
-				DisplayName: 荒漠侍僧
-				BestiaryFlavorText: 荒漠侍僧十分紧张，但会向那些对向怪物投掷东西很感兴趣的人出售各种装备.
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 				Button2: 沙尘暴({^0:80 Silver;1 Gold})
 			}
@@ -19404,8 +19392,8 @@ Mods: {
 			}
 
 			Diverman: {
-				// DisplayName: Diverman
-				// BestiaryFlavorText: The Diverman is a curious adventurer that’s searching for the elusive {$Biomes.DepthsBiome.DisplayName}. He’s willing to sell you some sunken treasures.
+				DisplayName: 潜水员
+				BestiaryFlavorText: 潜水员是个好奇的探险家，正在探索难以捉摸的深海。他愿意向你出售一些沉沦宝藏.
 				
 				TownNPCMood: {
 					Content: 我很好，你呢?
@@ -19423,16 +19411,13 @@ Mods: {
 					LikeNPC_Princess: 每个人似乎都喜欢{NPCName}…我不知道为什么.
 					Princess_LovesNPC: "{NPCName}讲述了海底的奇妙故事!"
 				}
-
-				DisplayName: 潜水员
-				BestiaryFlavorText: 潜水员是个好奇的探险家，正在探索难以捉摸的深海。他愿意向你出售一些沉沦宝藏.
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.QueenJellyfish.DisplayName}]
 				Button2: 紧急空气瓶
 			}
 
 			Druid: {
-				// DisplayName: Druid
-				// BestiaryFlavorText: The Druid loves plants in all shapes and sizes. She'll sell you seeds and other natural items to suit your needs.
+				DisplayName: 德鲁伊
+				BestiaryFlavorText: 德鲁伊喜欢各种形状大小的植物。她会出售种子和其他自然物品来满足你的需要.
 				
 				TownNPCMood: {
 					Content: 我精神很好，谢谢关心！
@@ -19450,9 +19435,6 @@ Mods: {
 					LikeNPC_Princess: "{NPCName}真是一朵小向日葵.来吧，你不能讨厌一个一唱歌就能让森林小动物蜂拥而至的小女孩！"
 					Princess_LovesNPC: "{NPCName}组装的花束最可爱了"
 				}
-
-				DisplayName: 德鲁伊
-				BestiaryFlavorText: 德鲁伊喜欢各种形状大小的植物。她会出售种子和其他自然物品来满足你的需要.
 				Census.SpawnCondition: 在骷髅王后的丛林击败[c/4dffb8:{$NPCs.CorpseBloom.DisplayName}]
 			}
 
@@ -19566,9 +19548,9 @@ Mods: {
 				BestiaryFlavorText: 一个充满能量的屏障，试图转移朝向释放的能量风暴核心的攻击.
 			}
 
-			// EncroachingEnergy.DisplayName: Encroaching Energy
-			// EnergyBarrier.DisplayName: Energy Barrier
-			// EnergyConduit.DisplayName: Energy Conduit
+			EncroachingEnergy.DisplayName: 流能扰蚀体
+			EnergyBarrier.DisplayName: 附魔屏障
+			EnergyConduit.DisplayName: 流能脉冲导体
 			
 			GraniteEnergyStorm: {
 				DisplayName: 花岗岩流能风暴
@@ -19596,7 +19578,7 @@ Mods: {
 				BestiaryFlavorText: 一种不受控制的大地元素，会将花岗岩的磁性碎片推向那些打搅花岗岩洞的人.
 			}
 
-			// HealingDummy.DisplayName: Healing Dummy
+			HealingDummy.DisplayName: 治疗假人
 			
 			HellBringerMimic: {
 				DisplayName: 地狱宝箱怪
@@ -19613,7 +19595,7 @@ Mods: {
 				BestiaryFlavorText: 腐化之地的小型狩猎者擅长快速加速，它们一看到可能的猎物的那一刻就会不计后果不放弃地冲刺.
 			}
 
-			// IllusionGlass.DisplayName: Illusion Glass
+			IllusionGlass.DisplayName: 幻象玻璃块
 			
 			Illusionist: {
 				DisplayName: 幻术师
@@ -19621,7 +19603,7 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 在地牢发现的迷你Boss.（生命体分析机可以检测到）
 			}
 
-			// IllusionistMirror.DisplayName: Illusionist's Mirror
+			IllusionistMirror.DisplayName: 幻象之镜
 			
 			InfernalHound: {
 				DisplayName: 地狱犬
@@ -19634,16 +19616,13 @@ Mods: {
 			}
 
 			Lich: {
-				// DisplayName: Lich
-				// BestiaryFlavorText: The cadaveric disciple to the defiler of life, always on the hunt for more souls to add to its collection.
+				DisplayName: 巫妖
+				BestiaryFlavorText: 生命亵渎者的尸体门徒，总是在狩猎更多的灵魂加入收藏.
 				
 				BossChecklistIntegration: {
 					SpawnInfo: 使用[i/s{0}:{1}]在自然墓地的远古护身符召唤.（三王后的夜晚）
 					EntryName: "{$NPCs.Lich.DisplayName}"
 				}
-
-				DisplayName: 巫妖
-				BestiaryFlavorText: 生命亵渎者的尸体门徒，总是在狩猎更多的灵魂加入收藏.
 			}
 
 			PhylacteryofaThousandSouls: {
@@ -19750,10 +19729,10 @@ Mods: {
 				BestiaryFlavorText: 作为无尽的现实浪潮，潮汐之灵代表了宇宙中所有的推拉运动。它会审判那些它认为值得注意的人.
 			}
 
-			// AquaiusBubble.DisplayName: Aquaius Bubble
-			// ImpendingDread.DisplayName: Impending Dread
-			// InnerDespair.DisplayName: Inner Despair
-			// LucidBubble.DisplayName: Lucid Bubble
+			AquaiusBubble.DisplayName: Aquaius Bubble
+			ImpendingDread.DisplayName: Impending Dread
+			InnerDespair.DisplayName: Inner Despair
+			LucidBubble.DisplayName: Lucid Bubble
 			
 			Omnicide: {
 				DisplayName: 噬元凶灾·毁灭之灵
@@ -19767,21 +19746,17 @@ Mods: {
 			}
 
 			SlagFury: {
-				// DisplayName: Slag Fury, the First Flame
-				// BestiaryNameOverride: Slag Fury
-				// BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
+				DisplayName: 原初烈火·戮焰之灵
+				BestiaryNameOverride: 戮焰之灵
+				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人.
 				
 				BossChecklistIntegration: {
 					EntryName: 始生灾灵
 					SpawnInfo: 需要玩家在夜晚的任意地点使用[i:ThoriumMod/DoomSayersCoin]召唤
 				}
-
-				DisplayName: 原初烈火·戮焰之灵
-				BestiaryNameOverride: 戮焰之灵
-				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人.
 			}
 
-			// UnstableAnger.DisplayName: Unstable Anger
+			UnstableAnger.DisplayName: 动荡的怒火
 			
 			DistractingJellyfish: {
 				DisplayName: 迷乱水母
@@ -19886,8 +19861,8 @@ Mods: {
 			}
 
 			Spiritualist: {
-				// DisplayName: Spiritualist
-				// BestiaryFlavorText: The Spiritualist believes in the power of inner tranquility. Terrarians interested in healing their allies could learn much from him.
+				DisplayName: 牧师
+				BestiaryFlavorText: 牧师相信内心宁静的力量。对治疗队友感兴趣的泰拉人会从他那里学到很多.
 				
 				TownNPCMood: {
 					Content: 我的灵魂是平衡的，朋友.
@@ -19906,9 +19881,6 @@ Mods: {
 					LikeNPC_Princess: "{NPCName}开朗的纯真让每个人都精神振奋."
 					Princess_LovesNPC: "{NPCName}身上有一种温和的气息"
 				}
-
-				DisplayName: 牧师
-				BestiaryFlavorText: 牧师相信内心宁静的力量。对治疗队友感兴趣的泰拉人会从他那里学到很多.
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.BuriedChampion.DisplayName}]
 				Button2: 守护天使
 			}
@@ -19955,8 +19927,8 @@ Mods: {
 			}
 
 			Tracker: {
-				// DisplayName: Tracker
-				// BestiaryFlavorText: The Tracker belongs to an order of warriors dedicated to finding and dispatching rare creatures. Help him and he'll help you.
+				DisplayName: 赏金猎人
+				BestiaryFlavorText: 赏金猎人属于一个致力于寻找和处理稀有生物的战士团。你们可以互帮互助.
 				
 				TownNPCMood: {
 					Content: 孩子，我现在不能抱怨太多，不是吗?
@@ -19976,8 +19948,6 @@ Mods: {
 					Princess_LovesNPC: 让{NPCName}骑在我背上时, 我感觉自己很高大!
 				}
 
-				DisplayName: 赏金猎人
-				BestiaryFlavorText: 赏金猎人属于一个致力于寻找和处理稀有生物的战士团。你们可以互帮互助.
 				Census.SpawnCondition: 击败{$NPCName.EyeofCthulhu}
 				Button: 使用勋章
 				Button2: 合同
@@ -19999,8 +19969,8 @@ Mods: {
 			}
 
 			WeaponMaster: {
-				// DisplayName: Weapon Master
-				// BestiaryFlavorText: The Weapon Master is a demonic exile who has sided with the forces of good. Don't let his stoic demeanor fool you, he's a real softy.
+				DisplayName: 武器大师
+				BestiaryFlavorText: 武器大师是个站在正义力量一边的恶魔流放者。别被他坚韧的举止骗了，他真的很软弱.
 				
 				TownNPCMood: {
 					Content: ...我很好.
@@ -20020,8 +19990,6 @@ Mods: {
 					Princess_LovesNPC: "{NPCName}是一个可爱的人。在我冷的时候，他会为我生火!"
 				}
 
-				DisplayName: 武器大师
-				BestiaryFlavorText: 武器大师是个站在正义力量一边的恶魔流放者。别被他坚韧的举止骗了，他真的很软弱.
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
 				Button2: 受雇恶魔 ({^0:80 Silver;1 Gold})
 			}
@@ -20030,52 +19998,9 @@ Mods: {
 				DisplayName: 风元素
 				BestiaryFlavorText: 漂浮在高空中的松散魔法偶尔会在这些激动的东西身上显现出来。它们能对不知情的泰拉人严重打击.
 			}
-
-			AggroDummy.DisplayName: 仇恨假人
-			BatOutaHell.DisplayName: 迅火狱蝠
-			BurstingMaggot.DisplayName: 爆裂蛆虫
-			CorpsePetal.DisplayName: 绝命花瓣
-			BossDummy.DisplayName: Boss假人
-			BrownRecluseBabyWall.DisplayName: 小遁蛛
-			MagicalBurst.DisplayName: Magical Burst
-			AbyssalAngler.DisplayName: 金钱?
-			EncroachingEnergy.DisplayName: 流能扰蚀体
-			EnergyBarrier.DisplayName: 附魔屏障
-			EnergyConduit.DisplayName: 流能脉冲导体
-			HealingDummy.DisplayName: 治疗假人
-			IllusionGlass.DisplayName: 幻象玻璃块
-			IllusionistMirror.DisplayName: 幻象之镜
-			AquaiusBubble.DisplayName: Aquaius Bubble
-			ImpendingDread.DisplayName: Impending Dread
-			InnerDespair.DisplayName: Inner Despair
-			LucidBubble.DisplayName: Lucid Bubble
-			UnstableAnger.DisplayName: 动荡的怒火
 		}
 
 		Prefixes: {
-			// Buzzing.DisplayName: Buzzing
-			// Euphonic.DisplayName: Euphonic
-			// Fabled.DisplayName: Fabled
-			// Inspiring.DisplayName: Inspiring
-			// Loud.DisplayName: Loud
-			// Melodic.DisplayName: Melodic
-			// Muted.DisplayName: Muted
-			// OffKey.DisplayName: Off-Key
-			// Rambling.DisplayName: Rambling
-			// Refined.DisplayName: Refined
-			// Supersonic.DisplayName: Supersonic
-			// Vibrant.DisplayName: Vibrant
-			
-			Engrossing: {
-				DisplayName: 瞩目
-				Tooltip: 增加{0}咒音增幅
-			}
-
-			Lucrative: {
-				DisplayName: 图利
-				Tooltip: 增加{0}%钱币掉落
-			}
-
 			Buzzing.DisplayName: 蜂鸣
 			Euphonic.DisplayName: 悦耳
 			Fabled.DisplayName: 传颂
@@ -20088,6 +20013,16 @@ Mods: {
 			Refined.DisplayName: 高雅
 			Supersonic.DisplayName: 超声
 			Vibrant.DisplayName: 响亮
+			
+			Engrossing: {
+				DisplayName: 瞩目
+				Tooltip: 增加{0}咒音增幅
+			}
+
+			Lucrative: {
+				DisplayName: 图利
+				Tooltip: 增加{0}%钱币掉落
+			}
 		}
 
 		Projectiles: {
@@ -20313,7 +20248,12 @@ Mods: {
 			ZunpetPro2.DisplayName: Zun号2
 			ZunpetPro3.DisplayName: Zun号新星
 			BassBoosterMagicPro.DisplayName: 低音冲击波
-			BatCavePointer.DisplayName: 蝙蝠洞
+			
+			BatCavePointer: {
+				DisplayName: 蝙蝠洞
+				NoAltar: No Blood Chamber in world
+			}
+
 			BatWingPro.DisplayName: 蝠翼轮回
 			Bee.DisplayName: 蜜蜂
 			BeeStrong.DisplayName: 大蜜蜂
@@ -20491,7 +20431,7 @@ Mods: {
 			CatsEyeGreatStaffPro3.DisplayName: 大猫眼法杖3
 			CelestialDrillPro.DisplayName: 天界钻头
 			CelestialPulse.DisplayName: 天界波动
-			ChampionCatcherPro.DisplayName: 英灵的钓竿
+			ChampionCatcherBobber.DisplayName: 英灵的浮标
 			ChampionShock.DisplayName: 英灵冲击
 			ChargedSplasherPro.DisplayName: 蓄能染料枪
 			CharmPro.DisplayName: 魅惑术
@@ -20697,7 +20637,7 @@ Mods: {
 			GardenersSheathPro.DisplayName: 园丁的剑鞘
 			GasContainerPro.DisplayName: 瓦斯瓶
 			GazeEffect.DisplayName: 凝视效果
-			GeodeGathererPro.DisplayName: 晶体收集者
+			GeodeGathererBobber.DisplayName: Geode Gatherer Bobber
 			GeomancersBrushPro.DisplayName: 风水先生的画笔
 			GeomancersBrushPro2.DisplayName: 风水
 			GeomancersBrushPro3.DisplayName: 风水先生的画笔3
@@ -20733,7 +20673,7 @@ Mods: {
 			GorgonsEyePro.DisplayName: 蛇发女妖之眼
 			GraniteArrowPro.DisplayName: 花岗岩箭矢
 			GraniteBarrier.DisplayName: 花岗岩屏障
-			GraniteControlRodPro.DisplayName: 花岗岩操控杆
+			GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
 			GraniteEradicatorArm.DisplayName: 花岗岩根除者之臂
 			GraniteReflectorPro.DisplayName: 花岗岩折返标
 			GraveBusterPro.DisplayName: 掘墓手
@@ -21363,7 +21303,7 @@ Mods: {
 			RifleSpearPro.DisplayName: 来复矛
 			RifleSpearPro2.DisplayName: 来复矛2
 			RifleSpearPro3.DisplayName: 来复矛3
-			RlyehLostRodPro.DisplayName: 拉莱耶丢失的鱼竿
+			RlyehLostRodBobber.DisplayName: Rlyeh Lost Rod Bobber
 			RopePro.DisplayName: 绳
 			SabaBlast.DisplayName: 圣剑光束
 			SandShiftersPouchPro.DisplayName: 移沙袋
@@ -21791,9 +21731,16 @@ Mods: {
 			QuakeGauntletPro3.DisplayName: 震荡手套
 			QuakeGauntletPro2.DisplayName: 震荡手套
 			QuakeGauntletPro.DisplayName: 震荡手套
-			QuakeGauntletPro5.DisplayName: 震荡手套5
-			QuakeGauntletPro6.DisplayName: Q震荡手套6
+			QuakeGauntletPro5.DisplayName: 震荡手套
+			QuakeGauntletPro6.DisplayName: 震荡手套
 			BonesawPro.DisplayName: 骨锯
+			JetstreamSheathPro.DisplayName: Jetstream Sheath
+			JetstreamSheathChainPro.DisplayName: Jetstream Sheath
+			ScytheofUndoingPro.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro2.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 		}
 
 		Tiles: {
@@ -21941,28 +21888,12 @@ Mods: {
 		}
 
 		Common: {
-			// Concatenate: "{0} {1}"
-			// ConcatenateNoSpace: "{0}{1}"
-			// Empty: ""
+			Concatenate: "{0} {1}"
+			ConcatenateNoSpace: "{0}{1}"
+			Empty: ""
 			
 			Tooltips: {
-				// TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
-				// DevItem: "'Great for impersonating Thorium Devs!'"
-				// ShoulderGuardianLimit: Only one shoulder guardian may be summoned at once
-				// BannerPlacement: Places a single banner on the ground
-				/* BigInstrument:
-				'''
-				Mistiming hits will decrease these bonuses greatly and cost 5 inspiration
-				These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
-				''' */
-				
-				CookFood: {
-					OutOfCombat: 只能在脱战时食用
-					WillMakeFull: 食用{$NPCs.Cook.DisplayName}的食物会使你饱腹{0}
-					EatWhileFull: 你在饱腹时不能食用{$NPCs.Cook.DisplayName}的食物
-				}
-
-				// TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
+				TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
 				DevItem: "'非常适合模仿瑟银开发者！'"
 				ShoulderGuardianLimit: 仅能同时召唤一个守护者
 				BannerPlacement: 在地面上放置一面旗帜
@@ -21971,12 +21902,16 @@ Mods: {
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
 					'''
+				
+				CookFood: {
+					OutOfCombat: 只能在脱战时食用
+					WillMakeFull: 食用{$NPCs.Cook.DisplayName}的食物会使你饱腹{0}
+					EatWhileFull: 你在饱腹时不能食用{$NPCs.Cook.DisplayName}的食物
+				}
+
 				Sheath: 手持且不使用{1}{^1:秒;seconds}后用剑攻击会暴击造成{0}%伤害
 			}
 
-			Concatenate: "{0} {1}"
-			ConcatenateNoSpace: "{0}{1}"
-			Empty: ""
 			TreasureBag: 宝藏袋({0})
 			ThePrimordials: 始生灾灵
 			MusicBox: 音乐盒({0})
@@ -21996,11 +21931,11 @@ Mods: {
 		}
 
 		ThrowerTechniques: {
-			// DisplayName: Technique: {0}
-			// TooltipBase: Press the '{$Keybinds.ThrowingTechnique.DisplayName}' Key: {0}
-			// CostTooltip: Costs {0} {^0:technique point;technique points}
-			// UseToEnable: Sets your active technique on use | Deal throwing damage to build points
-			// UseToDisable: Technique Active | Use again to disable | Deal throwing damage to build points
+			DisplayName: 秘技卷轴：{0}
+			TooltipBase: 按下 '{$Keybinds.ThrowingTechnique.DisplayName}' 键：{0}
+			CostTooltip: 消耗{0}{^0:点技巧值;technique points}
+			UseToEnable: 点击使用秘技卷轴 | 造成投掷伤害，增加秘技点
+			UseToDisable: 秘技卷轴启用 | 再次点击禁用 | 造成投掷伤害，增加秘技点
 			
 			AbsoluteZero: {
 				DisplayName: 绝对零度
@@ -22101,17 +22036,11 @@ Mods: {
 				DisplayName: 岩石飞掌
 				Description: 掷出一只岩石之手，短暂地阻挡敌方弹幕
 			}
-
-			DisplayName: 秘技卷轴：{0}
-			TooltipBase: 按下 '{$Keybinds.ThrowingTechnique.DisplayName}' 键：{0}
-			CostTooltip: 消耗{0}{^0:点技巧值;technique points}
-			UseToEnable: 点击使用秘技卷轴 | 造成投掷伤害，增加秘技点
-			UseToDisable: 秘技卷轴启用 | 再次点击禁用 | 造成投掷伤害，增加秘技点
 		}
 
 		Configs: {
 			ThoriumConfigClient: {
-				// DisplayName: Client Configuration
+				DisplayName: 客户端配置
 				
 				Headers: {
 					GeneralOptions: 常规选项
@@ -22265,7 +22194,15 @@ Mods: {
 					Tooltip: ""
 				}
 
-				DisplayName: 客户端配置
+				ShowFullEmpowermentTooltip: {
+					Label: Show Full Empowerment Tooltip
+					Tooltip: Toggle if the "{$Empowerments.ItemTopTooltipHoldShift}" tooltip shows the full tooltip instead
+				}
+
+				ShowEmpowermentOrbsInTooltip: {
+					Label: Show Empowerment Orbs In Tooltip
+					Tooltip: Toggle if orb icons should be displayed alongside empowerments in tooltips
+				}
 			}
 
 			HealthOverlayStyle: {
@@ -22315,8 +22252,8 @@ Mods: {
 			}
 		}
 
-		// RecipeGroups.Any: "{0} {1}"
-		// Currencies.VanquisherMedal: vanquisher medals
+		RecipeGroups.Any: "{0} {1}"
+		Currencies.VanquisherMedal: 征服者勋章
 		
 		BardInstrumentType: {
 			Other: 其他
@@ -22370,8 +22307,11 @@ Mods: {
 			}
 		}
 
-		Bestiary.InfoElements.ExpertModeInfoElement: 仅专家模式
-		RecipeGroups.Any: "{0} {1}"
-		Currencies.VanquisherMedal: 征服者勋章
+		Emotes: {
+			ScytheofUndoingEmote.Command: scytheofundoingemote
+			WhisperingSetEmote.Command: whisperingsetemote
+		}
+
+		MapLayers.GrimPointerMapLayer.Name: Blood Chamber
 	}
 }
