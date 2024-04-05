@@ -323,6 +323,8 @@ Items: {
 			每次挥舞在光标处释放天神收割斩
 			每次斩击在现实结构上砍出巨大的裂隙
 			空间裂缝释放最多五种追踪的天体能量
+			Every third swing, the scythe is spun around
+			While spun, amount of slashes spawned are doubled
 			"等等，这不是星神之杀!"
 			'''
 	}
@@ -705,6 +707,7 @@ Items: {
 			150 音波伤害
 			召唤两个悬浮音响在身边
 			造成瘟疫和调谐减益
+			Inflicts plague and tunes enemies on hit
 			"SOMEBODY SCREEEAAAAAM!"
 			'''
 	}
@@ -832,6 +835,17 @@ Items: {
 			'''
 	}
 
+	ScreamingClam: {
+		DisplayName: Screaming Clam
+		Tooltip:
+			'''
+			50 symphonic damage
+			Summons a clam to float above your head that occasionally screams
+			Inflicts riptide and tunes enemies hit
+			"Clamitous"
+			'''
+	}
+
 	ScuffedKeytar: {
 		DisplayName: 磨损的键琴
 		Tooltip:
@@ -865,7 +879,12 @@ Items: {
 			'''
 			无视100点防御
 			这把镰刀是定向挥舞而不是旋转
-			释放3颗追踪敌人的星星，每次挥舞会有多次命中
+			Shoots homing stars that hit multiple times every swing
+			Has a three-swing combo
+			Every first swing, the scythe shoots one homing star
+			Every second swing, the scythe shoots three homing stars
+			Every third swing, the scythe is spun around
+			While spun, emits up to six homing stars
 			"无限密集，就像妈妈的爱"
 			'''
 	}
@@ -1129,6 +1148,18 @@ Items: {
 			"Wulfrum weed wacker wacking weed with wulfrum"
 			'''
 	}
+
+	YharimsJam: {
+		DisplayName: Yharim's Jam
+		Tooltip:
+			'''
+			450 symphonic damage
+			Summons three supersonic speakers that hover beside and below you
+			The speakers will shoot burning beats that tracks to the closest enemy
+			Inflicts dragonfire and tunes enemies hit
+			"We're ascending beyond the sound barrier with this one [i/s1:2701][i/s1:2701][i/s1:2701]"
+			'''
+	}
 }
 
 Projectiles: {
@@ -1144,6 +1175,7 @@ Projectiles: {
 	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
 	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
 	BloomingSaintessDevotion3.DisplayName: 绽花圣女花瓣
+	BurningBeat.DisplayName: Burning Beat
 	CalamityBell.DisplayName: 灾厄之钟
 	CalamityBellRing.DisplayName: 灾厄钟鸣
 	CherubimBeam.DisplayName: 神使光线
@@ -1207,6 +1239,8 @@ Projectiles: {
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: 救赎之恩
 	ScrapGuitar.DisplayName: 废弃吉他
+	ScreamingClam.DisplayName: Screaming Clam
+	ScreamingClamScream.DisplayName: Screaming Clam
 	ScuffedKeytar.DisplayName: 磨损的键琴
 	Singularity.DisplayName: 奇点
 	SingularityStar.DisplayName: 奇点
@@ -1241,6 +1275,7 @@ Projectiles: {
 	WulfrumSoundWave.DisplayName: 声波
 	WulfrumWeedWacker.DisplayName: 钨钢除草机
 	WulfrumWeedWackerWave.DisplayName: 钨钢除草机
+	YharimsJam.DisplayName: Yharim's Jam
 }
 
 Buffs: {
@@ -1289,4 +1324,48 @@ FargoEnchantments: {
 		You spawn two quarter rests around you that heal inspiration upon hitting enemies
 		Occasionally emit a healing pulse that heals and shields allies equal to bonus healing
 		'''
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: Balance Settings
+
+		bard: {
+			Label: Bard weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for bard weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		radiant: {
+			Label: Radiant weapons damage multiplier
+			Tooltip:
+				'''
+				Damage multiplier for offense healer weapons
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		soulEssence: {
+			Label: Soul essence multiplier
+			Tooltip:
+				'''
+				Granted soul essence multiplier for offense healer weapons
+				Capped at 5
+				(World restart required for this to take effect!)
+				'''
+		}
+
+		healing: {
+			Label: Healing multiplier
+			Tooltip:
+				'''
+				Healinng multiplier for healing spells
+				A value of 0 means it will only heal 1 life
+				(World restart required for this to take effect!)
+				'''
+		}
+	}
 }

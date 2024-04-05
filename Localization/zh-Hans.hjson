@@ -1711,9 +1711,9 @@ Mods: {
 			SalamanderCannotSpawn: 蝾螈无法生成的世界
 			GiantShellyCannotSpawn: 巨型卷壳怪无法生成的世界
 			CompletedMonsterContract: 完成{0} {$NPCs.Tracker.DisplayName}协议
-			NotInMasterMode: 没有在大师模式下
-			WorldHasBloodAltar: 世界有鲜血祭坛
-			WorldHasNoBloodAltarOrDownedViscount: 世界没有鲜血祭坛或{$Conditions.DownedViscount}
+			NotInMasterMode: 不在大师模式下
+			WorldHasBloodAltar: 这个世界有鲜血祭坛
+			WorldHasNoBloodAltarOrDownedViscount: 这个世界没有鲜血祭坛或{$Conditions.DownedViscount}
 		}
 
 
