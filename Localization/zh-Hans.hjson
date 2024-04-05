@@ -1823,7 +1823,7 @@ Mods: {
 
 			ItemTopTooltip: 演奏会提供玩家以下加成：
 			EmpowermentNameLevel: "{$Common.Concatenate}"
-			ItemTopTooltipHoldShift: Hold 'Shift' key to show provided empowerments
+			ItemTopTooltipHoldShift: 按住“Shift”显示该武器提供的咒音增幅
 		}
 
 		InfoDisplays: {
@@ -5330,7 +5330,7 @@ Mods: {
 				ConvertTooltip: 右键循环样式或重新制作转化为{0}
 				Grounded: 地面式
 				Hanging: 悬挂式
-				PylonRestriction: 每有一个晶塔可放置 {0} 个喂鸟器 (当前限制: {1})（等wiki占位符）
+				PylonRestriction: 每有一个晶塔可放置 {0} 个喂鸟器 (当前限制: {1})
 				SeedTooltipReplacement: 用于吹管和喂鸟器
 				SeedTooltipFallback: 供喂鸟器使用
 				TileMouseover: 稍后再来看看……
@@ -7358,11 +7358,11 @@ Mods: {
 					'''
 
 				WondrousWandStage: {
-					Fire: Fire
-					Ice: Ice
-					Shadow: Shadow
-					Ichor: Ichor
-					CursedFlame: Cursed Flame
+					Fire: 火
+					Ice: 冰
+					Shadow: 暗影
+					Ichor: 灵液
+					CursedFlame: 诅咒焰
 				}
 			}
 
@@ -9528,7 +9528,7 @@ Mods: {
 			MartyrChalice: {
 				DisplayName: 殉道者圣杯
 				Tooltip: 被治疗的队友会获得3秒无敌
-				HealAmount: Sacrifices your own life to heal all allies in the world for [c/5aff5a:{0}] life
+				HealAmount: 牺牲自身生命治疗世界中所有队友[c/5aff5a:{0}]点生命值
 				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
 			}
 
@@ -15016,7 +15016,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SunkenPalaceMusicBox.SunkenPalace: 沉沦之地
+			SunkenPalaceMusicBox.SunkenPalace: 沉沦宫殿
 			
 			ThoriumBathtub: {
 				DisplayName: 瑟银浴缸
@@ -16315,9 +16315,9 @@ Mods: {
 				Tooltip: 最大仆从数量增加1
 				SetBonus:
 					'''
-					Increases your max number of minions by {0}
-					Killing enemies or continually damaging bosses generates soul wisps
-					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					最大仆从数量增加{0}
+					击杀敌怪或持续伤害Boss会生成灵魂微粒
+					生成{1}个微粒后，它们会被立刻消耗并治疗你{2}点生命值
 					'''
 			}
 
@@ -16326,9 +16326,9 @@ Mods: {
 				Tooltip: 最大哨兵数量增加1
 				SetBonus:
 					'''
-					Increases your max number of sentries by {0}
-					Killing enemies or continually damaging bosses generates soul wisps
-					After generating {1} wisps, they are instantly consumed to heal you for {2} life
+					最大哨兵数量增加{0}
+					击杀敌怪或持续伤害Boss会生成灵魂微粒
+					生成{1}个微粒后，它们会被立刻消耗并治疗你{2}点生命值
 					'''
 			}
 
@@ -17862,10 +17862,10 @@ Mods: {
 					'''
 
 				TotemCallerStage: {
-					Fire: Fire
-					Earth: Earth
-					Wind: Wind
-					Water: Water
+					Fire: 火焰图腾
+					Earth: 大地图腾
+					Wind: 风图腾
+					Water: 雾图腾
 				}
 			}
 
@@ -18097,17 +18097,17 @@ Mods: {
 			}
 
 			AncientMarchingBandUniform: {
-				DisplayName: Ancient Marching Band Uniform
+				DisplayName: 远古仪仗队制服
 				Tooltip: ""
 			}
 
 			AncientMarchingBandLeggings: {
-				DisplayName: Ancient Marching Band Leggings
+				DisplayName: 远古仪仗队裤
 				Tooltip: ""
 			}
 
 			AncientMarchingBandCap: {
-				DisplayName: Ancient Marching Band Cap
+				DisplayName: 远古仪仗队帽
 				Tooltip: ""
 			}
 
@@ -19061,7 +19061,7 @@ Mods: {
 				BestiaryFlavorText: 泰拉人形状的石头；你无法摆脱它的石头眼睛盯着你看的感觉……
 			}
 
-			MagicalBurst.DisplayName: Magical Burst
+			MagicalBurst.DisplayName: 魔法爆弹
 			
 			BuriedChampion: {
 				DisplayName: 英灵遗骸
@@ -19729,10 +19729,10 @@ Mods: {
 				BestiaryFlavorText: 作为无尽的现实浪潮，潮汐之灵代表了宇宙中所有的推拉运动。它会审判那些它认为值得注意的人.
 			}
 
-			AquaiusBubble.DisplayName: Aquaius Bubble
-			ImpendingDread.DisplayName: Impending Dread
-			InnerDespair.DisplayName: Inner Despair
-			LucidBubble.DisplayName: Lucid Bubble
+			AquaiusBubble.DisplayName: 海洋泡泡
+			ImpendingDread.DisplayName: 迫近之恐惧
+			InnerDespair.DisplayName: 心生之绝望
+			LucidBubble.DisplayName: 清澈泡泡
 			
 			Omnicide: {
 				DisplayName: 噬元凶灾·毁灭之灵
@@ -19756,7 +19756,7 @@ Mods: {
 				}
 			}
 
-			UnstableAnger.DisplayName: 动荡的怒火
+			UnstableAnger.DisplayName: 动荡之怒火
 			
 			DistractingJellyfish: {
 				DisplayName: 迷乱水母
@@ -20251,7 +20251,7 @@ Mods: {
 			
 			BatCavePointer: {
 				DisplayName: 蝙蝠洞
-				NoAltar: No Blood Chamber in world
+				NoAltar: 这个世界没有鲜血密室
 			}
 
 			BatWingPro.DisplayName: 蝠翼轮回
@@ -20637,7 +20637,7 @@ Mods: {
 			GardenersSheathPro.DisplayName: 园丁的剑鞘
 			GasContainerPro.DisplayName: 瓦斯瓶
 			GazeEffect.DisplayName: 凝视效果
-			GeodeGathererBobber.DisplayName: Geode Gatherer Bobber
+			GeodeGathererBobber.DisplayName: 晶体收集者浮标
 			GeomancersBrushPro.DisplayName: 风水先生的画笔
 			GeomancersBrushPro2.DisplayName: 风水
 			GeomancersBrushPro3.DisplayName: 风水先生的画笔3
@@ -20673,7 +20673,7 @@ Mods: {
 			GorgonsEyePro.DisplayName: 蛇发女妖之眼
 			GraniteArrowPro.DisplayName: 花岗岩箭矢
 			GraniteBarrier.DisplayName: 花岗岩屏障
-			GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
+			GraniteControlRodBobber.DisplayName: 花岗岩操控杆浮标
 			GraniteEradicatorArm.DisplayName: 花岗岩根除者之臂
 			GraniteReflectorPro.DisplayName: 花岗岩折返标
 			GraveBusterPro.DisplayName: 掘墓手
@@ -21303,7 +21303,7 @@ Mods: {
 			RifleSpearPro.DisplayName: 来复矛
 			RifleSpearPro2.DisplayName: 来复矛2
 			RifleSpearPro3.DisplayName: 来复矛3
-			RlyehLostRodBobber.DisplayName: Rlyeh Lost Rod Bobber
+			RlyehLostRodBobber.DisplayName: 拉莱耶丢失的鱼竿浮标
 			RopePro.DisplayName: 绳
 			SabaBlast.DisplayName: 圣剑光束
 			SandShiftersPouchPro.DisplayName: 移沙袋
@@ -21734,8 +21734,8 @@ Mods: {
 			QuakeGauntletPro5.DisplayName: 震荡手套
 			QuakeGauntletPro6.DisplayName: 震荡手套
 			BonesawPro.DisplayName: 骨锯
-			JetstreamSheathPro.DisplayName: Jetstream Sheath
-			JetstreamSheathChainPro.DisplayName: Jetstream Sheath
+			JetstreamSheathPro.DisplayName: 激流剑鞘
+			JetstreamSheathChainPro.DisplayName: 激流剑鞘
 			ScytheofUndoingPro.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro2.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
@@ -21893,7 +21893,7 @@ Mods: {
 			Empty: ""
 			
 			Tooltips: {
-				TheBlackItem: Dealing damage grants you stacking damage and withers enemies at 50 stacks
+				TheBlackItem: 造成伤害时获得叠加伤害并在叠加至50次时凋零敌怪
 				DevItem: "'非常适合模仿瑟银开发者！'"
 				ShoulderGuardianLimit: 仅能同时召唤一个守护者
 				BannerPlacement: 在地面上放置一面旗帜
@@ -22195,13 +22195,13 @@ Mods: {
 				}
 
 				ShowFullEmpowermentTooltip: {
-					Label: Show Full Empowerment Tooltip
-					Tooltip: Toggle if the "{$Empowerments.ItemTopTooltipHoldShift}" tooltip shows the full tooltip instead
+					Label: 显示完整的咒音增幅工具提示
+					Tooltip: 切换"{$Empowerments.ItemTopTooltipHoldShift}"为直接显示完整的工具描述
 				}
 
 				ShowEmpowermentOrbsInTooltip: {
-					Label: Show Empowerment Orbs In Tooltip
-					Tooltip: Toggle if orb icons should be displayed alongside empowerments in tooltips
+					Label: 在工具提示中显示咒音增幅的音符球体
+					Tooltip: 切换音符球体是否显示在工具描述的咒音增幅旁
 				}
 			}
 
