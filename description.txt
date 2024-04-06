@@ -1,13 +1,24 @@
 This mod is a Chinese Translation Patch of Thorium Mod and Thorium Bosses Reworked and Unofficial Calamity Bard & Healer
 
-介绍
+=模组介绍=
 感谢：由灾厄维基出品的中文瑟银wiki
-瑟银繁中汉化已删除，推荐使用Extra Language!代替
-想闲聊加入qq群596284387（不会同意任何steam好友消息）
-有确认性bug加qq群895423665或者留言告诉我（答案为“我有问题”）
-此汉化包含Thorium Bosses Reworked瑟银boss重置非灾厄官方瑟银武器但不是前置，以瑟银为主
+此汉化包含瑟银boss重置和非灾厄官方瑟银武器不包括这两个模组的前置，以瑟银为前置
+使用方式：1.同时订阅ThoriumMod和本Mod   2.进入tml，在模组管理中同时启用ThoriumMod和本Mod   3.安装完成，进行游戏
 
-使用方法
-1.同时订阅ThoriumMod和本Mod
-2.进入tml，在模组管理中同时启用ThoriumMod和本Mod
-3.安装完成，进行游戏
+=模组问题=
+能表达清晰的在评论区告诉我，无法表达清晰，带上截图加入以下群号告诉我，感谢不尽
+选择1.有确认性bug加qq群  895423665   
+选择2.闲聊加入qq群  596284387   
+
+选择3.steam组和对应的聊天室
+
+=模组链接=
+中文瑟银wiki本模组github源代码
+
+=作者介绍=
+瑟银wiki————————Listentowind，Super_ego
+瑟银wiki转换可用翻译——Flandre Scarlet，令，@马达达马达（B站同名），Super_ego
+程序——————————末泠，Flandre Scarlet
+瑟银附属翻译——————Flandre Scarlet，Super_ego
+github发布———————@马达达马达（B站同名），Super_ego，末泠，Flandre Scarlet
+以上以时间顺序排版
