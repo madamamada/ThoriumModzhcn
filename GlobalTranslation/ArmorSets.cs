@@ -306,14 +306,6 @@ namespace ThoriumModzhcn.GlobalTranslation
             {
                 player.setBonus = "最大仆从数量增加1\n生命木橡子的自动攻击会追踪敌怪";
             }
-            if (set == "SpiritTrapperHelmetSet")
-            {
-                player.setBonus = "击杀敌怪或持续伤害Boss会生成灵魂微粒\n生成5个微粒后，它们会被立刻消耗并治疗你10点生命值";
-            }
-            if (set == "SpiritTrapperMaskSet")
-            {
-                player.setBonus = "击杀敌怪或持续伤害Boss会生成灵魂微粒\r生成5个微粒后，它们会被立刻消耗并治疗你10点生命值";
-            }
             if (set == "TerrariumHelmetSet")
             {
                 player.setBonus = "当你在战斗中时泰拉瑞亚的能量会追寻并保护你";
@@ -337,10 +329,6 @@ namespace ThoriumModzhcn.GlobalTranslation
             if (set == "WhiteDwarfMaskSet")
             {
                 player.setBonus = "暴击会从星宇释放象牙状火焰\n象牙状火焰会造成被击中目标0.1%生命值的伤害";
-            }
-            if (set == "TitanHeadgearSet")
-            {
-                player.setBonus = "造成的伤害增加18%！";
             }
             if (set == "TitanMaskSet")
             {
@@ -684,10 +672,10 @@ namespace ThoriumModzhcn.GlobalTranslation
             {
                 return "LivingWoodMaskSet";
             }
-            item = ModContent.GetInstance<SpiritTrapperHelmet>();
+            item = ModContent.GetInstance<SpiritTrapperCowl>();
             if (item.Type == head.type && item.IsArmorSet(head, body, legs))
             {
-                return "SpiritTrapperHelmetSet";
+                return "SpiritTrapperCowlSet";
             }
             item = ModContent.GetInstance<SpiritTrapperMask>();
             if (item.Type == head.type && item.IsArmorSet(head, body, legs))
