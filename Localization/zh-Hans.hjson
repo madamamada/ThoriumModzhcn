@@ -17,7 +17,7 @@ Mods: {
 			ForgottenOneDefeat: 深海的毒雾已被驱散……
 			SpiderWarning: 蜘蛛的巢穴在愤怒地作响……
 			BoreanStriderAppear: 八足的可怖威胁正在雪地上徘徊……
-			PatchWerkDefeat: 恐怖的缝合人已从世界上消失！（等wiki占位符）
+			PatchWerkDefeat: 恐怖的缝合人分崩离析！
 			CorpseBloomDefeat: 藏匿的绝命花已经凋零……
 			IllusionistDefeat: 神秘幻术师被碾碎了……
 			BuriedChampionAppear: 英灵遗骸挣脱了束缚！
@@ -1684,8 +1684,8 @@ Mods: {
 			}
 
 			ScytheofUndoingBuff: {
-				DisplayName: Scythe of Undoing
-				Description: Granted a dark power...
+				DisplayName: 影流之镰
+				Description: 被暗影能量染指…
 			}
 		}
 
@@ -2328,11 +2328,11 @@ Mods: {
 			}
 
 			Bassoon: {
-				DisplayName: 巴松低音管（等wiki占位符）
+				DisplayName: 巴松低音管
 				Tooltip:
 					'''
-					发射粘性的巴松炸弹
-					右键引爆所有炸弹并凋零所有击中的敌怪
+					发射可粘在物块表面和敌怪身上的巴松炸弹
+					右键消耗4点灵感值引爆所有炸弹并凋零所有击中的敌怪
 					'''
 			}
 
@@ -6201,8 +6201,8 @@ Mods: {
 			}
 
 			JetstreamSheath: {
-				DisplayName: Jetstream Sheath（占位符）
-				Tooltip: Sword strikes release a flurry of slashes against nearby enemies if held and not used for {0} {^0:second;seconds}
+				DisplayName: 激流剑鞘
+				Tooltip: 如果手持且不使用{0} {^0:second;seconds}秒后剑击会向附近敌怪释放5道斩切
 			}
 
 			JewellersWallGrip: {
@@ -6230,11 +6230,11 @@ Mods: {
 			}
 
 			LaunchJumper: {
-				DisplayName: 弹跳弹发射器（等wiki占位符）
+				DisplayName: 弹跳弹发射器
 				Tooltip:
 					'''
-					Launches a rocket-jumpable missile that can send you flying
-					While holding this weapon, you are immune to enemy knockback
+					发射一个可跳跃的火箭导弹
+					手持此武器时你会完全免疫敌怪击退
 					'''
 			}
 
@@ -9527,7 +9527,7 @@ Mods: {
 				DisplayName: 殉道者圣杯
 				Tooltip: 被治疗的队友会获得3秒无敌
 				HealAmount: 牺牲自身生命治疗世界中所有队友[c/5aff5a:{0}]点生命值
-				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
+				RespawnTime: 多人模式下如果玩家不在当前存在的 Boss 附近会被施加 Boss 重生时间惩罚
 			}
 
 			MedicalBag: {
@@ -17593,7 +17593,7 @@ Mods: {
 					降低15%魔力消耗
 					当前魔力值低于75时使用法术书会造成额外伤害
 					'''
-				SetBonus: Damage done increased by {0}%!
+				SetBonus: 增加{0}%伤害！
 			}
 
 			TitanHelmet: {
@@ -18614,8 +18614,8 @@ Mods: {
 			}
 
 			AnnoyingMud: {
-				DisplayName: 恼人的泥巴（等wiki占位符）
-				Tooltip: "'Not this stuff again...'"
+				DisplayName: 恼人的泥巴
+				Tooltip: "'别再这样了……'"
 			}
 
 			RemovedItems: {
@@ -18693,30 +18693,30 @@ Mods: {
 			}
 
 			ScytheofUndoing: {
-				DisplayName: Scythe of Undoing
+				DisplayName: 影流之镰
 				Tooltip:
 					'''
-					Spins a demonic scythe that generates rage as you damage enemies
-					Right click while at full rage to briefly transform into a powerful demon
-					While transformed, left and right click change effects and they gain life steal
-					Additionally, you take less damage and move faster
+					旋转一把恶魔镰刀，随着伤害敌怪积攒怒气
+					满怒气时右键化形为强大的恶魔
+					化形时，左右键效果修改并获得1点生命偷取
+					另外，你受到的伤害降低且移动地更快
 					'''
 
 				Messages: {
 					Idle: {
-						TheRage: The rage is in your hands. Let it loose!
-						NoToy: I am no toy...
-						NotWorthy: You are not worthy of the power you hold.
-						GiveIn: Give in...
-						WillToLive: I find your will to live… amusing.
+						TheRage: 怒火就在你的手中。释放出来吧！
+						NoToy: 我不是个玩具…
+						NotWorthy: 你够资格吗，也许不够
+						GiveIn: 臣服于我…
+						WillToLive: 我嗅到了你的求生欲…有趣。
 					}
 
 					Attacking: {
-						KillThem: Kill them all!
-						Yes: Yes...
-						More: More, more!
-						TimeToReap: Time to reap!
-						KeepCutting: Keep cutting!
+						KillThem: 片甲不留！
+						Yes: 就是这样…
+						More: 更多，我要更多！
+						TimeToReap: 收割开始了！
+						KeepCutting: 继续砍！
 					}
 
 					AttackingBoss: {
@@ -18725,85 +18725,85 @@ Mods: {
 						More: "{$Items.ScytheofUndoing.Messages.Attacking.More}"
 						TimeToReap: "{$Items.ScytheofUndoing.Messages.Attacking.TimeToReap}"
 						KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
-						LouderScream: The louder they scream, the better.
-						SetFree: Set me free!
-						MuchFlesh: If only they ALL had this much flesh to tear!
-						CutDown: Cut ‘em down!
+						LouderScream: 它们叫得越大声越好。
+						SetFree: 解放我吧！
+						MuchFlesh: 要是它们都有这么多血肉供我砍个痛快就好了！
+						CutDown: 杀了他们！
 					}
 
-					AttackingDummy.PreferFlesh: I prefer the sound of flesh being torn, but oh well...
+					AttackingDummy.PreferFlesh: 我其实更喜欢听到肉体撕裂的声音，但这个也凑合
 
 					EnemyKill: {
-						FeltGood: Ooohhh! That felt good.
-						FuelsFury: Every kill fuels my fury.
-						Slaughter: YES! Slaughter!
-						RippedOut: Ripped out!
-						BetterInRed: Everyone DOES look better in red!
+						FeltGood: 杀戮大快人心！
+						FuelsFury: 每条人命都是我怒火的燃料。
+						Slaughter: 好啊，屠杀！
+						RippedOut: 碎尸万段！
+						BetterInRed: 红色，确实适合每个人！
 					}
 
 					BossDefeat: {
-						TheUndoing: I AM the UNDOING!
-						NeverThere: Like they were never there...
-						TheReaping: I am fury... I AM THE REAPING!
+						TheUndoing: 我即是影流！
+						NeverThere: 灰飞烟灭，就像不曾存在一样…
+						TheReaping: 怒火焚身…我即是死亡！
 					}
 
-					BuyItem.NotFirstChoice: Not my first choice, but okay.
+					BuyItem.NotFirstChoice: 不是我最想要的，不过也行。
 
 					RecallHome: {
-						TheWeakRun: The weak run. Stay and fight!
-						Retreat: Retreat?!
+						TheWeakRun: 弱者才逃跑。坚守，战斗！
+						Retreat: 撤退？！
 					}
 
 					Transforming: {
-						TheseLegs: Oh! These legs will take some getting used to.
-						Wrath: The WRATH I will unleash!
-						Destruction: Destruction! Wrath! Fury! As it was meant to be.
-						Reaping: Let the reaping commence... NOW!
+						TheseLegs: 这双腿得花点时间习惯。
+						Wrath: 哦，那想要释放的怒意啊！
+						Destruction: 毁灭，天命，怒火，一切都早已注定。
+						Reaping:  收割开始，马上！
 					}
 
 					ThrownItem: {
-						ALittleHelp: A little help… Anyone?
-						ComeBack: You will come back… in time.
+						ALittleHelp: 帮个小忙…有人吗？
+						ComeBack: 你会回来的…迫不及待。
 					}
 
 					Storage: {
-						CantSee: I can’t see anything in here.
-						WhatAboutReaping: What about the reaping?
-						StirsWrath: This only stirs my wrath.
-						MuchToKill: But there’s still so much to kill!
+						CantSee: 在这里我什么都看不见。
+						WhatAboutReaping: 去收割怎么样？
+						StirsWrath: 这只会徒增我的怒火。
+						MuchToKill: 放我出去，还有好多东西要杀！
 					}
 
 					PickedUp: {
-						ReapingBegun: The reaping has begun!
-						ILive: I live to kill again!
+						ReapingBegun: 收割开始了！
+						ILive: 我的存在就是为了屠杀！
 					}
 				}
 			}
 
 			FreshBrain: {
-				DisplayName: Fresh Brain
+				DisplayName: 新鲜大脑
 				Tooltip:
 					'''
-					Resummons a nasty stitched abomination
-					Only usable during a Blood Moon
+					重新召唤肮脏的缝合怪物
+					只能在血月期间使用
 					'''
 			}
 
 			IllusionaryGlass: {
-				DisplayName: Illusionary Glass
+				DisplayName: 虚幻玻璃
 				Tooltip:
 					'''
-					Resummons a deceptive spell caster
-					Only usable within the Dungeon
+					重新召唤一位骗人的施法者
+					仅能在地牢使用
 					'''
 			}
 
 			RottingSpore: {
-				DisplayName: Rotting Spore
+				DisplayName: 腐烂孢子
 				Tooltip:
 					'''
-					Resummons a man-eating plant
-					Only usable within the Underground Jungle
+					重新召唤一株食人植物
+					仅能在地下丛林使用
 					'''
 			}
 		}
@@ -19012,7 +19012,7 @@ Mods: {
 			PatchWerk: {
 				DisplayName: 缝合人
 				BestiaryFlavorText: 一种由蛆虫填满和泰拉人遗骸组成的可怕生物。它会向任何在听的人呼唤，乞求被镇压.
-				BossChecklistIntegration.SpawnInfo: 缝合人会生成在血月期间,缝合人无法使用游戏内物品手动召唤,击败缝合人是迷途僵尸NPC入住的需求。
+				BossChecklistIntegration.SpawnInfo: 缝合人会生成在血月期间，可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤，击败缝合人是迷途僵尸NPC入住的需求。
 			}
 
 			SeveredLegs: {
@@ -19028,7 +19028,7 @@ Mods: {
 			CorpseBloom: {
 				DisplayName: 绝命花
 				BestiaryFlavorText: 尚不清楚这种变异的花朵得名是由于它的臭味还是它在苏醒的时候通常会留给泰拉人什么.
-				BossChecklistIntegration.SpawnInfo: 在骷髅王被击败后它会生成在地下丛林附近,击败后将不再生成。
+				BossChecklistIntegration.SpawnInfo: 在克苏鲁之脑/世界吞噬怪被击败后它会生成在地下丛林附近，可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤。
 			}
 
 			CorpsePetal.DisplayName: 绝命花瓣
@@ -19604,7 +19604,7 @@ Mods: {
 			Illusionist: {
 				DisplayName: 幻术师
 				BestiaryFlavorText: 一个先于地牢出现的骗子。它利用虚假对手的幻象，让一个古代的暴君用可怕的诅咒毁灭了他的王国.
-				BossChecklistIntegration.SpawnInfo: 在地牢发现的迷你Boss.（生命体分析机可以检测到）
+				BossChecklistIntegration.SpawnInfo: 在地牢发现的迷你Boss（生命体分析机可以检测到）。可以从迷途僵尸处购买[i:ThoriumMod/FreshBrain]再次进行召唤
 			}
 
 			IllusionistMirror.DisplayName: 幻象之镜
@@ -22313,10 +22313,10 @@ Mods: {
 		}
 
 		Emotes: {
-			ScytheofUndoingEmote.Command: scytheofundoingemote
-			WhisperingSetEmote.Command: whisperingsetemote
+			ScytheofUndoingEmote.Command: 影流之镰
+			WhisperingSetEmote.Command: 低语者套装
 		}
 
-		MapLayers.GrimPointerMapLayer.Name: Blood Chamber
+		MapLayers.GrimPointerMapLayer.Name: 鲜血密室
 	}
 }
