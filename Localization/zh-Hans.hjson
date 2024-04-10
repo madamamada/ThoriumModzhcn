@@ -1364,8 +1364,8 @@ Mods: {
 			}
 
 			BannerBounty: {
-				DisplayName: 好战令旗
-				Description: 每有1格最大召唤栏位都会增加3%伤害减免
+				DisplayName: 赏金令旗
+				Description: 附近的召唤物在攻击敌人时会掉落钱币
 			}
 
 			BannerConfusion: {
