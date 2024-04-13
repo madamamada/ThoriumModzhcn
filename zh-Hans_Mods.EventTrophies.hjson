@@ -983,6 +983,61 @@ Items: {
 		Tooltip: ""
 		DisplayName: 原初之星海旅者，月读
 	}
+
+	PinkPetriDish: {
+		DisplayName: 粉色培养皿
+		Tooltip: 召唤粉史莱姆
+	}
+
+	TrojanSquirrel: {
+		Tooltip: ""
+		DisplayName: 特洛伊松鼠
+	}
+
+	RelicPylonItem: {
+		Tooltip: ""
+		DisplayName: 圣物晶塔
+	}
+
+	CygnusRelic: {
+		Tooltip: ""
+		DisplayName: 天鹅座圣物
+	}
+
+	CygnusRelicFragment: {
+		Tooltip: ""
+		DisplayName: 天鹅座圣物碎片
+	}
+
+	AriesRelic: {
+		Tooltip: ""
+		DisplayName: 白羊座圣物
+	}
+
+	AriesRelicFragment: {
+		Tooltip: ""
+		DisplayName: 白羊座圣物碎片
+	}
+
+	AriesPortrait: {
+		DisplayName: 白羊座照片
+		Tooltip: ""
+	}
+
+	CygnusPortrait: {
+		DisplayName: 天鹅座照片
+		Tooltip: ""
+	}
+
+	CygnusPortraitPiece: {
+		Tooltip: ""
+		DisplayName: 天鹅座照片碎片
+	}
+
+	AriesPortraitPiece: {
+		Tooltip: ""
+		DisplayName: 白羊座照片碎片
+	}
 }
 
 LoreLines: {
@@ -1406,6 +1461,13 @@ LoreLines: {
 		Line2: 月读就是其中之一，不管她的说法是有根据的，还是仅仅是一个狂热分子的妄想。
 		Line3: 继续观测吧，无论哪种方式，最终结果都是一样的。
 	}
+
+	TrojanSquirrel: {
+		Line1: 在嘉登加入我的军队后，很多人看到了这个工程的成果和它的威力。
+		Line2: 即便泰拉瑞亚中，最低级的生物也想要创造巨大且威严的机械。
+		Line3: 然而，没有人能把这个作品和他的思想相比。
+		Line4: 这台机械简直对他其他的作品是一种侮辱，它甚至不能被认为是一个对手。
+	}
 }
 
 SpawnInfo: {
@@ -1433,7 +1495,9 @@ SpawnInfo: {
 	BloodEel: 在血月事件期间钓鱼生成.
 	PirateCaptain: 海盗入侵事件有概率生成.
 	Constructs: 在“至尊女巫，灾厄”剩下40%的生命时生成
-	HypnosBoss: 星流巨械击败后，在密码破解器上使用[i:CalamityMod/BloodyVein]召唤。
+	HypnosBoss: 星流巨械击败后，在[i:CalamityMod/CodebreakerBase]上使用[i:CalamityMod/BloodyVein]召唤。
+	CygnusAsteroidField: 使用[i:StarsAbove/StellaglyphTier1]，从那个地方带回一些东西来完成这个。
+	MiningStationAries: 使用[i:StarsAbove/StellaglyphTier1]，从那个地方带回一些东西来完成这个。
 }
 
 Conditions.DownedHauntedTome: After Haunted Tome is defeated
@@ -1476,6 +1540,11 @@ Configs: {
 			Tooltip: 增加额外的召唤物品和在BOSS清单上的显示
 		}
 
+		AddNonConsumableSummoners: {
+			Label: 为精英敌人添加不消耗召唤物品
+			Tooltip: 给boss列表添加原本没有的不消耗召唤物品
+		}
+
 		AddChallengingEnemies: {
 			Label: BOSS清单增加精英敌怪
 			Tooltip: 在BOSS清单增加类似粉史莱姆或卧龙海马等精英怪的词条
@@ -1509,6 +1578,11 @@ Configs: {
 		StarsAboveLoreItems: {
 			Label: 额外灾厄传颂之物的星海苍穹物品
 			Tooltip: 为星海苍穹BOSS添加额外的灾厄传颂之物和样本痕迹
+		}
+
+		FargosLoreItems: {
+			Label: 额外灾厄传颂之物的法狗物品
+			Tooltip: 为法狗BOSS添加额外的灾厄传颂之物
 		}
 
 		ChallengingEnemiesDropVanquisherMedals: {
@@ -1545,5 +1619,12 @@ Configs: {
 			Label: BOSS圣物数量
 			Tooltip: 制作一个纪念章需要多少来自BOSS的圣物(拥有多个圣物会除以当前数值的圣物的数量)
 		}
+
+		VoyageTrophyRelicAmount: {
+			Label: 圣物碎片数量
+			Tooltip: 制作圣物需要多少圣物碎片
+		}
 	}
 }
+
+Tiles.RelicPylonTile.MapEntry: 圣物晶塔
