@@ -323,8 +323,8 @@ Items: {
 			每次挥舞在光标处释放天神收割斩
 			每次斩击在现实结构上砍出巨大的裂隙
 			空间裂缝释放最多五种追踪的天体能量
-			每三次攻击镰刀会旋转
-			旋转时额外进行一次天神收割斩
+			每隔三次攻击镰刀会旋转
+			旋转时天神收割斩增加一根
 			"等等，这不是星神之杀!"
 			'''
 	}
@@ -869,9 +869,9 @@ Items: {
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞释放追踪的恒星
 			不会重置挥舞次数
-			第一次挥舞，释放一颗追踪的恒星
-			第二次挥舞，释放三颗追踪的恒星
-			第三次挥舞，镰刀会旋转
+			挥舞一次，释放一颗追踪的恒星
+			挥舞两次，释放三颗追踪的恒星
+			挥舞三次，攻击镰刀会旋转
 			旋转时释放六颗追踪的恒星
 			"无限密集，就像妈妈的爱"
 			'''
@@ -1128,12 +1128,12 @@ Items: {
 	}
 
 	WulfrumWeedWacker: {
-		DisplayName: 钨钢除草机
+		DisplayName: 钨钢割草镰
 		Tooltip:
 			'''
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞会释放短程刃波
-			"Wulfrum weed wacker wacking weed with wulfrum"
+			"五组钨钢芜草乌，乌草钨刚芜五簇"
 			'''
 	}
 
@@ -1149,12 +1149,12 @@ Items: {
 	}
 
 	YharimsJam: {
-		DisplayName: 亚利姆狂想曲
+		DisplayName: 亚利姆音响
 		Tooltip:
 			'''
 			450 音波伤害
-			召唤三个围绕在玩家身边的超声扬声器
-			扬声器释放燃烧节奏追踪附近的敌人
+			召唤三个围绕在玩家身边的亚利姆音响
+			魔眼释放燃烧的节奏，并追踪附近的敌人
 			造成龙焰和调谐减益
 			"我们正在用这个[i/s1:2701][i/s1:2701][i/s1:2701]超越音障"
 			'''
@@ -1269,12 +1269,12 @@ Projectiles: {
 	WilloftheRagnarok.DisplayName: 诸神黄昏之意志
 	Windward.DisplayName: 迎风
 	WulfrumSoundWave.DisplayName: 声波
-	WulfrumWeedWacker.DisplayName: 钨钢除草机
-	WulfrumWeedWackerWave.DisplayName: 钨钢除草机
+	WulfrumWeedWacker.DisplayName: 钨钢割草镰
+	WulfrumWeedWackerWave.DisplayName: 钨钢割草镰
 	BurningBeat.DisplayName: Burning Beat
-	ScreamingClam.DisplayName: Screaming Clam
-	ScreamingClamScream.DisplayName: Screaming Clam
-	YharimsJam.DisplayName: Yharim's Jam
+	ScreamingClam.DisplayName: 尖叫蛤蜊
+	ScreamingClamScream.DisplayName: 尖叫蛤蜊
+	YharimsJam.DisplayName: 亚利姆音响
 }
 
 Buffs: {
@@ -1352,7 +1352,7 @@ Configs: {
 			Tooltip:
 				'''
 				牧师武器灵魂精华倍率
-				上限为5
+				上限五点
 				(需要重新启动才能生效!)
 				'''
 		}
@@ -1361,8 +1361,8 @@ Configs: {
 			Label: 治疗倍率
 			Tooltip:
 				'''
-				牧师治疗法术倍率
-				数值为零表示它只能治疗1点生命值
+				牧师武器治疗倍率
+				数值为零表示它只能治疗一条生命
 				(需要重新启动才能生效!)
 				'''
 		}
