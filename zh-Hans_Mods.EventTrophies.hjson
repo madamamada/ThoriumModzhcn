@@ -1006,7 +1006,7 @@ Items: {
 
 	CygnusRelicFragment: {
 		Tooltip: ""
-		DisplayName: 天鹅座圣物碎片
+		DisplayName: 天鹅座圣物碎块
 	}
 
 	AriesRelic: {
@@ -1016,27 +1016,127 @@ Items: {
 
 	AriesRelicFragment: {
 		Tooltip: ""
-		DisplayName: 白羊座圣物碎片
+		DisplayName: 白羊座圣物碎块
 	}
 
 	AriesPortrait: {
-		DisplayName: 白羊座照片
+		DisplayName: 白羊座影像
 		Tooltip: ""
 	}
 
 	CygnusPortrait: {
-		DisplayName: 天鹅座照片
+		DisplayName: 天鹅座影像
 		Tooltip: ""
 	}
 
 	CygnusPortraitPiece: {
 		Tooltip: ""
-		DisplayName: 天鹅座照片碎片
+		DisplayName: 天鹅座影像碎片
 	}
 
 	AriesPortraitPiece: {
 		Tooltip: ""
-		DisplayName: 白羊座照片碎片
+		DisplayName: 白羊座影像碎片
+	}
+
+	CelestiaPortraitPiece: {
+		DisplayName: 天空岛影像碎片
+		Tooltip: ""
+	}
+
+	CelestiaPortrait: {
+		DisplayName: 天空岛影像
+		Tooltip: ""
+	}
+
+	UltraPlantPortraitPiece: {
+		DisplayName: 究极发电厂影像碎片
+		Tooltip: ""
+	}
+
+	UltraPlantPortrait: {
+		DisplayName: 究极发电厂影像
+		Tooltip: ""
+	}
+
+	CelestiaRelicFragment: {
+		DisplayName: 天空岛圣物碎块
+		Tooltip: ""
+	}
+
+	CelestiaRelic: {
+		DisplayName: 天空岛圣物
+		Tooltip: ""
+	}
+
+	UltraPlantRelicFragment: {
+		DisplayName: 究极发电厂圣物碎块
+		Tooltip: ""
+	}
+
+	UltraPlantRelic: {
+		DisplayName: 究极发电厂圣物
+		Tooltip: ""
+	}
+
+	ScorpiusPortraitPiece: {
+		DisplayName: 天蝎星影像碎片
+		Tooltip: ""
+	}
+
+	ScorpiusPortrait: {
+		DisplayName: 天蝎星影像
+		Tooltip: ""
+	}
+
+	SerpensPortraitPiece: {
+		DisplayName: 巨蛇星影像碎片
+		Tooltip: ""
+	}
+
+	SerpensPortrait: {
+		DisplayName: 巨蛇星影像
+		Tooltip: ""
+	}
+
+	TucanaPortraitPiece: {
+		DisplayName: 杜鹃星影像碎片
+		Tooltip: ""
+	}
+
+	TucanaPortrait: {
+		DisplayName: 杜鹃星影像
+		Tooltip: ""
+	}
+
+	ScorpiusRelicFragment: {
+		DisplayName: 天蝎星圣物碎块
+		Tooltip: ""
+	}
+
+	ScorpiusRelic: {
+		DisplayName: 天蝎星圣物
+		Tooltip: ""
+	}
+
+	SerpensRelicFragment: {
+		DisplayName: 巨蛇星圣物碎块
+		Tooltip: ""
+	}
+
+	SerpensRelic: {
+		DisplayName: 巨蛇星圣物
+		Tooltip: ""
+	}
+
+	TucanaRelicFragment: {
+		DisplayName: 杜鹃星圣物碎块
+		Tooltip: ""
+	}
+
+	TucanaRelic: {
+		DisplayName: 杜鹃星圣物
+		Tooltip: ""
 	}
 }
 
@@ -1465,7 +1565,7 @@ LoreLines: {
 	TrojanSquirrel: {
 		Line1: 在嘉登加入我的军队后，很多人看到了这个工程的成果和它的威力。
 		Line2: 即便泰拉瑞亚中，最低级的生物也想要创造巨大且威严的机械。
-		Line3: 然而，没有人能把这个作品和他的思想相比。
+		Line3: 然而，没有人能把这个作品和嘉登的思想相比。
 		Line4: 这台机械简直对他其他的作品是一种侮辱，它甚至不能被认为是一个对手。
 	}
 }
@@ -1496,14 +1596,21 @@ SpawnInfo: {
 	PirateCaptain: 海盗入侵事件有概率生成.
 	Constructs: 在“至尊女巫，灾厄”剩下40%的生命时生成
 	HypnosBoss: 星流巨械击败后，在[i:CalamityMod/CodebreakerBase]上使用[i:CalamityMod/BloodyVein]召唤。
-	CygnusAsteroidField: 使用[i:StarsAbove/StellaglyphTier1]，从那个地方带回一些东西来完成这个。
-	MiningStationAries: 使用[i:StarsAbove/StellaglyphTier1]，从那个地方带回一些东西来完成这个。
+	CygnusAsteroidField: 使用[i:StarsAbove/StellaglyphTier1]，从那个星球带回一些东西来完成这个。
+	MiningStationAries: 使用[i:StarsAbove/StellaglyphTier1]，从那个星球带回一些东西来完成这个。
+	Celestia: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	UltraPlant: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	Tucana: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	Serpens: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	Scorpius: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	Corvus: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	Caelum: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
 }
 
 Conditions.DownedHauntedTome: After Haunted Tome is defeated
 NPCs.PinkyPlaceholder.DisplayName: Pinky Placeholder
 DropConditions.JourneyMode: Mods.EventTrophies.DropConditions.JourneyMode
-MergeWarning: 此模组已经与更多圣物/纪念章/灾厄传颂之物合并，你可以在模组列表中移除另一个另一个模组。
+MergeWarning: 此模组已经与更多圣物/纪念章/灾厄传颂之物合并，你可以在模组列表中移除另一个模组。
 
 Configs: {
 	EventTrophiesConfig: {
