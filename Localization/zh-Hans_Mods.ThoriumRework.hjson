@@ -42,8 +42,8 @@ ItemDescriptions: {
 		'''
 	InspiratorsHelmet: 提高25%吟游诗人演奏速度
 	RhapsodistChestWoofer: 音波伤害无视250点防御力
-	RhapsodistBoots: 极大增加了吟游诗人的攻击范围
-	SoloistHat: 最大灵感值增加3点
+	RhapsodistBoots: 咒音增幅范围加倍
+	SoloistHat: 最大灵感值增加8点
 	ChampionBomberStaff:
 		'''
 		发射一枚神奇的导弹重复攻击敌人
@@ -192,15 +192,101 @@ ItemDescriptions: {
 		'''
 		在第二阶段造成混乱的现实减益，减益存在时噬梦者boss不会受到伤害
 		触碰到紫色法阵后，移除混乱的现实减益
-		混乱的现实减益被移除后，进行伤害输出阶段并持续15秒
+		在你身边生成箭头指引紫色法阵的位置
+		混乱的现实减益被移除后，进行伤害输出阶段并持续20秒
 		如果终极混乱的现实减益倒计时结束，你会立即死亡
 		击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以一直对噬梦者造成伤害
 		'''
 }
 
+NPCRenames: {
+	Beholder: 堕落注视者的仆人
+	FallenBeholder: 堕落注视者
+	FallenBeholder2: 虚空凝瞳·堕落注视者
+	Lich: 亵渎之拥·巫妖
+	LichHeadless: 死亡之徒·巫妖
+	ForgottenOne: 遗忘之主的壳
+	ForgottenOneCracked: 遗忘之主
+	ForgottenOneReleased: 旧神潮汐·遗忘之主
+	DreamEater: 泯灭现实·噬梦者
+}
+
+InfernumIntros: {
+	Aquaius:
+		'''
+		Endless Tide
+		Aquaius
+		'''
+	BoreanStrider:
+		'''
+		Cold Blooded Arachnid
+		Borean Strider
+		'''
+	BuriedChampion:
+		'''
+		Ancient Warrior
+		Buried Champion
+		'''
+	DreamEater:
+		'''
+		Dying Reality
+		The Ragnarok
+		'''
+	FallenBeholder:
+		'''
+		Transcendant Beholder
+		Coznix
+		'''
+	ForgottenOne:
+		'''
+		Old God of Tides
+		Abyssion
+		'''
+	GraniteEnergyStorm:
+		'''
+		Unstable Landmass
+		Granite Energy Storm
+		'''
+	Lich:
+		'''
+		Life Defiler's Apostle
+		The Lich
+		'''
+	QueenJellyfish:
+		'''
+		Regal Sea Mutant
+		Queen Jellyfish
+		'''
+	Omnicide:
+		'''
+		Life Defiler
+		Omnicide
+		'''
+	SlagFury:
+		'''
+		Primordial Flame
+		Slag Fury
+		'''
+	StarScouter:
+		'''
+		Cosmic Voyager
+		Star Scouter
+		'''
+	TheGrandThunderBird:
+		'''
+		Feral Scavenger
+		The Grand Thunder Bird
+		'''
+	Viscount:
+		'''
+		Duke of the Caves
+		Viscount
+		'''
+}
+
 Projectiles: {
+	AbyssalApparition.DisplayName: Abyssal Apparition
 	AquaiusBubble.DisplayName: 泡泡
-	AquaiusGeyser.DisplayName: 无尽泉涌
 	AquaiusPunchAttack.DisplayName: 潮汐之手
 	AquaiusWhirlpool.DisplayName: 无尽涡流
 	BeamSaber.DisplayName: 激光剑
@@ -237,12 +323,7 @@ Projectiles: {
 	GraniteCharge.DisplayName: 花岗岩充能
 	HitScan.DisplayName: 冲击射线
 	HitScanner.DisplayName: 冲击扫描仪
-
-	HitScannerTelegraph: {
-		$parentVal: Hit-Scanner
-		DisplayName: Hit Scanner Telegraph
-	}
-
+	HitScannerTelegraph.DisplayName: Hit Scanner
 	IllumiteBlade.DisplayName: 荧光刃
 	IllumitePortal.DisplayName: 荧光传送门
 	ImpendingDread.DisplayName: 迫近之惧
@@ -392,7 +473,7 @@ Items: {
 			蝙蝠造成的1/3伤害用来恢复吸血值
 			右键释放蝙蝠，蝙蝠会追踪并治愈其他玩家
 			每次消耗15点吸血值
-			蝙蝠治愈<healAmount>点生命值
+			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
 			吸血值: <bloodSiphon>
 			"蝙蝠的美妙歌谣"
 			'''
@@ -516,6 +597,58 @@ Configs: {
 			Tooltip: 让瑟银BOSS的生命值乘以当前数值
 		}
 
+		damageScale: {
+			Label: 瑟银BOSS伤害加成
+			Tooltip: 让瑟银的boss的攻击伤害乘以当前数值
+		}
+
+		speedScale: {
+			Label: 瑟银BOSS速度加成
+			Tooltip:
+				'''
+				让瑟银的boss的速度乘以当前数值
+				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
+				灾厄炼狱模组推荐使用1.35倍速度
+				'''
+		}
+
+		extraItems: {
+			Label: 额外物品
+			Tooltip:
+				'''
+				(可选)
+				在这个模组增加一些不相关的物品
+				'''
+		}
+
+		masterDrops: {
+			Label: 大师模式掉落
+			Tooltip:
+				'''
+				(推荐!)
+				让瑟银模组的boss的大师掉落武器，在复仇模式或永恒模式也可以掉落
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: 专家模式下掉落大师模式专属武器
+			Tooltip:
+				'''
+				专家模式下掉落大师模式专属武器
+				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
+				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
+				'''
+		}
+
+		itemReworks: {
+			Label: 重置原瑟银一些武器
+			Tooltip:
+				'''
+				(推荐!)
+				让原瑟银模组武器更好的使用
+				'''
+		}
+
 		postDoGRag: {
 			Label: 在灾厄与法狗魂石里重置始生灾灵阶级
 			Tooltip:
@@ -523,6 +656,7 @@ Configs: {
 				(推荐!)
 				灾厄中始生灾灵在神明吞噬者前召唤
 				法狗魂石中始生灾灵在宇宙英灵前召唤
+				如果两模组都启动，则在两个boss两之间召唤
 				'''
 		}
 
@@ -544,60 +678,59 @@ Configs: {
 			Label: 瑟银boss加入灾厄bossrush
 			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
 		}
+	}
 
-		masterDrops: {
-			Label: 大师模式掉落
-			Tooltip:
-				'''
-				(推荐!)
-				让瑟银模组的boss的大师掉落武器，在复仇模式或永恒模式也可以掉落
-				'''
+	ReworkTogglesConfig: {
+		DisplayName: BOSS重置开/关
+
+		bird: {
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]惊雷王鹰"
+			Tooltip: 惊雷王鹰重置
 		}
 
-		itemReworks: {
-			Label: 重置原瑟银一些武器
-			Tooltip:
-				'''
-				(推荐!)
-				让原瑟银模组武器更好的使用
-				'''
+		jelly: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]水母皇后"
+			Tooltip: 水母皇后重置
 		}
 
-		damageScale: {
-			Label: 瑟银BOSS伤害加成
-			Tooltip: 让瑟银的boss的攻击伤害乘以当前数值
+		bat: {
+			Label: "[i:ThoriumMod/ViscountMask]蝙蝠子爵"
+			Tooltip: 蝙蝠子爵重置
 		}
 
-		speedScale: {
-			Label: 瑟银BOSS速度加成
-			Tooltip:
-				'''
-				让瑟银的boss的速度乘以当前数值
-				有更高的目标挑战BOSS推荐2倍速度（最高2倍速度）
-				灾厄炼狱模组推荐使用1.35倍速度
-				'''
+		champ: {
+			Label: "[i:ThoriumMod/BuriedChampionMask]英灵遗骸"
+			Tooltip: 英灵遗骸重置
 		}
 
-		masterDropsAreNonExclusive: {
-			Label: 专家模式下掉落大师模式专属武器
-			Tooltip:
-				'''
-				专家模式下掉落大师模式专属武器
-				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
-				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
-				'''
+		ges: {
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]花岗岩流能风暴"
+			Tooltip: 花岗岩流能风暴重置
+		}
+
+		scout: {
+			Label: "[i:ThoriumMod/StarScouterMask]星际监察者"
+			Tooltip: 星际监察者重置
+		}
+
+		coznix: {
+			Label: "[i:ThoriumMod/FallenBeholderMask]堕落注视者"
+			Tooltip: 堕落注视者重置
+		}
+
+		lich: {
+			Label: "[i:ThoriumMod/LichMask]巫妖"
+			Tooltip: 巫妖重置
+		}
+
+		abyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]遗忘之主"
+			Tooltip: 遗忘之主重置
+		}
+
+		rag: {
+			Label: "[i:ThoriumMod/TheOmegaCore]始生灾灵"
+			Tooltip: 始生灾灵重置
 		}
 	}
-}
-
-NPCRenames: {
-	Beholder: 堕落注视者的仆人
-	FallenBeholder: 堕落注视者
-	FallenBeholder2: 虚空凝瞳·堕落注视者
-	Lich: 亵渎之拥·巫妖
-	LichHeadless: 死亡之徒·巫妖
-	ForgottenOne: 遗忘之主的壳
-	ForgottenOneCracked: 遗忘之主
-	ForgottenOneReleased: 旧神潮汐·遗忘之主
-	DreamEater: 泯灭现实·噬梦者
 }

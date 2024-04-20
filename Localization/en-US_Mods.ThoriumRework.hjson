@@ -42,8 +42,8 @@ ItemDescriptions: {
 		'''
 	InspiratorsHelmet: 25% increased symphonic playing speed
 	RhapsodistChestWoofer: Symphonic damage ignores 250 defense
-	RhapsodistBoots: Greatly increased symphonic empowerment range
-	SoloistHat: Increases maximum inspiration by 3
+	RhapsodistBoots: Symphonic empowerment range is doubled
+	SoloistHat: Increases maximum inspiration by 8
 	ChampionBomberStaff:
 		'''
 		Shoots a magical burster missile that repeatedly attacks hit targets
@@ -192,15 +192,101 @@ ItemDescriptions: {
 		'''
 		Inflicts Terminal Lucidity in phase 2, boss cannot be damaged until it is removed
 		Fly into purple circles you see if you want to live and remove Terminal Lucidity
+		These purple circles are highlighted by an arrow placed on your location
 		When Terminal Lucidity is removed, DPS phase begins and lasts for 20 seconds
 		If Terminal Lucidity timer runs out, you will die instantly
 		Dream Eater is permanently damageable during rematch fights
 		'''
 }
 
+NPCRenames: {
+	Beholder: Servant of Coznix
+	FallenBeholder: Coznix, the Fallen Beholder
+	FallenBeholder2: Coznix, the Transcendent
+	Lich: Lich, Defiler's Disciple
+	LichHeadless: Lich, Apostle of Death
+	ForgottenOne: Shell of the Forgotten One
+	ForgottenOneCracked: Abyssion, the Forgotten One
+	ForgottenOneReleased: Abyssion, Old God of Tides
+	DreamEater: Dying Reality, The Ragnarök
+}
+
+InfernumIntros: {
+	Aquaius:
+		'''
+		Endless Tide
+		Aquaius
+		'''
+	BoreanStrider:
+		'''
+		Cold Blooded Arachnid
+		Borean Strider
+		'''
+	BuriedChampion:
+		'''
+		Ancient Warrior
+		Buried Champion
+		'''
+	DreamEater:
+		'''
+		Dying Reality
+		The Ragnarok
+		'''
+	FallenBeholder:
+		'''
+		Transcendant Beholder
+		Coznix
+		'''
+	ForgottenOne:
+		'''
+		Old God of Tides
+		Abyssion
+		'''
+	GraniteEnergyStorm:
+		'''
+		Unstable Landmass
+		Granite Energy Storm
+		'''
+	Lich:
+		'''
+		Life Defiler's Apostle
+		The Lich
+		'''
+	QueenJellyfish:
+		'''
+		Regal Sea Mutant
+		Queen Jellyfish
+		'''
+	Omnicide:
+		'''
+		Life Defiler
+		Omnicide
+		'''
+	SlagFury:
+		'''
+		Primordial Flame
+		Slag Fury
+		'''
+	StarScouter:
+		'''
+		Cosmic Voyager
+		Star Scouter
+		'''
+	TheGrandThunderBird:
+		'''
+		Feral Scavenger
+		The Grand Thunder Bird
+		'''
+	Viscount:
+		'''
+		Duke of the Caves
+		Viscount
+		'''
+}
+
 Projectiles: {
+	AbyssalApparition.DisplayName: Abyssal Apparition
 	AquaiusBubble.DisplayName: Bubble
-	AquaiusGeyser.DisplayName: Relentless Geyser
 	AquaiusPunchAttack.DisplayName: Hands of Tide
 	AquaiusWhirlpool.DisplayName: Relentless Whirlpool
 	BeamSaber.DisplayName: Beam Saber
@@ -236,13 +322,8 @@ Projectiles: {
 	GrandThunderF.DisplayName: Grand Thunder
 	GraniteCharge.DisplayName: Granite Charge
 	HitScan.DisplayName: Hit-Scan
-	HitScanner.DisplayName: Hit-Scanner
-
-	HitScannerTelegraph: {
-		$parentVal: Hit-Scanner
-		DisplayName: Hit Scanner Telegraph
-	}
-
+	HitScanner.DisplayName: Hit Scanner
+	HitScannerTelegraph.DisplayName: Hit Scanner
 	IllumiteBlade.DisplayName: Illumite Blade
 	IllumitePortal.DisplayName: Illumite Portal
 	ImpendingDread.DisplayName: Impending Dread
@@ -290,7 +371,6 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	AbyssalApparition.DisplayName: Abyssal Apparition
 }
 
 Items: {
@@ -392,7 +472,7 @@ Items: {
 			Upon returning, they fill up your blood siphon by a third of the damage dealt
 			<right> to shoot bats that will home in to other players and heal them
 			This consumes 15 blood siphon points
-			Bats heal for <healAmount> life
+			Bats heal for <healAmount> life but does not trigger on-heal effects
 			Blood Siphon: <bloodSiphon>
 			"A wonderful ballad of the bats"
 			'''
@@ -514,6 +594,58 @@ Configs: {
 			Tooltip: Multiplies the health of Thorium's bosses by this amount
 		}
 
+		damageScale: {
+			Label: Damage multiplier
+			Tooltip: Multiplies the attack damage of Thorium's bosses by this amount
+		}
+
+		speedScale: {
+			Label: Speed multiplier
+			Tooltip:
+				'''
+				Multiplies the movement speed of Thorium's bosses by this amount
+				Limited to 2x speed as any higher breaks bosses
+				1.35x is recommended for Infernum
+				'''
+		}
+
+		extraItems: {
+			Label: Extra Item Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some unrelated items that are from this mod
+				'''
+		}
+
+		masterDrops: {
+			Label: Master Mode Drops
+			Tooltip:
+				'''
+				(Recommended!)
+				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: Master weapon drops are expert drops
+			Tooltip:
+				'''
+				Master mode exclusive weapons drop in expert mode
+				Recommended if you don't like playing on master or other mods break master drops
+				(e.g. eternity mode becoming masochist mode or infernum not being useable in master mode)
+				'''
+		}
+
+		itemReworks: {
+			Label: Rework Some of Thorium's Items
+			Tooltip:
+				'''
+				(Recommended!)
+				Reworks some items from Thorium mod to be a lot better
+				'''
+		}
+
 		postDoGRag: {
 			Label: Re-tier Primordials in Calamity or Fargo's Souls
 			Tooltip:
@@ -521,6 +653,7 @@ Configs: {
 				(Recommended!)
 				Makes the Primordials post-Devourer in progression
 				Pre-Eridanus in Fargo's Souls
+				In between if both are enabled
 				'''
 		}
 
@@ -542,60 +675,59 @@ Configs: {
 			Label: Thorium Bosses in Calamity Boss Rush
 			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
 		}
+	}
 
-		masterDrops: {
-			Label: Master Mode Drops
-			Tooltip:
-				'''
-				(Recommended!)
-				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
-				'''
+	ReworkTogglesConfig: {
+		DisplayName: Boss Rework Toggles
+
+		bird: {
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Grand Thunder Bird"
+			Tooltip: Grand Thunder Bird rework
 		}
 
-		itemReworks: {
-			Label: Rework Some of Thorium's Items
-			Tooltip:
-				'''
-				(Recommended!)
-				Reworks some items from Thorium mod to be a lot better
-				'''
+		jelly: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Queen Jellyfish"
+			Tooltip: Queen Jellyfish rework
 		}
 
-		damageScale: {
-			Label: Damage multiplier
-			Tooltip: Multiplies the attack damage of Thorium's bosses by this amount
+		bat: {
+			Label: "[i:ThoriumMod/ViscountMask]Viscount"
+			Tooltip: Viscout rework
 		}
 
-		speedScale: {
-			Label: Speed multiplier
-			Tooltip:
-				'''
-				Multiplies the movement speed of Thorium's bosses by this amount
-				Limited to 2x speed as any higher breaks bosses
-				1.35x is recommended for Infernum
-				'''
+		champ: {
+			Label: "[i:ThoriumMod/BuriedChampionMask]Buried Champion"
+			Tooltip: Buried Champion rework
 		}
 
-		masterDropsAreNonExclusive: {
-			Label: Master weapon drops are expert drops
-			Tooltip:
-				'''
-				Master mode exclusive weapons drop in expert mode
-				Recommended if you don't like playing on master or other mods break master drops
-				(e.g. eternity mode becoming masochist mode or infernum not being useable in master mode)
-				'''
+		ges: {
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]Granite Energy Storm"
+			Tooltip: Granite Energy Storm rework
+		}
+
+		scout: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter"
+			Tooltip: Star Scouter rework
+		}
+
+		coznix: {
+			Label: "[i:ThoriumMod/FallenBeholderMask]Coznix"
+			Tooltip: Fallen Beholder rework
+		}
+
+		lich: {
+			Label: "[i:ThoriumMod/LichMask]Lich"
+			Tooltip: Lich rework
+		}
+
+		abyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]Abyssion"
+			Tooltip: Forgotten One rework
+		}
+
+		rag: {
+			Label: "[i:ThoriumMod/TheOmegaCore]Ragnarök"
+			Tooltip: Primordials and Dream Eater rework
 		}
 	}
-}
-
-NPCRenames: {
-	Beholder: Servant of Coznix
-	FallenBeholder: Coznix, the Fallen Beholder
-	FallenBeholder2: Coznix, the Transcendent
-	Lich: Lich, Defiler's Disciple
-	LichHeadless: Lich, Apostle of Death
-	ForgottenOne: Shell of the Forgotten One
-	ForgottenOneCracked: Abyssion, the Forgotten One
-	ForgottenOneReleased: Abyssion, Old God of Tides
-	DreamEater: Dying Reality, The Ragnarök
 }
