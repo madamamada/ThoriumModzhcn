@@ -349,13 +349,17 @@ Projectiles: {
 	OmniBurst.DisplayName: Nuclear Explosion
 	OmniSlash.DisplayName: Death Slash
 	OmnicidePunchAttack.DisplayName: Fist of Havoc
+	Oneirophobia.DisplayName: Oneirophobia
 	Paylode.DisplayName: Magnetic Payload
 	PrimesFury.DisplayName: Prime's Fury
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
 	SevenSeasDevastatorWhirlpool.DisplayName: Seven Seas' Devastator
+	ShellxophoneHealing.DisplayName: Tidal Restoration
+	ShellxophoneRipple.DisplayName: Aquatic Ripple
+	ShellxophoneStrike.DisplayName: Abyssal Strike
+	SoulRender.DisplayName: Soul Render
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: Stuff
-	SoulRender.DisplayName: Soul Render
 	StableRealityRift.DisplayName: Stable Reality Rift
 	TerrariumSaber.DisplayName: Terrarium Saber
 	TideDagger.DisplayName: Aqua Rainstorm
@@ -464,6 +468,17 @@ Items: {
 		Tooltip: Negates non-radiant damage penalties caused by healer armor
 	}
 
+	Oneirophobia: {
+		DisplayName: Oneirophobia
+		Tooltip:
+			'''
+			Creates a lucid apparition that function like random weapons
+			Has a long attack combo
+			"The manifestation of dreams and nightmares"
+			This is supposed to be Dream Eater's master mode drop, but as of now its too unpolished
+			'''
+	}
+
 	RedCresent: {
 		DisplayName: Red Crescent
 		Tooltip:
@@ -515,6 +530,17 @@ Items: {
 			Healer scythes grant soul essence on projectile hits
 			Negates non-radiant damage penalties caused by healer armor
 			"Seal the deal!"
+			'''
+	}
+
+	Shellxophone: {
+		DisplayName: Deep Sea Odyssey
+		Tooltip:
+			'''
+			Shoots bouncing ripples accompanied by homing abyssal strikes
+			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration
+			Healing is increased for every unique empowerment allies have according to its level
+			"Calling the lurkers of the aquatic depths to play the finest symphony"
 			'''
 	}
 
