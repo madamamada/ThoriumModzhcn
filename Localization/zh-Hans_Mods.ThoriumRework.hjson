@@ -474,7 +474,7 @@ Items: {
 		Tooltip:
 			'''
 			释放一个功能类似随机武器的清晰幻影
-			有一段很攻击组合
+			有一段很长时间攻击组合
 			"梦与梦魇的现行"
 			这应该是噬梦者的主模式下降，但到目前为止，它太不完善
 			'''
@@ -538,10 +538,10 @@ Items: {
 		DisplayName: 深海奥德赛
 		Tooltip:
 			'''
-			Shoots bouncing ripples accompanied by homing abyssal strikes左键释放两根弹跳并追踪敌怪的海渊涟漪
-			<right> to shoot homing droplets that heal allies at the cost of 10 inspiration右键释放追踪队友的飞沫，使用10点灵感值并治疗队友
-			Healing is increased for every unique empowerment allies have according to its level治疗效果会根据队友的咒音增幅等级而增加
-			"Calling the lurkers of the aquatic depths to play the finest symphony"奏响深海的潜伏者美妙的交响乐
+			左键释放两根弹跳并追踪敌怪的海渊涟漪
+			右键释放追踪队友的水滴，使用10点灵感值并治疗队友
+			治疗效果会根据队友的咒音增幅等级而增加
+			"唤醒蛰伏渊洋的生灵，奏响世间至歆之声"
 			'''
 	}
 
