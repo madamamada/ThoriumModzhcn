@@ -234,9 +234,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 					case "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you.":
 					chat = "不错啊，孩子……还不错。希望你在所有的冒险中都玩得很开心。我想说我一直在看着你";
 					break; 
-					case "Long ago, when this world was first taking form, my race reigned supreme. That time has passed it seems...":
-					chat = "很久以前，当这个世界刚刚形成的时候，我的种族是至高无上的。但那个时代似乎已经过去了......";
-					break; 
 					}
 			}
 
@@ -337,8 +334,8 @@ namespace ThoriumModzhcn.GlobalTranslation
 			//武器大师
 			if (npc.type == ModContent.NPCType<WeaponMaster>())
 			{
-				if (Guide >= 0 && chat == "That man over there, " + Main.npc[Guide].GivenName + ", keeps giving me dirty looks...")
-					chat = "那边那个人" + Main.npc[Guide].GivenName + "一直在恶狠狠的看着我.....";
+				if (Guide >= 0 && chat == "" + Main.npc[Guide].GivenName + ", keeps giving me dirty looks... It's not like I carry a doll myself")
+					chat = "" + Main.npc[Guide].GivenName + "一直在恶狠狠的看着我.....我又不是巫毒娃娃";
 				if (TaxCollector >= 0 && chat == "I see we have another demon within our ranks. What was his name again? " + Main.npc[TaxCollector].GivenName + " ?")
 					chat = "看来我们又多了一个恶魔。他叫什么来着?" + Main.npc[TaxCollector].GivenName + "？";
 
@@ -350,8 +347,8 @@ namespace ThoriumModzhcn.GlobalTranslation
 
 					switch (chat)
 					{
-					case "Long ago, when this world was first taking form, my race reigned supreme. That time has passed it seems..":
-					chat = "很久以前，当这个世界刚形成的时候，我的种族统治着世界。时间似乎已经过去了";
+					case "Long ago, when this world was first taking form, my race reigned supreme. That time has passed it seems...":
+					chat = "很久以前，当这个世界刚形成的时候，我的种族统治着世界。时间似乎已经过去了.......";
 					break; 
 					case "I'm not one for idle chatter. If you have need of me, make it quick.":
 					chat = "我不是一个喜欢闲聊的人。如果你需要我，就快点.";
@@ -364,14 +361,13 @@ namespace ThoriumModzhcn.GlobalTranslation
 					break; 
 					case "A warrior without his weapon stands no chance against the ever-powering threats he must face...":
 					chat = "一个没有武器的战士在他必须面对的更强大威胁面前是毫无胜算…";
-					break; 
+					break;
 					}
  			}
 
 			//怪异镜子
 			if (npc.type == ModContent.NPCType<PeculiarMirror>())
 			{
-				Main.npcChatText = Main.npcChatText.Replace("blankly stares through you, as though he's not entirely there...", "迷茫地凝视着你，仿佛他并不完全在那里……");
 					switch (chat)
 					{
 					case "Before you sits a rather strange mirror. Something seems to be calling out from it...?":
