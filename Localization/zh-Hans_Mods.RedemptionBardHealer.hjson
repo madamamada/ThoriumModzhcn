@@ -187,6 +187,45 @@ Items: {
 		Tooltip: 发射出锋利的叶子
 	}
 
+	MutagenBard: {
+		DisplayName: Bard's Mutagen
+		Tooltip:
+			'''
+			15% increased symphonic damage
+			10% increased symphonic critical strike chance
+			Increases maximum inspiration by 4
+			'''
+	}
+
+	MutagenHealer: {
+		DisplayName: Cleric's Mutagen
+		Tooltip:
+			'''
+			15% increased radiant damage
+			10% increased radiant critical strike chance
+			Healing spells will heal an additional 2 life
+			'''
+	}
+
+	MutagenThrower: {
+		DisplayName: Ninja's Mutagen
+		Tooltip:
+			'''
+			15% increased throwing damage
+			10% increased throwing critical strike chance
+			Increases maximum technique points by 1
+			'''
+	}
+
+	NoceboEffect: {
+		DisplayName: 反安慰剂效应
+		Tooltip:
+			'''
+			向目标体内注射致命血清
+			“打针不疼的！（其实很疼，疼死了…）”
+			'''
+	}
+
 	Oboeterator: {
 		DisplayName: 歼灭双簧管
 		Tooltip:
@@ -213,15 +252,6 @@ Items: {
 			电磁场会持续对敌人造成伤害，每次攻击消耗（1[i:Redemption/EnergyCell]）能量
 			需要玩家物品栏内存在能量罐
 			“让队友心肺复苏，让敌人心肺骤停”
-			'''
-	}
-
-	NoceboEffect: {
-		DisplayName: 反安慰剂效应
-		Tooltip:
-			'''
-			向目标体内注射致命血清
-			“打针不疼的！（其实很疼，疼死了…）”
 			'''
 	}
 

@@ -187,6 +187,45 @@ Items: {
 		Tooltip: Launches little lacerating leaves
 	}
 
+	MutagenBard: {
+		DisplayName: Bard's Mutagen
+		Tooltip:
+			'''
+			15% increased symphonic damage
+			10% increased symphonic critical strike chance
+			Increases maximum inspiration by 4
+			'''
+	}
+
+	MutagenHealer: {
+		DisplayName: Cleric's Mutagen
+		Tooltip:
+			'''
+			15% increased radiant damage
+			10% increased radiant critical strike chance
+			Healing spells will heal an additional 2 life
+			'''
+	}
+
+	MutagenThrower: {
+		DisplayName: Ninja's Mutagen
+		Tooltip:
+			'''
+			15% increased throwing damage
+			10% increased throwing critical strike chance
+			Increases maximum technique points by 1
+			'''
+	}
+
+	NoceboEffect: {
+		DisplayName: Nocebo Effect
+		Tooltip:
+			'''
+			Injects deadly serum in struck targets
+			"This won't hurt! (It will hurt, a lot...)"
+			'''
+	}
+
 	Oboeterator: {
 		DisplayName: Oboe-terator
 		Tooltip:
@@ -213,15 +252,6 @@ Items: {
 			Enemies are damaged by the electromagnetic field and recharges (1[i:Redemption/EnergyCell]) on crit
 			Requires an Energy Pack to be in your inventory
 			"Restart your ally's heartbeat whilst stopping the enemy's"
-			'''
-	}
-
-	NoceboEffect: {
-		DisplayName: Nocebo Effect
-		Tooltip:
-			'''
-			Injects deadly serum in struck targets
-			"This won't hurt! (It will hurt, a lot...)"
 			'''
 	}
 
