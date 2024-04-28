@@ -208,7 +208,7 @@ Items: {
 	}
 
 	MutagenThrower: {
-		DisplayName: Ninja's Mutagen
+		DisplayName: 忍者诱变器
 		Tooltip:
 			'''
 			增加15%投掷伤害
