@@ -188,22 +188,22 @@ Items: {
 	}
 
 	MutagenBard: {
-		DisplayName: Bard's Mutagen
+		DisplayName: 颂歌诱变器
 		Tooltip:
 			'''
-			15% increased symphonic damage
-			10% increased symphonic critical strike chance
-			Increases maximum inspiration by 4
+			增加15%音波伤害
+			增加10%音波暴击率
+			增加4点最大灵感值
 			'''
 	}
 
 	MutagenHealer: {
-		DisplayName: Cleric's Mutagen
+		DisplayName: 圣职诱变器
 		Tooltip:
 			'''
-			15% increased radiant damage
-			10% increased radiant critical strike chance
-			Healing spells will heal an additional 2 life
+			增加15%光辉伤害
+			增加10%光辉暴击率
+			治疗法术额外治疗2点生命值
 			'''
 	}
 
@@ -211,9 +211,9 @@ Items: {
 		DisplayName: Ninja's Mutagen
 		Tooltip:
 			'''
-			15% increased throwing damage
-			10% increased throwing critical strike chance
-			Increases maximum technique points by 1
+			增加15%投掷伤害
+			增加10%投掷暴击率
+			最大技巧值增加1点
 			'''
 	}
 
