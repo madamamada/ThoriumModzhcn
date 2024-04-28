@@ -18,6 +18,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 			int Spiritualist = NPC.FindFirstNPC(ModContent.NPCType<Spiritualist>());
 			int Tracker = NPC.FindFirstNPC(ModContent.NPCType<Tracker>());
 			int WeaponMaster = NPC.FindFirstNPC(ModContent.NPCType<WeaponMaster>());
+			int PeculiarMirror = NPC.FindFirstNPC(ModContent.NPCType<PeculiarMirror>());
 			int Demolitionist = NPC.FindFirstNPC(38);
 			int PartyGirl = NPC.FindFirstNPC(208);
 			int Merchant = NPC.FindFirstNPC(17);
@@ -218,8 +219,8 @@ namespace ThoriumModzhcn.GlobalTranslation
 					case "Being at the bottom of the ocean for long periods of time has taught me one thing; Always come prepared!":
 					chat = "在海底深渊呆了很长一段时间教会了我一件事;要有备而来!";
 					break; 
-					case "You would think it gets hard to breath under this helmet, but really I'm just used to it now":
-					chat = "你可能会认为戴着头盔会呼吸困难，但实际上我现在已经习惯了";
+					case "You would think it gets hard to breath under this helmet, but really I'm just used to it now.":
+					chat = "你可能会认为戴着头盔会呼吸困难，但实际上我现在已经习惯了。";
 					break; 
 					case "You ever try to drink a bottle of water, while drowning, to save yourself? I know I have!":
 					chat = "你有没有试过在快溺水的时候喝一瓶水来救自己?我知道我有!";
@@ -232,6 +233,9 @@ namespace ThoriumModzhcn.GlobalTranslation
 					break; 
 					case "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you.":
 					chat = "不错啊，孩子……还不错。希望你在所有的冒险中都玩得很开心。我想说我一直在看着你";
+					break; 
+					case "Long ago, when this world was first taking form, my race reigned supreme. That time has passed it seems...":
+					chat = "很久以前，当这个世界刚刚形成的时候，我的种族是至高无上的。但那个时代似乎已经过去了......";
 					break; 
 					}
 			}
@@ -246,10 +250,16 @@ namespace ThoriumModzhcn.GlobalTranslation
 				if (WitchDoctor >= 0 && chat == "Our friend there, " + Main.npc[WitchDoctor].GivenName + ", is rather strange isn't he? He speaks in riddles...")
 					chat = "我们的朋友" + Main.npc[WitchDoctor].GivenName + "他很奇怪，不是吗?他说话和谜语人一样...";
 
+					//散编译
+					chat = chat.Replace("How does today find you,", "你今天过得怎么样");
+					chat = chat.Replace("? Make sure to stop and smell the roses!", "一定要停下来闻闻玫瑰的芬香!");
+					chat = chat.Replace("Even a small seed can grow into a mighty oak! Keep that in mind", "一粒小种子也能长成参天大树!记住这一点");
+					chat = chat.Replace("Defeating powerful monsters will make it safer for me to venture into different biomes in search of seeds. Check back with me regularly", "击败强大的怪物会让我更安全地进入不同的生物群落寻找种子。请定期和我联系");
+
 					switch (chat)
 					{
-					case "Getting these seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea.":
-					chat = "获取这些种子比你想象的要麻烦得多。差点淹死，差点融化，差点冻死-你懂的。";
+					case "Gathering seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea.":
+					chat = "收集这些种子比你想象的要麻烦得多。差点淹死，差点融化，差点冻死-你懂的。";
 					break; 
 					case "I often take visits to the jungle. I can understand the aversion to the place, but the creatures within don't seem to hassle me...":
 					chat = "我经常参观丛林。我能理解对这个地方的厌恶，但里面的生物似乎不会打扰我……";
@@ -312,11 +322,11 @@ namespace ThoriumModzhcn.GlobalTranslation
 					case "Bear your scars with pride, as each one has a tale to tell... What do your scars say about you, hero?":
 					chat = "骄傲地承受你的伤痕，因为每个人都有一个故事要讲……你的伤疤说明了什么，英雄?";
 					break; 
-					case "Many beasts have fallen to me and my axe, but new ones are always on the prowl. Keep your eyes peeled, kid":
-					chat = "许多野兽倒在我和我的斧头下，但新的怪物一直在徘徊。擦亮眼睛，孩子";
+					case "Many beasts have fallen to me and my axe, but new ones are always on the prowl. Keep your eyes peeled, kid.":
+					chat = "许多野兽倒在我和我的斧头下，但新的怪物一直在徘徊。擦亮眼睛，孩子。";
 					break; 
-					case "You'd be surprised how effective a single shoulder pad can be":
-					chat = "你会惊讶一个单肩垫的多么有用";
+					case "You'd be surprised how effective a single shoulder pad can be.":
+					chat = "你会惊讶一个单肩垫的多么有用。";
 					break; 
 					case "A reality-ending nightmare entity, kid? You certainly don't cut corners, there's no way I can top that!":
 					chat = "一个终结现实的噩梦实体，孩子?你当然不会走捷径，我不可能超过你!";
@@ -335,6 +345,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 
 					//散编译
 					chat = chat.Replace("I was exiled from my people when I chose to side with your kind. They thought me foolish, placing faith in those that dwelled above. I'm sure they're feeling rather foolish themselves after what you've just accomplished. Well done, ", "当我选择站在你这一边时，我就被我的种族驱逐了。他们以为我愚蠢，相信天上的神。我敢肯定，在你刚刚完成的事情之后，他们自己也觉得很愚蠢。干得好，");
+					chat = chat.Replace("blankly stares through you, as though he's not entirely there...", "迷茫地凝视着你，仿佛他并不完全在那里……");
 
 
 					switch (chat)
@@ -356,7 +367,20 @@ namespace ThoriumModzhcn.GlobalTranslation
 					break; 
 					}
  			}
+
+			//怪异镜子
+			if (npc.type == ModContent.NPCType<PeculiarMirror>())
+			{
+				Main.npcChatText = Main.npcChatText.Replace("blankly stares through you, as though he's not entirely there...", "迷茫地凝视着你，仿佛他并不完全在那里……");
+					switch (chat)
+					{
+					case "Before you sits a rather strange mirror. Something seems to be calling out from it...?":
+					chat = "在你面前坐着一面相当奇怪的镜子。里面似乎有什么东西在呼唤着......？";
+					break; 
+					}
+ 			}
 		}
+
 
 		public override void OnChatButtonClicked(NPC npc, bool firstButton)
 		{
@@ -432,6 +456,13 @@ namespace ThoriumModzhcn.GlobalTranslation
 				Main.npcChatText = Main.npcChatText.Replace(" *So... you've gained the ability to speak in tongues, ", "所以…你已经获得了能听懂我说话的能力，");
 				Main.npcChatText = Main.npcChatText.Replace("? Very fascinating...", "？太棒了....");
 				Main.npcChatText = Main.npcChatText.Replace("I see you're lacking in coin. Remedy that and I may just help you out...", "我看你缺钱了。解决这个问题，我可能会帮助你...");
+			}
+
+			//怪异镜子
+			if (npc.type == ModContent.NPCType<PeculiarMirror>())
+			{
+				Main.npcChatText = Main.npcChatText.Replace("Before you sits a rather strange mirror. Something seems to be calling out from it...?", "在你面前坐着一面相当奇怪的镜子。里面似乎有什么东西在呼唤着......？");
+
 			}
  		}
 	}

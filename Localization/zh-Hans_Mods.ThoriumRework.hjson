@@ -350,6 +350,12 @@ Projectiles: {
 	OmniSlash.DisplayName: 死亡斩击
 	OmnicidePunchAttack.DisplayName: 毁灭之拳
 	Oneirophobia.DisplayName: Oneirophobia
+	OneirophobiaBlade.DisplayName: Lucid Edge
+	OneirophobiaBolt.DisplayName: Lucid Missile
+	OneirophobiaLaser.DisplayName: Lucid Ray
+	OneirophobiaMinion.DisplayName: Lucid Instrument
+	OneirophobiaNuke.DisplayName: Lucid Blast
+	OneirophobiaSlice.DisplayName: Lucid Slash
 	Paylode.DisplayName: 电磁载荷
 	PrimesFury.DisplayName: 至尊之怒
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
@@ -421,7 +427,7 @@ Items: {
 		DisplayName: 粉丝捐款
 		Tooltip:
 			'''
-			所有乐器击中敌人会产生爆炸，光辉大小取决于演奏的乐器
+			所有乐器击中敌人会产生爆炸，光辉大小取决于演奏的乐器和造成的暴击伤害降低50%
 			穿透性弦乐器攻击每次击中后速度增加，不再降低伤害
 			弦乐器的弹幕在与实体方块碰撞时产生的效果也能在敌人身上产生
 			打击乐器攻击时，敌人昏迷5秒
@@ -460,6 +466,7 @@ Items: {
 			'''
 			管乐器和铜管乐器击中敌人会产生金色光辉
 			金色光辉大小取决于演奏的乐器
+			爆炸造成的暴击伤害降低50%
 			"你有消音器，我有扩音器!"
 			'''
 	}
@@ -473,10 +480,17 @@ Items: {
 		DisplayName: 恐梦症
 		Tooltip:
 			'''
-			释放一个功能类似随机武器的清晰幻影
-			有一段很长时间攻击组合
-			"梦与梦魇的现行"
-			这应该是噬梦者的主模式下降，但到目前为止，它太不完善
+			释放多种类的武器的清晰幻影
+			攻击两次时，此武器会变成一把幻影剑
+			第一次挥舞会产生强烈的冲击波，第二次挥舞会产生三个冲击波
+			在第三次攻击时，武器的刀刃脱落并向前抛出
+			然后武器就会变成一把幻影镰
+			在第四次攻击时，镰刀旋转并释放追踪敌怪的光束
+			在第五次攻击时，此武器会变成幻影法杖
+			它释放不稳定的能量球，并在一段时间后爆炸
+			在第六次攻击时，此武器会变成带有锁定敌怪的幻影激光枪
+			不使用此武器会变成幻影仆从并攻击敌怪
+			"对梦和噩梦的非理性恐惧的表现"
 			'''
 	}
 

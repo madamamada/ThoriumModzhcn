@@ -350,6 +350,12 @@ Projectiles: {
 	OmniSlash.DisplayName: Death Slash
 	OmnicidePunchAttack.DisplayName: Fist of Havoc
 	Oneirophobia.DisplayName: Oneirophobia
+	OneirophobiaBlade.DisplayName: Lucid Edge
+	OneirophobiaBolt.DisplayName: Lucid Missile
+	OneirophobiaLaser.DisplayName: Lucid Ray
+	OneirophobiaMinion.DisplayName: Lucid Instrument
+	OneirophobiaNuke.DisplayName: Lucid Blast
+	OneirophobiaSlice.DisplayName: Lucid Slash
 	Paylode.DisplayName: Magnetic Payload
 	PrimesFury.DisplayName: Prime's Fury
 	QuarterNote.DisplayName: "{$ProjectileName.QuarterNote}"
@@ -420,7 +426,7 @@ Items: {
 		DisplayName: Fan Donations
 		Tooltip:
 			'''
-			All instrument attacks explode on hit, explosion size varies
+			All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
 			Piercing string instrument attacks increase in speed every hit and no longer lose damage
 			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
 			Percussion instrument attacks stun enemies for 5 seconds
@@ -459,6 +465,7 @@ Items: {
 			'''
 			Wind and brass instrument attacks explode on hit
 			Explosion size varies based on the instrument played
+			Explosions deal 50% less critical strike damage
 			"You got a silencer, I got a loudener!"
 			'''
 	}
@@ -473,9 +480,16 @@ Items: {
 		Tooltip:
 			'''
 			Creates a lucid apparition that function like random weapons
-			Has a long attack combo
-			"The manifestation of dreams and nightmares"
-			This is supposed to be Dream Eater's master mode drop, but as of now its too unpolished
+			On the first two attacks, the weapon transforms into a sword
+			The first swing creates a fierce shockwave, the second creates three 
+			On the third attack, the weapon's blade detaches and is thrown forward
+			The weapon then transforms into a scythe
+			On the fourth attack, the weapon is spun and releases homing bolts
+			On the fifth attack, the weapon transforms into a magic staff
+			It then shoots a ball of volatile energy that explodes some time later
+			On the sixth attack, the weapon transforms into a laser gun with aimbot
+			Turns into a sentient synthesizer minion when stowed, attacking enemies
+			"The manifestation of the irrational fear of dreams and nightmares"
 			'''
 	}
 
