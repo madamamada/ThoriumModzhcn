@@ -130,27 +130,27 @@ Buffs: {
 
 Items: {
 	AbominationRemote: {
-		DisplayName: Suspicious Looking Box
+		DisplayName: 可疑的窥盒
 		Tooltip:
 			'''
-			It has a note with weird poem written attached to it with some highlighted words:
-			"You are no [c/00FFFF:match] for whatever comes out of this box."
-			"You will face [c/FFFF00:the] consequences of your actions!"
-			"May the dark [c/FF00FF:colors] of the night sky envelop you in your sleep..."
-			"May it [c/FF0000:kill] off your darkest intentions!"
-			"And thus the creatures of darkness [c/00FF00:tail] your journey to the deep." 
-			"At last, every [c/0000FF:segment] of your existence will diminish and become lifeless rocks."
-			It could be hinting as to how you fight whatever is inside this box...
+			在窥盒上有一张便条，上面写着奇怪的韵文，还有用颜色标记的词语:
+			"不管从这个盒子里出来了什么，他的实力和现在的你不 [c/00FFFF:匹配] 。"
+			"你将会为你的行为承担 [c/FFFF00:那些] 后果!"
+			"愿夜空的黑暗完全吞没你梦境的 [c/FF00FF:颜色] ......"
+			"愿可憎之物 [c/FF0000:消灭] 你的意志!"
+			"因此, 暗影的造物会 [c/00FF00:尾随] 你前往深渊。" 
+			"最后, 你存在的每一 [c/0000FF:部分] 都会消失化为没有生机的岩石。"
+			这张便条可能暗示了让你如何与盒子里的可憎之物搏斗.......
 			'''
 	}
 
 	AdvancedCombinationLock: {
-		DisplayName: Advanced Combination Lock
+		DisplayName: 高级密码锁
 		Tooltip:
 			'''
-			Summons a mini mechanical deer construct to carry your goodies and cool your drinks
-			When accessing your safe via the deer, it has unlimited range as the deer is kind enough to follow you!
-			"Its small and hard to decipher, but at least it has facial recognition!"
+			召唤迷你机械鹿来携带食物和冷却的饮料
+			点击机械鹿时可以打开保险箱，它有无限的范围，因为机械鹿是的跟随你!
+			"它很小，很难破译，但至少它有面部识别功能!"
 			'''
 	}
 
