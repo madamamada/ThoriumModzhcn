@@ -27,8 +27,8 @@ ItemDescriptions: {
 	MagicDagger: Eventually splits into 6 daggers
 	Phasesabers:
 		'''
-		Completely ignores enemy armor
-		Timed swings reflect projectiles back at enemies, dealing 1000% more damage
+		完全无视敌人的盔甲
+		定向挥舞可反弹敌怪弹幕，造成1000%的伤害
 		'''
 }
 
@@ -148,293 +148,293 @@ Items: {
 		DisplayName: 高级密码锁
 		Tooltip:
 			'''
-			召唤迷你机械鹿来携带食物和冷却的饮料
+			召唤迷你机械鹿来携带东西和冷却饮料
 			点击机械鹿时可以打开保险箱，它有无限的范围，因为机械鹿是的跟随你!
 			"它很小，很难破译，但至少它有面部识别功能!"
 			'''
 	}
 
 	Anemoscepter: {
-		DisplayName: Anemoscepter
-		Tooltip: Charge up to shoot a small but powerful blizzard
+		DisplayName: 风力计
+		Tooltip: 蓄力释放小而强大的风龙卷
 	}
 
 	ArtificialStinger: {
-		DisplayName: Artificial Stinger
+		DisplayName: 人造蛰刺
 		Tooltip:
 			'''
-			Uses darts and arrows for ammo
-			Overcharges loaded ammunition, making them more powerful!
-			Empowered arrows leave an ionic trace upon hitting something
-			<right> to load magnetic darts that will latch onto targets
-			Charged arrows home towards magnetized enemies
-			"Designed to simulate the pain of a thousand stings"
+			使用飞镖和箭作为弹药
+			超载弹药，使他们更强大!
+			攻击敌怪时留下等离子电圈
+			右键装填磁性飞镖并锁定目标
+			带电束的箭攻击被磁化的敌人
+			"设计用来模拟一千次刺痛"
 			'''
 	}
 
 	Avalanche: {
-		DisplayName: Avalanche
+		DisplayName: 雪崩
 		Tooltip:
 			'''
-			Uses snowballs for ammo
-			Charge this weapon to increase the amount of snowballs shot
-			At maximum charge, snowballs become filled with shrapnel
-			"No, it can't be used to make ice cream"
+			使用雪球作为弹药
+			蓄力增加雪球数量
+			最大蓄力下, 雪球碰撞到物体会产生雪片
+			"不，它不能用来做冰淇淋。"
 			'''
 	}
 
 	BeeController: {
-		DisplayName: Bee Controller
+		DisplayName: 蜜蜂控制器
 		Tooltip:
 			'''
-			Summons a B-33 Unit to follow you around
-			Ventilates the owner when they sleep
-			"It's caretaking time!"
+			召唤B-33单元跟随你
+			使用者睡觉时会帮忙放风
+			"这是照顾时间!"
 			'''
 	}
 
 	BeeRemote: {
-		DisplayName: Bee Remote
+		DisplayName: 机械蜂
 		Tooltip:
 			'''
-			Summons Caretaker
-			You hear strange buzzing in the air...
+			召唤看守者
+			听到空中有奇怪的嗡嗡声……
 			'''
 	}
 
 	Beforeshock: {
-		DisplayName: Beforeshock
+		DisplayName: 前震
 		Tooltip:
 			'''
-			Fires a spread of 5 bullets in bursts of 3
-			The first shot of the burst creates a massive shockwave
-			"Its the aftershock that happens before the earthquake even hits"
+			一次性发射5个子弹，每个子弹发射3次
+			第一次攻击释放冲力波
+			"它是在地震发生之前发生的余震"
 			'''
 	}
 
 	Bloodshed: {
-		DisplayName: Bloodshed
+		DisplayName: 杀戮
 		Tooltip: ""
 	}
 
 	BloodStainedPocketWatch: {
-		DisplayName: Blood Stained Pocket Watch
-		Tooltip: Summons blood stained silver knives that shoot towards the cursor
+		DisplayName: 血渍怀表
+		Tooltip: 召唤血染银刀向光标射击
 	}
 
 	BrainRemote: {
-		DisplayName: Brain Remote
+		DisplayName: 机械大脑
 		Tooltip:
 			'''
-			Summons The Terminator
-			You feel like you are being hunted down...
+			召唤终结者
+			感觉自己被追杀了……
 			'''
 	}
 
 	BreachCutter: {
-		DisplayName: Breach Cutter
+		DisplayName: 等离子切割器
 		Tooltip:
 			'''
-			Fires a vertical beam of plasma
-			Ignores some defense
+			释放一束用闪电链接的等离子电圈
+			无视一些防御力
 			'''
 	}
 
 	CaretakerBossBag: {
-		DisplayName: Treasure Bag (MK-22 "Caretaker")
+		DisplayName: 宝藏袋 (MK-22看守者)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	CaretakerMask: {
-		DisplayName: Caretaker Mask
+		DisplayName: 看守者面具
 		Tooltip: ""
 	}
 
 	CaretakerRelic: {
-		DisplayName: Caretaker Relic
+		DisplayName: 看守者圣物
 		Tooltip: ""
 	}
 
 	CaretakerTrophy: {
-		DisplayName: Caretaker Trophy
+		DisplayName: 看守者纪念章
 		Tooltip: ""
 	}
 
 	ClockworkWrench: {
-		DisplayName: Clockwork Wrench
-		Tooltip: Summons a clockwork turret that shoots high velocity bullets to fight for you
+		DisplayName: 机械扳手
+		Tooltip: 召唤能发射高速子弹的机械炮塔为你战斗
 	}
 
 	DeerRemote: {
-		DisplayName: Deer Remote
+		DisplayName: 机械鹿
 		Tooltip:
 			'''
-			Summons St4-sys
-			You hear loud clanking heading towards you...
+			召唤St4-sys
+			听到响亮的轰轰声朝你走来……
 			'''
 	}
 
 	DoubleTrouble: {
-		DisplayName: Double Trouble
+		DisplayName: 双重危机
 		Tooltip:
 			'''
-			Summons either Spazmatism or Retinazer to flail around the player
-			Retinazer shoots lasers while Spazmatism shoots cursed flames
-			Counts as a whip but is not affected by whip range bonuses
+			召唤激光眼或魔焰眼在玩家周围摆动
+			激光眼发射激光，魔焰眼释放诅咒焰
+			算作鞭子，但不受鞭子距离加成的影响
 			'''
 	}
 
 	EnergyHilt: {
-		DisplayName: Energy Hilt
+		DisplayName: 能量刀柄
 		Tooltip:
 			'''
-			Melee attacks ignore 10 defense
-			Phasesabers shoot out a short-ranged wave of light
+			近战无视10点防御
+			晶光刃会释放短距离的光波
 			'''
 	}
 
 	Exitium: {
-		DisplayName: Exitium
+		DisplayName: 救世主长矛
 		Tooltip:
 			'''
-			Swing a spear that shoots lightning and missiles
-			Missiles target the closest enemy to the cursor
-			Right click to detonate the missiles prematurely
-			The main spear can hit enemies through tiles
-			"Search and destroy"
+			挥舞可以释放闪电和导弹的长矛
+			导弹瞄准距离光标最近的敌怪
+			右键可以提前引爆导弹
+			矛可以穿透物块攻击敌怪
+			"搜索与歼灭"
 			'''
 	}
 
 	EyeRemote: {
-		DisplayName: Eye Remote
+		DisplayName: 机械魔眼
 		Tooltip:
 			'''
-			Summons the Twins
-			This is going to be a horrible night...
+			召唤双子魔眼
+			这将是一个可怕的夜晚……
 			'''
 	}
 
 	Finis: {
-		DisplayName: Finis
+		DisplayName: 终章
 		Tooltip:
 			'''
-			Thrown once every two swings
-			Generates bolts that orbit the user
-			Holding <right> while attacking causes the scythe to automatically home on the closest enemy
-			Hitting something with the scythe while its thrown causes accumulated bolts to home on the hit enemy
+			每两次挥舞让镰刀抛出去一次
+			生成环绕在使用者身边的弹幕（手持时也会累积）
+			在攻击时右键使用镰刀自动锁定玩家最近的敌人
+			抛出镰刀时，会让环绕在身边的弹幕发射给敌怪
 			'''
 	}
 
 	FlinxForceWalkieTalkie: {
-		DisplayName: Flinx Force Walkie Talkie
-		Tooltip: Summons Flinxcopters to drop bombs on enemies
+		DisplayName: 机械雪怪空军呼叫器
+		Tooltip: 召唤雪怪直升机向敌人投掷雪炸弹
 	}
 
 	HandPrime: {
-		DisplayName: Hand Prime
+		DisplayName: 统帅之臂
 		Tooltip:
 			'''
-			<right> to switch between 4 modes
-			Laser mode: Fires bursts of red lasers
-			Cannon mode: Fires red rockets that home in on enemies
-			Saw mode: Turns into a saw and slices enemies in half
-			Switching modes or items during this will launch the saw
-			Saw mode cannot be used until the launched saw despawns
-			Hook mode: Shoot a hook that latch on to enemies
-			<left> to pull yourself toward the hook
+			右键切换四种模式
+			激光模式:发射红色激光
+			大炮模式:发射红色火箭，瞄准敌人
+			链锯模式:变成一把链锯，把敌人切成两半
+			切换模式或锯发射出去
+			链锯模式不可使用，直到发射的锯消失
+			钳模式:释放一个锁住敌人的钳子
+			右键收回钳子
 			'''
 	}
 
 	HarmonicWeaponCatalyst: {
-		DisplayName: Harmonic Weapon Catalyst
+		DisplayName: 谐鸣乐共振质
 		Tooltip:
 			'''
-			Increases the currently held weapon's attack damage, speed and critical strike chance by 15%, and armor penetration by 15
-			When holding certain weapon types, gain bonuses based on its damage class
-			Melee: 15% reduced damage taken but enemies are more likely to target you
-			Ranged: 15% reduced ammo consumption and increased arrow displacement
-			Magic: 15% reduced mana usage and mana regeneration is constant
-			Summoner: +2 max minions and sentries and enemies are less likely to target you
-			Throwing: 15% increased throwing displacement
-			Rogue: 15% increased stealth generation and projectile velocity
-			Bard: +5s empowerment duration and increases empowerment range by 15 blocks
-			Healer: 15% reduced mana usage, reduced healing cooldown by 0.2s and heal allies for 5 more life
+			根据当前持有武器的类型增加攻击伤害，速度和暴击率增加15%，护甲穿透增加15点
+			当持有某些武器类型时，根据其伤害等级获得加成：
+			近战:受到的伤害降低15%，但敌人更有可能瞄准你
+			远程:弹药消耗减少15%和箭的射速
+			魔法:法力消耗减少15%，法力回复保持不变
+			召唤:最大仆从和哨兵增加2，敌人不太可能瞄准你
+			投掷:投掷速度增加15%
+			盗贼: 增加15%的潜行值恢复和攻击速度
+			吟游诗人:咒音增幅的持续时间增加5秒和效应范围增加15格
+			牧师:法力消耗减少15%，缩短0.2s治疗冷却时间并治疗队友5点生命
 			'''
 	}
 
 	Jumboshark: {
-		DisplayName: Jumboshark
+		DisplayName: 惧兽鲨
 		Tooltip:
 			'''
-			Minishark's cousin from a different world
-			Fires in a volley of three
+			小鲨鱼来自另一个世界的表亲
+			三枪齐发
 			'''
 	}
 
 	Killswitch: {
-		DisplayName: Killswitch
+		DisplayName: 杀戮时刻
 		Tooltip:
 			'''
-			Summons Termini to follow you around
-			"It wouldn't hurt a fly!"
+			召唤迷你终结者跟随你
+			"连苍蝇的不会受伤!"
 			'''
 	}
 
 	KineticTremors: {
-		DisplayName: Kinetic Tremors
+		DisplayName: 震荡之锤
 		Tooltip:
 			'''
-			Charge up a giant hammer that creates shockwaves upon hitting tiles or enemies
-			Can hit multiple times, allowing for multiple shockwaves to spawn
-			"Rocket-propelled earthquakes!"
+			蓄力攻击物块或敌怪时产生冲击波
+			可以攻击多次，允许多个冲击波产生
+			"火箭推进地震!"
 			'''
 	}
 
 	HydraulicPressManual: {
-		DisplayName: Hydraulic Press Manual
+		DisplayName: 液压机手册
 		Tooltip:
 			'''
-			Click on enemies to crush them with a hydraulic press
-			"Hydraulic press crushing ASMR"
+			点击敌人，用液压机碾压他们
+			"液压机粉碎ASMR"
 			'''
 	}
 
 	LaserStar: {
-		DisplayName: Laser Star
-		Tooltip: Hit enemies spawn short-lasting laser beams
+		DisplayName: 激光之星
+		Tooltip: 击中敌怪会产生持续时间较短的激光束
 	}
 
 	MechanicalCockpitPiece: {
-		DisplayName: Mechanical Cockpit Piece
+		DisplayName: 机械驾驶舱部件
 		Tooltip: ""
 	}
 
 	MechanicalJet: {
-		DisplayName: Mechanical Jet
+		DisplayName: 机械喷气式飞机
 		Tooltip:
 			'''
-			Summons a fast, rideable jet that hovers
-			Deals contact damage at max speed
-			Attacking summons a barrage of missiles that deal damage based on your weapon's attack speed
-			"At least jet fuel is easy to get in Terraria"
+			召唤一架快速飞行的飞机
+			速度提升到最大时会造成接触伤害
+			攻击召唤一系列导弹，根据武器的攻速造成伤害
+			"至少燃油在泰拉瑞亚很容易弄到"
 			'''
 	}
 
 	MechanicalWings: {
-		DisplayName: Mechanical Wings
+		DisplayName: 机械翅膀
 		Tooltip:
 			'''
-			Allows flight and slow fall
-			Press DOWN to toggle hover
-			Press UP to deactivate hover
-			Hold UP to boost faster!
-			Hold DOWN while not flying to fall faster!
-			"Does more, costs less"
+			允许飞行和缓慢下降
+			飞行状态时按下键切换悬停状态
+			飞行状态时按上键取消悬停状态
+			飞行状态时按上键加速上升!
+			不是飞行状态按住下键会下落的更快!
+			"做得更多，成本更低"
 			'''
 	}
 
 	MechclopsBossBag: {
-		DisplayName: Treasure Bag (St4-sys)
+		DisplayName: 宝藏袋 (St4-sys)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -444,31 +444,31 @@ Items: {
 	}
 
 	MechclopsRelic: {
-		DisplayName: St4-sys Relic
+		DisplayName: St4-sys圣物
 		Tooltip: ""
 	}
 
 	MechclopsTrophy: {
-		DisplayName: St4-sys Trophy
+		DisplayName: St4-sys纪念章
 		Tooltip: ""
 	}
 
 	RabbitRune: {
-		DisplayName: Rabbit Rune
+		DisplayName: 兔子符文
 		Tooltip:
 			'''
-			Changes world difficulty
-			Debug item
+			改变世界难度
+			测试物品
 			'''
 	}
 
 	RepurposedBeeRemote: {
-		DisplayName: Missile Launch Codes
+		DisplayName: 导弹发射箱子
 		Tooltip:
 			'''
-			Summons a missile battery that stays behind the player
-			Shoots more missiles per burst the more minion slots occupied
-			"The intercontinental ballistic missile gambit, they never see it coming"
+			召唤留在玩家身后的导弹炮台
+			每轮发射的导弹会随着召唤栏的增多而增多
+			"洲际弹道导弹的策略，他们从来没有预料到"
 			'''
 	}
 
@@ -559,7 +559,7 @@ Items: {
 	}
 
 	SiegeEngineBossBag: {
-		DisplayName: Treasure Bag (Siege Engine)
+		DisplayName: 宝藏袋 (Siege Engine)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -647,22 +647,22 @@ Items: {
 	}
 
 	TerminatorBossBag: {
-		DisplayName: Treasure Bag (The Terminator)
+		DisplayName: 宝藏袋 (终结者)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	TerminatorMask: {
-		DisplayName: Terminator Mask
+		DisplayName: 终结者面具
 		Tooltip: ""
 	}
 
 	TerminatorRelic: {
-		DisplayName: Terminator Relic
+		DisplayName: 终结者圣物
 		Tooltip: ""
 	}
 
 	TerminatorTrophy: {
-		DisplayName: Terminator Trophy
+		DisplayName: 终结者纪念章
 		Tooltip: ""
 	}
 
@@ -709,7 +709,7 @@ Items: {
 
 NPCs: {
 	Caretaker: {
-		DisplayName: MK-22 "Caretaker"
+		DisplayName: MK-22看守者
 		Bestiary: Another of the mechanic's untold and unfinished creations but with the help of the goblin tinkerer. Originally a super weapon to fight the celestial invasion but despite many attempts, failure still won. The Caretaker was supposed to utilize the power of bees. Why you may ask? Goblin science research had discovered the extraordinary strength of the Terrarian jungle's bees. The idea behind it was to grow and incubate genetically modified bees built specifically for combat but the lack of research in the goblin science field led to catastrophe resulting in the project getting abandoned.
 	}
 
@@ -744,11 +744,11 @@ NPCs: {
 	SiegeShield.DisplayName: Siege Shield
 
 	TheTerminator: {
-		DisplayName: The Terminator
+		DisplayName: 终结者
 		InfernumIntro:
 			'''
 			Warmind Prototype
-			The Terminator
+			终结者
 			'''
 		Bestiary: One of the mechanic's untold and unfinished creations. Supposed to be an intelligent warmind with machine-learning capabilities, but an error led to its hostility. The mechanic tried to shut the thing down and was successful and then scrapped the project, never to be spoken again. Until the day comes when something disturbed its peaceful nap, reawakening with anger and one thing in its head: Terminate. The brain scouted the world looking for its owner who neglected it but in the meantime, learning how lifeforms work and what would be the best weapons to use against them. The brain used its intelligence to build weapons within itself for use. It is searching, it is hunting, it is coming for you!
 	}
@@ -878,50 +878,50 @@ Projectiles: {
 
 Configs: {
 	ReworkConfig: {
-		DisplayName: Rework Settings
+		DisplayName: 重置设置
 
 		twins: {
-			Label: "[i/s1:544] Twins Rework"
+			Label: "[i/s1:544]双子魔眼重置"
 			Tooltip:
 				'''
-				Enables the rework for the Twins, turn off when there is conflict with other mods
-				Works with Eternity Mode and Revengeance Mode, no need to turn this off when either are on
-				(NOTE: attack patterns combine, not override!)
+				启用双子魔眼的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
 				'''
 		}
 
 		destroyer: {
-			Label: "[i/s1:556] Destroyer Rework"
+			Label: "[i/s1:556]毁灭者重置"
 			Tooltip:
 				'''
-				Enables the rework for the Destroyer, turn off when there is conflict with other mods
-				Works with Eternity Mode and Revengeance Mode, no need to turn this off when either are on
-				(NOTE: attack patterns combine, not override!)
+				启用毁灭者的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
 				'''
 		}
 
 		prime: {
-			Label: "[i/s1:557] Skeletron Prime Rework"
+			Label: "[i/s1:557]机械骷髅王重置"
 			Tooltip:
 				'''
-				Enables the rework for Skeletron Prime, turn off when there is conflict with other mods
-				Works with Eternity Mode and Revengeance Mode, no need to turn this off when either are on
-				(NOTE: attack patterns combine, not override!)
+				启用机械骷髅王的重置与其他模组冲突时关闭
+				当灾厄复仇和fargo永恒打开时，不需要关掉它
+				(注意:攻击模式是组合的，而不是覆盖的!)
 				'''
 		}
 
 		oldAI: {
-			Label: Old AI Reworks
+			Label: 旧AI重置
 			Tooltip:
 				'''
-				Old versions of boss reworks
-				Only Destroyer has an old AI
+				旧版本的BOSS重置
+				只有毁灭者有旧的AI
 				'''
 		}
 
 		Death: {
-			Label: Death Animations
-			Tooltip: Enables death animations
+			Label: 死亡动画
+			Tooltip: 激活死亡动画
 		}
 
 		masterDropsAreNonExclusive: {
@@ -945,8 +945,8 @@ Configs: {
 		}
 
 		MechSpawnRework: {
-			Label: Mechanical Boss Natural Spawn Rework
-			Tooltip: Enables a reworked version of natural mechanical boss spawning
+			Label: Mechanical Boss Natural Spawn重置
+			Tooltip: Enables a重置ed version of natural mechanical boss spawning
 		}
 
 		MechSpawnDelay: {
@@ -1010,65 +1010,65 @@ Configs: {
 		}
 
 		Frostbrand: {
-			Label: "[i/s1:676] Frostbrand Rework"
-			Tooltip: Enables Frostbrand rework
+			Label: "[i/s1:676] 寒霜剑重置"
+			Tooltip: 启用寒霜剑重置
 		}
 
 		BeamSword: {
-			Label: "[i/s1:723] Beam Sword Rework"
-			Tooltip: Enables Beam Sword rework
+			Label: "[i/s1:723] 光束剑重置"
+			Tooltip: 启用光束剑重置
 		}
 
 		Megashark: {
-			Label: "[i/s1:533] Megashark Rework"
-			Tooltip: Enables Megashark rework
+			Label: "[i/s1:533] 巨兽鲨重置"
+			Tooltip: 启用巨兽鲨重置
 		}
 
 		MagicDagger: {
-			Label: "[i/s1:517] Magic Dagger Rework"
-			Tooltip: Enables Magic Dagger rework
+			Label: "[i/s1:517] 魔法飞刀重置"
+			Tooltip: 启用魔法飞刀重置
 		}
 
 		LightDisc: {
-			Label: "[i/s1:561] Light Disc Rework"
-			Tooltip: Enables Light Disc rework
+			Label: "[i/s1:561] 光辉飞盘重置"
+			Tooltip: 启用光辉飞盘重置
 		}
 
 		OpticStaff: {
-			Label: "[i/s1:2535] Optic Staff Rework"
-			Tooltip: Enables Optic Staff rework (You might need to resummon your eye minions after changing this to prevent breaking)
+			Label: "[i/s1:2535] 魔眼法杖重置"
+			Tooltip: 启用魔眼法杖重置 (You might need to resummon your eye minions after changing this to prevent breaking)
 		}
 
 		HallowedHood: {
-			Label: "[i/s1:4873] Hallowed Summoner Armor Rework"
-			Tooltip: Enables Hallowed Hood rework
+			Label: "[i/s1:4873] 神圣召唤套装效果重置"
+			Tooltip: 启用神圣召唤套装效果重置
 		}
 
 		AdamantiteArmor: {
-			Label: "[i/s1:403] Adamantite Armor Rework"
-			Tooltip: Enables Adamantite Armor set bonus rework
+			Label: "[i/s1:403] 精金套装效果重置"
+			Tooltip: 启用精金套装效果重置
 		}
 
 		MythrilArmor: {
-			Label: "[i/s1:379] Mythril Armor Rework"
-			Tooltip: Enables Mythril Armor set bonus rework
+			Label: "[i/s1:379] 秘银套装效果重置"
+			Tooltip: 启用秘银套装效果重置
 		}
 
 		CobaltArmor: {
-			Label: "[i/s1:374] Cobalt Armor Rework"
-			Tooltip: Enables Cobalt Armor set bonus rework
+			Label: "[i/s1:374] 钴套装效果重置"
+			Tooltip: 启用钴套装效果重置
 		}
 
 		MechanicalCart: {
-			Label: "[i/s1:3353] Mechanical Cart Rework"
-			Tooltip: Enables Mechanical Cart rework
+			Label: "[i/s1:3353] 机械矿车重置"
+			Tooltip: 启用机械矿车重置
 		}
 
 		Sabers: {
-			Label: "[i/s1:3768] Phasesabers Rework"
+			Label: "[i/s1:3768] 晶光刃重置"
 			Tooltip:
 				'''
-				Enables Phasesabers rework
+				启用晶光刃重置
 				(NOTE: this also works with phasesabers added by Thorium)
 				'''
 		}
