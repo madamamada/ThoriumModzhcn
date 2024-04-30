@@ -1,41 +1,41 @@
 ItemDescriptions: {
 	AdamantiteArmor:
 		'''
-		Dealing damage spawns Adamantite Spades that orbit around you
-		Up to a maximum of three spades can be active
-		The spades will eventually turn into item pick-ups
+		攻击时会在你周围生成精金制黑桃
+		最多可以生成三个黑桃
+		黑桃最终会变成可拾取物品（红心/星星）
 		'''
-	BeamSword: The beam of light spawns a copy of itself on hit
+	BeamSword: 光束攻击敌怪时可以产生另一个光束
 	CobaltArmor:
 		'''
-		Gain increasing defense and damage reduction as health gets lower
-		Capped at 25 defense and 20% damage reduction
-		Effect activates below {0} life
+		生命值越低，防御和伤害减免越高
+		上限为25点防御和20%伤害减免
+		效果在{0}生命值以下激活
 		'''
-	Excalibur: Critical hits temporarily increases attack speed
+	Excalibur: 暴击会暂时增加攻击速度
 	HallowedSummonerArmor:
 		'''
-		Increases whip range by 15%,
-		and summons an enchanted sword to fight for you
+		鞭子距离增加15%
+		召唤一把附魔剑为你而战
 		'''
 	MythrilArmor:
 		'''
-		Not attacking for a while greatly increases attack speed
+		一段时间不攻击会极大的提高攻击速度
 		This effect lasts for a maximum 5 seconds and has a wind up of 3 seconds
 		'''
-	Megashark: Occasionally shoots out a fish missile
-	MagicDagger: Eventually splits into 6 daggers
+	Megashark: 有概率发射一个鱼导弹
+	MagicDagger: 最终分裂成六把匕首
 	Phasesabers:
 		'''
-		完全无视敌人的盔甲
+		完全无视敌人的护甲
 		定向挥舞可反弹敌怪弹幕，造成1000%的伤害
 		'''
 }
 
 SpawnConditions: {
-	Generic: Use a [i:{0}] anytime, anywhere
-	Mechdusa: Use a [i:{0}] in a Zenith world or a regular Post-Golem world
-	SiegeEngine: Use a [i:{0}] to awaken a sleeping construct near the edges of the underworld
+	Generic: 使用 [i:{0}] 召唤
+	Mechdusa: 使用 [i:{0}] 在天顶世界或石巨人后召唤
+	SiegeEngine: 使用 [i:{0}] 在地狱的尽头召唤
 }
 
 Tiles: {
@@ -47,13 +47,13 @@ Tiles: {
 
 Buffs: {
 	AdamantiteSpades: {
-		DisplayName: Adamantite Spades
-		Description: A bunch of adamantite spades are orbiting you
+		DisplayName: 精金制黑桃
+		Description: 黑桃在你周围旋转
 	}
 
 	ExcaliburRage: {
-		DisplayName: Arthur's Rage
-		Description: 33% increased melee attack speed
+		DisplayName: 亚瑟王的愤怒
+		Description: 增加33%的近战攻击速度
 	}
 
 	ElectromagneticFlux: {
@@ -439,7 +439,7 @@ Items: {
 	}
 
 	MechclopsMask: {
-		DisplayName: St4-sys Mask
+		DisplayName: St4-sys面具
 		Tooltip: ""
 	}
 
