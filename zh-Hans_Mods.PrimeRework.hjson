@@ -20,8 +20,8 @@ ItemDescriptions: {
 		'''
 	MythrilArmor:
 		'''
-		一段时间不攻击会极大的提高攻击速度
-		This effect lasts for a maximum 5 seconds and has a wind up of 3 seconds
+		一段时间不攻击会极大的提高攻速
+		有五秒的冷却时间和停止攻击3秒后才可以新开始攒攻速
 		'''
 	Megashark: 有概率发射一个鱼导弹
 	MagicDagger: 最终分裂成六把匕首
@@ -39,10 +39,10 @@ SpawnConditions: {
 }
 
 Tiles: {
-	SoulofDightinaBottle.MapEntry: Soul of Dight in a Bottle
-	SoulofFreightinaBottle.MapEntry: Soul of Freight in a Bottle
-	SoulofPlightinaBottle.MapEntry: Soul of Plight in a Bottle
-	SoulofTightinaBottle.MapEntry: Soul of Tight in a Bottle
+	SoulofDightinaBottle.MapEntry: 瓶中抚爱之魂
+	SoulofFreightinaBottle.MapEntry: 瓶中承载之魂
+	SoulofPlightinaBottle.MapEntry: 瓶中困境之魂
+	SoulofTightinaBottle.MapEntry: 瓶中束缚之魂
 }
 
 Buffs: {
@@ -53,78 +53,78 @@ Buffs: {
 
 	ExcaliburRage: {
 		DisplayName: 亚瑟王的愤怒
-		Description: 增加33%的近战攻击速度
+		Description: 增加33%的近战攻速
 	}
 
 	ElectromagneticFlux: {
-		DisplayName: Electromagnetic Flux
+		DisplayName: 电磁通量
 		Description:
 			'''
-			You are empowered!
-			10% increased attack damage and speed, infinite flight
+			你充满了力量！
+			增加10%攻击伤害和速度，无限飞行
 			'''
 	}
 
 	Flinxcopter: {
-		DisplayName: Flinx Air Force
-		Description: Dropping the bomb, sergeant!
+		DisplayName: 小雪怪空军
+		Description: 投炸弹，中士!
 	}
 
 	MarkedforNegationNegative: {
-		DisplayName: Marked for Negation (Negative Charge)
+		DisplayName: 标记为否定(负电荷)
 		Description:
 			'''
-			Quick, touch the magenta clones to live!
-			(Zaps the player for touching the wrong colored clone)
+			快，触摸红色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
 			'''
 	}
 
 	MarkedforNegationNeutral: {
-		DisplayName: Marked for Negation (Neutral Charge)
+		DisplayName: 标记为否定(中性电荷)
 		Description:
 			'''
-			Quick, touch the yellow clones to live!
-			(Zaps the player for touching the wrong colored clone)
+			块, 触摸黄色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
 			'''
 	}
 
 	MarkedforNegationPositive: {
-		DisplayName: Marked for Negation (Positive Charge)
+		DisplayName: 标记为否定(正电荷)
 		Description:
 			'''
-			Quick, touch the cyan clones to live!
-			(Zaps the player for touching the wrong colored clone)
+			快, 触摸青色才能活!
+			(因为玩家触碰了错误颜色而电击玩家)
 			'''
 	}
 
 	MechanicalJet: {
-		DisplayName: Mechanical Jet
-		Description: Godspeed!
+		DisplayName: 机械喷气式飞机
+		Description: 神速!
 	}
 
 	MissileBattery: {
-		DisplayName: Missile Battery
-		Description: Leak your foes' IP address
+		DisplayName: 导弹电池
+		Description: 泄露敌人的IP地址
 	}
 
 	Nanny: {
-		DisplayName: B-33 "Nanny"
-		Description: Helps you get some good night rest
+		DisplayName: B-33 "守卫"
+		Description: 帮你睡个好觉
 	}
 
 	RockCancer: {
-		DisplayName: Rock Cancer
-		Description: Your blood crystalizes...
+		DisplayName: 岩痘
+		Description: 你的血液结晶…
 	}
 
 	Safesys: {
 		DisplayName: S4f3-sys
-		Description: Its like its bigger in the inside!
+		Description: 肚子好像里面更大!
 	}
 
 	Termini: {
-		DisplayName: Termini
-		Description: Err... I mean, it wouldn't hurt anything bigger than a fly!
+		DisplayName: 迷你终结者
+		Description: 呃……我是说，它不会伤害比飞虫大!
 	}
 }
 
@@ -213,7 +213,7 @@ Items: {
 	}
 
 	Bloodshed: {
-		DisplayName: 杀戮
+		DisplayName: 杀戮之刃
 		Tooltip: ""
 	}
 
@@ -466,184 +466,184 @@ Items: {
 		DisplayName: 导弹发射箱子
 		Tooltip:
 			'''
-			召唤留在玩家身后的导弹炮台
+			召唤留在玩家身后的导弹炮台（实测只有原版的上限不包含模组的上限）
 			每轮发射的导弹会随着召唤栏的增多而增多
 			"洲际弹道导弹的策略，他们从来没有预料到"
 			'''
 	}
 
 	RepurposedBrainRemote: {
-		DisplayName: Termination Sequence
+		DisplayName: 终结序列
 		Tooltip:
 			'''
-			Fires in bursts of 3
-			The gun itself deals contact damage
-			Hitting enemies has a chance to spawn a mini seeker droid to aid you in combat
-			Does not use ammo
-			"I don't have any time to explain"
+			连续发射三发子弹
+			枪本身拥有接触伤害
+			攻击敌怪时有概率生成迷你探索者机器人为你而战
+			不消耗弹药
+			"我没时间解释了"
 			'''
 	}
 
 	RepurposedDeerRemote: {
-		DisplayName: Scream-matic Horn
+		DisplayName: 尖锐爆鸣声
 		Tooltip:
 			'''
-			Lets out an amplified, high-pitched yell
-			"Sending death threats outside of hearing range B)"
+			发出放大且高音调的音波
+			"在听力范围之外发送死亡威胁 B)"
 			'''
 	}
 
 	RepurposedEyeRemote: {
-		DisplayName: Coiled Eyeball
-		Tooltip: Summons mini Retinazers to shoot lasers
+		DisplayName: 视目睛旋
+		Tooltip: 召唤迷你激光眼发射器发射激光
 	}
 
 	RepurposedSkullRemote: {
-		DisplayName: Skull of Steel
-		Tooltip: Summons Prime hands to fight for you
+		DisplayName: 惧骨颅械
+		Tooltip: 召唤机械骷髅王外骨骼为你而战
 	}
 
 	RepurposedWormRemote: {
-		DisplayName: Iron Annelid
+		DisplayName: 力鞭脊挞
 		Tooltip:
 			'''
-			Destroyer but whip
-			Hits have a 25% to spawn probes
+			毁灭者，但是鞭子
+			命中敌怪时有25%产生探针
 			'''
 	}
 
 	PlasmaPistol: {
-		DisplayName: Plasma Pistol
+		DisplayName: 等离子手枪
 		Tooltip:
 			'''
-			Shoots condensed plasma
-			Charge up to increase the concentration of plasma
-			Concentrated plasma release more plasma as they travel
+			射出浓缩的等离子团
+			蓄力增加等离子的浓度
+			蓄力的浓缩的等离子团在移动过程中释放出更多的小等离子团
 			'''
 	}
 
 	PortableEnergyConverter: {
-		DisplayName: Portable Energy Converter
+		DisplayName: 便携式能量转换器
 		Tooltip:
 			'''
-			10% increased magic attack speed
-			Some energy guns use no mana
+			增加10%施法速度
+			一些需要能量的枪不使用魔力值
 			'''
 	}
 
 	SelfCoolingPitcher: {
-		DisplayName: Self-Cooling Pitcher
+		DisplayName: 冷藏罐
 		Tooltip:
 			'''
-			<right> this in the inventory while holding buff potions to fill it up
-			Buff potions put inside the pitcher last twice as long
-			Duplicate potion effects add up to further increase the duration
-			Extra duration given by duplicates are not doubled and only give a flat amount
-			Can store up to 20 buffs, duplicates still count to the limit
-			"Now you can enjoy some ice-cold ironskin potions!"
+			手持药水右键点击冷藏罐储存
+			放入冷藏罐中的增益药剂的持续时间是原本药水的两倍
+			重复的药剂效果加起来会进一步延长持续时间
+			重复使用的药剂不会翻倍持续时间
+			最多可以储藏20份药水，重新制作冷藏罐依旧会受到该限制
+			"现在你可以享用冰凉的铁皮药水了!"
 			<empty>
 			'''
-		Full: Will apply the following buffs:
-		Empty: Empty
+		Full: 可以使用以下增益:
+		Empty: 无
 	}
 
 	SiegeDowner: {
-		DisplayName: Siege Downer
+		DisplayName: 困绝守御
 		Tooltip:
 			'''
-			Creates 4 spiked shields that protect you from most ranged attacks
-			The shields get knocked back when getting hit, eventually getting staggered
-			Staggered shields spin uncontrollably and cannot block attacks
-			"I'M INVINCIBLE!"
+			召唤4个尖刺护盾，保护你免受大多数远程攻击
+			击中时，盾牌会被击退且混乱
+			混乱中的盾牌旋转不受控制，不能阻挡攻击
+			"我 是 无 敌 的!"
 			'''
 	}
 
 	SiegeEngineBossBag: {
-		DisplayName: 宝藏袋 (Siege Engine)
+		DisplayName: 宝藏袋 (狱擎围城·愤怒机械墙)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SiegeEngineRelic: {
-		DisplayName: Siege Engine Relic
+		DisplayName: 狱擎围城圣物
 		Tooltip: ""
 	}
 
 	SiegeEngineTrophy: {
-		DisplayName: Siege Engine Trophy
+		DisplayName: 狱擎围城纪念章
 		Tooltip: ""
 	}
 
 	SkullRemote: {
-		DisplayName: Skull Remote
+		DisplayName: 机械骷髅头
 		Tooltip:
 			'''
-			Summons Skeletron Prime
-			The air is getting colder around you...
+			召唤机械骷髅王
+			你周围的空气越来越冷……
 			'''
 	}
 
 	SoulofDight: {
-		DisplayName: Soul of Dight
-		Tooltip: "'The essence of caress and protection'"
+		DisplayName: 抚爱之魂
+		Tooltip: "'看守者的精华'"
 	}
 
 	SoulofDightinaBottle: {
-		DisplayName: Soul of Dight in a Bottle
+		DisplayName: 瓶中抚爱之魂
 		Tooltip: ""
 	}
 
 	SoulofFreight: {
-		DisplayName: Soul of Freight
-		Tooltip: "'The essence of load and burden'"
+		DisplayName: 承载之魂
+		Tooltip: "'纯粹承载的精华'"
 	}
 
 	SoulofFreightinaBottle: {
-		DisplayName: Soul of Freight in a Bottle
+		DisplayName: 瓶中承载之魂
 		Tooltip: ""
 	}
 
 	SoulofPlight: {
-		DisplayName: Soul of Plight
-		Tooltip: "'The essence of war and conflict'"
+		DisplayName: 困境之魂
+		Tooltip: "'终结者的精华'"
 	}
 
 	SoulofPlightinaBottle: {
-		DisplayName: Soul of Plight in a Bottle
+		DisplayName: 瓶中困境之魂
 		Tooltip: ""
 	}
 
 	SoulofTight: {
-		DisplayName: Soul of Tight
-		Tooltip: "'The essence of powerful, crushing forces'"
+		DisplayName: 束缚之魂
+		Tooltip: "'碾压力量的精华'"
 	}
 
 	SoulofTightinaBottle: {
-		DisplayName: Soul of Tight in a Bottle
+		DisplayName: 瓶中束缚之魂
 		Tooltip: ""
 	}
 
 	StuffStuffer: {
-		DisplayName: Stuff Stuffer
+		DisplayName: 物块填充物
 		Tooltip:
 			'''
-			Shoots an assortment of random stuff
-			"Blow thy load"
+			发射各种随机的物品
+			"尽你所能"
 			'''
 	}
 
 	SublimeStellarSling: {
-		DisplayName: Sublime Stellar Sling
-		Tooltip: Fires in a burst of 6 stars that locks on to the closest target
+		DisplayName: 恢宏恒星炮
+		Tooltip: 发射6颗恒星锁定最近的目标
 	}
 
 	SwarmGrenade: {
-		DisplayName: Swarm Grenade
-		Tooltip: '''"Just like the swarm, its never ending"'''
+		DisplayName: 昆虫烟雾弹
+		Tooltip: '''"像蜂群一样，永无止境"'''
 	}
 
 	TaserAttachment: {
-		DisplayName: Taser Attachment
-		Tooltip: Summon tagged enemies take continuous damage
+		DisplayName: 泰瑟枪零件
+		Tooltip: 被召唤标记的敌怪会受到持续伤害
 	}
 
 	TerminatorBossBag: {
@@ -667,42 +667,42 @@ Items: {
 	}
 
 	TheSnake: {
-		DisplayName: The Snake
+		DisplayName: 蛇枪
 		Tooltip:
 			'''
-			Fires a curving ball of energy
-			Fires almost as fast as you can pull the trigger
-			Holding down the trigger will cause it to fire at a controlled rate
-			"Built by Chaba in the labyrinth shop"
+			发射一个S形状完全的能量球
+			发射速度和你手速挂钩
+			也可以自动开火
+			"由迷宫商店的茶羽制作"
 			'''
 	}
 
 	TheSpur: {
-		DisplayName: The Spur
+		DisplayName: 突波
 		Tooltip:
 			'''
-			Charge then release to fire a slow, concentrated laser beam
-			The laser is stronger the longer you charge
-			"Real men don't trade their polar star for a machine gun!"
+			释放缓慢而集中的激光束
+			蓄力时间越长，激光束就越强
+			"真正的男人不会拿北极星换机关枪!"
 			'''
 	}
 
 	TrueBloodshed: {
-		DisplayName: True Bloodshed
+		DisplayName: 真杀戮之刃
 		Tooltip: ""
 	}
 
 	WallRemote: {
-		DisplayName: Strange Otherworldy Remote
-		Tooltip: Awakens a sleeping construct near the edges of the underworld
+		DisplayName: 机械支撑柱
+		Tooltip: 在地狱的尽头唤醒机械墙
 	}
 
 	WormRemote: {
-		DisplayName: Worm Remote
+		DisplayName: 机械蠕虫
 		Tooltip:
 			'''
-			Summons the Destoyer
-			You feel vibrations from deep below...
+			召唤毁灭者
+			你感受到地下深处的震动……
 			'''
 	}
 }
@@ -710,47 +710,46 @@ Items: {
 NPCs: {
 	Caretaker: {
 		DisplayName: MK-22看守者
-		Bestiary: Another of the mechanic's untold and unfinished creations but with the help of the goblin tinkerer. Originally a super weapon to fight the celestial invasion but despite many attempts, failure still won. The Caretaker was supposed to utilize the power of bees. Why you may ask? Goblin science research had discovered the extraordinary strength of the Terrarian jungle's bees. The idea behind it was to grow and incubate genetically modified bees built specifically for combat but the lack of research in the goblin science field led to catastrophe resulting in the project getting abandoned.
+		Bestiary: 这个机械是未完成作品之一，但在哥布林工匠的帮助下。原本是一种对抗天界入侵的超级武器，但尽管多次尝试，看守人也利用蜜蜂的力量但依然以失败告终。你可能会问为什么?哥布林的科学研究发现了大地丛林中蜜蜂的非凡力量。哥布林其背后的想法是培育和孵化专门用于战斗的转基因蜜蜂，但在哥布林的科学领域缺乏研究导致了灾难，导致该项目被放弃。
 	}
 
-	DestroyerBody.DisplayName: The Destroyer
-	DestroyerHead.DisplayName: The Destroyer
+	DestroyerBody.DisplayName: 毁灭者
+	DestroyerHead.DisplayName: 毁灭者
 
 	MechaBee: {
-		DisplayName: B-33 "Shank"
-		Bestiary: Caretaker's assistant in battle. Built with high precision tracking cameras and AI-stablized gyroscopic laser guns, these things can snipe the wings off of a fly!
+		DisplayName: B-33 "机械雏蜂"
+		Bestiary: 战斗中看守人的仆从。内置高精度跟踪摄像头和人工智能稳定的陀螺仪激光枪，这些东西可以狙击飞虫的翅膀!
 	}
 
 	Mechclops: {
 		DisplayName: St4-sys
-		Bestiary: An unused contraption left behind by Charlie, now reanimated with the purpose of gathering resources in the world in hopes it can return to its home. However, by using that remote, you disturbed its pre-programmed schedule and caused it to fail-safe and trigger its self defense mechanisms, which its clearly not good at using.
-	}
+		Bestiary: 查理留下的没用过的装置，现在被重新激活了，目的是收集世界上的资源，希望它能回到它的家。然而，你通过使用遥控器打乱了它预先设定的程序，导致它失效并触发了它的自卫机制，而它现在显然不擅长使用这个机制。
 
-	Mechdusa.DisplayName: M3CH-DUS4, Ocram's Razor
-	MechdusaTail.DisplayName: M3CH-DUS4, Ocram's Razor
-	MutantBee.DisplayName: Mutant Bee
-	Probe.DisplayName: Probe
+	Mechdusa.DisplayName: M3CH-DUS4机械美杜莎
+	MechdusaTail.DisplayName: M3CH-DUS4机械美杜莎
+	MutantBee.DisplayName: 突变蜂
+	Probe.DisplayName: 探针
 
 	SeekerDroid: {
-		DisplayName: Seeker Droid
-		Bestiary: Terminator's assistant in battle. A single unit is capable of shielding its master from any damage using powerful magnetic fields to block attacks. Though, not just limited to their master, these things can shield themselves and reflect attacks back at its master's target.
+		DisplayName: 引导机器人
+		Bestiary: 终结者在战斗中的仆从。每个单位可以使用强大的磁场来阻挡攻击，从而保护主人免受任何伤害。尽管如此，这些东西不仅局限于它们的主人，它们还可以保护自己并把攻击反射回主人的敌人。
 	}
 
 	SiegeEngine: {
-		DisplayName: Siege Engine, Wrathful Machine
-		Bestiary: A powerful construct made by martians in an attempt to capture the spirits of light and dark. It is said that the power the spirits bestow is the reason for their advanced equipment. However, they could not get enough of it and wanted more.
+		DisplayName: 狱擎围城·愤怒机械墙
+		Bestiary: 火星人为了捕捉光明和黑暗的灵魂而制造的强大机械。据说，神灵赋予的力量是他们拥有先进设备的原因。然而，他们怎么也不满足，还想要更多。
 	}
 
-	SiegeShield.DisplayName: Siege Shield
+	SiegeShield.DisplayName: 围城盾
 
 	TheTerminator: {
 		DisplayName: 终结者
 		InfernumIntro:
 			'''
-			Warmind Prototype
+			战争思维雏形
 			终结者
 			'''
-		Bestiary: One of the mechanic's untold and unfinished creations. Supposed to be an intelligent warmind with machine-learning capabilities, but an error led to its hostility. The mechanic tried to shut the thing down and was successful and then scrapped the project, never to be spoken again. Until the day comes when something disturbed its peaceful nap, reawakening with anger and one thing in its head: Terminate. The brain scouted the world looking for its owner who neglected it but in the meantime, learning how lifeforms work and what would be the best weapons to use against them. The brain used its intelligence to build weapons within itself for use. It is searching, it is hunting, it is coming for you!
+		Bestiary: 这个机械是未完成作品之一。本应是一个具有机器学习能力的智能暖心机械，但一个错误的程序引导了敌意。机械师试图关闭这个东西，可喜的是成功了，然后取消了这个项目，没有和任何人说过。直到有一天，有什么东西扰乱了它的沉睡，它带着愤怒重新醒来，脑子里只有一个念头:结束。大脑在世界上四处寻找扰乱他醒来的人，但与此同时，它也在学习生命是如何工作的，以及用什么来对付它们是最好的武器。大脑用它的智慧在自己体内制造武器。它在寻找，它在狩猎，它在向你走来!
 	}
 }
 
@@ -925,88 +924,88 @@ Configs: {
 		}
 
 		masterDropsAreNonExclusive: {
-			Label: Master weapon drops are expert drops
+			Label: 专家模式下掉落大师模式专属武器
 			Tooltip:
 				'''
-				Master mode exclusive weapons drop in expert mode
-				Recommended if you don't like playing on master or other mods break master drops
-				(e.g. eternity mode becoming masochist mode or infernum not being useable in master mode)
+				专家模式下掉落大师模式专属武器
+				如果你不喜欢玩大师或其他其他模组只能在专家模式下游玩
+				(例如：fargo魂模组永恒模式在大师模式下变成受虐模式，或者灾厄炼狱模组无法开启大师模式)
 				'''
 		}
 
 		dayMechs: {
-			Label: "[i/s1:3064] Mechs are fightable during day"
-			Tooltip: The mechanical bosses are fightable during the day!
+			Label: "[i/s1:3064] 机械BOSS可在白天战斗"
+			Tooltip: 机械BOSS可在白天战斗!
 		}
 
 		unlimitedMechs: {
-			Label: Unlimited Mech Summons
-			Tooltip: All mech boss summons are unlimited!
+			Label: 无限制召唤机械BOSS
+			Tooltip: 所有机械BOSS无限制召唤!
 		}
 
 		MechSpawnRework: {
-			Label: Mechanical Boss Natural Spawn重置
-			Tooltip: Enables a重置ed version of natural mechanical boss spawning
+			Label: 机械BOSS自然生成重置
+			Tooltip: 启用重置机械BOSS自然生成
 		}
 
 		MechSpawnDelay: {
-			Label: Mechanical Boss Natural Spawn Delay
-			Tooltip: Time delay in ticks before the game tries to make a mechanical boss naturally spawn after the threat text is shown
+			Label: 机械BOSS自然生成延迟
+			Tooltip: 让机械BOSS在提示文本显示后自然生成的时间延迟
 		}
 
 		MechSpawnCooldown: {
-			Label: Mechanical Boss Natural Spawn Cooldown
-			Tooltip: Cooldown in ticks before the game tries to make a mechanical boss naturally spawn
+			Label: 机械BOSS自然生成冷却时间
+			Tooltip: 让机械BOSS自然生成前的冷却时间
 		}
 
 		MechSpawnChance: {
-			Label: Mechanical Boss Natural Spawn Chance (Denominator)
-			Tooltip: The denominator value for randomly rolling as to when to spawn a mechanical boss naturally
+			Label: 机械BOSS自然刷新概率 (分母)
+			Tooltip: 自然生成机械BOSS的生成分母值
 		}
 
 		DestroyerScreenShake: {
-			Label: "[i/s1:556] Destroyer Screen Shakes"
-			Tooltip: Enables Destroyer's screen shake effect when digging
+			Label: "[i/s1:556] 毁灭者摇晃屏幕"
+			Tooltip: 启动允许毁灭者挖掘时摇晃屏幕
 		}
 
 		DestroyerResprite: {
-			Label: "[i/s1:556] Destroyer Resprite"
+			Label: "[i/s1:556] 毁灭者重新绘图"
 			Tooltip:
 				'''
-				Enables a resprite for the Destroyer
-				(Trigger warning for people with a phobia of centipedes!)
-				NOTE: No longer works with the new version of the fight due to the boss having a bigger sprite!
-				Disabling Creepy Legs Effect setting now removes the legs to compensate!
+				为毁灭者重新绘图
+				(对有蜈蚣恐惧症的人有触发警告!)
+				注意:由于BOSS有更大的贴图，不再适用于新版本的战斗!
+				毛骨悚然的腿效果，现在设置可以删除腿效果!
 				'''
 		}
 
 		DestroyerLegs: {
-			Label: "[i/s1:556] Destroyer Creepy Legs Effect"
+			Label: "[i/s1:556] 毁灭者毛骨悚然的腿效果"
 			Tooltip:
 				'''
-				Allows Destroyer's legs to have a centipede-like motion when moving
-				(Requires Destroyer Resprite to be enabled!)
+				允许毁灭者的腿在移动时具有蜈蚣般的动作
+				((需要毁灭者重新绘图被启用!!)
 				'''
 		}
 
 		PrimeResprite: {
-			Label: "[i/s1:557] Skeletron Prime Resprite"
-			Tooltip: Enables a resprite for Skeletron Prime
+			Label: "[i/s1:557] 机械骷髅王重新绘图"
+			Tooltip: 启用为机械骷髅王重新绘图
 		}
 
 		BombsBreak: {
-			Label: "[i/s1:557] Skeletron Prime's bombs break tiles"
-			Tooltip: Allows Skeletron Prime's bombs to break tiles, overrides Legendary mode effects
+			Label: "[i/s1:557] 机械骷髅王的炸弹破坏物块"
+			Tooltip: 允许机械骷髅王破坏物块, 覆盖传奇模式
 		}
 
 		TwinsResprite: {
-			Label: "[i/s1:544] Twins Prime Resprite"
-			Tooltip: Enables a resprite for the Twins
+			Label: "[i/s1:544] 双子魔眼重新绘图"
+			Tooltip: 为双子魔眼重新绘图
 		}
 
 		Overheat: {
-			Label: "[i/s1:2701] Overheat Effect"
-			Tooltip: Enables overheat visual effect when a mechanical boss is at less than 10% health (bosses turn orange and smoke)
+			Label: "[i/s1:2701] 过热效果"
+			Tooltip: 当机械boss的生命值低于10%时，会产生过热的视觉效果(boss会变成橙色并冒烟)
 		}
 
 		Frostbrand: {
@@ -1036,7 +1035,7 @@ Configs: {
 
 		OpticStaff: {
 			Label: "[i/s1:2535] 魔眼法杖重置"
-			Tooltip: 启用魔眼法杖重置 (You might need to resummon your eye minions after changing this to prevent breaking)
+			Tooltip: 启用魔眼法杖重置 (为防止游戏崩溃，先取消召唤魔眼法杖再更改该设置)
 		}
 
 		HallowedHood: {
@@ -1069,16 +1068,16 @@ Configs: {
 			Tooltip:
 				'''
 				启用晶光刃重置
-				(NOTE: this also works with phasesabers added by Thorium)
+				(注意:这也适用于瑟银添加的晶光刃)
 				'''
 		}
 
 		SaberReflect: {
-			Label: "[i/s1:3768] Phasesabers reflect projectiles"
+			Label: "[i/s1:3768] 晶光刃反射射弹"
 			Tooltip:
 				'''
-				Allow phasesabers to reflect certain projectiles
-				(NOTE: reflecting requires you to time your swings! Also, holding down attack will not work!)
+				允许晶光刃反弹弹幕
+				(注意:反射需要你把握好摆动的时间!此外，按住攻击是行不通的!)
 				'''
 		}
 	}
