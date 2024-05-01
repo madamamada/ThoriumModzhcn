@@ -83,7 +83,7 @@ Buffs: {
 		DisplayName: 标记为否定(中性电荷)
 		Description:
 			'''
-			块, 触摸黄色才能活!
+			快, 触摸黄色才能活!
 			(因为玩家触碰了错误颜色而电击玩家)
 			'''
 	}
@@ -724,6 +724,7 @@ NPCs: {
 	Mechclops: {
 		DisplayName: St4-sys
 		Bestiary: 查理留下的没用过的装置，现在被重新激活了，目的是收集世界上的资源，希望它能回到它的家。然而，你通过使用遥控器打乱了它预先设定的程序，导致它失效并触发了它的自卫机制，而它现在显然不擅长使用这个机制。
+	}
 
 	Mechdusa.DisplayName: M3CH-DUS4机械美杜莎
 	MechdusaTail.DisplayName: M3CH-DUS4机械美杜莎
