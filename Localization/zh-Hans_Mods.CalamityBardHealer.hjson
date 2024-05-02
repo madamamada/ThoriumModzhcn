@@ -146,7 +146,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: 金羽迅音盔[c/#70f4f4:+]
+		DisplayName: 金羽迅音盔[c/#5dcccd:+]
 		Tooltip:
 			'''
 			增加25%音波伤害
@@ -158,7 +158,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			拥有龙篙礼帽, 血耀鬼鸣盔和弑神者兜帽的套装效果
+			拥有异宇星凝礼帽, 血耀鬼鸣盔和弑神者兜帽的套装效果
 			增加15%的音波伤害
 			增加10%音波演奏速度
 			增加5%音波暴击率
@@ -172,7 +172,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: 金圣武神盔[c/#70f4f4:+]
+		DisplayName: 金圣武神盔[c/#5dcccd:+]
 		Tooltip:
 			'''
 			增加15%光辉伤害
@@ -185,7 +185,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			拥有龙篙圣冠, 血焱祭颅盔和始源林海护盔的套装效果
+			拥有异宇星凝护盔, 血焱祭颅盔和始源林海护盔的套装效果
 			增加40%光辉伤害
 			增加20%光辉暴击率
 			增加16%的治疗量和光辉施法速度
