@@ -6202,7 +6202,7 @@ Mods: {
 
 			JetstreamSheath: {
 				DisplayName: 激流剑鞘
-				Tooltip: 如果手持且不使用{0} {^0:second;seconds}秒后剑击会向附近敌怪释放5道斩切
+				Tooltip: 如果手持且不使用{0} {^0:秒;second}后剑击会向附近敌怪释放5道斩切
 			}
 
 			JewellersWallGrip: {
@@ -15557,7 +15557,7 @@ Mods: {
 
 			QueensGlowstick: {
 				DisplayName: 皇后荧光棒
-				Tooltip: Creates an endless amount of glowsticks
+				Tooltip: 拥有无穷无尽的荧光棒
 			}
 
 			SeaBreezePendant: {
@@ -18758,7 +18758,7 @@ Mods: {
 						TheseLegs: 这双腿得花点时间习惯。
 						Wrath: 哦，那想要释放的怒意啊！
 						Destruction: 毁灭，天命，怒火，一切都早已注定。
-						Reaping:  收割开始，马上！
+						Reaping: 收割开始，马上！
 					}
 
 					ThrownItem: {

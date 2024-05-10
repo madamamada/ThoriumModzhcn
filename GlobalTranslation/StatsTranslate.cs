@@ -23,7 +23,7 @@ namespace ThoriumModzhcn.GlobalTranslation
             text = Regex.Replace(text, "Healer Stats", "牧师属性");
             text = Regex.Replace(text, "(Current Bonus Healing: )([0-9]+)\n(Best Heal Streak: )([0-9]+)\n(Healing done: )([0-9]+)\n(Damage mitigated: )([0-9]+)\n(Lives saved: )([0-9]+)\n(Close calls: )([0-9]+)", "当前额外治疗量: $2\n最大连击治疗量: $4\n治疗量: $6\n伤害减缓: $8\n救死扶伤: $10\n死里逃生: $12");
             text = Regex.Replace(text, "Bard Stats", "吟游诗人属性");
-            text = Regex.Replace(text, "Bonus Duration", "咒音增幅的持续时间");
+            text = Regex.Replace(text, "Bonus Duration", "咒音增幅持续时间");
             text = Regex.Replace(text, "sec\\(s\\)", "秒");
             text = Regex.Replace(text, "Max-Use Duration", "最大使用时间");
             text = Regex.Replace(text, "sec", "秒");

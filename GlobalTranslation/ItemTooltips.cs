@@ -34,11 +34,8 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = tooltipLine.Text.Replace("-Reality Breaker-", "-现实破坏者-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Transformation-", "-化形-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Early Testing-", "-早期测试物品-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-铜管 Instrument-", "-铜管乐器-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-管 Instrument-", "-管乐器-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-弦 Instrument-", "-弦乐器-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-打击 Instrument-", "-打击乐器-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-电子 Instrument-", "-电子乐器-");
+                tooltipLine.Text = tooltipLine.Text.Replace(" Instrument-", "乐器-");
+
                 // 原瑟银
                 tooltipLine.Text = tooltipLine.Text.Replace("Allows you to use unique abilities while transformed", "允许你在化形时使用独特的能力");
                 tooltipLine.Text = tooltipLine.Text.Replace("Playing empowers players with bonus", "演奏会提供玩家以下加成");
@@ -53,11 +50,13 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "( & )([0-9]+)( life)", "和$2生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Grants )([0-9]+)( soul essence on direct hit)", "直接命中会获得$2层灵魂精华");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Shields ally life by )([0-9]+)( up to 50)", "为队友施加$2点生命护盾，至多50点");
-                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally life by )([0-9]+)", "治疗队友$2点生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally and player life by )([0-9]+)", "治疗队友和玩家$2点生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Steals )([0-9]+)( life)", "偷取$2点生命值");
-                tooltipLine.Text = tooltipLine.Text.Replace("Right click to heal all nearby allies equal to your bonus healing", "右键单击治疗附近所有队友，治疗量等于治疗加成");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Right click to heal all nearby allies by )([0-9]+)( life)", "右键单击治疗附近所有队友$2生命值");
+                //惩魂锤
+                tooltipLine.Text = tooltipLine.Text.Replace("Right click to heal all nearby allies equal to the weapon's holy charges at twice the mana cost", "右键以两倍的法力消耗治疗附近队友，治疗量等同于该武器的神圣充能。");
+                //女爵之光
+                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "% critical strike chance", "%暴击率");
                 // 爆米花
                 tooltipLine.Text = tooltipLine.Text.Replace("Throws out (", "扔出(");
                 tooltipLine.Text = tooltipLine.Text.Replace(") eatable popcorn kernels", ")个可食用的爆米花粒");
@@ -71,13 +70,14 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Your instruments play )([0-9]+)(% faster)", "你的乐器演奏速度快$2%");
                 tooltipLine.Text = tooltipLine.Text.Replace("After popping, all nearby allies are healed by ", "爆炸后治疗附近所有队友");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally life by )([0-9]+)( every second)", "每秒治疗队友$2生命值");
+                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally life by )([0-9]+)", "治疗队友$2点生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Shields ally and player life by )([0-9]+)( up to 25)", "为玩家和队友施加$2点生命护盾，至多25点");
                 tooltipLine.Text = tooltipLine.Text.Replace("You can taste the energy in every bite", "每一口都充满力量");
                 tooltipLine.Text = tooltipLine.Text.Replace("Heals (20) ally life over 5", "治疗(20)队友生命超过5点");
                 tooltipLine.Text = tooltipLine.Text.Replace(" empowerment duration", " 咒音增幅持续时间");
                 tooltipLine.Text = tooltipLine.Text.Replace("Money Generated: ", "额外掉落钱币: ");
-                tooltipLine.Text = tooltipLine.Text.Replace(" coins", " 金币");
                 tooltipLine.Text = tooltipLine.Text.Replace("Duplicated Items: ", "复制物品数量: ");
+                tooltipLine.Text = tooltipLine.Text.Replace(" coins", " 金币");
                 tooltipLine.Text = tooltipLine.Text.Replace(" items", " 物品");
                 tooltipLine.Text = tooltipLine.Text.Replace(" base damage", " 基础伤害");
                 tooltipLine.Text = tooltipLine.Text.Replace(" basic damage", " 基本伤害");
