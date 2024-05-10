@@ -234,6 +234,12 @@ namespace ThoriumModzhcn.GlobalTranslation
 					case "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you.":
 					chat = "不错啊，孩子……还不错。希望你在所有的冒险中都玩得很开心。我想说我一直在看着你";
 					break; 
+					case "Visiting that sea rift again wasn't my best idea... that mutant jellyfish almost ate me whole!":
+					chat = "再次造访那个深海不是好主意……那只变异的水母差点把我整个吃掉!";
+					break; 
+					case "Yuck... that vile creature almost got away with eating me! Thank you for saving me, hero.":
+					chat = "恶心……那个可恶的家伙差点就把我吃掉了!谢谢你救了我，英雄。";
+					break; 
 					}
 			}
 
