@@ -690,7 +690,7 @@ Items: {
 	}
 
 	MilkyWay: {
-		DisplayName: 星汉
+		DisplayName: 银湾
 		Tooltip:
 			'''
 			无视75点防御力
@@ -1222,8 +1222,8 @@ Projectiles: {
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
-	MilkyWay.DisplayName: 星汉
-	MilkyWaySpur.DisplayName: 星汉旋臂
+	MilkyWay.DisplayName: 银湾
+	MilkyWaySpur.DisplayName: 银湾旋臂
 	Noisebringer.DisplayName: 噪音使者
 	NoisebringerGoliath.DisplayName: 噪音使者歌莉娅
 	OathofSacrifice.DisplayName: 献祭誓言
