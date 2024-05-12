@@ -26,7 +26,6 @@ namespace ThoriumModzhcn.GlobalTranslation
             text = Regex.Replace(text, "Bonus Duration", "咒音增幅持续时间");
             text = Regex.Replace(text, "sec\\(s\\)", "秒");
             text = Regex.Replace(text, "Max-Use Duration", "最大使用时间");
-            text = Regex.Replace(text, "sec", "秒");
             text = Regex.Replace(text, "(Base Inspiration: )([0-9]+)( / )([0-9]+)\n(Bonus Inspiration: )([0-9]+)\n(Timed Hits: )([0-9]+)", "基础灵感值: $2 / $4\n额外灵感值: $6\n抓住节拍次数: $8");
             text = Regex.Replace(text, "(Total: )([0-9]+)(% Damage Reduction\nVanilla: )([0-9]+)(%\nThorium: )([0-9]+)(%)", "合计: $2% 伤害减免\n原版: $4%\n瑟银: $6%");
 

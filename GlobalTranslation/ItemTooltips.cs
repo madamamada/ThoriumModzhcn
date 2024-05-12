@@ -12,6 +12,7 @@ using ThoriumMod.Items.RangedItems;
 using ThoriumMod.Items.ThrownItems;
 using ThoriumMod.Items.BardItems;
 using ThoriumMod.Items.SummonItems;
+using ThoriumMod.Items.Donate;
 
 namespace ThoriumModzhcn.Items
 {
@@ -110,7 +111,6 @@ namespace ThoriumModzhcn.Items
 
                 // 暗影之门
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(The gateways can only be used by players every )([0-9]+)( second)", "传送门只能每过$2秒使用");
-                tooltipLine.Text = tooltipLine.Text.Replace("(s)", "");
 
                 // 平平无奇的紫色石头
                 tooltipLine.Text = tooltipLine.Text.Replace("1% of targets health as true damage", "1%目标最大生命值的真实伤害");
