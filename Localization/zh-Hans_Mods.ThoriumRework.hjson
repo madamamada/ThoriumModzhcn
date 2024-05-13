@@ -203,7 +203,7 @@ NPCRenames: {
 	Beholder: 堕落注视者的仆人
 	FallenBeholder: 堕落注视者
 	FallenBeholder2: 虚空凝瞳·堕落注视者
-	Lich: 亵渎之拥·巫妖
+	Lich: 噬元凶灾之徒·巫妖
 	LichHeadless: 死亡之徒·巫妖
 	ForgottenOne: 遗忘之主的壳
 	ForgottenOneCracked: 遗忘之主
@@ -214,73 +214,73 @@ NPCRenames: {
 InfernumIntros: {
 	Aquaius:
 		'''
-		Endless Tide
-		Aquaius
+		永劫狂潮
+		潮汐之灵
 		'''
 	BoreanStrider:
 		'''
-		Cold Blooded Arachnid
-		Borean Strider
+		冷血蜘蛛
+		极地遁蛛
 		'''
 	BuriedChampion:
 		'''
-		Ancient Warrior
-		Buried Champion
+		旧时之兵
+		英灵残骸
 		'''
 	DreamEater:
 		'''
-		Dying Reality
-		The Ragnarok
+		临终现实
+		噬梦者
 		'''
 	FallenBeholder:
 		'''
-		Transcendant Beholder
-		Coznix
+		超界注视者
+		堕落注视者
 		'''
 	ForgottenOne:
 		'''
-		Old God of Tides
-		Abyssion
+		潮汐旧神
+		遗忘之主
 		'''
 	GraniteEnergyStorm:
 		'''
-		Unstable Landmass
-		Granite Energy Storm
+		动荡板块
+		花岗岩流能风暴
 		'''
 	Lich:
 		'''
-		Life Defiler's Apostle
-		The Lich
+		噬元凶灾之徒
+		巫妖
 		'''
 	QueenJellyfish:
 		'''
-		Regal Sea Mutant
-		Queen Jellyfish
+		突变海怪君主
+		水母皇后
 		'''
 	Omnicide:
 		'''
-		Life Defiler
-		Omnicide
+		噬元凶灾
+		毁灭之灵
 		'''
 	SlagFury:
 		'''
-		Primordial Flame
-		Slag Fury
+		原初烈火
+		戮焰之灵
 		'''
 	StarScouter:
 		'''
-		Cosmic Voyager
-		Star Scouter
+		星宇航舟
+		星际监察者
 		'''
 	TheGrandThunderBird:
 		'''
-		Feral Scavenger
-		The Grand Thunder Bird
+		狂野食腐者
+		惊雷王鹰
 		'''
 	Viscount:
 		'''
-		Duke of the Caves
-		Viscount
+		吸血公爵
+		蝙蝠子爵
 		'''
 }
 

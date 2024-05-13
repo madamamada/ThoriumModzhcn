@@ -146,7 +146,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: Auric Tesla Feathered Headwear[c/#70f4f4:+]
+		DisplayName: Auric Tesla Feathered Headwear[c/70f4f4:+]
 		Tooltip:
 			'''
 			25% increased symphonic damage
@@ -172,7 +172,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: Auric Tesla Valkyrie Visage[c/#70f4f4:+]
+		DisplayName: Auric Tesla Valkyrie Visage[c/70f4f4:+]
 		Tooltip:
 			'''
 			15% increased radiant damage
@@ -319,6 +319,7 @@ Items: {
 		DisplayName: Cherubim Omega
 		Tooltip:
 			'''
+			Ignores 75 points of defense
 			This scythe is swung directionally instead of spun
 			Sends god-reaping slashes at the cursor every swing
 			The slashes open a big rift in the fabric of reality
@@ -349,6 +350,7 @@ Items: {
 			Spins a cryonic scythe that inflict frostbite on hit
 			Constantly spews out icicles that deal 50% damage
 			<right> to throw the scythe, which will curve on its way back
+			The scythe deals 30% more damage when thrown
 			"Cold shoulder for ya!"
 			'''
 	}
@@ -413,12 +415,27 @@ Items: {
 		DisplayName: Death Adder
 		Tooltip:
 			'''
-			Ignores 100 points of defense
+			Ignores 35 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a barrage phantom spirits every swing
 			Phantom spirits chase after targets
-			Inflicts whispering death on hit
 			"Omnicide would be proud... and angry"
+			'''
+	}
+
+	Disaster: {
+		DisplayName: Disaster
+		Tooltip:
+			'''
+			Ignores 70 points of defense
+			Creates three blazing lashes that leave behind a trail of slashes
+			Every third swing, the scythe is spun around
+			When spun, it leaves behind a scorching maelstrom instead
+			The scorching maelstrom damages both players and enemies
+			Inflicts vulnerability hex on hit
+			This scythe is swung directionally instead of spun
+			[c/C61B40:'Are you sure you want to lose your life?]
+			[c/C61B40:From a witch who has caused you nothing but strife?']
 			'''
 	}
 
@@ -427,7 +444,7 @@ Items: {
 		Tooltip:
 			'''
 			Rapidly shoots a fiery toot that homes into to targets
-			Ignores 100 points of defense
+			Ignores 35 points of defense
 			Inflicts dragonfire on hit
 			Every 25th attack, two larger versions of the weapon appear besides the screen to attack in a fixed direction
 			Successfully timing hits will steadily increase its empowerment level, damage, homing range and trumpet count
@@ -440,7 +457,7 @@ Items: {
 		DisplayName: Dry Mouth
 		Tooltip:
 			'''
-			Ignores 10 points of defense
+			Ignores 5 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a miniature dust storm every swing
 			"Pocket Sand!"
@@ -455,6 +472,7 @@ Items: {
 			Hitting enemies with the purple energy inflicts shadowflame to them
 			Hitting enemies with the red energy massively boost health regeneration
 			<right> to throw the scythe, which will curve on its way back
+			The scythe deals 20% more damage when thrown
 			"I have two sides: I forgor and I rember"
 			'''
 	}
@@ -512,7 +530,7 @@ Items: {
 		DisplayName: Feral Keytar
 		Tooltip:
 			'''
-			Ignores 60 points of defense
+			Ignores 30 points of defense
 			Shoots a musical staff that pierces indefinitely
 			"A very feral amalgamation of notes and souls"
 			'''
@@ -531,11 +549,22 @@ Items: {
 			'''
 	}
 
+	FireHazard: {
+		DisplayName: Fire Hazard
+		Tooltip:
+			'''
+			Ignores 15 points of defense
+			Unleashes a burning flurry of flames
+			Inflicts brimstone flames on hit
+			"Calling this a fire hazard would be an understatement"
+			'''
+	}
+
 	FlightoftheGoliath: {
 		DisplayName: Flight of the Goliath
 		Tooltip:
 			'''
-			Ignores 25 points of defense
+			Ignores 20 points of defense
 			Shoots plague swarmer missiles that continuously attack its target
 			"MAKE SOME NOOOOOIIISE!"
 			Based off of the chiptune sound from "Fly of Beelzebub" by DM Dokuro
@@ -548,7 +577,7 @@ Items: {
 			'''
 			Plays the iconic bell you all know and love
 			Inflicts vulnerability hex on hit and causes brimstone lightning to smite enemies
-			"A bell belonging to a legendary musician"
+			[c/C61B40:'A bell belonging to a legendary musician, if only he was still with us...']
 			'''
 	}
 
@@ -573,7 +602,7 @@ Items: {
 			50% increased empowerment range
 			+6 max inspiration
 			A calamity bell floats above your head and occasionally rings while attacking
-			When the bell rings, enemies around you take 15000 true damage and nearby enemy projectiles are destroyed
+			When the bell rings, enemies around you take 7500 true damage and nearby enemy projectiles are destroyed
 			'''
 	}
 
@@ -692,7 +721,7 @@ Items: {
 		DisplayName: Milky Way
 		Tooltip:
 			'''
-			Ignores 75 points of defense
+			Ignores 35 points of defense
 			<right> to throw the scythe, which will curve on its way back
 			Emits stars from afar that spiral inward
 			"The stars have aligned"
@@ -718,7 +747,7 @@ Items: {
 			Creates a ritual circle around you that revives dead players that come into contact
 			Living players that are inside the ritual circle cannot die under any circumstance
 			Living players are also liberated from most negative status effects
-			"You vow to put others' lives before yours"
+			[c/C61B40:'The very staff the witch used to resurrect her siblings.']
 			'''
 	}
 
@@ -754,7 +783,7 @@ Items: {
 		DisplayName: Phoenician Beak
 		Tooltip:
 			'''
-			Ignores 100 points of defense
+			Ignores 50 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots out a powerful slash that leave a trail of fire
 			Inflicts dragonfire on hit
@@ -768,7 +797,7 @@ Items: {
 			Wielding this spell removes all your protection and makes you more vulnerable
 			Shoots 3 brimstone rays that home on up to 3 different players and heal them
 			If there are less than 3 players, extra rays can heal the same players again
-			"You promise to value others as much as you value yourself"
+			[c/C61B40:'As a thank you from the witch's brothers, they pledged their selflessness.']
 			'''
 	}
 
@@ -796,6 +825,7 @@ Items: {
 			Ignores 10 points of defense
 			Releases plague traces while spun
 			Releases even more when hitting enemies
+			Plague traces have weak tracking
 			Inflicts the plague on hit
 			"Please practice social distancing"
 			'''
@@ -846,7 +876,7 @@ Items: {
 		DisplayName: Scuffed Keytar
 		Tooltip:
 			'''
-			Ignores 30 points of defense
+			Ignores 15 points of defense
 			Shoots a musical staff that pierces indefinitely
 			"An old keytar that barely works... Keyword: 'works'"
 			'''
@@ -1149,7 +1179,7 @@ Items: {
 		DisplayName: Yharim's Jam
 		Tooltip:
 			'''
-			450 symphonic damage
+			930 symphonic damage
 			Summons three supersonic speakers that hover beside and below you
 			The speakers will shoot burning beats that tracks to the closest enemy
 			Inflicts dragonfire and tunes enemies hit
@@ -1187,6 +1217,11 @@ Projectiles: {
 	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
 	DeathAdder.DisplayName: Death Adder
 	DeathAdderSoul.DisplayName: Death Adder Soul
+	Disaster.DisplayName: Disaster
+	DisasterSlash.DisplayName: Disaster
+	DisasterSlashes.DisplayName: Disaster
+	FireHazard.DisplayName: Fire Hazard
+	FireStarter.DisplayName: Fire Starter
 	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
 	DoomsdayToot.DisplayName: Doomsday Toot
 	DryMouth.DisplayName: Dry Mouth
@@ -1234,6 +1269,7 @@ Projectiles: {
 	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: Saving Grace
+	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: Scrap Guitar
 	ScreamingClam.DisplayName: Screaming Clam
 	ScreamingClamScream.DisplayName: Screaming Clam

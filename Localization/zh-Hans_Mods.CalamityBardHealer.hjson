@@ -319,6 +319,7 @@ Items: {
 		DisplayName: 终局神使
 		Tooltip:
 			'''
+			无视75点防御力
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞在光标处释放天神收割斩
 			每次斩击在现实结构上砍出巨大的裂隙
@@ -349,6 +350,7 @@ Items: {
 			旋转一把寒冰镰刀，攻击时造成霜冻
 			不断喷出冰晶，造成50%伤害
 			右键扔出镰刀，然后回到你身边
+			镰刀投掷时造成的伤害提高30%
 			"给你冷静一下！"
 			'''
 	}
@@ -413,12 +415,27 @@ Items: {
 		DisplayName: 死亡蝰蛇
 		Tooltip:
 			'''
-			无视100防御力
+			无视35防御力
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞都会释放一连串幻魂
 			幻魂会追踪目标
-			击中时造成死亡低语
 			"噬元凶灾会感到自豪……和愤怒"
+			'''
+	}
+
+	Disaster: {
+		DisplayName: 灾难
+		Tooltip:
+			'''
+			无视70点防御
+			Creates three blazing lashes that leave behind a trail of slashes
+			Every third swing, the scythe is spun around
+			When spun, it leaves behind a scorching maelstrom instead旋转时留下灼热的漩涡
+			The scorching maelstrom damages both players and enemies
+			Inflicts vulnerability hex on hit
+			This scythe is swung directionally instead of spun这把镰刀是定向挥舞而不是旋转
+			[c/C61B40:'Are you sure you want to lose your life?]
+			[c/C61B40:From a witch who has caused you nothing but strife?']
 			'''
 	}
 
@@ -427,7 +444,7 @@ Items: {
 		Tooltip:
 			'''
 			快速释放追踪目标的龙焰
-			无视100点防御力
+			无视35点防御力
 			攻击时造成龙焰
 			每攻击第25次，屏幕旁会出现两个更大末日洗涤，向固定方向攻击
 			成功在计时区域击中会持续增加咒音增幅等级，音波伤害，追踪距离和末日洗涤的数量
@@ -440,7 +457,7 @@ Items: {
 		DisplayName: 旱漠之蟒
 		Tooltip:
 			'''
-			无视10点防御
+			无视5点防御
 			这把镰刀是定向挥舞而不是旋转
 			每次挥舞都会释放小型沙尘暴
 			"口袋里有沙子!"
@@ -455,6 +472,7 @@ Items: {
 			用紫色光芒攻击敌怪时，造成暗影焰
 			用粉色光芒攻击敌怪时，提高生命回复
 			右键扔出镰刀，然后回到你身边
+			镰刀投掷时造成的伤害提高20%
 			"我有两面性:我忘记，我记得"
 			'''
 	}
@@ -512,7 +530,7 @@ Items: {
 		DisplayName: 狂野键琴
 		Tooltip:
 			'''
-			无视60点防御
+			无视30点防御
 			释放无限穿透的音波
 			"音符与灵魂的狂野融合"
 			'''
@@ -531,11 +549,22 @@ Items: {
 			'''
 	}
 
+	FireHazard: {
+		DisplayName: Fire Hazard
+		Tooltip:
+			'''
+			Ignores 15 points of defense
+			Unleashes a burning flurry of flames
+			Inflicts brimstone flames on hit
+			"Calling this a fire hazard would be an understatement"
+			'''
+	}
+
 	FlightoftheGoliath: {
 		DisplayName: 疫蜂飞舞
 		Tooltip:
 			'''
-			无视25点防御力
+			无视20点防御力
 			发射瘟疫蜂群导弹，持续攻击目标
 			"MAKE SOME NOOOOOIIISE!"
 			基于作者DM Dokuro的芯片演奏曲“Fly of Beelzebub”改编
@@ -548,7 +577,7 @@ Items: {
 			'''
 			演奏你们熟悉又喜爱的钟声
 			使用硫磺闪电攻击敌人，对敌怪施加孱弱巫咒
-			"属于一位传奇音乐家的钟"
+			[c/C61B40:'一个属于传奇音乐家的钟，如果他还在我们身边就好了……']
 			（地狱铃铛灌注）
 			'''
 	}
@@ -574,7 +603,7 @@ Items: {
 			增加50%咒音增幅范围
 			最大灵感值增加6
 			召唤灾厄之钟悬浮在你的头顶，攻击时有概率鸣响
-			当钟声响起时，附近的敌人受到15000的真实伤害并摧毁敌对弹幕
+			当钟声响起时，附近的敌人受到7500的真实伤害并摧毁敌对弹幕
 			'''
 	}
 
@@ -693,7 +722,7 @@ Items: {
 		DisplayName: 星渚
 		Tooltip:
 			'''
-			无视75点防御力
+			无视35点防御力
 			右键扔出镰刀，然后回到你身边
 			镰刀吸入星体之能
 			"星辰列阵，拱卫其中"
@@ -719,7 +748,7 @@ Items: {
 			在你周围创造魔法阵为濒死的玩家复活
 			在魔法阵中的队友在任何情况下都不能死亡
 			活着的队友也可以从大多数减益影响解脱
-			"你发誓敌人伤害你的队友之前必须踏过你的尸体"
+			[c/C61B40:'这个是女巫用来复活她兄弟的魔杖。']
 			（梦境捕捉器灌注）
 			'''
 	}
@@ -756,7 +785,7 @@ Items: {
 		DisplayName: 凤凰之喙
 		Tooltip:
 			'''
-			无视100点防御力
+			无视50点防御力
 			这把镰刀是定向挥舞而不是旋转
 			打出有力的一击并留下一串龙息
 			造成龙焰减益
@@ -770,7 +799,7 @@ Items: {
 			使用法术会移除你所有的防御，让你变得更加脆弱
 			最多向3名队友释放硫磺射线并治愈他们
 			如果少于3名队友，额外的硫磺射线会治疗已经治愈过的队友
-			"你承诺要像重视自己一样重视别人"
+			[c/C61B40:'为了感谢女巫的复活，他们愿意无私奉献.']
 			（好人书灌注）
 			'''
 	}
@@ -799,6 +828,7 @@ Items: {
 			无视10点防御力
 			旋转时释放瘟疫弹幕
 			攻击敌人释放更多
+			Plague traces have weak tracking
 			造成瘟疫减益
 			"请保持社交距离"
 			'''
@@ -838,7 +868,7 @@ Items: {
 		DisplayName: 磨损的键琴
 		Tooltip:
 			'''
-			无视30点防御
+			无视15点防御
 			释放可以穿透的音乐旋律
 			"一把几乎不能用的键琴……关键字:‘工作’"
 			'''
@@ -1152,7 +1182,7 @@ Items: {
 		DisplayName: 亚利姆音响
 		Tooltip:
 			'''
-			450 音波伤害
+			930 音波伤害
 			召唤三个围绕在玩家身边的亚利姆音响
 			魔眼释放燃烧的节奏，并追踪附近的敌人
 			造成龙焰和调谐减益
@@ -1189,6 +1219,11 @@ Projectiles: {
 	CrystalHydraulophone.DisplayName: 棱晶水风琴
 	DeathAdder.DisplayName: 死亡蝰蛇
 	DeathAdderSoul.DisplayName: 死亡蝰蛇灵魂
+	Disaster.DisplayName: Disaster
+	DisasterSlash.DisplayName: Disaster
+	DisasterSlashes.DisplayName: Disaster
+	FireHazard.DisplayName: Fire Hazard
+	FireStarter.DisplayName: Fire Starter
 	DoomsdayCatharsis.DisplayName: 末日洗涤
 	DoomsdayToot.DisplayName: 末日奏鸣
 	DryMouth.DisplayName: 旱漠之蟒
@@ -1236,6 +1271,7 @@ Projectiles: {
 	PurgedSoul.DisplayName: 纯净之魂
 	SARS.DisplayName: S.A.R.S.
 	SavingGrace.DisplayName: 救赎之恩
+	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: 废弃吉他
 	ScuffedKeytar.DisplayName: 磨损的键琴
 	Singularity.DisplayName: 奇点
