@@ -424,18 +424,18 @@ Items: {
 	}
 
 	Disaster: {
-		DisplayName: 灾难
+		DisplayName: 硫狱焚劫
 		Tooltip:
 			'''
 			无视70点防御
-			Creates three blazing lashes that leave behind a trail of slashes
-			Every third swing, the scythe is spun around
-			When spun, it leaves behind a scorching maelstrom instead旋转时留下灼热的漩涡
-			The scorching maelstrom damages both players and enemies
-			Inflicts vulnerability hex on hit
-			This scythe is swung directionally instead of spun这把镰刀是定向挥舞而不是旋转
-			[c/C61B40:'Are you sure you want to lose your life?]
-			[c/C61B40:From a witch who has caused you nothing but strife?']
+			释放三道硫狱鞭笞，飞行过程中放出一连串细小的斩痕
+			每三次攻击镰刀会旋转
+			旋转时释放炽热魔漩
+			炽热魔漩会对敌怪与玩家造成伤害
+			击中敌人时施加孱弱巫咒
+			这把镰刀是定向挥舞而不是旋转
+			[c/C61B40:‘你真的想失去你的生命]
+			[c/C61B40:为一个只会带来纷争的女巫？’]
 			'''
 	}
 
@@ -550,13 +550,13 @@ Items: {
 	}
 
 	FireHazard: {
-		DisplayName: Fire Hazard
+		DisplayName: 火灾隐患
 		Tooltip:
 			'''
-			Ignores 15 points of defense
-			Unleashes a burning flurry of flames
-			Inflicts brimstone flames on hit
-			"Calling this a fire hazard would be an understatement"
+			无视15点防御力
+			释放一连串硫火怒焰
+			击中敌人施加硫磺火减益
+			“把它称作火灾隐患还是太保守了”
 			'''
 	}
 
