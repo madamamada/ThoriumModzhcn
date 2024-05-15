@@ -219,12 +219,12 @@ InfernumIntros: {
 		'''
 	BoreanStrider:
 		'''
-		冷血蜘蛛
+		苔原威胁
 		极地遁蛛
 		'''
 	BuriedChampion:
 		'''
-		旧时之兵
+		昔日遗影
 		英灵残骸
 		'''
 	DreamEater:
@@ -234,7 +234,7 @@ InfernumIntros: {
 		'''
 	FallenBeholder:
 		'''
-		超界注视者
+		虚空凝瞳
 		堕落注视者
 		'''
 	ForgottenOne:
@@ -244,7 +244,7 @@ InfernumIntros: {
 		'''
 	GraniteEnergyStorm:
 		'''
-		动荡板块
+		震荡板块
 		花岗岩流能风暴
 		'''
 	Lich:
@@ -279,7 +279,7 @@ InfernumIntros: {
 		'''
 	Viscount:
 		'''
-		吸血公爵
+		洞穴领主
 		蝙蝠子爵
 		'''
 }
