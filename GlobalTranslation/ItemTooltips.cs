@@ -79,7 +79,7 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = tooltipLine.Text.Replace("After popping, all nearby allies are healed by ", "爆炸后治疗附近所有队友");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Shields ally and player life by )([0-9]+)( up to 25)", "为玩家和队友施加$2点生命护盾，至多25点");
                 tooltipLine.Text = tooltipLine.Text.Replace("You can taste the energy in every bite", "每一口都充满力量");
-                tooltipLine.Text = tooltipLine.Text.Replace("Heals (20) ally life over 5", "治疗(20)队友生命超过5点");
+                tooltipLine.Text = tooltipLine.Text.Replace("Heals (20) ally life over 5 seconds", "在5秒内治疗(20)点队友生命");
                 tooltipLine.Text = tooltipLine.Text.Replace("Increases the damage of all nearby allies by 20% for ", "增加附近所有队友20%伤害，持续");
 
                 // 爆米花
