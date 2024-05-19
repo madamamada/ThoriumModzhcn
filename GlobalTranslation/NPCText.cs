@@ -340,8 +340,8 @@ namespace ThoriumModzhcn.GlobalTranslation
 			//武器大师
 			if (npc.type == ModContent.NPCType<WeaponMaster>())
 			{
-				if (Guide >= 0 && chat == "" + Main.npc[Guide].GivenName + ", keeps giving me dirty looks... It's not like I carry a doll myself")
-					chat = "" + Main.npc[Guide].GivenName + "一直在恶狠狠的看着我.....我又不是巫毒娃娃";
+				if (Guide >= 0 && chat == "" + Main.npc[Guide].GivenName + " keeps giving me dirty looks... It's not like I carry a doll myself.")
+					chat = "" + Main.npc[Guide].GivenName + "一直在恶狠狠的看着我.....我又不是巫毒娃娃.";
 				if (TaxCollector >= 0 && chat == "I see we have another demon within our ranks. What was his name again? " + Main.npc[TaxCollector].GivenName + " ?")
 					chat = "看来我们又多了一个恶魔。他叫什么来着?" + Main.npc[TaxCollector].GivenName + "？";
 
