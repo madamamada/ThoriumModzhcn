@@ -95,6 +95,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			增加5%移动速度
 			增加13%的光辉伤害
 			治疗法术会在半空中额外治疗3点生命值
 			'''
@@ -102,16 +103,11 @@ Items: {
 
 	AerospecHeadphones: {
 		DisplayName: 天蓝耳机帽
-		Tooltip:
-			'''
-			增加9%音波伤害和演奏速度
-			增加15%管乐器追踪速度
-			'''
+		Tooltip: 增加8%音波伤害和演奏速度
 		SetBonus:
 			'''
-			增加5%的灵感值恢复速度
-			管乐器现在会试图快速追踪敌怪
-			如果攻击已经能追踪敌怪，它的速度会变得更快
+			增加5%移动速度和灵感恢复速度
+			增加10%管乐器追踪速度
 			'''
 	}
 
@@ -151,22 +147,17 @@ Items: {
 			'''
 			增加25%音波伤害
 			增加20%音波暴击率
-			增加15%音波演奏速度
-			增加10%灵感值再生速率
-			增加50%管乐器的追踪速度和范围
-			弦乐器的弹幕会额外反弹五次
+			增加12%音波演奏速度
+			增加20%管乐器的追踪速度和范围
+			弦乐器的弹幕会额外反弹三次
 			'''
 		SetBonus:
 			'''
 			拥有异宇星凝礼帽, 血耀鬼鸣盔和弑神者兜帽的套装效果
-			增加15%的音波伤害
-			增加10%音波演奏速度
-			增加5%音波暴击率
-			增加25%的打击乐器暴击伤害
-			增加50%咒音增幅范围
-			最大灵感值增加10
+			弑神者冲刺在灾厄的控键绑定
+			魅惑之歌在瑟银的盔甲能力控键绑定
 			增加5秒咒音增幅的持续时间
-			增加30%灵感值再生速率
+			增加20%灵感值再生速率
 			增加45%的灵感音符掉率
 			'''
 	}
@@ -198,22 +189,18 @@ Items: {
 			'''
 			增加25%音波伤害
 			增加20%音波暴击率
-			增加15%音波演奏速度
-			增加10%灵感值再生速率
-			增加50%管乐器的追踪速度和范围
-			弦乐器的弹幕会额外反弹五次
+			增加12%音波演奏速度
+			增加20%管乐器的追踪速度和范围
+			弦乐器的弹幕反弹时间增加
 			'''
 		SetBonus:
 			'''
 			拥有龙篙礼帽, 血耀鬼鸣盔和弑神者兜帽的套装效果
-			增加15%的音波伤害
-			增加10%音波演奏速度
-			增加5%音波暴击率
-			增加25%的打击乐器暴击伤害
+			弑神者冲刺在灾厄的控键绑定
+			魅惑之歌在瑟银的盔甲能力控键绑定
 			增加50%咒音增幅范围
-			最大灵感值增加10
 			增加5秒咒音增幅的持续时间
-			增加30%灵感值再生速率
+			增加20%灵感值再生速率
 			增加45%的灵感音符掉率
 			'''
 	}
@@ -273,8 +260,8 @@ Items: {
 		DisplayName: 血耀鬼鸣盔
 		Tooltip:
 			'''
-			增加15%音波伤害，音波暴击率和演奏速度
-			增加25%管乐器的追踪速度
+			增加10%音波伤害，音波暴击率
+			增加12%的音波演奏速度
 			'''
 		SetBonus:
 			'''
@@ -282,11 +269,10 @@ Items: {
 			增加8%的音波伤害
 			增加5%的音波暴击率和演奏速度
 			增加4秒咒音增幅的持续时间
-			造成音波伤害时会为仪器条充能，能量会随着时间推移而衰减
-			造成的音波100%伤害转化为仪器条的充能
-			当充能达到100000时，获得魅惑之歌增益，持续5秒
+			按下“盔甲能力，控件{0}”获得魅惑之歌增益，持续5秒
 			魅惑之歌使你的灵感值回复速度和咒音增幅范围提高50%，咒音增幅持续时间提高5秒
-			当魅惑之歌被激活时受到伤害，则移除魅惑之歌并回复250血量
+			当魅惑之歌被激活时受到伤害，则移除魅惑之歌并回复200血量
+			魅惑之歌有45秒冷却时间
 			'''
 	}
 
@@ -398,12 +384,12 @@ Items: {
 		DisplayName: 代达罗斯风帽
 		Tooltip:
 			'''
-			增加18%音波伤害和演奏速度
-			增加22%管乐器的追踪范围
-			弦乐器反弹次数加一
+			增加13%的音波伤害
+			增加7%的音波暴击率
 			'''
 		SetBonus:
 			'''
+			增加5%的音波演奏速度
 			增加10%的灵感回复速度
 			增加3秒咒音增幅的持续时间
 			命中敌怪时，音波伤害会造成霜冻和冻伤
@@ -598,12 +584,11 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			增加11%音波伤害
 			增加20%的打击乐器暴击伤害
 			增加50%咒音增幅范围
-			最大灵感值增加6
+			增加18%的灵感值回复速度
 			召唤灾厄之钟悬浮在你的头顶，攻击时有概率鸣响
-			当钟声响起时，附近的敌人受到7500的真实伤害并摧毁敌对弹幕
+			当钟声响起时，附近的敌人受到7500的真实伤害
 			'''
 	}
 
@@ -647,18 +632,14 @@ Items: {
 		DisplayName: 渊泉帽
 		Tooltip:
 			'''
-			增加15%音波伤害
-			增加12%的音波演奏速度
+			增加12%音波伤害
+			增加5%的音波演奏速度
 			增加10%音波暴击率
-			弦乐器弹跳时间增加
 			'''
 		SetBonus:
 			'''
 			增加15%的打击乐器暴击伤害
 			增加12%的灵感回复速度
-			增加15%管乐器的追踪速度
-			增加5%管乐器追踪范围
-			弦乐器的弹幕会额外反弹两次
 			音波暴击敌怪会喷出硫化物火焰
 			只能存在一个硫化物火焰，每次喷发有3秒冷却时间
 			'''
@@ -868,7 +849,7 @@ Items: {
 		DisplayName: 磨损的键琴
 		Tooltip:
 			'''
-			无视15点防御
+			无视5点防御
 			释放可以穿透的音乐旋律
 			"一把几乎不能用的键琴……关键字:‘工作’"
 			'''
@@ -969,9 +950,9 @@ Items: {
 		DisplayName: 斯塔提斯耳饰
 		Tooltip:
 			'''
-			增加12%音波伤害
-			增加8%音波暴击率
-			弦乐器的弹幕会额外反弹两次
+			增加10%音波伤害和音波演奏速度
+			增加7%音波暴击率
+			弦乐器的弹幕反弹时间增加
 			'''
 	}
 
@@ -1026,9 +1007,8 @@ Items: {
 		DisplayName: 龙蒿礼帽
 		Tooltip:
 			'''
-			增加10%音波伤害
-			增加5%音波暴击率和演奏速度
-			弦乐器的弹幕会额外反弹三次
+			增加10%音波伤害, 音波暴击率和演奏速度
+			增加5%伤害减免
 			'''
 		SetBonus: 击中敌人时召唤恢复灵感值的音符
 	}
@@ -1039,6 +1019,7 @@ Items: {
 			'''
 			增加10%光辉伤害
 			增加5%光辉暴击率
+			增加5%伤害减免
 			最大生命值增加20
 			略微增加生命再生
 			治疗法术会额外治疗8点生命值
@@ -1116,7 +1097,7 @@ Items: {
 	VictideAmmoniteHat: {
 		DisplayName: 胜潮螺盔
 		Tooltip: 增加5%的音波伤害和灵感回复速度
-		SetBonus: 在水中时增加1.5 HP/s生命再生10%音波伤害和灵感回复速度
+		SetBonus: 在水中时增加1.5 HP/s生命再生和10%灵感回复速度
 	}
 
 	Violince: {
@@ -1171,7 +1152,7 @@ Items: {
 		DisplayName: 尖叫蛤蜊
 		Tooltip:
 			'''
-			50 音波伤害
+			22 音波伤害
 			召唤偶尔尖叫的蛤蜊悬浮在头顶
 			造成激流和调谐减益
 			"硫火巨蛤！"
@@ -1325,6 +1306,15 @@ Buffs: {
 			'''
 	}
 
+	AlluringSongCD: {
+		DisplayName: 魅惑之歌冷却时间
+		Description:
+			'''
+			你暂时不能使用魅惑之歌
+			"再也不做饭了"
+			'''
+	}
+
 	CalamityBell: {
 		DisplayName: 灾厄之钟
 		Description: 它就悬停在你的头顶，虎视眈眈……
@@ -1343,10 +1333,9 @@ FargoEnchantments: {
 		'''
 		Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
 		Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
-		Dealing symphonic damage charges up a meter that decays over time, the meter is charged up by 100% of symphonic damage dealt
-		When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+		Doing this also grants Alluring Song buff for 5 seconds
 		Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
-		Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+		Taking damage while Alluring Song is active heals you by a flat 200 life but removes Alluring Song
 		'''
 	GodSlayerEnchant:
 		'''

@@ -95,6 +95,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
+			5% increased movement speed
 			13% increased radiant damage
 			Healing spells will heal an additional 3 life while mid-air
 			'''
@@ -102,16 +103,11 @@ Items: {
 
 	AerospecHeadphones: {
 		DisplayName: Aerospec Headphones
-		Tooltip:
-			'''
-			9% increased symphonic damage and playing speed
-			15% increased wind instrument homing speed
-			'''
+		Tooltip: 8% increased symphonic damage and playing speed
 		SetBonus:
 			'''
-			5% increased inspiration regeneration rate
-			Your wind instrument attacks now attempt to home in on enemies
-			If the attack already homes onto enemies, it does so more quickly
+			5% increased movement speed and inspiration regeneration rate
+			10% increased wind instrument homing speed
 			'''
 	}
 
@@ -151,22 +147,17 @@ Items: {
 			'''
 			25% increased symphonic damage
 			20% increased symphonic critical strike chance
-			15% increased symphonic playing speed
-			Increases inspiration regeneration rate by 10%
-			Increases wind instrument homing speed and range by 50%
-			String instruments bounce five additional times
+			12% increased symphonic playing speed
+			Increases wind instrument homing speed and range by 20%
+			String instruments bounce three additional times
 			'''
 		SetBonus:
 			'''
 			Bard Intergelactic, Bloodflare and God Slayer armor effects
-			15% increased symphonic damage
-			10% increased symphonic playing speed
-			5% increased symphonic critical strike chance
-			25% increased percussion critical strike damage
-			50% increased empowerment range
-			+10 max inspiration
+			God Slayer dash uses Calamity's armor ability keybind
+			Alluring Song uses Thorium's armor ability keybind
 			Increases empowerment duration by 5 seconds
-			Increases inspiration regeneration rate by 30%
+			Increases inspiration regeneration rate by 20%
 			Increases the chance for inspiration notes to drop by 45%
 			'''
 	}
@@ -198,22 +189,18 @@ Items: {
 			'''
 			25% increased symphonic damage
 			20% increased symphonic critical strike chance
-			15% increased symphonic playing speed
-			Increases inspiration regeneration rate by 10%
-			Increases wind instrument homing speed and range by 50%
-			String instruments bounce five additional times
+			12% increased symphonic playing speed
+			Increases wind instrument homing speed and range by 20%
+			String instruments bounce an additional time
 			'''
 		SetBonus:
 			'''
 			Bard Tarragon, Bloodflare and God Slayer armor effects
-			15% increased symphonic damage
-			10% increased symphonic playing speed
-			5% increased symphonic critical strike chance
-			25% increased percussion critical strike damage
+			God Slayer dash uses Calamity's armor ability keybind
+			Alluring Song uses Thorium's armor ability keybind
 			50% increased empowerment range
-			+10 max inspiration
 			Increases empowerment duration by 5 seconds
-			Increases inspiration regeneration rate by 30%
+			Increases inspiration regeneration rate by 20%
 			Increases the chance for inspiration notes to drop by 45%
 			'''
 	}
@@ -273,8 +260,8 @@ Items: {
 		DisplayName: Bloodflare Siren Skull
 		Tooltip:
 			'''
-			15% increased symphonic damage, critical strike chance, and playing speed
-			Increases wind instrument homing speed by 25%
+			10% increased symphonic damage and critical strike chance
+			12% increased symphonic playing speed
 			'''
 		SetBonus:
 			'''
@@ -282,11 +269,10 @@ Items: {
 			8% increased symphonic damage
 			5% increased symphonic critical strike chance, and playing speed
 			Increases empowerment duration by 4 seconds
-			Dealing symphonic damage charges up a meter that decays over time
-			The meter is charged up by 100% of symphonic damage dealt
-			When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+			Press '{0}' to gain Alluring Song buff for 5 seconds
 			Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
-			Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+			Taking damage while Alluring Song is active heals you by a flat 200 life but removes Alluring Song
+			Alluring Song has a 45 second cooldown
 			'''
 	}
 
@@ -398,12 +384,12 @@ Items: {
 		DisplayName: Daedalus Hat
 		Tooltip:
 			'''
-			18% increased symphonic damage and playing speed
-			Increases wind instrument homing range by 22%
-			String instruments bounce an additional time
+			13% increased symphonic damage
+			7% increased symphonic critical strike chance
 			'''
 		SetBonus:
 			'''
+			5% increased symphonic playing speed
 			Increases inspiration regeneration rate by 10%
 			Increases empowerment duration by 3 seconds
 			Symphonic damage inflicts frostburn and frostbite on hit
@@ -597,12 +583,11 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			11% increased symphonic damage
 			20% increased percussion critical strike damage
 			50% increased empowerment range
-			+6 max inspiration
+			18% increased inspiration regeneration rate
 			A calamity bell floats above your head and occasionally rings while attacking
-			When the bell rings, enemies around you take 7500 true damage and nearby enemy projectiles are destroyed
+			When the bell rings, enemies around you take 7500 true damage
 			'''
 	}
 
@@ -646,18 +631,14 @@ Items: {
 		DisplayName: Hydrothermic Hat
 		Tooltip:
 			'''
-			15% increased symphonic damage
-			12% increased symphonic playing speed
+			12% increased symphonic damage
+			5% increased symphonic playing speed
 			10% increased symphonic critical strike chance
-			String instruments bounce an additional time
 			'''
 		SetBonus:
 			'''
 			15% increased percussion critical strike damage
 			Increases inspiration regeneration rate by 12%
-			Increases wind instrument homing speed by 15%
-			Increases wind instrument homing range by 5%
-			String instruments bounce two additional times
 			Symphonic critical strikes causes targets to erupt in sulfide flames
 			Only one eruption can occur and have a 3 second cooldown per trigger
 			'''
@@ -865,7 +846,7 @@ Items: {
 		DisplayName: Screaming Clam
 		Tooltip:
 			'''
-			50 symphonic damage
+			22 symphonic damage
 			Summons a clam to float above your head that occasionally screams
 			Inflicts riptide and tunes enemies hit
 			"Clamitous"
@@ -876,7 +857,7 @@ Items: {
 		DisplayName: Scuffed Keytar
 		Tooltip:
 			'''
-			Ignores 15 points of defense
+			Ignores 5 points of defense
 			Shoots a musical staff that pierces indefinitely
 			"An old keytar that barely works... Keyword: 'works'"
 			'''
@@ -977,9 +958,9 @@ Items: {
 		DisplayName: Statigel Earrings
 		Tooltip:
 			'''
-			12% increased symphonic damage
-			8% increased symphonic critical strike chance
-			String instruments bounce two additional times
+			10% increased symphonic damage and playing speed
+			7% increased symphonic critical strike chance
+			String instruments bounce an additional time
 			'''
 	}
 
@@ -1034,9 +1015,8 @@ Items: {
 		DisplayName: Tarragon Chapeau
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			5% increased symphonic critical strike chance and playing speed
-			String instruments bounce three additional times
+			10% increased symphonic damage, critical strike chance and playing speed
+			5% increased damage reduction
 			'''
 		SetBonus: You spawn quarter rests around you that heal inspiration upon hitting enemies
 	}
@@ -1047,6 +1027,7 @@ Items: {
 			'''
 			10% increased radiant damage
 			5% increased radiant critical strike chance
+			5% increased damage reduction
 			+20 max life
 			Slightly increased life regeneration
 			Healing spells will heal an additional 8 life
@@ -1124,7 +1105,7 @@ Items: {
 	VictideAmmoniteHat: {
 		DisplayName: Victide Ammonite Hat
 		Tooltip: 5% increased symphonic damage and inspiration regeneration rate
-		SetBonus: +1.5 HP/s life regen and 10% increased symphonic damage and inspiration regeneration rate while submerged in liquid
+		SetBonus: +1.5 HP/s life regen and 10% increased inspiration regeneration rate while submerged in liquid
 	}
 
 	Violince: {
@@ -1322,6 +1303,15 @@ Buffs: {
 			'''
 	}
 
+	AlluringSongCD: {
+		DisplayName: Alluring Song Cooldown
+		Description:
+			'''
+			You cannot use Alluring Song for a while
+			"Never cook again"
+			'''
+	}
+
 	CalamityBell: {
 		DisplayName: Calamity Bell
 		Description: It's just waiting there, menacingly...
@@ -1340,10 +1330,9 @@ FargoEnchantments: {
 		'''
 		Press 'Armor Ability' key to use half of your life to summon a healing ritual that will heal allies equal to bonus healing
 		Only one ritual can be active at a time and this ability has no cooldown, but overusage of it will kill you
-		Dealing symphonic damage charges up a meter that decays over time, the meter is charged up by 100% of symphonic damage dealt
-		When the meter reaches 100000 charge, gain Alluring Song buff for 5 seconds
+		Doing this also grants Alluring Song buff for 5 seconds
 		Alluring Song increases inspiration regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
-		Taking damage while Alluring Song is active heals you by a flat 250 life but removes Alluring Song
+		Taking damage while Alluring Song is active heals you by a flat 200 life but removes Alluring Song
 		'''
 	GodSlayerEnchant:
 		'''
