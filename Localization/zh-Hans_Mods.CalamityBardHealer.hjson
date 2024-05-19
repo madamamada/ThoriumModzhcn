@@ -1010,7 +1010,7 @@ Items: {
 			增加10%音波伤害, 音波暴击率和演奏速度
 			增加5%伤害减免
 			'''
-		SetBonus: 击中敌人时召唤恢复灵感值的音符
+		SetBonus: 在周围生成四分音符，击中敌人恢复灵感
 	}
 
 	TarragonParagonCrown: {
