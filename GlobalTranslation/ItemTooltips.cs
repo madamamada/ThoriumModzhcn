@@ -30,13 +30,22 @@ namespace ThoriumModzhcn.Items
                     tooltipLine.Text = tooltipLine.Text.Replace("copper", "铜");
                 }
                 // 伤害标签
-                tooltipLine.Text = tooltipLine.Text.Replace("-Bard Class-", "-吟游诗人-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-Healer Class-", "-牧师-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-Thrower Class-", "-投手-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Bard Class-", "-吟游诗人类-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Healer Class-", "-牧师类-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Thrower Class-", "-投手类-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Reality Breaker-", "-现实破坏者-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Transformation-", "-化形-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Early Testing-", "-早期测试物品-");
                 tooltipLine.Text = tooltipLine.Text.Replace(" Instrument-", "乐器-");
+
+                // 救赎伤害标签
+                tooltipLine.Text = tooltipLine.Text.Replace("-Donator Item-", "-捐赠者项目-");
+
+                // 瑟银额外模组伤害标签
+                tooltipLine.Text = tooltipLine.Text.Replace("-Warrior Class-", "-近战类-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Sorcerer Class-", "-魔法类-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Ranger Class-", "-远程类-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Summoner Class-", "-召唤类-");
 
                 // 灵魂链接
                 tooltipLine.Text = tooltipLine.Text.Replace("Allows you to use unique abilities while transformed", "允许你在化形时使用独特的能力");
