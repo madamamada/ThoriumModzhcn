@@ -363,10 +363,12 @@ Projectiles: {
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
 	ShellxophoneStrike.DisplayName: Abyssal Strike
+	SoulBleed.DisplayName: Soul Bleed
+	StableRealityRift.DisplayName: 稳定的现实裂隙
+	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
 	SoulRender.DisplayName: 灵魂镰刃
-	StableRealityRift.DisplayName: 稳定的现实裂隙
 	TerrariumSaber.DisplayName: 元素圣剑
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
@@ -375,6 +377,9 @@ Projectiles: {
 	ValadiumRay.DisplayName: 虚空射线
 	ValadiumSlash.DisplayName: 虚空斩击
 	ValadiumSlicer.DisplayName: 虚金切割者
+	VaporizingFlames.DisplayName: Vaporizing Flames
+	VaporizingFreeze.DisplayName: Vaporizing Freeze
+	VaporizingPoison.DisplayName: Vaporizing Poison
 	VisualShockwave.DisplayName: 冲击波
 	Void.DisplayName: 虚空
 	VoidEye.DisplayName: 注视者之眼
@@ -456,6 +461,8 @@ Items: {
 		Tooltip:
 			'''
 			挥出由灵魂之火赋予力量的三重鞭
+			敌人被鞭打后会流血
+			流血的灵魂会释放一根彩线治愈周围的玩家（血条低？仇恨值？不想测试了，有答案在评论区/QQ群告诉我）
 			"用来折磨死后灵魂的工具"
 			'''
 	}
@@ -536,6 +543,16 @@ Items: {
 			'''
 	}
 
+	RepurposedStarCaller: {
+		DisplayName: 星际召唤器
+		Tooltip:
+			'''
+			召唤监察者核心为你而战
+			火焰核心燃烧目标，生命核心毒害目标，寒冰核心造成冷冻
+			"我们收到你的信息了，现在有什么指示?"
+			'''
+	}
+
 	SealedContract: {
 		DisplayName: 正式契约
 		Tooltip:
@@ -584,9 +601,19 @@ Buffs: {
 			[c/FF7F00:减益倒计时结束会立刻杀死玩家]
 			[c/FF7F00:触摸稳定的现实裂缝，进行伤害输出阶段并重置此减益倒计时]
 			[c/FF7F00:稳定的现实裂缝是紫色法阵]
-			[c/FF7F00:"等待命运..."]
 			[c/FF1CAE:汉化备注:击败一次始生灾灵后，无视此减益，减益倒计时结束会削减血条，但不会代码杀]
+			[c/FF7F00:"等待命运..."]
 			'''
+	}
+
+	SoulBleed: {
+		DisplayName: 灵魂流血
+		Description: 你的灵魂正在消散……
+	}
+
+	StarCalled: {
+		DisplayName: 星际的呼唤
+		Description: 他们回应了你的信号
 	}
 
 	LucidRetaliation: {

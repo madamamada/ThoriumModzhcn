@@ -363,10 +363,12 @@ Projectiles: {
 	ShellxophoneHealing.DisplayName: Tidal Restoration
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
 	ShellxophoneStrike.DisplayName: Abyssal Strike
+	SoulBleed.DisplayName: Soul Bleed
 	SoulRender.DisplayName: Soul Render
+	StableRealityRift.DisplayName: Stable Reality Rift
+	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: Stuff
-	StableRealityRift.DisplayName: Stable Reality Rift
 	TerrariumSaber.DisplayName: Terrarium Saber
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
@@ -375,6 +377,9 @@ Projectiles: {
 	ValadiumRay.DisplayName: Void Ray
 	ValadiumSlash.DisplayName: Void Slash
 	ValadiumSlicer.DisplayName: Valadium Slicer
+	VaporizingFlames.DisplayName: Vaporizing Flames
+	VaporizingFreeze.DisplayName: Vaporizing Freeze
+	VaporizingPoison.DisplayName: Vaporizing Poison
 	VisualShockwave.DisplayName: Shockwave
 	Void.DisplayName: the void
 	VoidEye.DisplayName: Eye of Coznix
@@ -455,6 +460,8 @@ Items: {
 		Tooltip:
 			'''
 			Lashes out a triple whip empowered by soul fire
+			Struck enemies will bleed their souls out
+			Bled souls heal the bleeding enemies' target
 			"A tool used to torment souls in the afterlife"
 			'''
 	}
@@ -535,6 +542,16 @@ Items: {
 			'''
 	}
 
+	RepurposedStarCaller: {
+		DisplayName: Repurposed Star Caller
+		Tooltip:
+			'''
+			Summons the elemental cores of the Star Scouter to fight for you
+			Pyro cores burn targets, Bio cores poison, and Cryo cores inflict frostburn
+			"We have received your call, now what?"
+			'''
+	}
+
 	SealedContract: {
 		DisplayName: Sealed Contract
 		Tooltip:
@@ -585,6 +602,16 @@ Buffs: {
 			Stable reality rifts are the bright purple portals
 			"Destiny awaits..."
 			'''
+	}
+
+	SoulBleed: {
+		DisplayName: Soul Bleed
+		Description: Your soul is dissipating...
+	}
+
+	StarCalled: {
+		DisplayName: Star Called
+		Description: They received your signal
 	}
 
 	LucidRetaliation: {
