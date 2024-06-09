@@ -1138,6 +1138,196 @@ Items: {
 		DisplayName: 杜鹃星圣物
 		Tooltip: ""
 	}
+
+	CorvusPortraitPiece: {
+		DisplayName: 乌鸦星影像碎片
+		Tooltip: ""
+	}
+
+	CorvusPortrait: {
+		DisplayName: 乌鸦星影像
+		Tooltip: ""
+	}
+
+	CorvusRelicFragment: {
+		DisplayName: 乌鸦星圣物碎块
+		Tooltip: ""
+	}
+
+	CorvusRelic: {
+		DisplayName: 乌鸦星圣物
+		Tooltip: ""
+	}
+
+	YharimsArchive: {
+		DisplayName: 亚利姆档案（一阶传颂之物合成台）
+		Tooltip: ""
+	}
+
+	GalacticArchive: {
+		DisplayName: 银河系档案（二阶传颂之物合成台）
+		Tooltip: ""
+	}
+
+	Lepus: {
+		DisplayName: 天兔
+		Tooltip: ""
+	}
+
+	CaelumPortraitPiece: {
+		DisplayName: 雕具星影像碎片
+		Tooltip: ""
+	}
+
+	CaelumPortrait: {
+		DisplayName: 雕具星影像
+		Tooltip: ""
+	}
+
+	CaelumRelicFragment: {
+		DisplayName: 雕具星圣物碎块
+		Tooltip: ""
+	}
+
+	CaelumRelic: {
+		DisplayName: 雕具星圣物
+		Tooltip: ""
+	}
+
+	TurkorTheUngrateful: {
+		DisplayName: 不感恩火鸡
+		Tooltip: ""
+	}
+
+	Deviantt: {
+		DisplayName: 戴维安
+		Tooltip: ""
+	}
+
+	SiegeEngine: {
+		DisplayName: 狱擎围城
+		Tooltip: ""
+	}
+
+	Stasys: {
+		DisplayName: Sta-sys
+		Tooltip: ""
+	}
+
+	TheCaretaker: {
+		DisplayName: 看守者
+		Tooltip: ""
+	}
+
+	TheTerminator: {
+		DisplayName: 终结者
+		Tooltip: ""
+	}
+
+	BanishedBaron: {
+		DisplayName: 放逐遗爵
+		Tooltip: ""
+	}
+
+	FaintArchivesPortraitPiece: {
+		DisplayName: 昏暗档案馆影像碎片
+		Tooltip: ""
+	}
+
+	FaintArchivesPortrait: {
+		DisplayName: 昏暗档案馆影像
+		Tooltip: ""
+	}
+
+	FallenTheranhadPortraitPiece: {
+		DisplayName: 堕落之泰拉纳德影像碎片
+		Tooltip: ""
+	}
+
+	FallenTheranhadPortrait: {
+		DisplayName: 堕落之泰拉纳德影像
+		Tooltip: ""
+	}
+
+	FaintArchivesRelicFragment: {
+		DisplayName: 昏暗档案馆圣物碎块
+		Tooltip: ""
+	}
+
+	FaintArchivesRelic: {
+		DisplayName: 昏暗档案馆圣物
+		Tooltip: ""
+	}
+
+	FallenTheranhadRelicFragment: {
+		DisplayName: 堕落之泰拉纳德圣物碎块
+		Tooltip: ""
+	}
+
+	FallenTheranhadRelic: {
+		DisplayName: 堕落之泰拉纳德圣物
+		Tooltip: ""
+	}
+
+	Lifelight: {
+		DisplayName: 缥缈游光
+		Tooltip: ""
+	}
+
+	Ocram: {
+		DisplayName: 奥库瑞姆
+		Tooltip: ""
+	}
+
+	StarfarerRelic: {
+		DisplayName: 本影星海旅者圣物
+		Tooltip: ""
+	}
+
+	StarfarerPortrait: {
+		DisplayName: 本影星海旅者影像
+		Tooltip: ""
+	}
+
+	DreamingCityPortraitPiece: {
+		DisplayName: 千梦之城影像碎片
+		Tooltip: ""
+	}
+
+	DreamingCityPortrait: {
+		DisplayName: 千梦之城影像
+		Tooltip: ""
+	}
+
+	LyraPortraitPiece: {
+		DisplayName: 天琴星影像碎片
+		Tooltip: ""
+	}
+
+	LyraPortrait: {
+		DisplayName: 天琴星影像
+		Tooltip: ""
+	}
+
+	DreamingCityRelicFragment: {
+		DisplayName: 千梦之城圣物碎块
+		Tooltip: ""
+	}
+
+	DreamingCityRelic: {
+		DisplayName: 千梦之城圣物
+		Tooltip: ""
+	}
+
+	LyraRelicFragment: {
+		DisplayName: 天琴星圣物碎块
+		Tooltip: ""
+	}
+
+	LyraRelic: {
+		DisplayName: 天琴星圣物
+		Tooltip: ""
+	}
 }
 
 LoreLines: {
@@ -1568,6 +1758,75 @@ LoreLines: {
 		Line3: 然而，没有人能把这个作品和嘉登的思想相比。
 		Line4: 这台机械简直对他其他的作品是一种侮辱，它甚至不能被认为是一个对手。
 	}
+
+	Lepus: {
+		Line1: 在一年的某一天，一种奇怪的瘟疫困扰这片土地的兔子。
+		Line2: 这不是猩红和腐化的感染，我的顶尖研究者都无法查证这场瘟疫是什么......
+		Line3: 我们只知道，在某个地方有一个巨大的兔子，孵化者混合体......
+	}
+
+	Turkor: {
+		Line1: 曾经有一次为了庆祝巨大的胜利，我的厨师为我们准备了一场盛宴。
+		Line2: 他们不知道填充物受到黑魔法地方污染，火鸡变大了十倍左右，头也生长出来了。
+		Line3: 在那一刻，原本喧闹的盛宴变成一场灾难......
+	}
+
+	Deviantt: {
+		Line1: 拥有畸形形象和无与伦比的力量，人类首先会认为他们是神明.
+		Line2: 不管这种观念是不是错的，他们的力量来自于吸收神明的精华.
+		Line3: 我曾经邀请他们加入我的军团，但他们都拒绝了，他们说不会为任何人服务。
+		Line4: 这是一个值得称赞的品质，即使它对我不利。
+	}
+
+	TheTerminator: {
+		Line1: 在这台机械在知识的沉淀里赋予了新的生命。
+		Line2: 作为中央情报局，这台机械是隐蔽的，在压制敌人之前尽可能多地收集情报。
+		Line3: 嘉登使用终结者完成很多其他机械。
+		Line4: 这是他最有用的资产之一。
+	}
+
+	TheCaretaker: {
+		Line1: 嘉登一直对丛林的蜂后很着迷......（汉化作者的吐槽：不就是想奴役蜜蜂吗？）
+		Line2: 这台机械是用来复制蜂王的，试图复制和模仿这个物种的行为。
+		Line3: 它是个完美的战斗机械，能够消灭很多反对我们的人。
+		Line4: 我认为它是完美的，但对嘉登来说还不够好。
+	}
+
+	Stasys: {
+		Line1: 根据在苔原的暴风雪中发现的奇怪生物
+		Line2: 嘉登制造了巨型的货机，具有非凡的力量
+		Line3: 它装备了实验武器，被称为可怕的机械野兽……
+		Line4: 但实际上，它是机械怪物中效率最低的。
+	}
+
+	SiegeEngine: {
+		Line1: 观察血肉墙之后，嘉登开始制造血肉墙的机械复制品。
+		Line2: 如果血肉墙在地狱横冲直撞，这台机械将被用来牵制血肉墙。
+		Line3: 它还将作为新的支柱，容纳束搏之神的能量……
+		Line4: 愤怒的机械使用了古代青铜墙的设计图。
+		Line5: 据说如果地狱被冻住了，这是替代熔炉。
+	}
+
+	BanishedBaron: {
+		Line1: 我让嘉登制作的第一批机械之一，要求做得像一条鱼
+		Line2: 不幸的是它是最不听话的，所有教导它的努力都是徒劳的……
+		Line3: 极端的东西使它成为一个特别危险的存在，我们很幸运，它游到海里去了。
+		Line4: 这个失败让嘉登在他以后的机械都带上灵魂为去制作。
+	}
+
+	Lifelight: {
+		Line1: 自称是精灵的主人，也许是一个被杀的神灵的意识的可怕面孔。
+		Line2: 它看起来像一个金色的球体，有时甚至凝结成一个金字塔形状。
+		Line3: 我们对这种黄金构造知之甚少。
+		Line4: 但是这种刺耳的叫声足以让人脊背发凉。
+	}
+
+	Ocram: {
+		Line1: 一个在腐化中名为奥库瑞姆的生物，他的意识慢慢地被蜂群思维感染并接管。
+		Line2: 他的愤怒是纯粹的，事实上他是拥有阴谋诡计卑劣思想的生物。
+		Line3: 它计划以这种改进的形式向你复仇。
+		Line4: 你必须一如既往地杀死这个生物……
+	}
 }
 
 SpawnInfo: {
@@ -1605,12 +1864,21 @@ SpawnInfo: {
 	Scorpius: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
 	Corvus: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
 	Caelum: 使用[i:StarsAbove/StellaglyphTier2]，从那个星球带回一些东西来完成这个。
+	FaintArchives: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
+	FallenTheranhad: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
+	Lyra: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
+	DreamingCity: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
 }
 
-Conditions.DownedHauntedTome: After Haunted Tome is defeated
+Conditions: {
+	DownedHauntedTome: 击败闹鬼之书之后
+	DownedTrojanSquirrel: 击败特洛伊松鼠之后
+	DownedGrandThunderbird: 击败惊雷王鹰之后
+}
+
 NPCs.PinkyPlaceholder.DisplayName: Pinky Placeholder
 DropConditions.JourneyMode: Mods.EventTrophies.DropConditions.JourneyMode
-MergeWarning: 此模组已经与更多圣物/纪念章/灾厄传颂之物合并，你可以在模组列表中移除另一个模组。
+MergeWarning: 此模组已经与更多圣物/纪念章/传颂之物合并，你可以在模组列表中移除另一个模组。
 
 Configs: {
 	EventTrophiesConfig: {
@@ -1623,10 +1891,12 @@ Configs: {
 						TrophyDrops: 纪念章和圣物掉落
 						SummoningItems: 召唤材料
 						BossChecklist: BOSS手册支持
+						Pylons: 晶塔
 						Calamity: 灾厄
 						Thorium: 瑟银
 						Misc: 其他
 						TrophyMasterCrafting: 大师模式纪念章制作
+						Visuals: 色彩部分
 					}
 				}
 			}
@@ -1730,6 +2000,31 @@ Configs: {
 		VoyageTrophyRelicAmount: {
 			Label: 圣物碎片数量
 			Tooltip: 制作圣物需要多少圣物碎片
+		}
+
+		RelicPylon: {
+			Label: 城镇npc售出晶塔
+			Tooltip: 允许城镇npc在大师模式中售出圣物晶塔
+		}
+
+		CraftableMasterModePylons: {
+			Label: 可制作各种遗迹晶塔
+			Tooltip: 允许用圣物晶塔制作各种遗迹晶塔
+		}
+
+		ConsolariaLoreItems: {
+			Label: 主机版拓展（1.2复刻）传颂之物物品
+			Tooltip: 给予主机版拓展（1.2复刻）增加灾厄的传颂之物
+		}
+
+		PrimeReworkLoreItems: {
+			Label: 机械boss重置传颂之物物品
+			Tooltip: 给予机械boss重置增加灾厄的传颂之物
+		}
+
+		ColoredRelics: {
+			Label: 彩色圣物
+			Tooltip: 让彩色圣物加入这个模组
 		}
 	}
 }
