@@ -11279,7 +11279,7 @@ Mods: {
 				DisplayName: 远古神圣兜盔
 				Tooltip:
 					'''
-					2增加5%投掷伤害
+					增加25%投掷伤害
 					增加8%投掷速度和暴击率
 
 					'''
@@ -11476,7 +11476,7 @@ Mods: {
 				DisplayName: 神圣兜盔
 				Tooltip:
 					'''
-					2增加5%投掷伤害
+					增加25%投掷伤害
 					增加8%投掷速度和暴击率
 					'''
 			}
@@ -18444,17 +18444,17 @@ Mods: {
 			}
 
 			LichRequirement: {
-				DisplayName: Lich Requirement
+				DisplayName: 巫妖的条件
 				Tooltip: ""
 			}
 
 			LichRequirement2: {
-				DisplayName: Lich Requirement
+				DisplayName: 巫妖的条件
 				Tooltip: ""
 			}
 
 			LichRequirement3: {
-				DisplayName: Lich Requirement
+				DisplayName: 巫妖的条件
 				Tooltip: ""
 			}
 
