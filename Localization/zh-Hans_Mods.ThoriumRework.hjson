@@ -86,6 +86,11 @@ ItemDescriptions: {
 		攻击附近的敌人时，额外发射荧光束
 		被击中的敌人赋予荧光效果，并受到10%的伤害
 		'''
+	IllumiteScythe:
+		'''
+		对附近的敌人释放荧光刃砍
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
 	CobaltPopper: 使用过程中增加防御力
 	PalladiumSubmachineGun: 使用过程中增加生命再生
 	MythrilPelter: 使用一段时间后攻击速度会翻倍
@@ -182,6 +187,18 @@ ItemDescriptions: {
 		'''
 		挥舞两把泰坦剑
 		暴击会造成额外伤害
+		'''
+	TerrariumBomber:
+		'''
+		释放追踪的彩色导弹
+		彩色导弹攻击到到敌人时分裂成三个
+		25%概率节省弹药
+		'''
+	TerrariumPulseRifle:
+		'''
+		一次性发射四个子弹
+		将合适的弹药转换成脉冲射线，继承子弹的命中效果
+		15%概率节省弹药
 		'''
 	TerrariumSaber:
 		'''
@@ -368,6 +385,7 @@ Projectiles: {
 	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
+	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 	SoulRender.DisplayName: 灵魂镰刃
 	TerrariumSaber.DisplayName: 元素圣剑
 	TideDagger.DisplayName: 水刃暴雨

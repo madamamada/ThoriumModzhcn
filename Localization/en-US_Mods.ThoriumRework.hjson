@@ -86,6 +86,11 @@ ItemDescriptions: {
 		The image shoots illuminating beams at nearby targets
 		Hit enemies will be illuminated and take 10% more damage
 		'''
+	IllumiteScythe:
+		'''
+		Creates light slashes on a nearby enemy
+		Hit enemies will be illuminated and take 10% more damage
+		'''
 	CobaltPopper: Increases defense over time while being used
 	PalladiumSubmachineGun: Increases life regeneration over time while being used
 	MythrilPelter: Eventually doubles in attack speed while being used
@@ -182,6 +187,18 @@ ItemDescriptions: {
 		'''
 		Dual wield two, titanic blades
 		Critical strikes will deal additional damage
+		'''
+	TerrariumBomber:
+		'''
+		Slowly fires homing chromatic missiles
+		Chromatic missiles split into three on enemy hit
+		25% chance to save ammo
+		'''
+	TerrariumPulseRifle:
+		'''
+		Fires in a burst of four
+		Converts suitable ammo into pulse rays that inherit the on-hit effect of your bullets
+		15% chance to save ammo
 		'''
 	TerrariumSaber:
 		'''
@@ -369,6 +386,7 @@ Projectiles: {
 	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: Stuff
+	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 	TerrariumSaber.DisplayName: Terrarium Saber
 	TideDagger.DisplayName: Aqua Rainstorm
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
