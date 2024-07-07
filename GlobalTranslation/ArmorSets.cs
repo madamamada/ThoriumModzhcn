@@ -100,7 +100,7 @@ namespace ThoriumModzhcn.GlobalTranslation
             }
             if (set == "TideTurnerHelmetSet")
             {
-                player.setBonus = "按下“盔甲能力”键会将你包裹在密不透风发泡泡中，将所有受到的伤害转化为治疗";
+                player.setBonus = "按下“盔甲能力”键会将你包裹在密不透风的泡泡中，将所有受到的伤害转化为治疗";
             }
             if (set == "TideTurnersGazeSet")
             {

@@ -496,7 +496,7 @@ Mods: {
 
 			CosmicFluxStaffHealBuff: {
 				DisplayName: 治疗新星
-				Description: 治疗法术会额外治疗2点生命值(wiki 1点)
+				Description: 治疗法术会额外治疗2点生命值
 			}
 
 			CrystalWishBuff: {
@@ -1835,7 +1835,7 @@ Mods: {
 		Items: {
 			AbyssalShadow: {
 				DisplayName: 深渊之影
-				Tooltip: ""
+				Tooltip: "(在深海击杀虚影潜游者概率掉落)"
 			}
 
 			AbyssalShadow2: {
@@ -1844,6 +1844,7 @@ Mods: {
 					'''
 					召唤一个被时间遗忘已久的存在
 					仅能在深海使用
+					(在深海击杀虚影潜游者概率掉落)
 					'''
 			}
 
@@ -1855,6 +1856,7 @@ Mods: {
 					被包裹时无法使用物品或治疗药水，生命再生大幅减少且几乎不能造成伤害
 					离开壳会短暂大幅降低你的速度，伤害减免和伤害
 					离开壳后的20秒内无法再次使用壳
+					(遗忘之主的宝藏袋内获得)
 					'''
 			}
 
@@ -2625,6 +2627,7 @@ Mods: {
 					发出野性的噪音
 					右键召唤一个森林符文模仿你的陶笛
 					召唤符文需要消耗5点灵感值
+					(常春藤箱内获得)
 					'''
 			}
 
@@ -2966,6 +2969,7 @@ Mods: {
 					'''
 					你的音波伤害会短暂烧焦击中的敌怪
 					音波暴击会产生一阵熔岩音符喷发
+					(在绯红箱或绯红匣中获得)
 					'''
 			}
 
@@ -2986,6 +2990,7 @@ Mods: {
 					'适合那些真正对演奏音乐感兴趣的'
 					你的乐器不会消耗灵感值，不造成伤害也不会错过节拍
 					你的音波演奏速度加成基于手册所在的饰品栏位：
+					(在困难模式商人处购买获得)
 					'''
 			}
 
@@ -3123,7 +3128,11 @@ Mods: {
 
 			RivetingTadpole: {
 				DisplayName: 迷人蝌蚪
-				Tooltip: 缓慢发出追踪敌人的泡泡
+				Tooltip:
+					'''
+					缓慢发出追踪敌人的泡泡
+					(在丛林生物群系钓鱼获得）
+					'''
 			}
 
 			ScholarsHarp: {
@@ -3559,7 +3568,7 @@ Mods: {
 			}
 
 			CopperBuckler: {
-				DisplayName: 铜制方盾（wiki是铜制圆盾）
+				DisplayName: 铜盾
 				Tooltip:
 					'''
 					防御增加1点
@@ -3826,7 +3835,7 @@ Mods: {
 			}
 
 			TinBuckler: {
-				DisplayName: 锡质圆盾
+				DisplayName: 锡盾
 				Tooltip:
 					'''
 					防御增加1点
@@ -4834,7 +4843,7 @@ Mods: {
 			}
 
 			AstralWave: {
-				DisplayName: 星辉波痕（微光嬗变）
+				DisplayName: 星辉波痕（可微光嬗变）
 				Tooltip: 永久增加跳跃速度
 			}
 
@@ -7679,7 +7688,6 @@ Mods: {
 					'''
 					最大魔力值增加20
 					略微增加魔力再生
-
 					'''
 			}
 
@@ -7789,7 +7797,7 @@ Mods: {
 
 			AquaMask: {
 				DisplayName: 永劫狂潮面具
-				Tooltip: "'Wear a visage of Vigilance...'"
+				Tooltip: "'保持警惕...'"
 			}
 
 			DoomSayersCoin: {
@@ -8001,7 +8009,7 @@ Mods: {
 
 			OmniMask: {
 				DisplayName: 噬元凶灾面具
-				Tooltip: "'Wear a visage of Chaos...'"
+				Tooltip: "'带着混乱的面具...'"
 			}
 
 			EdgeofImagination: {
@@ -8282,7 +8290,7 @@ Mods: {
 
 			FallenBeholderMask: {
 				DisplayName: 堕落注视者面具
-				Tooltip: "'Peer into the abyss'"
+				Tooltip: "'凝视深渊'"
 			}
 
 			FallenBeholderTrophy: {
@@ -8435,7 +8443,6 @@ Mods: {
 					'''
 					'与你的身体共生'
 					增加6%暴击率
-
 					'''
 			}
 
@@ -9938,8 +9945,8 @@ Mods: {
 					仅能同时召唤一个守护者
 					'''
 				ShieldAmountNone: 生命护盾等于你的加成治疗上限 {0}
-				ShieldAmount: 使盟友的生命值增加{0}到{1}
-				ShieldAmountMax: 使盟友的生命值增加{0}到{1} (Max)
+				ShieldAmount: 使队友的生命值增加{0}到{1}
+				ShieldAmountMax: 使队友的生命值增加{0}到{1} (Max)
 			}
 
 			SnackLantern: {
@@ -10042,7 +10049,6 @@ Mods: {
 					增加10%光辉伤害
 					增加8%移动速度
 					治疗法术会额外治疗1点生命值
-
 					'''
 			}
 
@@ -10053,7 +10059,6 @@ Mods: {
 					降低15%非光辉伤害
 					增加10%光辉伤害
 					治疗法术会额外治疗3点生命值
-
 					'''
 			}
 
@@ -10429,7 +10434,6 @@ Mods: {
 					增加10%远程伤害
 					增加5%开火速度
 					20%概率节省弹药
-
 					'''
 			}
 
@@ -10548,7 +10552,7 @@ Mods: {
 
 			LichMask: {
 				DisplayName: 巫妖面具
-				Tooltip: "'Marginally more scary than a cowl'"
+				Tooltip: "'比斗篷稍微可怕一点'"
 			}
 
 			LichTalon: {
@@ -11260,7 +11264,6 @@ Mods: {
 					'''
 					增加10%灵感值再生速率
 					增加8%音波伤害和演奏速度
-
 					'''
 			}
 
@@ -11271,7 +11274,6 @@ Mods: {
 					降低20%非光辉伤害
 					增加20%光辉伤害
 					降低20%魔力消耗，增加20%魔力再生
-
 					'''
 			}
 
@@ -11281,7 +11283,6 @@ Mods: {
 					'''
 					增加25%投掷伤害
 					增加8%投掷速度和暴击率
-
 					'''
 			}
 
@@ -11435,20 +11436,22 @@ Mods: {
 			}
 
 			GuidetoOvercomingGrief: {
-				DisplayName: 克服悲伤指南
+				DisplayName: 克服悲伤指南（启用状态）
 				Tooltip:
 					'''
 					防止队友影响你的移动或位置
 					右键点击停用效果
+					(迷途僵尸处购买)
 					'''
 			}
 
 			GuidetoOvercomingGriefInactive: {
-				DisplayName: 克服悲伤指南
+				DisplayName: 克服悲伤指南（停用状态）
 				Tooltip:
 					'''
 					防止队友影响你的移动或位置
-					效果目前处于停用状态，右键点击重新激活
+					效果目前处于停用状态，右键点击重新激
+					(迷途僵尸处购买)
 					'''
 			}
 
@@ -11458,7 +11461,6 @@ Mods: {
 					'''
 					增加10%灵感值再生速率
 					增加8%音波伤害和演奏速度
-
 					'''
 			}
 
@@ -11873,11 +11875,12 @@ Mods: {
 			}
 
 			CactusFruit: {
-				DisplayName: 仙人掌果（荒漠侍僧购买）
+				DisplayName: 仙人掌果
 				Tooltip:
 					'''
 					'尽管有刺，但它看起来有点美味……'
 					消耗后免疫状态效果减益
+					(荒漠侍僧购买）
 					'''
 			}
 
@@ -12190,7 +12193,11 @@ Mods: {
 
 			PotentExtract: {
 				DisplayName: 强效提取物（荒漠侍僧购买）
-				Tooltip: "'别吸毒，孩子们'"
+				Tooltip:
+					'''
+					'别吸毒，孩子们
+					(荒漠侍僧购买）
+					'''
 			}
 
 			PotionChaser: {
@@ -16309,7 +16316,7 @@ Mods: {
 			}
 
 			SpiritTrapperCowl: {
-				DisplayName: 猎魂者兜帽（等wiki占位符）
+				DisplayName: 猎魂者兜帽
 				Tooltip: 最大仆从数量增加1
 				SetBonus:
 					'''
@@ -16461,7 +16468,7 @@ Mods: {
 				Tooltip:
 					'''
 					允许飞行，超高速奔跑和冰面上的额外机动力
-					增加12%移动速度（wiki是10%）
+					增加12%移动速度
 					可在水，蜂蜜和熔岩上行走
 					免疫火块和熔岩
 					'''
@@ -16511,7 +16518,7 @@ Mods: {
 				DisplayName: 元素之翼
 				Tooltip:
 					'''
-					允许飞的更高，增加跳跃高度和缓慢下降（wiki是增加跳跃高度）
+					允许飞的更高，增加跳跃高度和缓慢下降
 					散发彩虹粒子和光芒.
 					'''
 			}
