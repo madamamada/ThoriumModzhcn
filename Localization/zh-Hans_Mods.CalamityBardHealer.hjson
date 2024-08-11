@@ -564,7 +564,6 @@ Items: {
 			演奏你们熟悉又喜爱的钟声
 			使用硫磺闪电攻击敌人，对敌怪施加孱弱巫咒
 			[c/C61B40:'一个属于传奇音乐家的钟，如果他还在我们身边就好了……']
-			（地狱铃铛灌注）
 			'''
 	}
 
@@ -730,7 +729,6 @@ Items: {
 			在魔法阵中的队友在任何情况下都不能死亡
 			活着的队友也可以从大多数减益影响解脱
 			[c/C61B40:'这个是女巫用来复活她兄弟的魔杖。']
-			（梦境捕捉器灌注）
 			'''
 	}
 
@@ -781,7 +779,6 @@ Items: {
 			最多向3名队友释放硫磺射线并治愈他们
 			如果少于3名队友，额外的硫磺射线会治疗已经治愈过的队友
 			[c/C61B40:'为了感谢女巫的复活，他们愿意无私奉献.']
-			（好人书灌注）
 			'''
 	}
 
@@ -842,6 +839,17 @@ Items: {
 			发射缓慢的闪电束，在敌人之间反弹
 			反弹次数受弦乐器的反弹加成增益
 			"触摸电线能踏上天堂的阶梯！"
+			'''
+	}
+
+	ScreamingClam: {
+		DisplayName: 尖叫蛤蜊
+		Tooltip:
+			'''
+			22 音波伤害
+			召唤偶尔尖叫的蛤蜊悬浮在头顶
+			造成激流和调谐减益
+			"硫火巨蛤！"
 			'''
 	}
 
@@ -1148,17 +1156,6 @@ Items: {
 			'''
 	}
 
-	ScreamingClam: {
-		DisplayName: 尖叫蛤蜊
-		Tooltip:
-			'''
-			22 音波伤害
-			召唤偶尔尖叫的蛤蜊悬浮在头顶
-			造成激流和调谐减益
-			"硫火巨蛤！"
-			'''
-	}
-
 	YharimsJam: {
 		DisplayName: 亚利姆音响
 		Tooltip:
@@ -1185,6 +1182,7 @@ Projectiles: {
 	BloomingSaintessDevotion.DisplayName: 绽花圣女之奉献
 	BloomingSaintessDevotion2.DisplayName: 绽花圣女花朵
 	BloomingSaintessDevotion3.DisplayName: 绽花圣女花瓣
+	BurningBeat.DisplayName: Burning Beat
 	CalamityBell.DisplayName: 灾厄之钟
 	CalamityBellRing.DisplayName: 灾厄钟鸣
 	CherubimBeam.DisplayName: 神使光线
@@ -1254,6 +1252,8 @@ Projectiles: {
 	SavingGrace.DisplayName: 救赎之恩
 	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: 废弃吉他
+	ScreamingClam.DisplayName: 尖叫蛤蜊
+	ScreamingClamScream.DisplayName: 尖叫蛤蜊
 	ScuffedKeytar.DisplayName: 磨损的键琴
 	Singularity.DisplayName: 奇点
 	SingularityStar.DisplayName: 奇点
@@ -1288,9 +1288,6 @@ Projectiles: {
 	WulfrumSoundWave.DisplayName: 声波
 	WulfrumWeedWacker.DisplayName: 钨钢割草镰
 	WulfrumWeedWackerWave.DisplayName: 钨钢割草镰
-	BurningBeat.DisplayName: Burning Beat
-	ScreamingClam.DisplayName: 尖叫蛤蜊
-	ScreamingClamScream.DisplayName: 尖叫蛤蜊
 	YharimsJam.DisplayName: 亚利姆音响
 }
 
