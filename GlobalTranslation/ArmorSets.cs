@@ -342,6 +342,10 @@ namespace ThoriumModzhcn.GlobalTranslation
             {
                 player.setBonus = "按下up翻转重力。翻转时，远程伤害增加15%！";
             }
+            else if (set == "LifeBinderMaskSet")
+            {
+                player.setBonus = "治疗法术会短暂增加被治疗玩家50点最大生命值";
+            }
         }
         #endregion
         #region IsArmorSet
