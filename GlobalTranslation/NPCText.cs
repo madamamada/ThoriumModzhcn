@@ -161,7 +161,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 					case "Supply me with the proper ingredients, and I can make some truly powerful foods for you, hero!":
 					chat = "给我提供合适的食材，我就能给你做一些真正强而有力的食物，英雄";
 					break; 
-					case "I could see the battle from here. To think you would risk your life to save us from something as overwhelming as... that. Take a seat kid, I'll cook your favorite meal - it's on me":
+					case "I could see the battle from here. To think you would risk your life to save us from something as overwhelming as... that. Take a seat kid, I'll cook your favorite meal - it's on me.":
 					chat = "我在这里看到了那场战斗。想到你能不顾生命危险救我们于水火之中……坐下吧，孩子，我做了你最爱的饭菜——我请客。";
 					break; 
 					}
@@ -487,7 +487,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 			chat = chat.Replace("An endless source of fire and water fell from those creatures you say? Oy, that sounds like a great way to generate some steam!", "你是说，从那些生物身上，有源源不断的火和水?哇，这听起来是个产生蒸汽的好方法!");
 
 			//现实守护者：发型师
-			chat = chat.Replace("Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?", "我不知道泰拉瑞亚的始生之力还有幽默感。"我拯救了世界，但我得到的只是这顶华丽的皇冠"之类的，对吧?");
+			chat = chat.Replace("Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?", "我不知道泰拉瑞亚的始生之力还有幽默感。'我拯救了世界，但我得到的只是这顶华丽的皇冠'之类的，对吧?");
 
 			//现实守护者：酒馆老板
 			chat = chat.Replace("Well now. Even back in Etheria I haven't seen a hero defend their home with such bravery and tenacity before. Maybe you do measure up after all.", "现在。即使在埃特尼亚，我也没有见过一个英雄以如此的勇气和坚韧来保卫他们的家园。也许你还是符合标准的。");
