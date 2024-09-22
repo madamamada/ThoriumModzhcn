@@ -1,22 +1,22 @@
 Buffs: {
 	AntarcticCreativityBuff: {
-		DisplayName: Antarctic Creativity
+		DisplayName: 南极之创想
 		Description: 灵感值恢复速度提高15%和增加10%音波演奏速度
 	}
 
 	AntarcticReinforcementBuff: {
-		DisplayName: Antarctic Reinforcement
+		DisplayName: 南极之援护
 		Description: 防御力增加8, 治疗法术会额外治疗2点生命值
 	}
 
 	AntarcticExhaustionDebuff: {
-		DisplayName: Antarctic Exhaustion
-		Description: You can not buff again
+		DisplayName: 南极之竭尽
+		Description: 你不能再次使用此增益了
 	}
 
 	GuardianHealerBeamBuff: {
-		DisplayName: Guardian Healers Blessing
-		Description: Addtional 10% damage reduction and 5 lifeRecovery for 20 seconds额外降低10%伤害减免和5点生命恢复并持续20秒
+		DisplayName: 圣晶守卫的祝福
+		Description: 额外降低10%伤害减免和5点生命恢复并持续20秒
 	}
 
 	UniversalBlessing: {
@@ -67,65 +67,66 @@ Items: {
 	}
 
 	AerospecBard: {
-		DisplayName: Aerospec Shovel Hat天蓝铲型帽
+		DisplayName: 天蓝铲帽
 		Tooltip:
 			'''
-			5% increased playing and inspiration regeneration speed增加5%音波演奏速度和灵感值恢复速度
-			+2 second to empowerment duration咒音增幅持续时间延长2秒
+			增加5%音波演奏速度和灵感值恢复速度
+			咒音增幅持续时间延长2秒
 			'''
 		SetBonus:
 			'''
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall一次受到超过25点伤害会召唤追踪羽毛从天而降
-			Allows you to fall more quickly and disables fall damage提升下落速度，免疫摔落伤害
-			6% increased symphonic damage增加6%音波伤害
-			7% increased movement speed增加7%移动速度
+			一次受到超过25点伤害会召唤追踪羽毛从天而降
+			提升下落速度，免疫摔落伤害
+			增加6%音波伤害
+			增加7%移动速度
 			'''
 	}
 
 	AerospecHealer: {
-		DisplayName: Aerospec Hood天蓝风帽
+		DisplayName: 天蓝风帽
 		Tooltip:
 			'''
-			20% decreased non-radiant damage降低20%非光辉伤害
-			20% increased radiant damage增加20%光辉伤害
-			+20 maximum mana 最大魔力值增加20
+			降低20%非光辉伤害
+			增加20%光辉伤害
+			最大魔力值增加20
 			'''
 		SetBonus:
 			'''
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall一次受到超过25点伤害会召唤追踪羽毛从天而降
-			Allows you to fall more quickly and disables fall damage提升下落速度，免疫摔落伤害
-			Healing speels heal an additional 2 life治疗法术会额外治疗2点生命值
-			10% increased movement speed增加10%移动速度
+			一次受到超过25点伤害会召唤追踪羽毛从天而降
+			提升下落速度，免疫摔落伤害
+			治疗法术会额外治疗2点生命值
+			增加10%移动速度
 			'''
 	}
 
 	AuricTeslaFrilledHelmet: {
-		DisplayName: Auric Tesla Frilled Helmet
+		DisplayName: 金缀韵灵盔
 		Tooltip:
 			'''
-			20% increased symphonic damage, critical strike chance, and wind instrument homing speed增加20%音波伤害、音波暴击率和音波追踪速度
-			5% increased movement speed增加5%移动速度
-			30% increased inspiration regeneration增加30%灵感值恢复速度
-			+15 max inspiration最大灵感值增加15
-			+2 string instrument projectile bounces弦乐器的弹幕会额外反弹两次
+			增加20%音波伤害、音波暴击率和音波追踪速度
+			增加5%移动速度
+			增加30%灵感值恢复速度
+			最大灵感值增加15
+			弦乐器的弹幕会额外反弹两次
 			'''
 		SetBonus:
 			'''
-			Tarragon, Bloodflare, God Slayer, and Rhapsodist armor effects
+			Tarragon, Bloodflare, God Slayer, and Rhapsodist armor effects拥有狂想独奏帽, 狂想启迪盔的套装效果
 			Pressing the 'Armor Ability' key will trigger both Rhapsodist armor abilities
 			'''
 	}
 
 	AuricTeslaHealerHead: {
-		DisplayName: Auric Tesla Irradiant Visage
+		DisplayName: 金煌圣祗盔
 		Tooltip:
 			'''
-			70% increased radiant damage but 70% decreased non-radiant damage增加70%光辉伤害但是会减少70%非光辉伤害
-			25% increased radiant critical strike chance增加25%光辉暴击率
-			5% increased movement speed增加5%移动速度
-			25% decreased mana usage魔力消耗减少25%
-			   Healing spells heal an additional 11 life治疗法术会额外治疗11生命值
-			+100 maximum mana最大魔力值增加100
+			降低70%非光辉伤害
+			增加70%光辉伤害
+			增加25%光辉暴击率
+			增加5%移动速度
+			魔力消耗减少25%
+			治疗法术会额外治疗11生命值
+			最大魔力值增加100
 			'''
 		SetBonus:
 			'''
@@ -145,12 +146,12 @@ Items: {
 	}
 
 	BloodflareHeadBard: {
-		DisplayName: Bloodflare Spiked Helmet
+		DisplayName: 血嚎尖芒盔
 		Tooltip:
 			'''
-			20% increased symphonic damage and 12% increased symphonic critical strike chance增加20%音波伤害和12%音波暴击率
-			+15% increased inspiration regeneration and +6 maximum inspiration增加15%灵感恢复速度和最大灵感值增加6
-			+15% chance for inspiration notes to drop from enemies增加15%的灵感音符掉率
+			增加20%音波伤害和12%音波暴击率
+			增加15%灵感恢复速度和最大灵感值增加6
+			增加15%的灵感音符掉率
 			'''
 		SetBonus:
 			'''
@@ -163,14 +164,15 @@ Items: {
 	}
 
 	BloodflareHeadHealer: {
-		DisplayName: Bloodflare Grim Visage
+		DisplayName: 血恸幽冥盔
 		Tooltip:
 			'''
-			20% reduced mana usage魔力消耗减少20%
-			70% decreased non-radiant damage and 50% increased radiant damage减少70%非光辉伤害，增加50%光辉伤害
-			20% increased radiant critical strike chance增加20%光辉暴击率
-			Healing spells will heal for an additional 7 life治疗法术会额外治疗7生命值
-			+60 maximum mana最大魔力值增加60
+			降低70%非光辉伤害
+			增加50%光辉伤害
+			魔力消耗减少20%
+			增加20%光辉暴击率
+			治疗法术会额外治疗7生命值
+			最大魔力值增加60
 			'''
 		SetBonus:
 			'''
@@ -189,15 +191,15 @@ Items: {
 	}
 
 	DaedalusHeadBard: {
-		DisplayName: Daedalus Headgear
+		DisplayName: 代达罗斯头套
 		Tooltip:
 			'''
-			12% increased symphonic damage and 5% increased symphonic critical strike chance增加12%音波伤害和5%音波暴击率
-			+2 max inspiration最大灵感值增加2
+			增加12%音波伤害和5%音波暴击率
+			最大灵感值增加2
 			'''
 		SetBonus:
 			'''
-			+10% increased inspiration regeneration speed增加10%灵感值恢复速度
+			增加10%灵感值恢复速度
 			Pressing the 'Armor Ability' key will grant you and your allies attack speed and damage I for 15 seconds
 			You also will be granted the Antarctic Creativity Buff
 			While buffed you will be granted +15% inspiration speed and 10% increased symphonic playing speed
@@ -206,17 +208,17 @@ Items: {
 	}
 
 	DaedalusHeadHealer: {
-		DisplayName: Daedalus Visage
+		DisplayName: 代达罗斯面饰
 		Tooltip:
 			'''
-			10% reduced mana usage魔力消耗减少10%
-			15% decreased non-radiant damage降低15%非光辉伤害
-			15% increased radiant damage and 7% increased radiant critical strike chance增加15%光辉伤害和7%光辉暴击率
-			+40 maximum mana最大灵感值增加40
+			魔力消耗减少10%
+			降低15%非光辉伤害
+			增加15%光辉伤害和7%光辉暴击率
+			最大灵感值增加40
 			'''
 		SetBonus:
 			'''
-			Healing speels heal an additional 3 life治疗法术会额外治疗3生命值
+			治疗法术会额外治疗3生命值
 			Pressing the 'Armor Ability' key will shield you for 50 life and grants you the Antarctic Reinforcement buff for 15 seconds
 			While buffed you will be granted +8 defense and your healing spells will heal for an additional 2 life
 			Costs 100 mana
@@ -224,26 +226,27 @@ Items: {
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: God Slayer Tricorn Helm
+		DisplayName: 弑神者三角帽
 		Tooltip:
 			'''
-			25% increased symphonic damage and 15% increased symphonic critical strike chance增加25%音波伤害和15%音波暴击率
-			15% increased inspiration regeneration增加15%灵感值恢复速度
-			+7 max inspiration最大灵感值增加7
-			+15% chance for inspiration notes to drop from enemies增加15%的灵感音符掉率
+			增加25%音波伤害和15%音波暴击率
+			增加15%灵感值恢复速度
+			最大灵感值增加7
+			增加15%的灵感音符掉率
 			'''
 		SetBonus: While you are holding an instrument you will apply random empowerments
 	}
 
 	SilvaHeadHealer: {
-		DisplayName: Silva Wreathed Helmet
+		DisplayName: 始源林海覆面盔
 		Tooltip:
 			'''
-			25% reduced mana usage魔力消耗减少25%
-			70% decreased non-radiant damage and 55% increased radiant damage降低70%非光辉伤害，增加55%光辉伤害
-			20% increased radiant critical strike chance增加20%光辉暴击率
-			Healing spells will heal for an additional 9 life治疗法术会额外治疗7生命值
-			+80 maximum mana最大魔力值增加80
+			魔力消耗减少25%
+			降低70%非光辉伤害
+			增加55%光辉伤害
+			增加20%光辉暴击率
+			治疗法术会额外治疗7生命值
+			最大魔力值增加80
 			'''
 		SetBonus:
 			'''
@@ -255,13 +258,13 @@ Items: {
 	}
 
 	StormFeather: {
-		DisplayName: Storm Feather风暴之羽
-		Tooltip: A feather fallen from the Grand Thunder Bird, it crackles with lightning.从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花。
+		DisplayName: 风暴之羽
+		Tooltip: 从惊雷王鹰身上掉落下来的羽毛，闪烁着电火花。
 	}
 
 	StrangeAlienMotherBoard: {
-		DisplayName: Strange Alien Mother Board奇怪的外星人主板
-		Tooltip: The motherboard from the Star Scouter. This technology is beyond your knowlege从星际监察者身上掉落下来的主板，这个物品蕴含的科技超出了你的认知。
+		DisplayName: 奇怪的外星主板
+		Tooltip: 从星际监察者身上掉落下来的主板，这个物品蕴含的科技超出了你的认知。
 	}
 
 	BelchingSaxophoneOverride: {
@@ -280,86 +283,90 @@ Items: {
 	}
 
 	EmpoweredGranite: {
-		DisplayName: Empowered Granite
-		Tooltip: Granite block charged full of energy from the Granite Energy Storm.
+		DisplayName: 赋能的花岗岩{暂定}
+		Tooltip: 花岗岩充满了花岗岩风暴的能量{暂定}
 	}
 
 	EnchantedMarble: {
-		DisplayName: Enchanted Marble
-		Tooltip: Special marble, imbued with ancient holy magic.
+		DisplayName: 着魔的大理石{暂定}
+		Tooltip: 特殊的大理石，充满了古老又神圣的魔力。{暂定}
 	}
 
 	StatigelHeadBard: {
-		DisplayName: Statigel Hat
+		DisplayName: 斯塔提斯耳帽
 		Tooltip:
 			'''
-			10% increased symphonic damage增加10%音波伤害
-			7% increased symphonic critical strike chance增加7%音波暴击率
+			增加10%音波伤害
+			增加7%音波暴击率
 			'''
 		SetBonus:
 			'''
 			When you take over 100 damage in one hit you become immune to damage for an extended period of time
 			Grants an extra jump and increased jump height
-			12% increased jump speed增加12%跳跃速度
-			+10% inspiration note drop chance增加15%的灵感音符掉率
-			+5% inspiration regeneration rate增加5%灵感值恢复速度
+			增加12%跳跃速度
+			增加15%的灵感音符掉率
+			增加5%灵感值恢复速度
 			Symphonic empowerments last 2 seconds longer
 			'''
 	}
 
 	StatigelHeadHealer: {
-		DisplayName: Statigel Headpiece
+		DisplayName: 斯塔提斯头巾
 		Tooltip:
 			'''
-			10% decreased non-radiant damage降低10%非光辉伤害
-			10% increased radiant damage增加10%光辉伤害
-			7% increased radiant critical strike chance增加7%光辉暴击率
+			降低10%非光辉伤害
+			增加10%光辉伤害
+			增加7%光辉暴击率
 			'''
 		SetBonus:
 			'''
 			When you take over 100 damage in one hit you become immune to damage for an extended period of time
 			Grants an extra jump and increased jump height
-			12% increased jump speed增加12%跳跃速度
-			Healing spells heal an additional 2 life治疗法术会额外治疗2生命值
-			+20 max mana最大魔力值增加20
-			5% decreased mana usage魔力消耗减少5%
+			增加12%跳跃速度
+			治疗法术会额外治疗2生命值
+			最大魔力值增加20
+			魔力消耗减少5%
 			'''
 	}
 
 	StriderFang: {
-		DisplayName: Strider Fang遁蛛牙
-		Tooltip: An icy fang straight from the Borean Strider's mouth.从极地遁蛛嘴里拔下来的寒冰獠牙
+		DisplayName: 遁蛛牙
+		Tooltip: 从极地遁蛛嘴里拔下来的寒冰獠牙
 	}
 
 	TarragonCowl: {
-		DisplayName: Tarragon Cowl
+		DisplayName: 龙篙风帽
 		Tooltip:
 			'''
-			5% increased damage reduction增加5%伤害减免
-			60% decreased non-radiant damage降低60%非光辉伤害
-			40% increased radiant damage and 15% increased criticial radiant strike chance增加40%光辉伤害，15%光辉暴击率
+			增加5%伤害减免
+			降低60%非光辉伤害
+			增加40%光辉伤害，15%光辉暴击率
 			Bonus healing increased by 6
-			60 additional mana额外魔力值增加60
-			Mana usage reduced by 15%魔力消耗减少15%
+			额外魔力值增加60
+			魔力消耗减少15%
 			'''
 	}
 
 	TarragonShroud: {
-		DisplayName: Tarragon Shroud
+		DisplayName: 龙篙护罩
 		Tooltip:
 			'''
-			5% increased damage reduction增加5%伤害减免
-			20% increased symphonic damage and 15% increased criticial symphonic strike chance增加20%音波伤害和15%音波暴击率
-			15% increased playing speed增加15%音波演奏速度
-			Greatly increased inspiration regen极大的增加灵感值恢复速度
-			+15% chance for inspiration notes to drop from enemies增加15%的灵感音符掉率
-			+4 maximum inspiration最大灵感值增加4
+			增加5%伤害减免
+			增加20%音波伤害和15%音波暴击率
+			增加15%音波演奏速度
+			极大的增加灵感值恢复速度
+			增加15%的灵感音符掉率
+			最大灵感值增加4
 			'''
 	}
 
 	VictideHeadHealer: {
-		DisplayName: Victide Sponge Hood
-		Tooltip: 5% increased radiant damage but 5% decreased non-radiant damage增加5%光辉伤害，降低5%非光辉伤害
+		DisplayName: 胜潮海绵帽
+		Tooltip:
+			'''
+			降低5%非光辉伤害
+			增加5%光辉伤害
+			'''
 		SetBonus:
 			'''
 			Enemies are less likely to target you
@@ -371,40 +378,40 @@ Items: {
 	}
 
 	NightfallenHelmet: {
-		DisplayName: Nightfallen Helmet
+		DisplayName: 夜幕头盔
 		Tooltip:
 			'''
-			35% decreased non-radiant damage降低35%非光辉伤害
-			35% increased radiant damage and 16% increased criticial radiant strike chance增加35%光辉伤害和16%光辉暴击率
-			Healing spells will heal an additional 1 life治疗法术会额外治疗1生命值
-			Maximum mana increased by 60最大魔力值增加60
+			降低35%非光辉伤害
+			增加35%光辉伤害和16%光辉暴击率
+			治疗法术会额外治疗1生命值
+			最大魔力值增加60
 			'''
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: Nightfallen Breastplate
+		DisplayName: 夜幕胸甲
 		Tooltip:
 			'''
-			45% decreased non-radiant damage降低45%非光辉伤害
-			45% increased radiant damage and 12% increased criticial radiant strike chance增加45%光辉伤害和12%光辉暴击率
-			Healing spells will heal an additional 2 life治疗法术会额外治疗2生命值
+			降低45%非光辉伤害
+			增加45%光辉伤害和12%光辉暴击率
+			治疗法术会额外治疗2生命值
 			'''
 	}
 
 	NightfallenGreaves: {
-		DisplayName: Nightfallen Greaves
+		DisplayName: 夜幕护胫
 		Tooltip:
 			'''
-			35% decreased non-radiant damage降低35%非光辉伤害
-			35% increased radiant damage and 8% increased criticial radiant strike chance增加35%光辉伤害和8%光辉暴击率
-			20% decreased mana cost魔力消耗减少20%
-			Healing spells will heal an additional 1 life治疗法术会额外治疗1生命值
+			降低35%非光辉伤害
+			增加35%光辉伤害和8%光辉暴击率
+			魔力消耗减少20%
+			治疗法术会额外治疗1生命值
 			'''
 	}
 
 	VictideHeadBard: {
-		DisplayName: Victide Hatanemone
-		Tooltip: 5% increased symphonic damage增加5%音波伤害
+		DisplayName: 胜潮海葵帽
+		Tooltip: 增加5%音波伤害
 		SetBonus:
 			'''
 			Enemies are less likely to target you
@@ -416,34 +423,34 @@ Items: {
 	}
 
 	EquivalentExchange: {
-		DisplayName: Equivalent Exchange等价交换
+		DisplayName: 等价交换
 		Tooltip:
 			'''
-			You must follow the law of equivalent exchange.你必须遵守等价交换的规则。
-			You can only get out equal to what you put in.你得到的只能等于你投入的。
+			你必须遵守等价交换的规则。
+			你得到的只能等于你投入的。
 			'''
 	}
 
 	ProfanedScythe: {
-		Tooltip: A holy inferno of a scythe.一把神圣即地狱的镰刀
-		DisplayName: Profaned Scythe亵渎之镰
+		Tooltip: 一把神圣即地狱的镰刀
+		DisplayName: 亵渎之镰
 	}
 
 	MarbleScythe: {
-		Tooltip: The magic marble imbues the scythe head with extra radiance.神奇的大理石让镰刀散发着额外的光芒。
-		DisplayName: Marble Scythe大理石之镰
+		Tooltip: 神奇的大理石让镰刀散发着额外的光芒。
+		DisplayName: 大理石之镰
 	}
 
 	ScoriaDualscythe: {
-		Tooltip: The scoria allows you to spin the scythe much faster by constantly expelling steam.熔渣通过排出的蒸汽使镰刀旋转得更快。
-		DisplayName: Scoria Dualscythe熔渣之镰
+		Tooltip: 熔渣通过排出的蒸汽使镰刀旋转得更快。
+		DisplayName: 熔渣之镰
 	}
 
 	InspirationEssence.DisplayName: 灵感精髓
 
 	AstralRipper: {
-		DisplayName: Astral Ripper星际撕裂者
-		Tooltip: Use the infection among the stars to rain hell upon your foes!利用星辉瘟疫向你的敌人释放地狱之雨!
+		DisplayName: 星际撕裂者
+		Tooltip: 利用星辉瘟疫向你的敌人释放地狱之雨!
 	}
 
 	RadioMic: {
@@ -456,32 +463,32 @@ Items: {
 	}
 
 	CorrosiveFlux: {
-		DisplayName: Corrosive Flux腐蚀性焊剂
-		Tooltip: Fires 3 toxic bubbles.释放3个有毒气泡
+		DisplayName: 腐蚀涌流
+		Tooltip: 释放3个有毒气泡
 	}
 
 	WindReaver: {
-		DisplayName: Wind Reaver风暴掠夺者
-		Tooltip: A scythe made of aerospec, releases an occasional wind slice.一柄由天蓝锭制成的镰刀，偶尔释放出风刃。
+		DisplayName: 风暴掠夺者
+		Tooltip: 一柄由天蓝锭制成的镰刀，偶尔释放出风刃。
 	}
 
 	SquirrelScarf: {
 		DisplayName: 松鼠式围巾
-		Tooltip: debug, not for actual gameplay. +999 Sentry Slots调试，不是真正的游戏玩法。增加999哨兵槽
+		Tooltip: 调试，不是真正的游戏玩法。增加999哨兵槽
 	}
 
 	Prisma: {
-		DisplayName: Prisma棱镜
-		Tooltip: Fire a holy water sea star, that shatters into 5 spikes释放海棱之星，然后碎裂成五个尖刺
+		DisplayName: 海棱杖
+		Tooltip: 释放海棱之星，然后碎裂成五个尖刺
 	}
 
 	Fractal: {
 		DisplayName: Fractal
-		Tooltip: Fire a ball of holy magic that splits, and splits, and splits.发射一个神圣的魔法球，然后分裂，分裂，再分裂。
+		Tooltip: 发射一个神奇的渊海水球，然后分裂，分裂，再分裂。
 	}
 
 	VoidseerPearl: {
-		DisplayName: Voidseer Pearl虚空之珠
+		DisplayName: 虚兆珠
 		Tooltip:
 			'''
 			They say beauty is in the eye of the beholder.
@@ -490,43 +497,43 @@ Items: {
 	}
 
 	QueenJelly: {
-		DisplayName: Queen Jelly水母皇后果酱
+		DisplayName: 水母皇后胶体
 		Tooltip:
 			'''
-			A delicious jellyfish jelly.美味的水母果酱。
-			One could say it makes the tastiest sandwich in the sea.可以说它可以制作海上最美味的三明治。
-			Heals 50 hp.治疗50点生命值。
+			一种美味的水母胶体。
+			可以说它可以制作海上最美味的三明治。
+			治疗50点生命值。
 			Grants Plenty Satisfied
 			'''
 	}
 
 	Steampipes: {
-		DisplayName: Steampipes蒸汽风笛
-		Tooltip: Steam-Powered Bagpipes!蒸汽动力风笛!
+		DisplayName: 蒸汽风笛
+		Tooltip: 蒸汽动力风笛!
 	}
 
 	ElysianSong: {
-		DisplayName: Elysian Song天国之声
-		Tooltip: So close to an angel's trumpet, yet so far...如此接近天使的号角，却又如此遥远……
+		DisplayName: 极乐之声
+		Tooltip: 宛若天使手中的号角，却又差之千里......
 	}
 
 	ExecutionerMark05: {
-		DisplayName: The Executioner: Mark 05执行者: Mark 05
+		DisplayName: 执行者: Mark 05
 		Tooltip:
 			'''
-			The core of XM-05 Thanatos rebuilt as a scythe.用XM-05“塔纳托斯”的核心制作的一把镰刀
-			It starts slow, but will continuously build speed.一开始很慢，但会不断加快速度。
-			Once at maximum speed, It will launch itself into the nearest enemy and explode for a massive area of effect.镰刀达到最高速度，会把镰刀发射到光标所在的方向，如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
+			.用XM-05“塔纳托斯”的核心制作的一把镰刀
+			一开始很慢，但会不断加快速度。
+			镰刀达到最高速度，会把镰刀发射到光标所在的方向，如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
 			'''
 	}
 
 	JellySlicer: {
-		DisplayName: Jelly Slicer果冻切割镰
-		Tooltip: Shoots a bouncing slime projectile when swung旋转时，释放弹跳的黏液弹
+		DisplayName: 果冻切割镰
+		Tooltip: 旋转时，释放弹跳的黏液弹
 	}
 
 	Splattercannon: {
-		DisplayName: Splattercannon
+		DisplayName: Splattercannon血滴手炮
 		Tooltip:
 			'''
 			Right-Click to add 4 rounds into the chamber右键想枪械中增加4发子弹
@@ -540,21 +547,21 @@ Items: {
 	}
 
 	ProfanedBell: {
-		DisplayName: Profaned Bell亵渎铃铛
+		DisplayName: 亵渎铃铛
 		Tooltip:
 			'''
-			Shoots holy flame blasts释放圣之爆焱
-			Hit enemies are afflicted by Holy Flames for 3 seconds击中的敌人获得·神圣之火减益持续3秒
+			释放圣之爆焱
+			击中的敌人获得神圣之火减益持续3秒
 			'''
 	}
 
 	AuricDamru: {
-		DisplayName: Auric Damru圣源双头鼓
+		DisplayName: 金源双头鼓
 		Tooltip:
 			'''
-			Bangs the bongos, dealing damage to all nearby enemies敲打双头鼓并对附近敌人造成伤害
-			Right click to shoot a Flare Bomb右键释放耀斑弹
-			Flare Bombs apply Dragon Fire on enemies for 3 seconds耀斑弹对敌人施加龙焰减益，持续3秒
+			敲打双头鼓并对附近敌人造成伤害
+			右键释放耀斑弹
+			耀斑弹对敌人施加龙焰减益，持续3秒
 			(Credit to Aeolus)
 			'''
 	}
@@ -570,37 +577,37 @@ Items: {
 	}
 
 	SigilOfACruelWorld: {
-		DisplayName: Sigil of a Cruel World残酷世界的印记
+		DisplayName: 残酷世界的印记
 		Tooltip:
 			'''
 			增加15%音波伤害
-			Increases symphonic playing speed by 8%增加8%音波演奏速度
-			Increases inspiration regeneration rate by 8%增加8%灵感值恢复速度
-			Increases maximum inspiration by 3最大灵感值增加3
+			增加8%音波演奏速度
+			增加8%灵感值恢复速度
+			最大灵感值增加3
 			'''
 	}
 
 	UniversalHeadset: {
 		Tooltip:
 			'''
-			Increases symphonic damage by 20%增加20%音波伤害
-			Increases symphonic critical strike chance by 7%增加7%音波演奏速度
-			Increases symphonic playing speed by 10%增加10%音波演奏速度
-			Increases inspiration regeneration rate by 10%增加10%灵感值恢复速度
-			Increases maximum inspiration by 5最大灵感值增加5
-			Each unique empowerment you have increases movement speed by 2% and playing speed by 1%每拥有一种咒音增幅使移动速度增加2%，音波演奏速度增加1%
+			增加20%音波伤害
+			增加7%音波暴击率
+			增加10%音波演奏速度
+			增加10%灵感值恢复速度
+			最大灵感值增加5
+			每拥有一种咒音增幅使移动速度增加2%，音波演奏速度增加1%
 			'''
-		DisplayName: Universal Headset通用耳机
+		DisplayName: 通用耳机
 	}
 
 	GoldenBatDroppings: {
-		DisplayName: Golden Bat Droppings金蝙蝠粪
+		DisplayName: 金蝙蝠粪
 		Tooltip:
 			'''
-			"You're not crazy... you're batshit insane!"你没有疯……你真是疯了!
-			+30% coins from enemies增加30%来自敌人的金币
-			Increases damage based on held coins (coinslots only)基于持有的钱币增加伤害(仅限存钱罐)
-			Revengeance drop复仇模式掉落
+			"你没有疯……你真是疯了!"
+			增加30%来自敌人的金币
+			基于持有的钱币增加伤害(仅限存钱罐)
+			复仇模式专属
 			'''
 	}
 
@@ -610,22 +617,22 @@ Items: {
 	}
 
 	CosmicInjector: {
-		DisplayName: Cosmic Injector
+		DisplayName: 宇宙注射器
 		Tooltip: ""
 	}
 
 	Korobeiniki: {
-		DisplayName: Korobeiniki
+		DisplayName: 俄罗斯方块
 		Tooltip: ""
 	}
 
 	GraspofVoid: {
-		DisplayName: Graspof Void
+		DisplayName: 虚空之握
 		Tooltip: ""
 	}
 
 	PhantasmalEdge: {
-		DisplayName: Phantasmal Edge
+		DisplayName: 幻影镰{暂定名}
 		Tooltip: ""
 	}
 
@@ -693,31 +700,31 @@ Projectiles: {
 
 Configs: {
 	BossProgressionConfig: {
-		DisplayName: Boss Progression Config
-		Headers.BossProgressionChanges: Boss Progression Changes Header
+		DisplayName: Boss进程设置
+		Headers.BossProgressionChanges: Boss进程改变
 
 		GrandFlareGun: {
-			Label: Grand Thunder Bird Recipe Change
-			Tooltip: Changes Grand Flare Gun and Storm Flare to require Stormlion Mandibles rather than Vulture Feathers. Defaults to True
+			Label: 惊雷王鹰配方改变
+			Tooltip: 辉耀信号枪和风暴信号弹需要风暴之颚，而不是鸟爪，默认为是
 		}
 
 		DesertMedallion: {
-			Label: Desert Scourge Recipe Change
-			Tooltip: Changes Desert Medallion to use Storm Feathers from the Grand Thunder Bird. Defaults to True
+			Label: 荒漠灾虫配方改变
+			Tooltip: 在荒漠吊坠的配方增加惊雷王鹰掉落的风暴之羽，默认为是
 		}
 
 		DecapoditaSprout: {
-			Label: Crabulon Recipe Change
-			Tooltip: Changes Decapodita Sprout to use Pearl Shards, Storm Feathers, and Queen Jelly. Defaults to True
+			Label: 菌生蟹配方改变
+			Tooltip: 在节肢动物芽孢的配方增加惊雷王鹰掉落的风暴之羽，默认为是
 		}
 
 		MarbleGranite: {
-			Label: Granite Energy Core and Buried Champion Recipe Changes
-			Tooltip: Changes Ancient Blade and Unstable Core to require Rotten Matter/Blood Samples and Dracula Fangs. Defaults to True
+			Label: 花岗岩流能风暴/英灵遗骸配方改变
+			Tooltip: 在不稳定核心和上古之剑的配方增加血液样本和德古拉之牙，默认为是
 		}
 
 		OverloadedSludge: {
-			Label: Slime God Recipe Change
+			Label: Slime God Recipe Change史莱姆之神配方改变
 			Tooltip: Changes Overloaded Sludge to use Enchanted Marble and Empowered Granite. Defaults to True
 		}
 
