@@ -18,6 +18,36 @@ Items: {
 			'''
 	}
 
+	Apostaracas: {
+		DisplayName: Apostaracas
+		Tooltip:
+			'''
+			Play a maraca that attracts the attention of apostles
+			Apostles will swoop down enemies near your cursor
+			'''
+	}
+
+	BolatilusShells: {
+		DisplayName: Bolatilus Shells
+		Tooltip:
+			'''
+			Hold <left> to spin a bolas made of volatile nautilus shells
+			Release <left> to throw the bolas, travelling further and dealing increased damage based on spin time
+			Explodes on impact when fully wound up
+			"She sells sea shells in the sea shore, only for you to make bolases of volatile nautilus shells"
+			'''
+	}
+
+	Clairvoyage: {
+		DisplayName: Clairvoyage
+		Tooltip:
+			'''
+			Shoots a small, piercing star that bounces on any hit
+			Upon bouncing at least once, the star will fall down
+			"Sometimes, all you need is to float alone in space"
+			'''
+	}
+
 	CryoliteFridgerator: {
 		DisplayName: Cryolite Fridgerator
 		Tooltip:
@@ -116,6 +146,23 @@ Items: {
 			'''
 	}
 
+	MoonGelStaff: {
+		DisplayName: Moon Gel Staff
+		Tooltip: Leaves behind traces of moon jelly that heals allies
+	}
+
+	MoonJellyJazz: {
+		DisplayName: Moon Jelly Jazz
+		Tooltip:
+			'''
+			Shoots bubbles containing tiny lunazoa jellyfish
+			When the bubble pops, the jellyfish are released and homes into enemies
+			Successfully timing hits increase the amount of jellyfish inside the bubbles
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"Let's keep this a moon jelly secret, shall we?"
+			'''
+	}
+
 	ScarabSong: {
 		DisplayName: Scarab Song
 		Tooltip:
@@ -151,7 +198,11 @@ Items: {
 
 	Staggerang: {
 		DisplayName: Staggerang
-		Tooltip: Bounces between targets
+		Tooltip:
+			'''
+			Bounces between enemies, stunning them in the process
+			"Voltaic Stunsweeper!"
+			'''
 	}
 
 	StarScythe: {
@@ -160,6 +211,16 @@ Items: {
 			'''
 			This scythe is swung directionally instead of spun
 			Hits summon stars from above that land on hit enemies
+			'''
+	}
+
+	Tashortinus: {
+		DisplayName: Tashortinus
+		Tooltip:
+			'''
+			Throw a sharp talon at foes
+			Critical hits causes your next attack to throw three talons
+			"Also doubles as a back scratcher"
 			'''
 	}
 
@@ -221,6 +282,10 @@ Items: {
 
 Projectiles: {
 	AntumbralTip.DisplayName: Antumbral Tip
+	Apostaracas.DisplayName: Apostaracas
+	BolatilusShells.DisplayName: Bolatilus Shells
+	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
+	Clairvoyage.DisplayName: Clairvoyage
 	CryoliteFridgerator.DisplayName: Cryolite Fridgerator
 	CryoliteSnowflake.DisplayName: Cryolite Snowflake
 	DawnPhantom.DisplayName: Dawn Phantom
@@ -239,6 +304,8 @@ Projectiles: {
 	IllumiteZapper.DisplayName: Illumite Zapper
 	LodestoneChunk.DisplayName: Chunk of Lodestone
 	LodestoneMegaMace.DisplayName: Lodestone Mega Mace
+	MoonGel.DisplayName: Moon Gel
+	MoonJellyJazz.DisplayName: Moon Jelly Jazz
 	ScarabSong.DisplayName: Scarab Song
 	ScreamofTerror.DisplayName: Scream of Terror
 	ScytheStar.DisplayName: Star Scythe
@@ -249,6 +316,7 @@ Projectiles: {
 	SpiritHatchetApparition.DisplayName: Spirit Hatchet
 	Staggerang.DisplayName: Staggerang
 	StarScythe.DisplayName: Star Scythe
+	Tashortinus.DisplayName: Tashortinus
 	TerrariumParalyser.DisplayName: Terrarium Paralyser
 	TerrariumWorldShake.DisplayName: Terrarium World Shaker
 	TerrariumWorldShaker.DisplayName: Terrarium World Shaker

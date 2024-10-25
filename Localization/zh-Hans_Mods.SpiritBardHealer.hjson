@@ -2,261 +2,329 @@ ItemDescriptions: {
 	// 电涌吉他
 	ElectricGuitar:
 		'''
-		Each lightning strike returns 1 inspiration每造成一次闪电攻击恢复1点灵感值
-		'Rock baby, rock!''摇滚宝贝,摇滚!'
+		每造成一次闪电攻击恢复1点灵感值
+		'摇滚宝贝,摇滚!'
 		'''
-	Ukelele: Lightning strikes have a chance to return 1 inspiration闪电攻击有概率恢复1点灵感值
+	Ukelele: 闪电攻击有概率恢复1点灵感值
 }
 
 Items: {
 	AntumbralTip: {
-		DisplayName: Antumbral Tip本影矛
+		DisplayName: 本影矛
 		Tooltip:
 			'''
-			Sticks into struck enemies用矛尖刺入击中的敌人
-			Emits an aura of shadowflame while attached附着敌人时释放影焰薄环
-			The aura damages other enemies that are inside影焰薄环会圈内的敌人造成伤害
+			用矛尖刺入敌人
+			依附敌人时释放影焰薄环
+			影焰薄环会对范围内的敌人造成伤害
+			'''
+	}
+
+	Apostaracas: {
+		DisplayName: Apostaracas唤祖遗锤
+		Tooltip:
+			'''
+			Play a maraca that attracts the attention of apostles演奏可以吸引始祖骨鸟的沙槌
+			Apostles will swoop down enemies near your cursor始祖骨鸟会进行俯冲并攻击光标附近的敌人
+			'''
+	}
+
+	BolatilusShells: {
+		DisplayName: Bolatilus Shells爆漩螺贝
+		Tooltip:
+			'''
+			Hold <left> to spin a bolas made of volatile nautilus shells按住左键旋转由鹦鹉螺壳制作的流星锤
+			Release <left> to throw the bolas, travelling further and dealing increased damage based on spin time左键释放流星锤，投掷距离更远和造成的伤害由旋转的时间而增加
+			Explodes on impact when fully wound up完全旋转时投掷会产生爆炸
+			"She sells sea shells in the sea shore, only for you to make bolases of volatile nautilus shells"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤
+			'''
+	}
+
+	Clairvoyage: {
+		DisplayName: Clairvoyage皎月征途
+		Tooltip:
+			'''
+			Shoots a small, piercing star that bounces on any hit释放一颗小而穿透力的恒星，击中任何东西会反弹
+			Upon bouncing at least once, the star will fall down至少反弹一次恒星会消失
+			"Sometimes, all you need is to float alone in space"有时候，你只需要一个人在太空中漂浮
 			'''
 	}
 
 	CryoliteFridgerator: {
-		DisplayName: Cryolite Fridgerator
+		DisplayName: 冰晶寒雾杖
 		Tooltip:
 			'''
-			Shoots a cooling beam that heals allies释放冰雾治疗队友
-			Does not trigger on-heal effects不会触发治疗效果
-			"Ever felt the heat and got the thoughts of sleeping in your fridge?"“你有没有感觉到热，想过睡在冰箱里?”
+			释放冰雾治疗队友
+			不会触发治疗效果
+			"你有没有因为高温产生过睡在冰箱里的想法?”
 			'''
 	}
 
 	CryoliteSnowflake: {
-		DisplayName: Cryolite Snowflake冰晶手里剑
+		DisplayName: 冰晶霜蚀花
 		Tooltip:
 			'''
-			Throw a cryolite shuriken that shortly attaches to hit enemies投掷冰晶手里剑并短暂附着在敌人身上
-			Inflicts Cryo Crush on hit命中后造成极寒爆破减益
-			"Creeping chill? Creeping attrition.""潜伏的寒意？不，是潜伏的侵蚀."
+			投掷会短暂依附在敌人身上的冰晶霜蚀花
+			命中后造成极寒爆破减益
+			"潜伏的寒意？不，是潜伏的侵蚀."
 			'''
 	}
 
 	DawnPhantom: {
-		DisplayName: Dawn Phantom曙晖幻影
+		DisplayName: 曙晖幻影
 		Tooltip:
 			'''
-			This scythe is swung directionally instead of spun这把镰刀是定向挥舞而不是旋转
-			Releases a short-ranged spread of shadowflame balls攻击释放短距离的暗影球
-			Dealing damage accumulates primed shadowflame造成伤害时会在玩家周围逐渐累积暗影魂焰
-			<right> to release them右键释放暗影魂焰
-			Primed shadowflame homes into nearby enemies暗影魂焰会追踪附近的敌人
+			这把镰刀是定向挥舞而不是旋转
+			攻击释放短距离的暗影球
+			造成伤害时会在玩家周围逐渐累积暗影魂焰
+			右键释放暗影魂焰
+			暗影魂焰会追踪附近的敌人
 			'''
 	}
 
 	Dredgenade: {
-		DisplayName: Dredgenade血颅裂影
+		DisplayName: 血颅裂影
 		Tooltip:
 			'''
-			Explodes after a short duration, releasing malicious energy投掷后在短时间内爆炸并释放恶意能量
-			Malicious energy inflict 'Surging Anguish', slowly depleting enemy life恶意能量会造成'极度痛苦'减益,缓慢的消耗敌人的生命值
+			投掷后在短时间内爆炸并释放恶意能量
+			恶意能量会造成极度痛苦减益,缓慢的消耗敌人的生命值
 			'''
 	}
 
 	DuskSerenade: {
-		DisplayName: Dusk Serenade幽暗小夜曲
-		Tooltip: Shoots dusk notes that creates homing lunates on bounce释放冥暮音符，弹跳后生成追踪敌人的冥暮新月
+		DisplayName: 冥暮小夜曲
+		Tooltip: 释放冥暮音符，弹跳后生成追踪敌人的冥暮新月
 	}
 
 	EtherealHum: {
-		DisplayName: Ethereal Hum缥缈之音（原魂灵之音，虚灵之音）
-		Tooltip: Shoots two flames in a helical pattern that inflict Soul Burn释放两道螺旋交错魂灵焰束并造成灵魂灼烧减益
+		DisplayName: 缥缈之音
+		Tooltip: 释放两道螺旋交错魂灵焰束并造成灵魂灼烧减益
 	}
 
 	FloranHarp: {
-		DisplayName: Floran Harp叶族竖琴
-		Tooltip: Shoots note-shaped spores that bounce once释放可弹跳一次的叶族音符
+		DisplayName: 叶族竖琴
+		Tooltip: 释放可弹跳一次的音符状孢子
 	}
 
 	FloranJavelin: {
-		DisplayName: Floran Javelin叶族标枪
-		Tooltip: Throw a light javelin that travels far投掷可以飞得很远的轻型标枪
+		DisplayName: 叶族标枪
+		Tooltip: 投掷可以飞得很远的轻型标枪
 	}
 
 	FloranScythe: {
-		DisplayName: Floran Scythe叶族镰刀
-		Tooltip: Spins a scythe that leaves leaves behind旋转镰刀时会留下残叶
+		DisplayName: 叶族镰刀
+		Tooltip: 旋转镰刀时会留下残叶
 	}
 
 	GildedChakram: {
-		DisplayName: Gilded Chakram辉金环刃
-		Tooltip: Can hit the same enemies multiple times on its way back投掷后返回玩家手里时可以对返回途中的敌人造成伤害
+		DisplayName: 辉金环刃
+		Tooltip: 投掷后返回玩家手里时可以对返回途中的敌人造成伤害
 	}
 
 	HellorHighWaters: {
-		DisplayName: Hell or High Waters绝海潮音
-		Tooltip: Displaces a mass of cosmic tides on impact蓄力释放宇宙潮汐
+		DisplayName: 绝海潮音
+		Tooltip: 蓄力并命中物块时释放宇宙潮汐
 	}
 
 	IllumiteZapper: {
-		DisplayName: Illumite Zapper荧光光束枪
+		DisplayName: 荧光光束枪
 		Tooltip:
 			'''
-			9 summon tag damage9召唤标记伤害
-			Your summons will focus struck enemies召唤物将集中攻击被标记的敌人
-			Fires a powerful burst of illuminating beams发射的荧光光束
-			Hit enemies will be illuminated and take 10% more damage被击中的敌人赋予荧光效果，并受到10%的伤害
+			9召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			发射出充满能量的荧光光束
+			被击中的敌人赋予荧光效果，并受到10%的伤害
 			'''
 	}
 
 	LodestoneMegaMace: {
-		DisplayName: Lodestone Mega Mace地脉狼牙棒
+		DisplayName: 地脉狼牙棒
 		Tooltip:
 			'''
-			Deals more damage when falling蓄力会造成更多伤害
-			Spawns a bunch of rocks upon hitting anything击中任何东西会产生巨石
-			Damage will sunder enemies, increasing the damage they take by 10对敌怪造成伤害会剥离它们，它们所受伤害增加10
-			"Magnetically attracted to the skulls of your enemies""磁力吸引着你敌人的头骨"
+			玩家下落时命中敌人可以造成更高的伤害
+			满蓄力时击中物块会产生地脉巨石
+			对敌怪造成伤害会剥离它们，它们所受伤害增加10
+			"磁力吸引着你敌人的头骨"
+			'''
+	}
+
+	MoonGelStaff: {
+		DisplayName: Moon Gel Staff胶月之凝
+		Tooltip: Leaves behind traces of moon jelly that heals allies在路径上留下治疗队友的月凝痕迹
+	}
+
+	MoonJellyJazz: {
+		DisplayName: Moon Jelly Jazz幽蓝爵士
+		Tooltip:
+			'''
+			Shoots bubbles containing tiny lunazoa jellyfish发射包裹迷你月光水母的泡泡
+			When the bubble pops, the jellyfish are released and homes into enemies当泡泡破裂时，释放水母跟踪敌人
+			Successfully timing hits increase the amount of jellyfish inside the bubbles成功在计时区域击中会增加泡泡内水母的数量
+			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			"Let's keep this a moon jelly secret, shall we?"月光水母之秘，你我一同守护
 			'''
 	}
 
 	ScarabSong: {
-		DisplayName: Scarab Song圣甲虫之颂
+		DisplayName: 圣甲虫之颂
 		Tooltip:
 			'''
-			Creates a swarm of mini scarab spirits when played演奏时召唤小型圣甲虫
-			"To the cockroaches under my bed, this one's for you!""致我床下的蟑螂，这首歌送给你们！"
+			演奏时召唤小型圣甲虫
+			"致我床下的蟑螂，这首歌送给你们！"
 			'''
 	}
 
 	ScreamofTerror: {
-		DisplayName: Scream of Terror空虚生者之叹息
+		DisplayName: 恐惑尖啸
 		Tooltip:
 			'''
-			Shoots a blood shockwave that collapses then explodes释放血液冲击波攻击敌人然后坍塌并爆炸
-			Shockwaves inflict 'Surging Anguish', slowly depleting enemy life血液冲击波会造成'极度痛苦'减益,缓慢的消耗敌人的生命值
-			"Would it go like AHHHH or RAARGGHHHH?"“它会发出像是呀呀呀的声音还是呜呜呜的声音?”
+			释放血液冲击波击中敌人然后坍塌并爆炸
+			血液冲击波会造成'极度痛苦'减益并缓慢的消耗敌人的生命值
+			"它会发出像是呀呀呀的声音还是呜呜呜的声音?”
 			'''
 	}
 
 	ShootingStar: {
-		DisplayName: Shooting Star奔星之辉
+		DisplayName: 奔星之辉
 		Tooltip:
 			'''
-			Causes a duplicate of itself to fall from the skies on hit攻击敌人时会有另一颗奔星之辉从天而降
-			"Make a wish""许愿"
+			命中敌人时会有另一颗奔星之辉从天而降
+			"许个愿吧"
 			'''
 	}
 
 	SpiritHatchet: {
-		DisplayName: Spirit Hatchet魂灵投斧
-		Tooltip: Spawns apparitions of itself on impact that apply Soul Burn攻击召唤幻影并附加灵魂灼烧减益
+		DisplayName: 魂灵投斧
+		Tooltip: 攻击时会额外生成投斧幻影并附加灵魂灼烧减益
 	}
 
 	Staggerang: {
-		DisplayName: Staggerang
-		Tooltip: Bounces between targets在目标之间不断的反弹
+		DisplayName: 全息回旋
+		Tooltip:
+			'''
+			Bounces between enemies, stunning them in the process在敌人之间反弹，在反弹过程中让敌人拥有眩晕效果
+			"Voltaic Stunsweeper!"电击回旋镖
+			'''
 	}
 
 	StarScythe: {
-		DisplayName: Star Scythe星界镰刀
+		DisplayName: 星界镰刀
 		Tooltip:
 			'''
-			This scythe is swung directionally instead of spun这把镰刀是定向挥舞而不是旋转
-			Hits summon stars from above that land on hit enemies攻击敌人时会在敌人的上方召唤星束协同攻击
+			这把镰刀是定向挥舞而不是旋转
+			命中敌人时会在敌人的上方召唤星束协同攻击
+			'''
+	}
+
+	Tashortinus: {
+		DisplayName: Tashortinus亘隼遗爪
+		Tooltip:
+			'''
+			Throw a sharp talon at foes向敌人投掷锋利的爪子
+			Critical hits causes your next attack to throw three talons暴击让下一次攻击投掷三个爪子
+			"Also doubles as a back scratcher"也可以用作挠背器
 			'''
 	}
 
 	TerrariumParalyser: {
-		DisplayName: Terrarium Paralyser元素麻痹枪
+		DisplayName: 元素麻痹枪
 		Tooltip:
 			'''
-			15 summon tag damage15召唤标记伤害
-			Your summons will focus struck enemies召唤物将集中攻击被标记的敌人
-			Shoots an array of colorful lightning发射一束彩色闪电
+			15召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			发射一束彩色闪电
 			'''
 	}
 
 	TerrariumWorldShaker: {
-		DisplayName: Terrarium World Shaker元素震荡锤
-		Tooltip: Charged attacks create a colorful cluster of explosions蓄力攻击会引出绚丽的爆炸
+		DisplayName: 元素震荡锤
+		Tooltip: 蓄力攻击会释放绚丽爆炸
 	}
 
 	TitanSlammer: {
-		DisplayName: Titan Slammer泰坦之锤
+		DisplayName: 泰坦之锤
 		Tooltip:
 			'''
-			Creates a wave of titanic energy on charged attack hits蓄力攻击将产生一道泰坦冲击波
-			Critical strikes will deal additional damage暴击时将造成额外伤害
+			蓄力攻击将产生一道泰坦冲击波
+			暴击会造成额外伤害
 			'''
 	}
 
 	Transfusion: {
-		DisplayName: Transfusion鲜血的赞礼
+		DisplayName: 鲜血奉献
 		Tooltip:
 			'''
-			Casts a homing beam that heals nearby allies释放追踪光束并治疗附近的队友
-			"One does not simply heal themselves by wounding others...Unless it's blood transfusion, or any organ transplant really""一个人不能简单地通过伤害他人来治疗自己...除非是输血，或者任何器官移植."
+			释放追踪光束并治疗附近的队友
+			"一个人不能简单地通过伤害他人来治疗自己...除非是输血，或者任何器官移植."
 			'''
 	}
 
 	ValadiumStunGun: {
-		DisplayName: Valadium Stun Gun虚金眩晕枪
+		DisplayName: 虚金眩晕枪
 		Tooltip:
 			'''
-			6 summon tag damage6召唤标记伤害
-			Your summons will focus struck enemies召唤物将集中攻击被标记的敌人
-			Damage will blast enemies with interdimensional energy伤害会以异次元能量爆破敌人
+			6召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			伤害会以异次元能量爆破敌人
 			'''
 	}
 
 	VolcanicLightning: {
-		DisplayName: Volcanic Lightning焰霆之怒
+		DisplayName: 焰霆之怒
 		Tooltip:
 			'''
-			22 summon tag damage22召唤标记伤害
-			Your summons will focus struck enemies召唤物将集中攻击被标记的敌人
-			Shoots a continuous stream of flame that emits lightning from time to time连续发射的火焰束不定时释放闪电
-			"And the ash came falling down on the city that we love...""灰烬如雨，洒落在我们深爱的城市之上..."
+			22召唤标记伤害
+			召唤物将集中攻击被标记的敌人
+			连续发射的火焰束不定时释放闪电
+			"灰烬如雨，洒落在我们深爱的城市之上..."
 			'''
 	}
 }
 
 Projectiles: {
-	AntumbralTip.DisplayName: Antumbral Tip
-	CryoliteFridgerator.DisplayName: Cryolite Fridgerator
-	CryoliteSnowflake.DisplayName: Cryolite Snowflake
-	DawnPhantom.DisplayName: Dawn Phantom
-	Dredge.DisplayName: Malicious Energy
-	Dredgenade.DisplayName: Dredgenade
-	DuskLunate.DisplayName: Dusk Lunate
-	DuskNote.DisplayName: Dusk Note
-	EtherealHum.DisplayName: Ethereal Hum
-	FloranJavelin.DisplayName: Floran Javelin
-	FloranLeaf.DisplayName: Floran Leaf
-	FloranNote.DisplayName: Floran Note
-	FloranScythe.DisplayName: Floran Scythe
-	GildedChakram.DisplayName: Gilded Chakram
-	HellorHighTides.DisplayName: Hell or High Tides
-	HellorHighWaters.DisplayName: Hell or High Waters
-	IllumiteZapper.DisplayName: Illumite Zapper
-	LodestoneChunk.DisplayName: Chunk of Lodestone
-	LodestoneMegaMace.DisplayName: Lodestone Mega Mace
-	ScarabSong.DisplayName: Scarab Song
-	ScreamofTerror.DisplayName: Scream of Terror
-	ScytheStar.DisplayName: Star Scythe
-	ShootingStar.DisplayName: Shooting Star
-	ShadowBall.DisplayName: Shadowflame Ball
-	ShadowBallPrimed.DisplayName: Shadowflame Ball
-	SpiritHatchet.DisplayName: Spirit Hatchet
-	SpiritHatchetApparition.DisplayName: Spirit Hatchet
-	Staggerang.DisplayName: Staggerang
-	StarScythe.DisplayName: Star Scythe
-	TerrariumParalyser.DisplayName: Terrarium Paralyser
-	TerrariumWorldShake.DisplayName: Terrarium World Shaker
-	TerrariumWorldShaker.DisplayName: Terrarium World Shaker
-	TitanSlammer.DisplayName: Titan Slammer
-	Transfusion.DisplayName: Transfusion
-	ValadiumStunGun.DisplayName: Valadium Stun Gun
-	VolcanicLightning.DisplayName: Volcanic Lightning
-	VolcanicLightningStrike.DisplayName: Volcanic Lightning
+	AntumbralTip.DisplayName: 本影矛
+	Apostaracas.DisplayName: Apostaracas唤祖遗锤
+	BolatilusShells.DisplayName: Bolatilus Shells爆漩螺贝
+	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
+	Clairvoyage.DisplayName: Clairvoyage皎月征途
+	CryoliteFridgerator.DisplayName: 冰晶寒雾杖
+	CryoliteSnowflake.DisplayName: 冰晶霜蚀花
+	DawnPhantom.DisplayName: 曙晖幻影
+	Dredge.DisplayName: 恶意能量
+	Dredgenade.DisplayName: 血颅裂影
+	DuskLunate.DisplayName: 冥暮新月
+	DuskNote.DisplayName: 冥暮音符
+	EtherealHum.DisplayName: 缥缈之音
+	FloranJavelin.DisplayName: 叶族标枪
+	FloranLeaf.DisplayName: 叶族残叶
+	FloranNote.DisplayName: 叶族孢子
+	FloranScythe.DisplayName: 叶族镰刀
+	GildedChakram.DisplayName: 辉金环刃
+	HellorHighTides.DisplayName: 宇宙潮汐
+	HellorHighWaters.DisplayName: 绝海潮音
+	IllumiteZapper.DisplayName: 荧光光束枪
+	LodestoneChunk.DisplayName: 地脉巨石
+	LodestoneMegaMace.DisplayName: 地脉狼牙棒
+	MoonGel.DisplayName: Moon Gel胶月之凝
+	MoonJellyJazz.DisplayName: Moon Jelly Jazz幽蓝爵士
+	ScarabSong.DisplayName: 圣甲虫之颂
+	ScreamofTerror.DisplayName: 恐惑尖啸
+	ScytheStar.DisplayName: 星界镰刀
+	ShootingStar.DisplayName: 奔星之辉
+	ShadowBall.DisplayName: 暗影球
+	ShadowBallPrimed.DisplayName: 暗影球
+	SpiritHatchet.DisplayName: 魂灵投斧
+	SpiritHatchetApparition.DisplayName: 投斧幻影
+	Staggerang.DisplayName: 全息回旋
+	StarScythe.DisplayName: 星界镰刀
+	Tashortinus.DisplayName: Tashortinus
+	TerrariumParalyser.DisplayName: 元素麻痹枪
+	TerrariumWorldShake.DisplayName: 元素震荡锤
+	TerrariumWorldShaker.DisplayName: 绚丽爆炸
+	TitanSlammer.DisplayName: 泰坦之锤
+	Transfusion.DisplayName: 鲜血奉献
+	ValadiumStunGun.DisplayName: 虚金眩晕枪
+	VolcanicLightning.DisplayName: 焰霆之怒
+	VolcanicLightningStrike.DisplayName: 焰霆之怒
 }
 
 Buffs: {
