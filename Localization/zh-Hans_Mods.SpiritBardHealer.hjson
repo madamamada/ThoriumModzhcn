@@ -20,32 +20,32 @@ Items: {
 	}
 
 	Apostaracas: {
-		DisplayName: Apostaracas唤祖遗锤
+		DisplayName: 唤祖遗锤
 		Tooltip:
 			'''
-			Play a maraca that attracts the attention of apostles演奏可以吸引始祖骨鸟的沙槌
-			Apostles will swoop down enemies near your cursor始祖骨鸟会进行俯冲并攻击光标附近的敌人
+			演奏可以吸引始祖骨鸟的沙锤
+			始祖骨鸟会进行俯冲并攻击光标附近的敌人
 			'''
 	}
 
 	BolatilusShells: {
-		DisplayName: Bolatilus Shells爆漩螺贝
+		DisplayName: 流星螺壳
 		Tooltip:
 			'''
-			Hold <left> to spin a bolas made of volatile nautilus shells按住左键旋转由鹦鹉螺壳制作的流星锤
-			Release <left> to throw the bolas, travelling further and dealing increased damage based on spin time左键释放流星锤，投掷距离更远和造成的伤害由旋转的时间而增加
-			Explodes on impact when fully wound up完全旋转时投掷会产生爆炸
-			"She sells sea shells in the sea shore, only for you to make bolases of volatile nautilus shells"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤
+			按住左键旋转由鹦鹉螺壳制作的流星锤
+			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而增加
+			完全旋转并投掷出去会产生爆炸
+			"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤"
 			'''
 	}
 
 	Clairvoyage: {
-		DisplayName: Clairvoyage皎月征途
+		DisplayName: 洞视游星
 		Tooltip:
 			'''
-			Shoots a small, piercing star that bounces on any hit释放一颗小而穿透力的恒星，击中任何东西会反弹
-			Upon bouncing at least once, the star will fall down至少反弹一次恒星会消失
-			"Sometimes, all you need is to float alone in space"有时候，你只需要一个人在太空中漂浮
+			释放一颗小而有穿透力的星星，击中任何东西都会反弹
+			至少反弹一次后星星会消失
+			"有时候，你只需要一个人漂浮在太空中"
 			'''
 	}
 
@@ -148,19 +148,19 @@ Items: {
 	}
 
 	MoonGelStaff: {
-		DisplayName: Moon Gel Staff胶月之凝
-		Tooltip: Leaves behind traces of moon jelly that heals allies在路径上留下治疗队友的月凝痕迹
+		DisplayName: 皎月之凝
+		Tooltip: 在路径上留下治疗队友的月凝痕迹
 	}
 
 	MoonJellyJazz: {
-		DisplayName: Moon Jelly Jazz幽蓝爵士
+		DisplayName: 幽蓝爵士
 		Tooltip:
 			'''
-			Shoots bubbles containing tiny lunazoa jellyfish发射包裹迷你月光水母的泡泡
-			When the bubble pops, the jellyfish are released and homes into enemies当泡泡破裂时，释放水母跟踪敌人
-			Successfully timing hits increase the amount of jellyfish inside the bubbles成功在计时区域击中会增加泡泡内水母的数量
+			发射包裹迷你月光水母的泡泡
+			当泡泡破裂时，水母会被释放并追踪敌人
+			成功在计时区域击中会增加泡泡内水母的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Let's keep this a moon jelly secret, shall we?"月光水母之秘，你我一同守护
+			"月光水母之秘，你我一同守护?"
 			'''
 	}
 
@@ -201,8 +201,8 @@ Items: {
 		DisplayName: 全息回旋
 		Tooltip:
 			'''
-			Bounces between enemies, stunning them in the process在敌人之间反弹，在反弹过程中让敌人拥有眩晕效果
-			"Voltaic Stunsweeper!"电击回旋镖
+			在敌人之间反弹，在反弹过程中让敌人持有眩晕效果
+			"强电震击镖！"
 			'''
 	}
 
@@ -216,12 +216,12 @@ Items: {
 	}
 
 	Tashortinus: {
-		DisplayName: Tashortinus亘隼遗爪
+		DisplayName: 亘隼遗爪
 		Tooltip:
 			'''
-			Throw a sharp talon at foes向敌人投掷锋利的爪子
-			Critical hits causes your next attack to throw three talons暴击让下一次攻击投掷三个爪子
-			"Also doubles as a back scratcher"也可以用作挠背器
+			向敌人投掷锋利的爪子
+			暴击会让下一次攻击投掷三个爪子
+			"也可以用作挠背器"
 			'''
 	}
 
@@ -282,10 +282,10 @@ Items: {
 
 Projectiles: {
 	AntumbralTip.DisplayName: 本影矛
-	Apostaracas.DisplayName: Apostaracas唤祖遗锤
-	BolatilusShells.DisplayName: Bolatilus Shells爆漩螺贝
+	Apostaracas.DisplayName: 唤祖遗锤
+	BolatilusShells.DisplayName: 流星螺壳
 	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
-	Clairvoyage.DisplayName: Clairvoyage皎月征途
+	Clairvoyage.DisplayName: 洞视游星
 	CryoliteFridgerator.DisplayName: 冰晶寒雾杖
 	CryoliteSnowflake.DisplayName: 冰晶霜蚀花
 	DawnPhantom.DisplayName: 曙晖幻影
@@ -304,8 +304,8 @@ Projectiles: {
 	IllumiteZapper.DisplayName: 荧光光束枪
 	LodestoneChunk.DisplayName: 地脉巨石
 	LodestoneMegaMace.DisplayName: 地脉狼牙棒
-	MoonGel.DisplayName: Moon Gel胶月之凝
-	MoonJellyJazz.DisplayName: Moon Jelly Jazz幽蓝爵士
+	MoonGel.DisplayName: 皎月之凝
+	MoonJellyJazz.DisplayName: 幽蓝爵士
 	ScarabSong.DisplayName: 圣甲虫之颂
 	ScreamofTerror.DisplayName: 恐惑尖啸
 	ScytheStar.DisplayName: 星界镰刀
