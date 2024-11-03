@@ -14,12 +14,12 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 20 points of defense无视20点防御力
-			Swing a powerful flesh hammer that bites enemies挥舞一把强有力的肉锤来撕咬敌人
+			Swing a powerful flesh hammer that bites enemies挥舞一把强有力的血肉之锤来撕咬敌人
 			Spawns homing soul essences on hit that can heal both allies and the user击中敌人生成追踪的灵魂精华治疗队友和使用者
-			Grows hungrier the longer it doesn't bite anything不撕咬东西的时间越长就越饥饿
-			The hungrier the weapon, the more damage it deals, up to 500% more damage武器越饥饿，造成的伤害就越高，伤害最高提升500%
-			Damage boost resets on non-critical hits while decremented on critical hits伤害提升在非暴击时重置而是在暴击时减少
-			The hammer is thrown every third attack and seeks targets when hungry每三次攻击就会投掷肉锤并在饥饿时寻找目标
+			Grows hungrier the longer it doesn't bite anything挥舞时未击中敌人会增加饥饿值
+			The hungrier the weapon, the more damage it deals, up to 500% more damage武器饥饿值越高，造成的伤害就越高，伤害最高提升500%
+			Damage boost resets on non-critical hits while decremented on critical hits击中敌人时若未暴击，则重置伤害提升；暴击则只是降低伤害提升
+			The hammer is thrown every third attack and seeks targets when hungry每三次攻击就会投掷血肉之锤并在有饥饿值时追踪目标
 			"Down with big brother..."打倒独裁者
 			'''
 	}
@@ -28,8 +28,8 @@ Items: {
 		DisplayName: Bloom Razor
 		Tooltip:
 			'''
-			Throw a razor-sharp flower that bounces between enemies
-			Critical strikes causes the flower to shred hit targets
+			Throw a razor-sharp flower that bounces between enemies丢出在敌人之间弹射的利刃之花
+			Critical strikes causes the flower to shred hit targets暴击时花朵会撕裂目标
 			'''
 	}
 
@@ -38,10 +38,10 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 40 points of defense无视40点防御力
-			Hold out a flesh harpischord that plays itself拿出可以演奏的
+			Hold out a flesh harpischord that plays itself弹奏一把血肉竖琴
 			Shoots out tapeworms that bounce and pierce释放可弹跳和穿透敌人的绦虫
 			Tapeworms can hit the same enemy multiple times绦虫可以多次攻击同一个敌人
-			"Go Go Gadget, Colonoscopy!"加油，加油小工具，结肠镜检查！
+			"Go Go Gadget, Colonoscopy!"去吧小东西，给他们做个结肠镜！
 			'''
 	}
 
@@ -49,75 +49,75 @@ Items: {
 		DisplayName: Dandelizer
 		Tooltip:
 			'''
-			Lash out a giant dandelion flail挥舞蒲公英链锤
-			The flail leaves behind a trail that deals damage链锤会留下造成伤害的痕迹
-			Critical hits release golden dandelions that heal allies暴击释放金色蒲公英并治疗队友
-			Up to three golden dandelions can be active at once多达三朵金色蒲公英可以同时活跃
-			Does not trigger on-heal effects不会触发治疗效果
+			Lash out a giant dandelion flail掷出一把蒲公英链锤
+			The flail leaves behind a trail that deals damage链锤会留下造成伤害的尾迹
+			Critical hits release golden dandelions that heal allies暴击时释放金色蒲公英并治疗队友
+			Up to three golden dandelions can be active at once最多只能同时存在三朵金色蒲公英
+			Does not trigger on-heal effects不能触发其他治疗物品的治疗效果
 			'''
 	}
 
 	ForbiddenCrucifix: {
-		DisplayName: Forbidden Crucifix
+		DisplayName: Forbidden Crucifix禁忌十字架
 		Tooltip:
 			'''
-			Charge up a spooky beam of light
-			The longer the charge, the bigger the beam
+			Charge up a spooky beam of light蓄力发射一束幽魂射线
+			The longer the charge, the bigger the beam蓄力时间越长，射线越大
 			"You're a fool! All my ancestors wer-"
 			'''
 	}
 
 	GastricJuices: {
-		DisplayName: Gastric Juices
+		DisplayName: Gastric Juices胃液
 		Tooltip:
 			'''
-			Throw a sentient stomach that vomits everwhere on impact
-			Vomit inflicts Ulcer, increasing the damage the enemy takes by 20
-			If the vomit miss, they will land on the ground and form puddles
-			Puddles can be picked up by players to gain the Acid Reflux buff
-			Acid Reflux increases damage by 10% and armor penetration by 10
-			Puddles also heal allies but does not trigger on-heal effects
+			Throw a sentient stomach that vomits everwhere on impact丢出一个有意识的胃，命中敌人与物块时吐出酸液
+			Vomit inflicts Ulcer, increasing the damage the enemy takes by 20酸液造成溃疡减益，会使敌人受到的伤害增加20
+			If the vomit miss, they will land on the ground and form puddles如果酸液未击中敌人，会在地上生成酸液洼
+			Puddles can be picked up by players to gain the Acid Reflux buff玩家捡起酸液洼会获得胃酸反流增益
+			Acid Reflux increases damage by 10% and armor penetration by 10胃酸反流会增加玩家10%伤害与10护甲穿透
+			Puddles also heal allies but does not trigger on-heal effects拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
 			'''
 	}
 
 	GoreHandVisage: {
-		DisplayName: Gore Visage
+		DisplayName: Gore Visage血尸面罩
 		Tooltip:
 			'''
-			10% increased throwing and radiant casting speed
-			45% increased radiant damage
-			15% increased throwing damage
-			Enemies are more likely to target you
-			"Hehe, knucklehead"
+			10% increased throwing and radiant casting speed增加10%投掷速度与光辉施法速度
+			45% increased radiant damage增加45%光辉伤害
+			15% increased throwing damage增加15%投掷伤害
+			Enemies are more likely to target you敌人更有可能以你为目标
+			"Hehe, knucklehead"哈哈，傻瓜
 			'''
 		SetBonus:
 			'''
-			Increases maximum technique points by 2
-			Dealing damage with tainted healer weapons heal life on critical hits
-			Press 'Armor Ability' key to summon a giant hand
-			The hand blocks incoming enemy projectiles but takes damage
-			Upon receiving enough damage, the hand breaks and is put on cooldown
-			30 second cooldown
+			Increases maximum technique points by 2增加2点最大技巧值
+			Dealing damage with tainted healer weapons heal life on critical hits使用被暗能量增幅的武器暴击敌人时会回复血量
+			Press 'Armor Ability' key to summon a giant hand按下“盔甲能力”键会召唤一只大手
+			The hand blocks incoming enemy projectiles but takes damage大手能阻挡敌人的射弹，但会受到受伤
+			Upon receiving enough damage, the hand breaks and is put on cooldown受到足量伤害后大手会破碎并进入冷却
+			30 second cooldown30秒冷却时间
 			'''
 	}
 
 	GoreWitchHat: {
-		DisplayName: Gore Hat
+		DisplayName: Gore Hat血尸礼帽
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			20% increased healing and symphonic playing speed
-			15% increased inspiration regeneration rate
-			Enemies are less likely to target you
+			10% increased symphonic damage增加10%音波伤害
+			20% increased healing and symphonic playing speed增加20%治疗与演奏速度
+			15% increased inspiration regeneration rate增加15%灵感恢复速度
+			Enemies are less likely to target you敌人不太可能以你为目标
 			'''
 		SetBonus:
 			'''
-			Healing spells heal an additional 6 life
-			Increases the duration of your symphonic empowerments by 8 seconds
-			Press 'Armor Ability' key to summon a swarm of mini Orro-Boro-like leeches
-			Leeches home into enemies and replenish player resources at a fixed amount
-			Player resources include life, mana, inspiration and exhaustion
-			60 second cooldown
+			Healing spells heal an additional 6 life治疗法术额外治疗6点生命值
+			Increases the duration of your symphonic empowerments by 8 seconds增加8秒咒音增幅时间
+			Press 'Armor Ability' key to summon a swarm of mini Orro-Boro-like leeches按下“盔甲能力”键会召唤一群像是迷你噬尾双蛇的水蛭
+			Leeches home into enemies and replenish player resources at a fixed amount水蛭会追踪敌人并给玩家补充固定数值的资源
+			Player resources include life, mana, inspiration and exhaustion资源包括生命值、魔力值、灵感值与疲劳值
+			60 second cooldown60秒冷却时间
 			'''
 	}
 
