@@ -7793,7 +7793,7 @@ Mods: {
 			}
 
 			YumasPendant: {
-				DisplayName: 云玛垂饰
+				DisplayName: 游玛的皇之键
 				Tooltip:
 					'''
 					增加10%召唤伤害
@@ -12736,7 +12736,7 @@ Mods: {
 
 			Spud: {
 				DisplayName: 土豆
-				Tooltip: 捣碎敌怪和物块
+				Tooltip: 命中敌怪或物块时碎裂
 			}
 
 			SpudBomber: {
@@ -21636,7 +21636,7 @@ Mods: {
 			WindyTotemPro.DisplayName: 风图腾
 			YarnBallPro.DisplayName: 小猫咪
 			YarnBallProShoot.DisplayName: 小猫咪
-			YumaSpirit.DisplayName: 云玛之魂
+			YumaSpirit.DisplayName: 游玛之魂
 			MjolnirPro.DisplayName: 雷神之锤
 			MjolnirPro2.DisplayName: 雷神之锤
 			MjolnirPro3.DisplayName: 雷神之锤3
