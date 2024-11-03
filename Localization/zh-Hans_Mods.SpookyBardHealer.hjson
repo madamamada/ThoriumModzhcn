@@ -71,7 +71,7 @@ Items: {
 		DisplayName: Gastric Juices胃液
 		Tooltip:
 			'''
-			Throw a sentient stomach that vomits everwhere on impact丢出一个有意识的胃，命中敌人与物块时吐出酸液
+			Throw a sentient stomach that vomits everwhere on impact丢出一个自主运动的胃，命中敌人与物块时吐出酸液
 			Vomit inflicts Ulcer, increasing the damage the enemy takes by 20酸液造成溃疡减益，会使敌人受到的伤害增加20
 			If the vomit miss, they will land on the ground and form puddles如果酸液未击中敌人，会在地上生成酸液洼
 			Puddles can be picked up by players to gain the Acid Reflux buff玩家捡起酸液洼会获得胃酸反流增益
@@ -125,11 +125,11 @@ Items: {
 		DisplayName: Gourdnade
 		Tooltip:
 			'''
-			Flip a rotting gourd in the air that eventually falls
-			Depending on how good the spin is, the gourd will land
-			Upon landing, the gourd will attract flies
-			If not, it gets destroyed
-			"World's stinkiest game of Flip the Bottle..."
+			Flip a rotting gourd in the air that eventually falls丢出一个腐烂的葫芦，葫芦会在空中翻滚落下
+			Depending on how good the spin is, the gourd will land葫芦翻转足够角度后可以落在地上
+			Upon landing, the gourd will attract flies落在地上的葫芦会吸引苍蝇
+			If not, it gets destroyed无法落在地上的葫芦会破碎
+			"World's stinkiest game of Flip the Bottle..."恐怕是这世界上最臭的转瓶子游戏…
 			'''
 	}
 
@@ -147,47 +147,47 @@ Items: {
 		DisplayName: Lickgua Franca
 		Tooltip:
 			'''
-			Constantly spews out saliva when played
-			Successfully timing hits increases the amount of saliva spat out
+			Constantly spews out saliva when played演奏时不断吐出唾液
+			Successfully timing hits increases the amount of saliva spat out成功击拍会增加吐出唾液的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"There is always a Lickman's term"
 			'''
 	}
 
 	ManlessHorseHead: {
-		DisplayName: Manless Horse Head
+		DisplayName: Manless Horse Head无主马头琴
 		Tooltip:
 			'''
-			Screams at your general direction
+			Screams at your general direction向鼠标方向释放尖啸
 			"No longer manless, but still is a horse head"
 			'''
 	}
 
 	MushDrum: {
-		DisplayName: Mush Drum
-		Tooltip: Shoots out spores that linger
+		DisplayName: Mush Drum蘑鼓
+		Tooltip: Shoots out spores that linger释放出滞留的孢子
 	}
 
 	NerveEndings: {
-		DisplayName: Nerve Endings
+		DisplayName: Nerve Endings神经末梢
 		Tooltip:
 			'''
-			Throw a sticky flesh javelin
-			Hold <left> to charge the javelin
-			Leaves behind fangs when thrown charged
-			Fangs home in to enemies struck by the javelin
-			"Designed to hit the most sensitive nerve endings, maximizing pain" 
+			Throw a sticky flesh javelin掷出一根锋利的血肉标枪
+			Hold <left> to charge the javelin长按左键为标枪蓄力
+			Leaves behind fangs when thrown charged蓄力后投掷会释放獠牙
+			Fangs home in to enemies struck by the javelin獠牙会追踪标枪击中的敌人
+			"Designed to hit the most sensitive nerve endings, maximizing pain" 打击最敏感的神经末梢，将疼痛最大化
 			'''
 	}
 
 	OldWoodBaton: {
-		DisplayName: Old Wood Baton
-		Tooltip: '''"Doubles as a walking stick"'''
+		DisplayName: Old Wood Baton古老木棒
+		Tooltip: '''"Doubles as a walking stick"'''也可以当拐杖
 	}
 
 	Olfactor: {
 		DisplayName: Olfactor
-		Tooltip: Shoots snot at nearby enemies
+		Tooltip: Shoots snot at nearby enemies向附近的敌人发射鼻涕
 	}
 
 	Orriata: {
