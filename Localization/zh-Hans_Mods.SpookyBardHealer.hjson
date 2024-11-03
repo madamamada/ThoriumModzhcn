@@ -10,17 +10,17 @@ Items: {
 	}
 
 	BigBrother: {
-		DisplayName: Big Brother
+		DisplayName: Big Brother独裁者
 		Tooltip:
 			'''
-			Ignores 20 points of defense
-			Swing a powerful flesh hammer that bites enemies
-			Spawns homing soul essences on hit that can heal both allies and the user
-			Grows hungrier the longer it doesn't bite anything
-			The hungrier the weapon, the more damage it deals, up to 500% more damage
-			Damage boost resets on non-critical hits while decremented on critical hits
-			The hammer is thrown every third attack and seeks targets when hungry
-			"Down with big brother..."
+			Ignores 20 points of defense无视20点防御力
+			Swing a powerful flesh hammer that bites enemies挥舞一把强有力的肉锤来撕咬敌人
+			Spawns homing soul essences on hit that can heal both allies and the user击中敌人生成追踪的灵魂精华治疗队友和使用者
+			Grows hungrier the longer it doesn't bite anything不撕咬东西的时间越长就越饥饿
+			The hungrier the weapon, the more damage it deals, up to 500% more damage武器越饥饿，造成的伤害就越高，伤害最高提升500%
+			Damage boost resets on non-critical hits while decremented on critical hits伤害提升在非暴击时重置而是在暴击时减少
+			The hammer is thrown every third attack and seeks targets when hungry每三次攻击就会投掷肉锤并在饥饿时寻找目标
+			"Down with big brother..."打倒独裁者
 			'''
 	}
 
@@ -34,14 +34,14 @@ Items: {
 	}
 
 	Colonoschord: {
-		DisplayName: Colonoschord
+		DisplayName: Colonoschord断肠琴
 		Tooltip:
 			'''
-			Ignores 40 points of defense
-			Hold out a flesh harpischord that plays itself
-			Shoots out tapeworms that bounce and pierce
-			Tapeworms can hit the same enemy multiple times
-			"Go Go Gadget, Colonoscopy!"
+			Ignores 40 points of defense无视40点防御力
+			Hold out a flesh harpischord that plays itself拿出可以演奏的
+			Shoots out tapeworms that bounce and pierce释放可弹跳和穿透敌人的绦虫
+			Tapeworms can hit the same enemy multiple times绦虫可以多次攻击同一个敌人
+			"Go Go Gadget, Colonoscopy!"加油，加油小工具，结肠镜检查！
 			'''
 	}
 
@@ -49,11 +49,11 @@ Items: {
 		DisplayName: Dandelizer
 		Tooltip:
 			'''
-			Lash out a giant dandelion flail
-			The flail leaves behind a trail that deals damage
-			Critical hits release golden dandelions that heal allies
-			Up to three golden dandelions can be active at once
-			Does not trigger on-heal effects
+			Lash out a giant dandelion flail挥舞蒲公英链锤
+			The flail leaves behind a trail that deals damage链锤会留下造成伤害的痕迹
+			Critical hits release golden dandelions that heal allies暴击释放金色蒲公英并治疗队友
+			Up to three golden dandelions can be active at once多达三朵金色蒲公英可以同时活跃
+			Does not trigger on-heal effects不会触发治疗效果
 			'''
 	}
 

@@ -62,8 +62,8 @@ Buffs: {
 
 Items: {
 	DrumStick: {
-		DisplayName: Drum Stick
-		Tooltip: Your enemies are your drums.
+		DisplayName: 野性鼓棒
+		Tooltip: 敌人是你的鼓.
 	}
 
 	AerospecBard: {
@@ -111,8 +111,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Tarragon, Bloodflare, God Slayer, and Rhapsodist armor effects拥有狂想独奏帽, 狂想启迪盔的套装效果
-			Pressing the 'Armor Ability' key will trigger both Rhapsodist armor abilities
+			拥有狂想独奏帽/狂想启迪盔, 弑神者三角帽, 血嚎尖芒盔, 龙篙护罩的套装效果
+			按下“盔甲能力”键将触发的两个狂想套装效果
 			'''
 	}
 
@@ -130,18 +130,17 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Tarragon, Bloodflare, Silva, and Dreamweaver armor effects
-			Pressing the 'Armor Ability' key will trigger both Dreamweaver armor abilities
+			拥有梦境编织者兜帽/梦境编织者头盔, 始源林海覆面盔, 血恸幽冥盔, 龙篙风帽的套装效果
+			按下“盔甲能力”键将触发的两个梦境编织者套装效果
 			'''
 	}
 
 	BlazingDrumBeat: {
-		DisplayName: Emblazoned Drum Stick
+		DisplayName: 亵渎鼓棒
 		Tooltip:
 			'''
-			Chaining two or more successes 
-			will let out a large flaming slash, 
-			inflicting all enemies in range with Holy Inferno.
+			连续正确拍击两次，向前方释放神圣之火
+			神圣之火附近的敌人也会受到伤害
 			'''
 	}
 
@@ -155,11 +154,11 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Doing symphonic damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every second for a maximum of 150 points
-			Upon reaching 100 points: 20% increased symphonic damage and strike chance, 25% increased movement speed
-			empowerments will be prolonged for an additional 3 seconds and 10% faster inspiration regen
-			You will lose 25 points upon getting hit
+			音波伤害会对敌人造成血液沸腾减益
+			创造嗜血领域，每秒回复2点，最多150点
+			达到100点时: 增加20%的音波伤害和音波暴击率，增加25%的移动速度
+			咒音增幅额外延长3秒，灵感值恢复速度提高10%
+			被击中将失去25点
 			'''
 	}
 
@@ -176,18 +175,17 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Doing radiant damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every second for a maximum of 150 points
-			Upon reaching 100 points: 20% increased radiant damage and strike chance, 20% increased movement speed
-			and your healing spells will for an additional 3 health
-			Additionally you get healed for a small fraction of your dealt damage
-			You will lose 25 points upon getting hit
+			音波伤害会对敌人造成血液沸腾减益
+			创造嗜血领域，每秒回复2点，最多150点
+			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加25%的移动速度和治疗法术会额外治疗3生命值
+			Additionally you get healed for a small fraction of your dealt damage造成小部分伤害获得治疗
+			被击中将失去25点
 			'''
 	}
 
 	CalamityBell: {
-		DisplayName: Calamity Bell灾厄之钟
-		Tooltip: Hit enemies are afflicted by Brimstone Flames for 2 seconds被击中的敌人会被硫磺火灼烧，持续2秒
+		DisplayName: 灾厄之钟
+		Tooltip: 被击中的敌人会被硫磺火灼烧，持续2秒
 	}
 
 	DaedalusHeadBard: {
@@ -341,7 +339,7 @@ Items: {
 			增加5%伤害减免
 			降低60%非光辉伤害
 			增加40%光辉伤害，15%光辉暴击率
-			Bonus healing increased by 6
+			治疗法术会额外治疗6生命值
 			额外魔力值增加60
 			魔力消耗减少15%
 			'''
