@@ -7793,7 +7793,7 @@ Mods: {
 			}
 
 			YumasPendant: {
-				DisplayName: 游玛的皇之键
+				DisplayName: 游马的皇之键
 				Tooltip:
 					'''
 					增加10%召唤伤害
@@ -21636,7 +21636,7 @@ Mods: {
 			WindyTotemPro.DisplayName: 风图腾
 			YarnBallPro.DisplayName: 小猫咪
 			YarnBallProShoot.DisplayName: 小猫咪
-			YumaSpirit.DisplayName: 游玛之魂
+			YumaSpirit.DisplayName: 游马之魂
 			MjolnirPro.DisplayName: 雷神之锤
 			MjolnirPro2.DisplayName: 雷神之锤
 			MjolnirPro3.DisplayName: 雷神之锤3
