@@ -1,0 +1,75 @@
+Configs: {
+	HedgehogConfig: {
+		CanDamageEnemies: {
+			Label: Hedgehog can damage enemies if defensive
+			Tooltip: Enable or disable the ability to damage enemies when the hedgehog is curled up.
+		}
+
+		CritterDamageAmount: {
+			Tooltip: Sets the amount of damage dealt to critters when the hedgehog is curled up.
+			Label: Damage dealt to critters
+		}
+
+		CanDamageCritters: {
+			Tooltip: Enable or disable the ability to damage critters when the hedgehog is curled up.
+			Label: Hedgehog can damage critters if defensive
+		}
+
+		TownResidentDamageAmount: {
+			Tooltip: Sets the amount of damage dealt to town residents when the hedgehog is curled up.
+			Label: Damage dealt to town residents
+		}
+
+		CanDamageTownResidents: {
+			Tooltip: Enable or disable the ability to damage town residents when the hedgehog is curled up.
+			Label: Hedgehog can damage town residents if defensive
+		}
+
+		PlayerDamageAmount: {
+			Tooltip: Sets the amount of damage dealt to town players when the hedgehog is curled up.
+			Label: Damage dealt to players
+		}
+
+		CanDamagePlayers: {
+			Tooltip: Enable or disable the ability to damage players when the hedgehog is curled up.
+			Label: Hedgehog can damage players if defensive
+		}
+
+		Headers: {
+			DamageSettings: Damage Settings - Defensive Hedgehog
+			SpawnSettings: Spawn Frequency
+		}
+
+		SpawnRateMultiplier: {
+			Tooltip: Adjusts the spawn rate multiplier. Higher values mean more frequent spawning.
+			Label: Spawn Rate Multiplier
+		}
+
+		DisplayName: Configuration
+
+		EnemyDamageAmount: {
+			Label: Damage dealt to enemies
+			Tooltip: Sets the amount of damage dealt to enemies when the hedgehog is curled up.
+		}
+	}
+}
+
+Projectiles: {
+	HedgehogSpirit.DisplayName: Hedgehog Spirit
+	HedgehogDevil.DisplayName: Hedgehog Devil
+}
+
+NPCs.Hedgehog.DisplayName: Hedgehog
+Tiles.HedgehogHouseTile.MapEntry: Hedgehog House
+
+Items: {
+	HedgehogItem: {
+		Tooltip: Releases a hedgehog when used.
+		DisplayName: Hedgehog
+	}
+
+	HedgehogHouseItem: {
+		Tooltip: The hedgehog lives here.
+		DisplayName: Hedgehog House
+	}
+}

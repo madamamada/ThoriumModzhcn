@@ -1,0 +1,52 @@
+NPCs.Fox.DisplayName: Fox
+
+Items: {
+	FoxItem: {
+		DisplayName: Fox
+		Tooltip: Releases a fox when used.
+	}
+
+	FoxCageItem: {
+		DisplayName: Fox Cage
+		Tooltip: A cage containing a sleepy fox.
+	}
+}
+
+Bestiary.Fox.Description: A shy critter that wanders the forest, occasionally yawning when it is at ease.
+Tiles.FoxCageTile.MapEntry: Fox Cage
+
+Configs: {
+	FoxConfig: {
+		Headers: {
+			SpawnSettings: Spawn Settings
+			HealthSettings: Health Settings
+		}
+
+		SpawnRateMultiplier: {
+			Label: Spawn Rate Multiplier
+			Tooltip: Adjusts the spawn rate multiplier. Higher values mean more frequent spawning.
+		}
+
+		AllowNight: {
+			Label: Allow Night
+			Tooltip: Enable or disable foxes spawning during the night.
+		}
+
+		AllowNonSpreadingOverworld: {
+			Label: Allow All Non-Spreading Overworld Biomes
+			Tooltip: Allows foxes to spawn in jungle, snow, desert and beach biomes.
+		}
+
+		AllowSpreadingOverworld: {
+			Label: Allow All Spreading Overworld Biomes
+			Tooltip: Allows foxes to spawn in the Hallow, the Corruption, and the Crimson.
+		}
+
+		LifeMax: {
+			Label: Fox Maximum Life
+			Tooltip: Sets the maximum life of the fox.
+		}
+
+		DisplayName: Fox Config
+	}
+}
