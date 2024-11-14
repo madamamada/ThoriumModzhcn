@@ -26,7 +26,7 @@ Items: {
 			演奏可以吸引始祖骨鸟的沙锤
 			始祖骨鸟会进行俯冲并攻击光标附近的敌人
 			'''
-		}
+	}
 
 	AvianBeak: {
 		DisplayName: Beak of the Breeze
@@ -155,7 +155,7 @@ Items: {
 			Healed players also recover from negative status effects faster
 			'''
 	}
-
+	LodestoneMegaMace: {
 		DisplayName: 地脉狼牙棒
 		Tooltip:
 			'''
