@@ -41,7 +41,7 @@ SpawnConditions: {
 Tiles: {
 	SoulofDightinaBottle.MapEntry: 瓶中抚爱之魂
 	SoulofFreightinaBottle.MapEntry: 瓶中承载之魂
-	SoulofPlightinaBottle.MapEntry: 瓶中困境之魂
+	SoulofPlightinaBottle.MapEntry: 瓶中窘境之魂
 	SoulofTightinaBottle.MapEntry: 瓶中束缚之魂
 }
 
@@ -453,15 +453,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	RabbitRune: {
-		DisplayName: 兔子符文
-		Tooltip:
-			'''
-			改变世界难度
-			测试物品
-			'''
-	}
-
 	RepurposedBeeRemote: {
 		DisplayName: 导弹发射箱子
 		Tooltip:
@@ -603,12 +594,12 @@ Items: {
 	}
 
 	SoulofPlight: {
-		DisplayName: 困境之魂
+		DisplayName: 窘境之魂
 		Tooltip: "'终结者的精华'"
 	}
 
 	SoulofPlightinaBottle: {
-		DisplayName: 瓶中困境之魂
+		DisplayName: 瓶中窘境之魂
 		Tooltip: ""
 	}
 
@@ -742,6 +733,8 @@ NPCs: {
 	}
 
 	SiegeShield.DisplayName: 围城盾
+	SkeletronPrime.DisplayName: "{$NPCName.SkeletronPrime}"
+	SkeletronPrimeArmHitbox.DisplayName: 机械骷髅王手臂
 
 	TheTerminator: {
 		DisplayName: 终结者
@@ -1080,6 +1073,30 @@ Configs: {
 				允许晶光刃反弹弹幕
 				(注意:反射需要你把握好摆动的时间!此外，按住攻击是行不通的!)
 				'''
+		}
+	}
+
+	ToggleConfig: {
+		DisplayName: 內容切換
+
+		terminator: {
+			Label: 终结者
+			Tooltip: ""
+		}
+
+		caretaker: {
+			Label: MK-22看守者
+			Tooltip: ""
+		}
+
+		mechclops: {
+			Label: St4-sys
+			Tooltip: ""
+		}
+
+		siege: {
+			Label: 狱擎围城·愤怒机械墙
+			Tooltip: ""
 		}
 	}
 }
