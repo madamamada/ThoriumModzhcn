@@ -3,24 +3,24 @@ Items: {
 		DisplayName: Backbone脊骨
 		Tooltip:
 			'''
-			Shoots blobs made of boney flesh由脊骨形成的芽团
-			Each blob does something different每个斑点都有不同的作用
-			"Grow a spine, will ya?"长点脊梁，行吗？
+			由脊骨形成的芽团
+			每个斑点都有不同的效果
+			"有点骨气，行吗?"
 			'''
 	}
 
 	BigBrother: {
-		DisplayName: Big Brother独裁者
+		DisplayName: 独裁者
 		Tooltip:
 			'''
-			Ignores 20 points of defense无视20点防御力
-			Swing a powerful flesh hammer that bites enemies挥舞一把强有力的血肉之锤来撕咬敌人
-			Spawns homing soul essences on hit that can heal both allies and the user击中敌人生成追踪的灵魂精华治疗队友和使用者
-			Grows hungrier the longer it doesn't bite anything挥舞时未击中敌人会增加饥饿值
-			The hungrier the weapon, the more damage it deals, up to 500% more damage武器饥饿值越高，造成的伤害就越高，伤害最高提升500%
-			Damage boost resets on non-critical hits while decremented on critical hits击中敌人时若未暴击，则重置伤害提升；暴击则只是降低伤害提升
-			The hammer is thrown every third attack and seeks targets when hungry每三次攻击就会投掷血肉之锤并在有饥饿值时追踪目标
-			"Down with big brother..."打倒独裁者
+			无视20点防御力
+			挥舞一把强有力的血肉之锤来撕咬敌人
+			击中敌人生成追踪的灵魂精华治疗队友和使用者
+			挥舞时未击中敌人会增加饥饿值
+			武器饥饿值越高，造成的伤害就越高，伤害最高提升500%
+			击中敌人时若未暴击，则重置伤害提升；暴击则只是降低伤害提升
+			每三次攻击就会投掷血肉之锤并在有饥饿值时追踪目标
+			"打倒独裁者..."
 			'''
 	}
 
@@ -28,20 +28,20 @@ Items: {
 		DisplayName: Bloom Razor
 		Tooltip:
 			'''
-			Throw a razor-sharp flower that bounces between enemies丢出在敌人之间弹射的利刃之花
-			Critical strikes causes the flower to shred hit targets暴击时花朵会撕裂目标
+			丢出在敌人之间弹射的利刃之花
+			暴击时花朵会撕裂目标
 			'''
 	}
 
 	Colonoschord: {
-		DisplayName: Colonoschord断肠琴
+		DisplayName: 断肠琴
 		Tooltip:
 			'''
-			Ignores 40 points of defense无视40点防御力
-			Hold out a flesh harpischord that plays itself弹奏一把血肉竖琴
-			Shoots out tapeworms that bounce and pierce释放可弹跳和穿透敌人的绦虫
-			Tapeworms can hit the same enemy multiple times绦虫可以多次攻击同一个敌人
-			"Go Go Gadget, Colonoscopy!"去吧小东西，给他们做个结肠镜！
+			无视40点防御力
+			弹奏一把血肉竖琴
+			释放可弹跳和穿透敌人的绦虫
+			绦虫可以多次攻击同一个敌人
+			"去吧小东西，给他们做个结肠镜！"
 			'''
 	}
 
@@ -49,75 +49,75 @@ Items: {
 		DisplayName: Dandelizer
 		Tooltip:
 			'''
-			Lash out a giant dandelion flail掷出一把蒲公英链锤
-			The flail leaves behind a trail that deals damage链锤会留下造成伤害的尾迹
-			Critical hits release golden dandelions that heal allies暴击时释放金色蒲公英并治疗队友
-			Up to three golden dandelions can be active at once最多只能同时存在三朵金色蒲公英
-			Does not trigger on-heal effects不能触发其他治疗物品的治疗效果
+			掷出一把蒲公英链锤
+			链锤会留下造成伤害的尾迹
+			暴击时释放金色蒲公英并治疗队友
+			最多只能同时存在三朵金色蒲公英
+			不能触发其他治疗物品的治疗效果
 			'''
 	}
 
 	ForbiddenCrucifix: {
-		DisplayName: Forbidden Crucifix禁忌十字架
+		DisplayName: 禁忌十字架
 		Tooltip:
 			'''
-			Charge up a spooky beam of light蓄力发射一束幽魂射线
-			The longer the charge, the bigger the beam蓄力时间越长，射线越大
+			蓄力发射一束幽魂射线
+			蓄力时间越长，射线越大
 			"You're a fool! All my ancestors wer-"
 			'''
 	}
 
 	GastricJuices: {
-		DisplayName: Gastric Juices胃液
+		DisplayName: 胃液
 		Tooltip:
 			'''
-			Throw a sentient stomach that vomits everwhere on impact丢出一个自主运动的胃，命中敌人与物块时吐出酸液
-			Vomit inflicts Ulcer, increasing the damage the enemy takes by 20酸液造成溃疡减益，会使敌人受到的伤害增加20
-			If the vomit miss, they will land on the ground and form puddles如果酸液未击中敌人，会在地上生成酸液洼
-			Puddles can be picked up by players to gain the Acid Reflux buff玩家捡起酸液洼会获得胃酸反流增益
-			Acid Reflux increases damage by 10% and armor penetration by 10胃酸反流会增加10%伤害与护甲穿透增加10
-			Puddles also heal allies but does not trigger on-heal effects拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
+			丢出一个自主运动的胃，命中敌人与物块时吐出酸液
+			酸液造成溃疡减益，会使敌人受到的伤害增加20
+			如果酸液未击中敌人，会在地上生成酸液洼
+			玩家捡起酸液洼会获得胃酸反流增益
+			胃酸反流会增加10%伤害与护甲穿透增加10
+			拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
 			'''
 	}
 
 	GoreHandVisage: {
-		DisplayName: Gore Visage血尸面罩
+		DisplayName: 血尸面罩
 		Tooltip:
 			'''
-			10% increased throwing and radiant casting speed增加10%投掷速度与光辉施法速度
-			45% increased radiant damage增加45%光辉伤害
-			15% increased throwing damage增加15%投掷伤害
-			Enemies are more likely to target you敌人更有可能以你为目标
-			"Hehe, knucklehead"哈哈，傻瓜
+			增加10%投掷速度与光辉施法速度
+			增加45%光辉伤害
+			增加15%投掷伤害
+			敌人更有可能以你为目标
+			"哈哈，傻瓜"
 			'''
 		SetBonus:
 			'''
-			Increases maximum technique points by 2最大技巧值增加2
-			Dealing damage with tainted healer weapons heal life on critical hits使用被暗能量增幅的武器暴击敌人时会回复血量
-			Press 'Armor Ability' key to summon a giant hand按下“盔甲能力”键会召唤一只大手
-			The hand blocks incoming enemy projectiles but takes damage大手能阻挡敌人的射弹，但会受到受伤
-			Upon receiving enough damage, the hand breaks and is put on cooldown受到足量伤害后大手会破碎并进入冷却
-			30 second cooldown有30秒冷却时间
+			最大技巧值增加2
+			使用被暗能量增幅的武器暴击敌人时会回复血量
+			按下“盔甲能力”键会召唤一只大手
+			大手能阻挡敌人的射弹，但会受到受伤
+			受到足量伤害后大手会破碎并进入冷却
+			有30秒冷却时间
 			'''
 	}
 
 	GoreWitchHat: {
-		DisplayName: Gore Hat血尸礼帽
+		DisplayName: 血尸礼帽
 		Tooltip:
 			'''
-			10% increased symphonic damage增加10%音波伤害
-			20% increased healing and symphonic playing speed增加20%治疗与演奏速度
-			15% increased inspiration regeneration rate增加15%灵感恢复速度
-			Enemies are less likely to target you敌人不太可能以你为目标
+			增加10%音波伤害
+			增加20%治疗与演奏速度
+			增加15%灵感恢复速度
+			敌人不太可能以你为目标
 			'''
 		SetBonus:
 			'''
-			Healing spells heal an additional 6 life治疗法术额外治疗6点生命值
-			Increases the duration of your symphonic empowerments by 8 seconds咒音增幅时间增加8
-			Press 'Armor Ability' key to summon a swarm of mini Orro-Boro-like leeches按下“盔甲能力”键会召唤一群像是迷你噬尾双蛇的水蛭
-			Leeches home into enemies and replenish player resources at a fixed amount水蛭会追踪敌人并给玩家补充固定数值的资源
-			Player resources include life, mana, inspiration and exhaustion资源包括生命值、魔力值、灵感值与疲劳值
-			60 second cooldown有60秒冷却时间
+			治疗法术额外治疗6点生命值
+			咒音增幅时间增加8
+			按下“盔甲能力”键会召唤一群像是迷你噬尾双蛇的水蛭
+			水蛭会追踪敌人并给玩家补充固定数值的资源
+			资源包括生命值、魔力值、灵感值与疲劳值
+			有60秒冷却时间
 			'''
 	}
 
@@ -125,11 +125,11 @@ Items: {
 		DisplayName: Gourdnade
 		Tooltip:
 			'''
-			Flip a rotting gourd in the air that eventually falls丢出一个腐烂的葫芦，葫芦会在空中翻滚落下
-			Depending on how good the spin is, the gourd will land葫芦翻转足够角度后可以落在地上
-			Upon landing, the gourd will attract flies落在地上的葫芦会吸引苍蝇
-			If not, it gets destroyed无法落在地上的葫芦会破碎
-			"World's stinkiest game of Flip the Bottle..."恐怕是这世界上最臭的转瓶子游戏…
+			丢出一个腐烂的葫芦，葫芦会在空中翻滚落下
+			葫芦翻转足够角度后可以落在地上
+			落在地上的葫芦会吸引苍蝇
+			无法落在地上的葫芦会破碎
+			"恐怕是这世界上最臭的转瓶子游戏…"
 			'''
 	}
 
@@ -147,87 +147,87 @@ Items: {
 		DisplayName: Lickgua Franca
 		Tooltip:
 			'''
-			Constantly spews out saliva when played演奏时不断吐出唾液
-			Successfully timing hits increases the amount of saliva spat out成功在计时区域击中时，会增加吐出唾液的数量
+			演奏时不断吐出唾液
+			成功在计时区域击中时，会增加吐出唾液的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"There is always a Lickman's term"
 			'''
 	}
 
 	ManlessHorseHead: {
-		DisplayName: Manless Horse Head无主马头琴
+		DisplayName: 无主马头琴
 		Tooltip:
 			'''
-			Screams at your general direction向鼠标方向释放尖啸
-			"No longer manless, but still is a horse head"
+			向鼠标方向释放尖啸
+			"不再无主，但依旧是个马头"
 			'''
 	}
 
 	MushDrum: {
-		DisplayName: Mush Drum蘑鼓
-		Tooltip: Shoots out spores that linger释放出滞留的孢子
+		DisplayName: 蘑鼓
+		Tooltip: 释放出滞留的孢子
 	}
 
 	NerveEndings: {
-		DisplayName: Nerve Endings神经末梢
+		DisplayName: 神经末梢
 		Tooltip:
 			'''
-			Throw a sticky flesh javelin掷出一根锋利的血肉标枪
-			Hold <left> to charge the javelin长按左键为标枪蓄力
-			Leaves behind fangs when thrown charged蓄力后投掷会释放獠牙
-			Fangs home in to enemies struck by the javelin獠牙会追踪标枪击中的敌人
-			"Designed to hit the most sensitive nerve endings, maximizing pain" 打击最敏感的神经末梢，将疼痛最大化
+			掷出一根锋利的血肉标枪
+			长按左键为标枪蓄力
+			蓄力后投掷会释放獠牙
+			獠牙会追踪标枪击中的敌人
+			"打击最敏感的神经末梢，将疼痛最大化"
 			'''
 	}
 
 	OldWoodBaton: {
-		DisplayName: Old Wood Baton古老木棒
-		Tooltip: '''"Doubles as a walking stick也可以当拐杖"'''
+		DisplayName: 古老木棒
+		Tooltip: '''"也可以当拐杖"'''
 	}
 
 	Olfactor: {
 		DisplayName: Olfactor
-		Tooltip: Shoots snot at nearby enemies向附近的敌人发射鼻涕
+		Tooltip: 向附近的敌人发射鼻涕
 	}
 
 	Orriata: {
 		DisplayName: Orriata
 		Tooltip:
 			'''
-			Throw a fast moving eyeball that explodes on impact投掷一个快速移动的眼球，命中时爆炸
-			"Eye for an eye!"“以眼还眼！”
+			投掷一个快速移动的眼球，命中时爆炸
+			“以眼还眼！”
 			'''
 	}
 
 	PinkyCross: {
-		DisplayName: Pinky Cross尾指十字架
+		DisplayName: 尾指十字架
 		Tooltip:
 			'''
-			Ignores 10 points of defense无视10点防御力
-			Channel a cross made of flesh that smites enemies释放一个用血肉制成的十字架攻击敌人
-			Life regeneration is boosted per smited enemy命中敌人时会增加生命恢复
-			Deals more damage against non-segmented bosses在击中非多体节boss时造成更多伤害
+			无视10点防御力
+			释放一个用血肉制成的十字架攻击敌人
+			命中敌人时会增加生命恢复
+			在击中非多体节boss时造成更多伤害
 			*Unstubs your toe*
 			'''
 	}
 
 	PotofPain: {
-		DisplayName: Pot of Pain痛苦魔壶
-		Tooltip: Throw a pot that grows thorns as it falls down投掷一个坠落后会生长荆棘的魔壶
+		DisplayName: 痛苦魔壶
+		Tooltip: 投掷一个坠落后会生长荆棘的魔壶
 	}
 
 	Pumpkaracas: {
-		DisplayName: Pumpkaracas南瓜沙槌
-		Tooltip: Shake two pumpkin maracas that attract flies摇晃两个会吸引苍蝇的南瓜沙槌
+		DisplayName: 南瓜沙槌
+		Tooltip: 摇晃两个会吸引苍蝇的南瓜沙槌
 	}
 
 	RotGuard: {
-		DisplayName: Rot Guard腐烂守卫
+		DisplayName: 腐烂守卫
 		Tooltip:
 			'''
-			Shoots a small, bouncy gourd that heals allies发射一个会治疗队友的弹性小葫芦
-			Allies healed gain 20 defense for 10 seconds被治疗的队友会增加20防御力，持续10秒
-			"Yummy!"“好吃！”
+			发射一个会治疗队友的弹性小葫芦
+			被治疗的队友会增加20防御力，持续10秒
+			“好吃！”
 			'''
 	}
 
@@ -236,48 +236,48 @@ Items: {
 		Tooltip:
 			'''
 			作者Not Una Nancy Owen (n0t_UN_Owen)
-			"The left side of the painting appears torn..."这幅画的左边似乎被撕掉了…
+			"这幅画的左边似乎被撕掉了…"
 			'''
 	}
 
 	Sceyethe: {
-		DisplayName: Sceyethe眼镰
+		DisplayName: 眼镰
 		Tooltip:
 			'''
-			<left> to swing this scythe directionally左键挥舞这把镰刀
-			<right> to spin the scythe instead右键旋转这把镰刀
-			Swinging the scythe shoots a short-ranged barrage of eyes挥舞镰刀会释放短距离的眼球			
-			Spinning the scythe releases slow eyes that home in旋转镰刀释放缓慢且追踪的眼球		
-			"Truly a scythe to behold, get it?"真是一把大镰刀，明白吗？
+			左键挥舞这把镰刀
+			右键旋转这把镰刀
+			挥舞镰刀会释放短距离的眼球			
+			旋转镰刀释放缓慢且追踪的眼球		
+			"真是一把大镰刀，明白吗？"
 			'''
 	}
 
 	Sclerinet: {
-		DisplayName: Sclerinet巩魔笛
+		DisplayName: 巩魔笛
 		Tooltip:
 			'''
-			Shoots three vitreous bubbles that home into enemies射出三个玻璃泡泡射向敌人
-			Dealing damage with Subclavian Trumpet empowers this weapon使用（脉络魔号）造成伤害会强化该武器
-			While empowered, this instrument uses up no inspiration强化状态下使用该武器不会消耗灵感值
-			Additionally, vitreous bubbles have improved tracking此外，玻璃泡泡改善了追踪效果
+			射出三个玻璃泡泡射向敌人
+			使用（脉络魔号）造成伤害会强化该武器
+			强化状态下使用该武器不会消耗灵感值
+			此外，玻璃泡泡改善了追踪效果
 			"Solitude in Eye Minor"眼睛小的孤独
 			'''
 	}
 
 	ScreamWhistle: {
-		DisplayName: Scream Whistle尖啸骨哨
+		DisplayName: 尖啸骨哨
 		Tooltip:
 			'''
-			Shoots an assortment of bones that vary in sizes释放大小不一的骨头
-			Dealing damage with the bones builds up a special meter骨头造成伤害时会为一个特殊的能量条充能
-			When the meter is full, <right> to perform a death whistle能量条为满时，右键以释放死亡哨音
-			Activating the death whistle empowers this weapon激活死亡哨音时会强化该武器
-			While empowered, bones gain aggressive homing强化状态下骨头会追踪敌人
+			释放大小不一的骨头
+			骨头造成伤害时会为一个特殊的能量条充能
+			能量条为满时，右键以释放死亡哨音
+			激活死亡哨音时会强化该武器
+			强化状态下骨头会追踪敌人
 			'''
 	}
 
 	SecretPainting: {
-		DisplayName: I Made This Just For You!这是我为你做的！
+		DisplayName: 这是我为你做的！
 		Tooltip:
 			'''
 			来自 EduaRRdo
@@ -289,50 +289,50 @@ Items: {
 		DisplayName: Sneezoo
 		Tooltip:
 			'''
-			Shoots two clumps of snot at once一次发射两团充满细菌的鼻涕
-			"HA.. HA- HAAAACHOOOO!"“阿，阿，阿嚏！！！”
+			一次发射两团充满细菌的鼻涕
+			“阿，阿，阿嚏！！！”
 			'''
 	}
 
 	SongFlower: {
-		DisplayName: Song Flower魔音葵
+		DisplayName: 魔音葵
 		Tooltip:
 			'''
-			Shoots seeds that bloom into Song Flowers which shoot enemies发射会在命中敌人时开花的种子
-			"There are zombies in your lawn"“有僵尸出现在你的草坪上”
+			发射会在命中敌人时开花的种子
+			“有僵尸出现在你的草坪上”
 			'''
 	}
 
 	SubclavianTrumpet: {
-		DisplayName: Subclavian Trumpet脉络魔号
+		DisplayName: 脉络魔号
 		Tooltip:
 			'''
-			Shoots a swirling tangle of arteries and veins发射螺旋状纠缠的动脉和静脉
-			Dealing damage with Sclerinet empowers this weapon使用（巩魔笛）造成伤害会强化该武器
-			While empowered, this instrument uses up no inspiration强化状态下使用该武器不会消耗灵感值
-			Additionally, the tangles deal 50% more damage此外，该武器会额外造成50%伤害
-			"Quite unnerving..."“真叫人不安…”
+			发射螺旋状纠缠的动脉和静脉
+			使用（巩魔笛）造成伤害会强化该武器
+			强化状态下使用该武器不会消耗灵感值
+			此外，该武器会额外造成50%伤害
+			“真叫人不安…”
 			'''
 	}
 
 	TendrilRoseSanguine: {
-		DisplayName: Tendril Rose Sanguine血红玫瑰藤
+		DisplayName: 血红玫瑰藤
 		Tooltip:
 			'''
-			Shoot out a thorn that hits enemies multiple times发射可以持续伤害敌人的荆棘
-			Thorns stay attached to the player荆棘会持续附着在玩家身上
+			发射可以持续伤害敌人的荆棘
+			荆棘会持续附着在玩家身上
 			'''
 	}
 
 	ToothRusher: {
-		DisplayName: Tooth Rusher尖牙猛攻斧
+		DisplayName: 尖牙猛攻斧
 		Tooltip:
 			'''
-			Ignores 10 points of defense无视10点防御力
-			Throw a heavy flesh tomawahk投掷沉重的肉战斧
-			Throwing it in the air will cause it to slow down and spin把它投掷到空中会使它减速并旋转
-			After spinning for a while, it will rapidly rush the nearest enemy在旋转一段时间后，它会迅速冲向附近的敌人
-			"Brush your teeth or get rushed by 'em!" 不刷牙，就等着被牙刷！
+			I无视10点防御力
+			投掷沉重的肉战斧
+			把它投掷到空中会使它减速并旋转
+			在旋转一段时间后，它会迅速冲向附近的敌人
+			"不刷牙，就等着被牙刷！" 
 			'''
 	}
 
@@ -340,11 +340,11 @@ Items: {
 		DisplayName: Verbal Fire
 		Tooltip:
 			'''
-			Continuously shoots "swear" words at enemies连续不断地向敌人说“脏话”
-			Successfully timing increases fire rate and projectiles shot成功在计时区域击中时，增加射速和射弹
-			Fire rate bonus stacks with attack speed empowerment射速加成与攻速的咒音增幅叠加
+			连续不断地向敌人说“脏话”
+			成功在计时区域击中时，增加射速和射弹
+			射速加成与攻速的咒音增幅叠加
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"Woah, watch your language! No need for the hard R!"注意你的语言！不需要hard R！
+			"注意你的语言！不需要hard R！"
 			'''
 	}
 }
