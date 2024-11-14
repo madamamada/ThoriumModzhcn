@@ -27,6 +27,16 @@ Items: {
 			'''
 	}
 
+	AvianBeak: {
+		DisplayName: Beak of the Breeze
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Creates turbulent wind in the direction it is swung
+			"Shwaaahaaahaaahaa"
+			'''
+	}
+
 	BolatilusShells: {
 		DisplayName: Bolatilus Shells
 		Tooltip:
@@ -135,6 +145,16 @@ Items: {
 			'''
 	}
 
+	LavenderAcupuncture: {
+		DisplayName: Lavender Acupuncture
+		Tooltip:
+			'''
+			Rapidly shoots out tiny lavender thorns that hit both players and enemies
+			Hitting players boosts their life regeneration for a short time
+			Healed players also recover from negative status effects faster
+			'''
+	}
+
 	LodestoneMegaMace: {
 		DisplayName: Lodestone Mega Mace
 		Tooltip:
@@ -196,12 +216,17 @@ Items: {
 		Tooltip: Spawns apparitions of itself on impact that apply Soul Burn
 	}
 
+	Sporophyll: {
+		DisplayName: Sporophyll
+		Tooltip: Throw a bouquet of spores upward that home into an enemy
+	}
+
 	Staggerang: {
 		DisplayName: Staggerang
 		Tooltip:
 			'''
 			Bounces between enemies, stunning them in the process
-			"Voltaic Stunsweeper!"
+			"Voltaic Stun Sweeper!"
 			'''
 	}
 
@@ -237,6 +262,15 @@ Items: {
 	TerrariumWorldShaker: {
 		DisplayName: Terrarium World Shaker
 		Tooltip: Charged attacks create a colorful cluster of explosions
+	}
+
+	ThornBlow: {
+		DisplayName: Thorn Blow
+		Tooltip:
+			'''
+			Rapidly shoots out thorns when played
+			"Just be careful not to accidentally inhale them"
+			'''
 	}
 
 	TitanSlammer: {
@@ -283,6 +317,9 @@ Items: {
 Projectiles: {
 	AntumbralTip.DisplayName: Antumbral Tip
 	Apostaracas.DisplayName: Apostaracas
+	AvianBeak.DisplayName: Beak of the Breeze
+	AvianBeakWind.DisplayName: Beak of the Breeze
+	BlownThorn.DisplayName: Blown Thorn
 	BolatilusShells.DisplayName: Bolatilus Shells
 	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
 	Clairvoyage.DisplayName: Clairvoyage
@@ -302,6 +339,7 @@ Projectiles: {
 	HellorHighTides.DisplayName: Hell or High Tides
 	HellorHighWaters.DisplayName: Hell or High Waters
 	IllumiteZapper.DisplayName: Illumite Zapper
+	LavenderAcupuncture.DisplayName: Lavender Acupuncture
 	LodestoneChunk.DisplayName: Chunk of Lodestone
 	LodestoneMegaMace.DisplayName: Lodestone Mega Mace
 	MoonGel.DisplayName: Moon Gel
@@ -314,6 +352,7 @@ Projectiles: {
 	ShadowBallPrimed.DisplayName: Shadowflame Ball
 	SpiritHatchet.DisplayName: Spirit Hatchet
 	SpiritHatchetApparition.DisplayName: Spirit Hatchet
+	Sporophyll.DisplayName: Sporophyll
 	Staggerang.DisplayName: Staggerang
 	StarScythe.DisplayName: Star Scythe
 	Tashortinus.DisplayName: Tashortinus

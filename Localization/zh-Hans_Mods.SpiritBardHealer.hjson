@@ -26,6 +26,16 @@ Items: {
 			演奏可以吸引始祖骨鸟的沙锤
 			始祖骨鸟会进行俯冲并攻击光标附近的敌人
 			'''
+		}
+
+	AvianBeak: {
+		DisplayName: Beak of the Breeze
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Creates turbulent wind in the direction it is swung
+			"Shwaaahaaahaaahaa"
+			'''
 	}
 
 	BolatilusShells: {
@@ -136,7 +146,16 @@ Items: {
 			'''
 	}
 
-	LodestoneMegaMace: {
+	LavenderAcupuncture: {
+		DisplayName: Lavender Acupuncture
+		Tooltip:
+			'''
+			Rapidly shoots out tiny lavender thorns that hit both players and enemies
+			Hitting players boosts their life regeneration for a short time
+			Healed players also recover from negative status effects faster
+			'''
+	}
+
 		DisplayName: 地脉狼牙棒
 		Tooltip:
 			'''
@@ -197,6 +216,11 @@ Items: {
 		Tooltip: 攻击时会额外生成投斧幻影并附加灵魂灼烧减益
 	}
 
+	Sporophyll: {
+		DisplayName: Sporophyll
+		Tooltip: Throw a bouquet of spores upward that home into an enemy
+	}
+
 	Staggerang: {
 		DisplayName: 全息回旋
 		Tooltip:
@@ -238,6 +262,15 @@ Items: {
 	TerrariumWorldShaker: {
 		DisplayName: 元素震荡锤
 		Tooltip: 蓄力攻击会释放绚丽爆炸
+	}
+
+	ThornBlow: {
+		DisplayName: Thorn Blow
+		Tooltip:
+			'''
+			Rapidly shoots out thorns when played
+			"Just be careful not to accidentally inhale them"
+			'''
 	}
 
 	TitanSlammer: {
@@ -283,6 +316,9 @@ Items: {
 Projectiles: {
 	AntumbralTip.DisplayName: 本影矛
 	Apostaracas.DisplayName: 唤祖遗锤
+	AvianBeak.DisplayName: Beak of the Breeze
+	AvianBeakWind.DisplayName: Beak of the Breeze
+	BlownThorn.DisplayName: Blown Thorn
 	BolatilusShells.DisplayName: 流星螺壳
 	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
 	Clairvoyage.DisplayName: 洞视游星
@@ -302,6 +338,7 @@ Projectiles: {
 	HellorHighTides.DisplayName: 宇宙潮汐
 	HellorHighWaters.DisplayName: 绝海潮音
 	IllumiteZapper.DisplayName: 荧光光束枪
+	LavenderAcupuncture.DisplayName: Lavender Acupuncture
 	LodestoneChunk.DisplayName: 地脉巨石
 	LodestoneMegaMace.DisplayName: 地脉狼牙棒
 	MoonGel.DisplayName: 皎月之凝
@@ -314,12 +351,13 @@ Projectiles: {
 	ShadowBallPrimed.DisplayName: 暗影球
 	SpiritHatchet.DisplayName: 魂灵投斧
 	SpiritHatchetApparition.DisplayName: 投斧幻影
+	Sporophyll.DisplayName: Sporophyll
 	Staggerang.DisplayName: 全息回旋
 	StarScythe.DisplayName: 星界镰刀
 	Tashortinus.DisplayName: Tashortinus
 	TerrariumParalyser.DisplayName: 元素麻痹枪
 	TerrariumWorldShake.DisplayName: 元素震荡锤
-	TerrariumWorldShaker.DisplayName: 绚丽爆炸
+	TerrariumWorldShaker.DisplayName: 元素震荡锤
 	TitanSlammer.DisplayName: 泰坦之锤
 	Transfusion.DisplayName: 鲜血奉献
 	ValadiumStunGun.DisplayName: 虚金眩晕枪
