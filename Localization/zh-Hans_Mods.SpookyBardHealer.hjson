@@ -1,6 +1,6 @@
 Items: {
 	Backbone: {
-		DisplayName: Backbone脊骨
+		DisplayName: 脊梁
 		Tooltip:
 			'''
 			由脊骨形成的芽团
@@ -25,10 +25,10 @@ Items: {
 	}
 
 	BloomRazor: {
-		DisplayName: Bloom Razor
+		DisplayName: 飞花漩刃
 		Tooltip:
 			'''
-			丢出在敌人之间弹射的利刃之花
+			投掷在敌人之间弹射的飞花漩刃
 			暴击时花朵会撕裂目标
 			'''
 	}
@@ -46,7 +46,7 @@ Items: {
 	}
 
 	Dandelizer: {
-		DisplayName: Dandelizer
+		DisplayName: 鬼灯笼锤
 		Tooltip:
 			'''
 			掷出一把蒲公英链锤
@@ -63,7 +63,7 @@ Items: {
 			'''
 			蓄力发射一束幽魂射线
 			蓄力时间越长，射线越大
-			"You're a fool! All my ancestors wer-"
+			"你这个傻瓜! 我所有的祖先都-"
 			'''
 	}
 
@@ -74,8 +74,8 @@ Items: {
 			丢出一个自主运动的胃，命中敌人与物块时吐出酸液
 			酸液造成溃疡减益，会使敌人受到的伤害增加20
 			如果酸液未击中敌人，会在地上生成酸液洼
-			玩家捡起酸液洼会获得胃酸反流增益
-			胃酸反流会增加10%伤害与护甲穿透增加10
+			玩家捡起酸液洼会获得胃酸逆流增益
+			胃酸逆流会增加10%伤害与护甲穿透增加10
 			拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
 			'''
 	}
@@ -122,10 +122,10 @@ Items: {
 	}
 
 	Gourdnade: {
-		DisplayName: Gourdnade
+		DisplayName: 腐芦哑雷
 		Tooltip:
 			'''
-			丢出一个腐烂的葫芦，葫芦会在空中翻滚落下
+			投掷腐烂的葫芦，葫芦会在空中翻滚落下
 			葫芦翻转足够角度后可以落在地上
 			落在地上的葫芦会吸引苍蝇
 			无法落在地上的葫芦会破碎
@@ -134,23 +134,23 @@ Items: {
 	}
 
 	LarrytheLarynx: {
-		DisplayName: Larry the Larynx
+		DisplayName: 拉里之喉（来自模组作者的翻译）
 		Tooltip:
 			'''
-			Throw a vocal chord that vibrates in place on impact投掷一个在受到冲击时振动到位的声带
-			Critical strikes cause Larry to emit shockwaves暴击时会使Larry发出冲击波
-			Tunes enemies, causing them to take 10% more damage调谐敌人，使受到的伤害增加10%
+			投掷在受到冲击时振动到位的声带
+			暴击时会使拉里会发出冲击波
+			调谐敌人，使他们多受10%的伤害
 			'''
 	}
 
 	LickguaFranca: {
-		DisplayName: Lickgua Franca
+		DisplayName: 口舌之笛
 		Tooltip:
 			'''
 			演奏时不断吐出唾液
 			成功在计时区域击中时，会增加吐出唾液的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
-			"There is always a Lickman's term"
+			"总有一个口头禅"
 			'''
 	}
 
@@ -186,16 +186,16 @@ Items: {
 	}
 
 	Olfactor: {
-		DisplayName: Olfactor
+		DisplayName: 嗅觉
 		Tooltip: 向附近的敌人发射鼻涕
 	}
 
 	Orriata: {
-		DisplayName: Orriata
+		DisplayName: 瞪眼
 		Tooltip:
 			'''
-			投掷一个快速移动的眼球，命中时爆炸
-			“以眼还眼！”
+			投掷快速移动的眼球，命中时爆炸
+			"以眼还眼！"
 			'''
 	}
 
@@ -204,10 +204,10 @@ Items: {
 		Tooltip:
 			'''
 			无视10点防御力
-			释放一个用血肉制成的十字架攻击敌人
+			释放用血肉制成的十字架攻击敌人
 			命中敌人时会增加生命恢复
 			在击中非多体节boss时造成更多伤害
-			*Unstubs your toe*
+			*松开你的脚趾*
 			'''
 	}
 
@@ -222,7 +222,7 @@ Items: {
 	}
 
 	RotGuard: {
-		DisplayName: 腐烂守卫
+		DisplayName: 地蒲守卫
 		Tooltip:
 			'''
 			发射一个会治疗队友的弹性小葫芦
@@ -246,8 +246,8 @@ Items: {
 			'''
 			左键挥舞这把镰刀
 			右键旋转这把镰刀
-			挥舞镰刀会释放短距离的眼球			
-			旋转镰刀释放缓慢且追踪的眼球		
+			挥舞镰刀会释放短距离的眼球
+			旋转镰刀释放缓慢且追踪的眼球
 			"真是一把大镰刀，明白吗？"
 			'''
 	}
@@ -260,7 +260,7 @@ Items: {
 			使用（脉络魔号）造成伤害会强化该武器
 			强化状态下使用该武器不会消耗灵感值
 			此外，玻璃泡泡改善了追踪效果
-			"Solitude in Eye Minor"眼睛小的孤独
+			"眼睛小的孤独"
 			'''
 	}
 
@@ -286,7 +286,7 @@ Items: {
 	}
 
 	Sneezoo: {
-		DisplayName: Sneezoo
+		DisplayName: 喷嚏
 		Tooltip:
 			'''
 			一次发射两团充满细菌的鼻涕
@@ -328,7 +328,7 @@ Items: {
 		DisplayName: 尖牙猛攻斧
 		Tooltip:
 			'''
-			I无视10点防御力
+			无视10点防御力
 			投掷沉重的肉战斧
 			把它投掷到空中会使它减速并旋转
 			在旋转一段时间后，它会迅速冲向附近的敌人
@@ -337,7 +337,7 @@ Items: {
 	}
 
 	VerbalFire: {
-		DisplayName: Verbal Fire
+		DisplayName: 言语虐待
 		Tooltip:
 			'''
 			连续不断地向敌人说“脏话”
@@ -345,6 +345,7 @@ Items: {
 			射速加成与攻速的咒音增幅叠加
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"注意你的语言！不需要hard R！"
+			[c/0000FF: 测试用名：叫 我*你*，说唱骂街，说藏话了]
 			'''
 	}
 }
@@ -402,29 +403,29 @@ Projectiles: {
 
 Buffs: {
 	AcidReflux: {
-		DisplayName: Acid Reflux
-		Description: 增加10% 伤害 和 护甲穿透增加10
+		DisplayName: 胃酸逆流
+		Description: 增加10%伤害 和护甲穿透增加10
 
 	}
 
 	GourdGuarded: {
-		DisplayName: Gourd Guarded
+		DisplayName: 葫芦保护
 		Description: 增加20 防御力
 	}
 
 	HandShieldCooldown: {
-		DisplayName: Hand Shield Cooldown
-		Description: Can't catch them hands for a while...
+		DisplayName: 大手冷却时间
+		Description: 大手暂时抓不住他们……
 	}
 
 	OrroBoroLeechCooldown: {
-		DisplayName: Leech Swarm Cooldown
-		Description: No Leeches?
+		DisplayName: 水蛭冷却时间
+		Description: 没有蚂蟥吗?
 	}
 
 	Ulcer: {
-		DisplayName: Ulcer
-		Description: It Burns!
+		DisplayName: 溃疡
+		Description: 它在燃烧!
 	}
 }
 
