@@ -29,11 +29,11 @@ Items: {
 	}
 
 	AvianBeak: {
-		DisplayName: Beak of the Breeze
+		DisplayName: 微风喙
 		Tooltip:
 			'''
-			This scythe is swung directionally instead of spun
-			Creates turbulent wind in the direction it is swung
+			这把镰刀是定向挥舞而不是旋转
+			在光标的方向挥舞产生紊流风
 			"Shwaaahaaahaaahaa"
 			'''
 	}
@@ -147,14 +147,15 @@ Items: {
 	}
 
 	LavenderAcupuncture: {
-		DisplayName: Lavender Acupuncture
+		DisplayName: 薰衣草针灸
 		Tooltip:
 			'''
-			Rapidly shoots out tiny lavender thorns that hit both players and enemies
-			Hitting players boosts their life regeneration for a short time
-			Healed players also recover from negative status effects faster
+			释放薰衣草针灸，攻击玩家和敌人
+			击中的玩家会在短时间内提高生命恢复
+			被治愈的玩家可以更快地从负面状态中恢复
 			'''
 	}
+
 	LodestoneMegaMace: {
 		DisplayName: 地脉狼牙棒
 		Tooltip:
@@ -217,8 +218,8 @@ Items: {
 	}
 
 	Sporophyll: {
-		DisplayName: Sporophyll
-		Tooltip: Throw a bouquet of spores upward that home into an enemy
+		DisplayName: 孢子叶
+		Tooltip: 向敌人投掷一束孢子
 	}
 
 	Staggerang: {
@@ -265,11 +266,11 @@ Items: {
 	}
 
 	ThornBlow: {
-		DisplayName: Thorn Blow
+		DisplayName: 蒺藜呕哑
 		Tooltip:
 			'''
-			Rapidly shoots out thorns when played
-			"Just be careful not to accidentally inhale them"
+			演奏时迅速释放尖刺
+			"注意不要不小心吸入它们"
 			'''
 	}
 
@@ -316,8 +317,8 @@ Items: {
 Projectiles: {
 	AntumbralTip.DisplayName: 本影矛
 	Apostaracas.DisplayName: 唤祖遗锤
-	AvianBeak.DisplayName: Beak of the Breeze
-	AvianBeakWind.DisplayName: Beak of the Breeze
+	AvianBeak.DisplayName: 微风喙
+	AvianBeakWind.DisplayName: 紊流风
 	BlownThorn.DisplayName: Blown Thorn
 	BolatilusShells.DisplayName: 流星螺壳
 	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
@@ -338,7 +339,7 @@ Projectiles: {
 	HellorHighTides.DisplayName: 宇宙潮汐
 	HellorHighWaters.DisplayName: 绝海潮音
 	IllumiteZapper.DisplayName: 荧光光束枪
-	LavenderAcupuncture.DisplayName: Lavender Acupuncture
+	LavenderAcupuncture.DisplayName: 薰衣草针灸
 	LodestoneChunk.DisplayName: 地脉巨石
 	LodestoneMegaMace.DisplayName: 地脉狼牙棒
 	MoonGel.DisplayName: 皎月之凝
@@ -351,10 +352,10 @@ Projectiles: {
 	ShadowBallPrimed.DisplayName: 暗影球
 	SpiritHatchet.DisplayName: 魂灵投斧
 	SpiritHatchetApparition.DisplayName: 投斧幻影
-	Sporophyll.DisplayName: Sporophyll
+	Sporophyll.DisplayName: 孢子叶
 	Staggerang.DisplayName: 全息回旋
 	StarScythe.DisplayName: 星界镰刀
-	Tashortinus.DisplayName: Tashortinus
+	Tashortinus.DisplayName: 蒺藜呕哑
 	TerrariumParalyser.DisplayName: 元素麻痹枪
 	TerrariumWorldShake.DisplayName: 元素震荡锤
 	TerrariumWorldShaker.DisplayName: 元素震荡锤
