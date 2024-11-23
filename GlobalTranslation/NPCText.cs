@@ -2,6 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
+using ThoriumMod.NPCs.BossLich;
 
 namespace ThoriumModzhcn.GlobalTranslation
 {
@@ -388,31 +389,38 @@ namespace ThoriumModzhcn.GlobalTranslation
 
 			//特定话语
 			//商人：拥有至少 20 点灵感值
-			chat = chat.Replace("Ah, a man of music! How well can you carry a tune?", "啊，这位男音乐家!你的音感如何?");
-			chat = chat.Replace("Ah, a woman of music! How well can you carry a tune?", "啊，这位女音乐家!你的音感如何?");
-			chat = chat.Replace("You know, people would pay good money for quality music like yours. Care to hear my business proposition...?", "你知道吗，人们愿意花大价钱买你制作的的优质音乐。想听听我的商业提议吗?");
-			chat = chat.Replace("In my younger years I was quite the experienced bard too! I've since left that behind me, though.", "在我年轻的时候，我也是一个很有经验的吟游诗人!不过我现在已经把它抛在脑后了。");
+			chat = chat.Replace("Ah, a man of music! How well can you carry a tune?", "啊，玩音乐的小伙! 你会演奏什么曲子呢?");
+			chat = chat.Replace("Ah, a woman of music! How well can you carry a tune?", "啊，玩音乐的姑娘! 你会演奏什么曲子呢?");
+			chat = chat.Replace("You know, people would pay good money for quality music like yours. Care to hear my business proposition...?", "你知道，人们会花高价听你的这样的高质量演奏。想听听我的商业建议吗...?");
+			chat = chat.Replace("In my younger years I was quite the experienced bard too! I've since left that behind me, though.", "在我年轻的时候，我也是一位经验丰富的吟游诗人!不过，我已经不干这行很久了.");
 
 			//护士：拥有至少 3 点额外治疗量
-			chat = chat.Replace("Are you sure you really need my help healing you and your allies? You seem to have it under control...", "你确定你真的需要我帮忙你治疗你和你的队友吗?但你似乎已经控制住了……");
-			chat = chat.Replace("Another healer in town? Ugh, this will be bad for business...", "镇上又来了一个治疗师?这对生意可不好......");
-
-			//渔夫·：厨师在场且任务已经完成
-			chat = chat.Replace("I couldn't believe my eyes when I saw " + Main.npc[Cook].GivenName + " walk into town! Now I can lounge back and let HIM do all the cooking!", "我简直不敢相信自己的眼睛，当我看到 " + Main.npc[Cook].GivenName + " 走进城镇!”我就可以懒洋洋地躺着，让他做所有的烹饪!");
+			chat = chat.Replace("Are you sure you really need my help healing you and your allies? You seem to have it under control...", "你确定你真的需要我帮忙治疗你和你的队友吗？你自己就能搞定吧...");
+			chat = chat.Replace("Another healer in town? Ugh, this will be bad for business...", "镇子里有另一个治疗师? 噢，一定会影响生意...");
 
 			//机械师·：未击败幻术师
-			chat = chat.Replace("Say, if you're going to explore the dungeon, keep an eye out for this bizarre mirror. I only caught a glance at it while tied up, but it gave me serious heebie-jeebies...", "比如说，如果你要探索地牢，请留意一下奇怪的镜子。我只是在被绑起来的时候瞥了一眼，让我感到非常紧张……");
-			chat = chat.Replace("How I got kidnapped in the first place? One of their guys had crazy illusion magic, had me convinced I was being brought in to help install some new lighting!", "我是怎么被绑架的?他们之中有一个善于使用幻觉魔法的，让我相信我是被请来帮助安装一些新的照明!");
+			chat = chat.Replace("Say, if you're going to explore the dungeon, keep an eye out for this bizarre mirror. I only caught a glance at it while tied up, but it gave me serious heebie-jeebies...", "喂，如果你要去探索地牢，一定要留意那面奇怪的镜子。我被绑着的时候只看了它一眼，就让我觉得坐立不安...");
+			chat = chat.Replace("How I got kidnapped in the first place? One of their guys had crazy illusion magic, had me convinced I was being brought in to help install some new lighting!", "我一开始是怎么被绑架的？他们中有个家伙会疯狂的幻觉魔法，让我确信我是被请来帮忙安装照明设备的!");
 
 			//骷髅商人·：未击败蝙蝠子爵
-			chat = chat.Replace("Got a special deal for ya, straight from this poor lot who wandered into that old Bat's lair unprepared.", "给你做了个特别的交易，从一个没准备好就跑到血窟里的可怜人那里买的。");
-			chat = chat.Replace("You see lots when you wander these caverns, y'know? Other day I stumbled upon this chamber absolutely drenched in blood! Sight shook me to my bones, I'll tell you what!", "你在这些洞穴里闲逛的时候会看到很多东西，有一天我偶然发现这个房间完全被血浸透了!眼前的景象吓得我浑身发抖!");
+			chat = chat.Replace("Got a special deal for ya, straight from this poor lot who wandered into that old Bat's lair unprepared.", "要和我这个毫无准备地走进那只老蝙蝠的巢穴的可怜家伙来点特别的交易吗。");
+			chat = chat.Replace("You see lots when you wander these caverns, y'know? Other day I stumbled upon this chamber absolutely drenched in blood! Sight shook me to my bones, I'll tell you what!", "当你在这些洞穴徘徊时会看到很多东西。有一天，我偶然发现了一个满是鲜血的房间！我告诉你，这景象震撼我的骨髓!");
 
 			//海盗·：击败世纪之花
-			chat = chat.Replace("Aye, so the legends be true... A great and terrible beast lurks beneath the depths, matey. Best if you go and handle it, eh?", "是啊，所以传说是真的…一只巨大而可怕的野兽潜伏在深处，伙计。最好还是你去处理吧?");
-			chat = chat.Replace("Aye, I once saw a sea demon risin' from those depths. Somethin' dark, somethin' ancient, somethin'... uhh... You gonna buy somethin'?!", "是的，我曾经看到一个海妖在深海中。那种黑暗，那种古老，那种……喔…你要买东西吗?!");
+			chat = chat.Replace("Aye, so the legends be true... A great and terrible beast lurks beneath the depths, matey. Best if you go and handle it, eh?", "是啊，所以传说是真的...一头可怕的巨大怪兽潜伏在深海，伙计。最好你去处理，嗯？");
+			chat = chat.Replace("Aye, I once saw a sea demon risin' from those depths. Somethin' dark, somethin' ancient, somethin'... uhh... You gonna buy somethin'?!", "是的，我曾经看到一个海怪从深海浮上来。有些黑暗，有些古老，有些...呃...你要买东西?!");
 
 			//公主
+			chat = chat.Replace(" is super skilled! Never had my slippers shine so well!", "技术真好! 我的鞋从来没有这么闪亮过!");
+			chat = chat.Replace(" is the best guy in town to play hide-and-seek with!", "是城镇里最适合玩捉迷藏的对象!");
+			chat = chat.Replace(" makes the most amazing treats!", "能做出最令人惊叹的美食!");
+			chat = chat.Replace("Heehee," + Main.npc[ConfusedZombie].GivenName + "makes such goofy faces!", "嘿嘿, " + Main.npc[ConfusedZombie].GivenName + "看起来傻傻的!");
+			chat = chat.Replace(" helped me fix my tiara, I'm so grateful!", "帮我修好了我的头冠，我太感谢他了!");
+			chat = chat.Replace(" makes me feel so tall when he gives me a piggyback ride!", "让我骑在他背上，让我觉得自己很高!");
+			chat = chat.Replace(" tells such amazing stories of what's under the sea!", "会讲大海底下的神奇的故事!");
+			chat = chat.Replace(" assembles the loveliest flower bouquets!", "能做出最美丽的花束!");
+			chat = chat.Replace(" has such a calming aura to him!", "的身边能让人平静下来!");
+			chat = chat.Replace(" is such a sweetheart. He makes little fires for me when I'm cold!", "的心真好. 他会在我冷的时候为我生火!");
 			chat = chat.Replace("Something something sparkle magic go!", "有些东西，有些东西，闪耀着魔法!");
 			chat = chat.Replace("Insert anime reference here!", "插入动漫参考这里!");
 
@@ -420,95 +428,98 @@ namespace ThoriumModzhcn.GlobalTranslation
 			chat = chat.Replace("I see you've got yourself an instrument. Instruments use ‘inspiration’ to provide helpful buffs to you and your team, as well as damage enemies. You’ll need Inspiration Fragments to increase your maximum inspiration, which can be crafted from fallen stars and a strange ore underground! Who knows, maybe later on you can increase it even more with other unique materials...", "我看到你得到了一把属于自己的乐师武器。此武器消耗“灵感值”为你和你的队友提供有用的增益并伤害敌人。你需要灵感碎片来增加最大灵感值，而它可以由坠落之星和地下的一种充满能量的矿石制作而成! 谁知道呢，也许未来可以用其他独特的材料来进一步增加他的上限...");
 
 			//现实守护者：向导
-			chat = chat.Replace("Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!", "祝贺你获得胜利! 我相信你已经注意到，击败他们之后，每个始生灾灵都在他们各自的领域下留下了部分精华。它们和传闻中一样强大，你可以用它们的精华制作一些强大的装备。一如既往，我可以帮你看看能用这些材料做什么!");
+			chat = chat.Replace("Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!", "祝贺你的胜利！我相信你已经注意到了，在你击败他们之后，每个始生灾灵都在他们掌握的领域留下了部分精华。它们和听起来一样强大，你可以用它们制作一些非常强力的装备。和往常一样，我可以帮你看看你能用它们制作什么！");
 
 			//现实守护者：爆破专家		
-			chat = chat.Replace("What a series of fireworks that purple guy let out! Can't help but take it as a challenge; one pyrotechnics show that'll blow your socks off, comin' right up!", "那个紫色的家伙放了好多烟花! 忍不住把它当成一种挑战; 一场让你大吃一惊的烟火表演马上就要开始了!");
+			chat = chat.Replace("What a series of fireworks that purple guy let out! Can't help but take it as a challenge; one pyrotechnics show that'll blow your socks off, comin' right up!", "那个紫色的东西放场了盛大的烟花！我忍不住想要挑战它；一场会让你大吃一惊的烟火表演马上就要上演了!");
 
 			//现实守护者：派对女孩
-			chat = chat.Replace("That crown! Does that mean you're now the QUEEN OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!", "那顶王冠!这是否意味着你现在是女王来自宇宙?!你知道这意味着什么吗?!有史以来最伟大的加冕派对!!");
-			chat = chat.Replace("That crown! Does that mean you're now the KING OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!", "那顶王冠!这是否意味着你现在是国王来自宇宙?!你知道这意味着什么吗?!有史以来最伟大的加冕派对!!");
+			chat = chat.Replace("That crown! Does that mean you're now the QUEEN OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!", "那个王冠！这是否意味着你现在是宇宙女王？！你知道这需要什么吗？！有史以来最棒的加冕派对！！");
+			chat = chat.Replace("That crown! Does that mean you're now the KING OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!", "那个王冠！这是否意味着你现在是宇宙之王？！你知道这需要什么吗？！有史以来最棒的加冕派对！！");
 
 			//现实守护者：哥布林
-			chat = chat.Replace("I thought for sure we were all doomed when those creatures emerged so I jumped the gun on a confession of mine. It ended up working out though, so maybe I'm glad we almost all died!", "当那些生物出现的时候，我确信我们都要完蛋了，所以我仓促地做了忏悔。好在最终还是成功击败了，也许我会为此感到高兴，但是我们差点都死了");
+			chat = chat.Replace("I thought for sure we were all doomed when those creatures emerged so I jumped the gun on a confession of mine. It ended up working out though, so maybe I'm glad we almost all died!", "当那些生物出现时，我确信我们都死定了，所以我仓促的跑去表白了。但最终还是解决了，所以也许我该庆祝我们的劫后余生！");
 
 			//现实守护者：公主
 			chat = chat.Replace("Thank you, " + Main.LocalPlayer.name + ", from the bottom of my heart. It's thanks to you that my subjects and I can enjoy peace and prosperity once more. You're my knight in shining armor!", "谢谢你， " + Main.LocalPlayer.name + ", 我发自内心的感谢您。因为你，我和我的臣民才能继续享受和平与繁荣，你就是我身穿闪耀盔甲的骑士!");
 
-			//现实守护者：海盗（占位符）
-			chat = chat.Replace("Best be reckonin' that travelin' the seven seas will be smoother sailin' than a newborn's behind now that the Lady High Tide has been quell'd... And prob'ly high time for this ol' swashbuckler to set voyage for a new adventure!", "。。。");
+			//现实守护者：海盗
+			chat = chat.Replace("Best be reckonin' that travelin' the seven seas will be smoother sailin' than a newborn's behind now that the Lady High Tide has been quell'd... And prob'ly high time for this ol' swashbuckler to set voyage for a new adventure!", "往好处想，既然潮汐之灵已经平息，在七大洋中航行将比婴儿的后背更平稳……也许是这个老海盗开始新的冒险的时候了！");
 
 			//现实守护者：护士
 			chat = chat.Replace("I assume that you won't be having too many injuries from here on out? Shame, there goes my greatest money maker.", "我想从现在开始你应该不会受伤了吧?真遗憾，我少了一个最赚钱的客户。");
 
 			//现实守护者：树妖
-			chat = chat.Replace("To think a threat even more dangerous than the Moon Lord existed out there... It makes me wonder what else lies beyond what we see. Let's not worry about that for now though, " + Main.LocalPlayer.name + ", we should celebrate your victory!", "一想到这个比月亮领主还危险的存在，这让我想知道除了我所看到的之外还有什么，不过，现在我们不必担心， 我们有" + Main.LocalPlayer.name + "，我们应该庆祝你的胜利!");
+			chat = chat.Replace("To think a threat even more dangerous than the Moon Lord existed out there... It makes me wonder what else lies beyond what we see. Let's not worry about that for now though, " + Main.LocalPlayer.name + ", we should celebrate your victory!", "一想到有比月亮领主更危险的威胁存在...我就会考虑除了我们所知之外还潜藏者什么。不过，现在我们不要担心，" + Main.LocalPlayer.name + "，我们应该庆祝你的胜利！");
 
 			//现实守护者：机械侠
-			chat = chat.Replace("Simply incredible. I had calculated your odds of survival at less than 0.001% against those creatures and yet here you stand. Truly the will of man is a thing of wonder.", "简直难以置信。我曾计算过你与这些生物战斗的生存几率低于0.001%，但现在你站在这里。人的意志确实是一件奇妙的事情。");
+			chat = chat.Replace("Simply incredible. I had calculated your odds of survival at less than 0.001% against those creatures and yet here you stand. Truly the will of man is a thing of wonder.", "简直难以置信。我计算过你和这些生物作战的生存几率不到0.001%，但你活了下来。人的意志真是令人惊奇.");
 
 			//现实守护者：渔夫-200条鱼
-			chat = chat.Replace("Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!", "是的，是的，每个人都在为你的“拯救世界”而疯狂。但你救了我要的那200条奇特的鱼吗?如果没有，那就回去工作，仆从!");
+			chat = chat.Replace("Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!", "对，对，每个人都为你“拯救世界”的事情而疯狂。但你攒到了我要的200条鱼吗？没有，那就回去工作吧，奴才！");
 			//现实守护者：渔夫+200条鱼
-			chat = chat.Replace("'Ocean Essences', huh? Do you think if I have enough, I'll become the Supreme God-Emperor of all Fishkind?! I've got a new quest for you, Supreme Helper Minion! Get for me 100 MILLION of those Ocean thingies, pronto!", "“海洋精华”，嗯?你认为如果我有足够的钱，我会成为所有鱼类的最高神皇吗?!我有一个新任务要找你，至尊助手仆从!马上给我1亿个海洋玩意儿!");
+			chat = chat.Replace("'Ocean Essences', huh? Do you think if I have enough, I'll become the Supreme God-Emperor of all Fishkind?! I've got a new quest for you, Supreme Helper Minion! Get for me 100 MILLION of those Ocean thingies, pronto!", "'海洋精华', 哈? 如果我搞到了足够多, 我就可以成为鱼类的至高神皇吗?! 我有个新任务给你, 终极得力仆从! 给我搞来一亿个海洋那啥的，立刻就去!");
 
 			//现实守护者：军火商
-			chat = chat.Replace("Peace is all fine and dandy, but what am I supposed to use as target practice now?!", "和平是美好的，但我现在要用什么来作为目标呢!");
+			chat = chat.Replace("Peace is all fine and dandy, but what am I supposed to use as target practice now?!", "和平是美好的，但我现在该拿什么做打靶练习呢?!");
 
 			//现实守护者：服装商
-			chat = chat.Replace("Ever since you freed me from my curse, I figured you were tailor-made for this whole hero business.", "自从你把我从诅咒中解救出来，我就觉得你是为英雄事业量身定做的。");
+			chat = chat.Replace("Ever since you freed me from my curse, I figured you were tailor-made for this whole hero business.", "自从你把我从诅咒中解放出来，我就觉得你是为成为英雄而生的.");
 
 			//现实守护者：染料商
-			chat = chat.Replace("Ah... must you keep that crown above your head, darling? The colors are rich, but its aesthetic is... garish.", "啊...亲爱的，你必须把王冠戴在头顶上吗?颜色很丰富，但它的美学很花哨。");
+			chat = chat.Replace("Ah... must you keep that crown above your head, darling? The colors are rich, but its aesthetic is... garish.", "啊...亲爱的，你必须把那顶王冠戴在头上吗？颜色是很丰富，但在审美上有点...过于花哨了.");
 
 			//现实守护者：高尔夫投手
-			chat = chat.Replace("I'd say that battle looked like a hole in one to me, " + Main.LocalPlayer.name + ". Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?", "我想说这场战斗对我来说就像一杆进洞， " + Main.LocalPlayer.name + "。也许终于可以在无休止的战斗中放松下来，和我一起打高尔夫球;你说呢?");
+			chat = chat.Replace("I'd say that battle looked like a hole in one to me, " + Main.LocalPlayer.name + ". Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?", "我想说这场战斗对我来说就像是一杆进洞， " + Main.LocalPlayer.name + "。也许你终于可以在无休止的战斗之后放松下来，和我一起打打高尔夫球；你说呢?");
 
 			//现实守护者：机械师
-			chat = chat.Replace("It seems like things are gonna be a lot more peaceful from here on out. Maybe now I can finally focus on my machines... and maybe someone special to me.", "看来从现在开始一切都要平静得多了。也许现在我终于可以专注于我的机器了…或者也许是对我特别的人。");
+			chat = chat.Replace("It seems like things are gonna be a lot more peaceful from here on out. Maybe now I can finally focus on my machines... and maybe someone special to me.", "看来从现在开始，会变得更加和平了。也许现在我终于可以专注于我的机器了...或是对我来说特别的人。");
 
 			//现实守护者：商人
-			chat = chat.Replace("Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!", "干得好，朋友!我卖掉了我所有的“世界末日”商品，现在多亏了你，我可以活得足够长，可以享受这些好处!");
+			chat = chat.Replace("Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!", "干得好，朋友！我所有的“世界末日用”商品都卖出去了，现在多亏了你，我也可以活得足够长来放松，享受这些利润了!");
 
 			//现实守护者：老人
-			chat = chat.Replace("I see you're quite the curious person... Thought I might say something interesting, hm? Well savor your victory for now. Our true master will return one day, and when he does, this world will know death once more.", "我看你是个很好奇的人…我想说点有趣的事?现在尽情享受你的胜利吧。我们真正的主人总有一天会回来，当他回来的时候，这个世界将再次迎来死亡。");
+			chat = chat.Replace("I see you're quite the curious person... Thought I might say something interesting, hm? Well savor your victory for now. Our true master will return one day, and when he does, this world will know death once more.", "看来你是个很好奇的人...觉得我可能会说一些有趣的话，嗯？现在好好享受你的胜利吧。我们真正的主人总有一天会回来的，当他回来的时候，这个世界将再次认识死亡。");
 
 			//现实守护者：油漆工
-			chat = chat.Replace("Not another word, " + Main.LocalPlayer.name + "! I'm already starting my newest masterpiece: a capturing of your stupendous battle!", "不要再写“" + Main.LocalPlayer.name + "了!我已经开始我最新的杰作了:捕获你的惊人的战斗!");
+			chat = chat.Replace("Not another word, " + Main.LocalPlayer.name + "! I'm already starting my newest masterpiece: a capturing of your stupendous battle!", "不必再说了，" + Main.LocalPlayer.name + "！我已经开始创作我的最新杰作：你惊人的战斗瞬间!");
 
 			//现实守护者：圣诞老人
-			chat = chat.Replace("If saving the world doesn't make you a good boy, then I don't know what does. No coal for you this year!", "如果拯救世界都不能让你成为一个好男孩，那我不知道还有什么可以。今年没有煤给你了!");
-			chat = chat.Replace("If saving the world doesn't make you a good girl, then I don't know what does. No coal for you this year!", "如果拯救世界都不能让你成为一个好女孩，那我不知道还有什么可以。今年没有煤给你了!");
+			chat = chat.Replace("If saving the world doesn't make you a good boy, then I don't know what does. No coal for you this year!", "如果拯救世界的小男孩都不是好孩子，那就没有好孩子了。今年不给你煤！");
+			chat = chat.Replace("If saving the world doesn't make you a good girl, then I don't know what does. No coal for you this year!", "如果拯救世界的小女孩都不是好孩子，那就没有好孩子了。今年不给你煤！");
 
 			//现实守护者：骷髅商人
 			chat = chat.Replace("Take a gander at that crown above your head! Just which poor sap did you nab that from?", "看看你头上的王冠!你从哪个可怜的笨蛋那里抢来的?");
 
 			//现实守护者：蒸汽朋克人
-			chat = chat.Replace("An endless source of fire and water fell from those creatures you say? Oy, that sounds like a great way to generate some steam!", "你是说，从那些生物身上，有源源不断的火和水?哇，这听起来是个产生蒸汽的好方法!");
+			chat = chat.Replace("An endless source of fire and water fell from those creatures you say? Oy, that sounds like a great way to generate some steam!", "你说那些生物身上源源不断地冒出火和水？噢，这听起来像是产生蒸汽的好方法!");
 
 			//现实守护者：发型师
-			chat = chat.Replace("Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?", "我不知道泰拉瑞亚的始生之力还有幽默感。'我拯救了世界，但我得到的只是这顶华丽的皇冠'之类的，对吧?");
+			chat = chat.Replace("Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?", "没想到泰拉瑞亚的原始力量这么幽默。”我拯救了世界，我得到的只是这顶花哨的王冠什么的，对吧?");
 
 			//现实守护者：酒馆老板
-			chat = chat.Replace("Well now. Even back in Etheria I haven't seen a hero defend their home with such bravery and tenacity before. Maybe you do measure up after all.", "现在。即使在埃特尼亚，我也没有见过一个英雄以如此的勇气和坚韧来保卫他们的家园。也许你还是符合标准的。");
+			chat = chat.Replace("Well now. Even back in Etheria I haven't seen a hero defend their home with such bravery and tenacity before. Maybe you do measure up after all.", "好了。即使在埃特里亚，我也从未见过英雄如此勇敢和坚定地保卫家园。也许你确实满足了期望。");
 
 			//现实守护者：税收官
-			chat = chat.Replace("I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!", "我看到你头上那顶漂亮的王冠了。呸!你已经表现得像个暴君了，现在你的长相可以证明这一点。把我和我可爱的金子分开，然后离开!");
+			chat = chat.Replace("I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!", "我看到你头顶上那顶花哨的皇冠了，呸！你的行径已经是暴君了，现在外表上也是了。又一次拿走我可爱的金子，然后离开！");
 
 			//现实守护者：旅商
-			chat = chat.Replace("Hey, I'm back in town! Did I miss anything exciting...?", "嘿，我回来了!我错过了什么激动人心的东西吗?");
+			chat = chat.Replace("Hey, I'm back in town! Did I miss anything exciting...?", "嘿，我回来了！我错过了什么激动人心的事情吗...?");
 
 			//现实守护者：松露人
-			chat = chat.Replace("I would have never seen the things I've seen recently if I had stayed underground, so thank you for that wonderful - and totally not at all terrifying - show!", "如果我一直呆在地下，我就永远不会看到我最近看到的东西，所以谢谢你的精彩-完全不可怕-表演!");
+			chat = chat.Replace("I would have never seen the things I've seen recently if I had stayed underground, so thank you for that wonderful - and totally not at all terrifying - show!", "如果我一直呆在地下，我就永远不会看到我最近看到的这些，所以谢谢你的精彩，一点也不可怕的 - 表演!");
 
 			//现实守护者：巫医
-			chat = chat.Replace("Heroism inspires legends, legends inspire heroism.", "英雄激发传奇，传奇激发英雄。");
+			chat = chat.Replace("Heroism inspires legends, legends inspire heroism.", "英雄气概造就传奇，传奇造就英雄气概。");
 
 			//现实守护者：巫师
-			chat = chat.Replace("Everyone is quite lively right now! I'm so glad all of you remembered that today was my birthday!", "现在每个人都很活跃!我很高兴你们都记得今天是我的生日!");
+			chat = chat.Replace("Everyone is quite lively right now! I'm so glad all of you remembered that today was my birthday!", "现在每个人都很活跃！我很高兴你们都记得今天是我的生日!");
 
 			//现实守护者：动物学家
-			chat = chat.Replace("Okay, like, wait. One more time. You say there were three of them? Okay yeah, and what did they look like exactly? Like, for real? This bestiary entry is gonna really test my drawing skills, huh?", "好吧，等等。再来一次。你说他们有三个人?好吧，那他们到底长什么样?真的吗?以怪物入门真的会考验我的绘画技能吗?");
+			chat = chat.Replace("Okay, like, wait. One more time. You say there were three of them? Okay yeah, and what did they look like exactly? Like, for real? This bestiary entry is gonna really test my drawing skills, huh?", "好吧，等等。再来一次。你说他们有三个？好吧，是的，它们具体是什么样子的？真实些？这个图鉴条目真的考验我的绘画技巧，嗯?");
+
+			//巫妖
+			chat = chat.Replace("It seems to be dormant", "它似乎在沉睡");
 		}
 
 
@@ -574,6 +585,7 @@ namespace ThoriumModzhcn.GlobalTranslation
 				Main.npcChatText = Main.npcChatText.Replace("Is- Is that my cross? How in the world did you manage to find it? It's been lost for so long....", "那是我的十字架吗?你到底是怎么找到它的?它已经丢失太久了……");
 				Main.npcChatText = Main.npcChatText.Replace("With these shards, I have imbued you with an incredibly potent shield. Should you take fatal damage, you shall receive my protection for as long as I can hold it. Stay safe out there, my friend", "有了这些碎片，我给你给你一个强大的护盾。如果你受到致命的伤害，你将得到我的保护，只要我能承受住它。注意安全，我的朋友");
 				Main.npcChatText = Main.npcChatText.Replace("I require no money to watch over you my friend, but my protection is limited without some Purified Shards. Once you acquire some, come visit me again", "我不需要钱来保护你，我的朋友，但没有净化碎片我的保护是有限的。等你有了，再来找我");
+				Main.npcChatText = Main.npcChatText.Replace("I require no money to watch over you my friend, but my protection is limited without some Purified Shards. Once you acquire 5, come visit me again", "我不需要钱来保护你，我的朋友，但没有净化碎片我的保护是有限的。等你有了5个净化碎片，再来找我");
 				Main.npcChatText = Main.npcChatText.Replace("No need to fear my friend, my power is already protecting you. Come back when my power has faded", "不用害怕我的朋友，我的力量已经在保护你了。当我的力量消失后，再来找我");
 				Main.npcChatText = Main.npcChatText.Replace("I'm afraid I can't currently protect you, friend. Give your soul some time to heal, and then come speak to me again", "恐怕我现在不能保护你，朋友。给你的灵魂需要一些时间来愈合，然后再来找我");
 			}
