@@ -1,3 +1,10 @@
+BossThreats: {
+	TwinsDay: 这将是可怕的一天...
+	Terminator: 你感觉自己被追捕了…
+	Caretaker: 你听到空气中奇怪的嗡嗡声...
+	Mechclops: 你听到远处传来很响的叮当声…
+}
+
 ItemDescriptions: {
 	AdamantiteArmor:
 		'''
@@ -1077,7 +1084,7 @@ Configs: {
 	}
 
 	ToggleConfig: {
-		DisplayName: 內容切換
+		DisplayName: 内容切换
 
 		terminator: {
 			Label: 终结者
@@ -1100,3 +1107,4 @@ Configs: {
 		}
 	}
 }
+
