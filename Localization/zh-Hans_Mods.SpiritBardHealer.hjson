@@ -5,6 +5,40 @@ ItemDescriptions: {
 		'摇滚宝贝,摇滚!'
 		'''
 	Ukelele: 闪电攻击有概率恢复1点灵感值
+	TerrariumParticleSprinters: Greatly increases aerial agility
+	FrigidHelm:
+		'''
+		15% decreased non-radiant damage
+		5% increased radiant damage
+		Healing spells will heal an additional 2 life
+		'''
+	FrigidChestplate:
+		'''
+		15% decreased non-radiant damage
+		10% increased radiant damage
+		3% increased radiant critical strike chance
+		'''
+	FrigidLegs:
+		'''
+		15% decreased non-radiant damage
+		7% increased radiant damage
+		'''
+	FrigidSetBonus:
+		'''
+		Double tap {0} to create a wall of frostburn at the cursor position
+		Touching the frostburn wall grants short-lasting life recovery
+		8 second cooldown
+		'''
+	RogueHood: 5% increased throwing damage
+	RoguePlate: 5% increased throwing critical strike chance
+	RoguePants: 5% increased throwing speed
+	GraniteHelmet: "{$Mods.SpiritMod.Items.GraniteHelm.Tooltip}"
+	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
+	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
+	WayfarerHead: 5% increased inspiration regeneration rate and drop chance
+	WayfarerBody: 5% increased symphonic damage and playing speed
+	WayfarerLegs: Increases empowerment duration by 1 second
+	WayfarerSetBonus: Movement buffs from bard empowerments are stronger
 }
 
 Items: {
