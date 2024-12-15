@@ -5,40 +5,40 @@ ItemDescriptions: {
 		'摇滚宝贝,摇滚!'
 		'''
 	Ukelele: 闪电攻击有概率恢复1点灵感值
-	TerrariumParticleSprinters: Greatly increases aerial agility
+	TerrariumParticleSprinters: 大幅度提高独立的空中能力
 	FrigidHelm:
 		'''
-		15% decreased non-radiant damage
-		5% increased radiant damage
-		Healing spells will heal an additional 2 life
+		减少15%非光辉伤害
+		提高5%光辉伤害
+		治疗法术会额外治疗2点生命值
 		'''
 	FrigidChestplate:
 		'''
-		15% decreased non-radiant damage
-		10% increased radiant damage
-		3% increased radiant critical strike chance
+		减少15%非光辉伤害
+		提高10%光辉伤害
+		提高3%光辉暴击率
 		'''
 	FrigidLegs:
 		'''
-		15% decreased non-radiant damage
-		7% increased radiant damage
+		减少15%非光辉伤害
+		提高7%光辉伤害
 		'''
 	FrigidSetBonus:
 		'''
-		Double tap {0} to create a wall of frostburn at the cursor position
-		Touching the frostburn wall grants short-lasting life recovery
-		8 second cooldown
+		双击{0}在光标位置创造一面冰墙
+		在接触冰墙的短时间内提高生命恢复
+		此效果有8秒冷却时间
 		'''
-	RogueHood: 5% increased throwing damage
-	RoguePlate: 5% increased throwing critical strike chance
-	RoguePants: 5% increased throwing speed
+	RogueHood: 提高5%投掷伤害
+	RoguePlate: 提高5%投掷暴击率
+	RoguePants: 提高5%投掷速度
 	GraniteHelmet: "{$Mods.SpiritMod.Items.GraniteHelm.Tooltip}"
 	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
 	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
-	WayfarerHead: 5% increased inspiration regeneration rate and drop chance
-	WayfarerBody: 5% increased symphonic damage and playing speed
-	WayfarerLegs: Increases empowerment duration by 1 second
-	WayfarerSetBonus: Movement buffs from bard empowerments are stronger
+	WayfarerHead: 提高5%灵感恢复速度和灵感音符掉率
+	WayfarerBody: 提高5%音波伤害和演奏速度
+	WayfarerLegs: 咒音增幅将延长1秒
+	WayfarerSetBonus: 从咒音中获得的移动速度效果更加强力
 }
 
 Items: {
@@ -76,7 +76,7 @@ Items: {
 		Tooltip:
 			'''
 			按住左键旋转由鹦鹉螺壳制作的流星锤
-			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而增加
+			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而提高
 			完全旋转并投掷出去会产生爆炸
 			"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤"
 			'''
@@ -195,7 +195,7 @@ Items: {
 			'''
 			玩家下落时命中敌人可以造成更高的伤害
 			满蓄力时击中物块会产生地脉巨石
-			对敌怪造成伤害会剥离它们，它们所受伤害增加10
+			对敌怪造成伤害会剥离它们，它们所受伤害提高10
 			"磁力吸引着你敌人的头骨"
 			'''
 	}
@@ -211,7 +211,7 @@ Items: {
 			'''
 			发射包裹迷你月光水母的泡泡
 			当泡泡破裂时，水母会被释放并追踪敌人
-			成功在计时区域击中会增加泡泡内水母的数量
+			成功在计时区域击中会提高泡泡内水母的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"月光水母之秘，你我一同守护?"
 			'''
