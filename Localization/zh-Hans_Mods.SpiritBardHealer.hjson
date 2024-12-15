@@ -1,5 +1,4 @@
 ItemDescriptions: {
-	// 电涌吉他
 	ElectricGuitar:
 		'''
 		每造成一次闪电攻击恢复1点灵感值
