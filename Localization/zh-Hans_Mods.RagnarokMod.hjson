@@ -1,27 +1,27 @@
 Buffs: {
 	AntarcticCreativityBuff: {
-		DisplayName: 南极之创想
+		DisplayName: 极地创意
 		Description: 灵感值恢复速度提高15%和增加10%音波演奏速度
 	}
 
 	AntarcticReinforcementBuff: {
-		DisplayName: 南极之援护
+		DisplayName: 极地专注
 		Description: 防御力增加8, 治疗法术会额外治疗2点生命值
 	}
 
 	AntarcticExhaustionDebuff: {
-		DisplayName: 南极之竭尽
+		DisplayName: 极地枯竭
 		Description: 你不能再次使用此增益了
 	}
 
 	GuardianHealerBeamBuff: {
-		DisplayName: 圣晶守卫的祝福
+		DisplayName: 护卫牧师祝福
 		Description: 额外降低10%伤害减免和5点生命恢复并持续20秒
 	}
 
 	UniversalBlessing: {
 		Description: Mods.RagnarokMod.Buffs.UniversalBlessing.Description
-		DisplayName: Universal Blessing
+		DisplayName: 至上祝福
 	}
 
 	ElementalScytheCooldown: {
@@ -62,12 +62,12 @@ Buffs: {
 
 Items: {
 	DrumStick: {
-		DisplayName: 野性鼓棒
-		Tooltip: 敌人是你的鼓.
+		DisplayName: 鼓槌
+		Tooltip: 你的敌人就是你的鼓
 	}
 
 	AerospecBard: {
-		DisplayName: 天蓝铲帽
+		DisplayName: 天羽兜帽
 		Tooltip:
 			'''
 			增加5%音波演奏速度和灵感值恢复速度
@@ -83,7 +83,7 @@ Items: {
 	}
 
 	AerospecHealer: {
-		DisplayName: 天蓝风帽
+		DisplayName: 天羽教士帽
 		Tooltip:
 			'''
 			降低20%非光辉伤害
@@ -111,7 +111,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			拥有狂想独奏帽/狂想启迪盔, 弑神者三角帽, 血嚎尖芒盔, 龙篙护罩的套装效果
+			拥有狂想独奏帽/狂想启迪盔, 弑神者兜帽, 血嚎尖芒盔, 龙篙魂罩的套装效果
 			按下“盔甲能力”键将触发的两个狂想套装效果
 			'''
 	}
@@ -178,18 +178,18 @@ Items: {
 			音波伤害会对敌人造成血液沸腾减益
 			创造嗜血领域，每秒回复2点，最多150点
 			达到100点时: 增加20%的光辉伤害和光辉暴击率，增加25%的移动速度和治疗法术会额外治疗3生命值
-			Additionally you get healed for a small fraction of your dealt damage造成小部分伤害获得治疗
+			造成小部分伤害获得治疗
 			被击中将失去25点
 			'''
 	}
 
 	CalamityBell: {
-		DisplayName: 灾厄之钟
+		DisplayName: 灾厄摇铃
 		Tooltip: 被击中的敌人会被硫磺火灼烧，持续2秒
 	}
 
 	DaedalusHeadBard: {
-		DisplayName: 代达罗斯头套
+		DisplayName: 代达罗斯风帽
 		Tooltip:
 			'''
 			增加12%音波伤害和5%音波暴击率
@@ -198,15 +198,15 @@ Items: {
 		SetBonus:
 			'''
 			增加10%灵感值恢复速度
-			Pressing the 'Armor Ability' key will grant you and your allies attack speed and damage I for 15 seconds
-			You also will be granted the Antarctic Creativity Buff
-			While buffed you will be granted +15% inspiration speed and 10% increased symphonic playing speed
-			Costs 12 inspiration
+			按下'盔甲能力'键将赋予你和你的盟友攻速I和伤害I
+			你将获得极地创意
+			在极地创意增幅下，增加15%灵感恢复速度和10%交响乐演奏速度提升
+			消耗12点灵感值
 			'''
 	}
 
 	DaedalusHeadHealer: {
-		DisplayName: 代达罗斯面饰
+		DisplayName: 代达罗斯面具
 		Tooltip:
 			'''
 			魔力消耗减少10%
@@ -217,14 +217,14 @@ Items: {
 		SetBonus:
 			'''
 			治疗法术会额外治疗3生命值
-			Pressing the 'Armor Ability' key will shield you for 50 life and grants you the Antarctic Reinforcement buff for 15 seconds
-			While buffed you will be granted +8 defense and your healing spells will heal for an additional 2 life
-			Costs 100 mana
+			按下'盔甲能力'键将为你提供50点护盾，并赋予你15秒的极地专注
+			极地专注期间你将获得8点防御且你的治疗法术将额外治疗2点生命
+			消耗100点魔力值
 			'''
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: 弑神者三角帽
+		DisplayName: 弑神者兜帽
 		Tooltip:
 			'''
 			增加25%音波伤害和15%音波暴击率
@@ -232,7 +232,7 @@ Items: {
 			最大灵感值增加7
 			增加15%的灵感音符掉率
 			'''
-		SetBonus: While you are holding an instrument you will apply random empowerments
+		SetBonus: 当你拿着乐器时，你会获得随机的咒音增幅
 	}
 
 	SilvaHeadHealer: {
@@ -248,10 +248,10 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Your healing spells will increased the life recovery and life recovery rate of your allies
-			Healed allies will be granted 50 more maximum health
-			Occasionally you will be blessed by heals or life shields.
-			Will trigger more frequently on low health
+			你的治疗法术将提高你的盟友的生命恢复量和生命恢复速度
+			在治疗盟友的同时提高50点最大生命值
+			有概率获得治疗或者生命护盾的祝福
+			血量越低，触发概率越高
 			'''
 	}
 
@@ -281,17 +281,17 @@ Items: {
 	}
 
 	EmpoweredGranite: {
-		DisplayName: 赋能的花岗岩{暂定}
-		Tooltip: 花岗岩充满了花岗岩风暴的能量{暂定}
+		DisplayName: 赋能花岗岩
+		Tooltip: 充斥着风暴能量的花岗岩块。
 	}
 
 	EnchantedMarble: {
-		DisplayName: 着魔的大理石{暂定}
-		Tooltip: 特殊的大理石，充满了古老又神圣的魔力。{暂定}
+		DisplayName: 魔能大理岩
+		Tooltip: 盈满了古代神圣魔法的特殊大理岩
 	}
 
 	StatigelHeadBard: {
-		DisplayName: 斯塔提斯耳帽
+		DisplayName: 斯塔提斯檐帽
 		Tooltip:
 			'''
 			增加10%音波伤害
@@ -299,17 +299,17 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
+			当你收到超过100点伤害的攻击时，获得一段较长时间的无敌。
+			增加跳跃高度，并获得一段额外的跳跃
 			增加12%跳跃速度
 			增加15%的灵感音符掉率
 			增加5%灵感值恢复速度
-			Symphonic empowerments last 2 seconds longer
+			咒音增幅将延长2秒
 			'''
 	}
 
 	StatigelHeadHealer: {
-		DisplayName: 斯塔提斯头巾
+		DisplayName: 斯塔提斯角盔
 		Tooltip:
 			'''
 			降低10%非光辉伤害
@@ -318,8 +318,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
+			当你收到超过100点伤害的攻击时，获得一段较长时间的无敌。
+			增加跳跃高度，并获得一段额外的跳跃
 			增加12%跳跃速度
 			治疗法术会额外治疗2生命值
 			最大魔力值增加20
@@ -328,7 +328,7 @@ Items: {
 	}
 
 	StriderFang: {
-		DisplayName: 遁蛛牙
+		DisplayName: 极地冰牙
 		Tooltip: 从极地遁蛛嘴里拔下来的寒冰獠牙
 	}
 
@@ -346,7 +346,7 @@ Items: {
 	}
 
 	TarragonShroud: {
-		DisplayName: 龙篙护罩
+		DisplayName: 龙篙魂罩
 		Tooltip:
 			'''
 			增加5%伤害减免
@@ -359,7 +359,7 @@ Items: {
 	}
 
 	VictideHeadHealer: {
-		DisplayName: 胜潮海绵帽
+		DisplayName: 胜潮绵帽
 		Tooltip:
 			'''
 			降低5%非光辉伤害
@@ -367,16 +367,16 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased radiant but 10% decreased non-radiant damage while submerged in liquid
-			When using any weapon you have a 10% chance to throw a returning seashell projectile
-			This seashell does true damage and does not benefit from any damage class
-			Provides increased underwater mobility and slightly reduces breath loss in the abyss
+			敌人将不太可能以你为目标
+			浸泡在液体中，增加3点生命再生，增加10%光辉伤害，降低10%非光辉伤害
+			使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕
+			贝壳造成真实伤害，不受任何职业伤害加成影响
+			提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度
 			'''
 	}
 
 	NightfallenHelmet: {
-		DisplayName: 夜幕头盔
+		DisplayName: 寂靛头盔
 		Tooltip:
 			'''
 			降低35%非光辉伤害
@@ -387,7 +387,7 @@ Items: {
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: 夜幕胸甲
+		DisplayName: 寂靛胸甲
 		Tooltip:
 			'''
 			降低45%非光辉伤害
@@ -397,7 +397,7 @@ Items: {
 	}
 
 	NightfallenGreaves: {
-		DisplayName: 夜幕护胫
+		DisplayName: 寂靛护胫
 		Tooltip:
 			'''
 			降低35%非光辉伤害
@@ -412,11 +412,11 @@ Items: {
 		Tooltip: 增加5%音波伤害
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased symphonic while submerged in liquid
-			When using any weapon you have a 10% chance to throw a returning seashell projectile
-			This seashell does true damage and does not benefit from any damage class
-			Provides increased underwater mobility and slightly reduces breath loss in the abyss
+			敌人将不太可能以你为目标
+			浸泡在液体中，增加3点生命再生，增加10%音波伤害
+			使用任何武器时都有 10% 的几率投掷回旋贝壳弹幕
+			贝壳造成真实伤害，不受任何职业伤害加成影响
+			提供更高的水下机动性，稍微减缓深渊中呼吸条消耗速度
 			'''
 	}
 
@@ -447,16 +447,16 @@ Items: {
 	InspirationEssence.DisplayName: 灵感精髓
 
 	AstralRipper: {
-		DisplayName: 星际撕裂者
+		DisplayName: 幻星镰刃
 		Tooltip: 利用星辉瘟疫向你的敌人释放地狱之雨!
 	}
 
 	RadioMic: {
-		DisplayName: Radio Mic
+		DisplayName: 无线电麦克风
 		Tooltip:
 			'''
-			The microphone of a long-dead demon. 
-			Singing into it allows the user to create shadowy tendrils that strike nearby enemies.
+			远古凋亡恶魔的麦克风
+			对着它演唱可以召唤出阴影卷须来攻击敌人
 			'''
 	}
 
@@ -481,16 +481,16 @@ Items: {
 	}
 
 	Fractal: {
-		DisplayName: Fractal
-		Tooltip: 发射一个神奇的渊海水球，然后分裂，分裂，再分裂。
+		DisplayName: 晶变流形
+		Tooltip: 发射一个不断迸射的神圣魔力星
 	}
 
 	VoidseerPearl: {
 		DisplayName: 虚兆珠
 		Tooltip:
 			'''
-			They say beauty is in the eye of the beholder.
-			I don't think they meant that literally.
+			这个美物据说来自虚空注视者的眼球里。
+			我不认为他们是字面上的意思。
 			'''
 	}
 
@@ -501,7 +501,7 @@ Items: {
 			一种美味的水母胶体。
 			可以说它可以制作海上最美味的三明治。
 			治疗50点生命值。
-			Grants Plenty Satisfied
+			获得''很满意''效果
 			'''
 	}
 
@@ -511,15 +511,15 @@ Items: {
 	}
 
 	ElysianSong: {
-		DisplayName: 极乐之声
+		DisplayName: 极乐之歌
 		Tooltip: 宛若天使手中的号角，却又差之千里......
 	}
 
 	ExecutionerMark05: {
-		DisplayName: 执行者: Mark 05
+		DisplayName: 圣裁之镰: Mark 05
 		Tooltip:
 			'''
-			.用XM-05“塔纳托斯”的核心制作的一把镰刀
+			用XM-05“塔纳托斯”的核心制作的一把镰刀
 			一开始很慢，但会不断加快速度。
 			镰刀达到最高速度，会把镰刀发射到光标所在的方向，如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
 			'''
@@ -531,16 +531,16 @@ Items: {
 	}
 
 	Splattercannon: {
-		DisplayName: Splattercannon血滴手炮
+		DisplayName: 飞溅加农
 		Tooltip:
 			'''
-			Right-Click to add 4 rounds into the chamber右键想枪械中增加4发子弹
-			Can hold a maximum of 24 rounds in the chamber最多能装24发子弹
-			Left-Click to release all rounds at once左键释放所有装填的子弹
-			Hits have a chance to release homing healing blood splatters击中敌人有概率释放追踪的{治疗血溅？占位符}
-			Shots have increased chance to release blood splatters on enemy kill
-			Bonus healing is only 50% effective while held
-			BLOOD IS FUEL.血 液 是 弹 药！
+			右键填充4发子弹
+			最多填充24发子弹
+			左键释放所有子弹
+			命中有几率释放追踪的治疗血弹
+			射击会增加击杀敌人时释放鲜血飞溅的几率
+			手持时治疗只有 50% 的效果
+			血 液 是 弹 药！
 			'''
 	}
 
@@ -560,7 +560,7 @@ Items: {
 			敲打双头鼓并对附近敌人造成伤害
 			右键释放耀斑弹
 			耀斑弹对敌人施加龙焰减益，持续3秒
-			(Credit to Aeolus)
+			(Aeolus的功劳)
 			'''
 	}
 
@@ -570,8 +570,8 @@ Items: {
 	}
 
 	EldritchShellFragment: {
-		DisplayName: Eldritch Shell Fragment怪异壳碎片
-		Tooltip: An enchanted shard from the prison of an ancient god.从旧潮汐神的监狱里取出的魔法碎片。
+		DisplayName: 诡异的贝壳碎片
+		Tooltip: 从旧潮汐神的监狱里取出的魔法碎片。
 	}
 
 	SigilOfACruelWorld: {
@@ -599,7 +599,7 @@ Items: {
 	}
 
 	GoldenBatDroppings: {
-		DisplayName: 金蝙蝠粪
+		DisplayName: 金蝙蝠粪便
 		Tooltip:
 			'''
 			"你没有疯……你真是疯了!"
@@ -610,7 +610,7 @@ Items: {
 	}
 
 	VerdurantBloom: {
-		DisplayName: Verdurant Bloom
+		DisplayName: 常春之瓣
 		Tooltip: ""
 	}
 
@@ -630,12 +630,12 @@ Items: {
 	}
 
 	PhantasmalEdge: {
-		DisplayName: 幻影镰{暂定名}
+		DisplayName: 幻影边际
 		Tooltip: ""
 	}
 
 	GodSlayersReap: {
-		DisplayName: God Slayers Reap
+		DisplayName: 弑神收割
 		Tooltip: ""
 	}
 }
@@ -702,87 +702,87 @@ Configs: {
 		Headers.BossProgressionChanges: Boss进程改变
 
 		GrandFlareGun: {
-			Label: 惊雷王鹰配方改变
+			Label: 惊雷王鹰召唤物配方改变
 			Tooltip: 辉耀信号枪和风暴信号弹需要风暴之颚，而不是鸟爪，默认为是
 		}
 
 		DesertMedallion: {
-			Label: 荒漠灾虫配方改变
+			Label: 荒漠灾虫召唤物配方改变
 			Tooltip: 在荒漠吊坠的配方增加惊雷王鹰掉落的风暴之羽，默认为是
 		}
 
 		DecapoditaSprout: {
-			Label: 菌生蟹配方改变
+			Label: 菌生蟹召唤物配方改变
 			Tooltip: 在节肢动物芽孢的配方增加惊雷王鹰掉落的风暴之羽，默认为是
 		}
 
 		MarbleGranite: {
-			Label: 花岗岩流能风暴/英灵遗骸配方改变
+			Label: 花岗岩流能风暴/英灵遗骸召唤物配方改变
 			Tooltip: 在不稳定核心和上古之剑的配方增加血液样本和德古拉之牙，默认为是
 		}
 
 		OverloadedSludge: {
-			Label: Slime God Recipe Change史莱姆之神配方改变
-			Tooltip: Changes Overloaded Sludge to use Enchanted Marble and Empowered Granite. Defaults to True
+			Label: 史莱姆之神召唤物配方改变
+			Tooltip: 在过载凝胶的配方增加赋能花岗岩和魔能大理石. 默认为是
 		}
 
 		StarCaller: {
-			Label: Star Scouter Recipe Change
-			Tooltip: Changes Star Caller to use Rotten Matter/Blood Samples. Defaults to True
+			Label: 星际监察者召唤物配方改变
+			Tooltip: 在星空召唤器的配方增加腐烂物质/血液样本. 默认为是
 		}
 
 		CryoKey: {
-			Label: Cryogen Recipe Change
-			Tooltip: Changes Cryo Key to use Strider Fangs. Defaults to True
+			Label: 极地之灵召唤物配方改变
+			Tooltip: 在极寒之匙的配方增加极地冰牙. 默认为是
 		}
 
 		MechBosses: {
-			Label: Mech Bosses Recipe Change
-			Tooltip: Changes Mechanical Eye, Worm, and Skull to each require a Strange Alien Motherboard. Defaults to True
+			Label: 机械Boss召唤物配方改变
+			Tooltip: 在机械魔眼、机械蠕虫、机械骷髅王的配方增加奇怪的外星主板. 默认为是
 		}
 
 		Lich: {
-			Label: Lich Summon Change
-			Tooltip: Changes the Ancient Phylactory to require Essence of Havoc to summon the Lich rather than pumpkins. Defaults to True
+			Label: 巫妖召唤方式改变
+			Tooltip: 需要混乱精华来召唤巫妖而不是南瓜. 默认为是
 		}
 
 		CharredIdol: {
-			Label: Brimstone Elemental Recipe Change
-			Tooltip: Changes Charred Idol to require a Voidseer's Pearl. Defaults to true
+			Label: 硫磺火元素召唤物配方改变
+			Tooltip: 在焦炭玩偶的配方增加虚兆珠. 默认为是
 		}
 
 		Seafood: {
-			Label: Aquatic Scourge Recipe Change
-			Tooltip: Changes Seafood to require Queen Jelly. Defaults to True
+			Label: 渊海灾虫召唤物配方改变
+			Tooltip: 在海鲜饵料的配方增加水母皇后胶体. 默认为是
 		}
 
 		EyeOfDesolation: {
-			Label: Calamitas Clone Recipe Change
-			Tooltip: Changes Eye of Desolation to require Voidseer's Pearl. Defaults to True
+			Label: 灾厄之影召唤物配方改变
+			Tooltip: 在荒芜之眼的配方增加虚兆珠. 默认为是
 		}
 
 		DeathWhistle: {
-			Label: Ravager Recipe Change
-			Tooltip: Changes Death Whistle to require Cursed Cloth. Defaults to True
+			Label: 毁灭魔像召唤物配方改变
+			Tooltip: 在唤死笛哨的配方增加诅咒布匹. 默认为是
 		}
 
 		DoomSayerCoin: {
-			Label: Primordials Recipe Change
-			Tooltip: Changes Doom Sayer's Coin to require Eldritch Shell Fragments and Ashes of Calamity. Defaults to True
+			Label: 始生灾灵召唤物配方改变
+			Tooltip: 在末日预言者的硬币的配方增加诡异的贝壳碎片和灾厄尘. 默认为是
 		}
 
 		RuneOfKos: {
-			Label: Providence Spawning Changes
-			Tooltip: Changes Rune Of Kos Recipe to require Divine Geodes and Primordials Essences, and makes it no longer drop from Providence. Defaults to True
+			Label: 宇宙符文获取改变
+			Tooltip: 将宇宙符文改为需要神圣晶石、狱火精华、海洋精华、死亡精华合成，并不再由亵渎神掉落. 默认为是
 		}
 	}
 
 	OtherConfig: {
-		DisplayName: Other Config
-		Headers.Other: Other Header
+		DisplayName: 其他配置
+		Headers.Other: 其他
 
 		wip: {
-			Label: wip
+			Label: 正在制作......
 			Tooltip: ""
 		}
 	}
