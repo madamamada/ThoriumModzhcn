@@ -376,7 +376,7 @@ Items: {
 	}
 
 	NightfallenHelmet: {
-		DisplayName: 寂靛头盔
+		DisplayName: 苍帷头盔
 		Tooltip:
 			'''
 			降低35%非光辉伤害
@@ -387,7 +387,7 @@ Items: {
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: 寂靛胸甲
+		DisplayName: 苍帷胸甲
 		Tooltip:
 			'''
 			降低45%非光辉伤害
@@ -397,7 +397,7 @@ Items: {
 	}
 
 	NightfallenGreaves: {
-		DisplayName: 寂靛护胫
+		DisplayName: 苍帷护胫
 		Tooltip:
 			'''
 			降低35%非光辉伤害
