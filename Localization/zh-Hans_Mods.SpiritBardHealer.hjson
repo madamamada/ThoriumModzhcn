@@ -5,23 +5,23 @@ ItemDescriptions: {
 		'摇滚宝贝,摇滚!'
 		'''
 	Ukelele: 闪电攻击有概率恢复1点灵感值
-	TerrariumParticleSprinters: 大幅度提高独立的空中能力
+	TerrariumParticleSprinters: 大幅度增加在空中的敏捷性
 	FrigidHelm:
 		'''
-		减少15%非光辉伤害
-		提高5%光辉伤害
+		降低15%非光辉伤害
+		增加5%光辉伤害
 		治疗法术会额外治疗2点生命值
 		'''
 	FrigidChestplate:
 		'''
-		减少15%非光辉伤害
-		提高10%光辉伤害
-		提高3%光辉暴击率
+		降低15%非光辉伤害
+		增加10%光辉伤害
+		增加3%光辉暴击率
 		'''
 	FrigidLegs:
 		'''
-		减少15%非光辉伤害
-		提高7%光辉伤害
+		降低15%非光辉伤害
+		增加7%光辉伤害
 		'''
 	FrigidSetBonus:
 		'''
@@ -29,16 +29,16 @@ ItemDescriptions: {
 		在接触冰墙的短时间内提高生命恢复
 		此效果有8秒冷却时间
 		'''
-	RogueHood: 提高5%投掷伤害
-	RoguePlate: 提高5%投掷暴击率
-	RoguePants: 提高5%投掷速度
+	RogueHood: 增加5%投掷伤害
+	RoguePlate: 增加5%投掷暴击率
+	RoguePants: 增加5%投掷速度
 	GraniteHelmet: "{$Mods.SpiritMod.Items.GraniteHelm.Tooltip}"
 	GraniteChestGuard: "{$Mods.SpiritMod.Items.GraniteChest.Tooltip}"
 	GraniteGreaves: "{$Mods.SpiritMod.Items.GraniteLegs.Tooltip}"
-	WayfarerHead: 提高5%灵感恢复速度和灵感音符掉率
-	WayfarerBody: 提高5%音波伤害和演奏速度
-	WayfarerLegs: 咒音增幅将延长1秒
-	WayfarerSetBonus: 从咒音中获得的移动速度效果更加强力
+	WayfarerHead: 增加5%灵感值再生速率和灵感音符掉率
+	WayfarerBody: 增加5%音波伤害和音波演奏速度
+	WayfarerLegs: 增加1秒咒音增幅的持续时间
+	WayfarerSetBonus: 咒音增幅中获得的移动速度更强
 }
 
 Items: {
@@ -76,7 +76,7 @@ Items: {
 		Tooltip:
 			'''
 			按住左键旋转由鹦鹉螺壳制作的流星锤
-			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而提高
+			松开左键以释放流星锤，投掷距离和造成的伤害由旋转的时间而增加
 			完全旋转并投掷出去会产生爆炸
 			"她在海边卖贝壳，只为了让你把不稳定的鹦鹉螺壳制成流星锤"
 			'''
@@ -195,7 +195,7 @@ Items: {
 			'''
 			玩家下落时命中敌人可以造成更高的伤害
 			满蓄力时击中物块会产生地脉巨石
-			对敌怪造成伤害会剥离它们，它们所受伤害提高10
+			对敌怪造成伤害会剥离它们，它们所受伤害增加10
 			"磁力吸引着你敌人的头骨"
 			'''
 	}
@@ -211,7 +211,7 @@ Items: {
 			'''
 			发射包裹迷你月光水母的泡泡
 			当泡泡破裂时，水母会被释放并追踪敌人
-			成功在计时区域击中会提高泡泡内水母的数量
+			成功在计时区域击中会增加泡泡内水母的数量
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"月光水母之秘，你我一同守护?"
 			'''

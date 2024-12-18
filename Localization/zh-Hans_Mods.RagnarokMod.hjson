@@ -1,21 +1,21 @@
 Buffs: {
 	AntarcticCreativityBuff: {
-		DisplayName: 极地创意
+		DisplayName: 极地创想
 		Description: 灵感值恢复速度提高15%和增加10%音波演奏速度
 	}
 
 	AntarcticReinforcementBuff: {
-		DisplayName: 极地专注
+		DisplayName: 极地援护
 		Description: 防御力增加8, 治疗法术会额外治疗2点生命值
 	}
 
 	AntarcticExhaustionDebuff: {
-		DisplayName: 极地枯竭
+		DisplayName: 极地竭尽
 		Description: 你不能再次使用此增益了
 	}
 
 	GuardianHealerBeamBuff: {
-		DisplayName: 护卫牧师祝福
+		DisplayName: 圣晶守卫的祝福
 		Description: 额外降低10%伤害减免和5点生命恢复并持续20秒
 	}
 
@@ -67,7 +67,7 @@ Items: {
 	}
 
 	AerospecBard: {
-		DisplayName: 天羽兜帽
+		DisplayName: 天蓝铲帽
 		Tooltip:
 			'''
 			增加5%音波演奏速度和灵感值恢复速度
@@ -76,14 +76,14 @@ Items: {
 		SetBonus:
 			'''
 			一次受到超过25点伤害会召唤追踪羽毛从天而降
-			提升下落速度，免疫摔落伤害
+			提高下落速度并免疫摔落伤害
 			增加6%音波伤害
 			增加7%移动速度
 			'''
 	}
 
 	AerospecHealer: {
-		DisplayName: 天羽教士帽
+		DisplayName: 天蓝风帽
 		Tooltip:
 			'''
 			降低20%非光辉伤害
@@ -93,7 +93,7 @@ Items: {
 		SetBonus:
 			'''
 			一次受到超过25点伤害会召唤追踪羽毛从天而降
-			提升下落速度，免疫摔落伤害
+			提高下落速度并免疫摔落伤害
 			治疗法术会额外治疗2点生命值
 			增加10%移动速度
 			'''
@@ -184,7 +184,7 @@ Items: {
 	}
 
 	CalamityBell: {
-		DisplayName: 灾厄摇铃
+		DisplayName: 灾厄之铃
 		Tooltip: 被击中的敌人会被硫磺火灼烧，持续2秒
 	}
 
@@ -198,9 +198,9 @@ Items: {
 		SetBonus:
 			'''
 			增加10%灵感值恢复速度
-			按下'盔甲能力'键将赋予你和你的盟友攻速I和伤害I
-			你将获得极地创意
-			在极地创意增幅下，增加15%灵感恢复速度和10%交响乐演奏速度提升
+			按下'盔甲能力'键将赋予你和你的队友攻速I和伤害I
+			你将获得极地创想
+			在极地创意增幅下，增加15%灵感恢复速度和10%音波演奏速度
 			消耗12点灵感值
 			'''
 	}
@@ -217,8 +217,8 @@ Items: {
 		SetBonus:
 			'''
 			治疗法术会额外治疗3生命值
-			按下'盔甲能力'键将为你提供50点护盾，并赋予你15秒的极地专注
-			极地专注期间你将获得8点防御且你的治疗法术将额外治疗2点生命
+			按下'盔甲能力'键将为你提供50点护盾，并赋予你15秒的极地援护
+			极地援护期间你将获得8点防御且你的治疗法术将额外治疗2点生命
 			消耗100点魔力值
 			'''
 	}
@@ -248,8 +248,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			你的治疗法术将提高你的盟友的生命恢复量和生命恢复速度
-			在治疗盟友的同时提高50点最大生命值
+			治疗法术会提升队友的生命恢复和生命恢复速度
+			在治疗队友的同时提高50点最大生命值
 			有概率获得治疗或者生命护盾的祝福
 			血量越低，触发概率越高
 			'''
@@ -328,7 +328,7 @@ Items: {
 	}
 
 	StriderFang: {
-		DisplayName: 极地冰牙
+		DisplayName: 遁蛛冰牙
 		Tooltip: 从极地遁蛛嘴里拔下来的寒冰獠牙
 	}
 
@@ -733,7 +733,7 @@ Configs: {
 
 		CryoKey: {
 			Label: 极地之灵召唤物配方改变
-			Tooltip: 在极寒之匙的配方增加极地冰牙. 默认为是
+			Tooltip: 在极寒之匙的配方增加遁蛛冰牙. 默认为是
 		}
 
 		MechBosses: {

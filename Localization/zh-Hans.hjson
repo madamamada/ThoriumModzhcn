@@ -1835,10 +1835,7 @@ Mods: {
 		Items: {
 			AbyssalShadow: {
 				DisplayName: 深渊之影
-				Tooltip:
-					'''
-					[c/70DB93:获取方式：在深海击杀虚影潜游者有概率掉落]
-					'''
+				Tooltip: "[c/70DB93:获取方式：在深海击杀虚影潜游者有概率掉落]"
 			}
 
 			AbyssalShadow2: {
@@ -1865,18 +1862,12 @@ Mods: {
 
 			ForgottenOneMask: {
 				DisplayName: 遗忘之主面具
-				Tooltip:
-					'''
-					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
-					'''
+				Tooltip: "[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]"
 			}
 
 			ForgottenOneTrophy: {
 				DisplayName: 遗忘之主纪念章
-				Tooltip:
-					'''
-					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
-					'''
+				Tooltip: "[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]"
 			}
 
 			MantisShrimpPunch: {
@@ -1900,10 +1891,7 @@ Mods: {
 
 			RlyehLostRod: {
 				DisplayName: 拉莱耶丢失的鱼竿
-				Tooltip:
-					'''
-					[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]
-					'''
+				Tooltip: "[c/70DB93:获取方式：击败遗忘之主/遗忘之主宝藏袋获得]"
 			}
 
 			SirensLyre: {
@@ -3229,7 +3217,7 @@ Mods: {
 					'''
 					你的音波伤害会短暂烧焦击中的敌怪
 					音波暴击会产生一阵熔岩音符喷发
-					[c/70DB93:获取方式：在靠近熔岩层的绯红箱或不详匣/绯红匣中获得)]
+					[c/70DB93:获取方式：在靠近熔岩层的绯红箱或不详匣/绯红匣中获得]
 					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
@@ -5775,18 +5763,18 @@ Mods: {
 			}
 
 			BloodAstronautBoots: {
-				DisplayName: 鲜血宇航员鞋子
+				DisplayName: 圣血宇航靴（wiki名鲜血宇航员鞋子）
 				Tooltip: ""
 			}
 
 			BloodAstronautHelmet: {
-				DisplayName: 鲜血宇航员头盔
+				DisplayName: 圣血宇航头盔（wiki名鲜血宇航员头盔）
 				Tooltip: ""
-				VanityConfigName: 鲜血宇航员套装
+				VanityConfigName: 圣血宇航套装（wiki名鲜血宇航员套装）
 			}
 
 			BloodAstronautSuit: {
-				DisplayName: 鲜血宇航员西服
+				DisplayName: 圣血宇航服（wiki名鲜血宇航员西服）
 				Tooltip: ""
 			}
 
@@ -7793,7 +7781,7 @@ Mods: {
 			}
 
 			YumasPendant: {
-				DisplayName: 游马的皇之键
+				DisplayName: 游马的皇之键（wiki翻译：云玛垂饰）
 				Tooltip:
 					'''
 					增加10%召唤伤害
@@ -13710,7 +13698,7 @@ Mods: {
 			}
 
 			FallingChandelier: {
-				DisplayName: 化石浴缸
+				DisplayName: 易碎吊灯
 				Tooltip: ""
 			}
 
@@ -14962,7 +14950,7 @@ Mods: {
 			}
 
 			RefinedMarineBlock: {
-				DisplayName: 精琢海洋平台
+				DisplayName: 精琢海洋块
 				Tooltip: ""
 			}
 
@@ -15503,7 +15491,7 @@ Mods: {
 			}
 
 			ThoriumBrickBlock: {
-				DisplayName: 瑟银砖
+				DisplayName: 瑟银块
 				Tooltip: ""
 			}
 
@@ -17367,7 +17355,7 @@ Mods: {
 
 			EnchantedKnife: {
 				DisplayName: 附魔飞刀
-				Tooltip: "(在地下金箱或者铁/金匣中获得)"
+				Tooltip: (在地下金箱或者铁/金匣中获得)
 			}
 
 			EvisceratingClaw: {
@@ -19873,7 +19861,7 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 击败[c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
-				Button2: 沙尘暴({^0:80 Silver;1 Gold})
+				Button2: 沙尘暴 ({^0:80 Silver;1 Gold})
 			}
 
 			DissonanceSeer: {
