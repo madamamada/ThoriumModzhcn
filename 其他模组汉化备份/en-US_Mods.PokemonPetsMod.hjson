@@ -1,0 +1,258 @@
+Buffs: {
+	ArchenBuff: {
+		DisplayName: Pet Archen
+		Description: Archen, I choose you!
+	}
+
+	MagikarpBuff: {
+		Description: Pet Magikarp
+		DisplayName: Magikarp, I choose you!
+	}
+
+	PorygonBuff: {
+		DisplayName: Pet Porygon
+		Description: Porygon, I choose you!
+	}
+
+	GlaceonBuff: {
+		DisplayName: Pet Glaceon
+		Description: Glaceon, I choose you!
+	}
+
+	HoppipBuff: {
+		DisplayName: Pet Hoppip
+		Description: Hoppip, I choose you!
+	}
+
+	GastlyBuff: {
+		DisplayName: Pet Gastly
+		Description: Gastly, I choose you!
+	}
+
+	CosmogBuff: {
+		DisplayName: Pet Cosmog
+		Description: Cosmog, I choose you!
+	}
+
+	MimikyuBuff: {
+		DisplayName: Pet Mimikyu
+		Description: Mimikyu, I choose you!
+	}
+
+	VolcaronaBuff: {
+		DisplayName: Pet Volcarona
+		Description: Volcarona, I choose you!
+	}
+}
+
+Items: {
+	ArchenItem: {
+		DisplayName: Plume Fossil
+		Tooltip: Summons a Pet Archen
+	}
+
+	MagikarpItem: {
+		DisplayName: Old Rod
+		Tooltip: Summons a Pet Magikarp
+	}
+
+	PorygonItem: {
+		DisplayName: Coin Case
+		Tooltip:
+			'''
+			Summons a Pet Porygon
+			'Filled with 9,999 coins'
+			'''
+	}
+
+	GlaceonItem: {
+		DisplayName: Ice Stone
+		Tooltip:
+			'''
+			Summons a Pet Glaceon
+			'It can make certain pokémon evolve'
+			'''
+	}
+
+	HoppipItem: {
+		DisplayName: Hoppip's Leaf
+		Tooltip: Summons a Pet Hoppip
+	}
+
+	GastlyItem: {
+		DisplayName: Spell Tag
+		Tooltip:
+			'''
+			Summons a Pet Gastly
+			'It is said to boost the power of ghosts'
+			'''
+	}
+
+	CosmogItem: {
+		DisplayName: Lillie's Bag
+		Tooltip:
+			'''
+			Summons a Pet Cosmog
+			'Back into the bag, please, Nebby!'
+			'''
+	}
+
+	MimikyuItem: {
+		DisplayName: Crooked Stick
+		Tooltip: Summons a Pet Mimikyu
+	}
+
+	VolcaronaItem: {
+		DisplayName: Larvesta's Cocoon
+		Tooltip:
+			'''
+			Summons a Pet Volcarona
+			'The embodiment of the sun'
+			'''
+	}
+}
+
+// No use changing Projectile Display Names. Players won't be able to see it during normal gameplay anyway
+Projectiles: {
+	ArchenProjectile.DisplayName: Archen Projectile
+	MagikarpProjectile.DisplayName: Magikarp Projectile
+	PorygonProjectile.DisplayName: Porygon Projectile
+	GlaceonProjectile.DisplayName: Glaceon Projectile
+	HoppipProjectile.DisplayName: Hoppip Projectile
+	GastlyProjectile.DisplayName: Gastly Projectile
+	CosmogProjectile.DisplayName: Cosmog Projectile
+	MimikyuProjectile.DisplayName: Mimikyu Projectile
+	VolcaronaProjectile.DisplayName: Volcarona Projectile
+}
+
+Configs: {
+	Config: {
+		//[i:PokemonPetsMod/CosmogItem] or [i:48] prints an emote of an item onto the label
+		
+		DisplayName: Config
+
+		Headers: {
+			PetSummonItemAcquisition: "[i:48] Pet Summon Item Acquisition"
+			PetSettings: "[i:509] Pet Settings"
+		}
+
+		CosmogToggle: {
+			Label: "[i:PokemonPetsMod/CosmogItem] Toggle Cosmog"
+			Tooltip:
+				'''
+				If enabled, Cosmog's pet summon item will become obtainable by buying it from the traveling Merchant during Hardmode
+				If Cosmog is set to be a Light Pet, the item will only be sold after Plantera has been defeated
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		ArchenToggle: {
+			Label: "[i:PokemonPetsMod/ArchenItem] Toggle Archen"
+			Tooltip:
+				'''
+				If enabled, Archen's pet summon item will become obtainable by extracting Silt, Slush or Desert Fossils
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		GlaceonToggle: {
+			Label: "[i:PokemonPetsMod/GlaceonItem] Toggle Glaceon"
+			Tooltip:
+				'''
+				If enabled, Glaceon's pet summon item will become obtainable by defeating Ice Golems
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		HoppipToggle: {
+			Label: "[i:PokemonPetsMod/HoppipItem] Toggle Hoppip"
+			Tooltip:
+				'''
+				If enabled, Hoppip's pet summon item will become obtainable by defeating Man Eaters and Angry Trappers
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		PorygonToggle: {
+			Label: "[i:PokemonPetsMod/PorygonItem] Toggle Porygon"
+			Tooltip:
+				'''
+				If enabled, Porygon's pet summon item will become obtainable by defeating Martians
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		MagikarpToggle: {
+			Label: "[i:PokemonPetsMod/MagikarpItem] Toggle Magikarp"
+			Tooltip:
+				'''
+				If enabled, Magikarp's pet summon item will become obtainable by opening wooden crates and pearlwood crates
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		GastlyToggle: {
+			Label: "[i:PokemonPetsMod/GastlyItem] Toggle Gastly"
+			Tooltip:
+				'''
+				If enabled, Gastly's pet summon item will become obtainable by defeating Reapers
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		GastlyPetSettings: {
+			Label: Gastly Pet Settings
+			Tooltip:
+				'''
+				Toggles whether Gastly should behave as a Vanity Pet or a Light Pet
+				If Gastly is set as a Light Pet, it will emit light equivalent to a Wisp in a Bottle.
+				Default is Light Pet (Recommended)
+				'''
+		}
+
+		CosmogPetSettings: {
+			Label: Cosmog Pet Settings
+			Tooltip:
+				'''
+				Toggles whether Cosmog should behave as a Vanity Pet or a Light Pet
+				If Cosmog is set as a Light Pet, it will emit light equivalent to a Wisp in a Bottle.
+				Default is Vanity Pet (Recommended)
+				'''
+		}
+
+		MimikyuToggle: {
+			Tooltip:
+				'''
+				If enabled, Mimikyu's pet summon item will become obtainable by defeating Scarecrows
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/MimikyuItem] Toggle Mimikyu"
+		}
+
+		VolcaronaToggle: {
+			Label: "[i:PokemonPetsMod/VolcaronaItem] Toggle Volcarona"
+			Tooltip:
+				'''
+				If enabled, Volcarona's pet summon item will become obtainable by defeating Red Devils
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		VolcaronaPetSettings: {
+			Label: Volcarona Pet Settings
+			Tooltip:
+				'''
+				Toggles whether Volcarona should behave as a Vanity Pet or a Light Pet
+				If Volcarona is set as a Light Pet, it will emit light slightly brighter than a Magic Lantern.
+				Default is Vanity Pet (Recommended)
+				'''
+		}
+	}
+
+	VanityPetOrLightPetEnum: {
+		// Leave tooltip Empty
+		Tooltip: ""
+		VanityPet.Label: Vanity Pet
+		LightPet.Label: Light Pet
+	}
+}
