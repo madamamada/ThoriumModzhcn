@@ -25,38 +25,38 @@ Buffs: {
 	}
 
 	ElementalScytheCooldown: {
-		DisplayName: Elemental Scythe Cooldown
-		Description: Mods.RagnarokMod.Buffs.ElementalScytheCooldown.Description
+		DisplayName: 元素收割者
+		Description: 元素收割者右键冷却时间！
 	}
 
 	ScytheAirBuff: {
-		DisplayName: Scythe Air Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheAirBuff.Description
+		DisplayName: 空气的祝福
+		Description: 增加20%移动速度和飞行时间
 	}
 
 	ScytheBrimstoneBuff: {
-		DisplayName: Scythe Brimstone Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheBrimstoneBuff.Description
+		DisplayName: 硫磺火的祝福
+		Description: 所有攻击都造成硫磺火
 	}
 
 	ScytheEarthBuff: {
-		DisplayName: Scythe Earth Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheEarthBuff.Description
+		DisplayName: 大地的祝福
+		Description: 防御力增加10
 	}
 
 	ScytheOasisBuff: {
-		DisplayName: Scythe Oasis Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheOasisBuff.Description
+		DisplayName: 绿洲的祝福
+		Description: 自然回复提高15点生命值/秒
 	}
 
 	ScytheSandBuff: {
-		DisplayName: Scythe Sand Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheSandBuff.Description
+		DisplayName: 沙的祝福
+		Description: 增加5%攻击伤害
 	}
 
 	ScytheWaterBuff: {
-		DisplayName: Scythe Water Buff
-		Description: Mods.RagnarokMod.Buffs.ScytheWaterBuff.Description
+		DisplayName: 水的祝福
+		Description: 增加5%攻击速度
 	}
 }
 
@@ -340,7 +340,7 @@ Items: {
 			降低60%非光辉伤害
 			增加40%光辉伤害，15%光辉暴击率
 			治疗法术会额外治疗6生命值
-			额外魔力值增加60
+			最大魔力值增加60
 			魔力消耗减少15%
 			'''
 	}
@@ -521,7 +521,8 @@ Items: {
 			'''
 			用XM-05“塔纳托斯”的核心制作的一把镰刀
 			一开始很慢，但会不断加快速度。
-			镰刀达到最高速度，会把镰刀发射到光标所在的方向，如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
+			镰刀达到最高速度，会把镰刀发射到光标所在的方向，
+			如果发射到敌人身上会造成爆炸圈并对周围的敌人造成伤害。
 			'''
 	}
 
@@ -611,32 +612,107 @@ Items: {
 
 	VerdurantBloom: {
 		DisplayName: 常春之瓣
-		Tooltip: ""
+		Tooltip: 点燃各种各样的花瓣。
 	}
 
 	CosmicInjector: {
 		DisplayName: 宇宙注射器
-		Tooltip: ""
+		Tooltip:
+			'''
+			注射器可以治愈也可以造成伤害
+			攻击时造成弑神怒焰减益
+			使用注射器作为弹药
+			'''
 	}
 
 	Korobeiniki: {
 		DisplayName: 俄罗斯方块
-		Tooltip: ""
+		Tooltip:
+			'''
+			一个普通的游戏机.
+			四格拼板从天而落.
+			'''
 	}
 
 	GraspofVoid: {
 		DisplayName: 虚空之握
-		Tooltip: ""
+		Tooltip: 发射暗能量并生成暗影焰。
 	}
 
 	PhantasmalEdge: {
 		DisplayName: 幻影边际
-		Tooltip: ""
+		Tooltip:
+			'''
+			旋转这把镰刀时生成跟随你的火球
+			停止旋转镰刀火球立即攻击最近的目标
+
+			右键释放钩子把敌人拉向你。
+			对BOSS不起作用，反而会把你拉向BOSS。
+			'''
 	}
 
 	GodSlayersReap: {
 		DisplayName: 弑神收割
-		Tooltip: ""
+		Tooltip:
+			'''
+			镰刀旋转时在边缘生成一个类似于小神明吞噬者的全息图。
+			受到此攻击的敌人会受到更多伤害并受到弑神怒焰减益的伤害。
+			'''
+	}
+
+	Arpeggiator: {
+		DisplayName: 琶音器
+		Tooltip: 以琶音形式快速发射的弹幕。
+	}
+
+	ElementalReaper: {
+		DisplayName: 元素收割者
+		Tooltip:
+			'''
+			旋转这把镰刀可生成追踪敌人的弹幕并造成元素谐鸣减益
+			右键给予你和你的队友一个元素祝福，持续10秒并有30秒冷却时间。
+			元素祝福如下：
+			沙: 增加5%攻击伤害
+			水: 增加5%攻击速度
+			空气: 增加20%移动速度和飞行时间
+			大地: 防御力增加10
+			绿洲: 在10秒内回复150点生命值。
+			硫磺火: 所有攻击都造成硫磺火
+			'''
+	}
+
+	MaxEmpowermentTester: {
+		DisplayName: 最大咒音增幅测试仪
+		Tooltip: 在物品中指定的级别授予所有咒音增幅
+	}
+
+	UnbreakableCombatUkulele: {
+		DisplayName: 坚不可摧的战斗尤克里里
+		Tooltip:
+			'''
+			左键播放尤克里里
+			右键投掷尤克里里
+			这可算不上一个好的道歉。
+			'''
+	}
+
+	NightmareFreezer: {
+		DisplayName: 噩梦制冷工
+		Tooltip:
+			'''
+			周期性地释放出一连串冰冷的飞镖。
+			在万圣节和圣诞节找到的。
+			嘿，你可以把它拍成电影！
+			'''
+	}
+
+	Armor: {
+		PostMoonLord: {
+			SilvaHeadHealer: {
+				DisplayName: 始源林海帽
+				Tooltip: ""
+			}
+		}
 	}
 }
 
@@ -694,6 +770,17 @@ Projectiles: {
 	PhantasmalEdgePro1.DisplayName: Phantasmal Edge Pro1
 	PhantasmalEdgeBombs.DisplayName: Phantasmal Edge Bombs
 	PhantasmalEdgeHook.DisplayName: Phantasmal Edge Hook
+	ArpeggiatorPro1.DisplayName: Arpeggiator Pro1
+	ArpeggiatorPro2.DisplayName: Arpeggiator Pro2
+	ElementalReaperPro.DisplayName: Elemental Reaper Pro
+	ElementalReaperPro2.DisplayName: Elemental Reaper Pro2
+	UnbreakableCombatUkulelePro1.DisplayName: Unbreakable Combat Ukulele Pro1
+	UnbreakableCombatUkulelePro2.DisplayName: Unbreakable Combat Ukulele Pro2
+	UnbreakableCombatUkulelePro3.DisplayName: Unbreakable Combat Ukulele Pro3
+	NightmareFreezerPro.DisplayName: Nightmare Freezer Pro
+	NightmareFreezerPro2.DisplayName: Nightmare Freezer Pro2
+	NightmareFreezerPro3.DisplayName: Nightmare Freezer Pro3
+	ElementalBuff.DisplayName: Elemental Buff
 }
 
 Configs: {

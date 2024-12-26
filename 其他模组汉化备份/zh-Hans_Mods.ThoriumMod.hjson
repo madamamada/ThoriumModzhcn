@@ -1,540 +1,564 @@
 Buffs: {
 	AssassinPotionBuff: {
-		DisplayName: Assassin
-		Description: Out of combat rogue attacks will crit for x4 damage
+		DisplayName: 刺客
+		Description: 脱战后的首次盗贼攻击必定暴击并造成4倍伤害
 	}
 
 	DeepFreezeCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Deep Freeze
-		Description: Rogue damage has a chance to significantly hinder the hit enemies movement
+		DisplayName: 盗贼武器灌注: 深度冻结
+		Description: 使用盗贼武器攻击敌人时有几率大幅度降低其移动速度
 	}
 
 	ExplosiveCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Explosive
-		Description: Rogue damage has a chance to burst, setting nearby enemies on fire
+		DisplayName: 盗贼武器灌注: 爆炸
+		Description: 使用盗贼武器攻击敌人时有几率造成爆炸, 点燃附近的敌人
 	}
 
 	GorgonCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Gorgon Blood
-		Description: Rogue damage has a chance to petrify hit enemies
+		DisplayName: 盗贼武器灌注: 石化果汁
+		Description: 使用盗贼武器攻击敌人时有几率使其石化
 	}
 
 	LichSetBuff: {
-		DisplayName: Soul Harvest
-		Description: Your movement and rogue attack speed are greatly enhanced
+		DisplayName: 灵魂收割
+		Description: 移动速度和盗贼速度大幅度增加
 	}
 
 	MyceliumVeins: {
-		DisplayName: Mycelium Veins
-		Description: Rogue attack speed increased by 10%
+		DisplayName: 真菌脉络
+		Description: 盗贼速度增加10%
 	}
 
 	NinjaBuff: {
-		DisplayName: Sleight of Hand
-		Description: Rogue weapon velocity, speed, and critical strike chance increased
+		DisplayName: 诡诈之手
+		Description: 盗贼速度、盗贼的弹幕速度和盗贼暴击率增加
 	}
 
 	SporeCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Spores
-		Description: Rogue damage has a chance to infect enemies with mycelium
+		DisplayName: 盗贼武器灌注: 孢子
+		Description: 使用盗贼武器攻击敌人时有几率使其感染
 	}
 
 	LastStandBuff: {
-		DisplayName: Last Stand
-		Description: Rogue weapon speed & damage increased by 30%, but at a price...
+		DisplayName: 背水一战
+		Description: 盗贼速度和伤害增加30%, 但代价是什么呢...
 	}
 
 	ThrowingSpeed: {
-		DisplayName: Rogue's Speed
-		Description: Your rogue attack speed has been increased by 15%
+		DisplayName: 急速爆发
+		Description: 盗贼速度增加15%
 	}
 
 	ToxicCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Toxic
-		Description: Rogue damage has a chance to poison hit enemies
+		DisplayName: 盗贼武器灌注: 剧毒
+		Description: 使用盗贼武器攻击敌人时有几率使其中毒
 	}
 
 	TrueStrike: {
-		DisplayName: True Strike
-		Description: Your damage has a 100% chance to critically strike
+		DisplayName: 弱点打击
+		Description: 你的攻击必定造成暴击
 	}
 }
 
 Items: {
 	FlightMail: {
-		DisplayName: Flight Mail
+		DisplayName: 飞羽胸甲
 		Tooltip:
 			'''
-			'The sky is your playing field'
-			10% increased rogue damage
+			'天空是你的飞行场地'
+			增加10%盗贼伤害
 			'''
 	}
 
 	FlightMask: {
-		DisplayName: Flight Hat
+		DisplayName: 飞羽帽子
 		Tooltip:
 			'''
-			'The sky is your playing field'
-			5% increased rogue damage
-			6% increased rogue critical strike chance
+			'天空是你的飞行场地'
+			增加5%盗贼伤害
+			增加6%盗贼暴击率
 			'''
 	}
 
 	TopazRing: {
-		DisplayName: Topaz Ring
-		Tooltip: Increases rogue damage by 1
+		DisplayName: 黄玉戒指
+		Tooltip: 增加1点盗贼伤害
 	}
 
 	BronzeBreastplate: {
-		DisplayName: Bronze Breastplate
-		Tooltip: 20% increased rogue damage
+		DisplayName: 青铜胸甲
+		Tooltip: 增加20%盗贼伤害
 	}
 
 	BronzeGreaves: {
-		DisplayName: Bronze Greaves
+		DisplayName: 青铜护胫
 		Tooltip:
 			'''
-			10% increased rogue speed
-			10% increased movement speed
+			增加10%盗贼速度
+			增加10%移动速度
 			'''
 	}
 
 	BronzeHelmet: {
-		DisplayName: Bronze Helmet
+		DisplayName: 青铜头盔
 		Tooltip:
 			'''
-			10% increased rogue critical strike chance
-			10% increased rogue weapon velocity
+			增加10%盗贼暴击率
+			增加10%盗贼弹幕速度
 			'''
 	}
 
 	DeepFreezeCoatingItem: {
-		DisplayName: Deep Freeze Coating
-		Tooltip: Rogue attacks will have a chance to significantly hinder the hit enemies movement
+		DisplayName: 深寒涂层
+		Tooltip: 盗贼攻击有概率显著阻碍受击敌怪的移动
 	}
 
 	ExplosiveCoatingItem: {
-		DisplayName: Explosive Coating
-		Tooltip: Rogue attacks will have a chance to burst, causing nearby enemies to melt
+		DisplayName: 爆炸涂层
+		Tooltip: 盗贼攻击有概率爆炸，熔化附近敌怪
 	}
 
 	GorgonCoatingItem: {
-		DisplayName: Gorgon Coating
-		Tooltip: Rogue attacks will have a chance to petrify enemies
+		DisplayName: 石化涂层
+		Tooltip: 盗贼攻击有概率石化敌怪
 	}
 
 	SporeCoatingItem: {
-		DisplayName: Spore Coating
-		Tooltip: Rogue attacks will have a chance to infect enemies with mycelium
+		DisplayName: 孢子涂层
+		Tooltip: 盗贼攻击有概率用真菌感染敌怪
 	}
 
 	ToxicCoatingItem: {
-		DisplayName: Toxic Coating
-		Tooltip: Rogue attacks will have a chance to poison enemies
+		DisplayName: 剧毒涂层
+		Tooltip: 盗贼攻击有概率使敌怪中毒
 	}
 
 	PlagueLordFlask: {
-		DisplayName: Plague Lord's Flask
+		DisplayName: 瘟疫之主的药剂瓶
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			10% increased rogue weapon speed
-			Using a rogue item has a 20% chance to unleash two Blight Daggers
-			Blight Daggers home in on enemies and apply a highly contagious disease
+			增加10%盗贼伤害
+			增加10%盗贼弹幕速度
+			增加10%盗贼速度
+			使用盗贼物品有20%概率释放两道枯萎飞刀
+			枯萎飞刀追踪敌怪并施加高度感染的疾病
 			'''
 	}
 
 	ShinobiSigil: {
-		DisplayName: Shinobi Sigil
+		DisplayName: 忍者魔符
 		Tooltip:
 			'''
-			6% increased rogue critical strike chance
-			Dealing two consecutive rogue attack critical strikes will discharge dark lightning and increase rogue attack speed briefly
+			增加6%盗贼暴击率
+			连续造成两次盗贼暴击会产生暗影闪电并短暂增加盗贼速度
 			'''
 	}
 
 	TideTurnerBreastplate: {
-		DisplayName: Tide Turner's Depth-Guard
+		DisplayName: 洪流逆潮者胸甲
 		Tooltip:
 			'''
-			15% increased melee & rogue damage
-			10% increased melee & rogue weapon speed
-			16% increased melee & rogue weapon critical strike chance
+			增加15%近战和盗贼伤害
+			增加10%近战和盗贼速度
+			增加16%近战和盗贼暴击率
 			'''
 	}
 
 	TideTurnerGreaves: {
-		DisplayName: Tide Turner's Depth-Walkers
+		DisplayName: 洪流逆潮者足具
 		Tooltip:
 			'''
-			10% increased melee & rogue damage
-			20% increased melee knockback & rogue weapon velocity
-			30% increased movement speed
+			增加10%近战和盗贼伤害
+			增加20%近战击退和盗贼弹幕速度
+			增加30%移动速度
 			'''
 	}
 
 	TideTurnersGaze: {
-		DisplayName: Tide Turner's Depth-Crown
+		DisplayName: 洪流逆潮者王冠
 		Tooltip:
 			'''
-			'Unleash aquatic wrath upon your foes'
-			40% increased rogue damage
-			50% chance not to consume rogue items
-			Increases your maximum technique points by 2
-			Rogue damage briefly increases the damage the enemy takes by 10%
-			Produces a floating globule every 1 second
-			Every globule makes your next attack a mini-crit, if it does not crit
+			'向你的敌人释放海洋之怒'
+			增加25%盗贼伤害
+			50%概率不消耗盗贼物品
+			最大技巧值增加2
+			盗贼伤害会使敌怪受到的伤害短暂增加10%
+			每秒钟产生一个漂浮球
+			每颗球会使你下次攻击没暴击时产生一次小暴击
 			'''
 	}
 
 	LichCarapace: {
-		DisplayName: Lich's Carapace
+		DisplayName: 巫妖皮甲
 		Tooltip:
 			'''
-			'Embrace death...'
-			20% increased rogue damage
-			30% increased rogue weapon velocity
+			'拥抱死亡……'
+			增加15%盗贼伤害
+			增加30%盗贼弹幕速度
 			'''
 	}
 
 	LichCowl: {
-		DisplayName: Lich's Cowl
+		DisplayName: 巫妖头套
 		Tooltip:
 			'''
-			'Embrace death...'
-			10% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			'拥抱死亡……'
+			增加15%盗贼伤害
+			33%概率不消耗盗贼物品
+			最大技巧值增加2
 			'''
 	}
 
 	LichTalon: {
-		DisplayName: Lich's Talons
+		DisplayName: 巫妖之爪
 		Tooltip:
 			'''
-			'Embrace death...'
-			15% increased rogue damage
-			15% increased rogue critical strike chance
+			'拥抱死亡……'
+			增加12.5%盗贼伤害
+			增加15%盗贼暴击率
 			'''
 	}
 
 	AncientHallowedGuise: {
-		DisplayName: Ancient Hallowed Guise
+		DisplayName: 远古神圣兜盔
 		Tooltip:
 			'''
-			20% increased rogue damage
-			8% increased rogue weapon speed and critical strike chance
+			增加20%盗贼伤害
+			增加8%盗贼速度和暴击率
 			'''
 	}
 
 	NinjaRack: {
-		DisplayName: Ninja Rack
-		Tooltip: Increases various rogue stats when interacted with
+		DisplayName: 忍者武器架
+		Tooltip: 与之交互时提升各种盗贼能力
 	}
 
 	SandStoneGreaves: {
-		DisplayName: Sandstone Greaves
+		DisplayName: 砂石护胫
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			3% increased movement speed
-			5% increased rogue damage
+			'被沙漠的狂风笼罩'
+			增加3%移动速度
+			增加5%盗贼伤害
 			'''
 	}
 
 	SandStoneHelmet: {
-		DisplayName: Sandstone Helmet
+		DisplayName: 砂石头盔
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			2% increased movement speed
-			5% increased rogue damage
+			'被沙漠的狂风笼罩'
+			增加2%移动速度
+			增加5%盗贼伤害
 			'''
 	}
 
 	SandstoneIngot: {
-		DisplayName: Sandstone Ingot
-		Tooltip: "'Dry and brittle, but it'll work'"
+		DisplayName: 砂石锭
+		Tooltip: "'没有任何水分且很温暖'"
 	}
 
 	SandStoneMail: {
-		DisplayName: Sandstone Mail
+		DisplayName: 砂石胸甲
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			5% increased movement speed
-			5% increased rogue damage
+			'被沙漠的狂风笼罩'
+			增加5%移动速度
+			增加5%盗贼伤害
 			'''
 	}
 
 	AssassinPotion: {
-		DisplayName: Assassin Potion
-		Tooltip: Your first rogue attack when out of combat will crit for x4 damage
+		DisplayName: 刺客药水
+		Tooltip: 脱战后的首次盗贼攻击必定暴击并造成4倍伤害
 	}
 
 	BoneGrip: {
-		DisplayName: Bone Grip
+		DisplayName: 骨手套
 		Tooltip:
 			'''
-			Picking up rogue ammunition has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			拾取盗贼物品时有33%概率复制它并增加你的盗贼速度
+			此效果只能在脱战时每半秒触发一次
 			'''
 	}
 
 	Canteen: {
-		DisplayName: Canteen
-		Tooltip: Non-consumable rogue weapons will take 40% longer to exhaust you
+		DisplayName: 水壶
+		Tooltip:
+			'''
+			非消耗性盗贼武器到达疲惫的时间延长40%
+			(骷髅王后由荒漠侍僧出售)
+			'''
 	}
 
 	CaptainsPoniard: {
-		DisplayName: Captain's Poignard
-		Tooltip: Striking enemies that are close to you increases your rogue attack speed briefly
+		DisplayName: 船长刺剑
+		Tooltip: 击中靠近你的敌怪会短暂增加你的盗贼速度
 	}
 
 	FungusGuard: {
-		DisplayName: Fungus Guard
+		DisplayName: 真菌胸甲
 		Tooltip:
 			'''
-			12% increased rogue damage
-			5% increased rogue weapon speed
+			增加12%盗贼伤害
+			增加5%盗贼速度
 			'''
 	}
 
 	FungusHat: {
-		DisplayName: Fungus Cap
+		DisplayName: 真菌帽
 		Tooltip:
 			'''
-			8% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			增加8%盗贼伤害
+			33%概率不消耗盗贼物品
+			最大技巧值增加1
 			'''
 	}
 
 	FungusLeggings: {
-		DisplayName: Fungus Leggings
+		DisplayName: 真菌护胫
 		Tooltip:
 			'''
-			10% increased rogue damage
-			5% increased rogue weapon critical strike chance
+			增加10%盗贼伤害
+			增加5%盗贼暴击率
 			'''
 	}
 
 	MagnetoGrip: {
-		DisplayName: Magneto Grip
+		DisplayName: 万磁王手套
 		Tooltip:
 			'''
-			Increases pickup range of rogue items on the ground
-			Picking up a rogue item has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			增加地面上盗贼物品的拾取范围
+			拾取盗贼物品时有33%概率复制它并增加你的盗贼速度
+			此效果只能在脱战时每半秒触发一次
 			'''
 	}
 
 	MermaidCanteen: {
-		DisplayName: Mermaid's Canteen
+		DisplayName: 美人鱼水壶
 		Tooltip:
 			'''
-			Non-consumable rogue weapons will take 60% longer to exhaust you
-			Non-consumable rogue weapons will deal up to 15% more damage the less exhausted you are
+			非消耗性盗贼武器到达疲惫的时间延长60%
+			非消耗性盗贼武器在你疲劳值越低时会至多造成15%伤害
 			'''
 	}
 
 	NinjaEmblem: {
-		DisplayName: Multiclasser's Emblem
-		Tooltip:
-			'''
-			8% increased damage
-			5% increased critical strike chance 
-			5% increased attack speed
-			'''
+		DisplayName: 忍者徽章
+		Tooltip: 增加15%盗贼伤害
 	}
 
 	OlympicTorch: {
-		DisplayName: Olympic Torch
+		DisplayName: 奥林匹克圣火
 		Tooltip:
 			'''
-			Rogue damage increases your movement speed by 1% up to 25%
-			Rogue damage increases your rogue attack speed by 0.4% up to 10%
-			These effects will fade after 3 seconds of not dealing rogue damage
+			盗贼伤害会增加你1%移动速度，至多25%
+			盗贼伤害会增加你0.4%盗贼速度，至多10%
+			这些效果在不造成盗贼伤害3秒后消散
 			'''
 	}
 
 	PaddedGrip: {
-		DisplayName: Padded Grip
+		DisplayName: 填充手套
 		Tooltip:
 			'''
-			Picking up a rogue item has a 25% chance to duplicate it
-			This effect can only trigger once every half-second while out of combat
+			拾取盗贼物品时有25%概率复制它
+			此效果只能在脱战时每半秒触发一次
+			(荒漠侍僧出售）
 			'''
 	}
 
 	PiratesPurse: {
-		DisplayName: Pirate's Purse
+		DisplayName: 海盗的钱袋子
 		Tooltip:
 			'''
-			Enemies killed by your rogue damage release a spread of damaging coins
-			Enemies damaged by the coins are gouged and drop more money on death
+			被盗贼伤害击杀的敌怪会释放一片伤害性钱币
+			被钱币伤害的敌怪会被穿刺并在死亡时掉落更多钱
 			'''
 	}
 
 	PlagueDoctorsGarb: {
-		DisplayName: Plague Doctor's Garb
+		DisplayName: 瘟疫医生外衣
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon velocity
+			'你在酿什么恶心的混合物？'
+			增加14%盗贼伤害
+			增加10%盗贼弹幕速度
 			'''
 	}
 
 	PlagueDoctorsLeggings: {
-		DisplayName: Plague Doctor's Leggings
+		DisplayName: 瘟疫医生裤
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon critical strike chance
+			'你在酿什么恶心的混合物？'
+			增加14%盗贼伤害
+			增加10%盗贼暴击率
 			'''
 	}
 
 	PlagueDoctorsMask: {
-		DisplayName: Plague Doctor's Mask
+		DisplayName: 瘟疫医生面具
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			12% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			'你在酿什么恶心的混合物？'
+			增加12%盗贼伤害
+			33%概率不消耗盗贼物品
+			最大技巧值增加1
 			'''
 	}
 
 	ShadeMasterGarb: {
-		DisplayName: Shade Master's Garb
+		DisplayName: 暗影大师装束
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			15% increased rogue damage
-			10% increased rogue weapon speed
-			30% increased rogue weapon velocity
+			'生活在暗影中并精确打击'
+			增加15%盗贼伤害
+			增加10%盗贼速度
+			增加30%盗贼弹幕速度
 			'''
 	}
 
 	ShadeMasterMask: {
-		DisplayName: Shade Master's Mask
+		DisplayName: 暗影大师面具
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			20% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			'生活在暗影中并精确打击'
+			增加15%盗贼伤害
+			33%概率不消耗盗贼物品
+			最大技巧值增加2
 			'''
 	}
 
 	ShadeMasterTreads: {
-		DisplayName: Shade Master's Treads
+		DisplayName: 暗影大师足具
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			20% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			15% increased movement speed
+			'生活在暗影中并精确打击'
+			增加12.5%盗贼伤害
+			增加20%盗贼暴击率
+			增加15%移动速度
 			'''
 	}
 
 	TechniqueBlankScroll: {
-		DisplayName: Blank Technique Scroll
+		DisplayName: 空白秘技卷轴
 		Tooltip:
 			'''
-			'Used in the crafting of unique technique abilities'
-			After activating a technique, deal rogue damage to charge technique points
-			Technique points decay over time if damage is not continually dealt
-			Press the '{$Keybinds.ThrowingTechnique.DisplayName}' key to use your active technique's ability
+			'用于制作各种独特的秘技能力'
+			激活秘技后造成盗贼伤害可以充能技巧值
+			如果未持续造成伤害技巧值会随时间衰减
+			按下“{$Keybinds.ThrowingTechnique.DisplayName}”键 使用你的秘技卷轴
+			(荒漠侍僧出售）
 			'''
 	}
 
 	ThiefsWallet: {
-		DisplayName: Thief's Wallet
-		Tooltip: Enemies killed by your rogue damage drop up to 2 additional silver coins
+		DisplayName: 窃贼的钱包
+		Tooltip:
+			'''
+			被盗贼伤害击杀的敌怪最多可以额外掉落2银币
+			(荒漠侍僧出售）
+			'''
 	}
 
 	ThrowingGuide: {
-		DisplayName: Rogue 101
-		Tooltip: 15% of your rogue damage is duplicated
+		DisplayName: 盗贼大师指南
+		Tooltip:
+			'''
+			复制15%的盗贼伤害
+			(克苏鲁之眼后，荒漠侍僧出售）
+			'''
 	}
 
 	ThrowingGuideVolume2: {
-		DisplayName: Rogue 101 : Volume II
+		DisplayName: 盗贼大师指南：卷二
 		Tooltip:
 			'''
-			10% increased rogue damage
-			20% of your rogue damage is duplicated
+			增加10%盗贼伤害
+			复制你20%的盗贼伤害
 			'''
 	}
 
 	ThrowingGuideVolume3: {
-		DisplayName: Rogue 101 : Volume III
+		DisplayName: 盗贼大师指南：卷三
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			25% of your rogue damage is duplicated
+			增加10%盗贼伤害
+			增加10%盗贼弹幕速度
+			复制你25%的盗贼伤害
 			'''
 	}
 
 	WhiteDwarfGreaves: {
-		DisplayName: White Dwarf Greaves
+		DisplayName: 白矮星护胫
 		Tooltip:
 			'''
-			20% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			20% increased movement speed
+			增加15%盗贼伤害
+			增加20%盗贼暴击率
+			增加20%移动速度
 			'''
+		SetBonus:
+			'''
+			暴击会从星宇释放象牙状火焰
+			象牙状火焰会造成被击中目标0.05%生命值的伤害
+			''' 
 	}
 
 	WhiteDwarfGuard: {
-		DisplayName: White Dwarf Guard
+		DisplayName: 白矮星胸甲
 		Tooltip:
 			'''
-			15% increased rogue damage
-			15% increased rogue weapon speed
-			30% increased rogue weapon velocity
+			增加15%盗贼伤害
+			增加15%盗贼速度
+			增加30%盗贼弹幕速度
 			'''
+		SetBonus:
+			'''
+			暴击会从星宇释放象牙状火焰
+			象牙状火焰会造成被击中目标0.05%生命值的伤害
+			''' 
 	}
 
 	WhiteDwarfMask: {
-		DisplayName: White Dwarf Mask
+		DisplayName: 白矮星面具
 		Tooltip:
 			'''
-			25% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			增加15%盗贼伤害
+			33%概率不消耗盗贼物品
+			最大技巧值增加2
 			'''
+		SetBonus:
+			'''
+			暴击会从星宇释放象牙状火焰
+			象牙状火焰会造成被击中目标0.05%生命值的伤害
+			''' 
 	}
 
 	Wreath: {
-		DisplayName: Wreath
+		DisplayName: 叶环
 		Tooltip:
 			'''
-			10% increased rogue velocity
-			10% increased movement speed while holding a rogue item
+			增加10%盗贼弹幕速度
+			手持盗贼物品时增加10%移动速度
 			'''
 	}
 }
 
-Keybinds.ThrowingTechnique.DisplayName: Rogue Technique
+Keybinds.ThrowingTechnique.DisplayName: 盗贼卷轴
 
 ThrowerTechniques: {
-	UseToEnable: Sets your active technique on use | Deal rogue damage to build points
-	UseToDisable: Technique Active | Use again to disable | Deal rogue damage to build points
-
 	LastStand: {
-		DisplayName: Last Stand
+		DisplayName: 背水一战
 		Description:
 			'''
-			Automatically triggers when you take fatal damage, granting you 8 seconds of invulnerability
-			While invulnerable, you gain {1}% rogue speed & damage but die at the end of the duration
+			受到致命伤害时自动激活，获得{0}{^0:秒;seconds}的无敌
+			无敌期间会提升自身{1}%盗贼速度和伤害但结束时会死亡
 			'''
 	}
+
+	UseToEnable: 点击使用秘技卷轴 | 造成盗贼伤害，增加秘技点
+	UseToDisable: 秘技卷轴启用 | 再次点击禁用 | 造成盗贼伤害，增加秘技点
 }
 
-Configs.ThoriumConfigClient.Headers.ThrowerOptions: 盗贼选择
+Configs.ThoriumConfigClient.Headers.ThrowerOptions: 盗贼选项
