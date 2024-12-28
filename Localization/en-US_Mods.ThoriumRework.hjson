@@ -177,6 +177,17 @@ ItemDescriptions: {
 		Critical strikes create a ring of cursed inferno
 		'''
 	DragonTalon: Attacking releases a breath of cursed inferno at the spear's tip
+	DreadRazor:
+		'''
+		Right click to release a stream of dread energy
+		Attacking automatically accumulates dread energy
+		'''
+	DemonBloodSpear:
+		'''
+		Unleash a barrage of bloody spear images every third attack
+		Dealing damage will grant you a blood charge
+		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		'''
 	PrimesFury:
 		'''
 		Every 4th attack shoots a powerful beam dealing triple damage
@@ -213,6 +224,8 @@ ItemDescriptions: {
 		When Terminal Lucidity is removed, DPS phase begins and lasts for 20 seconds
 		If Terminal Lucidity timer runs out, you will die instantly
 		Dream Eater is permanently damageable during rematch fights
+		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
+		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
 		'''
 }
 
@@ -322,7 +335,9 @@ Projectiles: {
 	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
 	DeathRain.DisplayName: Death Rain
+	DemonBloodSword.DisplayName: Demon Blood Sword
 	DragonTooth.DisplayName: Dragon Tooth
+	DreadRazor.DisplayName: Dread Razor
 	DyingReality.DisplayName: Dying Reality
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
 	EnergySurge.DisplayName: Energy Surge
@@ -525,8 +540,9 @@ Items: {
 			Shoots bats that return to you upon hitting enemies
 			Upon returning, they fill up your blood siphon by a third of the damage dealt
 			<right> to shoot bats that will home in to other players and heal them
-			This consumes 15 blood siphon points
+			This consumes 10 blood siphon points
 			Bats heal for <healAmount> life but does not trigger on-heal effects
+			Though, healing allies return some of the healer's mana
 			Blood Siphon: <bloodSiphon>
 			"A wonderful ballad of the bats"
 			'''
@@ -759,6 +775,11 @@ Configs: {
 		thorlamityBR: {
 			Label: Thorium Bosses in Calamity Boss Rush
 			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
+		}
+
+		eternityModeOnly: {
+			Label: Eternity mode only
+			Tooltip: The reworks from this mod only applies when eternity mode is active
 		}
 	}
 

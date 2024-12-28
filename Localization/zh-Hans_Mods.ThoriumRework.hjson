@@ -86,11 +86,6 @@ ItemDescriptions: {
 		攻击附近的敌人时，额外发射荧光束
 		被击中的敌人赋予荧光效果，并受到10%的伤害
 		'''
-	IllumiteScythe:
-		'''
-		对附近的敌人释放荧光刃砍
-		被击中的敌人赋予荧光效果，并受到10%的伤害
-		'''
 	CobaltPopper: 使用过程中增加防御力
 	PalladiumSubmachineGun: 使用过程中增加生命再生
 	MythrilPelter: 使用一段时间后攻击速度会翻倍
@@ -177,6 +172,17 @@ ItemDescriptions: {
 		对敌人攻击产生暴击时，从敌人身上释放多束诅咒焰
 		'''
 	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
+	DreadRazor:
+		'''
+		Right click to release a stream of dread energy
+		Attacking automatically accumulates dread energy
+		'''
+	DemonBloodSpear:
+		'''
+		Unleash a barrage of bloody spear images every third attack
+		Dealing damage will grant you a blood charge
+		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		'''
 	PrimesFury:
 		'''
 		每挥舞4次会释放红色光束并造成三倍伤害
@@ -187,18 +193,6 @@ ItemDescriptions: {
 		'''
 		挥舞两把泰坦剑
 		暴击会造成额外伤害
-		'''
-	TerrariumBomber:
-		'''
-		释放追踪的彩色导弹
-		彩色导弹攻击到到敌人时分裂成三个
-		25%概率节省弹药
-		'''
-	TerrariumPulseRifle:
-		'''
-		一次性发射四个子弹
-		将合适的弹药转换成脉冲射线，继承子弹的命中效果
-		15%概率节省弹药
 		'''
 	TerrariumSaber:
 		'''
@@ -213,6 +207,26 @@ ItemDescriptions: {
 		[c/DB7093:混乱的现实减益被移除后，进行伤害输出阶段并持续20秒]
 		[c/DB7093:如果混乱的现实减益倒计结束，你会立即死亡]
 		[c/DB7093:击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以对噬梦者造成伤害]
+		[c/DB7093:击败一次始生灾灵后，右键可直接召唤噬梦者]
+		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
+		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		'''
+	IllumiteScythe:
+		'''
+		对附近的敌人释放荧光刃砍
+		被击中的敌人赋予荧光效果，并受到10%的伤害
+		'''
+	TerrariumBomber:
+		'''
+		释放追踪的彩色导弹
+		彩色导弹攻击到到敌人时分裂成三个
+		25%概率节省弹药
+		'''
+	TerrariumPulseRifle:
+		'''
+		一次性发射四个子弹
+		将合适的弹药转换成脉冲射线，继承子弹的命中效果
+		15%概率节省弹药
 		'''
 }
 
@@ -302,7 +316,7 @@ InfernumIntros: {
 }
 
 Projectiles: {
-	AbyssalApparition.DisplayName: Abyssal Apparition
+	AbyssalApparition.DisplayName: 深渊幽灵
 	AquaiusBubble.DisplayName: 泡泡
 	AquaiusPunchAttack.DisplayName: 潮汐之手
 	AquaiusWhirlpool.DisplayName: 无尽涡流
@@ -322,7 +336,9 @@ Projectiles: {
 	DancingJellyfish.DisplayName: 跳舞水母
 	Darkness.DisplayName: 黑暗
 	DeathRain.DisplayName: 死亡之雨
+	DemonBloodSword.DisplayName: Demon Blood Sword
 	DragonTooth.DisplayName: 龙牙
+	DreadRazor.DisplayName: Dread Razor
 	DyingReality.DisplayName: 垂死现实
 	EightNote.DisplayName: "{$ProjectileName.EightNote}"
 	EnergySurge.DisplayName: 能量脉搏
@@ -381,12 +397,11 @@ Projectiles: {
 	ShellxophoneRipple.DisplayName: Aquatic Ripple
 	ShellxophoneStrike.DisplayName: Abyssal Strike
 	SoulBleed.DisplayName: Soul Bleed
+	SoulRender.DisplayName: 灵魂镰刃
 	StableRealityRift.DisplayName: 稳定的现实裂隙
 	StarCore.DisplayName: Star Core
 	StellarTune.DisplayName: "{$ProjectileName.SparkleGuitar}"
 	Stuff.DisplayName: 法杖
-	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
-	SoulRender.DisplayName: 灵魂镰刃
 	TerrariumSaber.DisplayName: 元素圣剑
 	TideDagger.DisplayName: 水刃暴雨
 	TiedEightNote.DisplayName: "{$ProjectileName.TiedEightNote}"
@@ -404,7 +419,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: 注视者之刃
 	ZephyrFeather.DisplayName: 西风之羽
 	ZephyrsRuin.DisplayName: 西风残垣
-	AbyssalApparition.DisplayName: 深渊幽灵
+	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
 }
 
 Items: {
@@ -526,8 +541,9 @@ Items: {
 			释放蝙蝠攻击敌人，蝙蝠会回到你身边
 			蝙蝠造成的1/3伤害用来恢复吸血值
 			右键释放蝙蝠，蝙蝠会追踪并治愈其他玩家
-			每次消耗15点吸血值
+			每次消耗10点吸血值
 			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
+			Though, healing allies return some of the healer's mana
 			吸血值: <bloodSiphon>
 			"蝙蝠的美妙歌谣"
 			'''
@@ -762,6 +778,11 @@ Configs: {
 		thorlamityBR: {
 			Label: 瑟银boss加入灾厄bossrush
 			Tooltip: 瑟银boss加入灾厄bossrush，根据适当的阶级排序
+		}
+
+		eternityModeOnly: {
+			Label: Eternity mode only
+			Tooltip: The reworks from this mod only applies when eternity mode is active
 		}
 	}
 

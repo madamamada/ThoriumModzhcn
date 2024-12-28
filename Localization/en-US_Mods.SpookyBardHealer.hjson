@@ -33,6 +33,18 @@ Items: {
 			'''
 	}
 
+	CandleCove: {
+		DisplayName: Candle Cove
+		Tooltip:
+			'''
+			Every now and then, a strange whirlpool appears near you
+			Throwing throwing weapons into the hole will fill it up
+			Once filled up, the whirlpool will collapse and a storm will occur
+			The storm is independent of weather and deals damage to enemies
+			After the storm, whirlpools will not spawn for 15 seconds
+			'''
+	}
+
 	Colonoschord: {
 		DisplayName: Colonoschord
 		Tooltip:
@@ -42,6 +54,17 @@ Items: {
 			Shoots out tapeworms that bounce and pierce
 			Tapeworms can hit the same enemy multiple times
 			"Go Go Gadget, Colonoscopy!"
+			'''
+	}
+
+	CursedCassette: {
+		DisplayName: Cursed Cassette
+		Tooltip:
+			'''
+			Upon running out of inspiration, a dark spirit spawns on top of you
+			The spirit will shoot cursed notes at enemies that bounce around
+			The spirit will shoot faster the higher your inspiration regeneration
+			Cursed notes are affected by wind and string instrument bonuses
 			'''
 	}
 
@@ -67,6 +90,17 @@ Items: {
 			'''
 	}
 
+	FacundoYPanfilo: {
+		DisplayName: Panfilo & Facundo
+		Tooltip:
+			'''
+			Throw two sentient twin heads that latch onto enemies
+			When one head is latched, it will drag the other
+			Each head will chew on the target 7 times before dying
+			"¡Es tremenda lucha!"
+			'''
+	}
+
 	GastricJuices: {
 		DisplayName: Gastric Juices
 		Tooltip:
@@ -77,6 +111,27 @@ Items: {
 			Puddles can be picked up by players to gain the Acid Reflux buff
 			Acid Reflux increases damage by 10% and armor penetration by 10
 			Puddles also heal allies but does not trigger on-heal effects
+			'''
+	}
+
+	GoreEarVisor: {
+		DisplayName: Gore Visor
+		Tooltip:
+			'''
+			10% increased symphonic damage
+			20% increased healing and symphonic playing speed
+			15% increased inspiration regeneration rate
+			Enemies are less likely to target you
+			"I'm all ears"
+			'''
+		SetBonus:
+			'''
+			Healing spells heal an additional 6 life
+			Increases the duration of your symphonic empowerments by 8 seconds
+			Press 'Armor Ability' key to summon a swarm of ear worms
+			Ear worms home into enemies and replenish player resources at a fixed amount
+			Player resources include life, mana, inspiration and exhaustion
+			60 second cooldown
 			'''
 	}
 
@@ -109,6 +164,7 @@ Items: {
 			20% increased healing and symphonic playing speed
 			15% increased inspiration regeneration rate
 			Enemies are less likely to target you
+			(Old Gore Visor design)
 			'''
 		SetBonus:
 			'''
@@ -140,6 +196,17 @@ Items: {
 			Throw a vocal chord that vibrates in place on impact
 			Critical strikes cause Larry to emit shockwaves
 			Tunes enemies, causing them to take 10% more damage
+			'''
+	}
+
+	LeakingInkPipe: {
+		DisplayName: Leaking Ink Pipe
+		Tooltip:
+			'''
+			Upon running out of inspiration, your bard weapons will leak ink
+			The stream of leaking ink is affected by your held weapon's stats
+			Additionally, enemies splashed by ink take increased fire damage
+			"We can rebuild it"
 			'''
 	}
 
@@ -185,9 +252,25 @@ Items: {
 		Tooltip: '''"Doubles as a walking stick"'''
 	}
 
+	OldWoodWhistle: {
+		DisplayName: Old Wood Whistle
+		Tooltip: '''"Great for scaring away trick or treaters!"'''
+	}
+
 	Olfactor: {
 		DisplayName: Olfactor
 		Tooltip: Shoots snot at nearby enemies
+	}
+
+	OmenoftheDamned: {
+		DisplayName: Omen of the Damned
+		Tooltip:
+			'''
+			Hold down to pull back the slingshot, then release to fling ammo
+			Converts mossy pebbles into a barrage of the angry souls of the damned
+			Shoots more souls the further the weapon is pulled back
+			'If you believe your weapon can cause mass extinction, then so it will'
+			'''
 	}
 
 	Orriata: {
@@ -324,6 +407,15 @@ Items: {
 			'''
 	}
 
+	TerrariumParticleAccelerator: {
+		DisplayName: Terrarium Particle Accelerator
+		Tooltip:
+			'''
+			Hold down to pull back the slingshot, then release to fling ammo
+			Converts mossy pebbles into hyper-accelerated particles that split on impact
+			'''
+	}
+
 	ToothRusher: {
 		DisplayName: Tooth Rusher
 		Tooltip:
@@ -354,7 +446,11 @@ Projectiles: {
 	BigBrother.DisplayName: Big Brother
 	BloodExplosion.DisplayName: Blood Explosion
 	BloomRazor.DisplayName: Bloom Razor
+	CandleCoveHole.DisplayName: Candle Cove
+	CandleCoveRain.DisplayName: Candle Cove
+	CandleCoveStorm.DisplayName: Candle Cove
 	Colonoschord.DisplayName: Colonoschord
+	CursedNote.DisplayName: Cursed Note
 	Dandelizer.DisplayName: Dandelizer
 	DandelizerHeal.DisplayName: Dandelizer
 	ForbiddenCrucifix.DisplayName: Forbidden Crucifix
@@ -364,9 +460,11 @@ Projectiles: {
 	GastricJuices.DisplayName: Gastric Juices
 	Gourdnade.DisplayName: Gourdnade
 	GourdnadeFly.DisplayName: Gourdnade
+	FacundoYPanfilo.DisplayName: Panfilo & Facundo
 	LarrytheLarynx.DisplayName: Larry the Larynx
 	LarryVoiceCrack.DisplayName: Larry's Voice Crack
-	LeechHealing.DisplayName: Leech Healing
+	LeakingInk.DisplayName: Leaking Ink
+	LeechHealing.DisplayName: Ear Worm Healing
 	LickguaFranca.DisplayName: Lickgua Franca
 	LickguaSaliva.DisplayName: Lickgua Saliva
 	ManlessHorseHead.DisplayName: Manless Horse Head
@@ -376,8 +474,9 @@ Projectiles: {
 	OldWoodBaton.DisplayName: Old Wood Baton
 	Olfactor.DisplayName: Olfactor
 	OlfactorySnot.DisplayName: Olfactory Discharge
+	OmenoftheDamned.DisplayName: Omen of the Damned
 	Orriata.DisplayName: Orriata
-	OrroBoroLeech.DisplayName: Leech
+	OrroBoroLeech.DisplayName: Ear Worm
 	PinkyCross.DisplayName: Pinky Cross
 	PotofPain.DisplayName: Pot of Pain
 	Pumpkaracas.DisplayName: Pumpkaracas
@@ -388,12 +487,16 @@ Projectiles: {
 	SceyetheEye.DisplayName: Sceyethe
 	ScreamWhistle.DisplayName: Scream
 	Sclerinet.DisplayName: Sclerinet
+	SerSemisonic.DisplayName: Ser Semisonic
 	Sneezoo.DisplayName: Sneezoo
 	SongFlowerFlower.DisplayName: Song Flower
 	SongFlowerPetal.DisplayName: Song Flower Petal
+	SouloftheDamned.DisplayName: Soul of the Damned
 	SubclavianTrumpet.DisplayName: Subclavian Trumpet
 	Tapeworm.DisplayName: Tapeworm
 	TendrilRoseSanguine.DisplayName: Tendril Rose Sanguine
+	TerrariumAcceleratedParticle.DisplayName: Terrarium Accelerated Particle
+	TerrariumParticleAccelerator.DisplayName: Terrarium Particle Accelerator
 	ToothRusher.DisplayName: Tooth Rusher
 	VaryingBones.DisplayName: Varying Bones
 	VerbalFire.DisplayName: Verbal Fire
@@ -416,6 +519,11 @@ Buffs: {
 		Description: Can't catch them hands for a while...
 	}
 
+	InkLeaking: {
+		DisplayName: Ink Leaking
+		Description: Your instruments are leaking ink!
+	}
+
 	OrroBoroLeechCooldown: {
 		DisplayName: Leech Swarm Cooldown
 		Description: No Leeches?
@@ -424,6 +532,16 @@ Buffs: {
 	Ulcer: {
 		DisplayName: Ulcer
 		Description: It Burns!
+	}
+
+	SerSemisonic: {
+		DisplayName: Ser Semisonic
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description
+	}
+
+	SerSemisonicCooldown: {
+		DisplayName: Ser Semisonic Cooldown
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
 	}
 }
 

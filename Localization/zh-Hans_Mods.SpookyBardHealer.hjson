@@ -33,6 +33,18 @@ Items: {
 			'''
 	}
 
+	CandleCove: {
+		DisplayName: Candle Cove
+		Tooltip:
+			'''
+			Every now and then, a strange whirlpool appears near you
+			Throwing throwing weapons into the hole will fill it up
+			Once filled up, the whirlpool will collapse and a storm will occur
+			The storm is independent of weather and deals damage to enemies
+			After the storm, whirlpools will not spawn for 15 seconds
+			'''
+	}
+
 	Colonoschord: {
 		DisplayName: 断肠琴
 		Tooltip:
@@ -42,6 +54,17 @@ Items: {
 			释放可弹跳和穿透敌人的绦虫
 			绦虫可以多次攻击同一个敌人
 			"去吧小东西，给他们做个结肠镜！"
+			'''
+	}
+
+	CursedCassette: {
+		DisplayName: Cursed Cassette
+		Tooltip:
+			'''
+			Upon running out of inspiration, a dark spirit spawns on top of you
+			The spirit will shoot cursed notes at enemies that bounce around
+			The spirit will shoot faster the higher your inspiration regeneration
+			Cursed notes are affected by wind and string instrument bonuses
 			'''
 	}
 
@@ -67,6 +90,17 @@ Items: {
 			'''
 	}
 
+	FacundoYPanfilo: {
+		DisplayName: Panfilo & Facundo
+		Tooltip:
+			'''
+			Throw two sentient twin heads that latch onto enemies
+			When one head is latched, it will drag the other
+			Each head will chew on the target 7 times before dying
+			"¡Es tremenda lucha!"
+			'''
+	}
+
 	GastricJuices: {
 		DisplayName: 胃液
 		Tooltip:
@@ -77,6 +111,27 @@ Items: {
 			玩家捡起酸液洼会获得胃酸逆流增益
 			胃酸逆流会增加10%伤害与护甲穿透增加10
 			拾起酸液洼也能治疗玩家与队友，但不能触发其他治疗物品的治疗效果
+			'''
+	}
+
+	GoreEarVisor: {
+		DisplayName: Gore Visor
+		Tooltip:
+			'''
+			10% increased symphonic damage
+			20% increased healing and symphonic playing speed
+			15% increased inspiration regeneration rate
+			Enemies are less likely to target you
+			"I'm all ears"
+			'''
+		SetBonus:
+			'''
+			Healing spells heal an additional 6 life
+			Increases the duration of your symphonic empowerments by 8 seconds
+			Press 'Armor Ability' key to summon a swarm of ear worms
+			Ear worms home into enemies and replenish player resources at a fixed amount
+			Player resources include life, mana, inspiration and exhaustion
+			60 second cooldown
 			'''
 	}
 
@@ -109,6 +164,7 @@ Items: {
 			增加20%治疗与演奏速度
 			增加15%灵感恢复速度
 			敌人不太可能以你为目标
+			(Old Gore Visor design)
 			'''
 		SetBonus:
 			'''
@@ -140,6 +196,17 @@ Items: {
 			投掷在受到冲击时振动到位的声带
 			暴击时会使拉里会发出冲击波
 			调谐敌人，使他们多受10%的伤害
+			'''
+	}
+
+	LeakingInkPipe: {
+		DisplayName: Leaking Ink Pipe
+		Tooltip:
+			'''
+			Upon running out of inspiration, your bard weapons will leak ink
+			The stream of leaking ink is affected by your held weapon's stats
+			Additionally, enemies splashed by ink take increased fire damage
+			"We can rebuild it"
 			'''
 	}
 
@@ -185,9 +252,25 @@ Items: {
 		Tooltip: '''"也可以当拐杖"'''
 	}
 
+	OldWoodWhistle: {
+		DisplayName: Old Wood Whistle
+		Tooltip: '''"Great for scaring away trick or treaters!"'''
+	}
+
 	Olfactor: {
 		DisplayName: 嗅觉
 		Tooltip: 向附近的敌人发射鼻涕
+	}
+
+	OmenoftheDamned: {
+		DisplayName: Omen of the Damned
+		Tooltip:
+			'''
+			Hold down to pull back the slingshot, then release to fling ammo
+			Converts mossy pebbles into a barrage of the angry souls of the damned
+			Shoots more souls the further the weapon is pulled back
+			'If you believe your weapon can cause mass extinction, then so it will'
+			'''
 	}
 
 	Orriata: {
@@ -324,6 +407,15 @@ Items: {
 			'''
 	}
 
+	TerrariumParticleAccelerator: {
+		DisplayName: Terrarium Particle Accelerator
+		Tooltip:
+			'''
+			Hold down to pull back the slingshot, then release to fling ammo
+			Converts mossy pebbles into hyper-accelerated particles that split on impact
+			'''
+	}
+
 	ToothRusher: {
 		DisplayName: 尖牙猛攻斧
 		Tooltip:
@@ -355,7 +447,11 @@ Projectiles: {
 	BigBrother.DisplayName: Big Brother
 	BloodExplosion.DisplayName: Blood Explosion
 	BloomRazor.DisplayName: Bloom Razor
+	CandleCoveHole.DisplayName: Candle Cove
+	CandleCoveRain.DisplayName: Candle Cove
+	CandleCoveStorm.DisplayName: Candle Cove
 	Colonoschord.DisplayName: Colonoschord
+	CursedNote.DisplayName: Cursed Note
 	Dandelizer.DisplayName: Dandelizer
 	DandelizerHeal.DisplayName: Dandelizer
 	ForbiddenCrucifix.DisplayName: Forbidden Crucifix
@@ -365,9 +461,11 @@ Projectiles: {
 	GastricJuices.DisplayName: Gastric Juices
 	Gourdnade.DisplayName: Gourdnade
 	GourdnadeFly.DisplayName: Gourdnade
+	FacundoYPanfilo.DisplayName: Panfilo & Facundo
 	LarrytheLarynx.DisplayName: Larry the Larynx
 	LarryVoiceCrack.DisplayName: Larry's Voice Crack
-	LeechHealing.DisplayName: Leech Healing
+	LeakingInk.DisplayName: Leaking Ink
+	LeechHealing.DisplayName: Ear Worm Healing
 	LickguaFranca.DisplayName: Lickgua Franca
 	LickguaSaliva.DisplayName: Lickgua Saliva
 	ManlessHorseHead.DisplayName: Manless Horse Head
@@ -377,8 +475,9 @@ Projectiles: {
 	OldWoodBaton.DisplayName: Old Wood Baton
 	Olfactor.DisplayName: Olfactor
 	OlfactorySnot.DisplayName: Olfactory Discharge
+	OmenoftheDamned.DisplayName: Omen of the Damned
 	Orriata.DisplayName: Orriata
-	OrroBoroLeech.DisplayName: Leech
+	OrroBoroLeech.DisplayName: Ear Worm
 	PinkyCross.DisplayName: Pinky Cross
 	PotofPain.DisplayName: Pot of Pain
 	Pumpkaracas.DisplayName: Pumpkaracas
@@ -389,12 +488,16 @@ Projectiles: {
 	SceyetheEye.DisplayName: Sceyethe
 	ScreamWhistle.DisplayName: Scream
 	Sclerinet.DisplayName: Sclerinet
+	SerSemisonic.DisplayName: Ser Semisonic
 	Sneezoo.DisplayName: Sneezoo
 	SongFlowerFlower.DisplayName: Song Flower
 	SongFlowerPetal.DisplayName: Song Flower Petal
+	SouloftheDamned.DisplayName: Soul of the Damned
 	SubclavianTrumpet.DisplayName: Subclavian Trumpet
 	Tapeworm.DisplayName: Tapeworm
 	TendrilRoseSanguine.DisplayName: Tendril Rose Sanguine
+	TerrariumAcceleratedParticle.DisplayName: Terrarium Accelerated Particle
+	TerrariumParticleAccelerator.DisplayName: Terrarium Particle Accelerator
 	ToothRusher.DisplayName: Tooth Rusher
 	VaryingBones.DisplayName: Varying Bones
 	VerbalFire.DisplayName: Verbal Fire
@@ -405,7 +508,6 @@ Buffs: {
 	AcidReflux: {
 		DisplayName: 胃酸逆流
 		Description: 增加10%伤害 和护甲穿透增加10
-
 	}
 
 	GourdGuarded: {
@@ -418,6 +520,11 @@ Buffs: {
 		Description: 大手暂时抓不住他们……
 	}
 
+	InkLeaking: {
+		DisplayName: Ink Leaking
+		Description: Your instruments are leaking ink!
+	}
+
 	OrroBoroLeechCooldown: {
 		DisplayName: 水蛭冷却时间
 		Description: 没有蚂蟥吗?
@@ -426,6 +533,16 @@ Buffs: {
 	Ulcer: {
 		DisplayName: 溃疡
 		Description: 它在燃烧!
+	}
+
+	SerSemisonic: {
+		DisplayName: Ser Semisonic
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description
+	}
+
+	SerSemisonicCooldown: {
+		DisplayName: Ser Semisonic Cooldown
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
 	}
 }
 
