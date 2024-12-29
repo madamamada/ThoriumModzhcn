@@ -174,14 +174,14 @@ ItemDescriptions: {
 	DragonTalon: 攻击用诅咒焰束点燃受击敌怪
 	DreadRazor:
 		'''
-		Right click to release a stream of dread energy
-		Attacking automatically accumulates dread energy
+		右键释放一股恐惧能量
+		攻击时可以积攒恐惧能量
 		'''
 	DemonBloodSpear:
 		'''
-		Unleash a barrage of bloody spear images every third attack
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		每三次攻击释放一组幻影血矛
+		造成伤害会提供鲜血充能
+		处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
 		'''
 	PrimesFury:
 		'''
@@ -208,8 +208,8 @@ ItemDescriptions: {
 		[c/DB7093:如果混乱的现实减益倒计结束，你会立即死亡]
 		[c/DB7093:击败一次始生灾灵后，拥有混乱的现实减益不需要触碰到紫色法阵，也可以对噬梦者造成伤害]
 		[c/DB7093:击败一次始生灾灵后，右键可直接召唤噬梦者]
-		If Dream Eater has been beaten at least once, Right Click this item to summon it directly
-		Additionally, if the Primordials were alive when this is right-clicked, they are despawned
+		如果噬梦者已被击败，右键可以直接召唤噬梦者
+		此外，始生灾灵在场时，右键会使其消失
 		'''
 	IllumiteScythe:
 		'''
@@ -419,7 +419,7 @@ Projectiles: {
 	VoidEyeF.DisplayName: 注视者之刃
 	ZephyrFeather.DisplayName: 西风之羽
 	ZephyrsRuin.DisplayName: 西风残垣
-	TerrariumPulseRay.DisplayName: Terrarium Pulse Ray
+	TerrariumPulseRay.DisplayName: 元素脉冲射线
 }
 
 Items: {
@@ -781,8 +781,8 @@ Configs: {
 		}
 
 		eternityModeOnly: {
-			Label: Eternity mode only
-			Tooltip: The reworks from this mod only applies when eternity mode is active
+			Label: 仅限永恒模式
+			Tooltip: 本mod的这些内容重做只有在永恒模式开启时才生效
 		}
 	}
 
