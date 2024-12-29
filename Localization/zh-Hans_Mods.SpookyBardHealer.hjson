@@ -34,14 +34,14 @@ Items: {
 	}
 
 	CandleCove: {
-		DisplayName: Candle Cove
+		DisplayName: Candle Cove蜡烛湾
 		Tooltip:
 			'''
-			Every now and then, a strange whirlpool appears near you
-			Throwing throwing weapons into the hole will fill it up
-			Once filled up, the whirlpool will collapse and a storm will occur
-			The storm is independent of weather and deals damage to enemies
-			After the storm, whirlpools will not spawn for 15 seconds
+			Every now and then, a strange whirlpool appears near you随机在玩家身边生成奇怪的漩涡
+			Throwing throwing weapons into the hole will fill it up投手武器扔进漩涡里就可以把漩涡填满
+			Once filled up, the whirlpool will collapse and a storm will occur被填满后漩涡会崩溃暴雨也随之发生
+			The storm is independent of weather and deals damage to enemies暴雨不会改变天气影响并对敌人造成伤害
+			After the storm, whirlpools will not spawn for 15 seconds暴雨过后，漩涡在15秒内不会产生
 			'''
 	}
 
@@ -58,13 +58,14 @@ Items: {
 	}
 
 	CursedCassette: {
-		DisplayName: Cursed Cassette
+		DisplayName: Cursed Cassette诅咒磁带
 		Tooltip:
 			'''
-			Upon running out of inspiration, a dark spirit spawns on top of you
-			The spirit will shoot cursed notes at enemies that bounce around
-			The spirit will shoot faster the higher your inspiration regeneration
-			Cursed notes are affected by wind and string instrument bonuses
+			Upon running out of inspiration, a dark spirit spawns on top of you灵感值耗尽时，暗黑灵魂会在玩家身上滋生
+			The spirit will shoot cursed notes at enemies that bounce around暗黑灵魂会向光标处射出可反弹的诅咒音符
+			The spirit will shoot faster the higher your inspiration regeneration灵感再生率得越高，暗黑灵魂就会射得越快
+			Cursed notes are affected by wind and string instrument bonuses诅咒音符受到管乐器和弦乐器加成的影响
+			诅咒灵魂存在10秒，有30秒的冷却时间
 			'''
 	}
 
@@ -94,10 +95,10 @@ Items: {
 		DisplayName: Panfilo & Facundo
 		Tooltip:
 			'''
-			Throw two sentient twin heads that latch onto enemies
-			When one head is latched, it will drag the other
-			Each head will chew on the target 7 times before dying
-			"¡Es tremenda lucha!"
+			Throw two sentient twin heads that latch onto enemies投掷两个能抓住敌人且有知觉的孪生头
+			When one head is latched, it will drag the other当一个头部被固定时，固定一方会拖动另一个
+			Each head will chew on the target 7 times before dying孪生头在消失前会咀嚼目标7次
+			"¡Es tremenda lucha!"太棒了！
 			'''
 	}
 
@@ -115,23 +116,23 @@ Items: {
 	}
 
 	GoreEarVisor: {
-		DisplayName: Gore Visor
+		DisplayName: Gore Visor血尸帽檐
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			20% increased healing and symphonic playing speed
-			15% increased inspiration regeneration rate
-			Enemies are less likely to target you
-			"I'm all ears"
+			增加10%的音波伤害
+			增加20%的光辉治愈速度和音波演奏速度
+			增加15%的灵感值恢复速度
+			敌人不太可能以你为目标
+			"洗耳恭听"
 			'''
 		SetBonus:
 			'''
-			Healing spells heal an additional 6 life
-			Increases the duration of your symphonic empowerments by 8 seconds
+			治疗法术会额外治疗6生命值
+			咒音增幅持续时间延长8秒
 			Press 'Armor Ability' key to summon a swarm of ear worms
 			Ear worms home into enemies and replenish player resources at a fixed amount
 			Player resources include life, mana, inspiration and exhaustion
-			60 second cooldown
+			有60秒冷却时间
 			'''
 	}
 
@@ -160,16 +161,16 @@ Items: {
 		DisplayName: 血尸礼帽
 		Tooltip:
 			'''
-			增加10%音波伤害
-			增加20%治疗与演奏速度
-			增加15%灵感恢复速度
+			增加10%的音波伤害
+			增加20%的光辉治愈速度和音波演奏速度
+			增加15%的灵感值恢复速度
 			敌人不太可能以你为目标
-			(Old Gore Visor design)
+			(旧版血尸帽檐设计)
 			'''
 		SetBonus:
 			'''
-			治疗法术额外治疗6点生命值
-			咒音增幅时间增加8
+			治疗法术会额外治疗6生命值
+			咒音增幅持续时间延长8秒
 			按下“盔甲能力”键会召唤一群像是迷你噬尾双蛇的水蛭
 			水蛭会追踪敌人并给玩家补充固定数值的资源
 			资源包括生命值、魔力值、灵感值与疲劳值
@@ -190,7 +191,7 @@ Items: {
 	}
 
 	LarrytheLarynx: {
-		DisplayName: 拉里之喉（来自模组作者的翻译）
+		DisplayName: 拉里之喉
 		Tooltip:
 			'''
 			投掷在受到冲击时振动到位的声带
@@ -200,13 +201,13 @@ Items: {
 	}
 
 	LeakingInkPipe: {
-		DisplayName: Leaking Ink Pipe
+		DisplayName: Leaking Ink Pipe漏墨管
 		Tooltip:
 			'''
-			Upon running out of inspiration, your bard weapons will leak ink
-			The stream of leaking ink is affected by your held weapon's stats
-			Additionally, enemies splashed by ink take increased fire damage
-			"We can rebuild it"
+			Upon running out of inspiration, your bard weapons will leak ink灵感值耗尽时，吟游诗人武器会喷出墨汁
+			The stream of leaking ink is affected by your held weapon's stats喷出的墨汁流受到你持有的武器属性的影响
+			Additionally, enemies splashed by ink take increased fire damage另外，墨水溅到的敌人身上会受到更多的火焰伤害
+			"We can rebuild it"我们可以重做它
 			'''
 	}
 
@@ -253,8 +254,8 @@ Items: {
 	}
 
 	OldWoodWhistle: {
-		DisplayName: Old Wood Whistle
-		Tooltip: '''"Great for scaring away trick or treaters!"'''
+		DisplayName: 老木哨
+		Tooltip: '''"很适合吓走不给糖就捣蛋的人!"'''
 	}
 
 	Olfactor: {
@@ -263,7 +264,7 @@ Items: {
 	}
 
 	OmenoftheDamned: {
-		DisplayName: Omen of the Damned
+		DisplayName: Omen of the Damned诅咒的预兆
 		Tooltip:
 			'''
 			Hold down to pull back the slingshot, then release to fling ammo
@@ -536,13 +537,13 @@ Buffs: {
 	}
 
 	SerSemisonic: {
-		DisplayName: Ser Semisonic
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description
+		DisplayName: Ser Semisonic诅咒灵魂（暂定名）
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description（此物有10秒的时间）
 	}
 
 	SerSemisonicCooldown: {
-		DisplayName: Ser Semisonic Cooldown
-		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
+		DisplayName: Ser Semisonic Cooldown诅咒灵魂冷却时间（暂定名）
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description（此物有30秒的冷却时间）
 	}
 }
 
