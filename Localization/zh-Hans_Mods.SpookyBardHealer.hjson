@@ -34,14 +34,14 @@ Items: {
 	}
 
 	CandleCove: {
-		DisplayName: Candle Cove蜡烛湾
+		DisplayName: 蜡烛湾
 		Tooltip:
 			'''
-			Every now and then, a strange whirlpool appears near you随机在玩家身边生成奇怪的漩涡
-			Throwing throwing weapons into the hole will fill it up向漩涡中投掷投手武器会将漩涡填满
-			Once filled up, the whirlpool will collapse and a storm will occur漩涡被填满后会消失并产生暴雨
-			The storm is independent of weather and deals damage to enemies暴雨无视天气情况，会对敌人造成伤害
-			After the storm, whirlpools will not spawn for 15 seconds漩涡在暴雨过后15秒内不会再次产生
+			随机在玩家身边生成奇怪的漩涡
+			向漩涡中投掷投手武器会将漩涡填满
+			漩涡被填满后会消失并产生暴雨
+			暴雨无视天气情况，会对敌人造成伤害
+			漩涡在暴雨过后15秒内不会再次产生
 			'''
 	}
 
@@ -58,13 +58,13 @@ Items: {
 	}
 
 	CursedCassette: {
-		DisplayName: Cursed Cassette诅咒磁带
+		DisplayName: 诅咒磁带
 		Tooltip:
 			'''
-			Upon running out of inspiration, a dark spirit spawns on top of you灵感值耗尽时，在玩家身上会生成暗黑灵魂
-			The spirit will shoot cursed notes at enemies that bounce around暗黑灵魂会向光标处射出可反弹的诅咒音符
-			The spirit will shoot faster the higher your inspiration regeneration灵感再生率越高，暗黑灵魂射速越快
-			Cursed notes are affected by wind and string instrument bonuses诅咒音符受到管乐器和弦乐器加成的影响
+			灵感值耗尽时，在玩家身上会生成暗黑灵魂
+			暗黑灵魂会向光标处射出可反弹的诅咒音符
+			灵感再生率越高，暗黑灵魂射速越快
+			诅咒音符受到管乐器和弦乐器加成的影响
 			诅咒灵魂存在10秒，有30秒的冷却时间
 			'''
 	}
@@ -95,10 +95,10 @@ Items: {
 		DisplayName: Panfilo & Facundo
 		Tooltip:
 			'''
-			Throw two sentient twin heads that latch onto enemies投掷一双能自主运动的双子头颅咬住敌人
-			When one head is latched, it will drag the other当一个头部被固定时，固定一方会拖动另一个
-			Each head will chew on the target 7 times before dying孪生头在消失前会咀嚼目标7次
-			"¡Es tremenda lucha!"太棒了！
+			投掷一双能自主运动的双子头颅咬住敌人
+			当一个头部被固定时，固定一方会拖动另一个
+			孪生头在消失前会咀嚼目标7次
+			"太棒了！"
 			'''
 	}
 
@@ -116,7 +116,7 @@ Items: {
 	}
 
 	GoreEarVisor: {
-		DisplayName: Gore Visor血尸帽檐
+		DisplayName: 血尸帽檐
 		Tooltip:
 			'''
 			增加10%的音波伤害
@@ -129,9 +129,9 @@ Items: {
 			'''
 			治疗法术会额外治疗6生命值
 			咒音增幅持续时间延长8秒
-			Press 'Armor Ability' key to summon a swarm of ear worms按下“盔甲能力”键会召唤一群耳虫
-			Ear worms home into enemies and replenish player resources at a fixed amount耳虫能追踪敌人，并回复玩家固定的资源
-			Player resources include life, mana, inspiration and exhaustion资源包括生命值、魔力值、灵感值与疲劳值。
+			按下“盔甲能力”键会召唤一群耳虫
+			耳虫能追踪敌人，并回复玩家固定的资源
+			资源包括生命值、魔力值、灵感值与疲劳值。
 			60秒冷却时间
 			'''
 	}
@@ -201,13 +201,13 @@ Items: {
 	}
 
 	LeakingInkPipe: {
-		DisplayName: Leaking Ink Pipe漏墨管
+		DisplayName: 漏墨管
 		Tooltip:
 			'''
-			Upon running out of inspiration, your bard weapons will leak ink吟游诗人武器会在灵感值耗尽时喷出墨汁
-			The stream of leaking ink is affected by your held weapon's stats喷出的墨汁流受到你持有的武器属性的影响
-			Additionally, enemies splashed by ink take increased fire damage此外，墨水溅到的敌人会受到更多的火焰伤害
-			"We can rebuild it"我们可以把它翻新一下
+			吟游诗人武器会在灵感值耗尽时喷出墨汁
+			喷出的墨汁流受到你持有的武器属性的影响
+			此外，墨水溅到的敌人会受到更多的火焰伤害
+			"我们可以把它翻新一下"
 			'''
 	}
 
@@ -264,13 +264,13 @@ Items: {
 	}
 
 	OmenoftheDamned: {
-		DisplayName: Omen of the Damned诅咒恶兆
+		DisplayName: 诅咒恶兆
 		Tooltip:
 			'''
 			按住会拉弹弓，松开会掷出弹药
-			Converts mossy pebbles into a barrage of the angry souls of the damned将苔藓鹅卵石转化为一组愤怒恶魂
-			Shoots more souls the further the weapon is pulled back武器蓄力时间越长，射出的恶魂就越多
-			'If you believe your weapon can cause mass extinction, then so it will'如果你相信你的武器能导致大灭绝，那就真的会
+			将苔藓鹅卵石转化为一组愤怒恶魂
+			武器蓄力时间越长，射出的恶魂就越多
+			'如果你相信你的武器能导致大灭绝，那就真的会..'
 			'''
 	}
 
@@ -409,11 +409,11 @@ Items: {
 	}
 
 	TerrariumParticleAccelerator: {
-		DisplayName: Terrarium Particle Accelerator元素粒子加速器
+		DisplayName: 元素粒子加速器
 		Tooltip:
 			'''
-			Hold down to pull back the slingshot, then release to fling ammo按住会拉弹弓，松开会掷出弹药
-			Converts mossy pebbles into hyper-accelerated particles that split on impact将苔藓鹅卵石转化为撞击敌人时分裂的超速粒子流
+			按住会拉弹弓，松开会掷出弹药
+			将苔藓鹅卵石转化为撞击敌人时分裂的超速粒子流
 			'''
 	}
 
