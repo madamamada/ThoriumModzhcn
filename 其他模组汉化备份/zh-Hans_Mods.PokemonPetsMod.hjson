@@ -43,6 +43,26 @@ Buffs: {
 		DisplayName: 火神蛾
 		Description: 火神蛾, 就决定是你了!
 	}
+
+	NinjaskBuff: {
+		DisplayName: 铁面忍者
+		Description: 铁面忍者, 就决定是你了!
+	}
+
+	DrifloonBuff: {
+		DisplayName: 飘飘球
+		Description: 飘飘球, 就决定是你了!
+	}
+
+	ShuckleBuff: {
+		DisplayName: 壶壶
+		Description: 壶壶, 就决定是你了!
+	}
+
+	ShayminBuff: {
+		DisplayName: 谢米
+		Description: 谢米, 就决定是你了!
+	}
 }
 
 Items: {
@@ -110,6 +130,34 @@ Items: {
 			'太阳的化身'
 			'''
 	}
+
+	NinjaskItem: {
+		DisplayName: 土居忍士的翅膀
+		Tooltip:
+			'''
+			召唤铁面忍者宠物
+			'你的背包里没有空位给脱壳忍者了'
+			'''
+	}
+
+	DrifloonItem: {
+		DisplayName: 黄色胶带
+		Tooltip: 召唤飘飘球宠物
+	}
+
+	ShuckleItem: {
+		DisplayName: 壶壶的壳
+		Tooltip: 召唤壶壶宠物
+	}
+
+	ShayminItem: {
+		DisplayName: 葛拉西蒂亚花
+		Tooltip:
+			'''
+			召唤谢米宠物
+			'一朵可以表达感激之情的花'
+			''' 
+	}
 }
 
 // No use changing Projectile Display Names. Players won't be able to see it during normal gameplay anyway
@@ -123,6 +171,10 @@ Projectiles: {
 	CosmogProjectile.DisplayName: 科斯莫古
 	MimikyuProjectile.DisplayName: 谜拟丘
 	VolcaronaProjectile.DisplayName: 火神蛾
+	NinjaskProjectile.DisplayName: 铁面忍者
+	DrifloonProjectile.DisplayName: 飘飘球
+	ShuckleProjectile.DisplayName: 壶壶
+	ShayminProjectile.DisplayName: 谢米
 }
 
 Configs: {
@@ -245,6 +297,42 @@ Configs: {
 				切换火神蛾当做宠物还是照明宠物
 				如果火神蛾被设置为照明宠物，它将发出比魔法灯笼略亮的光芒。
 				默认为宠物(推荐)
+				'''
+		}
+
+		NinjaskToggle: {
+			Label: "[i:PokemonPetsMod/NinjaskItem] 切换铁面忍者"
+			Tooltip:
+				'''
+				如果启用，铁面忍者的召唤物可以在击败巨型蚁狮蜂/蚁狮蜂获得
+				如果禁用，则不可获取
+				''' 
+		}
+
+		DrifloonToggle: {
+			Label: "[i:PokemonPetsMod/DrifloonItem] 切换飘飘球"
+			Tooltip:
+				'''
+				如果启用，飘飘球的召唤物可以在大风天的派对女孩处出售
+				如果禁用，则不可获取
+				''' 
+		}
+
+		ShuckleToggle: {
+			Label: "[i:PokemonPetsMod/ShuckleItem] 切换壶壶"
+			Tooltip:
+				'''
+				如果启用，壶壶的召唤物可以通过击败巨型陆龟和冰雪陆龟获得
+				如果禁用，则不可获取
+				''' 
+		}
+
+		ShayminToggle: {
+			Label: "[i:PokemonPetsMod/ShayminItem] 切换谢米"
+			Tooltip:
+				'''
+				如果启用，谢米的召唤物可以通过微光嬗变"咕噜米的花"获得
+				如果禁用，则不可获取
 				'''
 		}
 	}
