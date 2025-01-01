@@ -334,19 +334,9 @@ Mods: {
 				Description: 使用投掷武器攻击敌人时有几率大幅度降低其移动速度
 			}
 
-			DepthBreath: {
-				DisplayName: 深海呼吸
-				Description: 你可以在水下呼吸
-			}
-
-			DepthDamage: {
-				DisplayName: 深海之力
-				Description: 造成的伤害增加10%
-			}
-
-			DepthSpeed: {
-				DisplayName: 深海之速
-				Description: 移动速度增加10%
+			DepthDiverAura: {
+				DisplayName: Depth Diver Aura
+				Description: You have received increased damage, speed, and underwater breathing
 			}
 
 			Destabilized: {
@@ -1687,6 +1677,21 @@ Mods: {
 				DisplayName: 影流之镰
 				Description: 被暗影能量染指…
 			}
+
+			FrozenTiaraBuff: {
+				Description: Does it feel chilly in here...?
+				DisplayName: Frozen Tiara
+			}
+
+			SorcerersDiceDebuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName}"
+				Description: The dice are recharging...
+			}
+
+			SorcerersDiceBuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
+				Description: Infinite mana and {0}% increased casting speed
+			}
 		}
 
 		Conditions: {
@@ -1822,7 +1827,7 @@ Mods: {
 
 			ItemTopTooltip: 演奏会提供玩家以下加成：
 			EmpowermentNameLevel: "{$Common.Concatenate}"
-			ItemTopTooltipHoldShift: 按住“Shift”显示该武器提供的咒音增幅
+			ItemTopTooltipHoldShift: 按住“{0}”显示该武器提供的咒音增幅
 		}
 
 		InfoDisplays: {
@@ -1974,6 +1979,12 @@ Mods: {
 					0: 那不是我们中的一员……真有趣……
 					1: 他们存在于循环之外……
 				}
+
+				SetBonus:
+					'''
+					你会偶尔产生一根深渊能量触手攻击附近敌怪
+					你可以拥有至多6根触手且它们的伤害会从被击中的敌怪吸取 {0} 点生命和 {1} 魔力
+					'''
 			}
 
 			WhisperingLeggings: {
@@ -2180,6 +2191,11 @@ Mods: {
 			YewWoodHelmet: {
 				DisplayName: 紫衫木头盔
 				Tooltip: 增加2.5%远程武器开火速度
+				SetBonus:
+					'''
+					4次非暴击攻击后下次远程攻击会是造成{0}%伤害的小暴击
+					在相关效果中，小暴击算作暴击（等待wiki）
+					'''
 			}
 
 			YewWoodLeggings: {
@@ -2303,11 +2319,7 @@ Mods: {
 
 			AcousticGuitar: {
 				DisplayName: 原声吉他
-				Tooltip:
-					'''
-					'释放令人印象深刻的吉他独奏'
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: '释放令人印象深刻的吉他独奏'
 			}
 
 			Alphorn: {
@@ -2318,17 +2330,12 @@ Mods: {
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和穿透
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			AntlionMaraca: {
 				DisplayName: 蚁狮沙铃
-				Tooltip:
-					'''
-					扔出摇动的溅沙
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 扔出摇动的溅沙
 			}
 
 			AutoTuner: {
@@ -2339,7 +2346,6 @@ Mods: {
 					音波伤害有10%概率增加你当前激活的咒音增幅等级
 					此效果只能每2.5秒触发一次
 					[c/70DB93:获取方式：蒸汽朋克人出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2348,11 +2354,10 @@ Mods: {
 				Tooltip:
 					'''
 					允许你富有节奏地演奏巨大的风笛
-					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和小球数量
+					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕数量（等待wiki）
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
 					[c/70DB93:获取方式：困难模式血月事件一些敌怪掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2363,17 +2368,12 @@ Mods: {
 					增加8%音波伤害
 					增加8%音波演奏速度
 					增加8%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			BardEmblem: {
 				DisplayName: 颂歌徽章
-				Tooltip:
-					'''
-					增加15%音波伤害
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加15%音波伤害
 			}
 
 			Bassoon: {
@@ -2382,7 +2382,6 @@ Mods: {
 					'''
 					发射可粘在物块表面和敌怪身上的巴松炸弹
 					右键消耗4点灵感值引爆所有炸弹并凋零所有击中的敌怪
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2392,7 +2391,6 @@ Mods: {
 					'''
 					喷出阴燃火焰熔化附近的敌怪
 					[c/70DB93:获取方式：撒旦军队事件的双足翼龙掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2402,7 +2400,6 @@ Mods: {
 					'''
 					让诱人的种子传播扩散
 					伤害敌怪会获得短暂的生命恢复
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2412,26 +2409,17 @@ Mods: {
 					'''
 					'这块布的质量不像你见过的任何东西'
 					[c/70DB93:获取方式：世纪之花/世纪之花宝藏袋掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			BoneTrumpet: {
 				DisplayName: 小骨号
-				Tooltip:
-					'''
-					释放极其惊人的音符
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放极其惊人的音符
 			}
 
 			Bongos: {
 				DisplayName: 邦戈手鼓
-				Tooltip:
-					'''
-					敲击邦戈手鼓，对附近所有敌怪造成伤害
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 敲击邦戈手鼓，对附近所有敌怪造成伤害
 			}
 
 			BrassCap: {
@@ -2440,26 +2428,17 @@ Mods: {
 					'''
 					铜管乐器有15%概率调谐敌怪
 					被调谐的敌怪多受10%伤害
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			Buisine: {
 				DisplayName: 别辛号
-				Tooltip:
-					'''
-					释放爆破敌人的天使合唱团
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放爆破敌人的天使合唱团
 			}
 
 			Calaveras: {
 				DisplayName: 卡拉韦拉斯
-				Tooltip:
-					'''
-					释放弹性的灵魂头骨，每次反弹都会生成更少的头骨
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放弹性的灵魂头骨，每次反弹都会生成更少的头骨
 			}
 
 			ChronoOcarina: {
@@ -2469,17 +2448,12 @@ Mods: {
 					发出按时间顺序的噪音
 					右键召唤一个时间符文模仿你的陶笛
 					召唤符文需要消耗5点灵感值
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			Clarinet: {
 				DisplayName: 单簧管
-				Tooltip:
-					'''
-					释放不断扩大的噪音
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放不断扩大的噪音
 			}
 
 			Cloth: {
@@ -2494,7 +2468,6 @@ Mods: {
 					在你前方举着一个手风琴，会释放风爆
 					举着时间越长，风爆的数量，伤害和速度越高
 					[c/70DB93:获取方式：海盗入侵事件的海盗乐手掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2505,7 +2478,6 @@ Mods: {
 					最大灵感值增加2点
 					每个附近队友会增加你2%灵感值再生
 					[c/70DB93:获取方式：派对女孩出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2517,7 +2489,6 @@ Mods: {
 					你和一个附近队友攻击相同目标时，敌怪会立刻受到20%结合的伤害
 					此效果对同个目标每2秒触发一次
 					[c/70DB93:获取方式：困难模式的商人出售]
-					[c/00FF00:职业划分：吟游诗人]
 					[c/FF0000:使用方式：和指挥台一起使用]
 					'''
 			}
@@ -2528,7 +2499,6 @@ Mods: {
 					'''
 					与之交互时提升各种咒音增幅能力
 					[c/70DB93:获取方式：困难模式的商人出售]
-					[c/00FF00:职业划分：吟游诗人]
 					[c/FF0000:使用方式：和指挥棒一起使用]
 					'''
 			}
@@ -2539,7 +2509,6 @@ Mods: {
 					'''
 					增加8%音波演奏速度
 					[c/70DB93:获取方式：哥布林工匠出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2550,29 +2519,18 @@ Mods: {
 
 			CriersCap: {
 				DisplayName: 传讯员帽
-				Tooltip:
-					'''
-					增加4%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 基础灵感音符的掉落概率翻倍
+				SetBonus: 你的音波咒音增幅会额外持续 {0} {^0:秒;seconds}
 			}
 
 			CriersLeggings: {
 				DisplayName: 传讯员护胫
-				Tooltip:
-					'''
-					增加4%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加4%灵感值再生速率
 			}
 
 			CriersSash: {
 				DisplayName: 传讯员腰带
-				Tooltip:
-					'''
-					增加7%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加7%灵感值再生速率
 			}
 
 			CyberPunkHeadset: {
@@ -2582,7 +2540,14 @@ Mods: {
 					增加5%音波伤害
 					增加4%音波暴击率
 					增加10%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会在 4 种状态间切换:
+					红：玩家和附近队友获得固定伤害 {0} 和伤害 {0}
+					绿：玩家和附近队友获得移动速度 {0} 和飞行时间 {0}
+					紫：玩家和附近队友获得资源上限 {0} 和资源再生 {0}
+					蓝：玩家和附近队友获得防御 {0} 和伤害减免 {0}
 					'''
 			}
 
@@ -2593,7 +2558,6 @@ Mods: {
 					增加6%音波伤害
 					增加6%音波暴击率
 					增加12%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2604,7 +2568,6 @@ Mods: {
 					增加7%音波伤害
 					增加10%灵感音符掉落概率
 					增加2秒咒音增幅的持续时间
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2614,7 +2577,6 @@ Mods: {
 					'''
 					你和附近队友攻击时会使敌人着火且自身免疫着火
 					咒音增幅的效用半径翻倍
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2626,7 +2588,6 @@ Mods: {
 					增加6%音波暴击率
 					打击乐器暴击会多造成10%伤害
 					打击乐器暴击会短暂晕眩敌怪
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2637,17 +2598,12 @@ Mods: {
 					增加10%灵感值再生速率
 					你的音波伤害会用暗影焰点燃击中的敌怪
 					音波暴击会使暗影音符大量喷发
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			DragonsWail: {
 				DisplayName: 绿龙哀歌
-				Tooltip:
-					'''
-					喷出一股燃烧的龙息洪流
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 喷出一股燃烧的龙息洪流
 			}
 
 			DrumMallet: {
@@ -2656,7 +2612,6 @@ Mods: {
 					'''
 					右键产生一个让玩家跳跃的弹性鼓
 					左键会击打鼓，对附近敌怪造成伤害
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2666,17 +2621,12 @@ Mods: {
 					'''
 					吹出一连串泡泡，猛烈地对敌怪发动爆炸
 					[c/70DB93:获取方式：猪龙鱼公爵掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			DynastyGuzheng: {
 				DisplayName: 古筝
-				Tooltip:
-					'''
-					释放一套缓和的，多发的弹性复段
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一套缓和的，多发的弹性复段
 			}
 
 			EarwormPotion: {
@@ -2689,8 +2639,7 @@ Mods: {
 				Tooltip:
 					'''
 					扔出一个穿透性黑檀铃鼓
-					右键消耗2点灵感值奏响掷出的铃鼓
-					[c/00FF00:职业划分：吟游诗人]
+					右键掷出的铃鼓并伤害敌人（等待wiki）
 					'''
 			}
 
@@ -2703,7 +2652,6 @@ Mods: {
 					增加{2}%管乐器追踪速度
 					管乐器现在会试图快速追踪敌怪
 					如果攻击已经能追踪敌怪，它的速度会变得更快
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2713,7 +2661,6 @@ Mods: {
 					'''
 					用管乐器击杀敌怪或持续伤害Boss会产生一颗能量蛋
 					触摸能量蛋的玩家会恢复15%他们失去的主要资源
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2724,7 +2671,6 @@ Mods: {
 					'充满了插入性赞美……但出乎意料地激励人心'
 					最大灵感值增加3点
 					[c/70DB93:获取方式：破坏猩红之心掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2735,7 +2681,6 @@ Mods: {
 					'充满了插入性赞美……但出乎意料地激励人心'
 					最大灵感值增加3点
 					[c/70DB93:获取方式：破坏暗影珠掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2746,7 +2691,6 @@ Mods: {
 					释放古老水生生物发出的声音，对移动受阻的敌怪造成的伤害增加
 					右键释放一群泡泡，减速敌怪并恢复队友的呼吸条
 					[c/70DB93:获取方式：地牢渊海箱获取]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2761,11 +2705,7 @@ Mods: {
 
 			Flute: {
 				DisplayName: 长笛
-				Tooltip:
-					'''
-					释放微弱的追踪笛声
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放微弱的追踪笛声
 			}
 
 			ForestOcarina: {
@@ -2776,7 +2716,6 @@ Mods: {
 					右键召唤一个森林符文模仿你的陶笛
 					召唤符文需要消耗5点灵感值
 					[c/70DB93:获取方式：常春藤箱内获得]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2786,7 +2725,6 @@ Mods: {
 					'''
 					在你前方举起一堆钹，会释放冻结颤动
 					举着时间越长，颤动的数量，速度和冻结时间越长
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2796,7 +2734,6 @@ Mods: {
 					'''
 					增加3秒音波咒音增幅持续时间
 					用音波伤害击杀敌怪会生成一系列伤害敌怪的拍手
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2806,26 +2743,17 @@ Mods: {
 					'''
 					释放一阵弹性音符
 					攻击可能会短暂困惑目标
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			GhastlyFrenchHorn: {
 				DisplayName: 法式恐惧圆号
-				Tooltip:
-					'''
-					释放可怕的吸引敌怪的音波爆发，然后在击中敌怪后爆炸
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放可怕的吸引敌怪的音波爆发，然后在击中敌怪后爆炸（等待wiki）
 			}
 
 			GoldBugleHorn: {
 				DisplayName: 黄金军号
-				Tooltip:
-					'''
-					释放一对音波脉冲
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一对音波脉冲
 			}
 
 			GrandPiano: {
@@ -2836,7 +2764,6 @@ Mods: {
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和反弹次数
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2846,7 +2773,6 @@ Mods: {
 					'''
 					在你周围释放一些病态的花岗岩节拍
 					激活时，附近的敌怪会被溢出和击退
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2855,8 +2781,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加5%音波演奏速度
-					弦武器弹幕会额外反弹一次
-					[c/00FF00:职业划分：吟游诗人]
+					弦武器弹幕会额外反弹两次
 					'''
 			}
 
@@ -2866,27 +2791,18 @@ Mods: {
 					'''
 					增加10%音波伤害
 					增加5%音波演奏速度
-					弦武器弹幕会额外反弹两次
-					[c/00FF00:职业划分：吟游诗人]
+					弦武器弹幕会额外反弹三次
 					'''
 			}
 
 			HallowedMegaphone: {
 				DisplayName: 神圣喇叭
-				Tooltip:
-					'''
-					快速释放一阵逐渐扩大的音波
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 快速释放一阵逐渐扩大的音波
 			}
 
 			Harmonica: {
 				DisplayName: 口琴
-				Tooltip:
-					'''
-					吹奏发出多道弹幕的口琴
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 吹奏发出多道弹幕的口琴
 			}
 
 			HauntingBassDrum: {
@@ -2896,7 +2812,6 @@ Mods: {
 					敲击低音鼓，对附近敌怪造成大量伤害
 					暴击会释放一阵暗影焰能量扩散
 					[c/70DB93:获取方式：南瓜月事件的南瓜王掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2907,7 +2822,6 @@ Mods: {
 					最大灵感值增加2点
 					你拥有的每个独特咒音增幅会增加2%移动速度和1%演奏速度
 					[c/70DB93:获取方式：机械师出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2918,17 +2832,12 @@ Mods: {
 					向敌怪释放熔岩地狱铃铛
 					暴击会灼伤和烧焦击中的敌怪
 					[c/BC1717:拥有灾瑟联动模组可灌注成魔骸丧钟]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			HighQualityReed: {
 				DisplayName: 高品质舌簧
-				Tooltip:
-					'''
-					增加6%音波伤害
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加6%音波伤害
 			}
 
 			HoneyRecorder: {
@@ -2937,17 +2846,12 @@ Mods: {
 					'''
 					释放一道无害但令人恶心的嘟嘟声，将敌怪用蜂蜜覆盖
 					右键召唤蜜蜂，追寻并伤害最近的被蜂蜜覆盖的敌怪
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			HotHorn: {
 				DisplayName: 热力号角
-				Tooltip:
-					'''
-					释放强力的，旋转的火焰振动
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放强力的，旋转的火焰振动
 			}
 
 			IcyPiccolo: {
@@ -2956,7 +2860,6 @@ Mods: {
 					'''
 					释放超级冷冻的笛声
 					造成伤害时短暂霜冻击中的敌怪
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -2997,62 +2900,39 @@ Mods: {
 					'''
 					一个古老的问题终于被解决了
 					[c/70DB93:获取方式：击败世界吞噬怪或克苏鲁之脑后厨师出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			JestersLeggings: {
 				DisplayName: 弄臣裤
-				Tooltip:
-					'''
-					增加5%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加5%灵感值再生速率
 			}
 
 			JestersLeggings2: {
 				DisplayName: 弄臣裤
-				Tooltip:
-					'''
-					增加5%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加5%灵感值再生速率
 			}
 
 			JestersMask: {
 				DisplayName: 弄臣面具
-				Tooltip:
-					'''
-					增加11%音波暴击率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加11%音波暴击率
+				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
 			}
 
 			JestersMask2: {
 				DisplayName: 弄臣面具
-				Tooltip:
-					'''
-					增加11%音波暴击率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加11%音波暴击率
+				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
 			}
 
 			JestersShirt: {
 				DisplayName: 弄臣服
-				Tooltip:
-					'''
-					音波伤害有20%概率以生命再生增幅玩家
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 音波伤害有20%概率以生命再生增幅玩家
 			}
 
 			JestersShirt2: {
 				DisplayName: 弄臣服
-				Tooltip:
-					'''
-					音波伤害有20%概率以生命再生增幅玩家
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 音波伤害有20%概率以生命再生增幅玩家
 			}
 
 			JingleBells: {
@@ -3062,7 +2942,6 @@ Mods: {
 					四个冰碎片会环绕你并冻结附近敌怪
 					攻击会释放叮当光束，光束接触冰碎块时会被增幅
 					[c/70DB93:获取方式：霜月事件的圣诞坦克掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3072,7 +2951,6 @@ Mods: {
 					'''
 					释放恼怒和噩运的毁灭性结合
 					[c/70DB93:获取方式：击败堕落注视者后派对女孩出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3083,7 +2961,6 @@ Mods: {
 					打击乐器伤害有25%概率激活一片“恐慌花瓣”，花瓣会绕玩家旋转
 					触摸花瓣的玩家会获得大幅速度提升
 					触摸花瓣的敌怪会受到伤害
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3093,7 +2970,6 @@ Mods: {
 					'''
 					释放一些滞留的静态火花
 					[c/70DB93:获取方式：沙漠生物群系地下沙岩箱或者绿洲匣/幻想匣获得]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3104,7 +2980,6 @@ Mods: {
 					增加10%音波伤害增加15%移动速度
 					增加4%音波暴击率
 					增加15%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3116,7 +2991,6 @@ Mods: {
 					增加4%音波暴击率
 					增加10%灵感音符掉落概率
 					增加3秒咒音增幅的持续时间
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3127,18 +3001,22 @@ Mods: {
 					增加5%音波演奏速度
 					增加4%音波暴击率
 					增加15%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键时召唤一群鬼魂演奏音乐
+					鬼魂使用铜管乐器，管乐器，弦乐器和打击乐器自动向附近敌怪发射弹幕。（等待wiki）
 					'''
 			}
 
 			MarchingBandCap: {
-				DisplayName: 仪仗队帽
+				DisplayName: 仪仗队军帽
 				Tooltip:
 					'''
 					增加 2% 音波暴击率
 					增加10%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
 					'''
+				SetBonus: 战斗中，一个伤害性的彩虹音波符号会跟随你的移动并晕眩敌怪
 			}
 
 			MarchingBandLeggings: {
@@ -3147,7 +3025,6 @@ Mods: {
 					'''
 					增加3%音波暴击率
 					增加10%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3157,7 +3034,6 @@ Mods: {
 					'''
 					增加16%音波伤害
 					增加3%音波暴击率
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3167,7 +3043,6 @@ Mods: {
 					'''
 					扔出至多6个“无害”酒杯
 					右键会释放高声喊叫，震碎所有酒杯
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3177,7 +3052,6 @@ Mods: {
 					'''
 					释放一只火焰耳虫感染受击敌怪
 					受影响的敌怪会持续释放伤害性星辉云
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3188,7 +3062,6 @@ Mods: {
 					每三秒节拍器会在快节奏和慢节奏之间切换
 					快节奏会增加你的演奏速度和伤害
 					慢节奏会略微降低你的演奏速度和伤害
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3198,17 +3071,12 @@ Mods: {
 					'''
 					释放一道逐渐扩大的音波
 					[c/70DB93:获取方式：机械师出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			MidnightBassBooster: {
 				DisplayName: 午夜低音冲击波
-				Tooltip:
-					'''
-					释放污秽的响亮音波脉冲
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放污秽的响亮音波脉冲
 			}
 
 			MixTape: {
@@ -3218,7 +3086,6 @@ Mods: {
 					你的音波伤害会短暂烧焦击中的敌怪
 					音波暴击会产生一阵熔岩音符喷发
 					[c/70DB93:获取方式：在靠近熔岩层的绯红箱或不详匣/绯红匣中获得]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3229,7 +3096,6 @@ Mods: {
 					增加{0}%音波演奏速度
 					管乐器现在会试图追踪敌怪
 					如果攻击已经能追踪敌怪，它的速度会变得更快
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3241,26 +3107,18 @@ Mods: {
 					你的乐器不会消耗灵感值，不造成伤害也不会错过节拍
 					你的音波演奏速度加成基于手册所在的饰品栏位：
 					[c/70DB93:获取方式：困难模式商人出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
+				InstrumentPlaySpeed: 你的乐器演奏速度快 {0}%
 			}
 
 			MusicNotes: {
 				DisplayName: 音乐笔记
-				Tooltip:
-					'''
-					增加3秒音波咒音增幅的持续时间
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加3秒音波咒音增幅的持续时间
 			}
 
 			MythrilMelodica: {
 				DisplayName: 秘银口风琴
-				Tooltip:
-					'''
-					吹奏出一阵音乐矢
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 吹奏出一阵音乐矢
 			}
 
 			NoblesHat: {
@@ -3269,8 +3127,8 @@ Mods: {
 					'''
 					增加4%灵感音符掉率
 					增加5%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
 					'''
+				SetBonus: 掉落的灵感音符效果翻倍且会短暂增加你的音波伤害
 			}
 
 			NoblesJerkin: {
@@ -3279,7 +3137,6 @@ Mods: {
 					'''
 					增加10%音波伤害
 					增加6%灵感音符掉率
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3289,7 +3146,6 @@ Mods: {
 					'''
 					增加5%灵感音符掉率
 					增加8%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3299,17 +3155,12 @@ Mods: {
 					'''
 					释放一道不详音符，击中时爆炸成暗影能量
 					[c/70DB93:获取方式：暗影箱内获得]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			ObsidianRackett: {
 				DisplayName: 黑曜石拉凯特管
-				Tooltip:
-					'''
-					释放高温的火焰音符，烧焦击中的敌怪
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放高温的火焰音符，烧焦击中的敌怪
 			}
 
 			Organ: {
@@ -3320,17 +3171,12 @@ Mods: {
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕数量
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			OrichalcumSlideWhistle: {
 				DisplayName: 山铜滑哨笛
-				Tooltip:
-					'''
-					吹奏一道可返回的笛哨
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 吹奏一道可返回的笛哨
 			}
 
 			OrnateHat: {
@@ -3340,7 +3186,11 @@ Mods: {
 					增加5%音波演奏速度
 					增加8%音波暴击率
 					增加15%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
+					'''
+				SetBonus:
+					'''
+					音波暴击会使随机激活的咒音增幅提升到 IV 级强度
+					此效果每 {0} {^0:秒;seconds}触发一次（等待wiki）
 					'''
 			}
 
@@ -3351,7 +3201,6 @@ Mods: {
 					增加12%音波伤害
 					增加10%灵感音符掉落概率
 					增加3秒咒音增幅的持续时间
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3362,35 +3211,22 @@ Mods: {
 					增加8%音波伤害
 					增加8%音波暴击率
 					增加15%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			PadOPaper: {
 				DisplayName: 灵感笔记
-				Tooltip:
-					'''
-					增加10%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 增加10%灵感值再生速率
 			}
 
 			Panflute: {
 				DisplayName: 排笛
-				Tooltip:
-					'''
-					释放一道鸟鸣声
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一道鸟鸣声
 			}
 
 			PlatinumBugleHorn: {
 				DisplayName: 铂金军号
-				Tooltip:
-					'''
-					释放一对音波脉冲
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一对音波脉冲
 			}
 
 			PlungerMute: {
@@ -3398,36 +3234,23 @@ Mods: {
 				Tooltip:
 					'''
 					增加6%音波暴击率
-					铜管乐器暴击时会释放一阵穿透火花、
-					[c/00FF00:职业划分：吟游诗人]
+					铜管乐器暴击时会释放一阵穿透火花
 					'''
 			}
 
 			PrimeRoar: {
 				DisplayName: 至尊之啸
-				Tooltip:
-					'''
-					发射有力的咆哮调谐敌怪，使它们受到的伤害增加10%
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 发射有力的咆哮调谐敌怪，使它们受到的伤害增加10%
 			}
 
 			Pungi: {
 				DisplayName: 庞吉
-				Tooltip:
-					'''
-					发射一阵熔化的太阳能音矢
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 发射一阵熔化的太阳能音矢
 			}
 
 			RiffWeaver: {
 				DisplayName: 复段织演者
-				Tooltip:
-					'''
-					发射织演音波，每次反弹后释放粘性蛛网球
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 发射织演音波，每次反弹后释放粘性蛛网球
 			}
 
 			RivetingTadpole: {
@@ -3436,7 +3259,6 @@ Mods: {
 					'''
 					缓慢发出追踪敌人的泡泡
 					[c/70DB93:获取方式：丛林生物群系钓鱼获得]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3449,17 +3271,12 @@ Mods: {
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
 					[c/70DB93:获取方式：巫师出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			ScubaCurva: {
 				DisplayName: 海风军号
-				Tooltip:
-					'''
-					在你前方发射强力的海风，将敌怪向后吹
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 在你前方发射强力的海风，将敌怪向后吹
 			}
 
 			SeashellCastanettes: {
@@ -3468,17 +3285,12 @@ Mods: {
 					'''
 					在你前方举起一对响板，释放伤害性振动
 					手持时间越长，伤害和击退越高
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			SerpentsCry: {
 				DisplayName: 海蛇之泣
-				Tooltip:
-					'''
-					发射爆裂的水炸弹
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 发射爆裂的水炸弹
 			}
 
 			ShadeWoodTambourine: {
@@ -3486,8 +3298,7 @@ Mods: {
 				Tooltip:
 					'''
 					扔出一个穿透性暗影铃鼓
-					右键消耗2点灵感值奏响掷出的铃鼓
-					[c/00FF00:职业划分：吟游诗人]
+					右键掷出的铃鼓并伤害敌人（等待wiki）
 					'''
 			}
 
@@ -3497,7 +3308,6 @@ Mods: {
 					'''
 					释放强力的反弹性暗影焰音球
 					[c/70DB93:获取方式：哥布林军队事件的哥布林术士掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3507,7 +3317,6 @@ Mods: {
 					'''
 					释放两道沉重的金属吉他复段
 					碰撞物块时释放多个坠星碎片
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3518,7 +3327,6 @@ Mods: {
 					增加12%音波伤害
 					增加6%音波暴击率
 					增加15%移动速度
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3533,7 +3341,6 @@ Mods: {
 					'''
 					'一首宇宙交响曲在此碎片中回响'
 					[c/70DB93:获取方式：四柱掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3544,7 +3351,12 @@ Mods: {
 					增加10%音波演奏速度
 					增加6%音波暴击率
 					增加20%灵感值再生速率
-					[c/00FF00:职业划分：吟游诗人]
+					'''
+				SetBonus:
+					'''
+					使咒音增幅持续时间延长 {0} {^0:秒;seconds}
+					玩家拥有的每个独特的咒音增幅会增加 {1}%音波伤害
+					你所拥有的每一种独特的能力都可以让灵感回复率提高{2}%（等待wiki）
 					'''
 			}
 
@@ -3556,7 +3368,6 @@ Mods: {
 					增加4%音波暴击率
 					增加10%灵感音符掉落概率
 					增加4秒咒音增幅的持续时间
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3570,7 +3381,6 @@ Mods: {
 				Tooltip:
 					'''
 					释放神秘的音波
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3580,7 +3390,6 @@ Mods: {
 					'''
 					释放可反弹的星星
 					反弹时会释放一阵星星
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3590,7 +3399,6 @@ Mods: {
 					'''
 					释放一个深度冻结的弹跳冰雪波，每次反弹都会使附近敌人霜冻
 					[c/70DB93:获取方式：雪人军团的雪人歌王掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3602,7 +3410,6 @@ Mods: {
 					成功在计时区域击中会不断增加它的伤害，咒音增幅等级和弹幕速度
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3616,17 +3423,12 @@ Mods: {
 					激活时你和附近队友会获得各种咒音增幅
 					另外，你也会获得50点生命护盾并伤害所有周围的敌怪
 					[c/70DB93:获取方式：月总掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			SoundSageLament: {
 				DisplayName: 乐圣之挽歌
-				Tooltip:
-					'''
-					释放一道五线谱，随行进增强力量
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一道五线谱，随行进增强力量
 			}
 
 			SteamFlute: {
@@ -3635,7 +3437,6 @@ Mods: {
 					'''
 					右键在你光标位置产生一阵烟雾
 					接触烟雾的玩家会大幅降低他们的仇恨
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3648,7 +3449,6 @@ Mods: {
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
 					[c/70DB93:获取方式：深海箱或渊海/深渊匣内获取]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3659,7 +3459,6 @@ Mods: {
 					增加10%音波伤害
 					增加6%音波暴击率
 					铜管乐器暴击会释放一阵穿透性能量
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3670,7 +3469,6 @@ Mods: {
 					你和附近队友额外获得2点盔甲穿透
 					咒音增幅的效用范围翻倍
 					[c/70DB93:获取方式：机械师出售]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -3681,26 +3479,17 @@ Mods: {
 					释放一道充满太阳能的反弹吉他复段
 					每次反弹会向敌怪发射追踪阳炎
 					[c/70DB93:获取方式：日食事件的幽灵掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			Tambourine: {
 				DisplayName: 铃鼓
-				Tooltip:
-					'''
-					扔出单个叮当响的铃鼓
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 扔出单个叮当响的铃鼓
 			}
 
 			TerrariumAutoharp: {
 				DisplayName: 元素自动竖琴
-				Tooltip:
-					'''
-					释放一阵彩色音波
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放一阵彩色音波
 			}
 
 			TerrariumSurroundSound: {
@@ -3710,17 +3499,12 @@ Mods: {
 					增加10%音波伤害
 					你和附近的队友攻击时有概率元素打击敌怪
 					咒音增幅的效用范围翻倍
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
 			TheGreenTambourine: {
 				DisplayName: 绿铃鼓
-				Tooltip:
-					'''
-					释放无限数量的有趣的翠绿铃鼓
-					[c/00FF00:职业划分：吟游诗人]
-					'''
+				Tooltip: 释放无限数量的有趣的翠绿铃鼓
 			}
 
 			TheLullaby: {
@@ -3730,7 +3514,6 @@ Mods: {
 					释放可反弹的令人昏昏欲睡的“Z”，晕眩击中的敌怪
 					每次“Z”反弹时，晕眩时间和伤害会增加
 					[c/70DB93:获取方式：狼人掉落]
-					[c/00FF00:职业划分：吟游诗人]
 					'''
 			}
 
@@ -4873,6 +4656,11 @@ Mods: {
 					增加1点光辉伤害
 					增加50%呼吸时间
 					'''
+				SetBonus:
+					'''
+					光辉伤害会建立至多 {0} 点生命护盾且你的生命护盾不会随时间衰减
+					治疗队友会将生命护盾转移到他们身上
+					'''
 			}
 
 			CoralPickaxe: {
@@ -4952,6 +4740,7 @@ Mods: {
 					增加10%移动速度
 					增加1点盔甲穿透
 					'''
+				SetBonus: 没有什么能阻挡你的移动！双击来冲刺！
 			}
 
 			DarksteelGreaves: {
@@ -5092,6 +4881,7 @@ Mods: {
 					'注入永恒的血液'
 					增加10%伤害减免
 					'''
+				SetBonus: 最大生命值增加 {0}
 			}
 
 			DemonBloodJackhammer: {
@@ -5277,20 +5067,12 @@ Mods: {
 
 			DepthDiverChestplate: {
 				DisplayName: 深海潜游者胸甲
-				Tooltip:
-					'''
-					'成为无私的保护者'
-					附近的队友获得10%伤害提升
-					'''
+				Tooltip: 成为无私的保护者
 			}
 
 			DepthDiverGreaves: {
 				DisplayName: 深海潜游者护胫
-				Tooltip:
-					'''
-					'成为无私的保护者'
-					附近的队友获得10%移动速度提升
-					'''
+				Tooltip: 成为无私的保护者
 			}
 
 			DepthDiverHelmet: {
@@ -5299,8 +5081,8 @@ Mods: {
 					'''
 					'成为无私的保护者'
 					增加6%暴击率
-					你和附近的所有队友可以在水下呼吸
 					'''
+				SetBonus: 你和你队友的伤害提高{0}%，移动速度提高{1}%，并且可以在水下呼吸（等待wiki）
 			}
 
 			DepthScale: {
@@ -5415,6 +5197,7 @@ Mods: {
 					最大魔力值增加60
 					允许你水下呼吸
 					'''
+				SetBonus: 每消耗 {0} 魔力会短暂地大幅增加你的魔法伤害和施法速度
 			}
 
 			NagaSkinSuit: {
@@ -5516,6 +5299,7 @@ Mods: {
 					增加4%远程暴击率
 					允许你水下呼吸
 					'''
+				SetBonus: 远程暴击会释放一堆泡沫，减速附近敌怪
 			}
 
 			TideHunterChestpiece: {
@@ -6184,6 +5968,7 @@ Mods: {
 				DisplayName: 兽皮头套
 				Tooltip: "'激发你内心的兽性'"
 				VanityConfigName: 兽皮套装
+				SetBonus: 看起来不错!
 			}
 
 			FeralFurLegs: {
@@ -6301,6 +6086,12 @@ Mods: {
 					绘画选中的魔法符文到空中，对当前存在的敌怪产生不同的反应
 					右键切换符文种类
 					'''
+
+				GeomancersBrushStage: {
+					Fire: 火
+					Earth: 土
+					Wind: 风（wiki）
+				}
 			}
 
 			GhastlyCarapace: {
@@ -6747,6 +6538,15 @@ Mods: {
 					召唤一本有知觉的魔法书向敌怪施法
 					右键在各种魔法书之间切换
 					'''
+
+				MastersLibramStage: {
+					Water: 水
+					CursedFlame: 诅咒焰
+					Ichor: 灵液
+					Crystal: 水晶
+					Shadow: 暗影
+					Death: 死亡（wiki）
+				}
 			}
 
 			MeatShieldsBoots: {
@@ -7223,6 +7023,14 @@ Mods: {
 					召唤浮空图腾攻击敌怪
 					右键在四种不同的图腾攻击间切换
 					'''
+
+
+				RudeWandStage: {
+					Pulse: Pulse脉冲
+					Laser: Laser激光
+					Buster: Buster破坏
+					Spread: Spread蔓延（wiki）
+				}
 			}
 
 			Saba: {
@@ -7383,6 +7191,13 @@ Mods: {
 			SnowWhite: {
 				DisplayName: 柳叶白菀
 				Tooltip: 右键在四种不同的元素攻击间切换
+
+				SnowWhiteStage: {
+					Normal: 凡
+					Fire: 火
+					Ice: 冰
+					Electricity: 电（wiki）
+				}
 			}
 
 			SoulAnchor: {
@@ -7680,6 +7495,12 @@ Mods: {
 					向前发射神圣，反射和水魔法
 					右键在三种独立法术间切换
 					'''
+
+				UselessStaffStage: {
+					Exorcise: 驱邪
+					Reflect: 反射
+					Drown: 淹没（wiki）
+				}
 			}
 
 			UselessVest: {
@@ -7836,8 +7657,8 @@ Mods: {
 					'''
 					'由神话般的鳞片制成'
 					增加7%暴击率
-
 					'''
+				SetBonus: 攻击有概率释放龙焰爆炸
 			}
 
 			DragonsAxe: {
@@ -7980,6 +7801,11 @@ Mods: {
 					增加10%近战暴击率
 					增加10%近战攻速
 					'''
+				SetBonus:
+					'''
+					你的靴子以不真实的频率振动，大幅增加基础移动速度
+					移动时，你的近战伤害和暴击率增加
+					'''
 			}
 
 			DreadSoul: {
@@ -8056,8 +7882,8 @@ Mods: {
 					'''
 					最大魔力值增加20
 					略微增加魔力再生
-
 					'''
+				SetBonus: "高于{1}%魔力时增加{0}%魔法伤害"
 			}
 
 			SilkLeggings: {
@@ -8066,7 +7892,6 @@ Mods: {
 					'''
 					最大魔力值增加20
 					略微增加魔力再生
-
 					'''
 			}
 
@@ -8161,11 +7986,16 @@ Mods: {
 				Tooltip:
 					'''
 					'变得像潮汐一样势不可挡'
-					增加12%近战伤害
-					所受伤害降低15%
-					生命再生增加5
-					每5秒钟产生一个漂浮球
-					每颗球会增加5%防御
+					增加{0}%近战伤害
+					所受伤害降低{1}%
+					生命再生增加{2}
+					每{3} {^3:秒;seconds}产生一个漂浮球
+					每颗球会增加 {4}%防御
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会将你包裹在密不透风发泡泡中
+					当泡泡存在时, 将所有受到的伤害转化为治疗（wiki）
 					'''
 			}
 
@@ -8224,6 +8054,12 @@ Mods: {
 					增加16%光辉暴击率
 					最大魔力值增加20
 					'''
+					SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力并扭曲现实结构
+					敌怪会被大幅减速且受到所有来源的伤害增加 {1}%
+					队友会大幅增加移动速度和攻击速度
+					'''
 			}
 
 			DreamWeaversHood: {
@@ -8236,6 +8072,11 @@ Mods: {
 					大幅增加魔力再生
 					最大魔力值增加60
 					治疗法术会额外治疗6点生命值
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力并将你放置在梦中
+					在梦中时，被治疗的队友会变得短暂无敌且所有减益都会被治愈
 					'''
 			}
 
@@ -8343,6 +8184,7 @@ Mods: {
 					箭暴击时会变为死亡箭并反弹
 					你的远程伤害会对敌怪施加灵液
 					'''
+				SetBonus: 你的伤害有 {0}% 概率完全复制自身并多造成 {1}% 伤害
 			}
 
 			MasterMarksmansScouter: {
@@ -8353,6 +8195,11 @@ Mods: {
 					增加24%箭和子弹伤害
 					最近的敌怪会被狙击并多受各种来源10%伤害
 					你的远程伤害会对敌怪施加诅咒火焰
+					'''
+				SetBonus:
+					'''
+					你的远程伤害有 {0}% 概率完全湮灭击中的目标
+					此效果只能在Boss生命值低于 {1}%时生效
 					'''
 			}
 
@@ -8432,6 +8279,11 @@ Mods: {
 					掉落的灵感音符效果更强
 					另外，他们会给予附近队友随机的1级咒音增幅
 					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会用每种 {0} 级咒音增幅过载所有附近队友 {1} {^1:秒;seconds}
+					使用此能力需要 {2} 点灵感值且必须重新充能 {3} {^3:分钟;minutes}
+					'''
 			}
 
 			RhapsodistBoots: {
@@ -8466,6 +8318,11 @@ Mods: {
 					增加{2}%灵感值再生速率
 					增加{3}%管乐器的追踪速度
 					弦乐器的弹幕会额外反弹一次
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会让你获得无限的灵感值，大幅增加音波伤害和演奏速度
+					此效果持续 {0} {^0:秒;seconds} 并需要重新充能 {1} {^1:分钟;minutes}
 					'''
 			}
 
@@ -8535,6 +8392,7 @@ Mods: {
 					最大哨兵数量增加2
 					增加仆从击退
 					'''
+				SetBonus: 所有仆从伤害会滞留下造成大量伤害的灼烧
 			}
 
 			PrometheanStaff: {
@@ -8557,6 +8415,7 @@ Mods: {
 					此效果在对抗Boss时变为10倍
 					魔法攻击会烧焦和点燃敌人
 					'''
+				SetBonus: 你的魔法伤害会造成严重烧伤并伤害所有附近敌怪
 			}
 
 			PyromancerLeggings: {
@@ -8782,8 +8641,8 @@ Mods: {
 				Tooltip:
 					'''
 					'与你的身体共生'
-					增加5%伤害
-					生命再生增加2点
+					增加{0}%伤害
+					生命再生增加{1}点
 					'''
 			}
 
@@ -8817,7 +8676,7 @@ Mods: {
 				Tooltip:
 					'''
 					'与你的身体共生'
-					增加6%移动速度
+					增加{0}%移动速度
 					'''
 			}
 
@@ -8831,7 +8690,12 @@ Mods: {
 				Tooltip:
 					'''
 					'与你的身体共生'
-					增加6%暴击率
+					增加{0}%暴击率
+					'''
+				SetBonus:
+					'''
+					受伤时伤害敌怪有 {0}%概率掉落肉
+					收集肉会恢复生命并获得伤害加成
 					'''
 			}
 
@@ -8902,6 +8766,7 @@ Mods: {
 			GeodeHelmet: {
 				DisplayName: 晶体头盔
 				Tooltip: 你可以看见矿石，宝箱和其他宝藏的位置
+				SetBonus: 你现在可以一次挖掘整个矿脉
 			}
 
 			GeodePickaxe: {
@@ -8946,6 +8811,7 @@ Mods: {
 			GraniteHelmet: {
 				DisplayName: 花岗岩头盔
 				Tooltip: 防御性能量
+				SetBonus: 免疫高温和敌怪击退，但你的移动速度大幅降低
 			}
 
 			GranitePickAxe: {
@@ -8981,14 +8847,14 @@ Mods: {
 				Tooltip: 附近队友会少受5%伤害
 			}
 
-			AncientTome: {
-				DisplayName: 复活古书
+			Revivify: {
+				DisplayName: 复生（原复活古书）
 				Tooltip:
 					'''
 					允许你复活最近被击杀的玩家
 					在物品栏中时，附近死亡的玩家会留下一道灵魂
-					对灵魂持续使用5秒会复活玩家并拥有10%生命值
-					复活后30秒内玩家会被削弱
+					对灵魂持续使用{0} {^0:秒;seconds}会复活玩家并拥有 {1}%生命值
+					复活后 {2} {^2:秒;seconds}内玩家会被"削弱"
 					'''
 			}
 
@@ -9086,6 +8952,11 @@ Mods: {
 					最大魔力值增加20
 					治疗法术会额外治疗1点生命值
 					'''
+				SetBonus:
+					'''
+					一个生物工程探测器会协助你治疗队友
+					治疗队友等同于你治疗加成的生命值
+					'''
 			}
 
 			BioTechLeggings: {
@@ -9132,6 +9003,7 @@ Mods: {
 					适度增加魔力再生
 					治疗法术会额外治疗1点生命值
 					'''
+				SetBonus: 你的治疗法术会增加被治疗目标的生命恢复和生命恢复速率
 			}
 
 			BloomingLeggings: {
@@ -9218,6 +9090,12 @@ Mods: {
 					大幅增加魔力再生
 					最大魔力值增加60
 					治疗法术会额外治疗2点生命值
+					'''
+				SetBonus:
+					'''
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗 {0} 魔力在你的光标周围召唤一个大型光环
+					光环接触的队友会获得伤害，伤害减免，防御和生命恢复的提升
+					光环接触的敌怪会受到神圣之怒且受到所有来源的伤害增加 {1}%
 					'''
 			}
 
@@ -9483,6 +9361,7 @@ Mods: {
 					增加2%光辉暴击率
 					最大魔力值增加10
 					'''
+				SetBonus: 腐化你的光辉能量，使它们呈现黑暗形态并造成额外效果
 			}
 
 			EbonLeggings: {
@@ -9527,6 +9406,7 @@ Mods: {
 					增加3%光辉暴击率
 					生命再生速率增加
 					'''
+				SetBonus: 受到伤害会治疗附近队友所受伤害 {0}%的生命值
 			}
 
 			FallenPaladinGreaves: {
@@ -9710,6 +9590,11 @@ Mods: {
 			IridescentHelmet: {
 				DisplayName: 光耀头盔
 				Tooltip: 增加16%光辉伤害
+				SetBonus:
+					'''
+					你的光辉伤害有 {0}% 概率释放一道致盲闪光
+					闪光会以你的治疗加成治疗所有附近队友并困惑敌怪
+					'''
 			}
 
 			IridescentMail: {
@@ -9813,6 +9698,7 @@ Mods: {
 					最大魔力值增加40
 					治疗法术会额外治疗2点生命值
 					'''
+				SetBonus: 治疗法术会短暂增加被治疗玩家{0}点最大生命值
 			}
 
 			LifeDisperser: {
@@ -9934,7 +9820,7 @@ Mods: {
 
 			MartyrChalice: {
 				DisplayName: 殉道者圣杯
-				Tooltip: 被治疗的队友会获得3秒无敌
+				Tooltip: 被治疗的队友会获得 {0} {^0:秒;seconds} 无敌
 				HealAmount: 牺牲自身生命治疗世界中所有队友[c/5aff5a:{0}]点生命值
 				RespawnTime: 多人模式下如果玩家不在当前存在的 Boss 附近会被施加 Boss 重生时间惩罚
 			}
@@ -10026,6 +9912,11 @@ Mods: {
 					略微增加魔力再生
 					最大魔力值增加5
 					治疗法术会额外治疗1点生命值
+					'''
+				SetBonus:
+					'''
+					每 {0} {^0:秒;seconds} 你会生成至多 {1} 个神圣十字架
+					在使用治疗法术时会消耗1个十字架而不是魔力
 					'''
 			}
 
@@ -10276,6 +10167,7 @@ Mods: {
 					降低7%魔力消耗
 					治疗法术会额外治疗1点生命值
 					'''
+				SetBonus: 治疗法术会额外治疗 {0} 点生命值
 			}
 
 			SacredLeggings: {
@@ -10433,6 +10325,7 @@ Mods: {
 					最大魔力值增加40
 					治疗法术会额外治疗1点生命值
 					'''
+				SetBonus: 如果队友生命值低于一半，你会获得治疗能力提升
 			}
 
 			TemplarsGrace: {
@@ -10620,6 +10513,11 @@ Mods: {
 					最大魔力值增加20
 					治疗法术会额外治疗1点生命值
 					'''
+				SetBonus:
+					'''
+					光辉攻击会生成至多 {0} 颗暗影微粒
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会向光标位置释放所有存储的暗影微粒
+					'''
 			}
 
 			WarlockLeggings: {
@@ -10776,6 +10674,7 @@ Mods: {
 			IcyHeadgear: {
 				DisplayName: 碎冰头饰
 				Tooltip: ""
+				SetBonus: 一个冰光环环绕着你，冻结待在其中太久的敌怪
 			}
 
 			IcyMail: {
@@ -10887,6 +10786,7 @@ Mods: {
 					增加5%远程伤害
 					增加10%远程暴击率
 					'''
+				SetBonus: 你的弓，枪和发射器会定期发射额外弹幕
 			}
 
 			IllumitePick: {
@@ -11074,6 +10974,11 @@ Mods: {
 					增加4%伤害
 					增加10%近战攻速
 					'''
+				SetBonus:
+					'''
+					每失去{1}%生命值增加{0}%伤害减免
+					低于{1}%生命值时伤害减免到达最大{2}%
+					'''
 			}
 
 			LodeStoneGreatAxe: {
@@ -11153,6 +11058,7 @@ Mods: {
 					降低15%魔力消耗
 					最大魔力值增加60
 					'''
+				SetBonus: 你的魔法攻击会冻结敌怪2秒
 			}
 
 			CryomancersLeggings: {
@@ -11315,6 +11221,11 @@ Mods: {
 					'''
 					增加5%魔法伤害
 					增加5%魔法暴击率
+					'''
+				SetBonus:
+					'''
+					你消耗魔力的{0}% 会存储为能量，上限 {1}
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键会消耗存储的能量回复至多 {2} 魔力和 {3} 生命
 					'''
 			}
 
@@ -11771,6 +11682,12 @@ Mods: {
 					增加5%伤害减免
 					增加10%暴击率
 					'''
+				SetBonus:
+					'''
+					不断移动会生成至多 {0} 个静态环，每个都会为你添加生命护盾
+					满充能时，一个能量泡泡会保护你免受一次攻击
+					泡泡阻挡攻击后会向附近敌怪释放电束
+					'''
 			}
 
 			ConduitLeggings: {
@@ -11870,6 +11787,11 @@ Mods: {
 					增加10%灵感值再生速率
 					增加8%音波伤害和演奏速度
 					'''
+				SetBonus:
+					'''
+					击中敌怪后进入免疫状态
+					增加 {0} {^0:秒;seconds}音波咒音增幅的持续时间
+					'''
 			}
 
 			HallowedCowl: {
@@ -11879,6 +11801,11 @@ Mods: {
 					降低20%非光辉伤害
 					增加20%光辉伤害
 					降低20%魔力消耗，增加20%魔力再生
+					'''
+				SetBonus:
+					'''
+					击中敌怪后进入免疫状态
+					治疗法术会额外治疗 {0} 点生命值
 					'''
 			}
 
@@ -13999,17 +13926,25 @@ Mods: {
 
 			LeakyMarineBlock: {
 				DisplayName: 渗漏海洋块
-				Tooltip: ""
+				Tooltip:
+					'''
+					'不断渗漏…'
+					仅在下方有其他 {0} 块海洋块时才会漏水（等待wiki）
+					'''
 			}
 
 			LeakyMarineWall: {
 				DisplayName: 渗漏海洋墙
-				Tooltip: ""
+				Tooltip: "'不断渗漏…'"（等待wiki）
 			}
 
 			LeakyMossyMarineBlock: {
 				DisplayName: 渗漏多苔海洋块
-				Tooltip: ""
+				Tooltip:
+					'''
+					'不断渗漏….'
+					仅在下方有其他 {0} 块海洋块时才会漏水（等待wiki）
+					'''
 			}
 
 			LivingMahoganyBathtub: {
@@ -15044,7 +14979,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ScaleBlock: {
+			AquaiteScaleBlock: {
 				DisplayName: 海鳞块
 				Tooltip: ""
 			}
@@ -15169,7 +15104,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SeaScaleWall: {
+			AquaiteScaleWall: {
 				DisplayName: 海鳞墙
 				Tooltip: ""
 			}
@@ -15485,17 +15420,17 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ThoriumBrick: {
+			ThoriumBlock: {
 				DisplayName: 瑟银砖
 				Tooltip: ""
 			}
 
-			ThoriumBrickBlock: {
+			ThoriumBrickNew: {
 				DisplayName: 瑟银块
 				Tooltip: ""
 			}
 
-			ThoriumBrickBlockWall: {
+			ThoriumBrickWall: {
 				DisplayName: 瑟银砖墙
 				Tooltip: ""
 			}
@@ -16378,6 +16313,7 @@ Mods: {
 					'由铁匠专业锻造'
 					增加5%暴击率
 					'''
+				SetBonus: 受到的伤害降低 {0}%
 			}
 
 			DurasteelJackhammer: {
@@ -16433,6 +16369,7 @@ Mods: {
 			SteelHelmet: {
 				DisplayName: 钢盔
 				Tooltip: "'由铁匠专业锻造'"
+				SetBonus: 增加 {0}%伤害减免
 			}
 
 			SteelPickaxe: {
@@ -16463,6 +16400,7 @@ Mods: {
 			AstroHelmet: {
 				DisplayName: 宇航盔
 				Tooltip: 增加1点召唤伤害
+				SetBonus: 仆从伤害击中时有概率释放一场魔法脉冲爆发
 			}
 
 			AstroSuit: {
@@ -16621,6 +16559,11 @@ Mods: {
 					最大仆从数量增加
 					增加8%召唤伤害
 					'''
+				SetBonus:
+					'''
+					仆从攻击击中时有 {0}% 概率治疗你
+					 {2} {^2:秒;seconds}内你无法治疗超过{1}点生命值
+					'''
 			}
 
 			LivingLeaf: {
@@ -16637,6 +16580,14 @@ Mods: {
 					右键为你的伙伴选择各种行为
 					左键施展选择的行为
 					'''
+
+				FamiliarStage: {
+					Return: 返回
+					Rally: 集中
+					Target: 目标
+					Attack: 攻击
+					Ability: 能力（wiki）
+				}
 			}
 
 			LivingWoodBoots: {
@@ -16652,6 +16603,11 @@ Mods: {
 			LivingWoodMask: {
 				DisplayName: 生命木面具
 				Tooltip: 增加仆从击退
+				SetBonus:
+					'''
+					最大仆从数量增加 {0}
+					生命木橡子的自动攻击会追踪敌怪
+					'''
 			}
 
 			LivingWoodSap: {
@@ -16843,9 +16799,9 @@ Mods: {
 				Tooltip:
 					'''
 					'一切都会在你的力量面前倒下……'
-					最大生命值增加25，生命再生增加3
-					增加15%伤害
-					增加10%暴击率
+					最大生命值增加{0}，生命再生增加{1}
+					增加{2}%伤害
+					增加{3}%暴击率
 					'''
 			}
 
@@ -16881,9 +16837,9 @@ Mods: {
 				Tooltip:
 					'''
 					'一切都会在你的力量面前倒下……'
-					最大生命值增加15，生命再生增加2
-					增加5%伤害
-					增加20%移动速度
+					最大生命值增加 {0} ，生命再生增加 {1} 
+					增加 {2} %伤害
+					增加 {3} %移动速度
 					'''
 			}
 
@@ -16892,10 +16848,57 @@ Mods: {
 				Tooltip:
 					'''
 					'一切都会在你的力量面前倒下……'
-					最大生命值增加10，生命再生增加1
-					增加10%伤害
+					最大生命值增加 {0} ，生命再生增加 {1} 
+					增加 {2} %伤害
 					黑暗中的视野提升
 					'''
+				SetBonus:
+					'''
+					当你在战斗中时泰拉瑞亚的能量会追寻并保护你
+					按下 '{$Keybinds.ArmorAbility.DisplayName}' 键可以切换职业专注
+					'''
+
+				Focus: {
+					Generic: {
+						Name: 没有专注
+						Description: "增加{0}%伤害"
+					}
+
+					Melee: {
+						Name: 近战专注
+						Description: "增加{0}% 伤害减免"
+					}
+
+					Ranged: {
+						Name: 远程专注
+						Description: "增加{0}% 射速"
+					}
+
+					Magic: {
+						Name: 魔法专注
+						Description: 最大魔力值增加 {0}
+					}
+
+					Summon: {
+						Name: 召唤专注
+						Description: 最大仆从数量增加 {0}
+					}
+
+					Throwing: {
+						Name: 投手专注
+						Description: 最大技巧值增加 {0}
+					}
+
+					Healer: {
+						Name: 牧师专注
+						Description: 治疗法术会额外治疗 {0} 生命值
+					}
+
+					Bard: {
+						Name: 吟游诗人专注
+						Description: 咒音增幅持续时间延长 {0} {^0:秒;seconds}
+					}
+				}
 			}
 
 			TerrariumHolyScythe: {
@@ -17071,6 +17074,7 @@ Mods: {
 					'它充满能量'
 					增加2%暴击率
 					'''
+				SetBonus: 造成的伤害增加 {0}%
 			}
 
 			ThoriumMail: {
@@ -18068,7 +18072,7 @@ Mods: {
 					降低15%魔力消耗
 					当前魔力值低于75时使用法术书会造成额外伤害
 					'''
-				SetBonus: 增加{0}%伤害！
+				SetBonus: 造成的伤害增加{0}%
 			}
 
 			TitanHelmet: {
@@ -18080,6 +18084,7 @@ Mods: {
 					延长受伤后的无敌帧时间
 					免疫击退
 					'''
+				SetBonus: 造成的伤害增加{0}%
 			}
 
 			TitanicBar: {
@@ -18105,6 +18110,7 @@ Mods: {
 					消耗弹药的概率降低25%
 					可以看到敌怪的位置
 					'''
+				SetBonus: 造成的伤害增加{0}%
 			}
 
 			TitanPax: {
@@ -18506,6 +18512,7 @@ Mods: {
 					增加6%远程暴击率
 					增加5%远程伤害
 					'''
+				SetBonus: 按下up翻转重力。翻转时，远程伤害增加 {0}%
 			}
 
 			ValadiumIngot: {
@@ -18644,6 +18651,7 @@ Mods: {
 			BlueKnightHelmet: {
 				DisplayName: 蓝色骑士头盔
 				Tooltip: ""
+				SetBonus: 看起来不错!
 			}
 
 			BombSquadGreaves: {
@@ -18714,6 +18722,7 @@ Mods: {
 			GlitteringHelmet: {
 				DisplayName: 辉耀头盔
 				Tooltip: ""
+				SetBonus: 看起来不错!
 			}
 
 			HatFish: {
@@ -19280,6 +19289,283 @@ Mods: {
 					'''
 					重新召唤一株食人植物
 					仅能在地下丛林使用
+					'''
+			}
+
+			GrimAstroturf: {
+				DisplayName: Grim Astroturf
+				Tooltip: Can grow dead weeds and grimwood trees
+			}
+
+			FrozenTiara: {
+				Tooltip: Summons a tough snowman to follow you around
+				DisplayName: Frozen Tiara
+			}
+
+			Deadwood: {
+				DisplayName: Deadwood
+				Tooltip: ""
+			}
+
+			DeadwoodChest: {
+				DisplayName: Deadwood Chest
+				Tooltip: ""
+			}
+
+			CelestialCup: {
+				DisplayName: Celestial Cup
+				Tooltip: ""
+			}
+
+			DeadwoodBathtub: {
+				DisplayName: Deadwood Bathtub
+				Tooltip: ""
+			}
+
+			DeadwoodBed: {
+				DisplayName: Deadwood Bed
+				Tooltip: ""
+			}
+
+			DeadwoodBookcase: {
+				DisplayName: Deadwood Bookcase
+				Tooltip: ""
+			}
+
+			DeadwoodCandelabra: {
+				DisplayName: Deadwood Candelabra
+				Tooltip: ""
+			}
+
+			DeadwoodCandle: {
+				DisplayName: Deadwood Candle
+				Tooltip: ""
+			}
+
+			DeadwoodChair: {
+				DisplayName: Deadwood Chair
+				Tooltip: ""
+			}
+
+			DeadwoodChandelier: {
+				DisplayName: Deadwood Chandelier
+				Tooltip: ""
+			}
+
+			DeadwoodChest_Trapped: {
+				DisplayName: Deadwood Chest_ Trapped
+				Tooltip: ""
+			}
+
+			DeadwoodClock: {
+				DisplayName: Deadwood Clock
+				Tooltip: ""
+			}
+
+			DeadwoodCup: {
+				DisplayName: Deadwood Cup
+				Tooltip: ""
+			}
+
+			DeadwoodDoor: {
+				DisplayName: Deadwood Door
+				Tooltip: ""
+			}
+
+			DeadwoodDresser: {
+				DisplayName: Deadwood Dresser
+				Tooltip: ""
+			}
+
+			DeadwoodLamp: {
+				DisplayName: Deadwood Lamp
+				Tooltip: ""
+			}
+
+			DeadwoodLantern: {
+				DisplayName: Deadwood Lantern
+				Tooltip: ""
+			}
+
+			DeadwoodPiano: {
+				DisplayName: Deadwood Piano
+				Tooltip: ""
+			}
+
+			DeadwoodPlatform: {
+				DisplayName: Deadwood Platform
+				Tooltip: ""
+			}
+
+			DeadwoodSink: {
+				DisplayName: Deadwood Sink
+				Tooltip: ""
+			}
+
+			DeadwoodSofa: {
+				DisplayName: Deadwood Sofa
+				Tooltip: ""
+			}
+
+			DeadwoodTable: {
+				DisplayName: Deadwood Table
+				Tooltip: ""
+			}
+
+			DeadwoodToilet: {
+				DisplayName: Deadwood Toilet
+				Tooltip: ""
+			}
+
+			DeadwoodWall: {
+				DisplayName: Deadwood Wall
+				Tooltip: ""
+			}
+
+			DeadwoodWorkbench: {
+				DisplayName: Deadwood Workbench
+				Tooltip: ""
+			}
+
+			NebulaCup: {
+				DisplayName: Nebula Cup
+				Tooltip: ""
+			}
+
+			ShootingStarCup: {
+				DisplayName: Shooting Star Cup
+				Tooltip: ""
+			}
+
+			SolarCup: {
+				DisplayName: Solar Cup
+				Tooltip: ""
+			}
+
+			StardustCup: {
+				DisplayName: Stardust Cup
+				Tooltip: ""
+			}
+
+			VortexCup: {
+				DisplayName: Vortex Cup
+				Tooltip: ""
+			}
+
+			WhiteDwarfCup: {
+				DisplayName: White Dwarf Cup
+				Tooltip: ""
+			}
+
+			ClayRoofingWall: {
+				Tooltip: ""
+				DisplayName: Clay Roofing Wall
+			}
+
+			ClayRoofing: {
+				Tooltip: ""
+				DisplayName: Clay Roofing
+			}
+
+			CobaltGong: {
+				DisplayName: Cobalt Gong
+				Tooltip: Slowly rings a large gong, briefly stunning and damaging all nearby enemies
+			}
+
+			PalladiumCowbell: {
+				DisplayName: Palladium Cowbell
+				Tooltip:
+					'''
+					'Just the right amount'
+					Quickly slaps the cowbell, flinging sound sparks all around you
+					'''
+			}
+
+			BuildingBlock: {
+				DisplayName: Building Block
+				Tooltip: ""
+			}
+
+			SnarkyGun: {
+				SnarkyGunStage: {
+					Basic: Basic
+					Explosive: Explosive
+					Fire: Fire
+					Ice: Ice
+					Homing: Homing
+				}
+
+				DisplayName: Snarky Gun
+				Tooltip:
+					'''
+					Turns musket balls into a variety of different eggs
+					Right click to swap between egg types
+					'''
+			}
+
+			Fig: {
+				DisplayName: Fig
+				Tooltip: Minor improvements to all stats
+			}
+
+			Tamarind: {
+				DisplayName: Tamarind
+				Tooltip: Minor improvements to all stats
+			}
+
+			AdamantiteKlaxon: {
+				DisplayName: Adamantite Klaxon
+				Tooltip: Releases a delayed sound burst after damaging enemies
+			}
+
+			TitaniumCimbasso: {
+				DisplayName: Titanium Cimbasso
+				Tooltip: ""
+			}
+
+			ValadiumTheremin: {
+				DisplayName: Valadium Theremin
+				Tooltip: Wiggles out a rising tune, which deals increased damage to targets above you
+			}
+
+			LodestoneRadio: {
+				DisplayName: Lodestone Radio
+				Tooltip: Surrounds you with lodestone radio-static, which sunders and repels enemies
+			}
+
+			Cello: {
+				DisplayName: Cello
+				Tooltip:
+					'''
+					'Pronounced as Ch-hell-o'
+					Sends out a long-lived, fiery sound wave
+					'''
+			}
+
+			SorcerersDice: {
+				DisplayName: Sorcerer's Dice
+				Tooltip:
+					'''
+					Gamble by rolling a six-sided magical die at the cost of your current mana
+					The face you roll results in different mana-based effect, which can be beneficial or detrimental
+					The die must recharge for {0} {^0:minute;minutes} minute after use
+					'''
+				Choice1: (1) {0} seconds of Mana Sickness
+				Choice2: (2) {0} seconds of Mana Sickness
+				Choice3: (3) Mana cost refunded
+				Choice4: (4) Mana fully recovered!
+				Choice5:
+					'''
+					(5)
+					{0} seconds of infinite mana
+					+{1}% casting speed
+					'''
+				Choice6:
+					'''
+					(6)
+					{0} seconds of infinite mana
+					+{1}% casting speed
+					+Brief invincibility
 					'''
 			}
 		}
@@ -20572,14 +20858,6 @@ Mods: {
 			ConcertinaPro.DisplayName: 手风琴
 			ConcertinaPro2.DisplayName: 手风琴2
 			ConchShellPro.DisplayName: 海螺壳
-			ConductorGhost1.DisplayName: 幽灵指挥家1
-			ConductorGhost2.DisplayName: 幽灵指挥家2
-			ConductorGhost3.DisplayName: 幽灵指挥家3
-			ConductorGhost4.DisplayName: 幽灵指挥家4
-			ConductorGhostPro1.DisplayName: 幽灵指挥家射弹1
-			ConductorGhostPro2.DisplayName: 幽灵指挥家射弹2
-			ConductorGhostPro3.DisplayName: 幽灵指挥家射弹3
-			ConductorGhostPro4.DisplayName: 幽灵指挥家射弹4
 			DidgeridooPro.DisplayName: 狄洁里都号角
 			DragonsWailPro.DisplayName: 绿龙哀歌
 			DrumMalletPro.DisplayName: 鼓锤
@@ -20607,6 +20885,10 @@ Mods: {
 			GhastlyFrenchHornPro.DisplayName: 法式恐惧圆号
 			GoldBugleHornPro.DisplayName: 黄金军号
 			GrandPianoPro.DisplayName: 大钢琴
+			GraniteBoomBoxPro.DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
+			GraniteBoomBoxPro2.DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
+			LodestoneRadioPro.DisplayName: "{$Items.LodestoneRadio.DisplayName}"
+			LodestoneRadioPro2.DisplayName: "{$Items.LodestoneRadio.DisplayName}"
 			GraniteInspiration.DisplayName: 花岗岩节拍
 			GraniteInspirationPro.DisplayName: 花岗岩音响
 			GreedfulGurdyPro.DisplayName: 贪欲弦琴
@@ -21165,7 +21447,7 @@ Mods: {
 			HallowedPro.DisplayName: 神圣法杖
 			HandProCon.DisplayName: 手
 			HarmlessBubble.DisplayName: 友方泡泡
-			HarpyTalonPro.DisplayName: 飞羽爪
+			RevivifyPro.DisplayName: 飞羽爪
 			AncientTomePro.DisplayName: 远古法典
 			AnkhPro.DisplayName: 十字章
 			AuraDefense.DisplayName: 光环防御
@@ -21274,8 +21556,7 @@ Mods: {
 			LilDevilsWandPro2.DisplayName: 小恶魔之杖2
 			LotusPro.DisplayName: 莲花
 			LotusPro2.DisplayName: 莲花2
-			LowestPro.DisplayName: 天底
-			LowestPro2.DisplayName: 天底2
+			InnerFlamePro.DisplayName: Inner Flame
 			LucidityPro.DisplayName: 洞察之月
 			MarrowScepterPro.DisplayName: 骨髓节杖
 			MartyrChalicePro.DisplayName: 殉道者圣杯
@@ -22222,6 +22503,21 @@ Mods: {
 			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			FrozenTiaraPro.DisplayName: Frozen Tiara
+			MaestroSetPro1.DisplayName: Maestro Ghosts
+			MaestroSetPro2.DisplayName: Maestro Ghosts
+			MaestroSetPro3.DisplayName: Maestro Ghosts
+			MaestroSetPro4.DisplayName: Maestro Ghosts
+			MaestroSetPro.DisplayName: Maestro Ghosts
+			PalladiumCowbellPro.DisplayName: Palladium Cowbell Pro
+			CobaltGongPro.DisplayName: Cobalt Gong Pro
+			BagpipePro.DisplayName: Bagpipe Pro
+			SnarkyGunPro.DisplayName: Snarky Gun
+			AdamantiteKlaxonPro.DisplayName: Adamantite Klaxon
+			AdamantiteKlaxonPro2.DisplayName: Adamantite Klaxon
+			TitaniumCimbassoPro.DisplayName: Titanium Cimbasso
+			ValadiumThereminPro.DisplayName: Valadium Theremin
+			CelloPro.DisplayName: Cello Pro
 		}
 
 		Tiles: {
@@ -22245,6 +22541,7 @@ Mods: {
 			UnderworldChest.MapEntry_Locked: 上锁的{$Items.UnderworldBiomeChest.DisplayName}
 			ValadiumChunk.MapEntry: 虚金矿
 			WorldEngineTile.MapEntry: 世界引擎
+			FurnitureVanillaCup.MapEntry: Furniture Vanilla Cup
 		}
 
 		Keybinds: {
@@ -22382,6 +22679,7 @@ Mods: {
 					'''
 					错失节拍会大幅降低这些加成并消耗5点灵感值
 					这些加成在切换武器后仍会保留，但若不是你激活的武器，加成会逐渐消散
+					武器自动攻击附近的敌人
 					'''
 
 				CookFood: {
@@ -22391,6 +22689,13 @@ Mods: {
 				}
 
 				Sheath: 手持且不使用{1}{^1:秒;seconds}后用剑攻击会暴击造成{0}%伤害
+				InvalidMeleeItemForSheath: 此武器和剑鞘不兼容
+
+				Bard: {
+					InstrumentTag: -{0}乐器-
+					ClassTag: -吟游诗人职业-
+					InspirationCost: 使用 {0} 灵感值
+				}
 			}
 
 			TreasureBag: 宝藏袋({0})

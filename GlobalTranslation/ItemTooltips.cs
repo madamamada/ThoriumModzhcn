@@ -30,22 +30,20 @@ namespace ThoriumModzhcn.Items
                     tooltipLine.Text = tooltipLine.Text.Replace("copper", "铜");
                 }
                 // 伤害标签
-                tooltipLine.Text = tooltipLine.Text.Replace("-Bard Class-", "-吟游诗人职业-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Healer Class-", "-牧师职业-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Thrower Class-", "-投手职业-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Reality Breaker-", "-现实破坏者-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Transformation-", "-化形-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Early Testing-", "-早期测试物品-");
-                tooltipLine.Text = tooltipLine.Text.Replace(" Instrument-", "乐器-");
 
                 // 救赎伤害标签
                 tooltipLine.Text = tooltipLine.Text.Replace("-Donator Item-", "-捐赠者项目-");
 
                 // 瑟银额外模组伤害标签
                 tooltipLine.Text = tooltipLine.Text.Replace("-Warrior Class-", "-近战职业-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-Sorcerer Class-", "-魔法职业-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Sorcerer Class-", "-魔法师职业-");
                 tooltipLine.Text = tooltipLine.Text.Replace("-Ranger Class-", "-远程职业-");
-                tooltipLine.Text = tooltipLine.Text.Replace("-Summoner Class-", "-召唤职业-");
+                tooltipLine.Text = tooltipLine.Text.Replace("-Summoner Class-", "-召唤师职业-");
 
                 // 重售吟游诗人武器伤害加成
                 tooltipLine.Text = tooltipLine.Text.Replace("s empowerment duration", "s咒音增幅时间");
@@ -53,7 +51,7 @@ namespace ThoriumModzhcn.Items
                 // 灵魂链接
                 tooltipLine.Text = tooltipLine.Text.Replace("Allows you to use unique abilities while transformed", "允许你在化形时使用独特的能力");
 
-                //咒音增幅提示
+                //咒音增幅提示1
                 tooltipLine.Text = tooltipLine.Text.Replace("Playing empowers players with bonus", "演奏会提供玩家以下加成");
 
                 //厨师提供的食物
@@ -72,13 +70,12 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "% critical strike chance", "%暴击率");
 
                 //牧师武器加成
-                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Uses )([0-9]+)( inspiration)", "使用$2灵感值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Uses )([0-9]+)( mana & )([0-9]+)( life)", "使用$2魔力和$4生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "( & )([0-9]+)( life)", "和$2生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Grants )([0-9]+)( soul essence on direct hit)", "直接命中会获得$2层灵魂精华");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Shields ally life by )([0-9]+)( up to 50)", "为队友施加$2点生命护盾，至多50点");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally and player life by )([0-9]+)", "治疗队友和玩家$2点生命值");
-                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Steals )([0-9]+)( life)", "偷取$2点生命值");
+                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Steals )([0-9]+)( life)", "汲取$2点生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Right click to heal all nearby allies by )([0-9]+)( life)", "右键单击治疗附近所有队友$2生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally life by )([0-9]+)( every second)", "每秒治疗队友$2生命值");
                 tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Heals ally life by )([0-9]+)", "治疗队友$2点生命值");
@@ -101,8 +98,6 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = tooltipLine.Text.Replace(") kernels may be out at once", ")个爆米花粒");
                 tooltipLine.Text = tooltipLine.Text.Replace("Popcorn does not apply on heal effects when consumed", "爆米花消耗时不会施加治疗效果");
 
-                // 乐师手册
-                tooltipLine.Text = Regex.Replace(tooltipLine.Text, "(Your instruments play )([0-9]+)(% faster)", "你的乐器演奏速度快 $2%");
 
                 // 钱袋子等等
                 tooltipLine.Text = tooltipLine.Text.Replace("Money Generated: ", "额外掉落钱币: ");
@@ -114,7 +109,7 @@ namespace ThoriumModzhcn.Items
                 tooltipLine.Text = tooltipLine.Text.Replace(" base damage", " 基础伤害");
                 tooltipLine.Text = tooltipLine.Text.Replace(" basic damage", " 基本伤害");
 
-                // 元素自动竖琴
+                // 元素自动竖琴1
                 tooltipLine.Text = tooltipLine.Text.Replace("Variety ", "多种音波脉冲 ");
 
                 // forgos

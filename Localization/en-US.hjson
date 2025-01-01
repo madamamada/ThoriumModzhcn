@@ -334,19 +334,9 @@ Mods: {
 				Description: Throwing damage has a chance to significantly hinder the hit enemies movement
 			}
 
-			DepthBreath: {
-				DisplayName: Depth: Breath
-				Description: You can breath underwater
-			}
-
-			DepthDamage: {
-				DisplayName: Depth: Damage
-				Description: Damage done increased by 10%
-			}
-
-			DepthSpeed: {
-				DisplayName: Depth: Speed
-				Description: Movement speed is increased by 10%
+			DepthDiverAura: {
+				DisplayName: Depth Diver Aura
+				Description: You have received increased damage, speed, and underwater breathing
 			}
 
 			Destabilized: {
@@ -1687,6 +1677,21 @@ Mods: {
 				DisplayName: Scythe of Undoing
 				Description: Granted a dark power...
 			}
+
+			FrozenTiaraBuff: {
+				Description: Does it feel chilly in here...?
+				DisplayName: Frozen Tiara
+			}
+
+			SorcerersDiceDebuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName}"
+				Description: The dice are recharging...
+			}
+
+			SorcerersDiceBuff: {
+				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
+				Description: Infinite mana and {0}% increased casting speed
+			}
 		}
 
 		Conditions: {
@@ -1777,7 +1782,7 @@ Mods: {
 
 			InvincibilityFrames: {
 				DisplayName: Invincibility Frames
-				Tooltip: +{0} sec. of after hit invincibility
+				Tooltip: +{0} sec of after hit invincibility
 			}
 
 			JumpHeight: {
@@ -1822,7 +1827,7 @@ Mods: {
 
 			ItemTopTooltip: Playing empowers players with bonus:
 			EmpowermentNameLevel: "{$Common.Concatenate}"
-			ItemTopTooltipHoldShift: Hold 'Shift' key to show provided empowerments
+			ItemTopTooltipHoldShift: Hold '{0}' key to show provided empowerments
 		}
 
 		InfoDisplays: {
@@ -1959,6 +1964,12 @@ Mods: {
 					0: That is not one of ours... Interesting...
 					1: They exist outside the cycle...
 				}
+
+				SetBonus:
+					'''
+					You occasionally birth a tentacle of abyssal energy that attacks nearby enemies
+					You can have up to six tentacles and their damage saps {0} life and {1} mana from the hit enemy
+					'''
 			}
 
 			WhisperingLeggings: {
@@ -2149,6 +2160,11 @@ Mods: {
 			YewWoodHelmet: {
 				DisplayName: Yew Wood Helmet
 				Tooltip: 2.5% increased firing speed
+				SetBonus:
+					'''
+					After four non-critical strikes, your next ranged attack will mini-crit for {0}% damage
+					Mini-crits count as critical strikes for related effects
+					'''
 			}
 
 			YewWoodLeggings: {
@@ -2305,7 +2321,7 @@ Mods: {
 				Tooltip:
 					'''
 					Allows you to rhythmically play on a big bagpipe
-					Successfully timing hits will steadily increase its damage, empowerment level, and orb amount
+					Successfully timing hits will steadily increase its damage, empowerment level, and projectile count
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -2448,6 +2464,7 @@ Mods: {
 			CriersCap: {
 				DisplayName: Crier's Cap
 				Tooltip: Increases inspiration regeneration rate by 4%
+				SetBonus: Your symphonic empowerments will last an additional {0} {^0:second;seconds}
 			}
 
 			CriersLeggings: {
@@ -2467,6 +2484,14 @@ Mods: {
 					5% increased symphonic damage
 					4% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by 10%
+					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will cycle you through four states:
+					Red - You and nearby allies are granted Flat Damage {0} & Damage {0}
+					Green - You and nearby allies are granted Movement Speed {0} & Flight Time {0}
+					Purple - You and nearby allies are granted Max Resource {0} & Resource Regen {0}
+					Blue - You and nearby allies are granted Defense {0} & Damage Reduction {0}
 					'''
 			}
 
@@ -2554,7 +2579,7 @@ Mods: {
 				Tooltip:
 					'''
 					Throw out a piercing ebony tambourine
-					Right click to jingle the thrown tambourine at the cost of 2 inspiration
+					Right click to jingle the thrown tambourine, damaging nearby enemies
 					'''
 			}
 
@@ -2655,7 +2680,7 @@ Mods: {
 
 			GhastlyFrenchHorn: {
 				DisplayName: Ghastly French Horn
-				Tooltip: Unleashes a ghostly sound eruption which sucks in enemies and then explodes after hitting an enemy
+				Tooltip: Unleashes a ghostly force towards your cursor that sucks in enemies before exploding
 			}
 
 			GoldBugleHorn: {
@@ -2687,7 +2712,7 @@ Mods: {
 				Tooltip:
 					'''
 					5% increased symphonic playing speed
-					String weapon projectiles bounce an additional time
+					String weapon projectiles can bounce 2 additional times
 					'''
 			}
 
@@ -2697,7 +2722,7 @@ Mods: {
 					'''
 					10% increased symphonic damage
 					5% increased symphonic playing speed
-					String weapon projectiles bounce two additional times
+					String weapon projectiles can bounce 3 additional times
 					'''
 			}
 
@@ -2815,6 +2840,7 @@ Mods: {
 			JestersMask: {
 				DisplayName: Jester's Mask
 				Tooltip: 11% increased symphonic critical strike chance
+				SetBonus: Symphonic critical strikes ring a bell over your head, slowing all nearby enemies briefly
 			}
 
 			JestersMask2: {
@@ -2890,15 +2916,21 @@ Mods: {
 					4% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by 15%
 					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will summon a chorus of music playing ghosts
+					The ghosts rapidly damage nearby enemies with brass, wind, string, and percussion instrument damage
+					'''
 			}
 
-			MarchingBandCap: {
-				DisplayName: Marching Band Cap
+			MarchingBandShako: {
+				DisplayName: Marching Band Shako
 				Tooltip:
 					'''
 					2% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by 10%
 					'''
+				SetBonus: While in combat, a rainbow of damaging symphonic symbols will follow your movement and stun enemies
 			}
 
 			MarchingBandLeggings: {
@@ -2982,8 +3014,9 @@ Mods: {
 					'''
 					'Suitable for those interested in actually trying to play music'
 					Your instruments cost no inspiration, deal no damage, and cannot be mistimed
-					Your symphonic playing speed bonus is based on handbook's accessory slot:
+					Your symphonic playing speed bonus is based on handbook's accessory slot
 					'''
+				InstrumentPlaySpeed: Your instruments play {0}% faster
 			}
 
 			MusicNotes: {
@@ -3003,6 +3036,7 @@ Mods: {
 					Increases the chance for inspiration notes to drop by 4%
 					Increases inspiration regeneration rate by 5%
 					'''
+				SetBonus: Inspiration notes that drop are twice as potent and increase your symphonic damage briefly
 			}
 
 			NoblesJerkin: {
@@ -3055,6 +3089,11 @@ Mods: {
 					5% increased symphonic playing speed
 					8% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by 15%
+					'''
+				SetBonus:
+					'''
+					Symphonic critical strikes cause a random active empowerment to ascend to a fourth level of intensity
+					This effect can only trigger once every {0} {^0:second;seconds}
 					'''
 			}
 
@@ -3156,7 +3195,7 @@ Mods: {
 				Tooltip:
 					'''
 					Throw out a piercing shady tambourine
-					Right click to jingle the thrown tambourine at the cost of 2 inspiration
+					Right click to jingle the thrown tambourine, damaging nearby enemies
 					'''
 			}
 
@@ -3201,6 +3240,12 @@ Mods: {
 					10% increased symphonic playing speed
 					6% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by 20%
+					'''
+				SetBonus:
+					'''
+					Increases the duration of your symphonic empowerments by {0} {^0:second;seconds}
+					Each unique empowerment you have increases your symphonic damage by {1}%
+					Each unique empowerment you have increases your inspiration regeneration by {2}%
 					'''
 			}
 
@@ -4489,6 +4534,11 @@ Mods: {
 					Increases radiant damage by 1
 					Increases your breath by 50%
 					'''
+				SetBonus:
+					'''
+					Radiant damage builds up to {0} life shield and life shielding no longer decays on you
+					Healing an ally transfers the life shield to them
+					'''
 			}
 
 			CoralPickaxe: {
@@ -4568,6 +4618,7 @@ Mods: {
 					10% increased movement speed
 					Armor penetration increased by 1
 					'''
+				SetBonus: Nothing will stop your movement! Double tap to dash!
 			}
 
 			DarksteelGreaves: {
@@ -4708,6 +4759,7 @@ Mods: {
 					'Infused with everlasting Blood'
 					10% increased damage reduction
 					'''
+				SetBonus: Maximum life increased by {0}
 			}
 
 			DemonBloodJackhammer: {
@@ -4888,20 +4940,12 @@ Mods: {
 
 			DepthDiverChestplate: {
 				DisplayName: Depth Diver's Chestplate
-				Tooltip:
-					'''
-					'Become a selfless protector'
-					Nearby allies gain 10% increased damage
-					'''
+				Tooltip: Become a selfless protector
 			}
 
 			DepthDiverGreaves: {
 				DisplayName: Depth Diver's Greaves
-				Tooltip:
-					'''
-					'Become a selfless protector'
-					Nearby allies gain 10% increased movement speed
-					'''
+				Tooltip: Become a selfless protector
 			}
 
 			DepthDiverHelmet: {
@@ -4910,8 +4954,8 @@ Mods: {
 					'''
 					'Become a selfless protector'
 					Critical strike chance increased by 6%
-					You and all nearby allies can breathe underwater
 					'''
+				SetBonus: You and nearby allies gain {0}% increased damage, {1}% movement speed, and can breath underwater
 			}
 
 			DepthScale: {
@@ -5022,6 +5066,7 @@ Mods: {
 					Maximum mana increased by 60
 					Allows you to breathe underwater
 					'''
+				SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
 			}
 
 			NagaSkinSuit: {
@@ -5121,6 +5166,7 @@ Mods: {
 					4% increased ranged critical strike chance
 					Allows you to breathe underwater
 					'''
+				SetBonus: Ranged critical strikes release a splash of foam, slowing nearby enemies
 			}
 
 			TideHunterChestpiece: {
@@ -5787,6 +5833,7 @@ Mods: {
 				DisplayName: Feral-Fur Head
 				Tooltip: "'Let your inner animal out'"
 				VanityConfigName: Feral-Fur clothes
+				SetBonus: Lookin' good!
 			}
 
 			FeralFurLegs: {
@@ -5904,6 +5951,12 @@ Mods: {
 					Draws a chosen magical sigil into visible air, which react differently to the presence of enemies
 					Right click to switch between sigil types
 					'''
+
+				GeomancersBrushStage: {
+					Fire: Fire
+					Earth: Earth
+					Wind: Wind
+				}
 			}
 
 			GhastlyCarapace: {
@@ -6345,6 +6398,15 @@ Mods: {
 					Summons a sentient spell book to cast spells at enemies
 					Right click to switch between a variety of spell types
 					'''
+
+				MastersLibramStage: {
+					Water: Water
+					CursedFlame: Cursed Flame
+					Ichor: Ichor
+					Crystal: Crystal
+					Shadow: Shadow
+					Death: Death
+				}
 			}
 
 			MeatShieldsBoots: {
@@ -6821,6 +6883,13 @@ Mods: {
 					Summons a floating totem that attacks enemies
 					Right click to switch between four different totem attack types
 					'''
+
+				RudeWandStage: {
+					Pulse: Pulse
+					Laser: Laser
+					Buster: Buster
+					Spread: Spread
+				}
 			}
 
 			Saba: {
@@ -6982,6 +7051,13 @@ Mods: {
 			SnowWhite: {
 				DisplayName: Snow White
 				Tooltip: Right Click to switch between four different elemental attacks
+
+				SnowWhiteStage: {
+					Normal: Normal
+					Fire: Fire
+					Ice: Ice
+					Electricity: Electricity
+				}
 			}
 
 			SoulAnchor: {
@@ -7278,6 +7354,12 @@ Mods: {
 					Casts forth holy, reflective, and aquatic magic
 					Right click to switch between three seperate spells
 					'''
+
+				UselessStaffStage: {
+					Exorcise: Exorcise
+					Reflect: Reflect
+					Drown: Drown
+				}
 			}
 
 			UselessVest: {
@@ -7433,6 +7515,7 @@ Mods: {
 					'Made from mythical scales'
 					7% increased critical strike chance
 					'''
+				SetBonus: Attacks have a chance to unleash an explosion of dragon flames
 			}
 
 			DragonsAxe: {
@@ -7575,6 +7658,11 @@ Mods: {
 					10% increased melee critical strike chance
 					10% increased melee speed
 					'''
+				SetBonus:
+					'''
+					Your boots vibrate at an unreal frequency, increasing base movement speed significantly
+					While moving, your melee damage and critical strike chance are increased
+					'''
 			}
 
 			DreadSoul: {
@@ -7652,6 +7740,7 @@ Mods: {
 					Maximum mana increased by 20
 					Minimally increased mana regeneration
 					'''
+				SetBonus: "{0}% increased magic damage while above {1}% maximum mana"
 			}
 
 			SilkLeggings: {
@@ -7754,11 +7843,16 @@ Mods: {
 				Tooltip:
 					'''
 					'Become as unstoppable as the tides'
-					12% increased melee damage
-					Damage taken reduced by 15%
-					Life regeneration increased by 5
-					Produces a floating globule every 5 seconds
-					Every globule increases your defense by 5%
+					{0}% increased melee damage
+					Damage taken reduced by {1}%
+					Life regeneration increased by {2}
+					Produces a floating globule every {3} {^3:second;seconds}
+					Every globule increases your defense by {4}%
+					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will envelop you within an impervious bubble
+					While the bubble is active, all damage taken is converted into healing
 					'''
 			}
 
@@ -7816,6 +7910,12 @@ Mods: {
 					16% increased radiant critical strike chance
 					Maximum mana increased by 20
 					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend {0} mana and bend the very fabric of reality
+					Enemies will be heavily slowed and take {1}% more damage from all sources
+					Allies will receive greatly increased movement and attack speed
+					'''
 			}
 
 			DreamWeaversHood: {
@@ -7828,6 +7928,11 @@ Mods: {
 					Massively increased mana regeneration
 					Maximum mana increased by 60
 					Healing spells will heal an additional 6 life
+					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend {0} mana and place you within the Dream
+					While in the Dream, healed allies will become briefly invulnerable and be cured of all debuffs
 					'''
 			}
 
@@ -7934,6 +8039,7 @@ Mods: {
 					Arrow critical strikes turn into death arrows and ricochet
 					Your ranged damage applies ichor to hit enemies
 					'''
+				SetBonus: Your ranged damage has a {0}% chance to completely duplicate itself and deal {1}% more damage
 			}
 
 			MasterMarksmansScouter: {
@@ -7944,6 +8050,11 @@ Mods: {
 					24% increased arrow and bullet damage
 					The nearest enemy is scouted and takes 10% more damage from all sources
 					Your ranged damage applies cursed flames to enemies
+					'''
+				SetBonus:
+					'''
+					Your ranged damage has a {0}% chance to completely eradicate the hit target
+					This effect can only occur on bosses if they are below {1}% maximum life
 					'''
 			}
 
@@ -8023,6 +8134,11 @@ Mods: {
 					Inspiration notes that drop will become more potent
 					Additionally, they give a random level 1 empowerment to all nearby allies
 					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will overload all nearby allies with every empowerment {0} for {1} {^1:second;seconds}
+					Using this ability requires {2} inspiration and must recharge for {3} {^3:minute;minutes}
+					'''
 			}
 
 			RhapsodistBoots: {
@@ -8056,7 +8172,12 @@ Mods: {
 					{1}% increased symphonic critical strike chance
 					Increases inspiration regeneration rate by {2}%
 					Increases wind instrument homing speed by {3}%
-					String instrument projectiles bounce an additional time
+					String instrument projectiles can bounce 1 additional time
+					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will grant you endless inspiration, greatly increased symphonic damage and playing speed
+					This effect lasts for {0} {^0:second;seconds} and needs to recharge for {1} {^1:minute;minutes}
 					'''
 			}
 
@@ -8125,6 +8246,7 @@ Mods: {
 					Increases your max number of sentries by 2
 					Increases minion knockback
 					'''
+				SetBonus: All minion damage leaves a lingering burn that deals significant damage over time
 			}
 
 			PrometheanStaff: {
@@ -8147,6 +8269,7 @@ Mods: {
 					This effect is 10x as effective against bosses
 					Magical attacks will Singe and Ignite enemies
 					'''
+				SetBonus: Your magic damage will heavily burn and damage all adjacent enemies
 			}
 
 			PyromancerLeggings: {
@@ -8372,8 +8495,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Symbiotically attached to your body'
-					5% increased damage
-					Increases life regeneration by 2
+					{0}% increased damage
+					Increases life regeneration by {1}
 					'''
 			}
 
@@ -8407,7 +8530,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Symbiotically attached to your body'
-					6% increased movement speed
+					{0}% increased movement speed
 					'''
 			}
 
@@ -8421,7 +8544,12 @@ Mods: {
 				Tooltip:
 					'''
 					'Symbiotically attached to your body'
-					6% increased critical strike chance
+					{0}% increased critical strike chance
+					'''
+				SetBonus:
+					'''
+					While hurt, damaged enemies have a {0}% chance to drop flesh
+					Collected flesh restores life and grants bonus damage
 					'''
 			}
 
@@ -8492,6 +8620,7 @@ Mods: {
 			GeodeHelmet: {
 				DisplayName: Geode Helmet
 				Tooltip: You see the location of ores, chests, and other treasures
+				SetBonus: You can now mine entire ore veins at once
 			}
 
 			GeodePickaxe: {
@@ -8536,6 +8665,7 @@ Mods: {
 			GraniteHelmet: {
 				DisplayName: Granite Helmet
 				Tooltip: "'Defensively energized'"
+				SetBonus: Immune to intense heat and enemy knockback, but your movement speed is slowed down greatly
 			}
 
 			GranitePickAxe: {
@@ -8571,14 +8701,14 @@ Mods: {
 				Tooltip: Nearby allies will take 5% reduced damage
 			}
 
-			AncientTome: {
-				DisplayName: Ancient Tome of Revival
+			Revivify: {
+				DisplayName: Revivify
 				Tooltip:
 					'''
 					Allows you to revive recently killed players
 					While in your inventory, nearby players that die leave a lingering spirit
-					Channeling over the spirit for 5 seconds will resurrect them with 10% life
-					Resurrected players are sapped for 30 seconds after being revived
+					Channeling over the spirit for {0} {^0:second;seconds} will resurrect them with {1}% life
+					Resurrected players are 'sapped' for {2} {^2:second;seconds} after being revived
 					'''
 			}
 
@@ -8676,6 +8806,11 @@ Mods: {
 					Maximum mana increased by 20
 					Healing spells will heal an additional 1 life
 					'''
+				SetBonus:
+					'''
+					A biotech probe will assist you in healing your allies
+					Heals ally life equal to your bonus healing
+					'''
 			}
 
 			BioTechLeggings: {
@@ -8722,6 +8857,7 @@ Mods: {
 					Moderately increased mana regeneration
 					Healing spells will heal an additional 1 life
 					'''
+				SetBonus: Your healing spells increase the life recovery and life recovery rate of the healed target
 			}
 
 			BloomingLeggings: {
@@ -8804,6 +8940,12 @@ Mods: {
 					Massively increased mana regeneration
 					Maximum mana increased by 60
 					Healing spells will heal an additional 2 life
+					'''
+				SetBonus:
+					'''
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will summon a large aura around your cursor at the cost of {0} mana
+					Allies touched by the aura gain increased damage, damage reduction, defense, and life recovery
+					Enemies touched by the aura suffer from holy glare and take {1}% more damage from all sources
 					'''
 			}
 
@@ -9068,6 +9210,7 @@ Mods: {
 					2% increased radiant critical strike chance
 					Maximum mana increased by 10
 					'''
+				SetBonus: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
 			}
 
 			EbonLeggings: {
@@ -9112,6 +9255,7 @@ Mods: {
 					3% increased radiant critical strike chance
 					Life regeneration rate increased
 					'''
+				SetBonus: Taking damage heals nearby allies equal to {0}% of the damage taken
 			}
 
 			FallenPaladinGreaves: {
@@ -9295,6 +9439,11 @@ Mods: {
 			IridescentHelmet: {
 				DisplayName: Iridescent Helmet
 				Tooltip: 16% increased radiant damage
+				SetBonus:
+					'''
+					Your radiant damage has a {0}% chance to release a blinding flash of light
+					The flash heals nearby allies equal to your bonus healing and confuses enemies
+					'''
 			}
 
 			IridescentMail: {
@@ -9394,6 +9543,7 @@ Mods: {
 					Maximum mana increased by 40
 					Healing spells will heal an additional 2 life
 					'''
+				SetBonus: Healing spells will shortly increase the healed player's maximum life by {0}
 			}
 
 			LifeDisperser: {
@@ -9511,7 +9661,7 @@ Mods: {
 
 			MartyrChalice: {
 				DisplayName: Martyr's Chalice
-				Tooltip: Allies are given {0} seconds of invulnerability after being healed
+				Tooltip: Allies are given {0} {^0:second;seconds} of invulnerability after being healed
 				HealAmount: Sacrifices your own life to heal all allies in the world for [c/5aff5a:{0}] life
 				RespawnTime: Increases respawn time if the user is not engaged with an active boss in multiplayer
 			}
@@ -9607,6 +9757,11 @@ Mods: {
 					Minimally increased mana regeneration
 					Maximum mana increased by 5
 					Healing spells will heal an additional 1 life
+					'''
+				SetBonus:
+					'''
+					Every {0} {^0:second;seconds} you generate up to {1} holy crosses
+					When casting healing spells, a cross is used instead of mana
 					'''
 			}
 
@@ -9856,6 +10011,7 @@ Mods: {
 					7% decreased mana cost
 					Healing spells will heal an additional 1 life
 					'''
+				SetBonus: Healing spells will heal an additional {0} life
 			}
 
 			SacredLeggings: {
@@ -10013,13 +10169,14 @@ Mods: {
 					Maximum mana increased by 40
 					Healing spells will heal an additional 1 life
 					'''
+				SetBonus: If an ally is below half health, you will gain increased healing abilities
 			}
 
 			TemplarsGrace: {
 				DisplayName: Templar's Grace
 				Tooltip:
 					'''
-					Can heal up to three allies, with vary amounts of potency
+					Can heal up to three allies, with varying amounts of potency
 					The first heal is 25% more potent and the third 25% less potent
 					'''
 			}
@@ -10195,6 +10352,11 @@ Mods: {
 					Maximum mana increased by 20
 					Healing spells will heal an additional 1 life
 					'''
+				SetBonus:
+					'''
+					Radiant attacks have a chance to generate up to {0} shadow wisps
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will unleash every stored shadow wisp towards your cursor's position
+					'''
 			}
 
 			WarlockLeggings: {
@@ -10351,6 +10513,7 @@ Mods: {
 			IcyHeadgear: {
 				DisplayName: Icy Headgear
 				Tooltip: ""
+				SetBonus: An icy aura surrounds you, freezing enemies that stay too long within it
 			}
 
 			IcyMail: {
@@ -10462,6 +10625,7 @@ Mods: {
 					5% increased ranged damage
 					10% increased ranged critical strike chance
 					'''
+				SetBonus: Your bows, guns, and launchers fire off additional projectiles periodically
 			}
 
 			IllumitePick: {
@@ -10648,6 +10812,11 @@ Mods: {
 					4% Increased melee damage
 					10% Increased melee speed
 					'''
+				SetBonus:
+					'''
+					Damage reduction is increased by {0}% for every {1}% of life lost
+					Maximum damage reduction is reached at {2}% while below {1}% life
+					'''
 			}
 
 			LodeStoneGreatAxe: {
@@ -10727,6 +10896,7 @@ Mods: {
 					15% reduced mana cost
 					Maximum mana increased by 60
 					'''
+				SetBonus: Your magic damage will freeze enemies for two seconds
 			}
 
 			CryomancersLeggings: {
@@ -10889,6 +11059,11 @@ Mods: {
 					'''
 					5% increased magic damage
 					5% increased magic critical strike chance
+					'''
+				SetBonus:
+					'''
+					{0}% of the mana you spend is stored as energy to a maximum of {1}
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend energy to restore up to {2} mana and {3} life at a time
 					'''
 			}
 
@@ -11263,7 +11438,7 @@ Mods: {
 				DisplayName: Ancient Hallowed Guise
 				Tooltip:
 					'''
-					20% increased throwing damage
+					25% increased throwing damage
 					8% increased throwing speed and critical strike chance
 					'''
 			}
@@ -11344,6 +11519,12 @@ Mods: {
 					12% increased martian weapon damage
 					5% increased damage reduction
 					10% increased critical strike chance
+					'''
+				SetBonus:
+					'''
+					Moving around generates up to {0} static rings, with each one generating life shielding
+					When fully charged, a bubble of energy will protect you from one attack
+					When the bubble blocks an attack, an electrical discharge is released at nearby enemies
 					'''
 			}
 
@@ -11442,6 +11623,11 @@ Mods: {
 					Increases inspiration regeneration rate by 10%
 					8% increased symphonic damage and playing speed
 					'''
+				SetBonus:
+					'''
+					Become immune after striking an enemy
+					Increases the duration of your symphonic empowerments by {0} {^0:second;seconds}
+					'''
 			}
 
 			HallowedCowl: {
@@ -11451,6 +11637,11 @@ Mods: {
 					20% decreased non-radiant damage
 					20% increased radiant damage
 					20% decreased mana cost and increased mana regeneration
+					'''
+				SetBonus:
+					'''
+					Become immune after striking an enemy
+					Healing spells will heal an additional {0} life
 					'''
 			}
 
@@ -13535,17 +13726,25 @@ Mods: {
 
 			LeakyMarineBlock: {
 				DisplayName: Leaky Marine Block
-				Tooltip: ""
+				Tooltip:
+					'''
+					'Constantly leaks water...'
+					Will only leak water if there is another Aquatic Depths block within {0} tiles below it
+					'''
 			}
 
 			LeakyMarineWall: {
 				DisplayName: Leaky Marine Wall
-				Tooltip: ""
+				Tooltip: "'Constantly leaks water...'"
 			}
 
 			LeakyMossyMarineBlock: {
 				DisplayName: Leaky Mossy Marine Block
-				Tooltip: ""
+				Tooltip:
+					'''
+					'Constantly leaks water...'
+					Will only leak water if there is another Aquatic Depths block within {0} tiles below it
+					'''
 			}
 
 			LivingMahoganyBathtub: {
@@ -14580,7 +14779,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ScaleBlock: {
+			AquaiteScaleBlock: {
 				DisplayName: Aquaite Scale Block
 				Tooltip: ""
 			}
@@ -14705,7 +14904,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SeaScaleWall: {
+			AquaiteScaleWall: {
 				DisplayName: Aquaite Scale Wall
 				Tooltip: ""
 			}
@@ -15017,17 +15216,17 @@ Mods: {
 				Tooltip: ""
 			}
 
-			ThoriumBrick: {
+			ThoriumBlock: {
 				DisplayName: Thorium Block
 				Tooltip: ""
 			}
 
-			ThoriumBrickBlock: {
+			ThoriumBrickNew: {
 				DisplayName: Thorium Brick
 				Tooltip: ""
 			}
 
-			ThoriumBrickBlockWall: {
+			ThoriumBrickWall: {
 				DisplayName: Thorium Brick Wall
 				Tooltip: ""
 			}
@@ -15898,6 +16097,7 @@ Mods: {
 					'Masterfully forged by the Blacksmith'
 					5% increased critical strike chance
 					'''
+				SetBonus: Damage taken reduced by {0}%
 			}
 
 			DurasteelJackhammer: {
@@ -15953,6 +16153,7 @@ Mods: {
 			SteelHelmet: {
 				DisplayName: Steel Helmet
 				Tooltip: "'Expertly forged by the Blacksmith'"
+				SetBonus: Damage taken reduced by {0}%
 			}
 
 			SteelPickaxe: {
@@ -15983,6 +16184,7 @@ Mods: {
 			AstroHelmet: {
 				DisplayName: Astro Helmet
 				Tooltip: Increases summon damage by 1
+				SetBonus: Minion damage has a chance to unleash a burst of damaging plasma on hit
 			}
 
 			AstroSuit: {
@@ -16141,6 +16343,11 @@ Mods: {
 					Increases your max number of minions
 					8% increased summon damage
 					'''
+				SetBonus:
+					'''
+					Minion attacks have a {0}% chance to heal you on hit
+					You cannot heal more than {1} life every {2} {^2:second;seconds}
+					'''
 			}
 
 			LivingLeaf: {
@@ -16157,6 +16364,14 @@ Mods: {
 					Right click to select various actions for your familiar
 					Left click to perform your selected action
 					'''
+
+				FamiliarStage: {
+					Return: Return
+					Rally: Rally
+					Target: Target
+					Attack: Attack
+					Ability: Ability
+				}
 			}
 
 			LivingWoodBoots: {
@@ -16172,6 +16387,11 @@ Mods: {
 			LivingWoodMask: {
 				DisplayName: Living Wood Mask
 				Tooltip: Increases minion knockback
+				SetBonus:
+					'''
+					Increases your max number of minions by {0}
+					Your living wood sapling's auto attack will home in on enemies
+					'''
 			}
 
 			LivingWoodSap: {
@@ -16363,9 +16583,9 @@ Mods: {
 				Tooltip:
 					'''
 					'All will fall before your might...'
-					Maximum life increased by 25 & life regen increased by 3
-					15% increased damage
-					10% increased critical strike chance
+					Maximum life increased by {0} & life regen increased by {1}
+					{2}% increased damage
+					{3}% increased critical strike chance
 					'''
 			}
 
@@ -16401,9 +16621,9 @@ Mods: {
 				Tooltip:
 					'''
 					'All will fall before your might...'
-					Maximum life increased by 15 & life regen increased by 2
-					5% increased damage
-					20% increased movement speed
+					Maximum life increased by {0} & life regen increased by {1}
+					{2}% increased damage
+					{3}% increased movement speed
 					'''
 			}
 
@@ -16412,10 +16632,57 @@ Mods: {
 				Tooltip:
 					'''
 					'All will fall before your might...'
-					Maximum life increased by 10 & life regen increased by 1
-					10% increased damage
+					Maximum life increased by {0} & life regen increased by {1}
+					{2}% increased damage
 					Sight in the dark is improved
 					'''
+				SetBonus:
+					'''
+					The energies of Terraria will seek to protect you when you're in combat
+					Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will allow you to cycle and select a Class Focus
+					'''
+
+				Focus: {
+					Generic: {
+						Name: No Focus
+						Description: "{0}% increased damage"
+					}
+
+					Melee: {
+						Name: Melee Focus
+						Description: "{0}% increased damage reduction"
+					}
+
+					Ranged: {
+						Name: Ranged Focus
+						Description: "{0}% increased firing speed"
+					}
+
+					Magic: {
+						Name: Magic Focus
+						Description: Maximum mana increased by {0}
+					}
+
+					Summon: {
+						Name: Summon Focus
+						Description: Increases your max number of minions by {0}
+					}
+
+					Throwing: {
+						Name: Throwing Focus
+						Description: Increases your maximum technique points by {0}
+					}
+
+					Healer: {
+						Name: Radiant Focus
+						Description: Healing spells will heal an additional {0} life
+					}
+
+					Bard: {
+						Name: Symphonic Focus
+						Description: Increases empowerment duration by {0} {^0:second;seconds}
+					}
+				}
 			}
 
 			TerrariumHolyScythe: {
@@ -16591,6 +16858,7 @@ Mods: {
 					'It pulses with energy'
 					2% increased critical strike chance
 					'''
+				SetBonus: Damage done increased by {0}%
 			}
 
 			ThoriumMail: {
@@ -17574,7 +17842,7 @@ Mods: {
 					15% reduced mana usage
 					Casting spells beneath 75 current mana will deal increased damage
 					'''
-				SetBonus: Damage done increased by {0}%!
+				SetBonus: Damage done increased by {0}%
 			}
 
 			TitanHelmet: {
@@ -17586,6 +17854,7 @@ Mods: {
 					Increases length of invincibility after taking damage
 					Grants immunity to knockback
 					'''
+				SetBonus: Damage done increased by {0}%
 			}
 
 			TitanicBar: {
@@ -17611,6 +17880,7 @@ Mods: {
 					Decreases chance to consume ammo by 25%
 					Grants vision of enemy positions
 					'''
+				SetBonus: Damage done increased by {0}%
 			}
 
 			TitanPax: {
@@ -18010,6 +18280,7 @@ Mods: {
 					6% increased ranged critical strike chance
 					5% increased ranged damage
 					'''
+				SetBonus: Reverse gravity by pressing UP. While reversed, ranged damage is increased by {0}%
 			}
 
 			ValadiumIngot: {
@@ -18148,6 +18419,7 @@ Mods: {
 			BlueKnightHelmet: {
 				DisplayName: Blue Knight Helmet
 				Tooltip: ""
+				SetBonus: Lookin' good!
 			}
 
 			BombSquadGreaves: {
@@ -18218,6 +18490,7 @@ Mods: {
 			GlitteringHelmet: {
 				DisplayName: Glittering Helmet
 				Tooltip: ""
+				SetBonus: Lookin' good!
 			}
 
 			HatFish: {
@@ -18617,7 +18890,7 @@ Mods: {
 			TrackPlayers: {
 				Common: {
 					DisplayName: "{0} Track Player"
-					Tooltip: Increases the level of personal {0} empowerment levels by {1}
+					Tooltip: Increases the level of {0} empowerments active on you by {1}
 				}
 
 				MusicPlayerDamage.PrefixName: Screamo
@@ -18633,7 +18906,7 @@ Mods: {
 					Tooltip:
 						'''
 						Increases the duration of your symphonic empowerments by {0} {^0:second;seconds}
-						Increases the level of {1} empowerment levels by {2}
+						Increases the level of {1} empowerments you apply to yourself and others by {2}
 						'''
 				}
 
@@ -18783,6 +19056,283 @@ Mods: {
 					'''
 					Resummons a man-eating plant
 					Only usable within the Underground Jungle
+					'''
+			}
+
+			GrimAstroturf: {
+				DisplayName: Grim Astroturf
+				Tooltip: Can grow dead weeds and grimwood trees
+			}
+
+			FrozenTiara: {
+				Tooltip: Summons a tough snowman to follow you around
+				DisplayName: Frozen Tiara
+			}
+
+			Deadwood: {
+				DisplayName: Deadwood
+				Tooltip: ""
+			}
+
+			DeadwoodChest: {
+				DisplayName: Deadwood Chest
+				Tooltip: ""
+			}
+
+			CelestialCup: {
+				DisplayName: Celestial Cup
+				Tooltip: ""
+			}
+
+			DeadwoodBathtub: {
+				DisplayName: Deadwood Bathtub
+				Tooltip: ""
+			}
+
+			DeadwoodBed: {
+				DisplayName: Deadwood Bed
+				Tooltip: ""
+			}
+
+			DeadwoodBookcase: {
+				DisplayName: Deadwood Bookcase
+				Tooltip: ""
+			}
+
+			DeadwoodCandelabra: {
+				DisplayName: Deadwood Candelabra
+				Tooltip: ""
+			}
+
+			DeadwoodCandle: {
+				DisplayName: Deadwood Candle
+				Tooltip: ""
+			}
+
+			DeadwoodChair: {
+				DisplayName: Deadwood Chair
+				Tooltip: ""
+			}
+
+			DeadwoodChandelier: {
+				DisplayName: Deadwood Chandelier
+				Tooltip: ""
+			}
+
+			DeadwoodChest_Trapped: {
+				DisplayName: Deadwood Chest_ Trapped
+				Tooltip: ""
+			}
+
+			DeadwoodClock: {
+				DisplayName: Deadwood Clock
+				Tooltip: ""
+			}
+
+			DeadwoodCup: {
+				DisplayName: Deadwood Cup
+				Tooltip: ""
+			}
+
+			DeadwoodDoor: {
+				DisplayName: Deadwood Door
+				Tooltip: ""
+			}
+
+			DeadwoodDresser: {
+				DisplayName: Deadwood Dresser
+				Tooltip: ""
+			}
+
+			DeadwoodLamp: {
+				DisplayName: Deadwood Lamp
+				Tooltip: ""
+			}
+
+			DeadwoodLantern: {
+				DisplayName: Deadwood Lantern
+				Tooltip: ""
+			}
+
+			DeadwoodPiano: {
+				DisplayName: Deadwood Piano
+				Tooltip: ""
+			}
+
+			DeadwoodPlatform: {
+				DisplayName: Deadwood Platform
+				Tooltip: ""
+			}
+
+			DeadwoodSink: {
+				DisplayName: Deadwood Sink
+				Tooltip: ""
+			}
+
+			DeadwoodSofa: {
+				DisplayName: Deadwood Sofa
+				Tooltip: ""
+			}
+
+			DeadwoodTable: {
+				DisplayName: Deadwood Table
+				Tooltip: ""
+			}
+
+			DeadwoodToilet: {
+				DisplayName: Deadwood Toilet
+				Tooltip: ""
+			}
+
+			DeadwoodWall: {
+				DisplayName: Deadwood Wall
+				Tooltip: ""
+			}
+
+			DeadwoodWorkbench: {
+				DisplayName: Deadwood Workbench
+				Tooltip: ""
+			}
+
+			NebulaCup: {
+				DisplayName: Nebula Cup
+				Tooltip: ""
+			}
+
+			ShootingStarCup: {
+				DisplayName: Shooting Star Cup
+				Tooltip: ""
+			}
+
+			SolarCup: {
+				DisplayName: Solar Cup
+				Tooltip: ""
+			}
+
+			StardustCup: {
+				DisplayName: Stardust Cup
+				Tooltip: ""
+			}
+
+			VortexCup: {
+				DisplayName: Vortex Cup
+				Tooltip: ""
+			}
+
+			WhiteDwarfCup: {
+				DisplayName: White Dwarf Cup
+				Tooltip: ""
+			}
+
+			ClayRoofingWall: {
+				Tooltip: ""
+				DisplayName: Clay Roofing Wall
+			}
+
+			ClayRoofing: {
+				Tooltip: ""
+				DisplayName: Clay Roofing
+			}
+
+			CobaltGong: {
+				DisplayName: Cobalt Gong
+				Tooltip: Slowly rings a large gong, briefly stunning and damaging all nearby enemies
+			}
+
+			PalladiumCowbell: {
+				DisplayName: Palladium Cowbell
+				Tooltip:
+					'''
+					'Just the right amount'
+					Quickly slaps the cowbell, flinging sound sparks all around you
+					'''
+			}
+
+			BuildingBlock: {
+				DisplayName: Building Block
+				Tooltip: ""
+			}
+
+			SnarkyGun: {
+				SnarkyGunStage: {
+					Basic: Basic
+					Explosive: Explosive
+					Fire: Fire
+					Ice: Ice
+					Homing: Homing
+				}
+
+				DisplayName: Snarky Gun
+				Tooltip:
+					'''
+					Turns musket balls into a variety of different eggs
+					Right click to swap between egg types
+					'''
+			}
+
+			Fig: {
+				DisplayName: Fig
+				Tooltip: Minor improvements to all stats
+			}
+
+			Tamarind: {
+				DisplayName: Tamarind
+				Tooltip: Minor improvements to all stats
+			}
+
+			AdamantiteKlaxon: {
+				DisplayName: Adamantite Klaxon
+				Tooltip: Releases a delayed sound burst after damaging enemies
+			}
+
+			TitaniumCimbasso: {
+				DisplayName: Titanium Cimbasso
+				Tooltip: ""
+			}
+
+			ValadiumTheremin: {
+				DisplayName: Valadium Theremin
+				Tooltip: Wiggles out a rising tune, which deals increased damage to targets above you
+			}
+
+			LodestoneRadio: {
+				DisplayName: Lodestone Radio
+				Tooltip: Surrounds you with lodestone radio-static, which sunders and repels enemies
+			}
+
+			Cello: {
+				DisplayName: Cello
+				Tooltip:
+					'''
+					'Pronounced as Ch-hell-o'
+					Sends out a long-lived, fiery sound wave
+					'''
+			}
+
+			SorcerersDice: {
+				DisplayName: Sorcerer's Dice
+				Tooltip:
+					'''
+					Gamble by rolling a six-sided magical die at the cost of your current mana
+					The face you roll results in different mana-based effect, which can be beneficial or detrimental
+					The die must recharge for {0} {^0:minute;minutes} minute after use
+					'''
+				Choice1: (1) {0} seconds of Mana Sickness
+				Choice2: (2) {0} seconds of Mana Sickness
+				Choice3: (3) Mana cost refunded
+				Choice4: (4) Mana fully recovered!
+				Choice5:
+					'''
+					(5)
+					{0} seconds of infinite mana
+					+{1}% casting speed
+					'''
+				Choice6:
+					'''
+					(6)
+					{0} seconds of infinite mana
+					+{1}% casting speed
+					+Brief invincibility
 					'''
 			}
 		}
@@ -19858,7 +20408,7 @@ Mods: {
 					DislikeBiome: The deeper into the earth I go, the more I feel that dark energy from below... I don't like this feeling.
 					HateBiome: What has happened to the spirits here...?! How repugnant!
 					LoveNPC: "{NPCName} gives me the most wonderful haircuts. She really helps with my self expression!"
-					LikeNPC: "{NPCName} and I spent all of last night discussing philosophy. That one has a wise head on his shoulders."
+					LikeNPC: "{NPCName} and I spent all of last night discussing philosophy. That one has a wise head on their shoulders."
 					DislikeNPC: Though he says he's decided to align himself with us, {NPCName} is still a demon. Demons are known for telling lies, my friend...
 					HateNPC: "{NPCName} is truly a man only concerned with himself... We will never get along."
 					LikeNPC_Princess: "{NPCName}'s cheerful innocence brightens up everyone's spirits."
@@ -20000,12 +20550,12 @@ Mods: {
 
 			Engrossing: {
 				DisplayName: Engrossing
-				Tooltip: +{0} sec empowerment duration
+				Tooltip: "{0} sec empowerment duration"
 			}
 
 			Lucrative: {
 				DisplayName: Lucrative
-				Tooltip: +{0}% coins from enemies
+				Tooltip: "{0}% coins from enemies"
 			}
 		}
 
@@ -20075,14 +20625,6 @@ Mods: {
 			ConcertinaPro.DisplayName: Concertina Pro
 			ConcertinaPro2.DisplayName: Concertina Pro2
 			ConchShellPro.DisplayName: Conch Shell Pro
-			ConductorGhost1.DisplayName: Conductor Ghost1
-			ConductorGhost2.DisplayName: Conductor Ghost2
-			ConductorGhost3.DisplayName: Conductor Ghost3
-			ConductorGhost4.DisplayName: Conductor Ghost4
-			ConductorGhostPro1.DisplayName: Conductor Ghost Pro1
-			ConductorGhostPro2.DisplayName: Conductor Ghost Pro2
-			ConductorGhostPro3.DisplayName: Conductor Ghost Pro3
-			ConductorGhostPro4.DisplayName: Conductor Ghost Pro4
 			DidgeridooPro.DisplayName: Didgeridoo Pro
 			DragonsWailPro.DisplayName: Dragons Wail Pro
 			DrumMalletPro.DisplayName: Drum Mallet Pro
@@ -20110,8 +20652,10 @@ Mods: {
 			GhastlyFrenchHornPro.DisplayName: Ghastly French Horn Pro
 			GoldBugleHornPro.DisplayName: Gold Bugle Horn Pro
 			GrandPianoPro.DisplayName: Grand Piano Pro
-			GraniteInspiration.DisplayName: Granite Inspiration
-			GraniteInspirationPro.DisplayName: Granite Inspiration Pro
+			GraniteBoomBoxPro.DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
+			GraniteBoomBoxPro2.DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
+			LodestoneRadioPro.DisplayName: "{$Items.LodestoneRadio.DisplayName}"
+			LodestoneRadioPro2.DisplayName: "{$Items.LodestoneRadio.DisplayName}"
 			GreedfulGurdyPro.DisplayName: Greedful Gurdy Pro
 			HallowedMegaphonePro.DisplayName: Hallowed Megaphone Pro
 			HallowedMegaphonePro1.DisplayName: Hallowed Megaphone Pro1
@@ -20669,7 +21213,7 @@ Mods: {
 			HandProCon.DisplayName: Hand Pro Con
 			HarmlessBubble.DisplayName: Harmless Bubble
 			HarpyTalonPro.DisplayName: Harpy Talon Pro
-			AncientTomePro.DisplayName: Ancient Tome Pro
+			RevivifyPro.DisplayName: Revivify
 			AnkhPro.DisplayName: Ankh Pro
 			AuraDefense.DisplayName: Aura Defense
 			AuraLife.DisplayName: Aura Life
@@ -20777,8 +21321,7 @@ Mods: {
 			LilDevilsWandPro2.DisplayName: Lil Devils Wand Pro2
 			LotusPro.DisplayName: Lotus Pro
 			LotusPro2.DisplayName: Lotus Pro2
-			LowestPro.DisplayName: Lowest Pro
-			LowestPro2.DisplayName: Lowest Pro2
+			InnerFlamePro.DisplayName: Inner Flame
 			LucidityPro.DisplayName: Lucidity Pro
 			MarrowScepterPro.DisplayName: Marrow Scepter Pro
 			MartyrChalicePro.DisplayName: Martyr Chalice Pro
@@ -21725,6 +22268,21 @@ Mods: {
 			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+			FrozenTiaraPro.DisplayName: Frozen Tiara
+			MaestroSetPro1.DisplayName: Maestro Ghosts
+			MaestroSetPro2.DisplayName: Maestro Ghosts
+			MaestroSetPro3.DisplayName: Maestro Ghosts
+			MaestroSetPro4.DisplayName: Maestro Ghosts
+			MaestroSetPro.DisplayName: Maestro Ghosts
+			PalladiumCowbellPro.DisplayName: Palladium Cowbell Pro
+			CobaltGongPro.DisplayName: Cobalt Gong Pro
+			BagpipePro.DisplayName: Bagpipe Pro
+			SnarkyGunPro.DisplayName: Snarky Gun
+			AdamantiteKlaxonPro.DisplayName: Adamantite Klaxon
+			AdamantiteKlaxonPro2.DisplayName: Adamantite Klaxon
+			TitaniumCimbassoPro.DisplayName: Titanium Cimbasso
+			ValadiumThereminPro.DisplayName: Valadium Theremin
+			CelloPro.DisplayName: Cello Pro
 		}
 
 		Tiles: {
@@ -21748,6 +22306,7 @@ Mods: {
 			UnderworldChest.MapEntry_Locked: Locked {$Items.UnderworldBiomeChest.DisplayName}
 			ValadiumChunk.MapEntry: Valadium
 			WorldEngineTile.MapEntry: World Engine
+			FurnitureVanillaCup.MapEntry: Furniture Vanilla Cup
 		}
 
 		Keybinds: {
@@ -21885,6 +22444,7 @@ Mods: {
 					'''
 					Mistiming hits will decrease these bonuses greatly and cost 5 inspiration
 					These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
+					Weapon automatically targets the nearest enemy
 					'''
 
 				CookFood: {
@@ -21894,6 +22454,13 @@ Mods: {
 				}
 
 				Sheath: Sword strikes critically strike for {0}% damage if held and not used for {1} {^1:second;seconds}
+				InvalidMeleeItemForSheath: This weapon is incompatible with Sheaths
+
+				Bard: {
+					InstrumentTag: -{0} Instrument-
+					ClassTag: -Bard Class-
+					InspirationCost: Uses {0} inspiration
+				}
 			}
 
 			TreasureBag: Treasure Bag ({0})

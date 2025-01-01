@@ -332,6 +332,7 @@ Projectiles: {
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
 	ChampionWarHorn.DisplayName: Champion's War Horn
+	ConcussiveInstrument.DisplayName: Concussive Instrument
 	DancingJellyfish.DisplayName: Dancing Jellyfish
 	Darkness.DisplayName: Darkness
 	DeathRain.DisplayName: Death Rain
@@ -446,7 +447,7 @@ Items: {
 		DisplayName: Concussive Instrument
 		Tooltip:
 			'''
-			Percussion instrument attacks stun enemies for 5 seconds
+			Percussion instrument attacks launch hammers upward which eventually fall down
 			"It's just a hammer?"
 			'''
 	}
@@ -467,8 +468,8 @@ Items: {
 			All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
 			Piercing string instrument attacks increase in speed every hit and no longer lose damage
 			Certain string instrument attacks that trigger effects on tile collision also trigger on hit
-			Percussion instrument attacks stun enemies for 5 seconds
-			Electronic instruments shoot twice but the second shot deals 50% less damage
+			Percussion instrument attacks launch hammers upward that eventually fall down
+			Electronic instrument projectiles are significantly faster
 			Increases max inspiration by 5
 			"Does not sell much, unfortunately. At least someone is kind enough to provide..."
 			'''
@@ -476,11 +477,7 @@ Items: {
 
 	ImpulseAmplifier: {
 		DisplayName: Impulse Amplifier
-		Tooltip:
-			'''
-			Electronic instruments shoot twice but the second shot deals 50% less damage
-			"No, it does not make rockets shoot faster!"
-			'''
+		Tooltip: Electronic instrument projectiles are significantly faster
 	}
 
 	JellyfishJam: {
