@@ -72,7 +72,7 @@ Items: {
 	}
 
 	MagikarpItem: {
-		DisplayName: 破损的钓竿
+		DisplayName: 破旧钓竿
 		Tooltip: 召唤鲤鱼王宠物
 	}
 
