@@ -629,9 +629,9 @@ Items: {
 		DisplayName: 西风残垣
 		Tooltip:
 			'''
-			Sticks into struck enemies, or the ground if it misses投矛刺入敌人或击中物块
-			Calls lightning to smite hit enemies after some time会在一段时间后召唤闪电攻击敌人或物块
-			Critical strikes smite enemies on initial hit
+			Sticks into struck enemies, or the ground if it misses投矛会刺入敌人或物块
+			Calls lightning to smite hit enemies after some time一段时间后，召唤闪电攻击敌人或物块
+			Critical strikes smite enemies on initial hit暴击会立即释放一次闪电
 			不会增加疲惫值
 			"They say lightning never strikes the same place twice"人们说闪电不会在同一个地方击中两次
 			'''
@@ -645,7 +645,7 @@ Buffs: {
 	}
 
 	Inspired: {
-		DisplayName: Inspired灵感
+		DisplayName: Inspired启发
 		Description: Increased inspiration regeneration增加灵感恢复速度
 	}
 
