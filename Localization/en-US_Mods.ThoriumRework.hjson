@@ -448,8 +448,13 @@ Items: {
 		Tooltip:
 			'''
 			Percussion instrument attacks launch hammers upward which eventually fall down
-			"It's just a hammer?"
+			"It's... just a hammer?"
 			'''
+	}
+
+	DeathsingerPotion: {
+		DisplayName: Deathsinger Potion
+		Tooltip: 7% increased symphonic damage and playing speed
 	}
 
 	ExecutionersContract: {
@@ -478,6 +483,11 @@ Items: {
 	ImpulseAmplifier: {
 		DisplayName: Impulse Amplifier
 		Tooltip: Electronic instrument projectiles are significantly faster
+	}
+
+	InspirationRegenerationPotion: {
+		DisplayName: Inspiration Regeneration Potion
+		Tooltip: Increased inspiration regeneration
 	}
 
 	JellyfishJam: {
@@ -541,6 +551,7 @@ Items: {
 			Bats heal for <healAmount> life but does not trigger on-heal effects
 			Though, healing allies return some of the healer's mana
 			Blood Siphon: <bloodSiphon>
+			<legendaryModeOnly>Costs life to use in Legendary mode
 			"A wonderful ballad of the bats"
 			'''
 	}
@@ -615,13 +626,36 @@ Items: {
 		DisplayName: Zephyr's Ruin
 		Tooltip:
 			'''
-			Critical strikes smite enemies
+			Sticks into struck enemies, or the ground if it misses
+			Calls lightning to smite hit enemies after some time
+			Critical strikes smite enemies on initial hit
 			Does not exhaust you
+			"They say lightning never strikes the same place twice"
 			'''
 	}
 }
 
 Buffs: {
+	Deathsinger: {
+		DisplayName: Deathsinger
+		Description: 7% increased symphonic damage and playing speed
+	}
+
+	Inspired: {
+		DisplayName: Inspired
+		Description: Increased inspiration regeneration
+	}
+
+	SoulBleed: {
+		DisplayName: Soul Bleed
+		Description: Your soul is dissipating...
+	}
+
+	StarCalled: {
+		DisplayName: Star Called
+		Description: They received your signal
+	}
+
 	TerminalLucidity: {
 		DisplayName: Terminal Lucidity
 		Description:
@@ -635,16 +669,6 @@ Buffs: {
 			'''
 	}
 
-	SoulBleed: {
-		DisplayName: Soul Bleed
-		Description: Your soul is dissipating...
-	}
-
-	StarCalled: {
-		DisplayName: Star Called
-		Description: They received your signal
-	}
-
 	LucidRetaliation: {
 		DisplayName: Lucid Retaliation
 		Description:
@@ -656,6 +680,23 @@ Buffs: {
 			Grants infinite flight
 			"Destiny arrives..."
 			'''
+	}
+}
+
+Prefixes: {
+	Careless: {
+		DisplayName: Careless
+		Description: +2 life cost
+	}
+
+	Risky: {
+		DisplayName: Risky
+		Description: +1 life cost
+	}
+
+	Suicidal: {
+		DisplayName: Suicidal
+		Description: +3 life cost
 	}
 }
 
@@ -713,6 +754,24 @@ Configs: {
 				'''
 				(Optional)
 				Adds some unrelated items that are from this mod
+				'''
+		}
+
+		extraPotions: {
+			Label: Extra Potion Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some buff potions relating to Thorium's class that are from this mod
+				'''
+		}
+
+		extraPrefixes: {
+			Label: Extra Prefix Contents
+			Tooltip:
+				'''
+				(Optional)
+				Adds some prefixes relating to Thorium's class items that are from this mod
 				'''
 		}
 

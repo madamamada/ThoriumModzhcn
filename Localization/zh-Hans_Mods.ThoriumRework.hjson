@@ -447,8 +447,13 @@ Items: {
 		Tooltip:
 			'''
 			打击乐器攻击时，会在敌人身上掷出一个锤子
-			"只是把锤子?"
+			"这是……只是一把锤子?"
 			'''
+	}
+
+	DeathsingerPotion: {
+		DisplayName: Deathsinger Potion死亡歌者药水
+		Tooltip: 7% increased symphonic damage and playing speed增加7%音波伤害和音波演奏速度
 	}
 
 	ExecutionersContract: {
@@ -483,6 +488,11 @@ Items: {
 			'''
 	}
 
+	InspirationRegenerationPotion: {
+		DisplayName: Inspiration Regeneration Potion灵感恢复药水
+		Tooltip: Increased inspiration regeneration增加灵感恢复速度
+	}
+
 	JellyfishJam: {
 		DisplayName: 水母狂想曲
 		Tooltip: 释放跳舞的水母刺穿敌人
@@ -494,7 +504,7 @@ Items: {
 			'''
 			挥出由灵魂之火赋予力量的三重鞭
 			敌人被鞭打后会流血
-			流血的灵魂会释放一根彩线治愈周围的玩家（血条低？仇恨值？不想测试了，有答案在评论区/QQ群告诉我）
+			流血的灵魂会释放一根彩线治愈周围的玩家
 			"用来折磨死后灵魂的工具"
 			'''
 	}
@@ -544,6 +554,7 @@ Items: {
 			蝙蝠治愈<healAmount>点生命值，不会触发治疗效果
 			但是，治疗队友会退还一些法力值给予治疗者
 			吸血值: <bloodSiphon>
+			<legendaryModeOnly>在传奇模式下使用需要生命值
 			"蝙蝠的美妙歌谣"
 			'''
 	}
@@ -618,13 +629,36 @@ Items: {
 		DisplayName: 西风残垣
 		Tooltip:
 			'''
-			暴击后召唤雷云攻击敌人
+			Sticks into struck enemies, or the ground if it misses投矛刺入敌人或击中物块
+			Calls lightning to smite hit enemies after some time会在一段时间后召唤闪电攻击敌人或物块
+			Critical strikes smite enemies on initial hit
 			不会增加疲惫值
+			"They say lightning never strikes the same place twice"人们说闪电不会在同一个地方击中两次
 			'''
 	}
 }
 
 Buffs: {
+	Deathsinger: {
+		DisplayName: Deathsinger死亡歌者
+		Description: 7% increased symphonic damage and playing speed增加7%音波伤害和音波演奏速度
+	}
+
+	Inspired: {
+		DisplayName: Inspired灵感
+		Description: Increased inspiration regeneration增加灵感恢复速度
+	}
+
+	SoulBleed: {
+		DisplayName: 灵魂流血
+		Description: 你的灵魂正在消散……
+	}
+
+	StarCalled: {
+		DisplayName: 星际的呼唤
+		Description: 他们回应了你的信号
+	}
+
 	TerminalLucidity: {
 		DisplayName: *[c/FF7F00:混乱的现实]*
 		Description:
@@ -639,16 +673,6 @@ Buffs: {
 			'''
 	}
 
-	SoulBleed: {
-		DisplayName: 灵魂流血
-		Description: 你的灵魂正在消散……
-	}
-
-	StarCalled: {
-		DisplayName: 星际的呼唤
-		Description: 他们回应了你的信号
-	}
-
 	LucidRetaliation: {
 		DisplayName: *[c/FF7F00:恢复的现实]*
 		Description:
@@ -661,6 +685,23 @@ Buffs: {
 			[c/FF7F00:允许无限飞行]
 			[c/FF7F00:"等待命运..."]
 			'''
+	}
+}
+
+Prefixes: {
+	Careless: {
+		DisplayName: 淡漠
+		Description: 增加2点生命消耗
+	}
+
+	Risky: {
+		DisplayName: 冒险
+		Description: 增加1点生命消耗
+	}
+
+	Suicidal: {
+		DisplayName: 自杀
+		Description: 增加3点生命消耗
 	}
 }
 
@@ -718,6 +759,24 @@ Configs: {
 				'''
 				(可选)
 				在这个模组增加一些不相关的物品
+				'''
+		}
+
+		extraPotions: {
+			Label: 额外药剂内容
+			Tooltip:
+				'''
+				(可选)
+				增加与瑟银的职业有关的增益药水
+				'''
+		}
+
+		extraPrefixes: {
+			Label: 额外修饰语内容
+			Tooltip:
+				'''
+				(可选)
+				增加与瑟银的职业有关的修饰语
 				'''
 		}
 
