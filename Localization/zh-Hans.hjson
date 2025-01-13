@@ -1679,18 +1679,18 @@ Mods: {
 			}
 
 			FrozenTiaraBuff: {
-				Description: Does it feel chilly in here...?
-				DisplayName: Frozen Tiara
+				Description: 它在这儿不感觉冷吗……？
+				DisplayName: 冰冻皇冠
 			}
 
 			SorcerersDiceDebuff: {
 				DisplayName: "{$Items.SorcerersDice.DisplayName}"
-				Description: The dice are recharging...
+				Description: 骰子正在重新充能……
 			}
 
 			SorcerersDiceBuff: {
 				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
-				Description: Infinite mana and {0}% increased casting speed
+				Description: 无限魔力且施法速度增加{0}%
 			}
 		}
 
@@ -7026,10 +7026,10 @@ Mods: {
 
 
 				RudeWandStage: {
-					Pulse: Pulse脉冲
-					Laser: Laser激光
-					Buster: Buster破坏
-					Spread: Spread蔓延（wiki）
+					Pulse: 脉冲
+					Laser: 激光
+					Buster: 破坏
+					Spread: 扩散
 				}
 			}
 
@@ -7193,10 +7193,10 @@ Mods: {
 				Tooltip: 右键在四种不同的元素攻击间切换
 
 				SnowWhiteStage: {
-					Normal: 凡
+					Normal: 普通
 					Fire: 火
 					Ice: 冰
-					Electricity: 电（wiki）
+					Electricity: 闪电
 				}
 			}
 
@@ -7497,9 +7497,9 @@ Mods: {
 					'''
 
 				UselessStaffStage: {
-					Exorcise: 驱邪
+					Exorcise: 神圣
 					Reflect: 反射
-					Drown: 淹没（wiki）
+					Drown: 水
 				}
 			}
 
@@ -16583,10 +16583,10 @@ Mods: {
 
 				FamiliarStage: {
 					Return: 返回
-					Rally: 集中
+					Rally: 集合
 					Target: 目标
 					Attack: 攻击
-					Ability: 能力（wiki）
+					Ability: 特殊能力
 				}
 			}
 
@@ -19293,191 +19293,191 @@ Mods: {
 			}
 
 			GrimAstroturf: {
-				DisplayName: Grim Astroturf
-				Tooltip: Can grow dead weeds and grimwood trees
+				DisplayName: 人造枯草皮
+				Tooltip: 可种植枯草和枯树
 			}
 
 			FrozenTiara: {
-				Tooltip: Summons a tough snowman to follow you around
-				DisplayName: Frozen Tiara
+				Tooltip: 召唤一只强壮雪人跟随你
+				DisplayName: 冰冻皇冠
 			}
 
 			Deadwood: {
-				DisplayName: Deadwood
+				DisplayName: 枯木
 				Tooltip: ""
 			}
 
 			DeadwoodChest: {
-				DisplayName: Deadwood Chest
+				DisplayName: 枯木箱
 				Tooltip: ""
 			}
 
 			CelestialCup: {
-				DisplayName: Celestial Cup
+				DisplayName: 天界杯
 				Tooltip: ""
 			}
 
 			DeadwoodBathtub: {
-				DisplayName: Deadwood Bathtub
+				DisplayName: 枯木浴缸
 				Tooltip: ""
 			}
 
 			DeadwoodBed: {
-				DisplayName: Deadwood Bed
+				DisplayName: 枯木床
 				Tooltip: ""
 			}
 
 			DeadwoodBookcase: {
-				DisplayName: Deadwood Bookcase
+				DisplayName: 枯木书架
 				Tooltip: ""
 			}
 
 			DeadwoodCandelabra: {
-				DisplayName: Deadwood Candelabra
+				DisplayName: 枯木烛台
 				Tooltip: ""
 			}
 
 			DeadwoodCandle: {
-				DisplayName: Deadwood Candle
+				DisplayName: 枯木蜡烛
 				Tooltip: ""
 			}
 
 			DeadwoodChair: {
-				DisplayName: Deadwood Chair
+				DisplayName: 枯木椅
 				Tooltip: ""
 			}
 
 			DeadwoodChandelier: {
-				DisplayName: Deadwood Chandelier
+				DisplayName: 枯木吊灯
 				Tooltip: ""
 			}
 
 			DeadwoodChest_Trapped: {
-				DisplayName: Deadwood Chest_ Trapped
+				DisplayName: 机关枯木箱
 				Tooltip: ""
 			}
 
 			DeadwoodClock: {
-				DisplayName: Deadwood Clock
+				DisplayName: 枯木钟
 				Tooltip: ""
 			}
 
 			DeadwoodCup: {
-				DisplayName: Deadwood Cup
+				DisplayName: 枯木杯
 				Tooltip: ""
 			}
 
 			DeadwoodDoor: {
-				DisplayName: Deadwood Door
+				DisplayName: 枯木门
 				Tooltip: ""
 			}
 
 			DeadwoodDresser: {
-				DisplayName: Deadwood Dresser
+				DisplayName: 枯木梳妆台
 				Tooltip: ""
 			}
 
 			DeadwoodLamp: {
-				DisplayName: Deadwood Lamp
+				DisplayName: 枯木灯
 				Tooltip: ""
 			}
 
 			DeadwoodLantern: {
-				DisplayName: Deadwood Lantern
+				DisplayName: 枯木灯笼
 				Tooltip: ""
 			}
 
 			DeadwoodPiano: {
-				DisplayName: Deadwood Piano
+				DisplayName: 枯木钢琴
 				Tooltip: ""
 			}
 
 			DeadwoodPlatform: {
-				DisplayName: Deadwood Platform
+				DisplayName: 枯木平台
 				Tooltip: ""
 			}
 
 			DeadwoodSink: {
-				DisplayName: Deadwood Sink
+				DisplayName: 枯木水槽
 				Tooltip: ""
 			}
 
 			DeadwoodSofa: {
-				DisplayName: Deadwood Sofa
+				DisplayName: 枯木沙发
 				Tooltip: ""
 			}
 
 			DeadwoodTable: {
-				DisplayName: Deadwood Table
+				DisplayName: 枯木桌
 				Tooltip: ""
 			}
 
 			DeadwoodToilet: {
-				DisplayName: Deadwood Toilet
+				DisplayName: 枯木马桶
 				Tooltip: ""
 			}
 
 			DeadwoodWall: {
-				DisplayName: Deadwood Wall
+				DisplayName: 枯木墙
 				Tooltip: ""
 			}
 
 			DeadwoodWorkbench: {
-				DisplayName: Deadwood Workbench
+				DisplayName: 枯木工作台
 				Tooltip: ""
 			}
 
 			NebulaCup: {
-				DisplayName: Nebula Cup
+				DisplayName: 星云杯
 				Tooltip: ""
 			}
 
 			ShootingStarCup: {
-				DisplayName: Shooting Star Cup
+				DisplayName: 流影掠星杯
 				Tooltip: ""
 			}
 
 			SolarCup: {
-				DisplayName: Solar Cup
+				DisplayName: 耀斑杯
 				Tooltip: ""
 			}
 
 			StardustCup: {
-				DisplayName: Stardust Cup
+				DisplayName: 星尘杯
 				Tooltip: ""
 			}
 
 			VortexCup: {
-				DisplayName: Vortex Cup
+				DisplayName: 星旋杯
 				Tooltip: ""
 			}
 
 			WhiteDwarfCup: {
-				DisplayName: White Dwarf Cup
+				DisplayName: 白矮星杯
 				Tooltip: ""
 			}
 
 			ClayRoofingWall: {
 				Tooltip: ""
-				DisplayName: Clay Roofing Wall
+				DisplayName: 粘土瓦墙
 			}
 
 			ClayRoofing: {
 				Tooltip: ""
-				DisplayName: Clay Roofing
+				DisplayName: 粘土瓦
 			}
 
 			CobaltGong: {
-				DisplayName: Cobalt Gong
-				Tooltip: Slowly rings a large gong, briefly stunning and damaging all nearby enemies
+				DisplayName: 钴锣
+				Tooltip: 缓慢敲响一面大锣，短暂晕眩和伤害所有附近敌怪
 			}
 
 			PalladiumCowbell: {
-				DisplayName: Palladium Cowbell
+				DisplayName: 钯金铃铛
 				Tooltip:
 					'''
-					'Just the right amount'
-					Quickly slaps the cowbell, flinging sound sparks all around you
+					“恰到好处”
+					快速摇响铃铛，向你周围投掷声音火花
 					'''
 			}
 
@@ -19488,57 +19488,57 @@ Mods: {
 
 			SnarkyGun: {
 				SnarkyGunStage: {
-					Basic: Basic
-					Explosive: Explosive
-					Fire: Fire
-					Ice: Ice
-					Homing: Homing
+					Basic: 基础
+					Explosive: 爆炸
+					Fire: 火
+					Ice: 冰
+					Homing: 追踪
 				}
 
-				DisplayName: Snarky Gun
+				DisplayName: 火爆枪
 				Tooltip:
 					'''
-					Turns musket balls into a variety of different eggs
-					Right click to swap between egg types
+					将火枪子弹转化为各种不同的蛋
+					右键切换蛋的类型
 					'''
 			}
 
 			Fig: {
-				DisplayName: Fig
-				Tooltip: Minor improvements to all stats
+				DisplayName: 无花果
+				Tooltip: 所有属性小幅提升
 			}
 
 			Tamarind: {
-				DisplayName: Tamarind
-				Tooltip: Minor improvements to all stats
+				DisplayName: 酸豆
+				Tooltip: 所有属性小幅提升
 			}
 
 			AdamantiteKlaxon: {
-				DisplayName: Adamantite Klaxon
-				Tooltip: Releases a delayed sound burst after damaging enemies
+				DisplayName: 精金喇叭
+				Tooltip: 伤害敌怪后释放延迟音爆
 			}
 
 			TitaniumCimbasso: {
-				DisplayName: Titanium Cimbasso
+				DisplayName: 钛金细管低音号
 				Tooltip: ""
 			}
 
 			ValadiumTheremin: {
-				DisplayName: Valadium Theremin
-				Tooltip: Wiggles out a rising tune, which deals increased damage to targets above you
+				DisplayName: 虚金特雷门琴
+				Tooltip: 发出上升音调，对你上方的目标造成更高伤害
 			}
 
 			LodestoneRadio: {
-				DisplayName: Lodestone Radio
-				Tooltip: Surrounds you with lodestone radio-static, which sunders and repels enemies
+				DisplayName: 地脉收音机
+				Tooltip: 地脉无线电静电环绕着你，撕裂并击退敌怪
 			}
 
 			Cello: {
-				DisplayName: Cello
+				DisplayName: 大提琴
 				Tooltip:
 					'''
-					'Pronounced as Ch-hell-o'
-					Sends out a long-lived, fiery sound wave
+					“发音为Ch-hell-o”
+					发射长时间存在的火焰音波
 					'''
 			}
 
@@ -19546,26 +19546,26 @@ Mods: {
 				DisplayName: Sorcerer's Dice
 				Tooltip:
 					'''
-					Gamble by rolling a six-sided magical die at the cost of your current mana
-					The face you roll results in different mana-based effect, which can be beneficial or detrimental
-					The die must recharge for {0} {^0:minute;minutes} minute after use
+					以当前魔力为代价掷一颗六面魔法骰子
+					你掷出的面会产生不同的基于魔力的效果，有好有坏
+					骰子使用后必须重新充能{0} {^0:minute;minutes}
 					'''
-				Choice1: (1) {0} seconds of Mana Sickness
-				Choice2: (2) {0} seconds of Mana Sickness
-				Choice3: (3) Mana cost refunded
-				Choice4: (4) Mana fully recovered!
+				Choice1: (1) 施加{0}秒耐魔性减益
+				Choice2: (2) 施加{0}秒耐魔性减益
+				Choice3: (3) 返还本次使用花费的魔力
+				Choice4: (4) 完全恢复玩家的魔力!
 				Choice5:
 					'''
 					(5)
-					{0} seconds of infinite mana
-					+{1}% casting speed
+					提供{0}秒无限魔力
+					+{1}%施法速度
 					'''
 				Choice6:
 					'''
 					(6)
-					{0} seconds of infinite mana
-					+{1}% casting speed
-					+Brief invincibility
+					提供{0}秒无限魔力
+					+{1}%施法速度
+					+短暂无敌
 					'''
 			}
 		}
@@ -21556,7 +21556,7 @@ Mods: {
 			LilDevilsWandPro2.DisplayName: 小恶魔之杖2
 			LotusPro.DisplayName: 莲花
 			LotusPro2.DisplayName: 莲花2
-			InnerFlamePro.DisplayName: Inner Flame
+			InnerFlamePro.DisplayName: 心灵之火
 			LucidityPro.DisplayName: 洞察之月
 			MarrowScepterPro.DisplayName: 骨髓节杖
 			MartyrChalicePro.DisplayName: 殉道者圣杯
@@ -22503,21 +22503,21 @@ Mods: {
 			ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 			ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
-			FrozenTiaraPro.DisplayName: Frozen Tiara
-			MaestroSetPro1.DisplayName: Maestro Ghosts
-			MaestroSetPro2.DisplayName: Maestro Ghosts
-			MaestroSetPro3.DisplayName: Maestro Ghosts
-			MaestroSetPro4.DisplayName: Maestro Ghosts
-			MaestroSetPro.DisplayName: Maestro Ghosts
-			PalladiumCowbellPro.DisplayName: Palladium Cowbell Pro
-			CobaltGongPro.DisplayName: Cobalt Gong Pro
-			BagpipePro.DisplayName: Bagpipe Pro
-			SnarkyGunPro.DisplayName: Snarky Gun
-			AdamantiteKlaxonPro.DisplayName: Adamantite Klaxon
-			AdamantiteKlaxonPro2.DisplayName: Adamantite Klaxon
-			TitaniumCimbassoPro.DisplayName: Titanium Cimbasso
-			ValadiumThereminPro.DisplayName: Valadium Theremin
-			CelloPro.DisplayName: Cello Pro
+			FrozenTiaraPro.DisplayName: 冰冻皇冠
+			MaestroSetPro1.DisplayName: 大师幽魂
+			MaestroSetPro2.DisplayName: 大师幽魂
+			MaestroSetPro3.DisplayName: 大师幽魂
+			MaestroSetPro4.DisplayName: 大师幽魂
+			MaestroSetPro.DisplayName: 大师幽魂
+			PalladiumCowbellPro.DisplayName: 钯金铃铛
+			CobaltGongPro.DisplayName: 钴锣
+			BagpipePro.DisplayName: 风笛
+			SnarkyGunPro.DisplayName: 火爆枪
+			AdamantiteKlaxonPro.DisplayName: 精金喇叭
+			AdamantiteKlaxonPro2.DisplayName: 精金喇叭2
+			TitaniumCimbassoPro.DisplayName: 钛金细管低音号
+			ValadiumThereminPro.DisplayName: 虚金特雷门琴
+			CelloPro.DisplayName: 大提琴
 		}
 
 		Tiles: {
