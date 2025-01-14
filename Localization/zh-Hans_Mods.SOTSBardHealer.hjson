@@ -30,7 +30,7 @@ ItemDescriptions: {
 
 Items: {
 	AncientHarp: {
-		DisplayName: Ancient Harp远古竖琴
+		DisplayName: Ancient Harp诅咒竖琴
 		Tooltip:
 			'''
 			Unleashes a stream of keystone energy that bounce释放一股可弹跳的钥之石能量
@@ -44,14 +44,14 @@ Items: {
 		DisplayName: Cursed Ankh Staff诅咒十字杖
 		Tooltip:
 			'''
-			Summons a cursed ankh that follows the cursor召唤一个诅咒十字架跟随光标
-			The ankh attacks nearby enemies with tendrils十字架会用触须攻击附近的敌人
+			Summons a cursed ankh that follows the cursor召唤一个受诅咒的十字架跟随光标
+			The ankh attacks nearby enemies with tendrils十字架用触须攻击附近的敌人
 			Upon dealing damage, nearby allies are healed在造成伤害时，附近的队友被治疗
 			'''
 	}
 
 	DualStylophone: {
-		DisplayName: Dual Stylophone双重触笔电子琴
+		DisplayName: Dual Stylophone对偶电琴
 		Tooltip:
 			'''
 			Shoots a bunch of vibrant stylus pens释放充满活力的手写笔
@@ -60,7 +60,7 @@ Items: {
 	}
 
 	ForbiddenMaelstrom: {
-		DisplayName: Forbidden Maelstrom禁忌大漩涡
+		DisplayName: Forbidden Maelstrom忌讳漩流
 		Tooltip:
 			'''
 			Throw cursed saw blades that shred enemies on hit投掷被诅咒的锯片并在攻击时撕碎敌人
@@ -86,17 +86,17 @@ Items: {
 		DisplayName: Goopwood Wiggle流胶木扭音管
 		Tooltip:
 			'''
-			Shoot two, different-colored wiggling noises when played在演奏时发射出两种不同颜色的扭动声音
-			Both return to the player after some time or distance两种声音都会在一段时间与距离后返回玩家处
+			Shoot two, different-colored wiggling noises when played
+			Both return to the player after some time or distance
 			'''
 	}
 
 	HypersonicTuner: {
-		DisplayName: Hypersonic Tuner高超声调音叉
+		DisplayName: Hypersonic Tuner超音频调谐器
 		Tooltip:
 			'''
 			Adds all inspiration to maximum void将最大灵感值转化为最大虚空值
-			All bard weapons use void instead of inspiration所有吟游诗人武器使用虚空值而不是灵感值
+			All bard weapons use void instead of inspiration所以吟游诗人武器使用虚空值而不是灵感值
 			Inspiration regeneration bonuses are converted to void regeneration speed灵感值回复速度转化为虚空恢复速度
 			Picking up inspiration notes heal void instead灵感音符可以再生虚空值
 			However, inspiration notes no longer grant their armor-related effects然而，灵感音符不再受到盔甲增益的影响
@@ -106,11 +106,11 @@ Items: {
 	}
 
 	InfrasonicTuner: {
-		DisplayName: Infrasonic Tuner次声调音叉
+		DisplayName: Infrasonic Tuner亚音频调谐器
 		Tooltip:
 			'''
 			Picking up inspiration notes heal void when holding a void-bard weapon手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
-			Upon running out of inspiration, consume 25 void to refill it all back up灵感值耗尽后，会消耗25点虚空值将其填满
+			Upon running out of inspiration, consume 25 void to refill it all back up灵感值耗尽后，消耗25点虚空值填满
 			"Channel the power of subtle background noise!"利用微妙背景噪音的力量！
 			'''
 	}
@@ -126,16 +126,16 @@ Items: {
 	}
 
 	RingofRest: {
-		DisplayName: Ring of Rest休止符之戒
-		Tooltip: Critical strikes return inspiration暴击时会恢复灵感值
+		DisplayName: Ring of Rest安息之戒
+		Tooltip: Critical strikes return inspiration暴击恢复灵感值
 	}
 
 	Serpentbite: {
 		DisplayName: Serpentbite骇蟒之噬
 		Tooltip:
 			'''
-			Creates subspace lightning on impact撞击时会产生亚空雷电
-			Critical strikes trigger lightning twice暴击会触发两次雷电
+			Creates subspace lightning on impact攻击时产生亚空雷电
+			Critical strikes trigger lightning twice暴击触发闪电两次
 			'''
 	}
 
@@ -149,8 +149,7 @@ Items: {
 			Mistiming hits will decrease these bonuses greatly and consume <VoidCost> voidMistiming hits will decrease these bonuses greatly and consume <VoidCost> void错失节拍会大幅降低这些加成并消耗<VoidCost>点虚空值
 			This penalty is reduced based on successfully timed hits此惩罚会根据成功在计时区域击中的数量而降低
 			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon这些加成会在更换武器期间保留，但会在你的主武器不是它时逐渐衰减
-			Based off of "Serpent of Sage" by Heart Plus Up改编自Heart Plus Up的 "圣贤尊蟒"
-			'''
+			Based off of "Serpent of Sage" by Heart Plus Up改编自Heart Plus Up的 "Serpent of Sage"
 	}
 
 	SerpentFangScythe: {
@@ -185,7 +184,7 @@ Items: {
 	}
 
 	SubsonicTuner: {
-		DisplayName: Subsonic Tuner亚声调音叉
+		DisplayName: Subsonic Tuner亚音速调谐器
 		Tooltip:
 			'''
 			Picking up inspiration notes heal void when holding a void-bard weapon手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
