@@ -1,232 +1,233 @@
 ItemDescriptions: {
-	BagOfCharms: <Replace>2 Critical strikes steal life, regenerate void, recover mana and return inspiration
-	DemonTongue: Halves the void cost of void-radiant weapons and healing spells
-	FoggyClairvoyance: Does not provide immunity to debuffs that serve as armor set, accessory, or self-revive cooldown
+	BagOfCharms: <Replace>2 暴击会回复生命值、虚空值、魔力值并返还灵感值
+	DemonTongue: 虚空牧师武器的治疗法术虚空值减半
+	FoggyClairvoyance: 减益免疫效果不再作为套装奖励，饰品，或复活冷却
 	HarvestersScythe:
 		'''
-		Soul essence from radiant scythes will also recover some void
-		Soul essence from void-radiant scythes recover even more void
+		光辉镰刀的灵魂精华也会回复虚空值
+		虚空镰刀的灵魂精华回复更多虚空值
 		'''
 	HypersonicTunerExtras:
 		'''
-		All bard weapons create a shockwave on enemy hits所有乐器击中敌人会产生冲击波
-		String instrument attacks trigger their tile hit effects on enemy hits弦乐器命中敌人时触发实体方块碰撞产生的效果
-		String instrument projectiles increase in speed by 20% every pierce弦乐器弹幕每穿透一次速度提高20%
-		Percussive instrument attacks summon a falling hammer on enemy hits打击乐器命中敌人会在敌人身上掷出锤子
-		Electronic instrument projectiles are significantly much faster电子乐器的弹幕速度大幅提升
+		所有乐器击中敌人会产生冲击波
+		弦乐器命中敌人时触发实体方块碰撞产生的效果
+		弦乐器弹幕每穿透一次速度提高20%
+		打击乐器命中敌人会在敌人身上掷出锤子
+		电子乐器的弹幕速度大幅提升
 		'''
 	InfrasonicTunerExtras:
 		'''
-		Additionally, summon a dark spirit that shoots cursed notes at enemies此外, 召唤暗黑灵魂向敌人发射诅咒音符
-		Cursed notes are boosted by string and wind instrument stats诅咒音符受到管乐器和弦乐器加成影响
-		Furthermore, your bard weapons will leak ink再者, 吟游诗人武器会喷墨水
-		Leaking ink scales with the held weapon's stats and also oils hit enemies喷出的墨水受到持有武器属性的影响和also oils hit enemies
+		召唤暗黑灵魂向敌人发射诅咒音符
+		诅咒音符受到管乐器和弦乐器加成影响
+		吟游诗人武器会喷墨水
+		喷出的墨水受到持有武器属性的影响并油也可以喷到敌人身上
 		'''
-	SafetySwitch: Works while in the inventory
-	SoulCharm: <Replace>0 Critical strikes steal life, regenerate void, recover mana and return inspiration
-	TerrariumParticleSprinters: Double tap dash while on the ground to gain a massive boost to acceleration
+	SafetySwitch: 在物品栏内时也会生效
+	SoulCharm: <Replace>0 暴击会回复生命值、虚空值、魔力值与灵感值
+	TerrariumParticleSprinters: 在地面上双击可向前进行爆裂冲刺，提供更快的速度与加速度
 	VoidRadiantWeapon: 消耗{0}虚空值&汲取{1}生命值
 }
 
 Items: {
 	AncientHarp: {
-		DisplayName: Ancient Harp诅咒竖琴
+		DisplayName: 古厄竖琴
 		Tooltip:
 			'''
-			Unleashes a stream of keystone energy that bounce释放一股可弹跳的钥之石能量
-			String bounce bonus does not increase total bounces弹跳加成不会增加
-			Instead, it makes the projectiles last longer相反会让弹幕持续时间更长
-			"Keystone shards react oddly with sound, hence why"这就是为什么，钥之石碎块对声音的反应很奇怪
+			释放一股可反弹的钥之石能量
+			弦乐器的反弹次数加成不会影响该武器的反弹次数
+			但是会让弹幕持续时间更长
+			"这就是为什么，钥之石碎块对声音的反应很奇怪"
 			'''
 	}
 
 	CursedAnkhStaff: {
-		DisplayName: Cursed Ankh Staff诅咒十字杖
+		DisplayName: 诅咒十字杖
 		Tooltip:
 			'''
-			Summons a cursed ankh that follows the cursor召唤一个受诅咒的十字架跟随光标
-			The ankh attacks nearby enemies with tendrils十字架用触须攻击附近的敌人
-			Upon dealing damage, nearby allies are healed在造成伤害时，附近的队友被治疗
+			召唤一个受诅咒的十字架跟随光标
+			十字架会用触须攻击附近的敌人
+			在造成伤害时，治疗附近的队友
 			'''
 	}
 
 	DualStylophone: {
-		DisplayName: Dual Stylophone对偶电琴
+		DisplayName: 对偶电琴
 		Tooltip:
 			'''
-			Shoots a bunch of vibrant stylus pens释放充满活力的手写笔
-			Stylus pens phase through a few tiles手写笔可短暂的穿透物块
+			释放充满活力的手写笔
+			手写笔可短暂的穿透物块
 			'''
 	}
 
 	ForbiddenMaelstrom: {
-		DisplayName: Forbidden Maelstrom忌讳漩流
+		DisplayName: 禁忌漩流
 		Tooltip:
 			'''
-			Throw cursed saw blades that shred enemies on hit投掷被诅咒的锯片并在攻击时撕碎敌人
-			Hits will cause a small, damaging maelstrom to form击中敌人会形成小型的破坏性漩涡
+			投掷诅咒锯片并在攻击时撕碎敌人
+			击中敌人会形成小型的破坏性漩涡
 			'''
 	}
 
 	GoopwoodReap: {
-		DisplayName: Goopwood Reap流胶木收割镰
-		Tooltip: Releases three gelatin balls that bounce all over the place释放三个凝胶球分散弹跳
+		DisplayName: 流胶木收割镰
+		Tooltip: 释放三个到处跳跃的凝胶球
 	}
 
 	GoopwoodSplit: {
-		DisplayName: Goopwood Split流胶木撕裂斧
+		DisplayName: 流胶木撕裂斧
 		Tooltip:
 			'''
-			Duplicates on enemy hit攻击时会分裂
-			Duplicates more on critical hits暴击会分裂的更多
+			击中敌人会分裂
+			暴击会分裂的更多
 			'''
 	}
 
 	GoopwoodWiggle: {
-		DisplayName: Goopwood Wiggle流胶木扭音管
+		DisplayName: 流胶木扭音管
 		Tooltip:
 			'''
-			Shoot two, different-colored wiggling noises when played
-			Both return to the player after some time or distance
+			发射两束不同颜色的扭曲噪音
+			两束噪音在飞行一段时间或一段距离后返回玩家
 			'''
 	}
 
 	HypersonicTuner: {
-		DisplayName: Hypersonic Tuner超音频调谐器
+		DisplayName: 极超音速调谐器
 		Tooltip:
 			'''
-			Adds all inspiration to maximum void将最大灵感值转化为最大虚空值
-			All bard weapons use void instead of inspiration所以吟游诗人武器使用虚空值而不是灵感值
-			Inspiration regeneration bonuses are converted to void regeneration speed灵感值回复速度转化为虚空恢复速度
-			Picking up inspiration notes heal void instead灵感音符可以再生虚空值
-			However, inspiration notes no longer grant their armor-related effects然而，灵感音符不再受到盔甲增益的影响
-			Resource-boosting empowerments are much stronger on void stats咒音增幅在虚空属性上更强
-			"Channel the power of sounds beyond hearing range!"引导声音的力量超越听觉范围！
+			将最大灵感值转化为最大虚空值
+			吟游诗人武器使用虚空值而不是灵感值
+			灵感值回复速度转化为虚空恢复速度
+			灵感音符可以再生虚空值
+			然而，灵感音符不再受到盔甲增益的影响
+			咒音增幅会大幅增强虚空属性
+			"引导听觉上限之外的音波之力！"
 			'''
 	}
 
 	InfrasonicTuner: {
-		DisplayName: Infrasonic Tuner亚音频调谐器
+		DisplayName: 次音速调谐器
 		Tooltip:
 			'''
-			Picking up inspiration notes heal void when holding a void-bard weapon手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
-			Upon running out of inspiration, consume 25 void to refill it all back up灵感值耗尽后，消耗25点虚空值填满
-			"Channel the power of subtle background noise!"利用微妙背景噪音的力量！
+			手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
+			灵感值耗尽后，消耗25点虚空值填满
+			"引导窸窣杂音之力！"
 			'''
 	}
 
 	PhaseKarambit: {
-		DisplayName: Phase Karambit相位鹰爪刀
+		DisplayName: 相位鹰爪刀
 		Tooltip:
 			'''
-			Spin a chaotic karambit that summons copies of itself旋转混沌的鹰爪刀并召唤自己的投影
-			The copies will hurl toward the nearest enemy投影会向附近的敌人扔出
-			"Might sell a lot in a certain community"可能会在某个社区卖很多
+			旋转一把混沌鹰爪刀并发射出它的投影
+			投影会追踪附近的敌人
+			"可能会在某个社区卖很多"
 			'''
 	}
 
 	RingofRest: {
-		DisplayName: Ring of Rest安息之戒
-		Tooltip: Critical strikes return inspiration暴击恢复灵感值
+		DisplayName: 安息之戒
+		Tooltip: 暴击恢复灵感值
 	}
 
 	Serpentbite: {
-		DisplayName: Serpentbite骇蟒之噬
+		DisplayName: 骇蟒之噬
 		Tooltip:
 			'''
-			Creates subspace lightning on impact攻击时产生亚空雷电
-			Critical strikes trigger lightning twice暴击触发闪电两次
+			攻击时产生亚空雷电
+			暴击触发闪电两次
 			'''
 	}
 
 	SerpentCharmerofSage: {
-		DisplayName: Serpent Charmer of Sage圣贤耍蛇笛
+		DisplayName: 圣贤耍蛇笛
 		Tooltip:
 			'''
-			Summons a homing snake that attacks foes召唤一条会追踪敌人并攻击的蛇
-			Successfully timing hits will steadily increase its damage, homing range and empowerment level成功在计时区域击中会不断增加它的伤害，追踪范围和咒音增幅等级
-			Empowerments from this instrument start off at level 2 as supposed to level 1 like the rest与其他乐器一样，此乐器的咒音增幅也是从2级开始，直到1级
-			Mistiming hits will decrease these bonuses greatly and consume <VoidCost> voidMistiming hits will decrease these bonuses greatly and consume <VoidCost> void错失节拍会大幅降低这些加成并消耗<VoidCost>点虚空值
-			This penalty is reduced based on successfully timed hits此惩罚会根据成功在计时区域击中的数量而降低
-			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon这些加成会在更换武器期间保留，但会在你的主武器不是它时逐渐衰减
-			Based off of "Serpent of Sage" by Heart Plus Up改编自Heart Plus Up的 "Serpent of Sage"
+			召唤一条会追踪敌人并攻击的蛇
+			成功在计时区域击中会不断增加它的伤害，追踪范围和咒音增幅等级
+			与其他乐器一样，此乐器的咒音增幅也是从2级开始，直到1级
+			错失节拍会大幅降低这些加成并消耗<VoidCost>点虚空值
+			此惩罚会根据成功在计时区域击中的数量而降低
+			这些加成会在更换武器期间保留，但会在你的主武器不是它时逐渐衰减
+			改编自Heart Plus Up的 "Serpent of Sage"
+			'''
 	}
 
 	SerpentFangScythe: {
-		DisplayName: Serpent Fang Scythe蛇牙长柄镰
+		DisplayName: 蛇牙长柄镰
 		Tooltip:
 			'''
-			Unleashes a powerful slash that pierce释放一道强大的穿透斩击波
-			The slash is accompanied by three wave blasts释放斩击波时也会释放三颗波纹弹
-			One wave blast is red, the others are green一颗波纹弹为红色，其余都为绿色
-			Red wave blasts home into injured allies and heal them红波纹弹会追踪受伤的队友并治疗他们
-			However, on-heal effects are not triggered但不会触发治疗效果
-			Green wave blasts home into enemies and hit them continuously绿波纹弹会追踪并持续攻击敌人
-			Returns void on soul essence gain获得灵魂精华时会恢复虚空值
+			释放一道强大的穿透斩击波
+			释放斩击波时也会释放三颗波纹弹
+			一颗波纹弹为红色，其余都为绿色
+			红波纹弹会追踪受伤的队友并治疗他们
+			但不能触发其他治疗物品的治疗效果
+			绿波纹弹会追踪并持续攻击敌人
+			获得灵魂精华时会恢复虚空值
 			'''
 	}
 
 	SerpentsTongue: {
-		DisplayName: Serpent's Tongue骇蟒之舌
+		DisplayName: 骇蟒之舌
 		Tooltip:
 			'''
-			15% increased radiant damage增加15%光辉伤害
-			20% increased critical strike damage增加20%暴击伤害
-			Enemies have a 10% chance to drop double the loot敌人有10%的概率掉落双倍的战利品
-			20% when killed by critical strikes暴击击杀时概率则为20%
-			Empowers certain attacks with dark energy为一些攻击施加暗能量
-			Halves radiant life costs but not its life transferring effect光辉法术的生命消耗减半，但不包括生命转移效果
-			Halves the void cost of void-radiant weapons and healing spells虚空光辉武器和治疗法术的虚空消耗减半
-			Soul essence from radiant scythes will also recover some void来自光辉镰刀的灵魂精华也会恢复一些虚空值
-			Soul essence from void-radiant scythes recover even more void来自虚空光辉镰刀的灵魂精华能够恢复更多的虚空值
-			"SSSSS-SPICEH!""嘶嘶嘶-辣啊!"
+			增加15%光辉伤害
+			增加20%暴击伤害
+			敌人有10%的概率掉落双倍的战利品
+			暴击击杀时概率则为20%
+			为一些攻击施加暗能量
+			光辉法术的生命消耗减半，但不包括生命转移效果
+			虚空光辉武器和治疗法术的虚空消耗减半
+			来自光辉镰刀的灵魂精华也会恢复一些虚空值
+			来自虚空光辉镰刀的灵魂精华能够恢复更多的虚空值
+			"嘶嘶嘶-辣啊!"
 			'''
 	}
 
 	SubsonicTuner: {
-		DisplayName: Subsonic Tuner亚音速调谐器
+		DisplayName: 亚音速调谐器
 		Tooltip:
 			'''
-			Picking up inspiration notes heal void when holding a void-bard weapon手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
-			Upon running out of inspiration, consume 50 void to refill it all back up灵感值耗尽后，会消耗50点虚空值将其填满
-			"So what inspires you exactly?" "The void.""那么，究竟是什么启发了你的灵感?" "是虚空"
+			手持虚空吟游诗人武器时，拾取灵感音符将恢复虚空值
+			灵感值耗尽后，会消耗50点虚空值将其填满
+			"那么，究竟是什么启发了你的灵感?" "是虚空"
 			'''
 	}
 
 	TwilightAscendance: {
-		DisplayName: Twilight Ascendance暮光统治杖
+		DisplayName: 暮光权杖
 		Tooltip:
 			'''
-			Shoots damaging rings of chaos in clumps发射出一团会造成伤害的混沌之环
-			When still in clump form, allies that touch chaos rings will get healed当其仍处于团块形态时，触碰混沌之环的队友将被治疗
-			Explodes into 3 normal chaos rings after some time or upon healing an ally在一段时间后，或治疗队友后，会爆炸出3个普通的混沌之环
-			Normal chaos rings chase after enemies普通的混沌之环将会追踪敌人
+			发射出一团会造成伤害的混沌之环
+			当其仍处于团块形态时，触碰混沌之环的队友将被治疗
+			在一段时间后，或治疗队友后，会爆炸出3个普通的混沌之环
+			普通的混沌之环将会追踪敌人
 			'''
 	}
 
 	UltrasonicBassBooster: {
-		DisplayName: Ultrasonic Bass Booster超声波低音增幅器
+		DisplayName: 超声波低音冲击波
 		Tooltip:
 			'''
-			Shoots a burst of hyper amplified noise that homes into enemies发射出一阵会追踪的超增幅的声音
-			The noise emitted comes in three colors, each inflicting a different debuff发出的声音有三种颜色，每种颜色都会造成不同的bebuff
-			Yellow inflicts ichor, pink inflicts illuminated and purple inflicts light curse黄色会造成灵液，粉色会造成荧光，紫色会造成光之咒
+			发射出一束追踪的过载音波
+			发出的声音有三种颜色，每种颜色都会造成不同的减益
+			黄色会造成灵液，粉色会造成荧光，紫色会造成光之咒
 			'''
 	}
 
 	VibrantResonator: {
-		DisplayName: Vibrant Resonator振荡共鸣杖
+		DisplayName: 振荡共鸣杖
 		Tooltip:
 			'''
-			Replenishes ally void by 20治疗队友20点生命值
-			Heals twice if the ally is still如果队友不移动，就会治疗两次
-			Does not trigger on-heal effects不会触发治疗效果
+			治疗队友20点生命值
+			如果队友不移动，就会治疗两次
+			不能触发其他治疗物品的治疗效果
 			'''
 	}
 
 	VibrantTomahawk: {
-		DisplayName: Vibrant Tomahawk振荡投斧
-		Tooltip: Throw a vibrant tomahawk that is unaffected by gravity投掷出一把不受重力影响的振荡投斧
+		DisplayName: 振荡投斧
+		Tooltip: 投掷出一把不受重力影响的振荡投斧
 	}
 }
 
