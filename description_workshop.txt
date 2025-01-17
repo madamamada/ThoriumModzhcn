@@ -1,15 +1,17 @@
-[h1]This mod is a Chinese Translation Patch of [u]Thorium Mod[/u] and [u]Thorium Bosses Reworked[/u] and [u]Unofficial Calamity Bard & Healer[/u] and [u]Unofficial Redemption Bard, Thrower & Healer[/u] and [u]Unofficial Spirit Bard, Thrower & Healer[/u][/h1]
+[h1]This mod is a Chinese Translation Patch of [u]Thorium Mod[/u] and [u]Thorium Bosses Reworked[/u] and [u]Unofficial Calamity Bard & Healer[/u] and [u]Unofficial Redemption Bard, Thrower & Healer[/u] and [u]Unofficial Spirit Bard, Thrower & Healer[/u] and [u]Unofficial Spooky Bard, Thrower & Healer[/u] and [u]Unofficial SOTS Bard, Thrower and Healer[/u][/h1]
 
 [h1]=模组介绍=[/h1]
 感谢：由灾厄维基出品的中文瑟银wiki
 感谢：灾厄维基汉化组部分成员+世纪小花帮我制作的翻译及代码QAQ
-[h2]为拥有炼狱模组后瑟银BOSS重置的BOSS出场文字增加可选模组[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023]灾厄炼狱中文字体补充[/url][/h2]（内置炼狱文字库在2024.??.??.?版本删除）
+[h2]为拥有炼狱模组后瑟银BOSS重置的BOSS出场文字增加可选模组[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3363192023]灾厄炼狱中文字体补充[/url][/h2]（内置炼狱文字库在2024.11.17.0版本分离）
 
 [h1]不禁止多开，但多开有bug不接受任何理睬，除了超模模组无限加点系统，辅助模组更好的体验，TWAILA等等[/h1]
-此汉化包含[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银boss重置[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非救赎官方瑟银武器[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非魂灵官方瑟银武器[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非惊惧官方瑟银武器[/url]不包括以这五个模组为前置，以瑟银为前置
+此汉化包含 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银boss重置[/url] 和 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器[/url] 和 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非救赎官方瑟银武器[/url] 和 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非魂灵官方瑟银武器[/url] 和
+ [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非惊惧官方瑟银武器[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非暗影奥秘官方瑟银武器[/url]不包括以这六个模组为前置，以瑟银为前置
 
-额外加载[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]瑟银式标签[/url]汉化
+额外加载
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]瑟银式标签[/url] 和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3295549432]瑟银无限灵感值[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677](瑟银附加)元素锤斧[/url]汉化
+
 [h3][u]点击文字可以进入那个模组[/u][/h3]
 
 不要在评论区回复“感谢”“催更”等对模组没有帮助的信息。如有问题查看问题Q1
@@ -30,14 +32,14 @@ Q2：模组为什么有一堆骷髅头样式的图标 / 为什么模组会报错
 A2：解决方式：Steam库 -> 鼠标右键 TModLoader游戏  -> 属性 -> 测试版 -> 选择'无' 
 
 
-[h1]=模组链接=[/h1]
+[h1]=和此汉化相关链接=[/h1]
 [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]中文瑟银wiki[/url]|[url=https://github.com/madamamada/ThoriumModzhcn]本模组github源代码[/url]|[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3157893946]救赎汉化补丁[/url]
 
 [quote=tModLoader 作者介绍]
 瑟银wiki————————Listentowind
 瑟银wiki转换可用翻译——Flandre Scarlet，令，Super_ego
 程序——————————末泠，Flandre Scarlet，马达，plantare，furgo
-瑟银附属翻译——————Flandre Scarlet，Super_ego，兹翼，终子星，Ivybless，虞悖
+瑟银附属翻译——————Flandre Scarlet，Super_ego，兹翼，终子星，Ivybless，虞悖，Yee苍棱
 github发布———————马达，Super_ego，Flandre Scarlet，末泠，兹翼，终子星
-加入时间顺序排版[/quote]
-
+加入时间顺序排版[/quote][quote=tModLoader ThoriumModzhcn]
+Developed By Flandre Scarlet(B站名moon_ditch) & @马达达马达(B站同名) & 令 & 末泠(B站同名) & Super_ego(B站同名) & 兹翼 & 终子星 & plantare & furgo & Ivybless & 虞悖 & Yee苍棱[/quote]
