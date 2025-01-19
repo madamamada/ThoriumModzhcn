@@ -13929,13 +13929,13 @@ Mods: {
 				Tooltip:
 					'''
 					'不断渗漏…'
-					仅在下方有其他 {0} 块海洋块时才会漏水（等待wiki）
+					仅在下方有其他 {0} 块海洋块时才会漏水
 					'''
 			}
 
 			LeakyMarineWall: {
 				DisplayName: 渗漏海洋墙
-				Tooltip: "'不断渗漏…'"（等待wiki）
+				Tooltip: "'不断渗漏…'"
 			}
 
 			LeakyMossyMarineBlock: {

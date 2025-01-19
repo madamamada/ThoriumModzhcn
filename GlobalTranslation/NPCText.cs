@@ -1,5 +1,8 @@
+using Microsoft.Xna.Framework;
+using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
+using Terraria.UI.Chat;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
 using ThoriumMod.NPCs.BossLich;
@@ -411,16 +414,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 			chat = chat.Replace("Aye, I once saw a sea demon risin' from those depths. Somethin' dark, somethin' ancient, somethin'... uhh... You gonna buy somethin'?!", "是的，我曾经看到一个海怪从深海浮上来。有些黑暗，有些古老，有些...呃...你要买东西?!");
 
 			//公主
-			chat = chat.Replace(" is super skilled! Never had my slippers shine so well!", "技术真好! 我的鞋从来没有这么闪亮过!");
-			chat = chat.Replace(" is the best guy in town to play hide-and-seek with!", "是城镇里最适合玩捉迷藏的对象!");
-			chat = chat.Replace(" makes the most amazing treats!", "能做出最令人惊叹的美食!");
-			chat = chat.Replace("Heehee," + Main.npc[ConfusedZombie].GivenName + "makes such goofy faces!", "嘿嘿, " + Main.npc[ConfusedZombie].GivenName + "看起来傻傻的!");
-			chat = chat.Replace(" helped me fix my tiara, I'm so grateful!", "帮我修好了我的头冠，我太感谢他了!");
-			chat = chat.Replace(" makes me feel so tall when he gives me a piggyback ride!", "让我骑在他背上，让我觉得自己很高!");
-			chat = chat.Replace(" tells such amazing stories of what's under the sea!", "会讲大海底下的神奇的故事!");
-			chat = chat.Replace(" assembles the loveliest flower bouquets!", "能做出最美丽的花束!");
-			chat = chat.Replace(" has such a calming aura to him!", "的身边能让人平静下来!");
-			chat = chat.Replace(" is such a sweetheart. He makes little fires for me when I'm cold!", "的心真好. 他会在我冷的时候为我生火!");
 			chat = chat.Replace("Something something sparkle magic go!", "有些东西，有些东西，闪耀着魔法!");
 			chat = chat.Replace("Insert anime reference here!", "插入动漫参考这里!");
 
@@ -517,9 +510,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 
 			//现实守护者：动物学家
 			chat = chat.Replace("Okay, like, wait. One more time. You say there were three of them? Okay yeah, and what did they look like exactly? Like, for real? This bestiary entry is gonna really test my drawing skills, huh?", "好吧，等等。再来一次。你说他们有三个？好吧，是的，它们具体是什么样子的？真实些？这个图鉴条目真的考验我的绘画技巧，嗯?");
-
-			//巫妖
-			chat = chat.Replace("It seems to be dormant", "它似乎在沉睡");
 		}
 
 
@@ -606,5 +596,32 @@ namespace ThoriumModzhcn.GlobalTranslation
 				Main.npcChatText = Main.npcChatText.Replace("Something is coming!", "有东西来了!");
 			}
  		}
+	}
+
+	public class BossText : ModSystem
+	{
+		public override void Load()
+		{
+			On_ChatManager.ParseMessage += Translate;
+		}
+		public override void Unload()
+		{
+			On_ChatManager.ParseMessage -= Translate;
+		}
+		private static List<TextSnippet> Translate(On_ChatManager.orig_ParseMessage orig, string text, Color baseColor)
+		{
+			int Lich = NPC.FindFirstNPC(ModContent.NPCType<Lich>());
+			foreach (var kvp in ChatManagerText)
+			{
+				text = text.Replace(kvp.Key, kvp.Value);
+			}
+			return orig.Invoke(text, baseColor);
+		}
+		private static readonly Dictionary<string, string> ChatManagerText = new()
+		{
+			#region 巫妖
+			{"It seems to be dormant...", "它似乎在沉睡..."},
+			#endregion
+ 		};
 	}
 }
