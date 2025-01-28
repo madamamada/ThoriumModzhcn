@@ -595,33 +595,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 				Main.npcChatText = Main.npcChatText.Replace("Before you sits a rather strange mirror. Something seems to be calling out from it...?", "在你面前坐着一面相当奇怪的镜子。里面似乎有什么东西在呼唤着......？");
 				Main.npcChatText = Main.npcChatText.Replace("Something is coming!", "有东西来了!");
 			}
- 		}
-	}
-
-	public class BossText : ModSystem
-	{
-		public override void Load()
-		{
-			On_ChatManager.ParseMessage += Translate;
 		}
-		public override void Unload()
-		{
-			On_ChatManager.ParseMessage -= Translate;
-		}
-		private static List<TextSnippet> Translate(On_ChatManager.orig_ParseMessage orig, string text, Color baseColor)
-		{
-			int Lich = NPC.FindFirstNPC(ModContent.NPCType<Lich>());
-			foreach (var kvp in ChatManagerText)
-			{
-				text = text.Replace(kvp.Key, kvp.Value);
-			}
-			return orig.Invoke(text, baseColor);
-		}
-		private static readonly Dictionary<string, string> ChatManagerText = new()
-		{
-			#region 巫妖
-			{"It seems to be dormant...", "它似乎在沉睡..."},
-			#endregion
- 		};
 	}
 }

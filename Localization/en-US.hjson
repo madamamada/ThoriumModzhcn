@@ -950,7 +950,7 @@ Mods: {
 
 			NecroticSkullBuff: {
 				DisplayName: Necrotic Skull
-				Description: Minions are dealing 2 more damage
+				Description: Summons are dealing 2 more damage
 			}
 
 			NinjaBuff: {
@@ -1375,7 +1375,7 @@ Mods: {
 
 			BannerFalcon: {
 				DisplayName: Falcon
-				Description: Nearby minions might deal additional damage on hit
+				Description: Nearby summons might deal additional damage on hit
 			}
 
 			BannerGhost: {
@@ -1501,11 +1501,6 @@ Mods: {
 			MeteorHeadStaffBuff: {
 				DisplayName: Meteor Head
 				Description: The meteor head has decided to work with you
-			}
-
-			MoltenBannerBuff: {
-				DisplayName: Molten Banner
-				Description: Minion attacks have been empowered with intense heat
 			}
 
 			NebulaReflectionBuff: {
@@ -1691,6 +1686,11 @@ Mods: {
 			SorcerersDiceBuff: {
 				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
 				Description: Infinite mana and {0}% increased casting speed
+			}
+
+			TwilightBoost: {
+				DisplayName: Twilight Boost
+				Description: An ally is augmenting your on-hit effects
 			}
 		}
 
@@ -2038,7 +2038,7 @@ Mods: {
 				Tooltip:
 					'''
 					Commands a single falcon to fly towards your cursor
-					While nearby, your minions have a chance to deal additional damage
+					While nearby, your summons have a chance to deal additional damage
 					'''
 			}
 
@@ -2159,7 +2159,7 @@ Mods: {
 
 			YewWoodHelmet: {
 				DisplayName: Yew Wood Helmet
-				Tooltip: 2.5% increased firing speed
+				Tooltip: "{0}% increased firing speed"
 				SetBonus:
 					'''
 					After four non-critical strikes, your next ranged attack will mini-crit for {0}% damage
@@ -2965,7 +2965,7 @@ Mods: {
 				Tooltip:
 					'''
 					Releases a flaming ear worm that infects hit enemies
-					The affected enemy will constantly release damaging astral clouds
+					The affected enemy will constantly release damaging astral bursts
 					'''
 			}
 
@@ -4940,12 +4940,12 @@ Mods: {
 
 			DepthDiverChestplate: {
 				DisplayName: Depth Diver's Chestplate
-				Tooltip: Become a selfless protector
+				Tooltip: "'Become a selfless protector'"
 			}
 
 			DepthDiverGreaves: {
 				DisplayName: Depth Diver's Greaves
-				Tooltip: Become a selfless protector
+				Tooltip: "'Become a selfless protector'"
 			}
 
 			DepthDiverHelmet: {
@@ -6099,7 +6099,7 @@ Mods: {
 				Tooltip:
 					'''
 					Generates unstable atoms as it travels
-					Enemies hit by the main attack are focused by it's unstable atoms
+					Enemies hit by the main attack are focused by its unstable atoms
 					Overuse of this weapon exhausts you, massively reducing its damage
 					Killing enemies recovers some of your exhaustion
 					'''
@@ -6204,7 +6204,7 @@ Mods: {
 				Tooltip:
 					'''
 					Upon losing 80% of your max mana, you instantly recover 50% of it and gain 10 stacks of 'volatile energy'
-					Volatile energy increases your attack speed by 0.2%, slowly hurts you, and decays in stacks every half second
+					Volatile energy increases your attack speed by 0.2%, slowly hurts you, and decays in stacks every second
 					Reaching 100 stacks of volatile energy instantly kills you
 					'''
 			}
@@ -7101,6 +7101,7 @@ Mods: {
 					'''
 					Spews forth spirit flame that steals life on critical strikes
 					Uses gel for ammo
+					Ignores {0} points of enemy Defense
 					'''
 			}
 
@@ -8093,8 +8094,9 @@ Mods: {
 					'''
 					'Belch your wrath upon those undeserving of life...'
 					Uses gel for ammo
+					Ignores {0} points of enemy Defense
+					{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 					Releases a torrent of caustic wyrm breath
-					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
 
@@ -8246,7 +8248,7 @@ Mods: {
 					Increases your max number of sentries by 2
 					Increases minion knockback
 					'''
-				SetBonus: All minion damage leaves a lingering burn that deals significant damage over time
+				SetBonus: All summon damage leaves a lingering burn that deals significant damage over time
 			}
 
 			PrometheanStaff: {
@@ -8830,7 +8832,7 @@ Mods: {
 				Tooltip:
 					'''
 					Rapidly spins a scythe made of hungering blood all around you
-					Damage dealt imbues your nearby ally's attacks with life stealing properties
+					Dealing direct damage imbues your nearby allies' attacks with a chance to steal life
 					'''
 			}
 
@@ -9276,7 +9278,7 @@ Mods: {
 				Tooltip:
 					'''
 					Rapidly spins a scythe made of pure darkness all around you
-					Damage dealt imbues your nearby ally's attacks with night energy
+					Dealing direct damage imbues your nearby allies' attacks with shadowflame
 					'''
 			}
 
@@ -10260,7 +10262,7 @@ Mods: {
 					'''
 					Rapidly spins a hemo-scythe all around you
 					Releases a dual pulse of life force stealing blood
-					Damage dealt by the scythe imbues your nearby ally's attacks with life stealing properties
+					Dealing direct damage imbues your nearby allies' attacks with a chance to steal life
 					'''
 			}
 
@@ -10270,7 +10272,7 @@ Mods: {
 					'''
 					Rapidly spins a nega-scythe all around you
 					Releases a dual pulse of corrupting flame
-					Damage dealt by the scythe imbues your nearby ally's attacks with night energy
+					Dealing direct damage imbues your nearby allies' attacks with shadowflame
 					'''
 			}
 
@@ -11524,7 +11526,6 @@ Mods: {
 					'''
 					Moving around generates up to {0} static rings, with each one generating life shielding
 					When fully charged, a bubble of energy will protect you from one attack
-					When the bubble blocks an attack, an electrical discharge is released at nearby enemies
 					'''
 			}
 
@@ -12313,16 +12314,6 @@ Mods: {
 					'''
 					Hitch a ride on a gigantic crab
 					While mounted, you can walk on liquids
-					'''
-			}
-
-			MinotaurSkull: {
-				DisplayName: Minotaur Skull
-				Tooltip:
-					'''
-					'Some of the dungeon's necromantic power has seeped into the skull'
-					Increases your max number of minions by 1
-					Decreases non-summon damage by 10%
 					'''
 			}
 
@@ -16184,7 +16175,7 @@ Mods: {
 			AstroHelmet: {
 				DisplayName: Astro Helmet
 				Tooltip: Increases summon damage by 1
-				SetBonus: Minion damage has a chance to unleash a burst of damaging plasma on hit
+				SetBonus: Summon damage has a chance to unleash a burst of damaging plasma on hit
 			}
 
 			AstroSuit: {
@@ -16300,7 +16291,7 @@ Mods: {
 				Tooltip:
 					'''
 					Places a single magical brain above the ground
-					While nearby, the user's minion attacks have a chance to confuse hit enemies
+					While nearby, the user's minion and sentry attacks have a chance to confuse hit enemies
 					'''
 			}
 
@@ -16309,7 +16300,7 @@ Mods: {
 				Tooltip:
 					'''
 					'A gruesome incubation has occurred'
-					Minion attacks have a 10% chance to generate a swarm of spiders
+					Minion and sentry attacks have a 10% chance to generate a swarm of spiders
 					'''
 			}
 
@@ -16345,7 +16336,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					Minion attacks have a {0}% chance to heal you on hit
+					Minion and sentry attacks have a {0}% chance to heal you on hit
 					You cannot heal more than {1} life every {2} {^2:second;seconds}
 					'''
 			}
@@ -16387,11 +16378,7 @@ Mods: {
 			LivingWoodMask: {
 				DisplayName: Living Wood Mask
 				Tooltip: Increases minion knockback
-				SetBonus:
-					'''
-					Increases your max number of minions by {0}
-					Your living wood sapling's auto attack will home in on enemies
-					'''
+				SetBonus: Your Living Wood Sapling's auto attack will home in on enemies
 			}
 
 			LivingWoodSap: {
@@ -16429,7 +16416,7 @@ Mods: {
 					10% increased summon damage
 					Increases your max number of minions
 					Increases your max number of sentries
-					Minion attacks briefly deal 2 more damage after killing an enemy
+					Minion and sentry attacks briefly deal 2 more damage after killing an enemy
 					'''
 			}
 
@@ -16665,7 +16652,7 @@ Mods: {
 
 					Summon: {
 						Name: Summon Focus
-						Description: Increases your max number of minions by {0}
+						Description: Increases your max number of minions by {0} & decreases non-summon damage by {1}%
 					}
 
 					Throwing: {
@@ -19144,6 +19131,11 @@ Mods: {
 				Tooltip: ""
 			}
 
+			DeadwoodFence: {
+				DisplayName: Deadwood Fence
+				Tooltip: ""
+			}
+
 			DeadwoodLamp: {
 				DisplayName: Deadwood Lamp
 				Tooltip: ""
@@ -19190,7 +19182,7 @@ Mods: {
 			}
 
 			DeadwoodWorkbench: {
-				DisplayName: Deadwood Workbench
+				DisplayName: Deadwood Work Bench
 				Tooltip: ""
 			}
 
@@ -20525,7 +20517,7 @@ Mods: {
 				}
 
 				Census.SpawnCondition: Defeat the [c/4dffb8:{$NPCs.FallenBeholder.DisplayName}]
-				Button2: Hire Demon ({^0:80 Silver;1 Gold})
+				Button2: Hire Demon ({^0:8 Gold;10 Gold})
 			}
 
 			WindElemental: {
@@ -20979,7 +20971,6 @@ Mods: {
 			CometCrossfireBoom.DisplayName: Comet Crossfire Boom
 			CometCrossfirePro.DisplayName: Comet Crossfire Pro
 			ConchBubble.DisplayName: Conch Bubble
-			ConduitPro.DisplayName: Conduit
 			ConfusePro.DisplayName: Confuse Pro
 			CooksAttack.DisplayName: Cooks Attack
 			CoralCrossbowPro.DisplayName: Coral Arrow
@@ -22292,6 +22283,7 @@ Mods: {
 			CookTilesLegacy.MapEntry: Food
 			FishingCrate.MapEntry: Crate
 			FurnitureCup.MapEntry: Cup
+			FurnitureVanillaCup.MapEntry: "{$Tiles.FurnitureCup.MapEntry}"
 			IllumiteChunk.MapEntry: Illumite
 			JungleFlower.MapEntry: Jungle Flower
 			LargeCoral.MapEntry: Coral
@@ -22305,8 +22297,18 @@ Mods: {
 			DesertBiomeChest.MapEntry_Locked: Locked {$Items.DesertBiomeChest.DisplayName}
 			UnderworldChest.MapEntry_Locked: Locked {$Items.UnderworldBiomeChest.DisplayName}
 			ValadiumChunk.MapEntry: Valadium
-			WorldEngineTile.MapEntry: World Engine
-			FurnitureVanillaCup.MapEntry: Furniture Vanilla Cup
+
+			WorldEngineTile: {
+				MapEntry: World Engine
+				NoJourneyMode: You cannot use this in Journey Mode, use its difficulty slider instead
+				Consume: Consumes [i/s{0}:{1}] to change the world difficulty
+				ChangeMode: Change to {0} Mode
+			}
+
+			AncientPhylactery: {
+				NightRequirement: It appears to be waiting for night...
+				MechBossRequirement: It seems to be dormant...
+			}
 		}
 
 		Keybinds: {
@@ -22747,7 +22749,7 @@ Mods: {
 
 				ShowFullEmpowermentTooltip: {
 					Label: Show Full Empowerment Tooltip
-					Tooltip: Toggle if the "{$Empowerments.ItemTopTooltipHoldShift}" tooltip shows the full tooltip instead
+					Tooltip: Toggle if the "{$Empowerments.ItemTopTooltipHoldShift@0}" tooltip shows the full tooltip instead
 				}
 
 				ShowEmpowermentOrbsInTooltip: {
@@ -22864,5 +22866,52 @@ Mods: {
 		}
 
 		MapLayers.GrimPointerMapLayer.Name: Blood Chamber
+
+		UI: {
+			InCombatGauge: {
+				InCombat: In Combat
+				OutOfCombat: Out of Combat
+			}
+
+			ExhaustionBar.Exhausted: Some throwing items are now much weaker
+			HellfireMinigunGauge.Overloaded: Too hot!
+
+			InformationalIcons: {
+				Endurance: {
+					Text:
+						'''
+						Total: {0}% damage reduction
+						Vanilla: {1}%
+						Thorium: {2}%
+						'''
+					Extra: ({0}% before cap)
+				}
+
+				Healer: {
+					Header: Healer Stats
+					Text:
+						'''
+						Current Bonus Healing: {0}
+						Best Heal Streak: {1}
+						Healing done: {2}
+						Damage mitigated: {3}
+						Lives saved: {4}
+						Close calls: {5}
+						'''
+				}
+
+				Bard: {
+					Header: Bard Stats
+					Text:
+						'''
+						Bonus Duration: {0} {^0:second;seconds}
+						Max-Use Duration: {1}%
+						Base Inspiration: {2}
+						Bonus Inspiration: {3}
+						Timed Hits: {4}
+						'''
+				}
+			}
+		}
 	}
 }

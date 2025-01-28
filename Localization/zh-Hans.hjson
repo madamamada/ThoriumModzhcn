@@ -1503,11 +1503,6 @@ Mods: {
 				Description: 流星头决定与你一起工作
 			}
 
-			MoltenBannerBuff: {
-				DisplayName: Molten Banner（占位符）
-				Description: Minion attacks have been empowered with intense heat
-			}
-
 			NebulaReflectionBuff: {
 				DisplayName: 镜像
 				Description: 镜像帮助着你
@@ -1691,6 +1686,11 @@ Mods: {
 			SorcerersDiceBuff: {
 				DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
 				Description: 无限魔力且施法速度增加{0}%
+			}
+
+			TwilightBoost: {
+				DisplayName: Twilight Boost
+				Description: An ally is augmenting your on-hit effects
 			}
 		}
 
@@ -2190,7 +2190,7 @@ Mods: {
 
 			YewWoodHelmet: {
 				DisplayName: 紫衫木头盔
-				Tooltip: 增加2.5%远程武器开火速度
+				Tooltip: 增加{0}%远程武器开火速度
 				SetBonus:
 					'''
 					4次非暴击攻击后下次远程攻击会是造成{0}%伤害的小暴击
@@ -5067,12 +5067,12 @@ Mods: {
 
 			DepthDiverChestplate: {
 				DisplayName: 深海潜游者胸甲
-				Tooltip: 成为无私的保护者
+				Tooltip: "'成为无私的保护者'"
 			}
 
 			DepthDiverGreaves: {
 				DisplayName: 深海潜游者护胫
-				Tooltip: 成为无私的保护者
+				Tooltip: "'成为无私的保护者'"
 			}
 
 			DepthDiverHelmet: {
@@ -7241,6 +7241,7 @@ Mods: {
 					'''
 					发射暴击时偷取生命的灵魂火焰
 					使用凝胶作为弹药
+					无视{0}点防御力
 					'''
 			}
 
@@ -8238,8 +8239,9 @@ Mods: {
 					'''
 					'把你的怒气发泄在那些不配活着的人身上……'
 					使用凝胶作为弹药
+					无视{0}点防御力
+					{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 					释放腐蚀性的龙息洪流
-					20%概率节省弹药
 					'''
 			}
 
@@ -8976,7 +8978,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把由饥渴鲜血制成的镰刀
-					造成伤害时会为你附近队友的攻击注入生命偷取特性
+					造成伤害时会为你附近队友的攻击注入生命偷取特性(等待wiki)
 					'''
 			}
 
@@ -9427,7 +9429,7 @@ Mods: {
 				Tooltip:
 					'''
 					快速在你周围旋转一把由纯粹的黑暗制作的镰刀
-					造成伤害时会为附近队友的攻击注入暗夜能量
+					造成伤害时会为附近队友的攻击注入暗夜能量（等待wiki）
 					'''
 			}
 
@@ -10420,7 +10422,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把血镰刀
 					释放吸血的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入生命偷取特性
+					镰刀造成伤害时会为你附近队友的攻击注入生命偷取特性（等待wiki）
 					'''
 			}
 
@@ -10430,7 +10432,7 @@ Mods: {
 					'''
 					快速在你周围旋转一把带负面效果的镰刀
 					释放腐化火焰的双重脉冲
-					镰刀造成伤害时会为你附近队友的攻击注入暗夜能量
+					镰刀造成伤害时会为你附近队友的攻击注入暗夜能量（等待wiki）
 					'''
 			}
 
@@ -11686,7 +11688,6 @@ Mods: {
 					'''
 					不断移动会生成至多 {0} 个静态环，每个都会为你添加生命护盾
 					满充能时，一个能量泡泡会保护你免受一次攻击
-					泡泡阻挡攻击后会向附近敌怪释放电束
 					'''
 			}
 
@@ -12497,16 +12498,6 @@ Mods: {
 					'''
 					搭上一只巨大的螃蟹
 					骑乘时，你可以在液体上行走
-					'''
-			}
-
-			MinotaurSkull: {
-				DisplayName: Minotaur Skull(占位符)
-				Tooltip:
-					'''
-					'Some of the dungeon's necromantic power has seeped into the skull'
-					最大仆从数量增加1
-					Decreases non-summon damage by 10%
 					'''
 			}
 
@@ -16603,11 +16594,7 @@ Mods: {
 			LivingWoodMask: {
 				DisplayName: 生命木面具
 				Tooltip: 增加仆从击退
-				SetBonus:
-					'''
-					最大仆从数量增加 {0}
-					生命木橡子的自动攻击会追踪敌怪
-					'''
+				SetBonus: 生命木橡子的自动攻击会追踪敌怪
 			}
 
 			LivingWoodSap: {
@@ -16645,7 +16632,7 @@ Mods: {
 					增加10%召唤伤害
 					最大仆从数量增加
 					最大哨兵数量增加
-					击杀敌怪后仆从攻击短暂多造成2点伤害
+					击杀敌怪后召唤物攻击短暂多造成2点伤害
 					'''
 			}
 
@@ -16881,7 +16868,7 @@ Mods: {
 
 					Summon: {
 						Name: 召唤专注
-						Description: 最大仆从数量增加 {0}
+						Description: 最大仆从数量增加 {0} 非召唤伤害降低{1}%
 					}
 
 					Throwing: {
@@ -19374,6 +19361,11 @@ Mods: {
 
 			DeadwoodDresser: {
 				DisplayName: 枯木梳妆台
+				Tooltip: ""
+		}
+
+			DeadwoodFence: {
+				DisplayName: 枯木栅栏
 				Tooltip: ""
 			}
 
@@ -22527,6 +22519,7 @@ Mods: {
 			CookTilesLegacy.MapEntry: 食物
 			FishingCrate.MapEntry: 宝匣
 			FurnitureCup.MapEntry: 杯子
+			FurnitureVanillaCup.MapEntry: "{$Tiles.FurnitureCup.MapEntry}"
 			IllumiteChunk.MapEntry: 荧光石
 			JungleFlower.MapEntry: 丛林花
 			LargeCoral.MapEntry: 大珊瑚
@@ -22540,8 +22533,17 @@ Mods: {
 			DesertBiomeChest.MapEntry_Locked: 上锁的{$Items.DesertBiomeChest.DisplayName}
 			UnderworldChest.MapEntry_Locked: 上锁的{$Items.UnderworldBiomeChest.DisplayName}
 			ValadiumChunk.MapEntry: 虚金矿
-			WorldEngineTile.MapEntry: 世界引擎
-			FurnitureVanillaCup.MapEntry: Furniture Vanilla Cup
+			WorldEngineTile: {
+				MapEntry: 世界引擎
+				NoJourneyMode: 你无法在旅行模式使用它，请使用旅行模式的难度滑块
+				Consume: 消耗[i/s{0}:{1}] 来改变世界的难度
+				ChangeMode: 切换到 {0} 模式
+			}
+
+			AncientPhylactery: {
+				NightRequirement: 它似乎在等待夜幕降临…
+				MechBossRequirement: 它似乎在沉睡…
+			}
 		}
 
 		Keybinds: {
@@ -23099,5 +23101,53 @@ Mods: {
 		}
 
 		MapLayers.GrimPointerMapLayer.Name: 鲜血密室
+
+
+		UI: {
+			InCombatGauge: {
+				InCombat: In Combat加入战斗
+				OutOfCombat: Out of Combat脱离战斗
+			}
+
+			ExhaustionBar.Exhausted: Some throwing items are now much weaker一些投手物品现在更弱了
+			HellfireMinigunGauge.Overloaded: Too hot!热力极限！
+
+			InformationalIcons: {
+				Endurance: {
+					Text:
+						'''
+						合计: {0}% 伤害减免
+						原版: {1}%
+						瑟银: {2}%
+						'''
+					Extra: ({0}% before cap)
+				}
+
+				Healer: {
+					Header: 牧师属性
+					Text:
+						'''
+						当前额外治疗量: {0}
+						最大连击治疗量: {1}
+						治疗量: {2}
+						伤害减缓: {3}
+						救死扶伤: {4}
+						死里逃生: {5}
+						'''
+				}
+
+				Bard: {
+					Header: 吟游诗人属性
+					Text:
+						'''
+						咒音增幅持续时间: {0} {^0:秒;seconds}
+						最大使用时间: {1}%
+						基础灵感值: {2}
+						额外灵感值: {3}
+						抓住节拍次数: {4}
+						'''
+				}
+			}
+		}
 	}
 }

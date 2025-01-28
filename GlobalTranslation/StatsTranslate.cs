@@ -14,37 +14,9 @@ using MonoMod.Cil;
 using ThoriumMod.Tiles;
 using ThoriumMod.UI.ResourceBars;
 
-
-
 namespace ThoriumModzhcn.GlobalTranslation
 {
-    //世界引擎
-    public class WorldEngineTranslation : GlobalTile
-    {
-        public override void MouseOver(int i, int j, int type)
-        {
-            if (type == ModContent.TileType<WorldEngineTile>())
-            {
-                Player localPlayer = Main.LocalPlayer;
-                if (Main.GameModeInfo.IsJourneyMode)
-                {
-                    localPlayer.cursorItemIconText = "\n\n你无法在旅行模式使用它，请使用旅行模式的难度滑块";
-                    return;
-                }
-                localPlayer.cursorItemIconText = $"\n\n消耗 [i/s{5}:{75}] 来改变世界的难度";
-                int num = Main.tile[i, j].TileFrameX / 18;
-                if (Main.getGoodWorld) num++;
-                var name = num switch
-                {
-                    1 => $"[c/FF9900:{Language.GetTextValue("UI.Expert")}]",
-                    2 => $"[c/FF2619:{Language.GetTextValue("UI.Master")}]",
-                    3 => $"[c/32CD32:{Language.GetTextValue("UI.Legendary")}]",
-                    _ => $"[c/FFFFFF:{Language.GetTextValue("UI.Normal")}]",
-                };
-                localPlayer.cursorItemIconText += $"\n切换到 {name} 模式";
-            }
-        }
-    }
+    //瑟银重置世界频道+ui秒
     public class StatsTranslate : ModSystem
     {
 	    private Hook _hookDisplayIconNearEquips;
@@ -93,16 +65,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 		{
 			if (iconTextSuf == " sec")
 				iconTextSuf = " 秒";
-
-			mouseText = Regex.Replace(mouseText, "Healer Stats", "牧师属性");
-			mouseText = Regex.Replace(mouseText, "(Current Bonus Healing: )([0-9]+)\n(Best Heal Streak: )([0-9]+)\n(Healing done: )([0-9]+)\n(Damage mitigated: )([0-9]+)\n(Lives saved: )([0-9]+)\n(Close calls: )([0-9]+)", "当前额外治疗量: $2\n最大连击治疗量: $4\n治疗量: $6\n伤害减缓: $8\n救死扶伤: $10\n死里逃生: $12");
-			mouseText = Regex.Replace(mouseText, "Bard Stats", "吟游诗人属性");
-			mouseText = Regex.Replace(mouseText, "Bonus Duration", "咒音增幅持续时间");
-			mouseText = Regex.Replace(mouseText, "sec\\(s\\)", "秒  ");
-			mouseText = Regex.Replace(mouseText, "Max-Use Duration", "最大使用时间");
-			mouseText = Regex.Replace(mouseText, "(Base Inspiration: )([0-9]+)( / )([0-9]+)\n(Bonus Inspiration: )([0-9]+)\n(Timed Hits: )([0-9]+)", "基础灵感值: $2 / $4\n额外灵感值: $6\n抓住节拍次数: $8");
-			mouseText = Regex.Replace(mouseText, "(Total: )([0-9]+)(% Damage Reduction\nVanilla: )([0-9]+)(%\nThorium: )([0-9]+)(%)", "合计: $2% 伤害减免\n原版: $4%\n瑟银: $6%");
-
 			orig.Invoke(spriteBatch, tex, yOffDefault, yOffFactor, iconText, iconTextSuf, iconTextOffset, mouseText);
         }
 
@@ -114,6 +76,6 @@ namespace ThoriumModzhcn.GlobalTranslation
 				return;
             cursor.Index++;
             cursor.EmitDelegate<Func<string, string>>((eng) => "光 敏 警 告：“Thorium Bosses Rework”模组增加了很多华丽的效果！尤其是在boss战中！\n如果你感觉到不适，请转到设置 -> 模组配置 -> Thorium Bosses Rework -> 视觉设置，并将所有设置调整为0！\n如果你不想看到这个警告，也可以在配置中关闭它！");
-        }
-    }
+        } 
+    } 
 }
