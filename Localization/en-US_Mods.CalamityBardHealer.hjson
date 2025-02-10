@@ -409,6 +409,21 @@ Items: {
 			'''
 	}
 
+	DesertedDrugDeal: {
+		DisplayName: Blood of Greater Sand Sharks
+		Tooltip:
+			'''
+			Ignores 30 points of defense
+			Shoots syringes full of Great Sand Shark blood
+			Syringes latch onto hit enemies or players and inject them
+			Doing so damages them continuously or heal if its a player
+			Inflicts crush depth and armor crunch on hit enemies
+			Inflicts long-lasting life recovery on healed allies
+			Can be used to heal yourself
+			"Contains a small amount of Herobrine"
+			'''
+	}
+
 	Disaster: {
 		DisplayName: Disaster
 		Tooltip:
@@ -460,6 +475,16 @@ Items: {
 			<right> to throw the scythe, which will curve on its way back
 			The scythe deals 20% more damage when thrown
 			"I have two sides: I forgor and I rember"
+			'''
+	}
+
+	DustDevilDrums: {
+		DisplayName: Dust Devil Drums
+		Tooltip:
+			'''
+			Unleashes a few dust devils around the user that pierces enemies and tiles
+			Has a 25% chance to summon a teal dust devil that homes onto enemies
+			"What shenanigans must one partake to need a cooling system for this?"
 			'''
 	}
 
@@ -588,6 +613,17 @@ Items: {
 			18% increased inspiration regeneration rate
 			A calamity bell floats above your head and occasionally rings while attacking
 			When the bell rings, enemies around you take 7500 true damage
+			'''
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
+		Tooltip:
+			'''
+			Creates a giant staff above the user when held that is only visible to them
+			When playing this instrument, surges of notes will flow through the staff
+			Eventually, the notes will fall off and attack
+			"Building harmony with all the slimes in the world"
 			'''
 	}
 
@@ -1060,6 +1096,16 @@ Items: {
 			'''
 	}
 
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+		Tooltip:
+			'''
+			Swing a comically large pen that leaves behind a damaging ink trail
+			The ink trail can give the user soul essence
+			"Goozma experienced the time when it was just Times Roman"
+			'''
+	}
+
 	TheWindmill: {
 		DisplayName: The Windmill
 		Tooltip:
@@ -1198,16 +1244,16 @@ Projectiles: {
 	CrystalHydraulophone.DisplayName: Crystal Hydraulophone
 	DeathAdder.DisplayName: Death Adder
 	DeathAdderSoul.DisplayName: Death Adder Soul
+	DesertedDrugDeal.DisplayName: Blood of Greater Sand Sharks
 	Disaster.DisplayName: Disaster
 	DisasterSlash.DisplayName: Disaster
 	DisasterSlashes.DisplayName: Disaster
-	FireHazard.DisplayName: Fire Hazard
-	FireStarter.DisplayName: Fire Starter
 	DoomsdayCatharsis.DisplayName: Doomsday Catharsis
 	DoomsdayToot.DisplayName: Doomsday Toot
 	DryMouth.DisplayName: Dry Mouth
 	DryMouthSand.DisplayName: Pocket Sand
 	Duality.DisplayName: Duality
+	DustDevil.DisplayName: Dust Devil
 	ElectricChain.DisplayName: Chain Lightning
 	ElectricQuarterstaff.DisplayName: Electric Quarterstaff
 	ElementalSong.DisplayName: Elemental Song
@@ -1218,8 +1264,12 @@ Projectiles: {
 	FeralKeytar.DisplayName: Feral Keytar
 	FilthyCreeper.DisplayName: Rare Dank Creeper
 	FilthyFlute.DisplayName: Filthy Flute
+	FireHazard.DisplayName: Fire Hazard
+	FireStarter.DisplayName: Fire Starter
 	Gashadokuro.DisplayName: Gashadokuro
 	GashadokuroCracks.DisplayName: Gashadokuro
+	GodNote.DisplayName: God Note
+	HarmonyoftheOldGod.DisplayName: Harmony of the Old God
 	HarpY.DisplayName: Harp-Y
 	HydrogenSulfide.DisplayName: Hydrogen Sulfide
 	HydrogenSulfideFlames.DisplayName: Hydrogen Sulfide
@@ -1255,6 +1305,7 @@ Projectiles: {
 	ScreamingClam.DisplayName: Screaming Clam
 	ScreamingClamScream.DisplayName: Screaming Clam
 	ScuffedKeytar.DisplayName: Scuffed Keytar
+	SharkBloodInjection.DisplayName: Shark Blood Injection
 	Singularity.DisplayName: Singularity
 	SingularityStar.DisplayName: Singularity
 	SlagFurysIntent.DisplayName: Slag Fury's Intent
@@ -1272,6 +1323,8 @@ Projectiles: {
 	TectonicPlate.DisplayName: Tectonic Plate
 	TidalForce.DisplayName: Tidal Force
 	TidalWave.DisplayName: Tidal Wave
+	TimesOldRoman.DisplayName: Times Old Roman
+	TimesOldTrail.DisplayName: Times Old Roman
 	TherapeuticSludge.DisplayName: Therapeutic Sludge
 	TheWindmill.DisplayName: The Windmill
 	ToxicEightNote.DisplayName: Toxic "{$ProjectileName.EightNote}"
@@ -1351,6 +1404,16 @@ Configs: {
 	BalanceConfig: {
 		DisplayName: Balance Settings
 
+		expensiveDraedonsForge: {
+			Label: Expensive Draedon's Forge
+			Tooltip: Draedon's Forge requires rare Thorium materials to be crafted
+		}
+
+		rogueThrowerMerge: {
+			Label: Merge Rogue and Thrower class
+			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
+
 		bard: {
 			Label: Bard weapons damage multiplier
 			Tooltip:
@@ -1383,7 +1446,7 @@ Configs: {
 			Label: Healing multiplier
 			Tooltip:
 				'''
-				Healinng multiplier for healing spells
+				Healing multiplier for healing spells
 				A value of 0 means it will only heal 1 life
 				(World restart required for this to take effect!)
 				'''

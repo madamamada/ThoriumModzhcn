@@ -409,6 +409,21 @@ Items: {
 			'''
 	}
 
+	DesertedDrugDeal: {
+		DisplayName: Blood of Greater Sand Sharks
+		Tooltip:
+			'''
+			Ignores 30 points of defense
+			Shoots syringes full of Great Sand Shark blood
+			Syringes latch onto hit enemies or players and inject them
+			Doing so damages them continuously or heal if its a player
+			Inflicts crush depth and armor crunch on hit enemies
+			Inflicts long-lasting life recovery on healed allies
+			Can be used to heal yourself
+			"Contains a small amount of Herobrine"
+			'''
+	}
+
 	Disaster: {
 		DisplayName: 硫狱焚劫
 		Tooltip:
@@ -460,6 +475,16 @@ Items: {
 			右键扔出镰刀，然后回到你身边
 			镰刀投掷时造成的伤害提高20%
 			"我有两面性:我忘记，我记得"
+			'''
+	}
+
+	DustDevilDrums: {
+		DisplayName: Dust Devil Drums
+		Tooltip:
+			'''
+			Unleashes a few dust devils around the user that pierces enemies and tiles
+			Has a 25% chance to summon a teal dust devil that homes onto enemies
+			"What shenanigans must one partake to need a cooling system for this?"
 			'''
 	}
 
@@ -588,6 +613,17 @@ Items: {
 			增加18%的灵感值回复速度
 			召唤灾厄之钟悬浮在你的头顶，攻击时有概率鸣响
 			当钟声响起时，附近的敌人受到7500的真实伤害
+			'''
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
+		Tooltip:
+			'''
+			Creates a giant staff above the user when held that is only visible to them
+			When playing this instrument, surges of notes will flow through the staff
+			Eventually, the notes will fall off and attack
+			"Building harmony with all the slimes in the world"
 			'''
 	}
 
@@ -1060,6 +1096,16 @@ Items: {
 			'''
 	}
 
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+		Tooltip:
+			'''
+			Swing a comically large pen that leaves behind a damaging ink trail
+			The ink trail can give the user soul essence
+			"Goozma experienced the time when it was just Times Roman"
+			'''
+	}
+
 	TheWindmill: {
 		DisplayName: 天穹风车
 		Tooltip:
@@ -1198,16 +1244,16 @@ Projectiles: {
 	CrystalHydraulophone.DisplayName: 棱晶水风琴
 	DeathAdder.DisplayName: 死亡蝰蛇
 	DeathAdderSoul.DisplayName: 死亡蝰蛇灵魂
+	DesertedDrugDeal.DisplayName: Blood of Greater Sand Sharks
 	Disaster.DisplayName: Disaster
 	DisasterSlash.DisplayName: Disaster
 	DisasterSlashes.DisplayName: Disaster
-	FireHazard.DisplayName: Fire Hazard
-	FireStarter.DisplayName: Fire Starter
 	DoomsdayCatharsis.DisplayName: 末日洗涤
 	DoomsdayToot.DisplayName: 末日奏鸣
 	DryMouth.DisplayName: 旱漠之蟒
 	DryMouthSand.DisplayName: 袋中沙
 	Duality.DisplayName: 二元圣镰
+	DustDevil.DisplayName: Dust Devil
 	ElectricChain.DisplayName: 闪电链
 	ElectricQuarterstaff.DisplayName: 电能四分棍
 	ElementalSong.DisplayName: 元素之歌
@@ -1218,8 +1264,12 @@ Projectiles: {
 	FeralKeytar.DisplayName: 狂野键琴
 	FilthyCreeper.DisplayName: 稀有的沼泽之眼
 	FilthyFlute.DisplayName: 腐秽长笛
+	FireHazard.DisplayName: Fire Hazard
+	FireStarter.DisplayName: Fire Starter
 	Gashadokuro.DisplayName: 混乱丧钟
 	GashadokuroCracks.DisplayName: 混乱丧钟
+	GodNote.DisplayName: God Note
+	HarmonyoftheOldGod.DisplayName: Harmony of the Old God
 	HarpY.DisplayName: 鹰身女妖琴
 	HydrogenSulfide.DisplayName: 夺命硫炎
 	HydrogenSulfideFlames.DisplayName: 夺命硫炎
@@ -1255,6 +1305,7 @@ Projectiles: {
 	ScreamingClam.DisplayName: 尖叫蛤蜊
 	ScreamingClamScream.DisplayName: 尖叫蛤蜊
 	ScuffedKeytar.DisplayName: 磨损的键琴
+	SharkBloodInjection.DisplayName: Shark Blood Injection
 	Singularity.DisplayName: 奇点
 	SingularityStar.DisplayName: 奇点
 	SlagFurysIntent.DisplayName: 戮焰之意图
@@ -1272,6 +1323,8 @@ Projectiles: {
 	TectonicPlate.DisplayName: 地壳波动
 	TidalForce.DisplayName: 潮汐之力
 	TidalWave.DisplayName: 潮汐之波
+	TimesOldRoman.DisplayName: Times Old Roman
+	TimesOldTrail.DisplayName: Times Old Roman
 	TherapeuticSludge.DisplayName: 治愈泥团
 	TheWindmill.DisplayName: 天穹风车
 	ToxicEightNote.DisplayName: 剧毒"{$ProjectileName.EightNote}"
@@ -1350,6 +1403,16 @@ FargoEnchantments: {
 Configs: {
 	BalanceConfig: {
 		DisplayName: 平衡设置
+
+		expensiveDraedonsForge: {
+			Label: Expensive Draedon's Forge
+			Tooltip: Draedon's Forge requires rare Thorium materials to be crafted
+		}
+
+		rogueThrowerMerge: {
+			Label: Merge Rogue and Thrower class
+			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
 
 		bard: {
 			Label: 吟游诗人武器伤害倍率

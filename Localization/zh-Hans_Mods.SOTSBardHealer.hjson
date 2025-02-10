@@ -1,7 +1,7 @@
 ItemDescriptions: {
 	BagOfCharms: <Replace>2 暴击会回复生命值、虚空值、魔力值并返还灵感值
 	DemonTongue: 虚空牧师武器的治疗法术虚空值减半
-	FoggyClairvoyance: 减益免疫效果不再作为套装奖励，饰品，或复活冷却
+	FoggyClairvoyance: 不能把免疫作为套装效果、饰品效果的减益或恢复冷却
 	HarvestersScythe:
 		'''
 		光辉镰刀的灵魂精华也会回复虚空值
@@ -29,6 +29,15 @@ ItemDescriptions: {
 }
 
 Items: {
+	AbsoLute: {
+		DisplayName: Abso-Lute
+		Tooltip:
+			'''
+			Releases absolute chords in a star-like pattern
+			"AbsoLUTEly diLUTEd"
+			'''
+	}
+
 	AncientHarp: {
 		DisplayName: 古厄竖琴
 		Tooltip:
@@ -37,6 +46,16 @@ Items: {
 			弦乐器的反弹次数加成不会影响该武器的反弹次数
 			但是会让弹幕持续时间更长
 			"这就是为什么，钥之石碎块对声音的反应很奇怪"
+			'''
+	}
+
+	BladedSnowflake: {
+		DisplayName: Bladed Snowflake
+		Tooltip:
+			'''
+			Throw a bladed snowflake that splits into knives on hit
+			Critical strikes summon extra snowflakes to orbit the user
+			The extra snowflakes are shot when using another weapon
 			'''
 	}
 
@@ -194,6 +213,18 @@ Items: {
 			'''
 	}
 
+	TurboSlicer: {
+		DisplayName: Turbo Slicer
+		Tooltip:
+			'''
+			Spins faster than most scythes
+			Spinning this scythe after some time will charge it up
+			When charged up, it is thrown upon stopping attacking
+			Though, it does not grant soul essence when thrown
+			Returns void on soul essence gain or charge-throw hits
+			'''
+	}
+
 	TwilightAscendance: {
 		DisplayName: 暮光权杖
 		Tooltip:
@@ -232,8 +263,10 @@ Items: {
 }
 
 Projectiles: {
+	AbsoLute.DisplayName: Abso-Lute
 	AncientHarp.DisplayName: Ancient Harp
 	AnkhHealing.DisplayName: Ankh Healing
+	BladedSnowflake.DisplayName: Bladed Snowflake
 	CharmedSerpent.DisplayName: Charmed Serpent of Sage
 	ChaosCircle.DisplayName: Chaos Ring
 	ChaosSphere.DisplayName: Chaos Ring
@@ -251,7 +284,10 @@ Projectiles: {
 	SerpentFangScythe.DisplayName: Serpent Fang Scythe
 	SerpentFangSlash.DisplayName: Serpent Fang Scythe
 	SerpentLightning.DisplayName: Serpentbite
+	SnowflakeBlade.DisplayName: Snowflake Blade
 	SubsonicTuner.DisplayName: Subsonic Tuner
+	TurboSlicer.DisplayName: Turbo Slicer
+	TurboSlicerThrown.DisplayName: Turbo Slicer
 	UltrasonicBassBooster.DisplayName: Ultrasonic Bass Booster
 	VibrantResonator.DisplayName: Vibrant Resonator
 	VibrantTomahawk.DisplayName: Vibrant Tomahawk

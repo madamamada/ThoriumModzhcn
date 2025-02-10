@@ -29,6 +29,15 @@ ItemDescriptions: {
 }
 
 Items: {
+	AbsoLute: {
+		DisplayName: Abso-Lute
+		Tooltip:
+			'''
+			Releases absolute chords in a star-like pattern
+			"AbsoLUTEly diLUTEd"
+			'''
+	}
+
 	AncientHarp: {
 		DisplayName: Ancient Harp
 		Tooltip:
@@ -37,6 +46,16 @@ Items: {
 			String bounce bonus does not increase total bounces
 			Instead, it makes the projectiles last longer
 			"Keystone shards react oddly with sound, hence why"
+			'''
+	}
+
+	BladedSnowflake: {
+		DisplayName: Bladed Snowflake
+		Tooltip:
+			'''
+			Throw a bladed snowflake that splits into knives on hit
+			Critical strikes summon extra snowflakes to orbit the user
+			The extra snowflakes are shot when using another weapon
 			'''
 	}
 
@@ -194,6 +213,18 @@ Items: {
 			'''
 	}
 
+	TurboSlicer: {
+		DisplayName: Turbo Slicer
+		Tooltip:
+			'''
+			Spins faster than most scythes
+			Spinning this scythe after some time will charge it up
+			When charged up, it is thrown upon stopping attacking
+			Though, it does not grant soul essence when thrown
+			Returns void on soul essence gain or charge-throw hits
+			'''
+	}
+
 	TwilightAscendance: {
 		DisplayName: Twilight Ascendance
 		Tooltip:
@@ -232,8 +263,10 @@ Items: {
 }
 
 Projectiles: {
+	AbsoLute.DisplayName: Abso-Lute
 	AncientHarp.DisplayName: Ancient Harp
 	AnkhHealing.DisplayName: Ankh Healing
+	BladedSnowflake.DisplayName: Bladed Snowflake
 	CharmedSerpent.DisplayName: Charmed Serpent of Sage
 	ChaosCircle.DisplayName: Chaos Ring
 	ChaosSphere.DisplayName: Chaos Ring
@@ -251,7 +284,10 @@ Projectiles: {
 	SerpentFangScythe.DisplayName: Serpent Fang Scythe
 	SerpentFangSlash.DisplayName: Serpent Fang Scythe
 	SerpentLightning.DisplayName: Serpentbite
+	SnowflakeBlade.DisplayName: Snowflake Blade
 	SubsonicTuner.DisplayName: Subsonic Tuner
+	TurboSlicer.DisplayName: Turbo Slicer
+	TurboSlicerThrown.DisplayName: Turbo Slicer
 	UltrasonicBassBooster.DisplayName: Ultrasonic Bass Booster
 	VibrantResonator.DisplayName: Vibrant Resonator
 	VibrantTomahawk.DisplayName: Vibrant Tomahawk
