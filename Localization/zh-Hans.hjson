@@ -3009,7 +3009,7 @@ Mods: {
 					'''
 			}
 
-			MarchingBandCap: {
+			MarchingBandShako: {
 				DisplayName: 仪仗队军帽
 				Tooltip:
 					'''
@@ -12540,7 +12540,7 @@ Mods: {
 			}
 
 			PotentExtract: {
-				DisplayName: 强效提取物（荒漠侍僧购买）
+				DisplayName: 强效提取物
 				Tooltip:
 					'''
 					'别吸毒，孩子们
@@ -12700,7 +12700,7 @@ Mods: {
 				DisplayName: 织女星相位器
 				Tooltip:
 					'''
-					将火球子弹转化为一阵能量打击
+					将火枪子弹转化为一阵能量打击
 					有概率放电，释放一道不稳定的光束
 					'''
 			}
