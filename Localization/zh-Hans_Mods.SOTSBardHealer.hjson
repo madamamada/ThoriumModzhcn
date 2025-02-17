@@ -30,11 +30,11 @@ ItemDescriptions: {
 
 Items: {
 	AbsoLute: {
-		DisplayName: Abso-Lute
+		DisplayName: 绝响琴
 		Tooltip:
 			'''
-			Releases absolute chords in a star-like pattern以星形模式释放绝对和弦
-			"AbsoLUTEly diLUTEd"绝对稀释
+			释放星形的绝对和弦
+			"琴音已被完全稀释"
 			'''
 	}
 
@@ -50,12 +50,12 @@ Items: {
 	}
 
 	BladedSnowflake: {
-		DisplayName: Bladed Snowflake
+		DisplayName: 飞雪刃锋
 		Tooltip:
 			'''
-			Throw a bladed snowflake that splits into knives on hit
-			Critical strikes summon extra snowflakes to orbit the user
-			The extra snowflakes are shot when using another weapon
+			投掷飞雪刃锋，击中敌人后分裂出匕首
+			暴击会召唤额外的飞雪环绕玩家
+			额外的飞雪会在玩家使用其他武器时射出
 			'''
 	}
 
