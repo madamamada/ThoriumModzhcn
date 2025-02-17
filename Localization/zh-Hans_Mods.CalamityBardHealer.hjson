@@ -410,17 +410,17 @@ Items: {
 	}
 
 	DesertedDrugDeal: {
-		DisplayName: Blood of Greater Sand Sharks
+		DisplayName:旱海狂鲨之血
 		Tooltip:
 			'''
 			无视30防御力
-			Shoots syringes full of Great Sand Shark blood射出装满沙鲨血的注射器
-			Syringes latch onto hit enemies or players and inject them注射器命中生物时会注射进去
-			Doing so damages them continuously or heal if its a player
-			Inflicts crush depth and armor crunch on hit enemies对命中的敌人造成深渊水压和碎甲减益
-			Inflicts long-lasting life recovery on healed allies对被治疗的队友造成持久的生命恢复
-			Can be used to heal yourself可以治愈自己
-			"Contains a small amount of Herobrine"含有少量Herobrine
+			射出装满沙鲨血的注射器
+			注射器命中生物时会将血液注射进去
+			对敌人造成持续伤害，对友军则进行持续治疗
+			对命中的敌人造成深渊水压和碎甲减益
+			对被治疗的队友造成持久的生命恢复
+			可以治愈自己
+			"含有少量Herobrine"
 			'''
 	}
 
@@ -479,12 +479,12 @@ Items: {
 	}
 
 	DustDevilDrums: {
-		DisplayName: Dust Devil Drums沙尘旋风
+		DisplayName: 尘卷战鼓
 		Tooltip:
 			'''
-			Unleashes a few dust devils around the user that pierces enemies and tiles在玩家周围释放可穿透的沙尘卷
-			Has a 25% chance to summon a teal dust devil that homes onto enemies有25%的几率召唤一个绿沙尘卷飞向敌人
-			"What shenanigans must one partake to need a cooling system for this?"
+			在玩家周围释放可穿透的沙尘卷
+			有25%的几率召唤一个绿沙尘卷飞向敌人
+			"得整出什么花活儿，才需要给这玩意儿装个冷却系统？"
 			'''
 	}
 
@@ -617,13 +617,13 @@ Items: {
 	}
 
 	HarmonyoftheOldGod: {
-		DisplayName: Harmony of the Old God旧神和弦
+		DisplayName: 旧神和弦
 		Tooltip:
 			'''
-			Creates a giant staff above the user when held that is only visible to them在玩家上面创造巨大的五线谱
-			When playing this instrument, surges of notes will flow through the staff演奏乐器时，音符会在五线谱中涌动
-			Eventually, the notes will fall off and attack最终，音符会脱落并攻击敌人
-			"Building harmony with all the slimes in the world"与世界上所有的史莱姆构建和谐
+			在玩家上方创造巨大的五线谱
+			演奏乐器时，音符会在五线谱中涌动
+			音符会脱落并攻击敌人
+			"与世间所有史莱姆共谱和谐弦音。"
 			'''
 	}
 
@@ -1097,12 +1097,12 @@ Items: {
 	}
 
 	TimesOldRoman: {
-		DisplayName: Times Old Roman
+		DisplayName: 古神罗马体
 		Tooltip:
 			'''
-			Swing a comically large pen that leaves behind a damaging ink trail挥舞巨大得滑稽的笔，留下有害的墨水痕迹
-			The ink trail can give the user soul essence墨水痕迹可以赋予使用者灵魂的精华
-			"Goozma experienced the time when it was just Times Roman"
+			挥舞巨大得滑稽的笔，留下有伤害的墨水痕迹
+			墨水痕迹可以给予使用者灵魂精华
+			"古泽玛可是经历过只有‘罗马体’的时代的老古董了。"
 			'''
 	}
 
@@ -1405,13 +1405,13 @@ Configs: {
 		DisplayName: 平衡设置
 
 		expensiveDraedonsForge: {
-			Label: Expensive Draedon's Forge昂贵的嘉登熔炉
-			Tooltip: Draedon's Forge requires rare Thorium materials to be crafted嘉登熔炉的制作需要瑟银的元素核心
+			Label: 昂贵的嘉登熔炉
+			Tooltip: 嘉登熔炉的制作需要瑟银的元素核心
 		}
 
 		rogueThrowerMerge: {
-			Label: Merge Rogue and Thrower class合并盗贼和投手职业
-			Tooltip: Automatically disabled when Ragnarok mod is installed拥有诸神的黄昏(Ragnarok)模组时自动禁用
+			Label: 合并盗贼和投手职业
+			Tooltip: 拥有诸神的黄昏(Ragnarok)模组时自动禁用
 		}
 
 		bard: {
