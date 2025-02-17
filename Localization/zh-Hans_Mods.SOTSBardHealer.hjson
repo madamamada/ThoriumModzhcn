@@ -214,14 +214,14 @@ Items: {
 	}
 
 	TurboSlicer: {
-		DisplayName: Turbo Slicer
+		DisplayName: 涡轮镰
 		Tooltip:
 			'''
-			Spins faster than most scythes
-			Spinning this scythe after some time will charge it up
-			When charged up, it is thrown upon stopping attacking
-			Though, it does not grant soul essence when thrown
-			Returns void on soul essence gain or charge-throw hits
+			旋转速度比大多数镰刀快
+			长按镰刀会充能
+			充能后会把镰刀抛出去
+			被抛出时不能赋予灵魂精华
+			蓄力攻击击中或获得灵魂精华时回复虚空值
 			'''
 	}
 

@@ -4898,7 +4898,6 @@ Mods: {
 				DisplayName: 魔血镰
 				Tooltip:
 					'''
-					直接击中会获得2层灵魂精华
 					快速在你周围旋转一把充满恶魔的镰刀
 					造成伤害会提供鲜血充能
 					处于最大充能时，你的下次攻击会造成两倍伤害并治疗你造成伤害的20%
@@ -12700,7 +12699,7 @@ Mods: {
 				DisplayName: 织女星相位器
 				Tooltip:
 					'''
-					将火枪子弹转化为一阵能量打击
+					将火球子弹转化为一阵能量打击
 					有概率放电，释放一道不稳定的光束
 					'''
 			}
@@ -18761,7 +18760,6 @@ Mods: {
 				DisplayName: 蝙蝠镰刀
 				Tooltip:
 					'''
-					直接击中会获得1层灵魂精华
 					快速在你周围旋转一个蝙蝠镰刀
 					右键以投掷镰刀
 					'''
@@ -19535,12 +19533,12 @@ Mods: {
 			}
 
 			SorcerersDice: {
-				DisplayName: Sorcerer's Dice
+				DisplayName: 巫师骰子
 				Tooltip:
 					'''
 					以当前魔力为代价掷一颗六面魔法骰子
 					你掷出的面会产生不同的基于魔力的效果，有好有坏
-					骰子使用后必须重新充能{0} {^0:minute;minutes}
+					骰子使用后必须重新充能{0} {^0:分钟;minutes}
 					'''
 				Choice1: (1) 施加{0}秒耐魔性减益
 				Choice2: (2) 施加{0}秒耐魔性减益
@@ -23065,10 +23063,10 @@ Mods: {
 
 		HealType: {
 			None: 无
-			Ally: Heals ally life
-			Player: Heals player life
-			AllyAndPlayer: Heals ally and player life
-			LifeSteal: Steals
+			Ally: 治疗队友
+			Player: 治疗玩家
+			AllyAndPlayer: 治疗队友和玩家
+			LifeSteal: 汲取
 		}
 
 		WishingGlassChoice: {

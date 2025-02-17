@@ -43,6 +43,10 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 					{"-Healer Class-","-牧师职业-"},
 					{"Grants ","直接命中会获得"},
 					{" soul essence on direct hit","层灵魂精华"},
+					{" & ","和"},
+					{" life","生命值"},
+					{" by "," "},
+					{" equal to your bonus healing","等同于治疗加成的生命值"},
 				});
 				#endregion ThoriumMod.Items.ThoriumItem
 
@@ -143,10 +147,38 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 				#endregion ThoriumMod.Items.HealerItems.LargePopcorn
 
 
+				#region ThoriumMod.Items.HealerItems.NecroticStaff
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.NecroticStaff", "ModifyTooltips", new ()
+				{
+					{"Uses 2.5% of your maximum life","消耗自身2.5%最大生命值"},
+				});
+				#endregion ThoriumMod.Items.HealerItems.NecroticStaff
+
+
+				#region ThoriumMod.Items.HealerItems.Recuperate
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.Recuperate", "ModifyTooltips", new ()
+				{
+					{"Channel the tome, turning ","持续使用法术书，每秒将"},
+					{" mana into ","魔力转化为"},
+					{" life every second","生命值"},
+				});
+				#endregion ThoriumMod.Items.HealerItems.Recuperate
+
+
+				#region ThoriumMod.Items.HealerItems.Renew
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.Renew", "ModifyTooltips", new ()
+				{
+					{"Instantly recovers ","立刻恢复"},
+					{" life","生命值"},
+				});
+				#endregion ThoriumMod.Items.HealerItems.Renew
+
+
 				#region ThoriumMod.Items.HealerItems.RodofAesculapius
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.RodofAesculapius", "ModifyTooltips", new ()
 				{
-					{"Heals ally life by ","治疗队友生命值"},
+					{"Heals ally life by ","每秒治疗队友"},
+					{" every second","生命值"},
 				});
 				#endregion ThoriumMod.Items.HealerItems.RodofAesculapius
 
@@ -158,6 +190,24 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 					{"] life","] 生命值"},
 				});
 				#endregion ThoriumMod.Items.HealerItems.SnackLantern
+
+
+				#region ThoriumMod.Items.HealerItems.TwilightStaff
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.TwilightStaff", "ModifyTooltips", new ()
+				{
+					{"Uses ","使用"},
+					{" mana & ","魔力和"},
+					{" life","生命值"},
+				});
+				#endregion ThoriumMod.Items.HealerItems.TwilightStaff
+
+
+				#region ThoriumMod.Items.HealerItems.WarForger
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.HealerItems.WarForger", "ModifyTooltips", new ()
+				{
+					{" up to 25","点生命护盾，至多25点"},
+				});
+				#endregion ThoriumMod.Items.HealerItems.WarForger
 
 
 				#region ThoriumMod.Items.Donate.BlastShield
@@ -177,6 +227,15 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 				#endregion ThoriumMod.Items.Donate.DarkGate
 
 
+				#region ThoriumMod.Items.Donate.DreamMegaphone
+				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.DreamMegaphone", "ModifyTooltips", new ()
+				{
+					{"Increases the damage of all nearby allies by 20% for [c/5aff5a:","增加附近所有队友20%伤害，持续 [c/5aff5a:"},
+					{"] seconds","] 秒"},
+				});
+				#endregion ThoriumMod.Items.Donate.DreamMegaphone
+
+
 				#region ThoriumMod.Items.Donate.HeartOfTheJungle
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.HeartOfTheJungle", "SetDefaults", new ()
 				{
@@ -189,6 +248,8 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.HolyHammer", "ModifyTooltips", new ()
 				{
 					{"Right click to heal all nearby allies equal to your bonus healing","右键单击治疗附近所有队友，治疗量等于治疗加成"},
+					{"Right click to heal all nearby allies by ","右键单击治疗附近所有队友"},
+					{"Right click to heal all nearby allies by 4 life (Max)","右键单击治疗附近所有队友4点生命值(max)"},
 				});
 				#endregion ThoriumMod.Items.Donate.HolyHammer
 
@@ -269,6 +330,8 @@ namespace ThoriumModzhcn.ThoriumModTranslator
 				TranslatorLoad.LocalizeByTypeFullName("ThoriumMod.Items.Donate.SmitingHammer", "ModifyTooltips", new ()
 				{
 					{"Right click to heal all nearby allies equal to the weapon's holy charges at twice the mana cost","右键以两倍的法力消耗治疗附近队友，治疗量等同于该武器的神圣充能。"},
+					{"Right click to heal all nearby allies by ","右键单击治疗附近所有队友"},
+					{"Right click to heal all nearby allies by 20 life (Max) at twice the mana cost","右键单击治疗附近所有队友20点生命值(max)两倍的魔力消耗"},
 				});
 				#endregion ThoriumMod.Items.Donate.SmitingHammer
 

@@ -1,11 +1,21 @@
-using Terraria.ModLoader;
+using System.Linq;
+using System.Reflection;
+using System.Threading;
 using Terraria;
+using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
 namespace ThoriumModzhcn
 {
 	public class ThoriumModzhcn : Mod
 	{
+		public override void Load()
+		{
+			ThoriumModTranslator.ThoriumModTranslator.LoadTranslator();
+			ThoriumClassTagsConsistencyTranslator.ThoriumClassTagsConsistencyTranslator.LoadTranslator();
+			CalamityBardHealerTranslator.CalamityBardHealerTranslator.LoadTranslator();
+			base.Load();
+		}
 	}
 	public class ThoriumModzhcnPlayer : ModPlayer
 	{
