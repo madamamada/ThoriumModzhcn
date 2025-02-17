@@ -629,24 +629,24 @@ Items: {
 		DisplayName: 西风残垣
 		Tooltip:
 			'''
-			Sticks into struck enemies, or the ground if it misses投矛会刺入敌人或物块
-			Calls lightning to smite hit enemies after some time一段时间后，召唤闪电攻击敌人或物块
-			Critical strikes smite enemies on initial hit暴击会立即释放一次闪电
+			投矛会刺入敌人或物块
+			一段时间后，召唤闪电攻击敌人或物块
+			暴击会立即释放一次闪电
 			不会增加疲惫值
-			"They say lightning never strikes the same place twice"人们说闪电不会在同一个地方击中两次
+			"人们说闪电不会在同一个地方击中两次"
 			'''
 	}
 }
 
 Buffs: {
 	Deathsinger: {
-		DisplayName: Deathsinger死亡歌者
-		Description: 7% increased symphonic damage and playing speed增加7%音波伤害和音波演奏速度
+		DisplayName: 死亡歌者
+		Description: 增加7%音波伤害和音波演奏速度
 	}
 
 	Inspired: {
-		DisplayName: Inspired启发
-		Description: Increased inspiration regeneration增加灵感恢复速度
+		DisplayName: 启发
+		Description: 增加灵感恢复速度
 	}
 
 	SoulBleed: {
