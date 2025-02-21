@@ -1,7 +1,7 @@
 using ThoriumModzhcn.Systems;
 using System.Collections.Generic;
 using Terraria.ModLoader;
-namespace ThoriumModzhcn.ThoriumModTranslator
+namespace ThoriumModzhcn.Translator
 {
 	public class ThoriumModTranslator
 	{
