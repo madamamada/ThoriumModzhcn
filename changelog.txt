@@ -1,9 +1,22 @@
- [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]homepage[/url]
- [url=https://github.com/madamamada/ThoriumModzhcn]github[/url]
+ [url=https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki]瑟银中文wiki[/url] 和 [url=https://github.com/madamamada/ThoriumModzhcn]本汉化的Github[/url]
 
-同步于瑟银本体V: 1.7.1.6，瑟银BOSS重置V: 0.9.4，非灾厄官方瑟银武器V: 0.9.1，非救赎官方瑟银武器V: 0.2.2
+适配：
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银本体V: 1.7.2.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3070717963]瑟银BOSS重置V: 0.9.8[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3142064272]非灾厄官方瑟银武器V: 0.9.6[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3221054201]非救赎官方瑟银武器V: 0.2.3[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3345264991]非魂灵官方瑟银武器V: 0.4.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3358668348]非惊惧官方瑟银武器V: 0.2.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3404410551]非暗影奥秘官方瑟银武器V: 0.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3013540385]瑟银式职业标签V: 1.0.2[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3295549432]无限灵感值V: 0.1[/url]
+= [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3168770677]元素锤斧V: 1.1.0.1[/url]
 
 本汉化版本&更新内容
-#Version：2024.9.1.1
+#Version：2025.2.17.1
+2025.3（337）
 
-1.删除没用的代码
+
+
+可能性计划: 
+旅人归途牧乐投汉化

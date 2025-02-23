@@ -11,9 +11,10 @@ namespace ThoriumModzhcn
 	{
 		public override void Load()
 		{
-			ThoriumModTranslator.ThoriumModTranslator.LoadTranslator();
-			ThoriumClassTagsConsistencyTranslator.ThoriumClassTagsConsistencyTranslator.LoadTranslator();
-			CalamityBardHealerTranslator.CalamityBardHealerTranslator.LoadTranslator();
+			Translator.ThoriumModTranslator.LoadTranslator();
+			Translator.ThoriumClassTagsConsistencyTranslator.LoadTranslator();
+			Translator.CalamityBardHealerTranslator.LoadTranslator();
+			Translator.SpookyBardHealerTranslator.LoadTranslator();
 			base.Load();
 		}
 	}
@@ -25,3 +26,4 @@ namespace ThoriumModzhcn
 		}
 	}
 }
+

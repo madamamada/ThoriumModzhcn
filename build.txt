@@ -1,10 +1,10 @@
 displayName = 瑟银简中汉化补丁
-author = Flandre Scarlet(B站名moon_ditch) & @马达达马达(B站同名) & 令 & 末泠(B站同名) & Super_ego(B站同名) & 兹翼 & 终子星 & plantare & furgo & Ivybless & 虞悖(B站同名)
-version = 2024.12.15.0
+author = Flandre Scarlet & @马达达马达(B站同名) & 令 & 末泠(B站同名) & Super_ego & 兹翼 & 终子星 & plantare & furgo & Ivybless & 虞悖 & Yee苍棱
+version = 2025.2.17.1
 translationMod = true
 side = NoSync
 hideResources = true
 modReferences = ThoriumMod
-weakReferences = ThoriumRework, CalamityBardHealer, RedemptionBardHealer, SpiritBardHealer, SpookyBardHealer, Verveine, RagnarokMod
-sortAfter = ThoriumMod, ThoriumRework, CalamityBardHealer, RedemptionBardHealer, SpiritBardHealer, SpookyBardHealer, Verveine, RagnarokMod
+weakReferences = ThoriumRework, CalamityBardHealer, RedemptionBardHealer, SpiritBardHealer, SpookyBardHealer, SOTSBardHealer, UnlimitedBardEnergy, TerrariumHacks, ThoriumClassTagsConsistency
+sortAfter = ThoriumMod, ThoriumRework, CalamityBardHealer, RedemptionBardHealer, SpiritBardHealer, SpookyBardHealer, SOTSBardHealer, UnlimitedBardEnergy, TerrariumHacks, ThoriumClassTagsConsistency
 homepage = https://thoriummod.wiki.gg/zh/wiki/Thorium_Mod_Wiki
