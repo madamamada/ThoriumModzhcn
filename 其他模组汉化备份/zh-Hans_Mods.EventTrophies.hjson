@@ -559,6 +559,11 @@ Items: {
 		Tooltip: 在硫磺海召唤峭咽潭
 	}
 
+	VictoryPearl: {
+		DisplayName: 沉沦珍珠
+		Tooltip: 在沉沦之海中召唤巨像蛤
+	}
+
 	SubmergedChest: {
 		DisplayName: 深海宝箱
 		Tooltip: 召唤深海宝箱怪
@@ -1328,6 +1333,71 @@ Items: {
 		DisplayName: 天琴星圣物
 		Tooltip: ""
 	}
+
+	SerialDesignationN: {
+		DisplayName: 序列N
+		Tooltip: ""
+	}
+
+	NRelic: {
+		DisplayName: 序列N圣物
+		Tooltip: ""
+	}
+
+	NTrophy: {
+		DisplayName: 序列N纪念章
+		Tooltip: ""
+	}
+
+	ExodygenTrophy: {
+		Tooltip: ""
+		DisplayName: 外神史莱姆纪念章
+	}
+
+	Exodygen: {
+		Tooltip: ""
+		DisplayName: 外神史莱姆
+	}
+
+	AuricGodcaller: {
+		Tooltip:
+			'''
+			不消耗
+			在地狱召唤无名光神
+			适用多人模式或子世界不起作用
+			'''
+		DisplayName: 光神召唤物
+	}
+
+	TerraBladeTrophy: {
+		Tooltip: ""
+		DisplayName: 自我纪念章
+	}
+
+	TerraBladeRelic: {
+		Tooltip: ""
+		DisplayName: 自我圣物
+	}
+
+	PolyphemalusTrophy: {
+		Tooltip: ""
+		DisplayName: 四眼息肉纪念章
+	}
+
+	PolyphemalusRelic: {
+		Tooltip: ""
+		DisplayName: 四眼息肉圣物
+	}
+
+	Polyphemalus: {
+		Tooltip: ""
+		DisplayName: 四眼息肉
+	}
+
+	CursedMirror: {
+		Tooltip: ""
+		DisplayName: 诅咒魔镜
+	}
 }
 
 LoreLines: {
@@ -1827,6 +1897,31 @@ LoreLines: {
 		Line3: 它计划以这种改进的形式向你复仇。
 		Line4: 你必须一如既往地杀死这个生物……
 	}
+
+	SerialDesignationN: {
+		Line1: A worker drone corrupted by an extremely advanced, eldritch intelligence of unknown origin一架无人机被一种极其先进切神秘的不明来源的情报破坏
+		Line2: It seeks to consume all life to satiate its hunger.它试图消耗所有的生命来满足它的饥饿。
+		Line3: Creating singularities that destroy entire planets.创造毁灭整个星球的奇点。
+		Line4: Thes Corrupted drones evolved into vimpiric machines that were unleashed upon humanity.这些被腐蚀的无人机进化成了病毒机器，释放出来攻击人类。
+	}
+
+	Exodygen: {
+		Line1: A God that takes a slime like appearance. Not much is known about this divine entity.看起来像史莱姆神明。
+		Line2: Different than the abomination called Goozma, This slime seems to gain its power from我们对这个神圣实体的了解并不多。
+		Line3: the remnants of Draedon's ultimate machines...不同于令人讨厌的古泽玛，这种史莱姆似乎从嘉登的终极机器的残留物中获得了力量……
+	}
+
+	CursedMirror: {
+		Line1: An odd trinket that seems to create a hostile reflection of ones self, holding a legendary blade奇怪镜子创造另一个自己持有泰拉刃
+		Line2: A tough trial indeed, However you seem to have ascended past yourself这是艰难的考验，无论你是否超越了自己
+		Line3: Maybe the reflection in the mirror is there to show exactly how far you've come...也许镜子里的倒影是为了显示你的实力还能走多久……
+	}
+
+	Polyphemalus: {
+		Line1: I do not know the origin of this being, however each eye seems to bear the powers我不知道这个生物的起源，
+		Line2: of what was used to seal Fovos away... perhaps this entity is connected in some way.但每只眼睛似乎都承载着不同的力量用来封印克苏鲁…
+		Line3: Maybe the reflection in the mirror is there to show exactly how far you've come...也许这个实体以某种方式联系在一起。
+	}
 }
 
 SpawnInfo: {
@@ -1868,6 +1963,8 @@ SpawnInfo: {
 	FallenTheranhad: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
 	Lyra: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
 	DreamingCity: 使用[i:StarsAbove/StellaglyphTier3]，从那个星球带回一些东西来完成这个。
+	BereftVassal: Use a sandstorm's core at the pedestal in the heart of the desert.
+	polyphemalus: 在晚上使用融合之眼
 }
 
 Conditions: {
@@ -1897,6 +1994,7 @@ Configs: {
 						Misc: 其他
 						TrophyMasterCrafting: 大师模式纪念章制作
 						Visuals: 色彩部分
+						Infernum: 灾厄炼狱
 					}
 				}
 			}
@@ -2026,7 +2124,155 @@ Configs: {
 			Label: 彩色圣物
 			Tooltip: 让彩色圣物加入这个模组
 		}
+
+		AddStarsAboveInfernumIntros: {
+			Label: 增加星海苍穹的炼狱文字
+			Tooltip: ""
+		}
+
+		AddYouInfernumIntros: {
+			Label: 增加you模组的炼狱文字
+			Tooltip: ""
+		}
+
+		AddCatalystInfernumIntros: {
+			Label: 增加灾劫模组的炼狱文字
+			Tooltip: ""
+		}
+
+		AddPrimeReworkInfernumIntros: {
+			Label: 增加机械BOSS重置模组的炼狱文字
+			Tooltip: ""
+		}
+
+		AddClamityInfernumIntros: {
+			Label: 增加至尊蛤蜊模组的炼狱文字
+			Tooltip: ""
+		}
+
+		AddEntropyInfernumIntros: {
+			Tooltip: ""
+			Label: 增加灾熵（Entropy）模组的炼狱文字
+		}
+
+		AddPolyphemalusInfernumIntros: {
+			Tooltip: ""
+			Label: 增加四眼息肉的炼狱文字
+		}
+
+		AddSloomeInfernumIntros: {
+			Tooltip: ""
+			Label: 增加外神史莱姆的炼狱文字
+		}
 	}
 }
 
 Tiles.RelicPylonTile.MapEntry: 圣物晶塔
+
+InfernumIntros: {
+	Vagrant:
+		'''
+		时空漂泊
+		时空流浪者
+		'''
+	Thespian:
+		'''
+		炼金术戏剧
+		狄斯比斯
+		'''
+	Dioskouroi:
+		'''
+		双子星力
+		狄俄斯库洛伊
+		'''
+	Penthesilea:
+		'''
+		多彩魔女
+		彭忒希勒娅
+		'''
+	Starfarers:
+		'''
+		星海旅行者
+		爱丝福德妮和埃里达妮
+		'''
+	Nalhaun:
+		'''
+		复光之君
+		纳尔赫恩
+		'''
+	Arbitration:
+		'''
+		宇宙异常
+		仲裁
+		'''
+	WarriorOfLight:
+		'''
+		星之传承者
+		光之战士
+		''' 
+	Tsukiyomi:
+		'''
+		原初之星海旅者
+		月读
+		''' 
+	You:
+		'''
+		神秘镜像
+		自我
+		'''
+	Astrageldon:
+		'''
+		终结凋亡之星辉
+		末世星史莱姆
+		''' 
+	Caretaker:
+		'''
+		瘟疫先兆
+		看守者
+		''' 
+	Mechclops:
+		'''
+		寒冰运货机
+		St4-sys
+		''' 
+	SiegeEngine:
+		'''
+		狱擎围城
+		愤怒机械墙
+		''' 
+	ClamitasBoss:
+		'''
+		至尊巨蛤
+		蛤拉米塔斯
+		'''
+	WallOfBronze:
+		'''
+		地狱之炉
+		青铜之墙
+		''' 
+	SerialDesignationN:
+		'''
+		杀戮机器
+		序列N
+		''' 
+	ExoSlimeGod:
+		'''
+		世外神明
+		外神史莱姆
+		''' 
+	Polyphemalus:
+		'''
+		血眼聚合怪
+		四眼息肉
+		''' 
+	NihilityTwin:
+		'''
+		虚空入侵者
+		虚无双子
+		''' 
+	Cruiser:
+		'''
+		灾熵蠕虫
+		巡游者
+		''' 
+}
