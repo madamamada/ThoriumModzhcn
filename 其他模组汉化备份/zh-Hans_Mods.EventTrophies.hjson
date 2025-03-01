@@ -1899,28 +1899,28 @@ LoreLines: {
 	}
 
 	SerialDesignationN: {
-		// Line1: A worker drone corrupted by an extremely advanced, eldritch intelligence of unknown origin
-		// Line2: It seeks to consume all life to satiate its hunger.
-		// Line3: Creating singularities that destroy entire planets.
-		// Line4: Thes Corrupted drones evolved into vimpiric machines that were unleashed upon humanity.
+		Line1: A worker drone corrupted by an extremely advanced, eldritch intelligence of unknown origin一架无人机被一种极其先进切神秘的不明来源的情报破坏
+		Line2: It seeks to consume all life to satiate its hunger.它试图消耗所有的生命来满足它的饥饿。
+		Line3: Creating singularities that destroy entire planets.创造毁灭整个星球的奇点。
+		Line4: Thes Corrupted drones evolved into vimpiric machines that were unleashed upon humanity.这些被腐蚀的无人机进化成了病毒机器，释放出来攻击人类。
 	}
 
 	Exodygen: {
-		// Line1: A God that takes a slime like appearance. Not much is known about this divine entity.
-		// Line2: Different than the abomination called Goozma, This slime seems to gain its power from
-		// Line3: the remnants of Draedon's ultimate machines...
+		Line1: A God that takes a slime like appearance. Not much is known about this divine entity.看起来像史莱姆神明。
+		Line2: Different than the abomination called Goozma, This slime seems to gain its power from我们对这个神圣实体的了解并不多。
+		Line3: the remnants of Draedon's ultimate machines...不同于令人讨厌的古泽玛，这种史莱姆似乎从嘉登的终极机器的残留物中获得了力量……
 	}
 
 	CursedMirror: {
-		// Line1: An odd trinket that seems to create a hostile reflection of ones self, holding a legendary blade
-		// Line2: A tough trial indeed, However you seem to have ascended past yourself
-		// Line3: Maybe the reflection in the mirror is there to show exactly how far you've come...
+		Line1: An odd trinket that seems to create a hostile reflection of ones self, holding a legendary blade奇怪镜子创造另一个自己持有泰拉刃
+		Line2: A tough trial indeed, However you seem to have ascended past yourself这是艰难的考验，无论你是否超越了自己
+		Line3: Maybe the reflection in the mirror is there to show exactly how far you've come...也许镜子里的倒影是为了显示你的实力还能走多久……
 	}
 
 	Polyphemalus: {
-		// Line1: I do not know the origin of this being, however each eye seems to bear the powers
-		// Line2: of what was used to seal Fovos away... perhaps this entity is connected in some way.
-		// Line3: Either way its best to exterminate it.
+		Line1: I do not know the origin of this being, however each eye seems to bear the powers我不知道这个生物的起源，
+		Line2: of what was used to seal Fovos away... perhaps this entity is connected in some way.但每只眼睛似乎都承载着不同的力量用来封印克苏鲁…
+		Line3: Maybe the reflection in the mirror is there to show exactly how far you've come...也许这个实体以某种方式联系在一起。
 	}
 }
 

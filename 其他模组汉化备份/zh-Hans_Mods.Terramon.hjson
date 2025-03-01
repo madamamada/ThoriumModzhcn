@@ -6,7 +6,7 @@ Buffs: {
 }
 
 Commands: {
-	RequiresDebugMode: This command requires Allow Cheat Commands to be enabled in the mod config!此命令需要在MOD配置中启用即可允许作弊命令！
+	RequiresDebugMode: This command requires Allow Cheat Commands to be enabled in the mod config!该命令需要在 MOD 配置中启用 “允许作弊命令”！
 
 	DexEdit: {
 		Description: Forcefully sets Pokédex entry statuses
@@ -23,10 +23,10 @@ Commands: {
 		Usage: /nickname <set|clear> <nickname>
 
 		Set: {
-			NoActivePokemon: No Pokémon is currently active没有捕捉到当前的宝可梦
+			NoActivePokemon: No Pokémon is currently active目前没有活动的宝可梦
 			NoNicknameProvided: No nickname provided没有提供宝可梦名字
 			NicknameTooLong: Nickname must be 12 characters or less (including spaces)名字必须小于等于12个字符（包括空格）
-			SameNickname: Nickname is already set to that value昵称已经设置为状态
+			SameNickname: Nickname is already set to that value昵称已设置
 			SuccessNew: Set {0}'s nickname to {1}设置{0}的名字为{1}
 			SuccessUpdate: Changed {0}'s nickname from {1} to {2} 将{0}的名字从{1}改为{2}
 		}
@@ -53,7 +53,7 @@ Commands: {
 	}
 
 	PartyData: {
-		Description: Logs info for the specified Pokémon in your party在您的队伍中指定宝可梦图鉴信息
+		Description: Logs info for the specified Pokémon in your party记录队伍中指定宝可梦图鉴信息
 		Usage: /partydata <slot>
 		NoPokemonInSlot: No Pokémon data available for slot {0}槽位没有{0}宝可梦数据
 		Success: Pokémon data for slot {0} written to client.log写入client.log{0}的宝可梦数据
@@ -379,7 +379,7 @@ Items: {
 		DisplayName: Aether Ball以太球
 		Tooltip:
 			'''
-			An ethereal Poké Ball infused with shimmering energy一个飘渺的宝可梦球充满了微光能量
+			An ethereal Poké Ball infused with shimmering energy一个充满了微光能量的飘渺宝可梦球
 			It is said to have a calming effect on wild Pokémon据说它对野生宝可梦有镇静作用
 			'''
 		CatchRate: 捕获率×1
@@ -428,7 +428,7 @@ Items: {
 		DisplayName: 闪耀护符
 		Tooltip:
 			'''
-			A shiny charm said to increase the chance of finding a Shiny Pokémon in the wild闪耀护符增加在野外找到异色的宝可梦的概率
+			A shiny charm said to increase the chance of finding a Shiny Pokémon in the wild增加在野外找到异色的宝可梦的概率
 			Received as a reward for obtaining all Pokémon in the Pokédex完成宝可梦图鉴获得这个奖励
 			'''
 	}
