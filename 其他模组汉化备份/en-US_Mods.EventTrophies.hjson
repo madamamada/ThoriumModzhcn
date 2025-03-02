@@ -1360,7 +1360,12 @@ Items: {
 	}
 
 	AuricGodcaller: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Not consumable
+			Summons Nameless Deity In the Overworld
+			Meant for use in multiplayer or if subworlds don't work
+			'''
 		DisplayName: Auric Godcaller
 	}
 
@@ -1915,7 +1920,7 @@ LoreLines: {
 	Polyphemalus: {
 		Line1: I do not know the origin of this being, however each eye seems to bear the powers
 		Line2: of what was used to seal Fovos away... perhaps this entity is connected in some way.
-		Line3: Mayve the reflection in the mirror is there to show exactly how far you've come...
+		Line3: Either way its best to exterminate it.
 	}
 }
 
@@ -2213,7 +2218,7 @@ InfernumIntros: {
 	Tsukiyomi:
 		'''
 		The First Starfarer
-		Light
+		Tsukiyomi
 		'''
 	You:
 		'''
