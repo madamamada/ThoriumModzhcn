@@ -6857,7 +6857,7 @@ Mods: {
 
 			RocketCart: {
 				DisplayName: Rocket Cart
-				Tooltip: Rides insanely fast on mine cart tracks
+				Tooltip: Rides insanely fast on minecart tracks
 			}
 
 			RogueRoninHeadband: {
@@ -20238,7 +20238,7 @@ Mods: {
 
 			OpalSquirrel: {
 				DisplayName: Opal Squirrel
-				BestiaryFlavorText: "{$CommonBestiaryFlavor.Squirrel}"
+				BestiaryFlavorText: "{$CommonBestiaryFlavor.GemSquirrel}"
 			}
 
 			PeculiarMirror: {
@@ -20268,17 +20268,17 @@ Mods: {
 			DreamEater: {
 				DisplayName: Dream Eater
 				BestiaryFlavorText: Cosmic Janitor. Dying Reality. The Dream Eater. This entity seeks to erase everything that it deems disruptive to the cosmic clockwork. Save the world, hero!
+
+				BossChecklistIntegration: {
+					EntryName: The Primordials
+					SpawnInfo: Use a [i:ThoriumMod/DoomSayersCoin] and prepare for the worst...
+				}
 			}
 
 			SlagFury: {
 				DisplayName: Slag Fury, the First Flame
 				BestiaryNameOverride: Slag Fury
 				BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
-
-				BossChecklistIntegration: {
-					EntryName: The Primordials
-					SpawnInfo: Use a [i:ThoriumMod/DoomSayersCoin] and prepare for the worst...
-				}
 			}
 
 			UnstableAnger.DisplayName: Unstable Anger

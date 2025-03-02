@@ -20469,7 +20469,7 @@ Mods: {
 
 			OpalSquirrel: {
 				DisplayName: 欧珀松鼠
-				BestiaryFlavorText: "{$CommonBestiaryFlavor.Squirrel}"
+				BestiaryFlavorText: "{$CommonBestiaryFlavor.GemSquirrel}"
 			}
 
 			PeculiarMirror: {
@@ -20499,17 +20499,17 @@ Mods: {
 			DreamEater: {
 				DisplayName: 噬梦者
 				BestiaryFlavorText: 宇宙看守者。将死的现实。噬梦者。这个实体试图抹除它认为扰乱宇宙时钟运动的一切。拯救世界，英雄！
-			}
-
-			SlagFury: {
-				DisplayName: 原初烈火·戮焰之灵
-				BestiaryNameOverride: 戮焰之灵
-				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人.
 
 				BossChecklistIntegration: {
 					EntryName: 始生灾灵
 					SpawnInfo: 需要玩家在夜晚的任意地点使用[i:ThoriumMod/DoomSayersCoin]召唤
 				}
+			}
+
+			SlagFury: {
+				DisplayName: 原初烈火·戮焰之灵
+				BestiaryNameOverride: 戮焰之灵
+				BestiaryFlavorText: 作为现实的第一缕火焰，戮焰之灵代表了宇宙中的所有能量。它会审判那些它认为值得注意的人.	
 			}
 
 			UnstableAnger.DisplayName: 动荡之怒火
