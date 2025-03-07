@@ -660,7 +660,7 @@ Buffs: {
 	}
 
 	TerminalLucidity: {
-		DisplayName: *[c/FF7F00:混乱的现实]*
+		DisplayName: "[c/FF7F00:混乱的现实]"
 		Description:
 			'''
 			[c/FF7F00:-BOSS攻击方式-]
@@ -674,7 +674,7 @@ Buffs: {
 	}
 
 	LucidRetaliation: {
-		DisplayName: *[c/FF7F00:恢复的现实]*
+		DisplayName: "[c/FF7F00:恢复的现实]"
 		Description:
 			'''
 			[c/FF7F00:-BOSS攻击方式-]
