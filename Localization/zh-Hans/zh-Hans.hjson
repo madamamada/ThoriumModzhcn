@@ -3521,7 +3521,7 @@ Mods: {
 			}
 
 			TheTriangle: {
-				DisplayName: 三角铃
+				DisplayName: 三角铃(香港)
 				Tooltip:
 					'''
 					释放一个收缩三角
@@ -17774,7 +17774,7 @@ Mods: {
 				Tooltip:
 					'''
 					左键快速扔出泰拉飞刀
-					右键扔出一把穿刺泰拉飞刀，持续伤害选中的目标
+					右键扔出一把穿刺泰拉飞刀，持续伤害选中的目标过度使用这把武器会
 					过度使用这把武器会让你疲惫，大幅降低它的伤害
 					击杀敌怪会回复一些疲劳值
 					'''
@@ -23105,12 +23105,12 @@ Mods: {
 
 		UI: {
 			InCombatGauge: {
-				InCombat: In Combat加入战斗
-				OutOfCombat: Out of Combat脱离战斗
+				InCombat: 加入战斗
+				OutOfCombat: 脱离战斗
 			}
 
-			ExhaustionBar.Exhausted: Some throwing items are now much weaker一些投手物品现在更弱了
-			HellfireMinigunGauge.Overloaded: Too hot!热力极限！
+			ExhaustionBar.Exhausted: 一些投手物品现在更弱了
+			HellfireMinigunGauge.Overloaded: 热力极限！
 
 			InformationalIcons: {
 				Endurance: {
